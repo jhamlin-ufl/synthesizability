@@ -1,0 +1,35 @@
+
+Include details of synthesis method in this text file.
+It's not necessary to use the exact format shown here,
+but lot numbers and purity of raw materials are essential.
+
+Raw materials:
+La2O3, 99.99%-La, Strem chemicals lot #L02332009
+Ni, 99.996%(metals basis), C typically <0.05%, Puratronic, Alfa Aesar, -120 mesh, lot# 24732
+K2CO3, 99%, thermo scientific, lot # 10250334
+
+
+Procedure:
+BAKE	La2O3, 800C hold overnight, pulled out at 220C and used directly
+Yield	La2O3 0.76747g used
+WEIGH Ni 0.2077g out.
+Weigh K2CO3 7.381g(2/3 10mL crucible) flux out in glovebox
+LOAD K2CO3 into 10mL Al2O3 crucible in fumehood then load mixed(Ni and La2O3), mix everything very well in crucible
+
+Weight of crucible and material pre-bake: 27.9874g
+
+FURNACE in furnace with crucible on top of crucible acting as "lid"
+
+Target Heating curve:
+126C->1030C(362min)->hold 2880min->cool to 975C(180hr)->RT(furnace cooling)
+
+(Furnace died during growth at two different points resulted in final heating curve below to best estimate)(20C variable temp in furnace)
+
+Actual Heating curve:
+126C->1030C(362min)->hold 2880min->cool to 1024C(1000min)->(furnace died)cool to 517C(120min)->cool to 440C(60min)->heat to 480C(15min)->Heat to 1030(212min)->hold(60min)->cool to 1019(2160min)->furnace died sometime in here->130C(time unkown)->FC to room temp
+
+Weight of crucible and material post-bake: 21.6g
+
+
+
+
