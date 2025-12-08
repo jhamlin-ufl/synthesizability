@@ -1,0 +1,69 @@
+{
+    "collections": [
+        {
+            "title": "MDR SuperCon Datasheet Readme"
+        }
+    ],
+    "doi": "https://doi.org/10.48505/nims.3780",
+    "titles": [
+        {
+            "title": "MDR SuperCon Datasheet Readme",
+            "title_type": "original"
+        }
+    ],
+    "resource_type": "other",
+    "descriptions": [
+        {
+            "description": "The readme (SuperCon_ReadMe_en.pdf) describes the contents of the SuperCon datasheet in detail. It references the functionality of the SuperCon database previously published as MatNavi, so those who are familiar with the SuperCon database will easily understand the correspondence with the datasheet. For machine use of the datasheet, the table entries are listed in ReadmeTbl.xlsx. primary.tsv summarizes the recommended Tc for all data in the Oxide and Metallic datasheet. Please use this data for testing data in machine learning. We do not guarantee the quality of the data, so we ask that you take responsibility for the selection of the data you use and the results you obtain.\nThe latest version of this datasheet is available at https://doi.org/10.48505/nims.3739."
+        }
+    ],
+    "creators": [
+        {
+            "name": "Materials Database Group",
+            "organization": "National Institute for Materials Science",
+            "role": "editor"
+        }
+    ],
+    "contact_agents": [
+        {
+            "name": "Materials Database Group",
+            "organization": "National Institute for Materials Science"
+        }
+    ],
+    "publisher": {
+        "organization": "National Institute for Materials Science"
+    },
+    "rights": [
+        {
+            "condition_of_use": "Creative Commons BY Attribution 4.0 International",
+            "identifier": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        }
+    ],
+    "subjects": [
+        {
+            "subject": "SuperCon"
+        },
+        {
+            "subject": "Superconductors"
+        },
+        {
+            "subject": "Oxide"
+        },
+        {
+            "subject": "Metallic"
+        },
+        {
+            "subject": "Organic"
+        },
+        {
+            "subject": "Readme"
+        }
+    ],
+    "managing_organization": "organization:\"National Institute for Materials Science\"",
+    "data_origins": [
+        {
+            "data_origin_type": "public"
+        }
+    ],
+    "visibility": "open_to_public"
+}
