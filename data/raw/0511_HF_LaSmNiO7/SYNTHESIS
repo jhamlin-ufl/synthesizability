@@ -1,0 +1,27 @@
+
+Include details of synthesis method in this text file.
+It's not necessary to use the exact format shown here,
+but lot numbers and purity of raw materials are essential.
+
+Raw materials:
+La2O3, 99.99%-La, Strem chemicals lot #L02332009
+NiO, Puratronic 99.998+%-Ni, Alfa Aesar lot # U04G038
+Sm2O3, 99.999%, Johnson Matthey Electronics, lot # A21B27
+K2CO3, 99%, thermo scientific, lot # 10250334
+
+
+Procedure:
+BAKE	La2O3 0.208g, 800C hold overnight, pulled out at 200C and used directly
+YEILD	La2O3 0.17531g used 0.09875g (target .0987g)
+WEIGH Sm2O3 0.0528g  (target = 0.0528g) and NiO 0.0227 g (target = 0.0226g) out in fumehood, mix together.
+Weigh K2CO3 1.32g(how much fit in crucible) (target = 2.6125g) flux out in glovebox
+LOAD K2CO3 into 2mL crucible in fumehood then load mixed(Sm2O3 NiO and La2O3) on top
+
+FURNACE
+
+Heating curve:
+RT->1030C(2.5C/min)->hold 72h->RT(furnace cooling)
+
+Post anneal: 
+
+
