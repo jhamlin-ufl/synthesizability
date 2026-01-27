@@ -1,0 +1,59 @@
+sample_number,formula,has_siemens_xrd,has_panalytical_xrd,has_summary,superconductivity,tc_kelvin,xrd_type,xrd_instrument,xrd_result,prediction_list,mass_loss_percent,initial_mass_g,final_mass_g,has_powder_premelting,air_sensitive_handling
+447,MoTiTa2,True,False,True,Not above 4.2 K based on dipstick test.,,Powder,Hamlin XRD,not analyzed,Diffusion Model,2.91,0.5003,0.4857,False,False
+448,MoTi2Ta,True,False,True,Not above 4.2 K based on dipstick test.,,Powder,Hamlin XRD,not yet analyzed.,Diffusion Model,5.79,0.5081,0.4787,False,False
+449,HfTa4Zr,False,False,True,Tc of 7.3 K,7.3,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.52,0.4822,0.4797,False,False
+450,HfMoTa2,True,False,True,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,0.36,0.4996,0.4978,False,False
+451,MoTaZr2,False,False,True,Tc of 5.9 K,5.9,Bulk,NRF XRD,two BCC solid solutions,Diffusion Model,0.0,0.4968,0.497,False,False
+452,Hf2MoTi,True,False,True,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,0.5,0.5,0.4975,False,False
+453,HfMoTi,True,False,True,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,1.0,0.4991,0.4941,False,False
+454,Nb2TaZr,False,False,False,Tc of 9.7 K,9.7,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.23,0.5152,0.514,False,False
+455,NbTa2Zr,False,False,False,Tc of 8.8 K,8.8,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.02,0.4885,0.4884,False,False
+456,Hf2MoNb,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,0.35,0.4851,0.4834,False,False
+457,MoNbZr2,False,False,False,Tc of 5.7 K,5.7,Bulk,NRF XRD,BCC solid solution,Diffusion Model,,0.555,0.5549,False,False
+458,Mo3NbTi2,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,1.87,0.4712,0.4624,False,False
+460,HfMo2Zr,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,0.1,0.3995,0.3991,False,False
+461,Hf2MoRe3,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,1.67,0.4619,0.4542,False,False
+462,Hf2Nb3Ru,False,False,False,Tc of 6.8 K,6.8,Bulk,NRF XRD,multiphase,Diffusion Model,1.27,0.4342,0.4287,True,False
+463,Mo3NbRu2,False,False,False,Tc of 5.1. K,5.1,Bulk,NRF XRD,Mo2Ru + BCC solid solution,Diffusion Model,0.03,0.3869,0.3868,True,False
+464,MoNbRu2,False,False,False,Tc of 4.8 K,4.8,Bulk,NRF XRD,major phase: Mo2Ru,Diffusion Model,0.05,0.4356,0.4354,True,False
+465,Cu5GePd6,False,False,False,Not above 4.2 K,,Bulk,NRF XRD,disordered BCC alloy,"B (two active binaries, no real ternary phase)",0.3,,0.3976,False,False
+466,Hf2MoIr,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,BCC solid solution,"B (two active binaries, no real ternary phase)",,,,False,False
+467,CuNb3Zr2,False,True,False,Tc of 10.7 K,10.7,Bulk,NRF XRD,multi-phase structure,Diffusion Model,,,,False,False
+468,HfTa4Zr(duplicate to 0449),False,False,False,,,,,,,0.12,0.49004,0.48947,True,False
+469,ScCuPd2,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,multi-phase structure,"B (two active binaries, no real ternary phase)",1.16,0.49142,0.4857,False,False
+470,MoNbTa2,False,True,False,Tc of 7.0 K,7.0,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.33,0.7076,0.7053,False,False
+471,MoNb2Ta,False,True,False,Tc of 6.6 K,6.6,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.2,0.62379,0.62255,False,False
+472,ScCu4Pd,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,FCC solid solution,"B (two active binaries, no real ternary phase)",5.06,0.39197,0.37213,False,True
+473,Sc3CuPd2,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,disordered B2 alloy,"B (two active binaries, no real ternary phase)",0.21,0.39876,0.39792,False,True
+474,Sc2CuPd,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,disordered L2_1 alloy,"B (two active binaries, no real ternary phase)",0.09,0.40619,0.40582,False,True
+475,La2PdAu2,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,multi-phase structure,"B (two active binaries, no real ternary phase)",0.9,0.40177,0.39817,False,False
+476,ScPd2Au,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,multi-phase structure,"B (two active binaries, no real ternary phase)",0.18,0.40186,0.40114,False,True
+477,ScPd5Au2,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,FCC solid solution,"B (two active binaries, no real ternary phase)",15.57,0.42124,0.35565,False,True
+478,Sc2Pd5Au,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,disordered L2_1 alloy,"B (two active binaries, no real ternary phase)",0.46,0.40879,0.4069,False,True
+479,MnAl2Au6,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,disordered BCT alloy,"C (two active binaries, single real ternary phase)",2.01,0.5,0.48993,False,False
+480,GdGePt2,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,multi-phase structure,"C (two active binaries, single real ternary phase)",0.33,0.4084,0.4067,False,False
+481,NiGe2Pt,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,FCC alloy,"C (two active binaries, single real ternary phase)",0.25,0.5001,0.49884,False,False
+482,ZrSiPt5,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,disordered D0_19 alloy,"C (two active binaries, single real ternary phase)",0.27,0.50007,0.4987,False,False
+483,La5Al3Co2,False,True,False,Tc of 5.9 K,5.9,Bulk,NRF XRD,multi-phase structure,"C (two active binaries, single real ternary phase)",0.03,0.50026,0.50009,False,False
+486,Al4FeCo3,True,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",3.94,0.2996,0.2878,False,False
+487,Al8FeCo7,True,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",9.41,0.2997,0.2715,False,False
+489,Gd3CoSn6,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",4.54,0.25001,0.23866,False,False
+490,GdCo4Sn6,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",11.09,0.3011,0.2677,False,False
+491,TiGePt5,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",1.4,0.25059,0.24709,False,False
+492,Ti2GePt8,False,False,False,Not above 4.2 K,,Bulk,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",0.53,0.24895,0.24762,False,False
+493,TiSiPt5,False,False,False,Not above 4.2 K,,Bulk,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",1.87,0.25203,0.24731,False,False
+494,Ti2SiPt8,False,False,False,Not above 4.2 K,,Bulk,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",0.44,0.24766,0.24656,False,False
+495,GdFeGe3,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",2.26,0.24478,0.23926,False,False
+496,Gd2Fe3Ge5,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",1.83,0.25012,0.24555,False,False
+497,GdFeGe2,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,"C (two active binaries, single real ternary phase)",5.4,0.24908,0.23563,False,False
+499,GaHf2Nb,False,False,False,Tc of 6.1 K,6.1,Bulk,Hamlin XRD,not yet analyzed,Diffusion Model,1.51,0.3031,0.29851,False,False
+500,GaNbZr2,False,False,False,Tc of 9.0 K,9.0,Bulk,Hamlin XRD,not yet analyzed,Diffusion Model,0.83,0.27383,0.27155,False,False
+502,Nb5Si2V,False,False,False,Tc of 3.0 K,3.0,Bulk,Hamlin XRD,not yet analyzed,Diffusion Model,1.3,0.5217,0.5149,False,False
+503,CoSiY,False,False,False,Not above 2.0 K,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",0.002,0.41575,0.41574,False,True
+504,CoSi3Y,False,False,False,Not above 2.0 K,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",2.94,0.40678,0.39484,False,True
+506,Al3Cu2Y,False,False,False,Not tested yet,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",14.31,0.34112,0.2923,False,True
+507,CuSnY,False,False,False,Not tested,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",0.43,0.30483,0.30351,False,True
+510,B2NbNi2,False,False,False,Not above 2.0 K,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",0.5,0.36324,0.36143,False,False
+512,C2CrSc,False,False,False,Not above 2.0 K,,,,,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",3.0,0.31365,0.30424,False,True
+513,C2LaRu,False,False,False,Not above 2.0 K,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",6.2555,0.29526,0.27679,False,True
+514,LaNiSi3,False,False,False,Not tested yet,,Powder,Hamlin XRD,not yet analyzed,"James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)",2.2,0.2607,0.25496,False,True
