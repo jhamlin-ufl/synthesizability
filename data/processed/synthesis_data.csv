@@ -9,16 +9,16 @@ sample_number,formula,has_siemens_xrd,has_panalytical_xrd,has_summary,supercondu
 454,Nb2TaZr,False,False,False,Tc of 9.7 K,9.7,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.23,0.5152,0.514,False,False
 455,NbTa2Zr,False,False,False,Tc of 8.8 K,8.8,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.02,0.4885,0.4884,False,False
 456,Hf2MoNb,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,0.35,0.4851,0.4834,False,False
-457,MoNbZr2,False,False,False,Tc of 5.7 K,5.7,Bulk,NRF XRD,BCC solid solution,Diffusion Model,,0.555,0.5549,False,False
+457,MoNbZr2,False,False,False,Tc of 5.7 K,5.7,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.02,0.555,0.5549,False,False
 458,Mo3NbTi2,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,1.87,0.4712,0.4624,False,False
 460,HfMo2Zr,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,0.1,0.3995,0.3991,False,False
 461,Hf2MoRe3,False,False,False,Not above 4.2 K,,Powder,Hamlin XRD,not yet analyzed,Diffusion Model,1.67,0.4619,0.4542,False,False
 462,Hf2Nb3Ru,False,False,False,Tc of 6.8 K,6.8,Bulk,NRF XRD,multiphase,Diffusion Model,1.27,0.4342,0.4287,True,False
 463,Mo3NbRu2,False,False,False,Tc of 5.1. K,5.1,Bulk,NRF XRD,Mo2Ru + BCC solid solution,Diffusion Model,0.03,0.3869,0.3868,True,False
 464,MoNbRu2,False,False,False,Tc of 4.8 K,4.8,Bulk,NRF XRD,major phase: Mo2Ru,Diffusion Model,0.05,0.4356,0.4354,True,False
-465,Cu5GePd6,False,False,False,Not above 4.2 K,,Bulk,NRF XRD,disordered BCC alloy,"B (two active binaries, no real ternary phase)",0.3,,0.3976,False,False
-466,Hf2MoIr,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,BCC solid solution,"B (two active binaries, no real ternary phase)",,,,False,False
-467,CuNb3Zr2,False,True,False,Tc of 10.7 K,10.7,Bulk,NRF XRD,multi-phase structure,Diffusion Model,,,,False,False
+465,Cu5GePd6,False,False,False,Not above 4.2 K,,Bulk,NRF XRD,disordered BCC alloy,"B (two active binaries, no real ternary phase)",0.3,0.3988,0.3976,False,False
+466,Hf2MoIr,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,BCC solid solution,"B (two active binaries, no real ternary phase)",0.55,0.51317,0.51037,False,False
+467,CuNb3Zr2,False,True,False,Tc of 10.7 K,10.7,Bulk,NRF XRD,multi-phase structure,Diffusion Model,0.98,0.47085,0.46624,False,False
 468,HfTa4Zr(duplicate to 0449),False,False,False,,,,,,,0.12,0.49004,0.48947,True,False
 469,ScCuPd2,False,True,False,Not above 4.2 K,,Bulk,NRF XRD,multi-phase structure,"B (two active binaries, no real ternary phase)",1.16,0.49142,0.4857,False,False
 470,MoNbTa2,False,True,False,Tc of 7.0 K,7.0,Bulk,NRF XRD,BCC solid solution,Diffusion Model,0.33,0.7076,0.7053,False,False
