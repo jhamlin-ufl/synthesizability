@@ -24,14 +24,13 @@ def extract_sample_info(dir_path: Path) -> tuple:
     return sample_number, formula
 
 
-
 def extract_tc_value(superconductivity_text: str) -> float:
     """Extract Tc value in Kelvin from superconductivity text."""
-    if not superconductivity_text or 'Not' in superconductivity_text:
+    if not superconductivity_text or 'not' in superconductivity_text.lower():
         return None
     
-    # Look for pattern like "Tc of X.X K" or "Tc onset ~ X.X K"
-    match = re.search(r'Tc\s+(?:of|onset)\s*~?\s*([\d.]+)\s*K', superconductivity_text)
+    # Look for pattern like "Tc of X.X K" or "Tc onset ~ X.X K" (case insensitive)
+    match = re.search(r'tc\s+(?:of|onset)\s*~?\s*([\d.]+)\s*k', superconductivity_text, re.IGNORECASE)
     if match:
         try:
             return float(match.group(1))
@@ -45,26 +44,27 @@ def extract_tc_value(superconductivity_text: str) -> float:
     
     return None
 
+
 def extract_mass_loss(synthesis_content: str) -> tuple:
     """Extract mass loss percentage, initial and final masses."""
     if not synthesis_content:
         return None, None, None
     
-    # Extract mass loss percentage
+    # Extract mass loss percentage (case insensitive)
     mass_loss = None
-    match = re.search(r'loss:\s*([\d.]+)%', synthesis_content)
+    match = re.search(r'loss:\s*([\d.]+)%', synthesis_content, re.IGNORECASE)
     if match:
         mass_loss = float(match.group(1))
     
-    # Extract initial mass
+    # Extract initial mass (case insensitive)
     initial_mass = None
-    match = re.search(r'initial mass:\s*([\d.]+)\s*g', synthesis_content)
+    match = re.search(r'initial mass:\s*([\d.]+)\s*g', synthesis_content, re.IGNORECASE)
     if match:
         initial_mass = float(match.group(1))
     
-    # Extract final mass
+    # Extract final mass (case insensitive)
     final_mass = None
-    match = re.search(r'final mass:\s*([\d.]+)\s*g', synthesis_content)
+    match = re.search(r'final mass:\s*([\d.]+)\s*g', synthesis_content, re.IGNORECASE)
     if match:
         final_mass = float(match.group(1))
     
@@ -85,28 +85,28 @@ def parse_status_file(content: str) -> dict:
     
     data = {}
     
-    # Extract superconductivity line
-    sc_match = re.search(r'Superconductivity:\s*(.+?)(?:\n|$)', content)
+    # Extract superconductivity line (case insensitive)
+    sc_match = re.search(r'superconductivity:\s*(.+?)(?:\n|$)', content, re.IGNORECASE)
     data['superconductivity'] = sc_match.group(1).strip() if sc_match else None
     data['tc_kelvin'] = extract_tc_value(data['superconductivity']) if data['superconductivity'] else None
     
-    # Extract XRD info
-    xrd_match = re.search(r'XRD:\s*(.+?)(?:\n|$)', content)
+    # Extract XRD info (case insensitive)
+    xrd_match = re.search(r'xrd:\s*(.+?)(?:\n|$)', content, re.IGNORECASE)
     if xrd_match:
         xrd_text = xrd_match.group(1).strip()
         
-        # XRD type
-        if 'Bulk' in xrd_text:
+        # XRD type (case insensitive)
+        if re.search(r'bulk', xrd_text, re.IGNORECASE):
             data['xrd_type'] = 'Bulk'
-        elif 'Powder' in xrd_text:
+        elif re.search(r'powder', xrd_text, re.IGNORECASE):
             data['xrd_type'] = 'Powder'
         else:
             data['xrd_type'] = None
         
-        # XRD instrument
-        if 'NRF XRD' in xrd_text:
+        # XRD instrument (case insensitive)
+        if re.search(r'nrf\s+xrd', xrd_text, re.IGNORECASE):
             data['xrd_instrument'] = 'NRF XRD'
-        elif 'Hamlin XRD' in xrd_text:
+        elif re.search(r'hamlin\s+xrd', xrd_text, re.IGNORECASE):
             data['xrd_instrument'] = 'Hamlin XRD'
         else:
             data['xrd_instrument'] = None
@@ -124,8 +124,8 @@ def parse_status_file(content: str) -> dict:
         data['xrd_instrument'] = None
         data['xrd_result'] = None
     
-    # Extract List category
-    list_match = re.search(r'List:\s*(.+?)(?:\n|$)', content)
+    # Extract List category (case insensitive)
+    list_match = re.search(r'list:\s*(.+?)(?:\n|$)', content, re.IGNORECASE)
     data['prediction_list'] = list_match.group(1).strip() if list_match else None
     
     return data
@@ -144,11 +144,11 @@ def parse_synthesis_file(content: str) -> dict:
     
     mass_loss, initial_mass, final_mass = extract_mass_loss(content)
     
-    # Check for powder premelting
+    # Check for powder premelting (case insensitive)
     has_premelting = bool(re.search(r'(arc melted|arced|pelleted).+(powder|pellet).+before', 
                                      content, re.IGNORECASE))
     
-    # Check for air-sensitive handling
+    # Check for air-sensitive handling (case insensitive)
     has_air_sensitive = bool(re.search(r'(air sensitive|glovebox|outside of glovebox)', 
                                         content, re.IGNORECASE))
     
@@ -288,6 +288,43 @@ def analyze_field_statistics(df: pd.DataFrame):
             print(f"{col}: {pct_populated:.1f}% populated")
 
 
+def show_missing_samples(df: pd.DataFrame):
+    """Show which samples are missing data for well-populated fields."""
+    
+    # Fields with >90% population
+    fields_to_check = [
+        'superconductivity',
+        'xrd_type',
+        'xrd_instrument', 
+        'xrd_result',
+        'prediction_list',
+        'mass_loss_percent',
+        'initial_mass_g',
+        'final_mass_g'
+    ]
+    
+    print("\n" + "="*80)
+    print("SAMPLES MISSING DATA FOR WELL-POPULATED FIELDS")
+    print("="*80)
+    print("")
+    
+    for field in fields_to_check:
+        missing_mask = df[field].isna()
+        missing_count = missing_mask.sum()
+        
+        if missing_count > 0:
+            print(f"{field} (missing {missing_count}):")
+            print("-" * 40)
+            
+            missing_samples = df[missing_mask][['sample_number', 'formula']]
+            for _, row in missing_samples.iterrows():
+                print(f"  {row['sample_number']:04d} - {row['formula']}")
+            
+            print("")
+    
+    print("=" * 80)
+
+
 def main():
     # Get the data/raw directory
     data_raw_dir = Path.cwd() / "data" / "raw"
@@ -303,6 +340,9 @@ def main():
     
     # Analyze statistics
     analyze_field_statistics(df)
+    
+    # Show missing data
+    show_missing_samples(df)
     
     # Save to CSV (excluding the large text fields for now)
     output_path = Path.cwd() / "data" / "processed" / "synthesis_data.csv"
