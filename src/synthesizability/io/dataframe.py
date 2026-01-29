@@ -27,32 +27,37 @@ def extract_sample_info(dir_path: Path) -> tuple:
     return sample_number, formula
 
 
+# src/synthesizability/io/dataframe.py
+
 def parse_xrd_files(dir_path: Path) -> list:
     """
-    Parse all XRD files in a directory.
+    Parse all XRD files in a directory by content inspection.
     
     Returns:
         List of XRD pattern dicts from parse_xrd_file()
     """
     xrd_patterns = []
     
-    # Find XRD files (excluding measurement data files)
+    # Check all files in directory
     for file in dir_path.iterdir():
-        if file.suffix == '.txt' and 'circular' not in file.name.lower() and 'chi' not in file.name.lower():
-            try:
+        if not file.is_file():
+            continue
+        
+        # Skip obviously non-XRD files
+        if file.suffix in ['.pptx', '.pdf', '.png', '.jpg']:
+            continue
+        
+        # Try to parse as XRD
+        try:
+            from ..parsers.xrd import is_xrd_file
+            if is_xrd_file(file):
                 pattern = parse_xrd_file(file)
                 xrd_patterns.append(pattern)
-            except Exception as e:
-                print(f"Warning: Failed to parse {file}: {e}")
-        elif file.suffix == '.xy':
-            try:
-                pattern = parse_xrd_file(file)
-                xrd_patterns.append(pattern)
-            except Exception as e:
-                print(f"Warning: Failed to parse {file}: {e}")
+        except Exception as e:
+            # Silently skip files that aren't XRD data
+            pass
     
     return xrd_patterns
-
 
 def get_xrd_summary_columns(xrd_patterns: list) -> dict:
     """

@@ -8,33 +8,81 @@ from pathlib import Path
 import numpy as np
 
 
+# src/synthesizability/parsers/xrd.py
+
+def is_xrd_file(filepath: Path) -> bool:
+    """
+    Check if a file contains XRD data by inspecting its contents.
+    
+    Returns:
+        True if file appears to be XRD data (2theta vs intensity)
+    """
+    try:
+        with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+            # Read first few lines and last few lines
+            lines = f.readlines()
+            
+        if len(lines) < 10:
+            return False
+        
+        # Check if it's a Siemens RAW file
+        if lines[0].strip().startswith(';RAW'):
+            return True
+        
+        # Check if it looks like two-column numerical data (Panalytical format)
+        # Sample a few lines to see if they're two numbers
+        sample_lines = lines[:20] + lines[-20:]
+        numerical_lines = 0
+        
+        for line in sample_lines:
+            line = line.strip()
+            if not line:
+                continue
+            
+            # Try to parse as two floats
+            try:
+                parts = line.split()
+                if len(parts) >= 2:
+                    float(parts[0])  # 2theta
+                    float(parts[1])  # intensity
+                    numerical_lines += 1
+            except (ValueError, IndexError):
+                continue
+        
+        # If most sampled lines are numerical pairs, it's probably XRD data
+        return numerical_lines > len(sample_lines) * 0.5
+        
+    except Exception:
+        return False
+
+
 def parse_xrd_file(filepath: Path) -> dict:
     """
-    Parse XRD file (Siemens .txt or Panalytical .xy).
+    Parse XRD file (auto-detects format).
     
     Args:
         filepath: Path to XRD file
         
     Returns:
-        dict with keys:
-            - 'two_theta': np.ndarray - 2theta angles
-            - 'intensity': np.ndarray - intensity values
-            - 'instrument': str - 'Siemens D500' or 'Panalytical'
-            - 'two_theta_min': float - minimum 2theta
-            - 'two_theta_max': float - maximum 2theta
-            - 'n_points': int - number of data points
-            - 'step_size': float - average step size in 2theta
-            - 'date': str or None - measurement date (Siemens only)
-            - 'anode': str or None - X-ray anode material (Siemens only)
+        dict with XRD pattern data
+        
+    Raises:
+        ValueError: If file is not recognized as XRD data
     """
     filepath = Path(filepath)
     
-    if filepath.suffix == '.txt':
+    if not is_xrd_file(filepath):
+        raise ValueError(f"File does not appear to contain XRD data: {filepath}")
+    
+    # Try to determine format
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+        first_line = f.readline().strip()
+    
+    if first_line.startswith(';RAW'):
         return _parse_siemens_txt(filepath)
-    elif filepath.suffix == '.xy':
-        return _parse_panalytical_xy(filepath)
     else:
-        raise ValueError(f"Unknown XRD file type: {filepath.suffix}")
+        # Assume Panalytical-style two-column format
+        return _parse_panalytical_xy(filepath)
 
 
 def _parse_siemens_txt(filepath: Path) -> dict:
