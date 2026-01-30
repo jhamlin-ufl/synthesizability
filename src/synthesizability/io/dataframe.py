@@ -10,6 +10,7 @@ import numpy as np
 
 from ..parsers import parse_status_file, parse_synthesis_file, parse_xrd_file
 from ..parsers.xrd import get_xrd_summary
+from ..formula import enrich_with_formula_properties
 
 
 def extract_sample_info(dir_path: Path) -> tuple:
@@ -132,7 +133,7 @@ def build_dataframe(data_raw_dir: Path) -> pd.DataFrame:
         xrd_summary = get_xrd_summary_columns(xrd_patterns)
         
         # Check for other file types
-        has_siemens_xrd = any(f.endswith('.txt') and 'circular' not in f.lower() 
+        has_siemens_xrd = any(f.endswith('.txt') and 'circular' not in f.lower()
                                and 'chi' not in f.lower() for f in files)
         has_panalytical_xrd = any(f.endswith('.xy') for f in files)
         has_summary = any(f.endswith('.pptx') for f in files)
@@ -140,6 +141,7 @@ def build_dataframe(data_raw_dir: Path) -> pd.DataFrame:
         # Build record
         record = {
             'sample_number': sample_number,
+            'sample_id': dir_path.name,  # Add full sample ID for formula extraction
             'formula': formula,
             'files': files,
             'status_content': status_content,
@@ -155,7 +157,12 @@ def build_dataframe(data_raw_dir: Path) -> pd.DataFrame:
         
         records.append(record)
     
-    return pd.DataFrame(records)
+    df = pd.DataFrame(records)
+    
+    # Enrich with formula-derived properties
+    df = enrich_with_formula_properties(df)
+    
+    return df
 
 
 def analyze_field_statistics(df: pd.DataFrame):
