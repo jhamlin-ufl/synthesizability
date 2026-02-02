@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 from ..parsers import parse_status_file, parse_synthesis_file, parse_xrd_file
-from ..parsers.xrd import get_xrd_summary
+from ..parsers.xrd import is_xrd_file
 from ..formula import enrich_with_formula_properties
 
 
@@ -28,7 +28,61 @@ def extract_sample_info(dir_path: Path) -> tuple:
     return sample_number, formula
 
 
-# src/synthesizability/io/dataframe.py
+def is_chi_file(filepath: Path) -> bool:
+    """Check if file is a chi (magnetic susceptibility) file."""
+    return 'chi' in filepath.name.lower() and filepath.suffix == '.txt'
+
+
+def parse_chi_field_from_filename(filename: str) -> float:
+    """
+    Extract magnetic field value from chi filename.
+    
+    Example: '20251106_HM499GaHf2Nb_chiAC_vs_T_B_1T.001.txt' -> 1.0
+    
+    Returns:
+        Field value in Tesla, or None if not found
+    """
+    match = re.search(r'B_([0-9.]+)T', filename)
+    if match:
+        try:
+            return float(match.group(1))
+        except ValueError:
+            return None
+    return None
+
+
+def parse_chi_files(dir_path: Path) -> dict:
+    """
+    Parse chi (magnetic susceptibility) files in a directory.
+    
+    Returns:
+        dict with chi file info
+    """
+    chi_files = []
+    chi_fields = []
+    
+    for file in dir_path.iterdir():
+        if not file.is_file():
+            continue
+        
+        if is_chi_file(file):
+            chi_files.append(file.name)
+            
+            # Extract field value
+            field = parse_chi_field_from_filename(file.name)
+            if field is not None and field not in chi_fields:
+                chi_fields.append(field)
+    
+    # Sort fields
+    chi_fields.sort()
+    
+    return {
+        'chi_files': chi_files,
+        'chi_n_files': len(chi_files),
+        'chi_has_high_field': any(f > 0 for f in chi_fields),
+        'chi_fields': chi_fields
+    }
+
 
 def parse_xrd_files(dir_path: Path) -> list:
     """
@@ -50,15 +104,16 @@ def parse_xrd_files(dir_path: Path) -> list:
         
         # Try to parse as XRD
         try:
-            from ..parsers.xrd import is_xrd_file
             if is_xrd_file(file):
                 pattern = parse_xrd_file(file)
+                pattern['filename'] = file.name  # Add filename to pattern
                 xrd_patterns.append(pattern)
         except Exception as e:
             # Silently skip files that aren't XRD data
             pass
     
     return xrd_patterns
+
 
 def get_xrd_summary_columns(xrd_patterns: list) -> dict:
     """
@@ -69,12 +124,15 @@ def get_xrd_summary_columns(xrd_patterns: list) -> dict:
     """
     if not xrd_patterns:
         return {
+            'xrd_files': [],
+            'xrd_n_files': 0,
+            'xrd_instrument': None,
             'xrd_two_theta_min': None,
             'xrd_two_theta_max': None,
-            'xrd_n_points_total': 0,
-            'xrd_instruments': None,
-            'xrd_n_files': 0
         }
+    
+    # Collect filenames
+    filenames = [p['filename'] for p in xrd_patterns]
     
     # Collect ranges from all patterns
     two_theta_mins = [p['two_theta_min'] for p in xrd_patterns if p['two_theta_min'] is not None]
@@ -84,19 +142,21 @@ def get_xrd_summary_columns(xrd_patterns: list) -> dict:
     overall_min = min(two_theta_mins) if two_theta_mins else None
     overall_max = max(two_theta_maxs) if two_theta_maxs else None
     
-    # Total points across all files
-    total_points = sum(p['n_points'] for p in xrd_patterns)
-    
-    # Unique instruments
-    instruments = list(set(p['instrument'] for p in xrd_patterns))
-    instruments_str = ', '.join(sorted(instruments)) if instruments else None
+    # Determine instruments
+    instruments = set(p['instrument'] for p in xrd_patterns)
+    if len(instruments) > 1:
+        instrument_str = "Both"
+    elif len(instruments) == 1:
+        instrument_str = list(instruments)[0]
+    else:
+        instrument_str = None
     
     return {
+        'xrd_files': filenames,
+        'xrd_n_files': len(xrd_patterns),
+        'xrd_instrument': instrument_str,
         'xrd_two_theta_min': overall_min,
         'xrd_two_theta_max': overall_max,
-        'xrd_n_points_total': total_points,
-        'xrd_instruments': instruments_str,
-        'xrd_n_files': len(xrd_patterns)
     }
 
 
@@ -124,7 +184,7 @@ def build_dataframe(data_raw_dir: Path) -> pd.DataFrame:
         synthesis_path = dir_path / "SYNTHESIS"
         synthesis_content = synthesis_path.read_text(encoding='utf-8').strip() if synthesis_path.exists() else None
         
-        # Parse structured data using new parsers
+        # Parse structured data using parsers
         status_data = parse_status_file(status_content)
         synthesis_data = parse_synthesis_file(synthesis_content)
         
@@ -132,27 +192,26 @@ def build_dataframe(data_raw_dir: Path) -> pd.DataFrame:
         xrd_patterns = parse_xrd_files(dir_path)
         xrd_summary = get_xrd_summary_columns(xrd_patterns)
         
-        # Check for other file types
-        has_siemens_xrd = any(f.endswith('.txt') and 'circular' not in f.lower()
-                               and 'chi' not in f.lower() for f in files)
-        has_panalytical_xrd = any(f.endswith('.xy') for f in files)
+        # Parse chi files
+        chi_data = parse_chi_files(dir_path)
+        
+        # Check for summary file
         has_summary = any(f.endswith('.pptx') for f in files)
         
         # Build record
         record = {
             'sample_number': sample_number,
-            'sample_id': dir_path.name,  # Add full sample ID for formula extraction
+            'sample_id': dir_path.name,
             'formula': formula,
             'files': files,
             'status_content': status_content,
             'synthesis_content': synthesis_content,
             'xrd_patterns': xrd_patterns,  # Full patterns (pickle only)
-            'has_siemens_xrd': has_siemens_xrd,
-            'has_panalytical_xrd': has_panalytical_xrd,
             'has_summary': has_summary,
             **status_data,
             **synthesis_data,
-            **xrd_summary
+            **xrd_summary,
+            **chi_data
         }
         
         records.append(record)
@@ -175,7 +234,8 @@ def analyze_field_statistics(df: pd.DataFrame):
     
     # Analyze each column
     for col in df.columns:
-        if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns']:
+        if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns', 
+                   'xrd_files', 'chi_files', 'chi_fields']:
             # Skip the large/complex fields
             continue
         
@@ -229,7 +289,8 @@ def analyze_field_statistics(df: pd.DataFrame):
     print("="*80)
     
     for col in df.columns:
-        if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns']:
+        if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns',
+                   'xrd_files', 'chi_files', 'chi_fields']:
             continue
         
         non_null = df[col].notna().sum()
@@ -246,7 +307,7 @@ def show_missing_samples(df: pd.DataFrame):
     fields_to_check = [
         'superconductivity',
         'xrd_type',
-        'xrd_instrument', 
+        'xrd_instrument',
         'xrd_result',
         'prediction_list',
         'mass_loss_percent',
@@ -260,6 +321,9 @@ def show_missing_samples(df: pd.DataFrame):
     print("")
     
     for field in fields_to_check:
+        if field not in df.columns:
+            continue
+            
         missing_mask = df[field].isna()
         missing_count = missing_mask.sum()
         

@@ -8,8 +8,6 @@ from pathlib import Path
 import numpy as np
 
 
-# src/synthesizability/parsers/xrd.py
-
 def is_xrd_file(filepath: Path) -> bool:
     """
     Check if a file contains XRD data by inspecting its contents.
@@ -17,9 +15,17 @@ def is_xrd_file(filepath: Path) -> bool:
     Returns:
         True if file appears to be XRD data (2theta vs intensity)
     """
+    # Exclude chi (magnetic susceptibility) files
+    fname_lower = filepath.name.lower()
+    if 'chi' in fname_lower:
+        return False
+    
+    # Only process .txt and .xy files
+    if filepath.suffix not in ['.txt', '.xy']:
+        return False
+    
     try:
         with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
-            # Read first few lines and last few lines
             lines = f.readlines()
             
         if len(lines) < 10:
@@ -29,28 +35,31 @@ def is_xrd_file(filepath: Path) -> bool:
         if lines[0].strip().startswith(';RAW'):
             return True
         
-        # Check if it looks like two-column numerical data (Panalytical format)
-        # Sample a few lines to see if they're two numbers
-        sample_lines = lines[:20] + lines[-20:]
+        # For other files, check numerical data range
+        # XRD has 2theta typically in range 5-150 degrees
+        sample_lines = [l for l in lines[:50] if l.strip()]
         numerical_lines = 0
+        valid_xrd_range = 0
         
         for line in sample_lines:
-            line = line.strip()
-            if not line:
-                continue
-            
-            # Try to parse as two floats
             try:
-                parts = line.split()
+                parts = line.strip().split()
                 if len(parts) >= 2:
-                    float(parts[0])  # 2theta
-                    float(parts[1])  # intensity
+                    x_val = float(parts[0])
                     numerical_lines += 1
+                    
+                    # XRD 2theta is typically 5-150 degrees
+                    if 5 <= x_val <= 150:
+                        valid_xrd_range += 1
+                        
             except (ValueError, IndexError):
                 continue
         
-        # If most sampled lines are numerical pairs, it's probably XRD data
-        return numerical_lines > len(sample_lines) * 0.5
+        # Require most data points in valid XRD 2theta range
+        if numerical_lines >= 10 and valid_xrd_range / numerical_lines > 0.7:
+            return True
+            
+        return False
         
     except Exception:
         return False
@@ -134,7 +143,7 @@ def _parse_siemens_txt(filepath: Path) -> dict:
     return {
         'two_theta': two_theta,
         'intensity': intensity,
-        'instrument': 'Siemens D500',
+        'instrument': 'Siemens',
         'two_theta_min': float(np.min(two_theta)) if len(two_theta) > 0 else None,
         'two_theta_max': float(np.max(two_theta)) if len(two_theta) > 0 else None,
         'n_points': len(two_theta),
