@@ -20,7 +20,11 @@ print(f"Tracking {len(REFERENCE_DATA_FILES)} reference data files")
 rule all:
     input:
         "data/processed/synthesis_data.csv",
-        "data/processed/synthesis_data.pkl"
+        "data/processed/synthesis_data.pkl",
+        "results/susceptibility/susceptibility_real_part.pdf",
+        "results/susceptibility/susceptibility_imaginary_part.pdf",
+        "results/susceptibility/hc2_with_fits.pdf",
+        "results/susceptibility/hc2_fit_parameters.csv"
 
 rule build_dataframe:
     input:
@@ -31,5 +35,18 @@ rule build_dataframe:
     output:
         csv="data/processed/synthesis_data.csv",
         pkl="data/processed/synthesis_data.pkl"
+    shell:
+        "poetry run python {input.script}"
+
+rule analyze_susceptibility:
+    input:
+        script="scripts/analyze_susceptibility.py",
+        src=SRC_FILES,
+        data=RAW_DATA_FILES
+    output:
+        real="results/susceptibility/susceptibility_real_part.pdf",
+        imag="results/susceptibility/susceptibility_imaginary_part.pdf",
+        hc2="results/susceptibility/hc2_with_fits.pdf",
+        params="results/susceptibility/hc2_fit_parameters.csv"
     shell:
         "poetry run python {input.script}"
