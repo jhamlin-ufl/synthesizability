@@ -66,7 +66,7 @@ def load_all_chi_data(sample_dir: Path, max_temp: float = 10.0) -> pd.DataFrame:
     Returns:
         DataFrame with all chi data for this sample
     """
-    chi_files = [f for f in sample_dir.iterdir() 
+    chi_files = [f for f in sample_dir.iterdir()
                  if f.suffix == '.txt' and 'chi' in f.name.lower()]
     
     if not chi_files:
@@ -95,8 +95,8 @@ def load_all_chi_data(sample_dir: Path, max_temp: float = 10.0) -> pd.DataFrame:
     return pd.concat(all_data, ignore_index=True)
 
 
-def extract_tc_from_chi_imaginary(field_data: pd.DataFrame, 
-                                   window_length: int = 31, 
+def extract_tc_from_chi_imaginary(field_data: pd.DataFrame,
+                                   window_length: int = 31,
                                    polyorder: int = 3) -> float:
     """
     Extract Tc from minimum in imaginary part of susceptibility.
@@ -116,8 +116,8 @@ def extract_tc_from_chi_imaginary(field_data: pd.DataFrame,
     chi_imag = field_data['chan2_v'].values
     temp = field_data['temperature'].values
     
-    chi_imag_smoothed = savgol_filter(chi_imag, 
-                                      window_length=window_length, 
+    chi_imag_smoothed = savgol_filter(chi_imag,
+                                      window_length=window_length,
                                       polyorder=polyorder)
     
     min_idx = np.argmin(chi_imag_smoothed)
@@ -179,9 +179,9 @@ def fit_hc2_models(tc_data: pd.DataFrame) -> dict:
     Hc2_0_guess = H.max() * 1.5
     
     try:
-        popt_linear, _ = curve_fit(linear_hc2_model, T, H, 
+        popt_linear, _ = curve_fit(linear_hc2_model, T, H,
                                    p0=[Hc2_0_guess, Tc_guess])
-        popt_quadratic, _ = curve_fit(quadratic_hc2_model, T, H, 
+        popt_quadratic, _ = curve_fit(quadratic_hc2_model, T, H,
                                       p0=[Hc2_0_guess, Tc_guess])
         
         return {
@@ -224,7 +224,7 @@ def trim_high_temp_outliers(field_data: pd.DataFrame, n_trim: int = 3) -> pd.Dat
     return field_data
 
 
-def plot_chi_real_grid(samples_data: dict, sample_order: list, 
+def plot_chi_real_grid(samples_data: dict, sample_order: list,
                        figsize=(16, 16)) -> plt.Figure:
     """
     Plot real part of susceptibility in 4x4 grid.
@@ -281,7 +281,7 @@ def plot_chi_real_grid(samples_data: dict, sample_order: list,
     axes[15].axis('off')
     if len(sample_order) > 0:
         handles, labels = axes[0].get_legend_handles_labels()
-        axes[15].legend(handles[::-1], labels[::-1], 
+        axes[15].legend(handles[::-1], labels[::-1],
                        loc='center', fontsize=12, frameon=False)
     
     # Turn off any remaining empty subplots
@@ -338,8 +338,8 @@ def plot_chi_imaginary_grid(samples_data: dict, sample_order: list,
             
             high_temp_value = field_data.iloc[-1]['chan2_v']
             normalized = (field_data['chan2_v'] - high_temp_value) * 1e6
-            smoothed = savgol_filter(normalized, 
-                                    window_length=window_length, 
+            smoothed = savgol_filter(normalized,
+                                    window_length=window_length,
                                     polyorder=polyorder)
             
             ax.plot(field_data['temperature'], smoothed,
@@ -415,11 +415,11 @@ def plot_hc2_grid(samples_tc_data: dict, sample_order: list,
         
         # Plot fits
         T_fit_linear = np.linspace(0, fit_results['linear']['Tc'], 200)
-        H_linear = linear_hc2_model(T_fit_linear, 
+        H_linear = linear_hc2_model(T_fit_linear,
                                     fit_results['linear']['Hc2_0'],
                                     fit_results['linear']['Tc'])
         H_linear = np.clip(H_linear, 0, None)
-        ax.plot(T_fit_linear, H_linear, '-', linewidth=2, 
+        ax.plot(T_fit_linear, H_linear, '-', linewidth=2,
                color='C0', label='Linear', alpha=0.7)
         
         T_fit_quadratic = np.linspace(0, fit_results['quadratic']['Tc'], 200)
@@ -450,3 +450,186 @@ def plot_hc2_grid(samples_tc_data: dict, sample_order: list,
     
     plt.tight_layout()
     return fig, fit_results_all
+
+
+# Single-sample plotting functions for dashboard
+
+def plot_single_chi_real(chi_data: pd.DataFrame, composition: str,
+                         sample_id: str = None,
+                         figsize=(8, 6)) -> plt.Figure:
+    """
+    Plot real part of susceptibility for a single sample.
+    
+    Args:
+        chi_data: DataFrame with chi data for one sample
+        composition: Chemical composition string
+        sample_id: Optional sample_id for trimming logic
+        figsize: Figure size
+        
+    Returns:
+        matplotlib Figure
+    """
+    fig, ax = plt.subplots(figsize=figsize)
+    
+    if chi_data is None or len(chi_data) == 0:
+        ax.text(0.5, 0.5, 'No susceptibility data available',
+               ha='center', va='center', fontsize=14)
+        ax.axis('off')
+        return fig
+    
+    latex_title = composition_to_latex(composition)
+    needs_trimming = sample_id in ['0455_HM_NbTa2Zr', '0457_HM_MoNbZr2']
+    
+    for field in sorted(chi_data['field_tesla'].unique(), reverse=True):
+        field_data = chi_data[chi_data['field_tesla'] == field].sort_values('temperature')
+        
+        if len(field_data) == 0:
+            continue
+        
+        if needs_trimming and abs(field - 2.0) < 0.1:
+            field_data = trim_high_temp_outliers(field_data, n_trim=3)
+        
+        high_temp_value = field_data.iloc[-1]['lockin_v']
+        normalized = (field_data['lockin_v'] - high_temp_value) * 1e6
+        
+        ax.plot(field_data['temperature'], normalized,
+               label=f'{field:.1f} T', alpha=0.7, linewidth=2)
+    
+    ax.set_xlabel('Temperature (K)', fontsize=12)
+    ax.set_ylabel(r"$\chi'$ offset ($\mu$V)", fontsize=12)
+    ax.set_title(f"{latex_title} - Real Susceptibility", fontsize=14, fontweight='bold')
+    ax.grid(alpha=0.3)
+    ax.legend(loc='best', fontsize=10)
+    
+    plt.tight_layout()
+    return fig
+
+
+def plot_single_chi_imaginary(chi_data: pd.DataFrame, composition: str,
+                              sample_id: str = None,
+                              window_length: int = 31, polyorder: int = 3,
+                              figsize=(8, 6)) -> plt.Figure:
+    """
+    Plot imaginary part of susceptibility for a single sample.
+    
+    Args:
+        chi_data: DataFrame with chi data for one sample
+        composition: Chemical composition string
+        sample_id: Optional sample_id for trimming logic
+        window_length: Savitzky-Golay filter window
+        polyorder: Savitzky-Golay polynomial order
+        figsize: Figure size
+        
+    Returns:
+        matplotlib Figure
+    """
+    fig, ax = plt.subplots(figsize=figsize)
+    
+    if chi_data is None or len(chi_data) == 0:
+        ax.text(0.5, 0.5, 'No susceptibility data available',
+               ha='center', va='center', fontsize=14)
+        ax.axis('off')
+        return fig
+    
+    latex_title = composition_to_latex(composition)
+    needs_trimming = sample_id in ['0455_HM_NbTa2Zr', '0457_HM_MoNbZr2']
+    
+    for field in sorted(chi_data['field_tesla'].unique(), reverse=True):
+        field_data = chi_data[chi_data['field_tesla'] == field].sort_values('temperature')
+        
+        if len(field_data) == 0:
+            continue
+        
+        if needs_trimming and abs(field - 2.0) < 0.1:
+            field_data = trim_high_temp_outliers(field_data, n_trim=3)
+        
+        if len(field_data) < window_length:
+            continue
+        
+        high_temp_value = field_data.iloc[-1]['chan2_v']
+        normalized = (field_data['chan2_v'] - high_temp_value) * 1e6
+        smoothed = savgol_filter(normalized,
+                                window_length=window_length,
+                                polyorder=polyorder)
+        
+        ax.plot(field_data['temperature'], smoothed,
+               label=f'{field:.1f} T', alpha=0.7, linewidth=2)
+    
+    ax.set_xlabel('Temperature (K)', fontsize=12)
+    ax.set_ylabel(r"$\chi''$ offset ($\mu$V)", fontsize=12)
+    ax.set_title(f"{latex_title} - Imaginary Susceptibility", fontsize=14, fontweight='bold')
+    ax.grid(alpha=0.3)
+    ax.legend(loc='best', fontsize=10)
+    
+    plt.tight_layout()
+    return fig
+
+
+def plot_single_hc2(tc_data: pd.DataFrame, composition: str,
+                    figsize=(8, 6)) -> tuple:
+    """
+    Plot Hc2(T) with fits for a single sample.
+    
+    Args:
+        tc_data: DataFrame with Tc vs field data
+        composition: Chemical composition string
+        figsize: Figure size
+        
+    Returns:
+        tuple of (figure, fit_results_dict or None)
+    """
+    fig, ax = plt.subplots(figsize=figsize)
+    
+    if tc_data is None or len(tc_data) == 0:
+        ax.text(0.5, 0.5, 'No Hc2 data available',
+               ha='center', va='center', fontsize=14)
+        ax.axis('off')
+        return fig, None
+    
+    latex_title = composition_to_latex(composition)
+    fit_results = fit_hc2_models(tc_data)
+    
+    if fit_results is None:
+        ax.text(0.5, 0.5, 'Insufficient data for fitting',
+               ha='center', va='center', fontsize=14)
+        ax.axis('off')
+        return fig, None
+    
+    # Determine plot ranges
+    max_tc = np.ceil(tc_data['tc_kelvin'].max())
+    max_field_data = tc_data['field_tesla'].max()
+    max_field_fit = max(fit_results['linear']['Hc2_0'],
+                       fit_results['quadratic']['Hc2_0'])
+    max_field = np.ceil(max(max_field_data, max_field_fit))
+    
+    # Plot data
+    ax.plot(tc_data['tc_kelvin'], tc_data['field_tesla'],
+           'o', markersize=10, color='black', label='Data', zorder=3)
+    
+    # Plot fits
+    T_fit_linear = np.linspace(0, fit_results['linear']['Tc'], 200)
+    H_linear = linear_hc2_model(T_fit_linear,
+                                fit_results['linear']['Hc2_0'],
+                                fit_results['linear']['Tc'])
+    H_linear = np.clip(H_linear, 0, None)
+    ax.plot(T_fit_linear, H_linear, '-', linewidth=2.5,
+           color='C0', label='Linear', alpha=0.7)
+    
+    T_fit_quadratic = np.linspace(0, fit_results['quadratic']['Tc'], 200)
+    H_quadratic = quadratic_hc2_model(T_fit_quadratic,
+                                     fit_results['quadratic']['Hc2_0'],
+                                     fit_results['quadratic']['Tc'])
+    H_quadratic = np.clip(H_quadratic, 0, None)
+    ax.plot(T_fit_quadratic, H_quadratic, '--', linewidth=2.5,
+           color='C1', label='Quadratic', alpha=0.7)
+    
+    ax.set_xlim(0, max_tc)
+    ax.set_ylim(0, max_field)
+    ax.set_xlabel('$T_c$ (K)', fontsize=12)
+    ax.set_ylabel('Field (T)', fontsize=12)
+    ax.set_title(f"{latex_title} - Upper Critical Field", fontsize=14, fontweight='bold')
+    ax.grid(alpha=0.3)
+    ax.legend(loc='best', fontsize=11)
+    
+    plt.tight_layout()
+    return fig, fit_results

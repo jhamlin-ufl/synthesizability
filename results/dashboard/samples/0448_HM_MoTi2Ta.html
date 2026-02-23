@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>0448_HM_MoTi2Ta - MoTi2Ta</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .back-link {
+            color: #0066cc;
+            text-decoration: none;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .formula {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #0066cc;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .field {
+            margin: 15px 0;
+        }
+        .field-label {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .field-value {
+            color: #333;
+            line-height: 1.6;
+        }
+        .text-block {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 4px solid #0066cc;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        .plot-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .plot-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .fit-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .fit-table th, .fit-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .fit-table th {
+            background: #f8f9fa;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Dashboard</a>
+        
+        <h1>0448_HM_MoTi2Ta</h1>
+        <div class="formula">MoTi2Ta</div>
+        <div class="section">
+            <div class="section-title">Basic Information</div>
+            <div class="field">
+                <div class="field-label">sample_number</div>
+                <div class="field-value">448</div>
+            </div>
+            <div class="field">
+                <div class="field-label">sample_id</div>
+                <div class="field-value">0448_HM_MoTi2Ta</div>
+            </div>
+            <div class="field">
+                <div class="field-label">formula</div>
+                <div class="field-value">MoTi2Ta</div>
+            </div>
+            <div class="field">
+                <div class="field-label">files</div>
+                <div class="field-value"><ul style="margin: 5px 0; padding-left: 20px;"><li>SYNTHESIS</li><li>0448_HM_MoTi2Ta_SUMMARY.pptx</li><li>STATUS</li><li>0448_HM_MoTa2Ti.txt</li></ul></div>
+            </div>
+            <div class="field">
+                <div class="field-label">has_summary</div>
+                <div class="field-value"><span style="color: #28a745; font-weight: bold;">Yes</span></div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Characterization</div>
+            <div class="field">
+                <div class="field-label">superconductivity</div>
+                <div class="field-value">Not above 4.2 K based on dipstick test.</div>
+            </div>
+            <div class="field">
+                <div class="field-label">tc_kelvin</div>
+                <div class="field-value"><em style="color: #999;">Not available</em></div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_type</div>
+                <div class="field-value">Powder</div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_instrument</div>
+                <div class="field-value">Siemens</div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_result</div>
+                <div class="field-value">not yet analyzed.</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Synthesis Details</div>
+            <div class="field">
+                <div class="field-label">synthesis_content</div>
+                <div class="text-block">Raw materials:<br>Mo slug (99.95%), Lot #W12D050<br>Ta foil, unknown purity & Lot #<br>Ti granules (99.9%), Lot #F07W044<br><br>Procedure:<br>target masses<br>Mo: 0.0967 g, Ta: 0.3649 g, Ti: 0.0483 g<br><br>measured masses<br>Mo: 0.0961 g, Ta: 0.364 g, Ti 0.048 g: <br><br>initial mass: 0.5081 g<br>final mass: 0.4787 g<br>loss: 5.79%<br><br>Heating curve: once a pellet, melt was heated and flipped 3 times. heated for 30-40 seconds at current 4</div>
+            </div>
+            <div class="field">
+                <div class="field-label">mass_loss_percent</div>
+                <div class="field-value">5.79</div>
+            </div>
+            <div class="field">
+                <div class="field-label">initial_mass_g</div>
+                <div class="field-value">0.5081</div>
+            </div>
+            <div class="field">
+                <div class="field-label">final_mass_g</div>
+                <div class="field-value">0.4787</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Cost & Feasibility</div>
+            <div class="field">
+                <div class="field-label">price_per_gram</div>
+                <div class="field-value">2.22</div>
+            </div>
+            <div class="field">
+                <div class="field-label">arc_meltable</div>
+                <div class="field-value"><span style="color: #dc3545; font-weight: bold;">No</span></div>
+            </div>
+            <div class="field">
+                <div class="field-label">prediction_list</div>
+                <div class="field-value">Diffusion Model</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">XRD Data</div>
+            <div class="field">
+                <div class="field-label">xrd_patterns</div>
+                <div class="field-value"><div style="margin-top: 10px;"><div style="background: #f8f9fa; padding: 10px; margin: 5px 0; border-radius: 4px;"><strong>Pattern 1:</strong><br>Instrument: Siemens<br>Date: 09/16/2025<br>Anode: Cu<br>2θ range: 20.02 - 120.0°<br>Points: 5000<br>File: 0448_HM_MoTa2Ti.txt</div></div></div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_files</div>
+                <div class="field-value"><ul style="margin: 5px 0; padding-left: 20px;"><li>0448_HM_MoTa2Ti.txt</li></ul></div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_n_files</div>
+                <div class="field-value">1</div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_two_theta_min</div>
+                <div class="field-value">20.02</div>
+            </div>
+            <div class="field">
+                <div class="field-label">xrd_two_theta_max</div>
+                <div class="field-value">120</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Susceptibility Data</div>
+            <div class="field">
+                <div class="field-label">chi_files</div>
+                <div class="field-value"><em style="color: #999;">Empty list</em></div>
+            </div>
+            <div class="field">
+                <div class="field-label">chi_n_files</div>
+                <div class="field-value">0</div>
+            </div>
+            <div class="field">
+                <div class="field-label">chi_has_high_field</div>
+                <div class="field-value"><span style="color: #dc3545; font-weight: bold;">No</span></div>
+            </div>
+            <div class="field">
+                <div class="field-label">chi_fields</div>
+                <div class="field-value"><em style="color: #999;">Empty list</em></div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Status</div>
+            <div class="field">
+                <div class="field-label">status_content</div>
+                <div class="text-block">wrapped material in Ta foil as per 0447. As a result, no material visibly flew away. ~6% loss might be due to Ta foil on bottom not melting properly. there was also a black stain on the arc melted area (see ppt for picture) which may be carbon from the Ta foil. wiping Ta foil with ethanol before melting may help with this.<br>arc melted pellet did not split apart when hit with hammer.<br>pellet did not look crystalline and had no facets.<br><br>Screened for SC using dipstick on liquid He, resulting in <1% SC phase or none at all. <br><br>Calculation for ideal diamagnetic signature: -1503.34uV/cc sensitivity (calibrated by using lead pellet) * 0.054 cc (Sample volume, estimated by averaging densities and multiplied by sample mass) = -81uV<br>Measured signal:  < 0.2uV, negative<br><br>Superconductivity: Not above 4.2 K based on dipstick test.<br>XRD: Powder, Hamlin XRD, not yet analyzed.<br>List: Diffusion Model</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

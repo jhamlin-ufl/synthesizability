@@ -24,7 +24,8 @@ rule all:
         "results/susceptibility/susceptibility_real_part.pdf",
         "results/susceptibility/susceptibility_imaginary_part.pdf",
         "results/susceptibility/hc2_with_fits.pdf",
-        "results/susceptibility/hc2_fit_parameters.csv"
+        "results/susceptibility/hc2_fit_parameters.csv",
+        "results/dashboard/index.html"
 
 rule build_dataframe:
     input:
@@ -48,5 +49,16 @@ rule analyze_susceptibility:
         imag="results/susceptibility/susceptibility_imaginary_part.pdf",
         hc2="results/susceptibility/hc2_with_fits.pdf",
         params="results/susceptibility/hc2_fit_parameters.csv"
+    shell:
+        "poetry run python {input.script}"
+
+rule generate_dashboard:
+    input:
+        script="scripts/generate_dashboard.py",
+        data="data/processed/synthesis_data.pkl",
+        params="results/susceptibility/hc2_fit_parameters.csv",
+        src=SRC_FILES
+    output:
+        index="results/dashboard/index.html"
     shell:
         "poetry run python {input.script}"
