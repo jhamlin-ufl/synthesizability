@@ -4,8 +4,18 @@ from pathlib import Path
 # Dynamically find all Python files in src
 SRC_FILES = [str(p) for p in Path("src/synthesizability").rglob("*.py")]
 
-# Track all files in data/raw (not just directories)
+# Track all files in data/raw
 RAW_DATA_FILES = [str(p) for p in Path("data/raw").rglob("*") if p.is_file()]
+
+# Track specific file types for targeted dependencies
+CHI_DATA_FILES = [str(p) for p in Path("data/raw").rglob("*chiAC*.txt")]
+STATUS_FILES = [str(p) for p in Path("data/raw").rglob("STATUS")]
+SYNTHESIS_FILES = [str(p) for p in Path("data/raw").rglob("SYNTHESIS")]
+XRD_FILES = [str(p) for p in Path("data/raw").rglob("*.xy")] + \
+            [str(p) for p in Path("data/raw").rglob("*.txt") if "chiAC" not in p.name]
+
+# Core data files for dataframe building
+DATAFRAME_INPUT_FILES = STATUS_FILES + SYNTHESIS_FILES + XRD_FILES
 
 # Track reference data files
 REFERENCE_DATA_FILES = [
@@ -13,9 +23,16 @@ REFERENCE_DATA_FILES = [
     "data/external/reference/element_vapor_pressures.csv"
 ]
 
+# Track disorder model files
+DISORDER_MODEL_FILES = [
+    "data/external/disorder_model/hyperopt_best_model.pt",
+    "data/external/disorder_model/hyperopt_config.json"
+]
+
 print(f"Tracking {len(SRC_FILES)} source files")
 print(f"Tracking {len(RAW_DATA_FILES)} raw data files")
-print(f"Tracking {len(REFERENCE_DATA_FILES)} reference data files")
+print(f"  - {len(CHI_DATA_FILES)} chi data files")
+print(f"  - {len(DATAFRAME_INPUT_FILES)} dataframe input files (STATUS/SYNTHESIS/XRD)")
 
 rule all:
     input:
@@ -27,12 +44,51 @@ rule all:
         "results/susceptibility/hc2_fit_parameters.csv",
         "results/dashboard/index.html"
 
+# Build initial dataframe without disorder to extract formulas
+checkpoint build_dataframe_for_formulas:
+    input:
+        script="scripts/build_dataframe.py",
+        src=SRC_FILES,
+        data=DATAFRAME_INPUT_FILES,
+        reference=REFERENCE_DATA_FILES
+    output:
+        csv=temp("data/processed/synthesis_data_no_disorder.csv")
+    run:
+        import shutil
+        # Temporarily hide disorder cache if it exists
+        cache_path = Path("data/processed/disorder_cache.csv")
+        backup_path = Path("data/processed/disorder_cache.csv.backup")
+        
+        if cache_path.exists():
+            shutil.move(str(cache_path), str(backup_path))
+        
+        # Build dataframe
+        shell("poetry run python {input.script}")
+        
+        # Move output and restore cache
+        shutil.move("data/processed/synthesis_data.csv", str(output.csv))
+        
+        if backup_path.exists():
+            shutil.move(str(backup_path), str(cache_path))
+
+rule compute_disorder_cache:
+    input:
+        script="scripts/compute_disorder_probabilities.py",
+        src=SRC_FILES,
+        model_files=DISORDER_MODEL_FILES,
+        csv="data/processed/synthesis_data_no_disorder.csv"
+    output:
+        cache="data/processed/disorder_cache.csv"
+    shell:
+        "poetry run python {input.script}"
+
 rule build_dataframe:
     input:
         script="scripts/build_dataframe.py",
         src=SRC_FILES,
-        data=RAW_DATA_FILES,
-        reference=REFERENCE_DATA_FILES
+        data=DATAFRAME_INPUT_FILES,
+        reference=REFERENCE_DATA_FILES,
+        disorder_cache="data/processed/disorder_cache.csv"
     output:
         csv="data/processed/synthesis_data.csv",
         pkl="data/processed/synthesis_data.pkl"
@@ -43,7 +99,7 @@ rule analyze_susceptibility:
     input:
         script="scripts/analyze_susceptibility.py",
         src=SRC_FILES,
-        data=RAW_DATA_FILES
+        data=CHI_DATA_FILES
     output:
         real="results/susceptibility/susceptibility_real_part.pdf",
         imag="results/susceptibility/susceptibility_imaginary_part.pdf",

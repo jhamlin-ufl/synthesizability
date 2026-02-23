@@ -15,7 +15,10 @@ dependencies = [
     "pyperclip (>=1.11.0,<2.0.0)",
     "snakemake (>=9.16.2,<10.0.0)",
     "scipy (>=1.17.0,<2.0.0)",
-    "matplotlib (>=3.10.8,<4.0.0)"
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "torch (>=2.10.0,<3.0.0)",
+    "pandarallel (>=1.6.5,<2.0.0)",
+    "elementembeddings (>=0.6.1,<0.7.0)"
 ]
 
 

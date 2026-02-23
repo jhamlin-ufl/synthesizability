@@ -1,3 +1,4 @@
+# scripts/generate_dashboard.py
 """Generate an HTML dashboard for the synthesis dataframe."""
 import sys
 import pandas as pd
@@ -101,7 +102,7 @@ def extract_composition(sample_id: str) -> str:
     return parts[2] if len(parts) > 2 else sample_id
 
 
-def generate_susceptibility_plots(sample_id: str, sample_dir: Path, 
+def generate_susceptibility_plots(sample_id: str, sample_dir: Path,
                                   plots_dir: Path) -> dict:
     """
     Generate susceptibility plots for a sample.
@@ -178,6 +179,11 @@ def generate_index(df, fit_params_df, output_path):
     n_arc_meltable = df_merged['arc_meltable'].sum()
     avg_price = df_merged['price_per_gram'].mean()
     avg_mass_loss = df_merged['mass_loss_percent'].mean()
+    
+    # Disorder statistics
+    n_with_disorder = df_merged['disorder_probability'].notna().sum() if 'disorder_probability' in df_merged.columns else 0
+    avg_disorder = df_merged['disorder_probability'].mean() if 'disorder_probability' in df_merged.columns else 0
+    n_low_disorder = (df_merged['disorder_probability'] < 0.5).sum() if 'disorder_probability' in df_merged.columns else 0
     
     html = f"""<!DOCTYPE html>
 <html>
@@ -405,10 +411,22 @@ def generate_index(df, fit_params_df, output_path):
                 <div class="stat-label">Avg Mass Loss (%)</div>
                 <div class="stat-value">{avg_mass_loss:.1f}%</div>
             </div>
+            <div class="stat-card">
+                <div class="stat-label">With Disorder Data</div>
+                <div class="stat-value">{n_with_disorder}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg Disorder Prob</div>
+                <div class="stat-value">{avg_disorder:.3f}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Low Disorder (&lt;0.5)</div>
+                <div class="stat-value">{n_low_disorder}</div>
+            </div>
         </div>
         
         <div class="controls">
-            <input type="text" id="searchBox" class="search-box" 
+            <input type="text" id="searchBox" class="search-box"
                    placeholder="Search table..." onkeyup="filterTable()">
             
             <div style="margin: 10px 0;">
@@ -589,7 +607,7 @@ def generate_detail_page(row, output_path, plot_info: dict):
         'Basic Information': ['sample_number', 'sample_id', 'formula', 'files', 'has_summary'],
         'Characterization': ['superconductivity', 'tc_kelvin', 'xrd_type', 'xrd_instrument', 'xrd_result'],
         'Synthesis Details': ['synthesis_content', 'mass_loss_percent', 'initial_mass_g', 'final_mass_g'],
-        'Cost & Feasibility': ['price_per_gram', 'arc_meltable', 'prediction_list'],
+        'Cost & Feasibility': ['price_per_gram', 'arc_meltable', 'disorder_probability', 'prediction_list'],
         'XRD Data': ['xrd_patterns', 'xrd_files', 'xrd_n_files', 'xrd_two_theta_min', 'xrd_two_theta_max'],
         'Susceptibility Data': ['chi_files', 'chi_n_files', 'chi_has_high_field', 'chi_fields'],
         'Status': ['status_content']

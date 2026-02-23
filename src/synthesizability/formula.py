@@ -69,7 +69,7 @@ def enrich_with_formula_properties(df: pd.DataFrame) -> pd.DataFrame:
     """
     Add formula-derived properties to dataframe.
     
-    Adds columns: formula, price_per_gram, arc_meltable
+    Adds columns: formula, price_per_gram, arc_meltable, disorder_probability
     """
     formulas = []
     prices = []
@@ -94,5 +94,40 @@ def enrich_with_formula_properties(df: pd.DataFrame) -> pd.DataFrame:
     df['formula'] = formulas
     df['price_per_gram'] = prices
     df['arc_meltable'] = arc_meltable_flags
+    
+    # Add disorder probabilities from cache
+    df = add_disorder_probabilities(df)
+    
+    return df
+
+def add_disorder_probabilities(df: pd.DataFrame, cache_path: Path = None) -> pd.DataFrame:
+    """
+    Add disorder probabilities to dataframe from cache.
+    
+    Args:
+        df: Dataframe with 'formula' column
+        cache_path: Path to disorder cache CSV (default: data/processed/disorder_cache.csv)
+        
+    Returns:
+        Dataframe with added 'disorder_probability' column
+    """
+    if cache_path is None:
+        cache_path = Path(__file__).parent.parent.parent / 'data' / 'processed' / 'disorder_cache.csv'
+    
+    if not cache_path.exists():
+        print(f"WARNING: Disorder cache not found at {cache_path}")
+        print("         Run 'snakemake data/processed/disorder_cache.csv' to compute disorder")
+        df['disorder_probability'] = np.nan
+        return df
+    
+    # Load cache
+    cache_df = pd.read_csv(cache_path)
+    
+    # Merge with dataframe
+    df = df.merge(cache_df, on='formula', how='left')
+    
+    # Report coverage
+    n_with_disorder = df['disorder_probability'].notna().sum()
+    print(f"Disorder probabilities: {n_with_disorder}/{len(df)} samples")
     
     return df

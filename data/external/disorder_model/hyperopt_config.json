@@ -1,0 +1,1 @@
+{"num_samples": 50, "num_cpus": 16, "rep_type": "comp-rnn", "embedding": "mat2vec", "dim": 2, "scale_input": false, "nl": 1, "nh": 64, "batch_size": 500, "learning_rate": 0.001, "Nepochs": 300}
