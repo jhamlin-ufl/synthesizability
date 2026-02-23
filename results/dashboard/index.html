@@ -198,43 +198,55 @@
         <div class="summary">
             <div class="stat-card">
                 <div class="stat-label">Total Samples</div>
-                <div class="stat-value">60</div>
+                <div class="stat-value">62</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Superconducting</div>
-                <div class="stat-value">15</div>
+                <div class="stat-value">16</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">With XRD Data</div>
-                <div class="stat-value">57</div>
+                <div class="stat-value">58</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">With χ Data</div>
-                <div class="stat-value">13</div>
+                <div class="stat-value">14</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Arc Meltable</div>
-                <div class="stat-value">45</div>
+                <div class="stat-value">47</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg Price ($/g)</div>
-                <div class="stat-value">$42.13</div>
+                <div class="stat-value">$40.85</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg Mass Loss (%)</div>
-                <div class="stat-value">2.2%</div>
+                <div class="stat-value">2.1%</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">With Disorder Data</div>
-                <div class="stat-value">60</div>
+                <div class="stat-value">62</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg Disorder Prob</div>
-                <div class="stat-value">0.610</div>
+                <div class="stat-value">0.622</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Low Disorder (&lt;0.5)</div>
                 <div class="stat-value">23</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">With OQMD Data</div>
+                <div class="stat-value">50</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">OQMD Stable (&lt;0.1 eV)</div>
+                <div class="stat-value">39</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg E-above-hull</div>
+                <div class="stat-value">0.032 eV</div>
             </div>
         </div>
         
@@ -278,11 +290,16 @@
                     <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(26, this)"> price_per_gram</label>
                     <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(27, this)"> arc_meltable</label>
                     <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(28, this)"> disorder_probability</label>
-                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(29, this)"> Composition</label>
-                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(30, this)"> Hc2(0) Linear (T)</label>
-                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(31, this)"> Tc Linear (K)</label>
-                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(32, this)"> Hc2(0) Quadratic (T)</label>
-                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(33, this)"> Tc Quadratic (K)</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(29, this)"> oqmd_formula</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(30, this)"> oqmd_delta_e</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(31, this)"> oqmd_stability</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(32, this)"> oqmd_entry_id</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(33, this)"> oqmd_n_polymorphs</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(34, this)"> Composition</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(35, this)"> Hc2(0) Linear (T)</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(36, this)"> Tc Linear (K)</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(37, this)"> Hc2(0) Quadratic (T)</label>
+                    <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(38, this)"> Tc Quadratic (K)</label>
                 </div>
             </details>
         </div>
@@ -320,11 +337,16 @@
                         <th onclick="sortTable(26)">price_per_gram ▾</th>
                         <th onclick="sortTable(27)">arc_meltable ▾</th>
                         <th onclick="sortTable(28)">disorder_probability ▾</th>
-                        <th onclick="sortTable(29)">Composition ▾</th>
-                        <th onclick="sortTable(30)">Hc2(0) Linear (T) ▾</th>
-                        <th onclick="sortTable(31)">Tc Linear (K) ▾</th>
-                        <th onclick="sortTable(32)">Hc2(0) Quadratic (T) ▾</th>
-                        <th onclick="sortTable(33)">Tc Quadratic (K) ▾</th>
+                        <th onclick="sortTable(29)">oqmd_formula ▾</th>
+                        <th onclick="sortTable(30)">oqmd_delta_e ▾</th>
+                        <th onclick="sortTable(31)">oqmd_stability ▾</th>
+                        <th onclick="sortTable(32)">oqmd_entry_id ▾</th>
+                        <th onclick="sortTable(33)">oqmd_n_polymorphs ▾</th>
+                        <th onclick="sortTable(34)">Composition ▾</th>
+                        <th onclick="sortTable(35)">Hc2(0) Linear (T) ▾</th>
+                        <th onclick="sortTable(36)">Tc Linear (K) ▾</th>
+                        <th onclick="sortTable(37)">Hc2(0) Quadratic (T) ▾</th>
+                        <th onclick="sortTable(38)">Tc Quadratic (K) ▾</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -360,6 +382,11 @@ T...</td>
                         <td>2.035</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.975</td>
+                        <td>Mo1 Ta2 Ti1</td>
+                        <td>-0.06738</td>
+                        <td>0.04485</td>
+                        <td>5.309e+05</td>
+                        <td>3</td>
                         <td>MoTiTa2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -398,6 +425,11 @@ T...</td>
                         <td>2.22</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9981</td>
+                        <td>Mo1 Ta1 Ti2</td>
+                        <td>-0.0671</td>
+                        <td>0.04341</td>
+                        <td>1.127e+06</td>
+                        <td>2</td>
                         <td>MoTi2Ta</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -436,6 +468,54 @@ T...</td>
                         <td>2.367</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9978</td>
+                        <td>Hf1 Ta4 Zr1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
+                        <td>HfTa4Zr</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                    </tr>
+                    <tr>
+                        <td><a href="samples/0449_HM_HfTa4Zr.html" class="sample-link">View</a></td>
+                        <td>449</td>
+                        <td>0449_HM_HfTa4Zr</td>
+                        <td class="formula">HfTa4Zr</td>
+                        <td>[11 items]</td>
+                        <td>no material flew off the sample when arc meltin...</td>
+                        <td>Raw materials:
+Hf sponge(99.6%), Lot #D14U011
+T...</td>
+                        <td>[1 items]</td>
+                        <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+                        <td>Tc of 7.3 K</td>
+                        <td>7.3</td>
+                        <td>Bulk</td>
+                        <td>Panalytical</td>
+                        <td>BCC solid solution</td>
+                        <td>Diffusion Model</td>
+                        <td>0.52</td>
+                        <td>0.4822</td>
+                        <td>0.4797</td>
+                        <td>[1 items]</td>
+                        <td>1</td>
+                        <td>10.19</td>
+                        <td>130</td>
+                        <td>[7 items]</td>
+                        <td>7</td>
+                        <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+                        <td>[1 items]</td>
+                        <td>2.367</td>
+                        <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+                        <td>0.9978</td>
+                        <td>Hf1 Ta4 Zr1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>HfTa4Zr</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -474,6 +554,11 @@ Hf sponge(99.6%), Lot #WD14U011
                         <td>3.9</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9981</td>
+                        <td>Hf1 Mo1 Ta2</td>
+                        <td>0.03246</td>
+                        <td>0.1426</td>
+                        <td>1.143e+06</td>
+                        <td>2</td>
                         <td>HfMoTa2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -512,6 +597,11 @@ T...</td>
                         <td>2.45</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9918</td>
+                        <td>Mo1 Ta1 Zr2</td>
+                        <td>0.09448</td>
+                        <td>0.1918</td>
+                        <td>1.129e+06</td>
+                        <td>2</td>
                         <td>MoTaZr2</td>
                         <td>4.655</td>
                         <td>4.955</td>
@@ -550,6 +640,11 @@ Hf sponge(99.6%), Lot #WD14U011
                         <td>6.135</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9529</td>
+                        <td>Hf2 Mo1 Ti1</td>
+                        <td>0.01292</td>
+                        <td>0.1161</td>
+                        <td>4.149e+05</td>
+                        <td>3</td>
                         <td>Hf2MoTi</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -588,6 +683,11 @@ Hf sponge(99.6%), Lot #WD14U011
                         <td>5.18</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9934</td>
+                        <td>Hf1 Mo1 Ti1</td>
+                        <td>-0.0111</td>
+                        <td>0.1265</td>
+                        <td>2.121e+06</td>
+                        <td>5</td>
                         <td>HfMoTi</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -625,6 +725,11 @@ Nb powder (99.99%), Lot #E21Y045...</td>
                         <td>2.85</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9986</td>
+                        <td>Nb2 Ta1 Zr1</td>
+                        <td>0.07493</td>
+                        <td>0.07788</td>
+                        <td>4.882e+05</td>
+                        <td>1</td>
                         <td>Nb2TaZr</td>
                         <td>10.57</td>
                         <td>9.363</td>
@@ -662,6 +767,11 @@ Nb powder (99.99%), Lot #E21Y045...</td>
                         <td>1.975</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9991</td>
+                        <td>Nb1 Ta2 Zr1</td>
+                        <td>0.1144</td>
+                        <td>0.1179</td>
+                        <td>5.312e+05</td>
+                        <td>1</td>
                         <td>NbTa2Zr</td>
                         <td>10.34</td>
                         <td>8.577</td>
@@ -699,6 +809,11 @@ Hf sponge (99.6%), Lot #WD14U011...</td>
                         <td>6.825</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9665</td>
+                        <td>Hf2 Mo1 Nb1</td>
+                        <td>0.0786</td>
+                        <td>0.1442</td>
+                        <td>4.158e+05</td>
+                        <td>2</td>
                         <td>Hf2MoNb</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -737,6 +852,11 @@ N...</td>
                         <td>3.325</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9957</td>
+                        <td>Mo1 Nb1 Zr2</td>
+                        <td>0.08836</td>
+                        <td>0.1492</td>
+                        <td>1.129e+06</td>
+                        <td>2</td>
                         <td>MoNbZr2</td>
                         <td>5.732</td>
                         <td>5.525</td>
@@ -775,6 +895,11 @@ N...</td>
                         <td>3.73</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9988</td>
+                        <td>Mo3 Nb1 Ti2</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Mo3NbTi2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -813,6 +938,11 @@ Hf sponge(99.6%), Lot #WD14U011
                         <td>5.25</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9992</td>
+                        <td>Hf1 Mo2 Zr1</td>
+                        <td>0.04414</td>
+                        <td>0.1719</td>
+                        <td>4.486e+05</td>
+                        <td>3</td>
                         <td>HfMo2Zr</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -851,6 +981,11 @@ Hf sponge(99.6%), Lot #WD14U011
                         <td>36.83</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.991</td>
+                        <td>Hf2 Mo1 Re3</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Hf2MoRe3</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -889,6 +1024,11 @@ Hf sponge(99.6%), Lot #WD14U011
                         <td>17.65</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9987</td>
+                        <td>Hf2 Nb3 Ru1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Hf2Nb3Ru</td>
                         <td>6.28</td>
                         <td>6.691</td>
@@ -927,6 +1067,11 @@ N...</td>
                         <td>28.22</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9953</td>
+                        <td>Mo3 Nb1 Ru2</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Mo3NbRu2</td>
                         <td>4.067</td>
                         <td>5.151</td>
@@ -965,6 +1110,11 @@ N...</td>
                         <td>39.83</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9973</td>
+                        <td>Mo1 Nb1 Ru2</td>
+                        <td>0.1178</td>
+                        <td>0.2743</td>
+                        <td>5.037e+05</td>
+                        <td>3</td>
                         <td>MoNbRu2</td>
                         <td>5.695</td>
                         <td>4.678</td>
@@ -1001,6 +1151,11 @@ N...</td>
                         <td>51.42</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9321</td>
+                        <td>Cu5 Ge1 Pd6</td>
+                        <td>-0.256</td>
+                        <td>-0.0196</td>
+                        <td>1.993e+06</td>
+                        <td>1</td>
                         <td>Cu5GePd6</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1040,6 +1195,11 @@ Hf sponge (99.6%), Lot #D14U011
                         <td>30.75</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.8958</td>
+                        <td>Hf2 Ir1 Mo1</td>
+                        <td>-0.6075</td>
+                        <td>-0.01863</td>
+                        <td>1.014e+06</td>
+                        <td>9</td>
                         <td>Hf2MoIr</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1078,6 +1238,11 @@ Cu Shot (99.9999%), Lot #F05G08
                         <td>2.983</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9987</td>
+                        <td>Cu1 Nb3 Zr2</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>CuNb3Zr2</td>
                         <td>1.5</td>
                         <td>8.183e+06</td>
@@ -1116,6 +1281,54 @@ Hf sponge (99.6%), Lot #D14U011
                         <td>2.367</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9978</td>
+                        <td>Hf1 Ta4 Zr1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
+                        <td>HfTa4Zr(duplicate to 0449)</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                    </tr>
+                    <tr>
+                        <td><a href="samples/0468_HM_HfTa4Zr(duplicate to 0449).html" class="sample-link">View</a></td>
+                        <td>468</td>
+                        <td>0468_HM_HfTa4Zr(duplicate to 0449)</td>
+                        <td class="formula">HfTa4Zr</td>
+                        <td>[2 items]</td>
+                        <td>Include a 1-2 sentence summary of the status or...</td>
+                        <td>Raw materials:
+Hf sponge (99.6%), Lot #D14U011
+...</td>
+                        <td><span style="color: #999;">[]</span></td>
+                        <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0.12</td>
+                        <td>0.49</td>
+                        <td>0.4895</td>
+                        <td><span style="color: #999;">[]</span></td>
+                        <td>0</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">[]</span></td>
+                        <td>0</td>
+                        <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+                        <td><span style="color: #999;">[]</span></td>
+                        <td>2.367</td>
+                        <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+                        <td>0.9978</td>
+                        <td>Hf1 Ta4 Zr1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>HfTa4Zr(duplicate to 0449)</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1155,6 +1368,11 @@ Sc Pieces (99.9%), Lot #P25F009
                         <td>101.8</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.7492</td>
+                        <td>Cu1 Pd2 Sc1</td>
+                        <td>-0.6926</td>
+                        <td>0.0177</td>
+                        <td>1.37e+06</td>
+                        <td>4</td>
                         <td>ScCuPd2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1194,6 +1412,11 @@ N...</td>
                         <td>2.725</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9941</td>
+                        <td>Mo1 Nb1 Ta2</td>
+                        <td>-0.08065</td>
+                        <td>0.02962</td>
+                        <td>5.318e+05</td>
+                        <td>3</td>
                         <td>MoNbTa2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1233,6 +1456,11 @@ N...</td>
                         <td>3.6</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9988</td>
+                        <td>Mo1 Nb2 Ta1</td>
+                        <td>-0.06411</td>
+                        <td>0.03327</td>
+                        <td>2.037e+06</td>
+                        <td>3</td>
                         <td>MoNb2Ta</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1272,6 +1500,11 @@ Sc Pieces (99.9%), Lot #P25F009
                         <td>51.67</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.2457</td>
+                        <td>Cu4 Pd1 Sc1</td>
+                        <td>-0.344</td>
+                        <td>-0.02417</td>
+                        <td>1.992e+06</td>
+                        <td>2</td>
                         <td>ScCu4Pd</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1311,6 +1544,11 @@ Sc Pieces (99.9%), Lot #P25F009
                         <td>136.5</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.8783</td>
+                        <td>Cu1 Pd2 Sc3</td>
+                        <td>-0.7014</td>
+                        <td>-0.003025</td>
+                        <td>1.375e+06</td>
+                        <td>1</td>
                         <td>Sc3CuPd2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1350,6 +1588,11 @@ Sc Pieces (99.9%), Lot #P25F009
                         <td>128.2</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.8883</td>
+                        <td>Cu1 Pd1 Sc2</td>
+                        <td>-0.591</td>
+                        <td>0.004777</td>
+                        <td>3.631e+05</td>
+                        <td>2</td>
                         <td>Sc2CuPd</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1389,6 +1632,11 @@ La Pieces (99.9%), Lot #R30A018
                         <td>81.2</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.8795</td>
+                        <td>Au2 La2 Pd1</td>
+                        <td>-0.847</td>
+                        <td>-0.0008401</td>
+                        <td>1.981e+06</td>
+                        <td>1</td>
                         <td>La2PdAu2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1428,6 +1676,11 @@ Sc Pieces (99.9%), Lot# P25F009
                         <td>139</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.5617</td>
+                        <td>Au1 Pd2 Sc1</td>
+                        <td>-0.8403</td>
+                        <td>0.006369</td>
+                        <td>1.989e+06</td>
+                        <td>4</td>
                         <td>ScPd2Au</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1467,6 +1720,11 @@ Sc Pieces (99.9%), Lot# P25F009
                         <td>125.8</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.8114</td>
+                        <td>Au2 Pd5 Sc1</td>
+                        <td>-0.4894</td>
+                        <td>0.002758</td>
+                        <td>1.991e+06</td>
+                        <td>1</td>
                         <td>ScPd5Au2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1506,6 +1764,11 @@ Sc Pieces (99.9%), Lot# P25F009
                         <td>132.8</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.601</td>
+                        <td>Au1 Pd5 Sc2</td>
+                        <td>-0.8754</td>
+                        <td>-0.009589</td>
+                        <td>1.992e+06</td>
+                        <td>1</td>
                         <td>Sc2Pd5Au</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1544,6 +1807,11 @@ Mn pieces (99.95%), Lot# R21G037...</td>
                         <td>100.6</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.6173</td>
+                        <td>Al2 Au6 Mn1</td>
+                        <td>-0.2547</td>
+                        <td>-0.0005924</td>
+                        <td>1.992e+06</td>
+                        <td>1</td>
                         <td>MnAl2Au6</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1583,6 +1851,11 @@ Ge P...</td>
                         <td>124.8</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1797</td>
+                        <td>Gd1 Ge1 Pt2</td>
+                        <td>-1.017</td>
+                        <td>-0.0325</td>
+                        <td>1.365e+06</td>
+                        <td>5</td>
                         <td>GdGePt2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1621,6 +1894,11 @@ Ni Pieces (99.995%), Lot# PLA846...</td>
                         <td>66.75</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.5056</td>
+                        <td>Ge2 Ni1 Pt1</td>
+                        <td>-0.4008</td>
+                        <td>-0.005805</td>
+                        <td>1.646e+06</td>
+                        <td>5</td>
                         <td>NiGe2Pt</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1660,6 +1938,11 @@ S...</td>
                         <td>171.9</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1957</td>
+                        <td>Pt5 Si1 Zr1</td>
+                        <td>-0.9391</td>
+                        <td>-0.04176</td>
+                        <td>2.146e+06</td>
+                        <td>1</td>
                         <td>ZrSiPt5</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1700,6 +1983,11 @@ A...</td>
                         <td>2.057</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.7466</td>
+                        <td>Al3 Co2 La5</td>
+                        <td>-0.3298</td>
+                        <td>-0.0006663</td>
+                        <td>1.783e+06</td>
+                        <td>1</td>
                         <td>La5Al3Co2</td>
                         <td>2.667</td>
                         <td>5.761</td>
@@ -1738,6 +2026,11 @@ Al shots (99.999%), Lot #I20Y033...</td>
                         <td>0.97</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.8934</td>
+                        <td>Al4 Co3 Fe1</td>
+                        <td>-0.5611</td>
+                        <td>-0.006495</td>
+                        <td>2.147e+06</td>
+                        <td>1</td>
                         <td>Al4FeCo3</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1776,6 +2069,11 @@ Al shots (99.999%), Lot #I20Y033...</td>
                         <td>1.007</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.9188</td>
+                        <td>Al8 Co7 Fe1</td>
+                        <td>-0.5911</td>
+                        <td>-0.003415</td>
+                        <td>2.155e+06</td>
+                        <td>1</td>
                         <td>Al8FeCo7</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1815,6 +2113,11 @@ Co s...</td>
                         <td>3.07</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.2373</td>
+                        <td>Co1 Gd3 Sn6</td>
+                        <td>-0.6358</td>
+                        <td>-0.02515</td>
+                        <td>1.791e+06</td>
+                        <td>1</td>
                         <td>Gd3CoSn6</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1854,6 +2157,11 @@ Co s...</td>
                         <td>1.709</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.04159</td>
+                        <td>Co4 Gd1 Sn6</td>
+                        <td>-0.311</td>
+                        <td>-0.004145</td>
+                        <td>1.369e+06</td>
+                        <td>1</td>
                         <td>GdCo4Sn6</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1892,6 +2200,11 @@ Ti pellets (???), Lot #PLA201452...</td>
                         <td>173.4</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1955</td>
+                        <td>Ge1 Pt5 Ti1</td>
+                        <td>-0.707</td>
+                        <td>-0.01883</td>
+                        <td>2.146e+06</td>
+                        <td>1</td>
                         <td>TiGePt5</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1930,6 +2243,11 @@ Ti pellets (???), Lot #PLA201452...</td>
                         <td>175.9</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.256</td>
+                        <td>Ge1 Pt8 Ti2</td>
+                        <td>-0.7654</td>
+                        <td>-0.003864</td>
+                        <td>2.149e+06</td>
+                        <td>1</td>
                         <td>Ti2GePt8</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -1968,6 +2286,11 @@ Ti pellets (???), Lot #PLA201452...</td>
                         <td>171.8</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1789</td>
+                        <td>Pt5 Si1 Ti1</td>
+                        <td>-0.8398</td>
+                        <td>-0.01648</td>
+                        <td>2.146e+06</td>
+                        <td>1</td>
                         <td>TiSiPt5</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2006,6 +2329,11 @@ Ti pellets (???), Lot #PLA201452...</td>
                         <td>174.9</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.191</td>
+                        <td>Pt8 Si1 Ti2</td>
+                        <td>-0.8508</td>
+                        <td>-0.004753</td>
+                        <td>2.149e+06</td>
+                        <td>1</td>
                         <td>Ti2SiPt8</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2045,6 +2373,11 @@ Fe p...</td>
                         <td>8.62</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.00973</td>
+                        <td>Fe1 Gd1 Ge3</td>
+                        <td>-0.4714</td>
+                        <td>-0.01899</td>
+                        <td>1.365e+06</td>
+                        <td>2</td>
                         <td>GdFeGe3</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2084,6 +2417,11 @@ Fe p...</td>
                         <td>7.43</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.009938</td>
+                        <td>Fe3 Gd2 Ge5</td>
+                        <td>-0.4763</td>
+                        <td>-0.008568</td>
+                        <td>1.8e+06</td>
+                        <td>2</td>
                         <td>Gd2Fe3Ge5</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2123,6 +2461,11 @@ Fe p...</td>
                         <td>7.775</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.01268</td>
+                        <td>Fe1 Gd1 Ge2</td>
+                        <td>-0.5452</td>
+                        <td>0.0001589</td>
+                        <td>1.378e+06</td>
+                        <td>3</td>
                         <td>GdFeGe2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2161,6 +2504,11 @@ Ga ingots (99.99999%), Lot #A16B...</td>
                         <td>6.825</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.05968</td>
+                        <td>Ga1 Hf2 Nb1</td>
+                        <td>-0.1488</td>
+                        <td>0.1575</td>
+                        <td>4.164e+05</td>
+                        <td>2</td>
                         <td>GaHf2Nb</td>
                         <td>7.912</td>
                         <td>6.077</td>
@@ -2199,6 +2547,11 @@ Ga ingots (99.99999%), Lot #A16B...</td>
                         <td>3.325</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.1241</td>
+                        <td>Ga1 Nb1 Zr2</td>
+                        <td>-0.1858</td>
+                        <td>0.1637</td>
+                        <td>5.58e+05</td>
+                        <td>2</td>
                         <td>GaNbZr2</td>
                         <td>14.16</td>
                         <td>9.055</td>
@@ -2237,6 +2590,11 @@ Nb powder (99.99%), Lot #E21Y045...</td>
                         <td>3.478</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.3434</td>
+                        <td>Nb5 Si2 V1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Nb5Si2V</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2275,6 +2633,11 @@ Co shot (99.5%), Lot #X9034, CER...</td>
                         <td>3.953</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1349</td>
+                        <td>Co1 Si1 Y1</td>
+                        <td>-0.7567</td>
+                        <td>-0.04293</td>
+                        <td>1.369e+06</td>
+                        <td>13</td>
                         <td>CoSiY</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2313,6 +2676,11 @@ Co shot (99.5%), Lot #X9034, CER...</td>
                         <td>2.836</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.01165</td>
+                        <td>Co1 Si3 Y1</td>
+                        <td>-0.6659</td>
+                        <td>-0.0173</td>
+                        <td>1.476e+06</td>
+                        <td>3</td>
                         <td>CoSi3Y</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2351,6 +2719,11 @@ Al shot (99.999%), Lot #I20Y033,...</td>
                         <td>2.695</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1809</td>
+                        <td>Al3 Cu2 Y1</td>
+                        <td>-0.4375</td>
+                        <td>-0.01084</td>
+                        <td>1.37e+06</td>
+                        <td>1</td>
                         <td>Al3Cu2Y</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2389,6 +2762,11 @@ Cu shot (99.9%), Lot #I26A21, ()...</td>
                         <td>4.167</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.1502</td>
+                        <td>Cu1 Sn1 Y1</td>
+                        <td>-0.6476</td>
+                        <td>-0.06909</td>
+                        <td>1.468e+06</td>
+                        <td>10</td>
                         <td>CuSnY</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2428,6 +2806,11 @@ N...</td>
                         <td>6.06</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.03074</td>
+                        <td>B2 Nb1 Ni2</td>
+                        <td>-0.5049</td>
+                        <td>0.01211</td>
+                        <td>1.378e+06</td>
+                        <td>1</td>
                         <td>B2NbNi2</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2466,6 +2849,11 @@ C (graphite pieces) (???%), Lot ...</td>
                         <td>53.35</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.04902</td>
+                        <td>C2 Cr1 Sc1</td>
+                        <td>-0.3453</td>
+                        <td>-0.00995</td>
+                        <td>1.452e+04</td>
+                        <td>2</td>
                         <td>C2CrSc</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2504,6 +2892,11 @@ C (graphite pieces) (???%), Lot ...</td>
                         <td>20.25</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.00289</td>
+                        <td>C2 La1 Ru1</td>
+                        <td>-0.1769</td>
+                        <td>0.0009225</td>
+                        <td>1.751e+06</td>
+                        <td>2</td>
                         <td>C2LaRu</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2542,6 +2935,11 @@ La pieces (???), Lot #???, (plas...</td>
                         <td>1.896</td>
                         <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
                         <td>0.07236</td>
+                        <td>La1 Ni1 Si3</td>
+                        <td>-0.6782</td>
+                        <td>-0.02468</td>
+                        <td>1.365e+06</td>
+                        <td>2</td>
                         <td>LaNiSi3</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2584,6 +2982,11 @@ P...</td>
                         <td>44.47</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9805</td>
+                        <td>Re4 Ta1 Zr1</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Re4TaZr</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>
@@ -2627,6 +3030,11 @@ target mass...</td>
                         <td>20.25</td>
                         <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
                         <td>0.9874</td>
+                        <td>Ge0.5 Mo3 Os0.5</td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td><span style="color: #999;">—</span></td>
+                        <td>0</td>
                         <td>Mo3Os0.5Ge0.5</td>
                         <td><span style="color: #999;">—</span></td>
                         <td><span style="color: #999;">—</span></td>

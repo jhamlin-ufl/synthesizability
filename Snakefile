@@ -38,6 +38,8 @@ rule all:
     input:
         "data/processed/synthesis_data.csv",
         "data/processed/synthesis_data.pkl",
+        "data/processed/oqmd_hull_data.csv",
+        "data/external/oqmd_structures/.extracted",
         "results/susceptibility/susceptibility_real_part.pdf",
         "results/susceptibility/susceptibility_imaginary_part.pdf",
         "results/susceptibility/hc2_with_fits.pdf",
@@ -82,13 +84,54 @@ rule compute_disorder_cache:
     shell:
         "poetry run python {input.script}"
 
+rule validate_oqmd_database:
+    output:
+        validation_marker=touch("data/processed/.oqmd_validated")
+    log:
+        "logs/validate_oqmd_database.log"
+    shell:
+        """
+        poetry run python scripts/validate_oqmd_database.py > {log} 2>&1
+        """
+
+rule query_oqmd_hulls:
+    input:
+        script="scripts/query_oqmd_hulls.py",
+        src=SRC_FILES,
+        validation="data/processed/.oqmd_validated",
+        csv="data/processed/synthesis_data_no_disorder.csv"
+    output:
+        csv="data/processed/oqmd_hull_data.csv"
+    log:
+        "logs/query_oqmd_hulls.log"
+    shell:
+        """
+        poetry run python {input.script} > {log} 2>&1
+        """
+
+rule extract_oqmd_structures:
+    input:
+        script="scripts/extract_oqmd_structures.py",
+        src=SRC_FILES,
+        validation="data/processed/.oqmd_validated",
+        hull_data="data/processed/oqmd_hull_data.csv"
+    output:
+        marker=touch("data/external/oqmd_structures/.extracted")
+    log:
+        "logs/extract_oqmd_structures.log"
+    shell:
+        """
+        poetry run python {input.script} > {log} 2>&1
+        """
+
 rule build_dataframe:
     input:
         script="scripts/build_dataframe.py",
         src=SRC_FILES,
         data=DATAFRAME_INPUT_FILES,
         reference=REFERENCE_DATA_FILES,
-        disorder_cache="data/processed/disorder_cache.csv"
+        disorder_cache="data/processed/disorder_cache.csv",
+        oqmd_hulls="data/processed/oqmd_hull_data.csv"
     output:
         csv="data/processed/synthesis_data.csv",
         pkl="data/processed/synthesis_data.pkl"

@@ -5,6 +5,7 @@ Build dataframe from synthesis experiment data.
 """
 
 from pathlib import Path
+import pandas as pd
 from synthesizability.io import build_dataframe, analyze_field_statistics, show_missing_samples
 
 
@@ -20,6 +21,16 @@ def main():
     df = build_dataframe(data_raw_dir)
     
     print(f"Created dataframe with {len(df)} samples and {len(df.columns)} columns")
+    
+    # Merge OQMD hull data if it exists
+    oqmd_hull_path = Path.cwd() / "data" / "processed" / "oqmd_hull_data.csv"
+    if oqmd_hull_path.exists():
+        print("\nMerging OQMD hull data...")
+        oqmd_df = pd.read_csv(oqmd_hull_path)
+        df = df.merge(oqmd_df, on='formula', how='left')
+        print(f"✓ Merged OQMD data for {df['oqmd_stability'].notna().sum()}/{len(df)} compositions")
+    else:
+        print("\n⚠ OQMD hull data not found, skipping merge")
     
     # Analyze statistics
     analyze_field_statistics(df)

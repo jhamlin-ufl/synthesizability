@@ -185,6 +185,11 @@ def generate_index(df, fit_params_df, output_path):
     avg_disorder = df_merged['disorder_probability'].mean() if 'disorder_probability' in df_merged.columns else 0
     n_low_disorder = (df_merged['disorder_probability'] < 0.5).sum() if 'disorder_probability' in df_merged.columns else 0
     
+    # OQMD statistics
+    n_with_oqmd = df_merged['oqmd_stability'].notna().sum() if 'oqmd_stability' in df_merged.columns else 0
+    n_oqmd_stable = (df_merged['oqmd_stability'] < 0.1).sum() if 'oqmd_stability' in df_merged.columns else 0
+    avg_oqmd_stability = df_merged['oqmd_stability'].mean() if 'oqmd_stability' in df_merged.columns else 0
+    
     html = f"""<!DOCTYPE html>
 <html>
 <head>
@@ -423,6 +428,18 @@ def generate_index(df, fit_params_df, output_path):
                 <div class="stat-label">Low Disorder (&lt;0.5)</div>
                 <div class="stat-value">{n_low_disorder}</div>
             </div>
+            <div class="stat-card">
+                <div class="stat-label">With OQMD Data</div>
+                <div class="stat-value">{n_with_oqmd}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">OQMD Stable (&lt;0.1 eV)</div>
+                <div class="stat-value">{n_oqmd_stable}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg E-above-hull</div>
+                <div class="stat-value">{avg_oqmd_stability:.3f} eV</div>
+            </div>
         </div>
         
         <div class="controls">
@@ -489,7 +506,7 @@ def generate_index(df, fit_params_df, output_path):
     print(f"Index written to {output_path}")
 
 
-def generate_detail_page(row, output_path, plot_info: dict):
+def generate_detail_page(row, output_path, plot_info: dict, oqmd_info: dict = None):
     """Generate detail page for a single sample."""
     
     sample_id = row['sample_id']
@@ -592,6 +609,47 @@ def generate_detail_page(row, output_path, plot_info: dict):
             background: #f8f9fa;
             font-weight: bold;
         }}
+        .oqmd-warning {{
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }}
+        .oqmd-stable {{
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }}
+        .oqmd-unstable {{
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }}
+        .cif-link {{
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 8px 12px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }}
+        .cif-link:hover {{
+            background: #0052a3;
+        }}
+        .external-link {{
+            color: #0066cc;
+            text-decoration: none;
+        }}
+        .external-link:hover {{
+            text-decoration: underline;
+        }}
     </style>
 </head>
 <body>
@@ -601,6 +659,64 @@ def generate_detail_page(row, output_path, plot_info: dict):
         <h1>{sample_id}</h1>
         <div class="formula">{formula}</div>
 """
+    
+    # Add OQMD section if data available
+    if oqmd_info and oqmd_info['has_data']:
+        html += '        <div class="section">\n'
+        html += '            <div class="section-title">OQMD Thermodynamic Data</div>\n'
+        
+        stability = oqmd_info['stability']
+        delta_e = oqmd_info['delta_e']
+        entry_id = oqmd_info['entry_id']
+        
+        # Classify stability
+        if stability < 0.01:
+            box_class = "oqmd-stable"
+            status_text = "✓ On convex hull - thermodynamically stable"
+        elif stability < 0.1:
+            box_class = "oqmd-warning"
+            status_text = "⚠ Metastable - likely synthesizable"
+        else:
+            box_class = "oqmd-unstable"
+            status_text = "✗ Above hull - competing phases more favorable"
+        
+        html += f'            <div class="{box_class}">\n'
+        html += f'                <strong>{status_text}</strong>\n'
+        html += '            </div>\n'
+        
+        html += '            <div class="field">\n'
+        html += '                <div class="field-label">Formation Energy (ΔHf)</div>\n'
+        html += f'                <div class="field-value">{delta_e:.4f} eV/atom</div>\n'
+        html += '            </div>\n'
+        
+        html += '            <div class="field">\n'
+        html += '                <div class="field-label">Energy Above Hull</div>\n'
+        html += f'                <div class="field-value">{stability:.4f} eV/atom</div>\n'
+        html += '            </div>\n'
+        
+        html += '            <div class="field">\n'
+        html += '                <div class="field-label">OQMD Entry</div>\n'
+        html += f'                <div class="field-value">'
+        html += f'<a href="https://oqmd.org/materials/entry/{entry_id}" class="external-link" target="_blank">'
+        html += f'Entry {entry_id} ↗</a></div>\n'
+        html += '            </div>\n'
+        
+        # Add CIF download links
+        if oqmd_info['cif_files']:
+            html += '            <div class="field">\n'
+            html += '                <div class="field-label">Structure Files</div>\n'
+            html += '                <div class="field-value">\n'
+            for cif_path in oqmd_info['cif_files']:
+                html += f'                    <a href="{cif_path}" class="cif-link" download>Download CIF</a>\n'
+            html += '                </div>\n'
+            html += '            </div>\n'
+        
+        html += '        </div>\n'
+    else:
+        html += '        <div class="section">\n'
+        html += '            <div class="section-title">OQMD Thermodynamic Data</div>\n'
+        html += '            <div style="color: #999; font-style: italic;">No OQMD data available for this composition</div>\n'
+        html += '        </div>\n'
     
     # Group fields into sections
     sections = {
@@ -620,7 +736,7 @@ def generate_detail_page(row, output_path, plot_info: dict):
         for field in fields:
             if field not in row.index:
                 continue
-                
+            
             val = row[field]
             field_html = serialize_for_detail(val, key=field)
             
@@ -692,6 +808,15 @@ def main():
     df = pd.read_pickle('data/processed/synthesis_data.pkl')
     print(f"\nLoaded {len(df)} samples from dataframe")
     
+    # Load OQMD hull data if available
+    oqmd_hull_path = Path('data/processed/oqmd_hull_data.csv')
+    if oqmd_hull_path.exists():
+        oqmd_df = pd.read_csv(oqmd_hull_path)
+        print(f"Loaded OQMD hull data for {oqmd_df['oqmd_stability'].notna().sum()} compositions")
+    else:
+        oqmd_df = None
+        print("No OQMD hull data found")
+    
     # Load fit parameters if available
     fit_params_path = Path('results/susceptibility/hc2_fit_parameters.csv')
     if fit_params_path.exists():
@@ -713,20 +838,22 @@ def main():
     index_path = Path('results/dashboard/index.html')
     generate_index(df, fit_params_df, index_path)
     
-    # Generate detail pages with plots
-    print("\nGenerating detail pages with susceptibility plots...")
+    # Generate detail pages with plots and OQMD data
+    print("\nGenerating detail pages with susceptibility plots and OQMD data...")
     data_dir = Path('data/raw')
+    oqmd_structures_dir = Path('data/external/oqmd_structures')
     
     for idx, row in df.iterrows():
         sample_id = row['sample_id']
         sample_dir = data_dir / sample_id
+        formula = row['formula']
         
         print(f"  Processing {sample_id}...", end='')
         
         # Generate plots if chi data exists
         if row['chi_n_files'] > 0:
             plot_info = generate_susceptibility_plots(sample_id, sample_dir, plots_dir)
-            print(f" [χ plots generated]")
+            print(f" [χ plots]", end='')
         else:
             plot_info = {
                 'chi_real': None,
@@ -734,11 +861,37 @@ def main():
                 'hc2': None,
                 'fit_results': None
             }
-            print(f" [no χ data]")
+        
+        # Prepare OQMD info
+        oqmd_info = {'has_data': False}
+        if oqmd_df is not None:
+            oqmd_row = oqmd_df[oqmd_df['formula'] == formula]
+            if len(oqmd_row) > 0 and pd.notna(oqmd_row.iloc[0]['oqmd_stability']):
+                entry_id = int(oqmd_row.iloc[0]['oqmd_entry_id'])
+                
+                # Find CIF files for this composition
+                cif_dir = oqmd_structures_dir / formula
+                cif_files = []
+                if cif_dir.exists():
+                    for cif_path in cif_dir.glob('*.cif'):
+                        # Make path relative to the sample detail page
+                        rel_path = f'../../../data/external/oqmd_structures/{formula}/{cif_path.name}'
+                        cif_files.append(rel_path)
+                
+                oqmd_info = {
+                    'has_data': True,
+                    'stability': oqmd_row.iloc[0]['oqmd_stability'],
+                    'delta_e': oqmd_row.iloc[0]['oqmd_delta_e'],
+                    'entry_id': entry_id,
+                    'n_polymorphs': int(oqmd_row.iloc[0]['oqmd_n_polymorphs']),
+                    'cif_files': cif_files
+                }
+                print(f" [OQMD: {oqmd_info['stability']:.3f} eV/atom]", end='')
         
         # Generate detail page
         detail_path = samples_dir / f'{sample_id}.html'
-        generate_detail_page(row, detail_path, plot_info)
+        generate_detail_page(row, detail_path, plot_info, oqmd_info)
+        print()  # newline
     
     print("\n" + "="*80)
     print(f"Dashboard complete!")
