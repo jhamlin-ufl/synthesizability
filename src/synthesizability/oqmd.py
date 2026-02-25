@@ -24,7 +24,7 @@ def run_mysql_query(query: str) -> Optional[str]:
         Query output as string, or None if failed
     """
     try:
-        cmd = ['sudo', 'mysql', '-e', f'USE qmdb; {query}']
+        cmd = ['mysql', '-e', f'USE qmdb; {query}']
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError:
@@ -205,7 +205,7 @@ def get_structure_from_db(entry_id: int) -> Optional[Structure]:
 def check_database_exists() -> bool:
     """Check if qmdb database exists."""
     try:
-        cmd = ['sudo', 'mysql', '-e', 'SHOW DATABASES LIKE "qmdb";']
+        cmd = ['mysql', '-e', 'SHOW DATABASES LIKE "qmdb";']
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return 'qmdb' in result.stdout
     except:
