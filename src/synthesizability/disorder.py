@@ -196,3 +196,5 @@ def predict_disorder_single(formula):
         return results[0]['disorder_probability']
     else:
         return None
+
+# test_trigger

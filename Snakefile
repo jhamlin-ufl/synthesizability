@@ -121,7 +121,6 @@ rule compute_disorder_cache:
 rule compute_supercon_cache:
     input:
         script="scripts/compute_supercon_cache.py",
-        src=SRC_DASHBOARD,
         supercon=SUPERCON_DATA_FILES,
         formulas="data/processed/formulas.txt",
     output:
