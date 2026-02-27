@@ -21,22 +21,18 @@ def main():
     overall_start = time.time()
     
     # Paths
-    synthesis_csv = Path("data/processed/synthesis_data_no_disorder.csv")  # CHANGED
+    formulas_txt = Path("data/processed/formulas.txt")
     cache_csv = Path("data/processed/disorder_cache.csv")
-    
-    # Load synthesis data
-    if not synthesis_csv.exists():
-        # Try the regular name as fallback
-        synthesis_csv = Path("data/processed/synthesis_data.csv")
-        if not synthesis_csv.exists():
-            print(f"\nERROR: Neither synthesis_data_no_disorder.csv nor synthesis_data.csv found!")
-            print("Run 'snakemake data/processed/synthesis_data.csv' first")
-            return 1
-    
-    print(f"\nLoading synthesis data from {synthesis_csv}...")
-    df = pd.read_csv(synthesis_csv)
-    formulas_needed = df['formula'].dropna().unique().tolist()
-    print(f"Found {len(formulas_needed)} unique formulas in synthesis data")
+
+    # Load formula list
+    if not formulas_txt.exists():
+        print(f"\nERROR: {formulas_txt} not found!")
+        print("Run 'snakemake data/processed/formulas.txt' first")
+        return 1
+
+    print(f"\nLoading formulas from {formulas_txt}...")
+    formulas_needed = [f.strip() for f in formulas_txt.read_text().splitlines() if f.strip()]
+    print(f"Found {len(formulas_needed)} unique formulas")
     
     # Load existing cache
     if cache_csv.exists():

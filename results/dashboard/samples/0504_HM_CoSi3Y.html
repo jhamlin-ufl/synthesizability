@@ -6,301 +6,215 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: #f5f5f5;
+            margin: 0; padding: 20px; background: #f5f5f5;
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 1200px; margin: 0 auto; background: white;
+            padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        .back-link {
-            color: #0066cc;
-            text-decoration: none;
-            margin-bottom: 20px;
-            display: inline-block;
-        }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-        h1 {
-            color: #333;
-            border-bottom: 3px solid #0066cc;
-            padding-bottom: 10px;
-            margin-top: 0;
-        }
-        .formula {
-            font-family: 'Courier New', monospace;
-            font-size: 1.2em;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .section {
-            margin: 30px 0;
-        }
+        .back-link { color: #0066cc; text-decoration: none; margin-bottom: 20px; display: inline-block; }
+        .back-link:hover { text-decoration: underline; }
+        h1 { color: #333; border-bottom: 3px solid #0066cc; padding-bottom: 10px; margin-top: 0; }
+        .formula { font-family: 'Courier New', monospace; font-size: 1.2em; color: #666; margin-bottom: 20px; }
+        .section { margin: 30px 0; }
         .section-title {
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #0066cc;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
+            font-size: 1.3em; font-weight: bold; color: #0066cc;
+            border-bottom: 2px solid #e0e0e0; padding-bottom: 5px; margin-bottom: 15px;
         }
-        .field {
-            margin: 15px 0;
-        }
-        .field-label {
-            font-weight: bold;
-            color: #555;
-            margin-bottom: 5px;
-        }
-        .field-value {
-            color: #333;
-            line-height: 1.6;
-        }
+        .field { margin: 15px 0; }
+        .field-label { font-weight: bold; color: #555; margin-bottom: 5px; }
+        .field-value { color: #333; line-height: 1.6; }
         .text-block {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 4px;
-            border-left: 4px solid #0066cc;
-            white-space: pre-wrap;
-            font-family: 'Courier New', monospace;
-            font-size: 0.9em;
+            background: #f8f9fa; padding: 15px; border-radius: 4px;
+            border-left: 4px solid #0066cc; white-space: pre-wrap;
+            font-family: 'Courier New', monospace; font-size: 0.9em;
         }
-        .plot-container {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .plot-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .fit-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-        .fit-table th, .fit-table td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        .fit-table th {
-            background: #f8f9fa;
-            font-weight: bold;
-        }
-        .oqmd-warning {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 15px 0;
-        }
-        .oqmd-stable {
-            background: #d4edda;
-            border-left: 4px solid #28a745;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 15px 0;
-        }
-        .oqmd-unstable {
-            background: #f8d7da;
-            border-left: 4px solid #dc3545;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 15px 0;
-        }
+        .plot-container { margin: 20px 0; text-align: center; }
+        .plot-container img { max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .fit-table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        .fit-table th, .fit-table td { padding: 10px; text-align: left; border-bottom: 1px solid #e0e0e0; }
+        .fit-table th { background: #f8f9fa; font-weight: bold; }
+        .oqmd-warning { background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; border-radius: 4px; margin: 15px 0; }
+        .oqmd-stable { background: #d4edda; border-left: 4px solid #28a745; padding: 15px; border-radius: 4px; margin: 15px 0; }
+        .oqmd-unstable { background: #f8d7da; border-left: 4px solid #dc3545; padding: 15px; border-radius: 4px; margin: 15px 0; }
         .cif-link {
-            display: inline-block;
-            margin: 5px 10px 5px 0;
-            padding: 8px 12px;
-            background: #0066cc;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.9em;
+            display: inline-block; margin: 5px 10px 5px 0; padding: 8px 12px;
+            background: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;
         }
-        .cif-link:hover {
-            background: #0052a3;
-        }
-        .external-link {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .external-link:hover {
-            text-decoration: underline;
-        }
+        .cif-link:hover { background: #0052a3; }
+        .external-link { color: #0066cc; text-decoration: none; }
+        .external-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <div class="container">
         <a href="../index.html" class="back-link">← Back to Dashboard</a>
-        
         <h1>0504_HM_CoSi3Y</h1>
         <div class="formula">CoSi3Y</div>
         <div class="section">
-            <div class="section-title">OQMD Thermodynamic Data</div>
-            <div class="oqmd-stable">
-                <strong>✓ On convex hull - thermodynamically stable</strong>
-            </div>
-            <div class="field">
-                <div class="field-label">Formation Energy (ΔHf)</div>
-                <div class="field-value">-0.6659 eV/atom</div>
-            </div>
-            <div class="field">
-                <div class="field-label">Energy Above Hull</div>
-                <div class="field-value">-0.0173 eV/atom</div>
-            </div>
-            <div class="field">
-                <div class="field-label">OQMD Entry</div>
-                <div class="field-value"><a href="https://oqmd.org/materials/entry/1475971" class="external-link" target="_blank">Entry 1475971 ↗</a></div>
-            </div>
-            <div class="field">
-                <div class="field-label">Structure Files</div>
-                <div class="field-value">
-                    <a href="../../../data/external/oqmd_structures/CoSi3Y/1475971.cif" class="cif-link" download>Download CIF</a>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">Basic Information</div>
-            <div class="field">
-                <div class="field-label">sample_number</div>
-                <div class="field-value">504</div>
-            </div>
-            <div class="field">
-                <div class="field-label">sample_id</div>
-                <div class="field-value">0504_HM_CoSi3Y</div>
-            </div>
-            <div class="field">
-                <div class="field-label">formula</div>
-                <div class="field-value">CoSi3Y</div>
-            </div>
-            <div class="field">
-                <div class="field-label">files</div>
-                <div class="field-value"><ul style="margin: 5px 0; padding-left: 20px;"><li>SYNTHESIS</li><li>0504_HM_CoSi3Y_circular.txt</li><li>STATUS</li></ul></div>
-            </div>
-            <div class="field">
-                <div class="field-label">has_summary</div>
-                <div class="field-value"><span style="color: #dc3545; font-weight: bold;">No</span></div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">Characterization</div>
-            <div class="field">
-                <div class="field-label">superconductivity</div>
-                <div class="field-value">Not above 2.0 K</div>
-            </div>
-            <div class="field">
-                <div class="field-label">tc_kelvin</div>
-                <div class="field-value"><em style="color: #999;">Not available</em></div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_type</div>
-                <div class="field-value">Powder</div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_instrument</div>
-                <div class="field-value">Siemens</div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_result</div>
-                <div class="field-value">not yet analyzed</div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">Synthesis Details</div>
-            <div class="field">
-                <div class="field-label">synthesis_content</div>
-                <div class="text-block">Raw materials:<br>Co shot (99.5%), Lot #X9034, CERAC<br>Si granular (99.999%), Lot X24C057, Alfa Aesar<br>Y pieces (???), Source ???, Sigma ??? (glovebox label only has element)<br><br>Procedure:<br>target masses<br>Co: 0.05650 g, Si: 0.17000 g, Y: 0.17940 g<br><br>measured masses<br>Co: 0.05680 g, Si: 0.17039 g, Y: 0.17959 g<br><br>initial mass: 0.40678 g<br>final mass:   0.39484 g<br>loss: 2.94%<br><br>Heating curve: Followed instructions for weighing w/ an air sensitive element (Y), then melted/flipped 3 times. Putting it in the longer slot on the copper plate may have made melting more challenging, contributing to higher mass loss.</div>
-            </div>
-            <div class="field">
-                <div class="field-label">mass_loss_percent</div>
-                <div class="field-value">2.94</div>
-            </div>
-            <div class="field">
-                <div class="field-label">initial_mass_g</div>
-                <div class="field-value">0.4068</div>
-            </div>
-            <div class="field">
-                <div class="field-label">final_mass_g</div>
-                <div class="field-value">0.3948</div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">Cost & Feasibility</div>
-            <div class="field">
-                <div class="field-label">price_per_gram</div>
-                <div class="field-value">2.836</div>
-            </div>
-            <div class="field">
-                <div class="field-label">arc_meltable</div>
-                <div class="field-value"><span style="color: #28a745; font-weight: bold;">Yes</span></div>
-            </div>
-            <div class="field">
-                <div class="field-label">disorder_probability</div>
-                <div class="field-value">0.01165</div>
-            </div>
-            <div class="field">
-                <div class="field-label">prediction_list</div>
-                <div class="field-value">James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)</div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">XRD Data</div>
-            <div class="field">
-                <div class="field-label">xrd_patterns</div>
-                <div class="field-value"><div style="margin-top: 10px;"><div style="background: #f8f9fa; padding: 10px; margin: 5px 0; border-radius: 4px;"><strong>Pattern 1:</strong><br>Instrument: Siemens<br>Date: 11/15/2025<br>Anode: Cu<br>2θ range: 5.02 - 120.0°<br>Points: 5750<br>File: 0504_HM_CoSi3Y_circular.txt</div></div></div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_files</div>
-                <div class="field-value"><ul style="margin: 5px 0; padding-left: 20px;"><li>0504_HM_CoSi3Y_circular.txt</li></ul></div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_n_files</div>
-                <div class="field-value">1</div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_two_theta_min</div>
-                <div class="field-value">5.02</div>
-            </div>
-            <div class="field">
-                <div class="field-label">xrd_two_theta_max</div>
-                <div class="field-value">120</div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">Susceptibility Data</div>
-            <div class="field">
-                <div class="field-label">chi_files</div>
-                <div class="field-value"><em style="color: #999;">Empty list</em></div>
-            </div>
-            <div class="field">
-                <div class="field-label">chi_n_files</div>
-                <div class="field-value">0</div>
-            </div>
-            <div class="field">
-                <div class="field-label">chi_has_high_field</div>
-                <div class="field-value"><span style="color: #dc3545; font-weight: bold;">No</span></div>
-            </div>
-            <div class="field">
-                <div class="field-label">chi_fields</div>
-                <div class="field-value"><em style="color: #999;">Empty list</em></div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="section-title">Status</div>
-            <div class="field">
-                <div class="field-label">status_content</div>
-                <div class="text-block">Superconductivity: Not above 2.0 K<br>XRD: Powder, Hamlin XRD, not yet analyzed<br>List: James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)</div>
-            </div>
-        </div>
+<div class="section-title">Basic Information</div>
+<div class="field">
+<div class="field-label">sample_number</div>
+<div class="field-value">504</div>
+</div>
+<div class="field">
+<div class="field-label">sample_id</div>
+<div class="field-value">0504_HM_CoSi3Y</div>
+</div>
+<div class="field">
+<div class="field-label">formula</div>
+<div class="field-value">CoSi3Y</div>
+</div>
+<div class="field">
+<div class="field-label">files</div>
+<div class="field-value"><ul style="margin: 5px 0; padding-left: 20px;"><li>SYNTHESIS</li><li>0504_HM_CoSi3Y_circular.txt</li><li>STATUS</li></ul></div>
+</div>
+<div class="field">
+<div class="field-label">has_summary</div>
+<div class="field-value"><span style="color: #dc3545; font-weight: bold;">No</span></div>
+</div>
+</div>
+<div class="section">
+<div class="section-title">Characterization</div>
+<div class="field">
+<div class="field-label">superconductivity</div>
+<div class="field-value">Not above 2.0 K</div>
+</div>
+<div class="field">
+<div class="field-label">tc_kelvin</div>
+<div class="field-value"><em style="color: #999;">Not available</em></div>
+</div>
+<div class="field">
+<div class="field-label">xrd_type</div>
+<div class="field-value">Powder</div>
+</div>
+<div class="field">
+<div class="field-label">xrd_instrument</div>
+<div class="field-value">Siemens</div>
+</div>
+<div class="field">
+<div class="field-label">xrd_result</div>
+<div class="field-value">not yet analyzed</div>
+</div>
+</div>
+<div class="section">
+<div class="section-title">Synthesis Details</div>
+<div class="field">
+<div class="field-label">synthesis_content</div>
+<div class="text-block">Raw materials:<br>Co shot (99.5%), Lot #X9034, CERAC<br>Si granular (99.999%), Lot X24C057, Alfa Aesar<br>Y pieces (???), Source ???, Sigma ??? (glovebox label only has element)<br><br>Procedure:<br>target masses<br>Co: 0.05650 g, Si: 0.17000 g, Y: 0.17940 g<br><br>measured masses<br>Co: 0.05680 g, Si: 0.17039 g, Y: 0.17959 g<br><br>initial mass: 0.40678 g<br>final mass:   0.39484 g<br>loss: 2.94%<br><br>Heating curve: Followed instructions for weighing w/ an air sensitive element (Y), then melted/flipped 3 times. Putting it in the longer slot on the copper plate may have made melting more challenging, contributing to higher mass loss.</div>
+</div>
+<div class="field">
+<div class="field-label">mass_loss_percent</div>
+<div class="field-value">2.94</div>
+</div>
+<div class="field">
+<div class="field-label">initial_mass_g</div>
+<div class="field-value">0.4068</div>
+</div>
+<div class="field">
+<div class="field-label">final_mass_g</div>
+<div class="field-value">0.3948</div>
+</div>
+</div>
+<div class="section">
+<div class="section-title">Cost & Feasibility</div>
+<div class="field">
+<div class="field-label">price_per_gram</div>
+<div class="field-value">2.836</div>
+</div>
+<div class="field">
+<div class="field-label">arc_meltable</div>
+<div class="field-value"><span style="color: #28a745; font-weight: bold;">Yes</span></div>
+</div>
+<div class="field">
+<div class="field-label">disorder_probability</div>
+<div class="field-value">0.01165</div>
+</div>
+<div class="field">
+<div class="field-label">prediction_list</div>
+<div class="field-value">James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)</div>
+</div>
+</div>
+<div class="section">
+<div class="section-title">XRD Data</div>
+<div class="field">
+<div class="field-label">xrd_patterns</div>
+<div class="field-value"><div style="margin-top: 10px;"><div style="background: #f8f9fa; padding: 10px; margin: 5px 0; border-radius: 4px;"><strong>Pattern 1:</strong><br>Instrument: Siemens<br>Date: 11/15/2025<br>Anode: Cu<br>2θ range: 5.02 - 120.0°<br>Points: 5750<br>File: 0504_HM_CoSi3Y_circular.txt</div></div></div>
+</div>
+<div class="field">
+<div class="field-label">xrd_files</div>
+<div class="field-value"><ul style="margin: 5px 0; padding-left: 20px;"><li>0504_HM_CoSi3Y_circular.txt</li></ul></div>
+</div>
+<div class="field">
+<div class="field-label">xrd_n_files</div>
+<div class="field-value">1</div>
+</div>
+<div class="field">
+<div class="field-label">xrd_two_theta_min</div>
+<div class="field-value">5.02</div>
+</div>
+<div class="field">
+<div class="field-label">xrd_two_theta_max</div>
+<div class="field-value">120</div>
+</div>
+</div>
+<div class="section">
+<div class="section-title">Susceptibility Data</div>
+<div class="field">
+<div class="field-label">chi_files</div>
+<div class="field-value"><em style="color: #999;">Empty list</em></div>
+</div>
+<div class="field">
+<div class="field-label">chi_n_files</div>
+<div class="field-value">0</div>
+</div>
+<div class="field">
+<div class="field-label">chi_has_high_field</div>
+<div class="field-value"><span style="color: #dc3545; font-weight: bold;">No</span></div>
+</div>
+<div class="field">
+<div class="field-label">chi_fields</div>
+<div class="field-value"><em style="color: #999;">Empty list</em></div>
+</div>
+</div>
+<div class="section">
+<div class="section-title">Status</div>
+<div class="field">
+<div class="field-label">status_content</div>
+<div class="text-block">Superconductivity: Not above 2.0 K<br>XRD: Powder, Hamlin XRD, not yet analyzed<br>List: James's (thermodynamically stable, low-disorder superconductor candidates from the Alexandria database)</div>
+</div>
+</div>
+
+        
+<div class="section">
+    <div class="section-title">OQMD Thermodynamic Data</div>
+    
+<div class="oqmd-stable">
+    <strong>✓ On convex hull - thermodynamically stable</strong>
+</div>
+<div class="field">
+    <div class="field-label">Formation Energy (ΔHf)</div>
+    <div class="field-value">-0.6659 eV/atom</div>
+</div>
+<div class="field">
+    <div class="field-label">Energy Above Hull</div>
+    <div class="field-value">-0.0173 eV/atom</div>
+</div>
+<div class="field">
+    <div class="field-label">OQMD Entry</div>
+    <div class="field-value">
+        <a href="https://oqmd.org/materials/entry/1475971" class="external-link" target="_blank">
+        Entry 1475971 ↗</a>
+    </div>
+</div>
+
+<div class="field">
+    <div class="field-label">Structure Files</div>
+    <div class="field-value"><a href="../../../data/external/oqmd_structures/CoSi3Y/1475971.cif" class="cif-link" download>Download CIF</a>
+</div>
+</div>
+
+</div>
     </div>
 </body>
 </html>

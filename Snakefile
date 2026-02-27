@@ -51,34 +51,42 @@ checkpoint build_dataframe_for_formulas:
     input:
         script="scripts/build_dataframe.py",
         src=SRC_FILES,
-        data=DATAFRAME_INPUT_FILES,
+        data=STATUS_FILES + SYNTHESIS_FILES,
         reference=REFERENCE_DATA_FILES
     output:
-        csv=temp("data/processed/synthesis_data_no_disorder.csv")
+        csv="data/processed/synthesis_data_no_disorder.csv",
+        formulas="data/processed/formulas.txt"
     run:
         import shutil
+        import pandas as pd
+
         # Temporarily hide disorder cache if it exists
         cache_path = Path("data/processed/disorder_cache.csv")
         backup_path = Path("data/processed/disorder_cache.csv.backup")
-        
+
         if cache_path.exists():
             shutil.move(str(cache_path), str(backup_path))
-        
+
         # Build dataframe
         shell("poetry run python {input.script}")
-        
+
         # Move output and restore cache
         shutil.move("data/processed/synthesis_data.csv", str(output.csv))
-        
+
         if backup_path.exists():
             shutil.move(str(backup_path), str(cache_path))
+
+        # Write sorted unique formula list
+        df = pd.read_csv(output.csv)
+        formulas = sorted(df['formula'].dropna().unique().tolist())
+        Path(output.formulas).write_text('\n'.join(formulas) + '\n')
 
 rule compute_disorder_cache:
     input:
         script="scripts/compute_disorder_probabilities.py",
         src=SRC_FILES,
         model_files=DISORDER_MODEL_FILES,
-        csv="data/processed/synthesis_data_no_disorder.csv"
+        formulas="data/processed/formulas.txt"
     output:
         cache="data/processed/disorder_cache.csv"
     shell:
@@ -156,6 +164,7 @@ rule generate_dashboard:
         script="scripts/generate_dashboard.py",
         data="data/processed/synthesis_data.pkl",
         params="results/susceptibility/hc2_fit_parameters.csv",
+        chi_data=CHI_DATA_FILES,
         src=SRC_FILES
     output:
         index="results/dashboard/index.html"
