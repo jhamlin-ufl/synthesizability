@@ -112,6 +112,10 @@
             </div>
             
             <div class="stat-card">
+                <div class="stat-label">Composition Flags</div>
+                <div class="stat-value">12</div>
+            </div>
+            <div class="stat-card">
                 <div class="stat-label">With OQMD Data</div>
                 <div class="stat-value">50</div>
             </div>
@@ -159,15 +163,17 @@
 <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(11, this)"> price_per_gram</label>
 <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(12, this)"> arc_meltable</label>
 <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(13, this)"> disorder_probability</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(14, this)"> oqmd_formula</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(15, this)"> oqmd_delta_e</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(16, this)"> oqmd_stability</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(17, this)"> oqmd_entry_id</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(18, this)"> oqmd_n_polymorphs</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(19, this)"> tc_kelvin</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(20, this)"> chi_n_files</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(21, this)"> chi_has_high_field</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(22, this)"> chi_fields</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(14, this)"> composition_ok</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(15, this)"> composition_max_deviation</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(16, this)"> oqmd_formula</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(17, this)"> oqmd_delta_e</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(18, this)"> oqmd_stability</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(19, this)"> oqmd_entry_id</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(20, this)"> oqmd_n_polymorphs</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(21, this)"> tc_kelvin</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(22, this)"> chi_n_files</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(23, this)"> chi_has_high_field</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(24, this)"> chi_fields</label>
 
                 </div>
             </details>
@@ -188,15 +194,17 @@
 <th onclick="sortTable(11)">price_per_gram ▾</th>
 <th onclick="sortTable(12)">arc_meltable ▾</th>
 <th onclick="sortTable(13)">disorder_probability ▾</th>
-<th onclick="sortTable(14)">oqmd_formula ▾</th>
-<th onclick="sortTable(15)">oqmd_delta_e ▾</th>
-<th onclick="sortTable(16)">oqmd_stability ▾</th>
-<th onclick="sortTable(17)">oqmd_entry_id ▾</th>
-<th onclick="sortTable(18)">oqmd_n_polymorphs ▾</th>
-<th onclick="sortTable(19)">tc_kelvin ▾</th>
-<th onclick="sortTable(20)">chi_n_files ▾</th>
-<th onclick="sortTable(21)">chi_has_high_field ▾</th>
-<th onclick="sortTable(22)">chi_fields ▾</th>
+<th onclick="sortTable(14)">composition_ok ▾</th>
+<th onclick="sortTable(15)">composition_max_deviation ▾</th>
+<th onclick="sortTable(16)">oqmd_formula ▾</th>
+<th onclick="sortTable(17)">oqmd_delta_e ▾</th>
+<th onclick="sortTable(18)">oqmd_stability ▾</th>
+<th onclick="sortTable(19)">oqmd_entry_id ▾</th>
+<th onclick="sortTable(20)">oqmd_n_polymorphs ▾</th>
+<th onclick="sortTable(21)">tc_kelvin ▾</th>
+<th onclick="sortTable(22)">chi_n_files ▾</th>
+<th onclick="sortTable(23)">chi_has_high_field ▾</th>
+<th onclick="sortTable(24)">chi_fields ▾</th>
 </tr></thead>
                 <tbody><tr>
 <td><a href="samples/0447_HM_MoTiTa2.html" class="sample-link">View</a></td>
@@ -213,6 +221,8 @@
 <td>2.035</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.975</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.2499</td>
 <td>Mo1 Ta2 Ti1</td>
 <td>-0.06738</td>
 <td>0.04485</td>
@@ -238,6 +248,8 @@
 <td>2.22</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9981</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.2509</td>
 <td>Mo1 Ta1 Ti2</td>
 <td>-0.0671</td>
 <td>0.04341</td>
@@ -263,6 +275,8 @@
 <td>2.367</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9978</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>8.4e-05</td>
 <td>Hf1 Ta4 Zr1</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -288,6 +302,8 @@
 <td>3.9</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9981</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001009</td>
 <td>Hf1 Mo1 Ta2</td>
 <td>0.03246</td>
 <td>0.1426</td>
@@ -313,6 +329,8 @@
 <td>2.45</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9918</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000373</td>
 <td>Mo1 Ta1 Zr2</td>
 <td>0.09448</td>
 <td>0.1918</td>
@@ -338,6 +356,8 @@
 <td>6.135</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9529</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000459</td>
 <td>Hf2 Mo1 Ti1</td>
 <td>0.01292</td>
 <td>0.1161</td>
@@ -363,6 +383,8 @@
 <td>5.18</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9934</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000864</td>
 <td>Hf1 Mo1 Ti1</td>
 <td>-0.0111</td>
 <td>0.1265</td>
@@ -388,6 +410,8 @@
 <td>2.85</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9986</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00114</td>
 <td>Nb2 Ta1 Zr1</td>
 <td>0.07493</td>
 <td>0.07788</td>
@@ -413,6 +437,8 @@
 <td>1.975</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9991</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000986</td>
 <td>Nb1 Ta2 Zr1</td>
 <td>0.1144</td>
 <td>0.1179</td>
@@ -438,6 +464,8 @@
 <td>6.825</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9665</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000198</td>
 <td>Hf2 Mo1 Nb1</td>
 <td>0.0786</td>
 <td>0.1442</td>
@@ -463,6 +491,8 @@
 <td>3.325</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9957</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000691</td>
 <td>Mo1 Nb1 Zr2</td>
 <td>0.08836</td>
 <td>0.1492</td>
@@ -488,6 +518,8 @@
 <td>3.73</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9988</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000347</td>
 <td>Mo3 Nb1 Ti2</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -513,6 +545,8 @@
 <td>5.25</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9992</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001195</td>
 <td>Hf1 Mo2 Zr1</td>
 <td>0.04414</td>
 <td>0.1719</td>
@@ -538,6 +572,8 @@
 <td>36.83</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.991</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000736</td>
 <td>Hf2 Mo1 Re3</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -563,6 +599,8 @@
 <td>17.65</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9987</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000155</td>
 <td>Hf2 Nb3 Ru1</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -588,6 +626,8 @@
 <td>28.22</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9953</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00031</td>
 <td>Mo3 Nb1 Ru2</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -613,6 +653,8 @@
 <td>39.83</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9973</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000255</td>
 <td>Mo1 Nb1 Ru2</td>
 <td>0.1178</td>
 <td>0.2743</td>
@@ -638,6 +680,8 @@
 <td>51.42</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9321</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.002805</td>
 <td>Cu5 Ge1 Pd6</td>
 <td>-0.256</td>
 <td>-0.0196</td>
@@ -663,6 +707,8 @@
 <td>30.75</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.8958</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001598</td>
 <td>Hf2 Ir1 Mo1</td>
 <td>-0.6075</td>
 <td>-0.01863</td>
@@ -688,6 +734,8 @@
 <td>2.983</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9987</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001194</td>
 <td>Cu1 Nb3 Zr2</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -713,6 +761,8 @@
 <td>101.8</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.7492</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001209</td>
 <td>Cu1 Pd2 Sc1</td>
 <td>-0.6926</td>
 <td>0.0177</td>
@@ -738,6 +788,8 @@
 <td>2.725</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9941</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001208</td>
 <td>Mo1 Nb1 Ta2</td>
 <td>-0.08065</td>
 <td>0.02962</td>
@@ -763,6 +815,8 @@
 <td>3.6</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9988</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00076</td>
 <td>Mo1 Nb2 Ta1</td>
 <td>-0.06411</td>
 <td>0.03327</td>
@@ -788,6 +842,8 @@
 <td>51.67</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.2457</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000222</td>
 <td>Cu4 Pd1 Sc1</td>
 <td>-0.344</td>
 <td>-0.02417</td>
@@ -813,6 +869,8 @@
 <td>136.5</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.8783</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000246</td>
 <td>Cu1 Pd2 Sc3</td>
 <td>-0.7014</td>
 <td>-0.003025</td>
@@ -838,6 +896,8 @@
 <td>128.2</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.8883</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000105</td>
 <td>Cu1 Pd1 Sc2</td>
 <td>-0.591</td>
 <td>0.004777</td>
@@ -863,6 +923,8 @@
 <td>81.2</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.8795</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000968</td>
 <td>Au2 La2 Pd1</td>
 <td>-0.847</td>
 <td>-0.0008401</td>
@@ -888,6 +950,8 @@
 <td>139</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.5617</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000235</td>
 <td>Au1 Pd2 Sc1</td>
 <td>-0.8403</td>
 <td>0.006369</td>
@@ -913,6 +977,8 @@
 <td>125.8</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.8114</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>8.9e-05</td>
 <td>Au2 Pd5 Sc1</td>
 <td>-0.4894</td>
 <td>0.002758</td>
@@ -938,6 +1004,8 @@
 <td>132.8</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.601</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000468</td>
 <td>Au1 Pd5 Sc2</td>
 <td>-0.8754</td>
 <td>-0.009589</td>
@@ -963,6 +1031,8 @@
 <td>100.6</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.6173</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000254</td>
 <td>Al2 Au6 Mn1</td>
 <td>-0.2547</td>
 <td>-0.0005924</td>
@@ -988,6 +1058,8 @@
 <td>124.8</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1797</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000171</td>
 <td>Gd1 Ge1 Pt2</td>
 <td>-1.017</td>
 <td>-0.0325</td>
@@ -1013,6 +1085,8 @@
 <td>66.75</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.5056</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>9.2e-05</td>
 <td>Ge2 Ni1 Pt1</td>
 <td>-0.4008</td>
 <td>-0.005805</td>
@@ -1038,6 +1112,8 @@
 <td>171.9</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1957</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000214</td>
 <td>Pt5 Si1 Zr1</td>
 <td>-0.9391</td>
 <td>-0.04176</td>
@@ -1063,6 +1139,8 @@
 <td>2.057</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.7466</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00016</td>
 <td>Al3 Co2 La5</td>
 <td>-0.3298</td>
 <td>-0.0006663</td>
@@ -1088,6 +1166,8 @@
 <td>0.97</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.8934</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.1537</td>
 <td>Al4 Co3 Fe1</td>
 <td>-0.5611</td>
 <td>-0.006495</td>
@@ -1113,6 +1193,8 @@
 <td>1.007</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.9188</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.186</td>
 <td>Al8 Co7 Fe1</td>
 <td>-0.5911</td>
 <td>-0.003415</td>
@@ -1138,6 +1220,8 @@
 <td>3.07</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.2373</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.04913</td>
 <td>Co1 Gd3 Sn6</td>
 <td>-0.6358</td>
 <td>-0.02515</td>
@@ -1163,6 +1247,8 @@
 <td>1.709</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.04159</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.1701</td>
 <td>Co4 Gd1 Sn6</td>
 <td>-0.311</td>
 <td>-0.004145</td>
@@ -1188,6 +1274,8 @@
 <td>173.4</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1955</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001466</td>
 <td>Ge1 Pt5 Ti1</td>
 <td>-0.707</td>
 <td>-0.01883</td>
@@ -1213,6 +1301,8 @@
 <td>175.9</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.256</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.002092</td>
 <td>Ge1 Pt8 Ti2</td>
 <td>-0.7654</td>
 <td>-0.003864</td>
@@ -1238,6 +1328,8 @@
 <td>171.8</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1789</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001403</td>
 <td>Pt5 Si1 Ti1</td>
 <td>-0.8398</td>
 <td>-0.01648</td>
@@ -1263,6 +1355,8 @@
 <td>174.9</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.191</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00206</td>
 <td>Pt8 Si1 Ti2</td>
 <td>-0.8508</td>
 <td>-0.004753</td>
@@ -1288,6 +1382,8 @@
 <td>8.62</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.00973</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.1214</td>
 <td>Fe1 Gd1 Ge3</td>
 <td>-0.4714</td>
 <td>-0.01899</td>
@@ -1313,6 +1409,8 @@
 <td>7.43</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.009938</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.1514</td>
 <td>Fe3 Gd2 Ge5</td>
 <td>-0.4763</td>
 <td>-0.008568</td>
@@ -1338,6 +1436,8 @@
 <td>7.775</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.01268</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.1399</td>
 <td>Fe1 Gd1 Ge2</td>
 <td>-0.5452</td>
 <td>0.0001589</td>
@@ -1363,6 +1463,8 @@
 <td>6.825</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.05968</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001064</td>
 <td>Ga1 Hf2 Nb1</td>
 <td>-0.1488</td>
 <td>0.1575</td>
@@ -1388,6 +1490,8 @@
 <td>3.325</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.1241</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000737</td>
 <td>Ga1 Nb1 Zr2</td>
 <td>-0.1858</td>
 <td>0.1637</td>
@@ -1413,6 +1517,8 @@
 <td>3.478</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.3434</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00066</td>
 <td>Nb5 Si2 V1</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -1438,6 +1544,8 @@
 <td>3.953</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1349</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.1424</td>
 <td>Co1 Si1 Y1</td>
 <td>-0.7567</td>
 <td>-0.04293</td>
@@ -1463,6 +1571,8 @@
 <td>2.836</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.01165</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.09351</td>
 <td>Co1 Si3 Y1</td>
 <td>-0.6659</td>
 <td>-0.0173</td>
@@ -1488,6 +1598,8 @@
 <td>2.695</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1809</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00521</td>
 <td>Al3 Cu2 Y1</td>
 <td>-0.4375</td>
 <td>-0.01084</td>
@@ -1513,6 +1625,8 @@
 <td>4.167</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.1502</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.002342</td>
 <td>Cu1 Sn1 Y1</td>
 <td>-0.6476</td>
 <td>-0.06909</td>
@@ -1538,6 +1652,8 @@
 <td>6.06</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.03074</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000873</td>
 <td>B2 Nb1 Ni2</td>
 <td>-0.5049</td>
 <td>0.01211</td>
@@ -1563,6 +1679,8 @@
 <td>53.35</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.04902</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.003874</td>
 <td>C2 Cr1 Sc1</td>
 <td>-0.3453</td>
 <td>-0.00995</td>
@@ -1588,6 +1706,8 @@
 <td>20.25</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.00289</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.002408</td>
 <td>C2 La1 Ru1</td>
 <td>-0.1769</td>
 <td>0.0009225</td>
@@ -1613,6 +1733,8 @@
 <td>1.896</td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>0.07236</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000617</td>
 <td>La1 Ni1 Si3</td>
 <td>-0.6782</td>
 <td>-0.02468</td>
@@ -1638,6 +1760,8 @@
 <td>44.47</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9805</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.06499</td>
 <td>Re4 Ta1 Zr1</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>
@@ -1663,6 +1787,8 @@
 <td>20.25</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>0.9874</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.003112</td>
 <td>Ge0.5 Mo3 Os0.5</td>
 <td><span style="color: #999;">—</span></td>
 <td><span style="color: #999;">—</span></td>

@@ -34,6 +34,7 @@ def parse_synthesis_file(content: str, formula: str = None) -> dict:
         'composition_euclidean_deviation': None,
         'composition_measured_fractions': None,
         'composition_expected_fractions': None,
+        'composition_ok': None
     }
 
     if not content:
@@ -142,6 +143,7 @@ def _compute_composition_deviation(content: str, formula: str) -> dict:
         'composition_euclidean_deviation': None,
         'composition_measured_fractions': None,
         'composition_expected_fractions': None,
+        'composition_ok': None
     }
 
     measured_masses = _parse_measured_masses(content)
@@ -193,4 +195,5 @@ def _compute_composition_deviation(content: str, formula: str) -> dict:
         'composition_euclidean_deviation': round(euclidean_dev, 6),
         'composition_measured_fractions': measured_fractions,
         'composition_expected_fractions': expected_fractions,
+        'composition_ok': max_dev <= 0.02,
     }

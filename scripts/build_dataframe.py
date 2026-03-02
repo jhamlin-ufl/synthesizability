@@ -43,7 +43,8 @@ def main():
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
     # Save a version without the large fields
-    df_to_save = df.drop(columns=['files', 'status_content', 'synthesis_content', 'xrd_patterns'])
+    df_to_save = df.drop(columns=['files', 'status_content', 'synthesis_content', 'xrd_patterns',
+                               'composition_measured_fractions', 'composition_expected_fractions'])
     df_to_save.to_csv(output_path, index=False)
     print(f"\n✓ Saved dataframe to: {output_path}")
     

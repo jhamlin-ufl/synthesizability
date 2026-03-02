@@ -6,6 +6,7 @@ from pathlib import Path
 
 # Registry - comment out to disable, reorder to control section order
 PLUGINS = [
+    "synthesizability.dashboard_plugins.composition",
     "synthesizability.dashboard_plugins.oqmd",
     "synthesizability.dashboard_plugins.susceptibility",
     "synthesizability.dashboard_plugins.supercon",

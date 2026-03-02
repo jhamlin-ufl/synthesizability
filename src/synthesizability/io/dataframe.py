@@ -186,7 +186,7 @@ def build_dataframe(data_raw_dir: Path) -> pd.DataFrame:
         
         # Parse structured data using parsers
         status_data = parse_status_file(status_content)
-        synthesis_data = parse_synthesis_file(synthesis_content)
+        synthesis_data = parse_synthesis_file(synthesis_content, formula)
         
         # Parse XRD files
         xrd_patterns = parse_xrd_files(dir_path)
@@ -234,8 +234,9 @@ def analyze_field_statistics(df: pd.DataFrame):
     
     # Analyze each column
     for col in df.columns:
-        if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns', 
-                   'xrd_files', 'chi_files', 'chi_fields']:
+        if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns',
+           'xrd_files', 'chi_files', 'chi_fields',
+           'composition_measured_fractions', 'composition_expected_fractions']:
             # Skip the large/complex fields
             continue
         
@@ -290,7 +291,8 @@ def analyze_field_statistics(df: pd.DataFrame):
     
     for col in df.columns:
         if col in ['files', 'status_content', 'synthesis_content', 'xrd_patterns',
-                   'xrd_files', 'chi_files', 'chi_fields']:
+           'xrd_files', 'chi_files', 'chi_fields',
+           'composition_measured_fractions', 'composition_expected_fractions']:
             continue
         
         non_null = df[col].notna().sum()
