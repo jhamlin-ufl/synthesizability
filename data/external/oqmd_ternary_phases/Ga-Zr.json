@@ -1,0 +1,520 @@
+{
+  "space": "Ga-Zr",
+  "elements": [
+    "Ga",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 2017743,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.4872107650000004,
+      "stability": -0.06393019375000036,
+      "icsd": true
+    },
+    {
+      "entry_id": 1982062,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.6299931775000003,
+      "stability": -0.05210024800000035,
+      "icsd": false
+    },
+    {
+      "entry_id": 30373,
+      "composition_id": "Ga2 Zr3",
+      "delta_e": -0.544282154,
+      "stability": -0.012683564999999675,
+      "icsd": true
+    },
+    {
+      "entry_id": 17131,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.466002196666667,
+      "stability": -0.01240508598036777,
+      "icsd": true
+    },
+    {
+      "entry_id": 17318,
+      "composition_id": "Ga3 Zr2",
+      "delta_e": -0.611503705,
+      "stability": -0.0066320860000000925,
+      "icsd": true
+    },
+    {
+      "entry_id": 2027029,
+      "composition_id": "Ga5 Zr3",
+      "delta_e": -0.5985912293749998,
+      "stability": -0.004761128124999736,
+      "icsd": true
+    },
+    {
+      "entry_id": 17316,
+      "composition_id": "Ga2 Zr1",
+      "delta_e": -0.564374095,
+      "stability": -0.0029096867120651515,
+      "icsd": true
+    },
+    {
+      "entry_id": 1963398,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.6299315024999999,
+      "stability": 6.167500000042736e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1925337,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.46581432000000095,
+      "stability": 0.00018787666666603142,
+      "icsd": false
+    },
+    {
+      "entry_id": 17315,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.629574625,
+      "stability": 0.00041855250000022437,
+      "icsd": true
+    },
+    {
+      "entry_id": 1794451,
+      "composition_id": "Ga2 Zr1",
+      "delta_e": -0.5622755299999996,
+      "stability": 0.0020985650000003853,
+      "icsd": false
+    },
+    {
+      "entry_id": 298629,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.47834592625,
+      "stability": 0.008864838750000381,
+      "icsd": false
+    },
+    {
+      "entry_id": 30372,
+      "composition_id": "Ga3 Zr5",
+      "delta_e": -0.50606114625,
+      "stability": 0.00886602375000023,
+      "icsd": true
+    },
+    {
+      "entry_id": 1340250,
+      "composition_id": "Ga3 Zr5",
+      "delta_e": -0.506040943125,
+      "stability": 0.00888622687500018,
+      "icsd": false
+    },
+    {
+      "entry_id": 17317,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.477778248750001,
+      "stability": 0.009432516249999356,
+      "icsd": true
+    },
+    {
+      "entry_id": 344195,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.332213208749999,
+      "stability": 0.017331415000001293,
+      "icsd": false
+    },
+    {
+      "entry_id": 1787228,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.4399139183333342,
+      "stability": 0.02608827833333277,
+      "icsd": false
+    },
+    {
+      "entry_id": 1795269,
+      "composition_id": "Ga4 Zr5",
+      "delta_e": -0.5522039322222222,
+      "stability": 0.03017200961906219,
+      "icsd": false
+    },
+    {
+      "entry_id": 1822752,
+      "composition_id": "Ga4 Zr5",
+      "delta_e": -0.552015383888889,
+      "stability": 0.03036055795239534,
+      "icsd": false
+    },
+    {
+      "entry_id": 2017670,
+      "composition_id": "Ga4 Zr5",
+      "delta_e": -0.5519535333333339,
+      "stability": 0.030422408507950527,
+      "icsd": true
+    },
+    {
+      "entry_id": 2033547,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.45087243375000075,
+      "stability": 0.036338331249999634,
+      "icsd": true
+    },
+    {
+      "entry_id": 344129,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.448732173750001,
+      "stability": 0.03847859124999936,
+      "icsd": false
+    },
+    {
+      "entry_id": 319709,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.3064135125,
+      "stability": 0.0431311112500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756799,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.30632533625,
+      "stability": 0.04321928750000026,
+      "icsd": false
+    },
+    {
+      "entry_id": 756802,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.306126378749999,
+      "stability": 0.0434182450000013,
+      "icsd": false
+    },
+    {
+      "entry_id": 1280438,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.302035344999999,
+      "stability": 0.04750927875000127,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782921,
+      "composition_id": "Ga3 Zr4",
+      "delta_e": -0.5198740321428568,
+      "stability": 0.048896986081619076,
+      "icsd": false
+    },
+    {
+      "entry_id": 298563,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.296026783749999,
+      "stability": 0.05351784000000126,
+      "icsd": false
+    },
+    {
+      "entry_id": 1794601,
+      "composition_id": "Ga3 Zr2",
+      "delta_e": -0.5507347439999997,
+      "stability": 0.06076896100000029,
+      "icsd": false
+    },
+    {
+      "entry_id": 756811,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.278282133749999,
+      "stability": 0.07126249000000129,
+      "icsd": false
+    },
+    {
+      "entry_id": 1521631,
+      "composition_id": "Ga2 Zr1",
+      "delta_e": -0.48406683916666654,
+      "stability": 0.08030725583333348,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591335,
+      "composition_id": "Ga2 Zr1",
+      "delta_e": -0.47842248166666695,
+      "stability": 0.08595161333333307,
+      "icsd": false
+    },
+    {
+      "entry_id": 756796,
+      "composition_id": "Ga1 Zr5",
+      "delta_e": -0.142613789166667,
+      "stability": 0.09047326166666658,
+      "icsd": false
+    },
+    {
+      "entry_id": 319643,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.37530722375,
+      "stability": 0.1119035412500004,
+      "icsd": false
+    },
+    {
+      "entry_id": 336540,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.5178484075,
+      "stability": 0.11214477000000023,
+      "icsd": false
+    },
+    {
+      "entry_id": 756791,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.347838445833334,
+      "stability": 0.11816375083333297,
+      "icsd": false
+    },
+    {
+      "entry_id": 756808,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.342347388333334,
+      "stability": 0.12365480833333298,
+      "icsd": false
+    },
+    {
+      "entry_id": 756793,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.4975718575,
+      "stability": 0.1324213200000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756795,
+      "composition_id": "Ga3 Zr4",
+      "delta_e": -0.393911391428571,
+      "stability": 0.17485962679590483,
+      "icsd": false
+    },
+    {
+      "entry_id": 756804,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.285768413333334,
+      "stability": 0.18023378333333295,
+      "icsd": false
+    },
+    {
+      "entry_id": 756806,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.448552185,
+      "stability": 0.1814409925000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756807,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.4420356475,
+      "stability": 0.18795753000000026,
+      "icsd": false
+    },
+    {
+      "entry_id": 756797,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.265933878333334,
+      "stability": 0.200068318333333,
+      "icsd": false
+    },
+    {
+      "entry_id": 309101,
+      "composition_id": "Ga1 Zr3",
+      "delta_e": -0.144369296249999,
+      "stability": 0.20517532750000128,
+      "icsd": false
+    },
+    {
+      "entry_id": 756781,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.221567445,
+      "stability": 0.24443475166666698,
+      "icsd": false
+    },
+    {
+      "entry_id": 304998,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.3849674525,
+      "stability": 0.2450257250000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756784,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.351181658333334,
+      "stability": 0.2788115191666663,
+      "icsd": false
+    },
+    {
+      "entry_id": 1338664,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": -0.200976995,
+      "stability": 0.2862337700000004,
+      "icsd": false
+    },
+    {
+      "entry_id": 756787,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.3323746695,
+      "stability": 0.2976185080000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756801,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.312923460625,
+      "stability": 0.3170697168750003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756785,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.31162433125,
+      "stability": 0.3183688462500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756805,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": -0.144625768333334,
+      "stability": 0.321376428333333,
+      "icsd": false
+    },
+    {
+      "entry_id": 1104184,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.3060257025,
+      "stability": 0.3239674750000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 1229575,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.3051460525,
+      "stability": 0.3248471250000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 1236132,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.3051083425,
+      "stability": 0.32488483500000026,
+      "icsd": false
+    },
+    {
+      "entry_id": 326082,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.3047230525,
+      "stability": 0.3252701250000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756780,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.303100136666667,
+      "stability": 0.32689304083333326,
+      "icsd": false
+    },
+    {
+      "entry_id": 756783,
+      "composition_id": "Ga3 Zr4",
+      "delta_e": -0.230561292142857,
+      "stability": 0.3382097260816188,
+      "icsd": false
+    },
+    {
+      "entry_id": 756809,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.271721543333334,
+      "stability": 0.3582716341666663,
+      "icsd": false
+    },
+    {
+      "entry_id": 756800,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.25943798375,
+      "stability": 0.3705551937500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756788,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.2571375925,
+      "stability": 0.37285558500000027,
+      "icsd": false
+    },
+    {
+      "entry_id": 756782,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.245404835,
+      "stability": 0.3845883425000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756810,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.2438320075,
+      "stability": 0.3861611700000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756786,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.2283020975,
+      "stability": 0.4016910800000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756792,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.21312828,
+      "stability": 0.4168648975000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756789,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.2086635825,
+      "stability": 0.4213295950000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756790,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.1997192625,
+      "stability": 0.4302739150000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 756794,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": -0.19408900375,
+      "stability": 0.4359041737500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 309167,
+      "composition_id": "Ga3 Zr1",
+      "delta_e": 0.00883580374999937,
+      "stability": 0.49604656874999975,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591932,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": 0.2588799633333328,
+      "stability": 0.7248821599999997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1222604,
+      "composition_id": "Ga1 Zr1",
+      "delta_e": 0.7975592975,
+      "stability": 1.4275524750000002,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238615,
+      "composition_id": "Ga2 Zr1",
+      "delta_e": 1.53039255,
+      "stability": 2.094766645,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238614,
+      "composition_id": "Ga1 Zr2",
+      "delta_e": 2.33009907,
+      "stability": 2.796101266666667,
+      "icsd": false
+    }
+  ]
+}

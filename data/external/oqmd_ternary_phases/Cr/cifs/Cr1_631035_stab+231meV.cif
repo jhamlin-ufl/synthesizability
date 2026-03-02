@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.55010000
+_cell_length_b   8.55010000
+_cell_length_c   4.52883800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr
+_chemical_formula_sum   Cr28
+_cell_volume   331.07712425
+_cell_formula_units_Z   28
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.76599689  0.03993170  0.00000000  1
+  Cr  Cr1  1  0.47173834  0.12563479  0.00000000  1
+  Cr  Cr2  1  0.96006830  0.23400311  0.00000000  1
+  Cr  Cr3  1  0.40438357  0.40438357  0.00000000  1
+  Cr  Cr4  1  0.12563479  0.47173834  0.00000000  1
+  Cr  Cr5  1  0.87436521  0.52826166  0.00000000  1
+  Cr  Cr6  1  0.59561643  0.59561643  0.00000000  1
+  Cr  Cr7  1  0.03993170  0.76599689  0.00000000  1
+  Cr  Cr8  1  0.52826166  0.87436521  0.00000000  1
+  Cr  Cr9  1  0.23400311  0.96006830  0.00000000  1
+  Cr  Cr10  1  0.70273096  0.29726904  0.24115457  1
+  Cr  Cr11  1  0.29726904  0.70273096  0.24115457  1
+  Cr  Cr12  1  0.20273096  0.20273096  0.25884565  1
+  Cr  Cr13  1  0.79726904  0.79726904  0.25884565  1
+  Cr  Cr14  1  0.62563479  0.02826166  0.50000022  1
+  Cr  Cr15  1  0.90438357  0.09561643  0.50000022  1
+  Cr  Cr16  1  0.46006830  0.26599689  0.50000022  1
+  Cr  Cr17  1  0.97173834  0.37436521  0.50000022  1
+  Cr  Cr18  1  0.26599689  0.46006830  0.50000022  1
+  Cr  Cr19  1  0.73400311  0.53993170  0.50000022  1
+  Cr  Cr20  1  0.02826166  0.62563479  0.50000022  1
+  Cr  Cr21  1  0.53993170  0.73400311  0.50000022  1
+  Cr  Cr22  1  0.09561643  0.90438357  0.50000022  1
+  Cr  Cr23  1  0.37436521  0.97173834  0.50000022  1
+  Cr  Cr24  1  0.20273096  0.20273096  0.74115480  1
+  Cr  Cr25  1  0.79726904  0.79726904  0.74115480  1
+  Cr  Cr26  1  0.70273096  0.29726904  0.75884587  1
+  Cr  Cr27  1  0.29726904  0.70273096  0.75884587  1

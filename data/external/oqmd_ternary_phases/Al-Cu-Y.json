@@ -1,0 +1,241 @@
+{
+  "space": "Al-Cu-Y",
+  "elements": [
+    "Al",
+    "Cu",
+    "Y"
+  ],
+  "entries": [
+    {
+      "entry_id": 27751,
+      "composition_id": "Al1 Cu1 Y1",
+      "delta_e": -0.460228035,
+      "stability": -0.05952611130108154,
+      "icsd": true
+    },
+    {
+      "entry_id": 1973830,
+      "composition_id": "Al5 Cu5 Y2",
+      "delta_e": -0.4411243933333336,
+      "stability": -0.027790108647217038,
+      "icsd": false
+    },
+    {
+      "entry_id": 2149812,
+      "composition_id": "Al3 Cu7 Y2",
+      "delta_e": -0.3649999883333332,
+      "stability": -0.019631962260184155,
+      "icsd": false
+    },
+    {
+      "entry_id": 10442,
+      "composition_id": "Al8 Cu4 Y1",
+      "delta_e": -0.306154502692307,
+      "stability": -0.018342979674937143,
+      "icsd": true
+    },
+    {
+      "entry_id": 22908,
+      "composition_id": "Al7 Cu2 Y3",
+      "delta_e": -0.497609157916666,
+      "stability": -0.011845181666665205,
+      "icsd": true
+    },
+    {
+      "entry_id": 1370163,
+      "composition_id": "Al3 Cu2 Y1",
+      "delta_e": -0.437501432500001,
+      "stability": -0.010838281453935228,
+      "icsd": false
+    },
+    {
+      "entry_id": 2146187,
+      "composition_id": "Al1 Cu5 Y1",
+      "delta_e": -0.27424153357142905,
+      "stability": -0.008509742779644724,
+      "icsd": false
+    },
+    {
+      "entry_id": 2144862,
+      "composition_id": "Al3 Cu1 Y1",
+      "delta_e": -0.44663280500000013,
+      "stability": -0.006941865140644987,
+      "icsd": false
+    },
+    {
+      "entry_id": 1987182,
+      "composition_id": "Al3 Cu1 Y1",
+      "delta_e": -0.44658495099999984,
+      "stability": 4.7854000000291386e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1787314,
+      "composition_id": "Al4 Cu1 Y1",
+      "delta_e": -0.3704470008333332,
+      "stability": 0.012220539634927918,
+      "icsd": false
+    },
+    {
+      "entry_id": 1252029,
+      "composition_id": "Al2 Cu2 Y1",
+      "delta_e": -0.425655763,
+      "stability": 0.019289358666666867,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235351,
+      "composition_id": "Al2 Cu2 Y1",
+      "delta_e": -0.424990979,
+      "stability": 0.019954142666666896,
+      "icsd": false
+    },
+    {
+      "entry_id": 1788119,
+      "composition_id": "Al3 Cu1 Y1",
+      "delta_e": -0.4211595279999997,
+      "stability": 0.025473277000000405,
+      "icsd": false
+    },
+    {
+      "entry_id": 1953572,
+      "composition_id": "Al2 Cu2 Y1",
+      "delta_e": -0.41815257499999986,
+      "stability": 0.026792546666667028,
+      "icsd": false
+    },
+    {
+      "entry_id": 1281532,
+      "composition_id": "Al2 Cu1 Y1",
+      "delta_e": -0.44876365375,
+      "stability": 0.030072326666666316,
+      "icsd": false
+    },
+    {
+      "entry_id": 1480842,
+      "composition_id": "Al1 Cu2 Y2",
+      "delta_e": -0.3445355559999996,
+      "stability": 0.03561331150000052,
+      "icsd": false
+    },
+    {
+      "entry_id": 405574,
+      "composition_id": "Al1 Cu2 Y1",
+      "delta_e": -0.343911598750001,
+      "stability": 0.04411028333333217,
+      "icsd": false
+    },
+    {
+      "entry_id": 1287668,
+      "composition_id": "Al2 Cu3 Y1",
+      "delta_e": -0.352262294166667,
+      "stability": 0.0507998966666664,
+      "icsd": false
+    },
+    {
+      "entry_id": 1250644,
+      "composition_id": "Al2 Cu3 Y1",
+      "delta_e": -0.3522620125,
+      "stability": 0.05080017833333339,
+      "icsd": false
+    },
+    {
+      "entry_id": 1287666,
+      "composition_id": "Al2 Cu3 Y1",
+      "delta_e": -0.352252625833334,
+      "stability": 0.05080956499999939,
+      "icsd": false
+    },
+    {
+      "entry_id": 410006,
+      "composition_id": "Al1 Cu1 Y2",
+      "delta_e": -0.303407775,
+      "stability": 0.05251876125000016,
+      "icsd": false
+    },
+    {
+      "entry_id": 1796983,
+      "composition_id": "Al4 Cu4 Y3",
+      "delta_e": -0.35352754045454565,
+      "stability": 0.09975371582704345,
+      "icsd": false
+    },
+    {
+      "entry_id": 1623800,
+      "composition_id": "Al6 Cu1 Y1",
+      "delta_e": -0.09337063187499961,
+      "stability": 0.19559381109375046,
+      "icsd": false
+    },
+    {
+      "entry_id": 853009,
+      "composition_id": "Al1 Cu1 Y1",
+      "delta_e": -0.250181888333334,
+      "stability": 0.210046146666666,
+      "icsd": false
+    },
+    {
+      "entry_id": 1110918,
+      "composition_id": "Al2 Cu1 Y1",
+      "delta_e": -0.23370170375,
+      "stability": 0.24513427666666632,
+      "icsd": false
+    },
+    {
+      "entry_id": 1139086,
+      "composition_id": "Al2 Cu1 Y1",
+      "delta_e": -0.233452546250001,
+      "stability": 0.2453834341666653,
+      "icsd": false
+    },
+    {
+      "entry_id": 735853,
+      "composition_id": "Al1 Cu2 Y1",
+      "delta_e": -0.13645115375,
+      "stability": 0.25157072833333316,
+      "icsd": false
+    },
+    {
+      "entry_id": 1213456,
+      "composition_id": "Al1 Cu2 Y2",
+      "delta_e": -0.113844328,
+      "stability": 0.2663045395000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1287667,
+      "composition_id": "Al2 Cu3 Y1",
+      "delta_e": -0.0814266175,
+      "stability": 0.32163557333333337,
+      "icsd": false
+    },
+    {
+      "entry_id": 510706,
+      "composition_id": "Al2 Cu1 Y1",
+      "delta_e": -0.130951291250001,
+      "stability": 0.3478846891666653,
+      "icsd": false
+    },
+    {
+      "entry_id": 739582,
+      "composition_id": "Al1 Cu1 Y2",
+      "delta_e": 0.13595565,
+      "stability": 0.4918821862500002,
+      "icsd": false
+    },
+    {
+      "entry_id": 941806,
+      "composition_id": "Al1 Cu1 Y1",
+      "delta_e": 0.118608384999999,
+      "stability": 0.578836419999999,
+      "icsd": false
+    },
+    {
+      "entry_id": 857439,
+      "composition_id": "Al1 Cu1 Y1",
+      "delta_e": 0.418838665,
+      "stability": 0.8790667,
+      "icsd": false
+    }
+  ]
+}

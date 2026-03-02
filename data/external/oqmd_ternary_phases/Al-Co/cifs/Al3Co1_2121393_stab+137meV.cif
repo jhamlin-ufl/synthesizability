@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al3Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.50506015
+_cell_length_b   6.50506015
+_cell_length_c   9.62025554
+_cell_angle_alpha   106.42539663
+_cell_angle_beta   106.42539663
+_cell_angle_gamma   36.72515580
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3Co
+_chemical_formula_sum   'Al12 Co4'
+_cell_volume   232.37459633
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.58018531  0.58018531  0.02830447  1
+  Al  Al1  1  0.23416145  0.23416145  0.10989990  1
+  Al  Al2  1  0.89997389  0.89997389  0.13767950  1
+  Al  Al3  1  0.50621780  0.50621780  0.28756261  1
+  Al  Al4  1  0.74335421  0.74335421  0.30668960  1
+  Al  Al5  1  0.14827939  0.14827939  0.42501997  1
+  Al  Al6  1  0.37588114  0.37588114  0.47522928  1
+  Al  Al7  1  0.61224562  0.61224562  0.61056759  1
+  Al  Al8  1  0.97576143  0.97576143  0.63569239  1
+  Al  Al9  1  0.28460322  0.28460322  0.71367150  1
+  Al  Al10  1  0.95128253  0.95128253  0.88766888  1
+  Al  Al11  1  0.73547692  0.73547692  0.88917378  1
+  Co  Co12  1  0.95085130  0.95085130  0.38865636  1
+  Co  Co13  1  0.48611289  0.48611289  0.76411929  1
+  Co  Co14  1  0.13899149  0.13899149  0.85449909  1
+  Co  Co15  1  0.37661959  0.37661959  0.98556446  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ge3Mo5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.44796016
+_cell_length_b   7.44796028
+_cell_length_c   5.15044900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.97638564
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ge3Mo5
+_chemical_formula_sum   'Ge6 Mo10'
+_cell_volume   247.48775272
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.60550805  0.99995668  0.24999956  1
+  Ge  Ge1  1  0.99995555  0.60550638  0.24999956  1
+  Ge  Ge2  1  0.39450641  0.39450594  0.25000150  1
+  Ge  Ge3  1  0.39449247  0.00004410  0.74999869  1
+  Ge  Ge4  1  0.00004420  0.39449284  0.74999869  1
+  Ge  Ge5  1  0.60549411  0.60549483  0.75000063  1
+  Mo  Mo6  1  0.66666626  0.33333333  0.00000000  1
+  Mo  Mo7  1  0.33333348  0.66666589  0.00000000  1
+  Mo  Mo8  1  0.23092949  0.00001171  0.24999762  1
+  Mo  Mo9  1  0.00001201  0.23092937  0.24999762  1
+  Mo  Mo10  1  0.76899927  0.76899925  0.25000345  1
+  Mo  Mo11  1  0.66666704  0.33333488  0.49999913  1
+  Mo  Mo12  1  0.33333348  0.66666589  0.49999913  1
+  Mo  Mo13  1  0.76907103  0.99998907  0.74999869  1
+  Mo  Mo14  1  0.99998774  0.76906985  0.74999869  1
+  Mo  Mo15  1  0.23100047  0.23099997  0.75000451  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_La2Al
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.81133557
+_cell_length_b   5.25404959
+_cell_length_c   10.17502297
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Al
+_chemical_formula_sum   'La8 Al4'
+_cell_volume   364.13451192
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.71246673  0.24999954  0.10987101  1
+  Al  Al1  1  0.21246641  0.24999954  0.39012885  1
+  Al  Al2  1  0.78753424  0.75000053  0.60987086  1
+  Al  Al3  1  0.28753392  0.75000053  0.89012870  1
+  La  La4  1  0.19720215  0.24999954  0.07524406  1
+  La  La5  1  0.45499740  0.75000053  0.19705410  1
+  La  La6  1  0.95499773  0.75000053  0.30294575  1
+  La  La7  1  0.69720247  0.24999954  0.42475580  1
+  La  La8  1  0.30279818  0.75000053  0.57524391  1
+  La  La9  1  0.04500292  0.24999954  0.69705396  1
+  La  La10  1  0.54500178  0.24999954  0.80294561  1
+  La  La11  1  0.80279704  0.75000053  0.92475565  1

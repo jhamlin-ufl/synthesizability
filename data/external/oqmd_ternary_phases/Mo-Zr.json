@@ -1,0 +1,576 @@
+{
+  "space": "Mo-Zr",
+  "elements": [
+    "Mo",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 1592091,
+      "composition_id": "Mo2 Zr1",
+      "delta_e": -0.137863003333333,
+      "stability": -0.12630370276354272,
+      "icsd": false
+    },
+    {
+      "entry_id": 17718,
+      "composition_id": "Mo2 Zr1",
+      "delta_e": -0.137656536666666,
+      "stability": 0.00020646666666701563,
+      "icsd": true
+    },
+    {
+      "entry_id": 1610089,
+      "composition_id": "Mo2 Zr1",
+      "delta_e": -0.12927465083333325,
+      "stability": 0.008588352499999757,
+      "icsd": false
+    },
+    {
+      "entry_id": 2033988,
+      "composition_id": "Mo2 Zr1",
+      "delta_e": -0.11428467249999959,
+      "stability": 0.023578330833333425,
+      "icsd": true
+    },
+    {
+      "entry_id": 1609999,
+      "composition_id": "Mo2 Zr1",
+      "delta_e": -0.11419708083333309,
+      "stability": 0.023665922499999922,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450038,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.01616974999999954,
+      "stability": 0.08518720416666614,
+      "icsd": false
+    },
+    {
+      "entry_id": 757256,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.0186348433333331,
+      "stability": 0.0876522974999997,
+      "icsd": false
+    },
+    {
+      "entry_id": 757245,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.0186442849999994,
+      "stability": 0.087661739166666,
+      "icsd": false
+    },
+    {
+      "entry_id": 1793440,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": -0.012982725000000528,
+      "stability": 0.09041452749999923,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121373,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.04079606937500024,
+      "stability": 0.09260213625000024,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080641,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.04250215250000089,
+      "stability": 0.09430821937500089,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086008,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.04255010562500061,
+      "stability": 0.09435617250000061,
+      "icsd": false
+    },
+    {
+      "entry_id": 311060,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.000812007500000433,
+      "stability": 0.10420926000000019,
+      "icsd": false
+    },
+    {
+      "entry_id": 757250,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.052473302500001,
+      "stability": 0.104279369375001,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121464,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.0038018687500009918,
+      "stability": 0.10719912125000075,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086144,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.0038018693749997112,
+      "stability": 0.10719912187499947,
+      "icsd": false
+    },
+    {
+      "entry_id": 757242,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.00853463875000138,
+      "stability": 0.11197486750000119,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121042,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.015904076874999618,
+      "stability": 0.11930132937499938,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080505,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.015904076874999618,
+      "stability": 0.11930132937499938,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082352,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.016686187499999505,
+      "stability": 0.12008343999999926,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082455,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.016689441249999604,
+      "stability": 0.12008669374999936,
+      "icsd": false
+    },
+    {
+      "entry_id": 2120997,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.02009593062500059,
+      "stability": 0.1235361593750004,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080488,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.02009593062500059,
+      "stability": 0.1235361593750004,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082305,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.07417239875000092,
+      "stability": 0.12597846562500092,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082502,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.07417336000000141,
+      "stability": 0.1259794268750014,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082155,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.02972298250000094,
+      "stability": 0.13316321125000075,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082202,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.02972616500000136,
+      "stability": 0.13316639375000117,
+      "icsd": false
+    },
+    {
+      "entry_id": 757253,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.0733594487499995,
+      "stability": 0.1423769029166661,
+      "icsd": false
+    },
+    {
+      "entry_id": 757233,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0392498143750011,
+      "stability": 0.14269004312500091,
+      "icsd": false
+    },
+    {
+      "entry_id": 757228,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0465726829166684,
+      "stability": 0.1500129116666682,
+      "icsd": false
+    },
+    {
+      "entry_id": 757259,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.0988816500000009,
+      "stability": 0.1506877168750009,
+      "icsd": false
+    },
+    {
+      "entry_id": 757236,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0478720750000008,
+      "stability": 0.1513123037500006,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085872,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.05033038937500223,
+      "stability": 0.15377061812500203,
+      "icsd": false
+    },
+    {
+      "entry_id": 757231,
+      "composition_id": "Mo3 Zr4",
+      "delta_e": 0.069903022142857,
+      "stability": 0.15859063282088232,
+      "icsd": false
+    },
+    {
+      "entry_id": 310856,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.10790678,
+      "stability": 0.15971284687499998,
+      "icsd": false
+    },
+    {
+      "entry_id": 757230,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0593264350000015,
+      "stability": 0.16276666375000132,
+      "icsd": false
+    },
+    {
+      "entry_id": 757238,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0638497580000006,
+      "stability": 0.1672899867500004,
+      "icsd": false
+    },
+    {
+      "entry_id": 757257,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0671213408333351,
+      "stability": 0.1705615695833349,
+      "icsd": false
+    },
+    {
+      "entry_id": 757235,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0671317610000003,
+      "stability": 0.1705719897500001,
+      "icsd": false
+    },
+    {
+      "entry_id": 305962,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0738924300000008,
+      "stability": 0.1773326587500006,
+      "icsd": false
+    },
+    {
+      "entry_id": 2030400,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.07430391500000155,
+      "stability": 0.17774414375000136,
+      "icsd": true
+    },
+    {
+      "entry_id": 1236151,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0748897500000005,
+      "stability": 0.1783299787500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082605,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.08704587750000137,
+      "stability": 0.19048610625000117,
+      "icsd": false
+    },
+    {
+      "entry_id": 757241,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0878641687500021,
+      "stability": 0.1913043975000019,
+      "icsd": false
+    },
+    {
+      "entry_id": 337504,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.0907037750000015,
+      "stability": 0.1941440037500013,
+      "icsd": false
+    },
+    {
+      "entry_id": 757244,
+      "composition_id": "Mo1 Zr5",
+      "delta_e": 0.160046685,
+      "stability": 0.1946413645833334,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084815,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.09147507500000174,
+      "stability": 0.19491530375000155,
+      "icsd": false
+    },
+    {
+      "entry_id": 757237,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.109729575000001,
+      "stability": 0.2131698037500008,
+      "icsd": false
+    },
+    {
+      "entry_id": 757249,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.123331961250001,
+      "stability": 0.22677219000000082,
+      "icsd": false
+    },
+    {
+      "entry_id": 300314,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.181246642500001,
+      "stability": 0.233052709375001,
+      "icsd": false
+    },
+    {
+      "entry_id": 757229,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.1830591725,
+      "stability": 0.25207662666666664,
+      "icsd": false
+    },
+    {
+      "entry_id": 321602,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.204475323750001,
+      "stability": 0.256281390625001,
+      "icsd": false
+    },
+    {
+      "entry_id": 757247,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.2045796625,
+      "stability": 0.25638572937500004,
+      "icsd": false
+    },
+    {
+      "entry_id": 757254,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.169052420000001,
+      "stability": 0.2724926487500008,
+      "icsd": false
+    },
+    {
+      "entry_id": 2030399,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.22173827250000144,
+      "stability": 0.27354433937500144,
+      "icsd": true
+    },
+    {
+      "entry_id": 757239,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.204957555833333,
+      "stability": 0.2739750099999996,
+      "icsd": false
+    },
+    {
+      "entry_id": 346088,
+      "composition_id": "Mo1 Zr3",
+      "delta_e": 0.2225217725,
+      "stability": 0.274327839375,
+      "icsd": false
+    },
+    {
+      "entry_id": 757232,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.189697469166668,
+      "stability": 0.29313769791666777,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121090,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.19955314750000142,
+      "stability": 0.3029933762500012,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083271,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.19955315000000162,
+      "stability": 0.30299337875000143,
+      "icsd": false
+    },
+    {
+      "entry_id": 757243,
+      "composition_id": "Mo3 Zr4",
+      "delta_e": 0.233304627142857,
+      "stability": 0.3219922378208823,
+      "icsd": false
+    },
+    {
+      "entry_id": 17719,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.224789911249999,
+      "stability": 0.3281871637499988,
+      "icsd": true
+    },
+    {
+      "entry_id": 757234,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.240976738125001,
+      "stability": 0.3444169668750008,
+      "icsd": false
+    },
+    {
+      "entry_id": 757252,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.291562995,
+      "stability": 0.3605804491666666,
+      "icsd": false
+    },
+    {
+      "entry_id": 300518,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.265303835000001,
+      "stability": 0.36870108750000075,
+      "icsd": false
+    },
+    {
+      "entry_id": 757248,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.277749546250002,
+      "stability": 0.3811897750000018,
+      "icsd": false
+    },
+    {
+      "entry_id": 2033990,
+      "composition_id": "Mo2 Zr1",
+      "delta_e": 0.24811522666666738,
+      "stability": 0.3859782300000004,
+      "icsd": true
+    },
+    {
+      "entry_id": 757240,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.306432041250002,
+      "stability": 0.4098722700000018,
+      "icsd": false
+    },
+    {
+      "entry_id": 757258,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.307780047500001,
+      "stability": 0.4112202762500008,
+      "icsd": false
+    },
+    {
+      "entry_id": 327046,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.321971925000001,
+      "stability": 0.4254121537500008,
+      "icsd": false
+    },
+    {
+      "entry_id": 321398,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.42204583875,
+      "stability": 0.5254430912499998,
+      "icsd": false
+    },
+    {
+      "entry_id": 1230383,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.436227165000002,
+      "stability": 0.5396673937500018,
+      "icsd": false
+    },
+    {
+      "entry_id": 1236152,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.437490885000001,
+      "stability": 0.5409311137500008,
+      "icsd": false
+    },
+    {
+      "entry_id": 345884,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.478842547499999,
+      "stability": 0.5822397999999988,
+      "icsd": false
+    },
+    {
+      "entry_id": 2030401,
+      "composition_id": "Mo3 Zr1",
+      "delta_e": 0.47887082749999976,
+      "stability": 0.5822680799999995,
+      "icsd": true
+    },
+    {
+      "entry_id": 1609950,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.6318471566666659,
+      "stability": 0.7008646108333325,
+      "icsd": false
+    },
+    {
+      "entry_id": 1610040,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.6636375733333336,
+      "stability": 0.7326550275000002,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591941,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 0.7120151249999994,
+      "stability": 0.781032579166666,
+      "icsd": false
+    },
+    {
+      "entry_id": 1105147,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 0.971757070000001,
+      "stability": 1.075197298750001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1241599,
+      "composition_id": "Mo1 Zr2",
+      "delta_e": 2.36739831166667,
+      "stability": 2.4364157658333365,
+      "icsd": false
+    },
+    {
+      "entry_id": 1223412,
+      "composition_id": "Mo1 Zr1",
+      "delta_e": 2.411299145,
+      "stability": 2.51473937375,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "space": "Ga-Hf-Nb",
+  "elements": [
+    "Ga",
+    "Hf",
+    "Nb"
+  ],
+  "entries": [
+    {
+      "entry_id": 89460,
+      "composition_id": "Ga3 Hf3 Nb2",
+      "delta_e": -0.45953760625,
+      "stability": -0.022380271190553025,
+      "icsd": true
+    },
+    {
+      "entry_id": 2148760,
+      "composition_id": "Ga6 Hf3 Nb1",
+      "delta_e": -0.4600220374999999,
+      "stability": -0.0064799163093299805,
+      "icsd": false
+    },
+    {
+      "entry_id": 2154261,
+      "composition_id": "Ga6 Hf7 Nb3",
+      "delta_e": -0.45306196156250067,
+      "stability": 0.0018557593749995993,
+      "icsd": false
+    },
+    {
+      "entry_id": 416385,
+      "composition_id": "Ga1 Hf2 Nb1",
+      "delta_e": -0.148837076250002,
+      "stability": 0.15752132944845668,
+      "icsd": false
+    },
+    {
+      "entry_id": 1253104,
+      "composition_id": "Ga2 Hf1 Nb2",
+      "delta_e": -0.259992837,
+      "stability": 0.15780230400000061,
+      "icsd": false
+    },
+    {
+      "entry_id": 745718,
+      "composition_id": "Ga1 Hf1 Nb2",
+      "delta_e": -0.124775642500001,
+      "stability": 0.18158276319845768,
+      "icsd": false
+    },
+    {
+      "entry_id": 521013,
+      "composition_id": "Ga2 Hf1 Nb1",
+      "delta_e": -0.152265148750001,
+      "stability": 0.29113078583165386,
+      "icsd": false
+    },
+    {
+      "entry_id": 746824,
+      "composition_id": "Ga1 Hf2 Nb1",
+      "delta_e": 0.00371373124999863,
+      "stability": 0.3100721369484573,
+      "icsd": false
+    },
+    {
+      "entry_id": 489285,
+      "composition_id": "Ga1 Hf1 Nb2",
+      "delta_e": 0.0561795599999986,
+      "stability": 0.3625379656984573,
+      "icsd": false
+    },
+    {
+      "entry_id": 952110,
+      "composition_id": "Ga1 Hf1 Nb1",
+      "delta_e": 0.118143253333332,
+      "stability": 0.5266211260661516,
+      "icsd": false
+    },
+    {
+      "entry_id": 1144478,
+      "composition_id": "Ga2 Hf1 Nb1",
+      "delta_e": 0.186039793749999,
+      "stability": 0.6294357283316538,
+      "icsd": false
+    },
+    {
+      "entry_id": 920386,
+      "composition_id": "Ga1 Hf1 Nb1",
+      "delta_e": 0.696180153333332,
+      "stability": 1.1046580260661516,
+      "icsd": false
+    },
+    {
+      "entry_id": 863818,
+      "composition_id": "Ga1 Hf1 Nb1",
+      "delta_e": 0.861401453333333,
+      "stability": 1.2698793260661527,
+      "icsd": false
+    }
+  ]
+}

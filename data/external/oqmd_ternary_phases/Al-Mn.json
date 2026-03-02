@@ -1,0 +1,436 @@
+{
+  "space": "Al-Mn",
+  "elements": [
+    "Al",
+    "Mn"
+  ],
+  "entries": [
+    {
+      "entry_id": 1371864,
+      "composition_id": "Al1 Mn2",
+      "delta_e": -0.2523591591954,
+      "stability": -0.035710913526357135,
+      "icsd": false
+    },
+    {
+      "entry_id": 2782,
+      "composition_id": "Al11 Mn4",
+      "delta_e": -0.275870723678161,
+      "stability": -0.03529851310414006,
+      "icsd": true
+    },
+    {
+      "entry_id": 2136598,
+      "composition_id": "Al1 Mn28",
+      "delta_e": -0.06467281297265039,
+      "stability": -0.03119149013793017,
+      "icsd": false
+    },
+    {
+      "entry_id": 2136635,
+      "composition_id": "Al5 Mn24",
+      "delta_e": -0.1674066141736011,
+      "stability": -0.016109334002276043,
+      "icsd": false
+    },
+    {
+      "entry_id": 10498,
+      "composition_id": "Al6 Mn1",
+      "delta_e": -0.172545228399014,
+      "stability": -0.012823232352501074,
+      "icsd": true
+    },
+    {
+      "entry_id": 27877,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.267648506896551,
+      "stability": -0.005492862421628719,
+      "icsd": true
+    },
+    {
+      "entry_id": 27878,
+      "composition_id": "Al12 Mn1",
+      "delta_e": -0.0978676433687003,
+      "stability": -0.004958673965315477,
+      "icsd": true
+    },
+    {
+      "entry_id": 10497,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.26763608189655,
+      "stability": 1.242500000098179e-05,
+      "icsd": true
+    },
+    {
+      "entry_id": 10499,
+      "composition_id": "Al10 Mn3",
+      "delta_e": -0.236406626644562,
+      "stability": 0.00950581717220203,
+      "icsd": true
+    },
+    {
+      "entry_id": 27876,
+      "composition_id": "Al3 Mn2",
+      "delta_e": -0.24806854751724,
+      "stability": 0.023103766583175644,
+      "icsd": true
+    },
+    {
+      "entry_id": 336886,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.23935526189655,
+      "stability": 0.02829324500000102,
+      "icsd": false
+    },
+    {
+      "entry_id": 1217536,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.231733339396551,
+      "stability": 0.03591516750000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1218117,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.222952076896551,
+      "stability": 0.04469643000000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 299318,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.208459633448275,
+      "stability": 0.053501889419195425,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083177,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.20310079689655058,
+      "stability": 0.06454771000000042,
+      "icsd": false
+    },
+    {
+      "entry_id": 1787092,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.1948983703232745,
+      "stability": 0.06706315254419593,
+      "icsd": false
+    },
+    {
+      "entry_id": 2052217,
+      "composition_id": "Al8 Mn5",
+      "delta_e": -0.196242850689655,
+      "stability": 0.07547158754537228,
+      "icsd": true
+    },
+    {
+      "entry_id": 1450638,
+      "composition_id": "Al5 Mn1",
+      "delta_e": -0.10965899563218369,
+      "stability": 0.08275652008206898,
+      "icsd": false
+    },
+    {
+      "entry_id": 1796782,
+      "composition_id": "Al5 Mn2",
+      "delta_e": -0.19163099965517155,
+      "stability": 0.08356852348117771,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782965,
+      "composition_id": "Al3 Mn5",
+      "delta_e": -0.14109488487068766,
+      "stability": 0.11508661125000008,
+      "icsd": false
+    },
+    {
+      "entry_id": 1228002,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.151836911896551,
+      "stability": 0.11581159500000002,
+      "icsd": false
+    },
+    {
+      "entry_id": 345020,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.143641840948275,
+      "stability": 0.11831968191919542,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121094,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.14570616689655047,
+      "stability": 0.12194234000000054,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084721,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.14570616439655115,
+      "stability": 0.12194234249999986,
+      "icsd": false
+    },
+    {
+      "entry_id": 320534,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.135119310948275,
+      "stability": 0.12684221191919542,
+      "icsd": false
+    },
+    {
+      "entry_id": 1797270,
+      "composition_id": "Al3 Mn2",
+      "delta_e": -0.1428163975172403,
+      "stability": 0.12835591658317536,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121490,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.13197522564655095,
+      "stability": 0.13567328125000006,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085778,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.13173812064655088,
+      "stability": 0.13591038625000013,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082361,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.1214744096982745,
+      "stability": 0.14048711316919593,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080361,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.12281488127155082,
+      "stability": 0.14483362562500018,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121398,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.11161201594827475,
+      "stability": 0.15034950691919569,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086050,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.11081534844827523,
+      "stability": 0.1511461744191952,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082061,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.1150398593965507,
+      "stability": 0.1526086475000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 22372,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.0555102778448253,
+      "stability": 0.15285559934986467,
+      "icsd": true
+    },
+    {
+      "entry_id": 2080745,
+      "composition_id": "Al3 Mn1",
+      "delta_e": -0.10574143032327488,
+      "stability": 0.15622009254419555,
+      "icsd": false
+    },
+    {
+      "entry_id": 309992,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.0517533553448262,
+      "stability": 0.15661252184986377,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082211,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.04619978034482575,
+      "stability": 0.16216609684986422,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085914,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.04498363721982557,
+      "stability": 0.1633822399748644,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121318,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.04493901909482556,
+      "stability": 0.1634268580998644,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082511,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.08989555689655049,
+      "stability": 0.17775295000000052,
+      "icsd": false
+    },
+    {
+      "entry_id": 299450,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.0231333453448261,
+      "stability": 0.18523253184986388,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121078,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.0231307578448261,
+      "stability": 0.18523511934986386,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080609,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.021904947219825388,
+      "stability": 0.18646092997486458,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590862,
+      "composition_id": "Al1 Mn2",
+      "delta_e": -0.06530789919540088,
+      "stability": 0.1870512599999991,
+      "icsd": false
+    },
+    {
+      "entry_id": 326428,
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.0773716668965507,
+      "stability": 0.1902768400000003,
+      "icsd": false
+    },
+    {
+      "entry_id": 344888,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.00916888034482533,
+      "stability": 0.19919699684986464,
+      "icsd": false
+    },
+    {
+      "entry_id": 320402,
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.00894418909482564,
+      "stability": 0.19942168809986432,
+      "icsd": false
+    },
+    {
+      "entry_id": 1285184,
+      "composition_id": "Al2 Mn3",
+      "delta_e": -0.016896949775861,
+      "stability": 0.2415779484999994,
+      "icsd": false
+    },
+    {
+      "entry_id": 1250595,
+      "composition_id": "Al2 Mn3",
+      "delta_e": -0.0164947342758609,
+      "stability": 0.2419801639999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 309860,
+      "composition_id": "Al3 Mn1",
+      "delta_e": 0.0789252090517252,
+      "stability": 0.3408867319191956,
+      "icsd": false
+    },
+    {
+      "entry_id": 1416661,
+      "composition_id": "Al2 Mn1",
+      "delta_e": 0.0831222587356327,
+      "stability": 0.35664377758380994,
+      "icsd": false
+    },
+    {
+      "entry_id": 1603482,
+      "composition_id": "Al1 Mn5",
+      "delta_e": 0.21365951517241655,
+      "stability": 0.3767855537595136,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590043,
+      "composition_id": "Al2 Mn1",
+      "delta_e": 0.13604392873563262,
+      "stability": 0.40956544758380986,
+      "icsd": false
+    },
+    {
+      "entry_id": 1231488,
+      "composition_id": "Al2 Mn1",
+      "delta_e": 0.229687747068966,
+      "stability": 0.5032092659171432,
+      "icsd": false
+    },
+    {
+      "entry_id": 425566,
+      "composition_id": "Al2 Mn3",
+      "delta_e": 0.247179238724139,
+      "stability": 0.5056541369999994,
+      "icsd": false
+    },
+    {
+      "entry_id": 1243887,
+      "composition_id": "Al1 Mn1",
+      "delta_e": 0.365680798103449,
+      "stability": 0.633329305,
+      "icsd": false
+    },
+    {
+      "entry_id": 1104529,
+      "composition_id": "Al1 Mn1",
+      "delta_e": 0.403663148103449,
+      "stability": 0.671311655,
+      "icsd": false
+    },
+    {
+      "entry_id": 1416662,
+      "composition_id": "Al1 Mn2",
+      "delta_e": 0.471970110804599,
+      "stability": 0.724329269999999,
+      "icsd": false
+    },
+    {
+      "entry_id": 1224516,
+      "composition_id": "Al1 Mn1",
+      "delta_e": 0.757476020603449,
+      "stability": 1.0251245275,
+      "icsd": false
+    },
+    {
+      "entry_id": 1218322,
+      "composition_id": "Al1 Mn1",
+      "delta_e": 1.26256284810345,
+      "stability": 1.5302113550000012,
+      "icsd": false
+    },
+    {
+      "entry_id": 1237135,
+      "composition_id": "Al2 Mn1",
+      "delta_e": 1.6721907254023,
+      "stability": 1.9457122442504775,
+      "icsd": false
+    }
+  ]
+}

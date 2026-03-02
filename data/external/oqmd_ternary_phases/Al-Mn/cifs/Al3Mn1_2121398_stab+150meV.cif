@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MnAl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.61431629
+_cell_length_b   6.61431629
+_cell_length_c   9.44530138
+_cell_angle_alpha   111.12242254
+_cell_angle_beta   111.12242254
+_cell_angle_gamma   37.74841575
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnAl3
+_chemical_formula_sum   'Mn4 Al12'
+_cell_volume   233.91016276
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.58951402  0.58951402  0.07383625  1
+  Al  Al1  1  0.22541324  0.22541324  0.08591958  1
+  Al  Al2  1  0.89864989  0.89864989  0.15457807  1
+  Al  Al3  1  0.49860878  0.49860878  0.29084966  1
+  Al  Al4  1  0.77257317  0.77257317  0.32704127  1
+  Al  Al5  1  0.15195380  0.15195380  0.35517312  1
+  Al  Al6  1  0.38741366  0.38741366  0.47866062  1
+  Al  Al7  1  0.62166282  0.62166282  0.59007051  1
+  Al  Al8  1  0.88606088  0.88606088  0.63554590  1
+  Al  Al9  1  0.28031403  0.28031403  0.70039149  1
+  Al  Al10  1  0.73375945  0.73375945  0.88698187  1
+  Al  Al11  1  0.97302460  0.97302460  0.92795163  1
+  Mn  Mn12  1  0.99516214  0.99516214  0.45288635  1
+  Mn  Mn13  1  0.11119732  0.11119732  0.77041598  1
+  Mn  Mn14  1  0.49613675  0.49613675  0.77834979  1
+  Mn  Mn15  1  0.37855681  0.37855681  0.99134992  1

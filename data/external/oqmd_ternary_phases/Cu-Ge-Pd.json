@@ -1,0 +1,94 @@
+{
+  "space": "Cu-Ge-Pd",
+  "elements": [
+    "Cu",
+    "Ge",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "entry_id": 1992694,
+      "composition_id": "Cu5 Ge1 Pd6",
+      "delta_e": -0.2560454312500002,
+      "stability": -0.019595089297361395,
+      "icsd": false
+    },
+    {
+      "entry_id": 2154947,
+      "composition_id": "Cu2 Ge1 Pd5",
+      "delta_e": -0.30076181625000054,
+      "stability": -0.0053776146875007536,
+      "icsd": false
+    },
+    {
+      "entry_id": 463555,
+      "composition_id": "Cu1 Ge1 Pd2",
+      "delta_e": -0.32178904625,
+      "stability": 0.08504865333333328,
+      "icsd": false
+    },
+    {
+      "entry_id": 735801,
+      "composition_id": "Cu2 Ge1 Pd1",
+      "delta_e": -0.13359492375,
+      "stability": 0.09744559018844273,
+      "icsd": false
+    },
+    {
+      "entry_id": 406205,
+      "composition_id": "Cu2 Ge1 Pd1",
+      "delta_e": -0.0822828162500002,
+      "stability": 0.14875769768844255,
+      "icsd": false
+    },
+    {
+      "entry_id": 869322,
+      "composition_id": "Cu1 Ge1 Pd1",
+      "delta_e": -0.127257891666667,
+      "stability": 0.18020533810810402,
+      "icsd": false
+    },
+    {
+      "entry_id": 434734,
+      "composition_id": "Cu1 Ge2 Pd1",
+      "delta_e": -0.0318882550000001,
+      "stability": 0.20142110059344948,
+      "icsd": false
+    },
+    {
+      "entry_id": 738366,
+      "composition_id": "Cu1 Ge1 Pd2",
+      "delta_e": -0.18120339875,
+      "stability": 0.22563430083333327,
+      "icsd": false
+    },
+    {
+      "entry_id": 898143,
+      "composition_id": "Cu1 Ge1 Pd1",
+      "delta_e": -0.0798591116666666,
+      "stability": 0.22760411810810444,
+      "icsd": false
+    },
+    {
+      "entry_id": 853640,
+      "composition_id": "Cu1 Ge1 Pd1",
+      "delta_e": -0.0191269549999997,
+      "stability": 0.2883362747747713,
+      "icsd": false
+    },
+    {
+      "entry_id": 1110732,
+      "composition_id": "Cu1 Ge2 Pd1",
+      "delta_e": 0.0940266299999992,
+      "stability": 0.3273359855934488,
+      "icsd": false
+    },
+    {
+      "entry_id": 1891511,
+      "composition_id": "Cu1 Ge5 Pd3",
+      "delta_e": 0.12233856055555492,
+      "stability": 0.43061323627411163,
+      "icsd": false
+    }
+  ]
+}

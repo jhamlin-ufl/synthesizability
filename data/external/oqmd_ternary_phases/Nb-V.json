@@ -1,0 +1,835 @@
+{
+  "space": "Nb-V",
+  "elements": [
+    "Nb",
+    "V"
+  ],
+  "entries": [
+    {
+      "entry_id": 1372087,
+      "composition_id": "Nb1 V2",
+      "delta_e": -0.0628738741666671,
+      "stability": -0.0628738741666671,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609957,
+      "composition_id": "Nb1 V2",
+      "delta_e": -0.06281194166666755,
+      "stability": 6.19324999995563e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1610047,
+      "composition_id": "Nb1 V2",
+      "delta_e": -0.05417764416666652,
+      "stability": 0.008696230000000589,
+      "icsd": false
+    },
+    {
+      "entry_id": 1483072,
+      "composition_id": "Nb1 V2",
+      "delta_e": -0.049876440000000834,
+      "stability": 0.012997434166666273,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590735,
+      "composition_id": "Nb1 V2",
+      "delta_e": -0.04958395666666723,
+      "stability": 0.01328991749999988,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161816,
+      "composition_id": "Nb8 V1",
+      "delta_e": 0.02468240444444329,
+      "stability": 0.03516138368180072,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161817,
+      "composition_id": "Nb1 V8",
+      "delta_e": 0.021490614444443976,
+      "stability": 0.042448572290420095,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162777,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.0403746224999999,
+      "stability": 0.06395232531250006,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162621,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.0403746224999999,
+      "stability": 0.06395232531250006,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162648,
+      "composition_id": "Nb4 V1",
+      "delta_e": 0.04695802800000024,
+      "stability": 0.06582019025000037,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162641,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.030703241999999874,
+      "stability": 0.06842756650000013,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082347,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.05065237624999952,
+      "stability": 0.07423007906249968,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082462,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.05065437374999959,
+      "stability": 0.07423207656249975,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121469,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.05090573687500033,
+      "stability": 0.07448343968750049,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086150,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.0509057512499993,
+      "stability": 0.07448345406249945,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162629,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.05821068000000018,
+      "stability": 0.08178838281250034,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162623,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.03563561166666555,
+      "stability": 0.08279101729166587,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080589,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.05966550687499961,
+      "stability": 0.08324320968749976,
+      "icsd": false
+    },
+    {
+      "entry_id": 313259,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.0605991525,
+      "stability": 0.08417685531250016,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162730,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.060649729999999735,
+      "stability": 0.08422743281249989,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162636,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.060649729999999735,
+      "stability": 0.08422743281249989,
+      "icsd": false
+    },
+    {
+      "entry_id": 2036462,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.060675072499998706,
+      "stability": 0.08425277531249886,
+      "icsd": true
+    },
+    {
+      "entry_id": 2162651,
+      "composition_id": "Nb1 V4",
+      "delta_e": 0.04850357000000116,
+      "stability": 0.08622789450000143,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162647,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.057263866666666274,
+      "stability": 0.08870080374999983,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162726,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.05726771999999869,
+      "stability": 0.08870465708333225,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162781,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.044252812499999905,
+      "stability": 0.09140821812500023,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162624,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.04425505749999914,
+      "stability": 0.09141046312499947,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084821,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.04429381249999942,
+      "stability": 0.09144921812499975,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162749,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.03835379200000091,
+      "stability": 0.0949402787500013,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162643,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.03835387200000042,
+      "stability": 0.09494035875000081,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162626,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.05120652499999956,
+      "stability": 0.09836193062499989,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086014,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.05214575812500044,
+      "stability": 0.09930116375000077,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082497,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.05232932874999996,
+      "stability": 0.09948473437500029,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082312,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.0523323612500004,
+      "stability": 0.09948776687500073,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162644,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.06222075800000084,
+      "stability": 0.0999450825000011,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162657,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.06741435800000062,
+      "stability": 0.10513868250000089,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162639,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.059573419999999544,
+      "stability": 0.10672882562499987,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162809,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.05957348499999959,
+      "stability": 0.10672889062499992,
+      "icsd": false
+    },
+    {
+      "entry_id": 2036459,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0596084500000007,
+      "stability": 0.10676385562500103,
+      "icsd": true
+    },
+    {
+      "entry_id": 307052,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0596105300000005,
+      "stability": 0.10676593562500082,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162640,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.06934390600000029,
+      "stability": 0.10706823050000056,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162761,
+      "composition_id": "Nb1 V2",
+      "delta_e": 0.044668506666666254,
+      "stability": 0.10754238083333337,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162663,
+      "composition_id": "Nb1 V2",
+      "delta_e": 0.044668506666666254,
+      "stability": 0.10754238083333337,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162649,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.07020042000000046,
+      "stability": 0.10792474450000072,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080725,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.06191564062500099,
+      "stability": 0.10907104625000132,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162628,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.061967037500000544,
+      "stability": 0.10912244312500087,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162791,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0619705150000005,
+      "stability": 0.10912592062500083,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162653,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.07285063000000065,
+      "stability": 0.1105749545000009,
+      "icsd": false
+    },
+    {
+      "entry_id": 2036460,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.06356251250000078,
+      "stability": 0.1107179181250011,
+      "icsd": true
+    },
+    {
+      "entry_id": 2162638,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.06357306750000014,
+      "stability": 0.11072847312500046,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162741,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.06357378500000088,
+      "stability": 0.11072919062500121,
+      "icsd": false
+    },
+    {
+      "entry_id": 312638,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.063640190000001,
+      "stability": 0.11079559562500133,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162645,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.05442353000000111,
+      "stability": 0.1110100167500015,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162662,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.06400803166666573,
+      "stability": 0.11116343729166606,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162765,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.08110738666666606,
+      "stability": 0.11254432374999962,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162665,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.08110982999999905,
+      "stability": 0.11254676708333261,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162630,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.06546626999999994,
+      "stability": 0.11262167562500026,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162625,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.06561626666666598,
+      "stability": 0.1127716722916663,
+      "icsd": false
+    },
+    {
+      "entry_id": 2120995,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.06591581624999954,
+      "stability": 0.11307122187499986,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080485,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.06591581624999954,
+      "stability": 0.11307122187499986,
+      "icsd": false
+    },
+    {
+      "entry_id": 338594,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0675628499999998,
+      "stability": 0.11471825562500013,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162646,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.059679857999999794,
+      "stability": 0.1162663447500002,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162803,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0698513700000003,
+      "stability": 0.11700677562500063,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121547,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.07097657812500024,
+      "stability": 0.11813198375000057,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085878,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.07101172062500005,
+      "stability": 0.11816712625000038,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082162,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0715378362500001,
+      "stability": 0.11869324187500042,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082197,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.07153980500000046,
+      "stability": 0.11869521062500078,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162632,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.07266974750000088,
+      "stability": 0.11982515312500121,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162622,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.07406689833333265,
+      "stability": 0.12122230395833297,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162634,
+      "composition_id": "Nb3 V4",
+      "delta_e": 0.06800851000000055,
+      "stability": 0.12190040232249771,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162658,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.08533780599999971,
+      "stability": 0.12306213049999998,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162652,
+      "composition_id": "Nb3 V2",
+      "delta_e": 0.08681910399999992,
+      "stability": 0.12454342850000019,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162656,
+      "composition_id": "Nb1 V2",
+      "delta_e": 0.06287566333333316,
+      "stability": 0.12574953750000029,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162745,
+      "composition_id": "Nb1 V2",
+      "delta_e": 0.06287566333333316,
+      "stability": 0.12574953750000029,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162650,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.06962293400000022,
+      "stability": 0.1262094207500006,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162655,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.06990769000000085,
+      "stability": 0.12649417675000124,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162667,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.08038620499999993,
+      "stability": 0.12754161062500025,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162801,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.08038736166666638,
+      "stability": 0.1275427672916667,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162661,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.08127165999999993,
+      "stability": 0.12842706562500025,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162659,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.0719438800000006,
+      "stability": 0.12853036675000098,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162642,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.07466313200000059,
+      "stability": 0.131249618750001,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162635,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.08477124750000087,
+      "stability": 0.13192665312500118,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162633,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.0853232024999997,
+      "stability": 0.132478608125,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162815,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.08532916000000057,
+      "stability": 0.13248456562500088,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162660,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.08138934199999995,
+      "stability": 0.13797582875000033,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162664,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09113943666666557,
+      "stability": 0.1382948422916659,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162631,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09387895999999962,
+      "stability": 0.14103436562499994,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162785,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09387908499999931,
+      "stability": 0.14103449062499962,
+      "icsd": false
+    },
+    {
+      "entry_id": 2036461,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09460970499999988,
+      "stability": 0.1417651106250002,
+      "icsd": true
+    },
+    {
+      "entry_id": 2082611,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09461532749999968,
+      "stability": 0.141770733125,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162733,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09467474500000073,
+      "stability": 0.14183015062500104,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162637,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.094674865,
+      "stability": 0.1418302706250003,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162627,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.09546419166666571,
+      "stability": 0.14261959729166604,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162654,
+      "composition_id": "Nb2 V3",
+      "delta_e": 0.08764962000000054,
+      "stability": 0.14423610675000093,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162666,
+      "composition_id": "Nb1 V2",
+      "delta_e": 0.08418461999999967,
+      "stability": 0.14705849416666678,
+      "icsd": false
+    },
+    {
+      "entry_id": 2162769,
+      "composition_id": "Nb1 V2",
+      "delta_e": 0.08418461999999967,
+      "stability": 0.14705849416666678,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161802,
+      "composition_id": "Nb1 V12",
+      "delta_e": 0.13704995846153822,
+      "stability": 0.1515593139900969,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161774,
+      "composition_id": "Nb2 V17",
+      "delta_e": 0.1526063131578939,
+      "stability": 0.17246122055783242,
+      "icsd": false
+    },
+    {
+      "entry_id": 302096,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.161425982500001,
+      "stability": 0.20858138812500132,
+      "icsd": false
+    },
+    {
+      "entry_id": 302717,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.187934615,
+      "stability": 0.21151231781250016,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083277,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.16939061000000066,
+      "stability": 0.21654601562500098,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161835,
+      "composition_id": "Nb8 V41",
+      "delta_e": 0.21765173591836862,
+      "stability": 0.24844710295979555,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161760,
+      "composition_id": "Nb1 V5",
+      "delta_e": 0.3092776129166677,
+      "stability": 0.3407145500000013,
+      "icsd": false
+    },
+    {
+      "entry_id": 323801,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.29867179375,
+      "stability": 0.34582719937500034,
+      "icsd": false
+    },
+    {
+      "entry_id": 323180,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.330080242499999,
+      "stability": 0.35365794531249917,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161834,
+      "composition_id": "Nb41 V8",
+      "delta_e": 0.3410564604081633,
+      "stability": 0.35645414392887675,
+      "icsd": false
+    },
+    {
+      "entry_id": 348287,
+      "composition_id": "Nb1 V3",
+      "delta_e": 0.3221802475,
+      "stability": 0.36933565312500033,
+      "icsd": false
+    },
+    {
+      "entry_id": 347666,
+      "composition_id": "Nb3 V1",
+      "delta_e": 0.34874844,
+      "stability": 0.37232614281250015,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161761,
+      "composition_id": "Nb5 V1",
+      "delta_e": 0.3567470845833339,
+      "stability": 0.3724655531250006,
+      "icsd": false
+    },
+    {
+      "entry_id": 328136,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.328672435,
+      "stability": 0.3758278406250003,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161803,
+      "composition_id": "Nb12 V1",
+      "delta_e": 0.40251821923076775,
+      "stability": 0.40977289730941646,
+      "icsd": false
+    },
+    {
+      "entry_id": 1230501,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.395767619999999,
+      "stability": 0.4429230256249993,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161775,
+      "composition_id": "Nb17 V2",
+      "delta_e": 0.46096395736842055,
+      "stability": 0.4708914113827592,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609982,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.4955580291666652,
+      "stability": 0.5269949662499988,
+      "icsd": false
+    },
+    {
+      "entry_id": 1610072,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.501683466249999,
+      "stability": 0.5331204033333325,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591998,
+      "composition_id": "Nb2 V1",
+      "delta_e": 0.5024458616666662,
+      "stability": 0.5338827987499997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1106237,
+      "composition_id": "Nb1 V1",
+      "delta_e": 0.884594675000001,
+      "stability": 0.9317500806250013,
+      "icsd": false
+    },
+    {
+      "entry_id": 1223530,
+      "composition_id": "Nb1 V1",
+      "delta_e": 2.41956299,
+      "stability": 2.4667183956250005,
+      "icsd": false
+    }
+  ]
+}

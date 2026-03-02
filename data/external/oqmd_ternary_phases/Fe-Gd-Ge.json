@@ -1,0 +1,101 @@
+{
+  "space": "Fe-Gd-Ge",
+  "elements": [
+    "Fe",
+    "Gd",
+    "Ge"
+  ],
+  "entries": [
+    {
+      "entry_id": 18402,
+      "composition_id": "Fe2 Gd1 Ge2",
+      "delta_e": -0.463971129500001,
+      "stability": -0.022619475500000708,
+      "icsd": true
+    },
+    {
+      "entry_id": 1364532,
+      "composition_id": "Fe1 Gd1 Ge3",
+      "delta_e": -0.471438580500001,
+      "stability": -0.01899298076966216,
+      "icsd": false
+    },
+    {
+      "entry_id": 1800260,
+      "composition_id": "Fe3 Gd2 Ge5",
+      "delta_e": -0.47627321699999997,
+      "stability": -0.008568361999998941,
+      "icsd": false
+    },
+    {
+      "entry_id": 1791584,
+      "composition_id": "Fe6 Gd1 Ge6",
+      "delta_e": -0.27428513134615484,
+      "stability": -0.005309005542641909,
+      "icsd": false
+    },
+    {
+      "entry_id": 1377698,
+      "composition_id": "Fe1 Gd1 Ge2",
+      "delta_e": -0.545162863125,
+      "stability": 0.00015889190064444225,
+      "icsd": false
+    },
+    {
+      "entry_id": 1792821,
+      "composition_id": "Fe3 Gd2 Ge5",
+      "delta_e": -0.4720940909999996,
+      "stability": 0.004179126000000366,
+      "icsd": false
+    },
+    {
+      "entry_id": 1792979,
+      "composition_id": "Fe4 Gd1 Ge2",
+      "delta_e": -0.3219509203571432,
+      "stability": 0.009457027297266996,
+      "icsd": false
+    },
+    {
+      "entry_id": 1902227,
+      "composition_id": "Fe1 Gd1 Ge3",
+      "delta_e": -0.4361428945000007,
+      "stability": 0.03529568600000027,
+      "icsd": false
+    },
+    {
+      "entry_id": 1797065,
+      "composition_id": "Fe4 Gd3 Ge4",
+      "delta_e": -0.47744396113636417,
+      "stability": 0.05308818651286057,
+      "icsd": false
+    },
+    {
+      "entry_id": 30184,
+      "composition_id": "Fe1 Gd1 Ge2",
+      "delta_e": -0.486707151875001,
+      "stability": 0.058614603150643374,
+      "icsd": true
+    },
+    {
+      "entry_id": 549837,
+      "composition_id": "Fe1 Gd2 Ge1",
+      "delta_e": -0.266635475000001,
+      "stability": 0.26522618247207536,
+      "icsd": false
+    },
+    {
+      "entry_id": 421779,
+      "composition_id": "Fe1 Gd1 Ge2",
+      "delta_e": -0.0875095393750005,
+      "stability": 0.4578122156506439,
+      "icsd": false
+    },
+    {
+      "entry_id": 525539,
+      "composition_id": "Fe2 Gd1 Ge1",
+      "delta_e": 0.0352769543749991,
+      "stability": 0.4747767087499996,
+      "icsd": false
+    }
+  ]
+}

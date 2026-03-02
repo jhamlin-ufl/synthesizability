@@ -1,0 +1,611 @@
+{
+  "space": "Mo-Ti",
+  "elements": [
+    "Mo",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": 2131896,
+      "composition_id": "Mo3 Ti8",
+      "delta_e": -0.1179716663900091,
+      "stability": -0.021983986184239857,
+      "icsd": false
+    },
+    {
+      "entry_id": 1984786,
+      "composition_id": "Mo2 Ti1",
+      "delta_e": -0.17859823459542193,
+      "stability": -0.020427754451451313,
+      "icsd": false
+    },
+    {
+      "entry_id": 1983474,
+      "composition_id": "Mo4 Ti1",
+      "delta_e": -0.15523011275725196,
+      "stability": -0.012947352999999828,
+      "icsd": false
+    },
+    {
+      "entry_id": 2132194,
+      "composition_id": "Mo15 Ti1",
+      "delta_e": -0.05846756023664135,
+      "stability": -0.00637128312500046,
+      "icsd": false
+    },
+    {
+      "entry_id": 1916280,
+      "composition_id": "Mo7 Ti1",
+      "delta_e": -0.10253278047328251,
+      "stability": -8.224225801159446e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1979296,
+      "composition_id": "Mo8 Ti1",
+      "delta_e": -0.09261560375402825,
+      "stability": 0.0001249056534789461,
+      "icsd": false
+    },
+    {
+      "entry_id": 1979294,
+      "composition_id": "Mo5 Ti1",
+      "delta_e": -0.1309398689643769,
+      "stability": 0.0008692074564323471,
+      "icsd": false
+    },
+    {
+      "entry_id": 2131885,
+      "composition_id": "Mo8 Ti3",
+      "delta_e": -0.16435491285079837,
+      "stability": 0.0036214482880377596,
+      "icsd": false
+    },
+    {
+      "entry_id": 21460,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.159297095946565,
+      "stability": 0.004696062500000708,
+      "icsd": true
+    },
+    {
+      "entry_id": 2160057,
+      "composition_id": "Mo5 Ti2",
+      "delta_e": -0.15643019536750355,
+      "stability": 0.01382228136180591,
+      "icsd": false
+    },
+    {
+      "entry_id": 754914,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.0911999990896977,
+      "stability": 0.01694069549438286,
+      "icsd": false
+    },
+    {
+      "entry_id": 2160214,
+      "composition_id": "Mo13 Ti3",
+      "delta_e": -0.12944992633492447,
+      "stability": 0.016997297532674815,
+      "icsd": false
+    },
+    {
+      "entry_id": 754903,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": -0.108754830024175,
+      "stability": 0.01854400047194925,
+      "icsd": false
+    },
+    {
+      "entry_id": 754906,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.133789114393132,
+      "stability": 0.01915941845577393,
+      "icsd": false
+    },
+    {
+      "entry_id": 2160101,
+      "composition_id": "Mo3 Ti2",
+      "delta_e": -0.1489614315145033,
+      "stability": 0.019376922261059082,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086005,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.08775804096469919,
+      "stability": 0.020382653619381366,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085869,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.12978467501813107,
+      "stability": 0.023163857830774875,
+      "icsd": false
+    },
+    {
+      "entry_id": 754904,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.129283690643131,
+      "stability": 0.023664842205774944,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080648,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.08373750096469834,
+      "stability": 0.024403193619382216,
+      "icsd": false
+    },
+    {
+      "entry_id": 309610,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.138814665946564,
+      "stability": 0.025178492500001703,
+      "icsd": false
+    },
+    {
+      "entry_id": 754901,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.126704549393132,
+      "stability": 0.026243983455773945,
+      "icsd": false
+    },
+    {
+      "entry_id": 754897,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.125301463143131,
+      "stability": 0.027647069705774935,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086141,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.13367582657156518,
+      "stability": 0.03031733187500052,
+      "icsd": false
+    },
+    {
+      "entry_id": 754896,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.122103416059799,
+      "stability": 0.03084511678910694,
+      "icsd": false
+    },
+    {
+      "entry_id": 754917,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": -0.0953101400241749,
+      "stability": 0.031988690471949355,
+      "icsd": false
+    },
+    {
+      "entry_id": 754900,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.120045817726465,
+      "stability": 0.032902715122440945,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121046,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.12971008532156425,
+      "stability": 0.03428307312500145,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080512,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.12971008344656454,
+      "stability": 0.03428307500000116,
+      "icsd": false
+    },
+    {
+      "entry_id": 754892,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.118610116476464,
+      "stability": 0.03433841637244195,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080479,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.11814698814313118,
+      "stability": 0.03480154470577476,
+      "icsd": false
+    },
+    {
+      "entry_id": 754902,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.118027734893133,
+      "stability": 0.03492079795577295,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082191,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.11501315814313173,
+      "stability": 0.03793537470577421,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082152,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.11501086189313092,
+      "stability": 0.03793767095577502,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082602,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.11373265939313093,
+      "stability": 0.03921587345577501,
+      "icsd": false
+    },
+    {
+      "entry_id": 754921,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.112809563559798,
+      "stability": 0.04013896928910794,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082341,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.12257682844656514,
+      "stability": 0.041416330000000556,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082452,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.122558930946564,
+      "stability": 0.0414342275000017,
+      "icsd": false
+    },
+    {
+      "entry_id": 308554,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.0596401428396991,
+      "stability": 0.048500551744381455,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082302,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.059286834089698814,
+      "stability": 0.04885386049438174,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082491,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.05927140908969797,
+      "stability": 0.04886928549438259,
+      "icsd": false
+    },
+    {
+      "entry_id": 754899,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.102494688893132,
+      "stability": 0.050453843955773944,
+      "icsd": false
+    },
+    {
+      "entry_id": 305227,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.0804624318931317,
+      "stability": 0.07248610095577425,
+      "icsd": false
+    },
+    {
+      "entry_id": 1522229,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.0803361468931314,
+      "stability": 0.07261238595577454,
+      "icsd": false
+    },
+    {
+      "entry_id": 1221209,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.0802778018931321,
+      "stability": 0.07267073095577384,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235897,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.0801944843931324,
+      "stability": 0.07275404845577355,
+      "icsd": false
+    },
+    {
+      "entry_id": 754918,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.0681703752264653,
+      "stability": 0.08477815762244065,
+      "icsd": false
+    },
+    {
+      "entry_id": 754908,
+      "composition_id": "Mo1 Ti5",
+      "delta_e": 0.0198940501781131,
+      "stability": 0.09198784617426126,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084812,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.05745287189313153,
+      "stability": 0.09549566095577441,
+      "icsd": false
+    },
+    {
+      "entry_id": 298023,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": -0.00789019783969813,
+      "stability": 0.10025049674438243,
+      "icsd": false
+    },
+    {
+      "entry_id": 1339438,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": 0.0239120184103019,
+      "stability": 0.13205271299438245,
+      "icsd": false
+    },
+    {
+      "entry_id": 754893,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": 0.0221892991424918,
+      "stability": 0.14948812963861607,
+      "icsd": false
+    },
+    {
+      "entry_id": 754923,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": 0.0469969959103018,
+      "stability": 0.15513769049438236,
+      "icsd": false
+    },
+    {
+      "entry_id": 754911,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": 0.0472171559103014,
+      "stability": 0.15535785049438194,
+      "icsd": false
+    },
+    {
+      "entry_id": 320152,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": 0.0475319371603007,
+      "stability": 0.15567263174438128,
+      "icsd": false
+    },
+    {
+      "entry_id": 344638,
+      "composition_id": "Mo1 Ti3",
+      "delta_e": 0.0524066946603021,
+      "stability": 0.16054738924438267,
+      "icsd": false
+    },
+    {
+      "entry_id": 754905,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.0230440206068678,
+      "stability": 0.17599255345577375,
+      "icsd": false
+    },
+    {
+      "entry_id": 1592074,
+      "composition_id": "Mo2 Ti1",
+      "delta_e": 0.002865948737911831,
+      "stability": 0.18146418333333375,
+      "icsd": false
+    },
+    {
+      "entry_id": 1610062,
+      "composition_id": "Mo2 Ti1",
+      "delta_e": 0.009197021654578919,
+      "stability": 0.18779525625000085,
+      "icsd": false
+    },
+    {
+      "entry_id": 754913,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.0377357118568682,
+      "stability": 0.19068424470577414,
+      "icsd": false
+    },
+    {
+      "entry_id": 754912,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.0411270756068678,
+      "stability": 0.19407560845577373,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520705,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": 0.07101875414249174,
+      "stability": 0.19831758463861598,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609972,
+      "composition_id": "Mo2 Ti1",
+      "delta_e": 0.022637831237911854,
+      "stability": 0.20123606583333378,
+      "icsd": false
+    },
+    {
+      "entry_id": 754898,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.054000676231869,
+      "stability": 0.20694920908077494,
+      "icsd": false
+    },
+    {
+      "entry_id": 754916,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": 0.0902326358091585,
+      "stability": 0.21753146630528275,
+      "icsd": false
+    },
+    {
+      "entry_id": 754907,
+      "composition_id": "Mo3 Ti4",
+      "delta_e": 0.0804278442649929,
+      "stability": 0.2223836477939634,
+      "icsd": false
+    },
+    {
+      "entry_id": 754922,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.0732434768568684,
+      "stability": 0.22619200970577433,
+      "icsd": false
+    },
+    {
+      "entry_id": 299068,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": 0.0923007940534362,
+      "stability": 0.2562939525000019,
+      "icsd": false
+    },
+    {
+      "entry_id": 326311,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.126847058106868,
+      "stability": 0.279795590955774,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609947,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": 0.15648525747582553,
+      "stability": 0.2837840879719498,
+      "icsd": false
+    },
+    {
+      "entry_id": 754895,
+      "composition_id": "Mo3 Ti4",
+      "delta_e": 0.152719365693564,
+      "stability": 0.2946751692225345,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083268,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.1533544856068687,
+      "stability": 0.3063030184557747,
+      "icsd": false
+    },
+    {
+      "entry_id": 427938,
+      "composition_id": "Mo2 Ti3",
+      "delta_e": 0.173339203728243,
+      "stability": 0.3108979150442268,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590661,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": 0.2000644358091582,
+      "stability": 0.32736326630528245,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235898,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.175865943106869,
+      "stability": 0.32881447595577495,
+      "icsd": false
+    },
+    {
+      "entry_id": 1230374,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.176001308106869,
+      "stability": 0.32894984095577495,
+      "icsd": false
+    },
+    {
+      "entry_id": 336769,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.252783703106868,
+      "stability": 0.4057322359557739,
+      "icsd": false
+    },
+    {
+      "entry_id": 319096,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": 0.265356592803435,
+      "stability": 0.4293497512500007,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450698,
+      "composition_id": "Mo3 Ti4",
+      "delta_e": 0.30107408426499255,
+      "stability": 0.4430298877939631,
+      "icsd": false
+    },
+    {
+      "entry_id": 343582,
+      "composition_id": "Mo3 Ti1",
+      "delta_e": 0.314467954053436,
+      "stability": 0.47846111250000173,
+      "icsd": false
+    },
+    {
+      "entry_id": 21459,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.667256653106868,
+      "stability": 0.820205185955774,
+      "icsd": true
+    },
+    {
+      "entry_id": 1104413,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.763562933106869,
+      "stability": 0.9165114659557749,
+      "icsd": false
+    },
+    {
+      "entry_id": 1233860,
+      "composition_id": "Mo2 Ti1",
+      "delta_e": 1.26475355373791,
+      "stability": 1.443351788333332,
+      "icsd": false
+    },
+    {
+      "entry_id": 1226888,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 1.40828140310687,
+      "stability": 1.561229935955776,
+      "icsd": false
+    },
+    {
+      "entry_id": 1223403,
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 2.26233360310687,
+      "stability": 2.415282135955776,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238620,
+      "composition_id": "Mo1 Ti2",
+      "delta_e": 2.35721539414249,
+      "stability": 2.484514224638614,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238621,
+      "composition_id": "Mo2 Ti1",
+      "delta_e": 3.60469165207125,
+      "stability": 3.783289886666672,
+      "icsd": false
+    }
+  ]
+}

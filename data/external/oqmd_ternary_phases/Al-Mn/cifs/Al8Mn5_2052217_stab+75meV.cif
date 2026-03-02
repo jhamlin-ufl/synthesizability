@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Mn5Al8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.69318613
+_cell_length_b   7.69318613
+_cell_length_c   7.69318613
+_cell_angle_alpha   109.45857713
+_cell_angle_beta   109.45857713
+_cell_angle_gamma   109.45857714
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn5Al8
+_chemical_formula_sum   'Mn10 Al16'
+_cell_volume   350.67108922
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.64161634  0.64161634  0.00000000  1
+  Al  Al1  1  0.67282928  0.27892675  0.04610620  1
+  Al  Al2  1  0.27892675  0.67282928  0.04610620  1
+  Al  Al3  1  0.67282915  0.04610589  0.27892719  1
+  Al  Al4  1  0.04610589  0.67282915  0.27892719  1
+  Al  Al5  1  0.55365479  0.33527610  0.33527623  1
+  Al  Al6  1  0.33527610  0.55365479  0.33527623  1
+  Al  Al7  1  0.73780976  0.73780976  0.38325746  1
+  Al  Al8  1  0.33527623  0.33527623  0.55365466  1
+  Al  Al9  1  0.64161647  0.00000000  0.64161588  1
+  Al  Al10  1  0.00000000  0.64161647  0.64161588  1
+  Al  Al11  1  0.27892660  0.04610587  0.67282976  1
+  Al  Al12  1  0.04610587  0.27892660  0.67282976  1
+  Al  Al13  1  0.68897496  0.68897496  0.68897496  1
+  Al  Al14  1  0.73780957  0.38325765  0.73780976  1
+  Al  Al15  1  0.38325765  0.73780957  0.73780976  1
+  Mn  Mn16  1  0.79095082  0.00125752  0.00125758  1
+  Mn  Mn17  1  0.00125752  0.79095082  0.00125758  1
+  Mn  Mn18  1  0.36832654  0.36832654  0.02251037  1
+  Mn  Mn19  1  0.15056275  0.15056275  0.15056275  1
+  Mn  Mn20  1  0.98804378  0.98804378  0.32763042  1
+  Mn  Mn21  1  0.36832646  0.02251045  0.36832654  1
+  Mn  Mn22  1  0.02251045  0.36832646  0.36832654  1
+  Mn  Mn23  1  0.00125758  0.00125758  0.79095076  1
+  Mn  Mn24  1  0.98804406  0.32763015  0.98804378  1
+  Mn  Mn25  1  0.32763015  0.98804406  0.98804378  1

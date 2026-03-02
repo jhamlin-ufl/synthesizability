@@ -1,0 +1,136 @@
+{
+  "space": "Nb-Si-V",
+  "elements": [
+    "Nb",
+    "Si",
+    "V"
+  ],
+  "entries": [
+    {
+      "entry_id": 1529219,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": -0.6447059624999992,
+      "stability": -0.036796768059232154,
+      "icsd": false
+    },
+    {
+      "entry_id": 2154486,
+      "composition_id": "Nb4 Si3 V1",
+      "delta_e": -0.6769858737500005,
+      "stability": -0.013991079560477182,
+      "icsd": false
+    },
+    {
+      "entry_id": 2052972,
+      "composition_id": "Nb4 Si5 V2",
+      "delta_e": -0.6366926336363641,
+      "stability": -0.013303930183725554,
+      "icsd": true
+    },
+    {
+      "entry_id": 1368118,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": -0.644632931666666,
+      "stability": 7.30308333332097e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1924876,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": -0.5687278694444444,
+      "stability": 0.07597809305555481,
+      "icsd": false
+    },
+    {
+      "entry_id": 13793,
+      "composition_id": "Nb2 Si5 V4",
+      "delta_e": -0.39107725909091,
+      "stability": 0.2001594059404384,
+      "icsd": true
+    },
+    {
+      "entry_id": 392958,
+      "composition_id": "Nb1 Si1 V2",
+      "delta_e": -0.252286526250002,
+      "stability": 0.23958838749999767,
+      "icsd": false
+    },
+    {
+      "entry_id": 1213647,
+      "composition_id": "Nb1 Si2 V2",
+      "delta_e": -0.359214744000001,
+      "stability": 0.25103181524631346,
+      "icsd": false
+    },
+    {
+      "entry_id": 1529698,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": -0.3626654908333329,
+      "stability": 0.28204047166666635,
+      "icsd": false
+    },
+    {
+      "entry_id": 736624,
+      "composition_id": "Nb1 Si1 V2",
+      "delta_e": -0.178026471250002,
+      "stability": 0.31384844249999766,
+      "icsd": false
+    },
+    {
+      "entry_id": 737975,
+      "composition_id": "Nb2 Si1 V1",
+      "delta_e": -0.149492726249999,
+      "stability": 0.3340367456250004,
+      "icsd": false
+    },
+    {
+      "entry_id": 487415,
+      "composition_id": "Nb2 Si1 V1",
+      "delta_e": -0.140084596249999,
+      "stability": 0.34344487562500037,
+      "icsd": false
+    },
+    {
+      "entry_id": 377892,
+      "composition_id": "Nb1 Si2 V1",
+      "delta_e": -0.1003655875,
+      "stability": 0.49302681155141626,
+      "icsd": false
+    },
+    {
+      "entry_id": 1120944,
+      "composition_id": "Nb1 Si2 V1",
+      "delta_e": 0.0151648274999996,
+      "stability": 0.6085572265514159,
+      "icsd": false
+    },
+    {
+      "entry_id": 580818,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": 0.0279146616666672,
+      "stability": 0.6726206241666665,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235497,
+      "composition_id": "Nb1 Si2 V2",
+      "delta_e": 0.0947132639999992,
+      "stability": 0.7049598232463137,
+      "icsd": false
+    },
+    {
+      "entry_id": 840395,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": 0.453674261666668,
+      "stability": 1.0983802241666671,
+      "icsd": false
+    },
+    {
+      "entry_id": 918516,
+      "composition_id": "Nb1 Si1 V1",
+      "delta_e": 0.583497785,
+      "stability": 1.2282037474999994,
+      "icsd": false
+    }
+  ]
+}

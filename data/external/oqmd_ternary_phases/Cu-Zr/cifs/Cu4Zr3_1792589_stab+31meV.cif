@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Zr3Cu4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.92296471
+_cell_length_b   3.29172207
+_cell_length_c   10.92296471
+_cell_angle_alpha   81.33372428
+_cell_angle_beta   17.33255143
+_cell_angle_gamma   81.33372428
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3Cu4
+_chemical_formula_sum   'Zr3 Cu4'
+_cell_volume   115.63669657
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.12900851  0.87099192  0.12900851  1
+  Cu  Cu1  1  0.42741574  0.57258899  0.42741144  1
+  Cu  Cu2  1  0.57258837  0.42741635  0.57258408  1
+  Cu  Cu3  1  0.87099131  0.12900912  0.87099131  1
+  Zr  Zr4  1  0.00000000  0.00000000  0.00000000  1
+  Zr  Zr5  1  0.29748192  0.70252281  0.29747762  1
+  Zr  Zr6  1  0.70252219  0.29748254  0.70251789  1

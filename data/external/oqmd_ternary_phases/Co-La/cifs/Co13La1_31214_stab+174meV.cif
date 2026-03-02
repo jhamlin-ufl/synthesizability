@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_LaCo13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.92053640
+_cell_length_b   7.92053640
+_cell_length_c   7.92053640
+_cell_angle_alpha   120.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCo13
+_chemical_formula_sum   'La2 Co26'
+_cell_volume   351.35714126
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co1  1  0.70420209  0.00000000  0.05946258  1
+  Co  Co2  1  0.05946258  0.76366467  0.05946258  1
+  Co  Co3  1  0.29579880  0.35526138  0.05946258  1
+  Co  Co4  1  0.55946303  0.76366467  0.20420164  1
+  Co  Co5  1  0.44053786  0.00000000  0.20420164  1
+  Co  Co6  1  0.20420164  0.64473951  0.20420164  1
+  Co  Co7  1  0.94053742  0.00000000  0.29579791  1
+  Co  Co8  1  0.29579880  0.23633622  0.29579880  1
+  Co  Co9  1  0.05946258  0.35526138  0.29579880  1
+  Co  Co10  1  0.79579836  0.23633622  0.44053697  1
+  Co  Co11  1  0.20420164  0.00000000  0.44053786  1
+  Co  Co12  1  0.44053786  0.64473951  0.44053786  1
+  Co  Co13  1  0.49999955  0.00000000  0.49999955  1
+  Co  Co14  1  0.79579836  0.00000000  0.55946214  1
+  Co  Co15  1  0.55946303  0.35526138  0.55946303  1
+  Co  Co16  1  0.20420164  0.76366467  0.55946303  1
+  Co  Co17  1  0.94053742  0.64473951  0.70420120  1
+  Co  Co18  1  0.05946258  0.00000000  0.70420209  1
+  Co  Co19  1  0.70420209  0.76366467  0.70420209  1
+  Co  Co20  1  0.55946214  0.00000000  0.79579836  1
+  Co  Co21  1  0.79579836  0.35526138  0.79579836  1
+  Co  Co22  1  0.44053697  0.23633622  0.79579836  1
+  Co  Co23  1  0.29579791  0.00000000  0.94053742  1
+  Co  Co24  1  0.94053742  0.23633622  0.94053742  1
+  Co  Co25  1  0.70420120  0.64473951  0.94053742  1
+  La  La26  1  0.74999933  0.49999955  0.24999978  1
+  La  La27  1  0.24999978  0.49999955  0.74999933  1

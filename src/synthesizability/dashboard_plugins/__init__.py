@@ -8,6 +8,7 @@ from pathlib import Path
 PLUGINS = [
     "synthesizability.dashboard_plugins.composition",
     "synthesizability.dashboard_plugins.oqmd",
+    "synthesizability.dashboard_plugins.ternary_phases",
     "synthesizability.dashboard_plugins.susceptibility",
     "synthesizability.dashboard_plugins.supercon",
 ]

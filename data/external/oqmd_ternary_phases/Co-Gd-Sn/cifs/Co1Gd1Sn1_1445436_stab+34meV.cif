@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_GdCoSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.25921030
+_cell_length_b   7.25921030
+_cell_length_c   3.95192748
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdCoSn
+_chemical_formula_sum   'Gd3 Co3 Sn3'
+_cell_volume   180.35091691
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.66666706  0.33333277  0.00000000  1
+  Co  Co1  1  0.33333357  0.66666714  0.00000000  1
+  Co  Co2  1  0.00000000  0.00000000  0.49999905  1
+  Gd  Gd3  1  0.58959581  0.00000000  0.49999905  1
+  Gd  Gd4  1  0.41040551  0.41040549  0.49999905  1
+  Gd  Gd5  1  0.00000000  0.58959442  0.49999905  1
+  Sn  Sn6  1  0.25401799  0.00000000  0.00000000  1
+  Sn  Sn7  1  0.00000000  0.25401722  0.00000000  1
+  Sn  Sn8  1  0.74598234  0.74598270  0.00000000  1

@@ -1,0 +1,66 @@
+{
+  "space": "C-Cr-Sc",
+  "elements": [
+    "C",
+    "Cr",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "entry_id": 2146062,
+      "composition_id": "C3 Cr2 Sc2",
+      "delta_e": -0.3832215389285705,
+      "stability": -0.029266886677293713,
+      "icsd": false
+    },
+    {
+      "entry_id": 14516,
+      "composition_id": "C2 Cr1 Sc1",
+      "delta_e": -0.3452691275,
+      "stability": -0.009950280937500777,
+      "icsd": true
+    },
+    {
+      "entry_id": 2152675,
+      "composition_id": "C7 Cr2 Sc5",
+      "delta_e": -0.42529079124999924,
+      "stability": -0.006775083808565396,
+      "icsd": false
+    },
+    {
+      "entry_id": 7037,
+      "composition_id": "C3 Cr1 Sc2",
+      "delta_e": -0.412947092916666,
+      "stability": -0.005438893433285075,
+      "icsd": true
+    },
+    {
+      "entry_id": 1743405,
+      "composition_id": "C3 Cr2 Sc2",
+      "delta_e": -0.38318402464285634,
+      "stability": 3.75142857141908e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 14515,
+      "composition_id": "C2 Cr1 Sc1",
+      "delta_e": -0.34518762125,
+      "stability": 8.150624999997413e-05,
+      "icsd": true
+    },
+    {
+      "entry_id": 1765257,
+      "composition_id": "C3 Cr3 Sc1",
+      "delta_e": -0.16825644178571508,
+      "stability": 0.07484322181207156,
+      "icsd": false
+    },
+    {
+      "entry_id": 1433908,
+      "composition_id": "C3 Cr1 Sc1",
+      "delta_e": 0.892031466499999,
+      "stability": 1.168246768499999,
+      "icsd": false
+    }
+  ]
+}

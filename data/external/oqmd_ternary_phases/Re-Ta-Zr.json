@@ -1,0 +1,73 @@
+{
+  "space": "Re-Ta-Zr",
+  "elements": [
+    "Re",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 2149973,
+      "composition_id": "Re5 Ta3 Zr4",
+      "delta_e": -0.3230745820833339,
+      "stability": -0.02562253291666816,
+      "icsd": false
+    },
+    {
+      "entry_id": 541822,
+      "composition_id": "Re2 Ta1 Zr1",
+      "delta_e": -0.305166647499998,
+      "stability": 0.05019542458333481,
+      "icsd": false
+    },
+    {
+      "entry_id": 531899,
+      "composition_id": "Re1 Ta2 Zr1",
+      "delta_e": -0.0873477087500003,
+      "stability": 0.16108125062500056,
+      "icsd": false
+    },
+    {
+      "entry_id": 1139894,
+      "composition_id": "Re1 Ta2 Zr1",
+      "delta_e": -0.0690514937500009,
+      "stability": 0.17937746562499995,
+      "icsd": false
+    },
+    {
+      "entry_id": 1140729,
+      "composition_id": "Re2 Ta1 Zr1",
+      "delta_e": -0.120692314999999,
+      "stability": 0.23466975708333382,
+      "icsd": false
+    },
+    {
+      "entry_id": 557883,
+      "composition_id": "Re1 Ta1 Zr2",
+      "delta_e": 0.0526420737499986,
+      "stability": 0.2655212160400986,
+      "icsd": false
+    },
+    {
+      "entry_id": 972920,
+      "composition_id": "Re1 Ta1 Zr1",
+      "delta_e": 0.221149481666667,
+      "stability": 0.5049310377179034,
+      "icsd": false
+    },
+    {
+      "entry_id": 962997,
+      "composition_id": "Re1 Ta1 Zr1",
+      "delta_e": 0.688624925,
+      "stability": 0.9724064810512364,
+      "icsd": false
+    },
+    {
+      "entry_id": 988981,
+      "composition_id": "Re1 Ta1 Zr1",
+      "delta_e": 1.19283545166667,
+      "stability": 1.4766170077179064,
+      "icsd": false
+    }
+  ]
+}

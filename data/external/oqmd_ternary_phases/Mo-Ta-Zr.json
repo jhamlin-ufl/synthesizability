@@ -1,0 +1,87 @@
+{
+  "space": "Mo-Ta-Zr",
+  "elements": [
+    "Mo",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 2145257,
+      "composition_id": "Mo3 Ta1 Zr2",
+      "delta_e": -0.13910271333333313,
+      "stability": -0.005338048147471658,
+      "icsd": false
+    },
+    {
+      "entry_id": 448878,
+      "composition_id": "Mo2 Ta1 Zr1",
+      "delta_e": -0.045547534999999,
+      "stability": 0.10738288500000112,
+      "icsd": false
+    },
+    {
+      "entry_id": 1127592,
+      "composition_id": "Mo1 Ta2 Zr1",
+      "delta_e": 0.0579162224999994,
+      "stability": 0.1681377253409083,
+      "icsd": false
+    },
+    {
+      "entry_id": 1139886,
+      "composition_id": "Mo1 Ta2 Zr1",
+      "delta_e": 0.0579264249999998,
+      "stability": 0.1681479278409087,
+      "icsd": false
+    },
+    {
+      "entry_id": 531466,
+      "composition_id": "Mo1 Ta2 Zr1",
+      "delta_e": 0.0618922150000003,
+      "stability": 0.17211371784090918,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085640,
+      "composition_id": "Mo1 Ta1 Zr1",
+      "delta_e": 0.051747244166666206,
+      "stability": 0.18141357314747247,
+      "icsd": false
+    },
+    {
+      "entry_id": 1128660,
+      "composition_id": "Mo1 Ta1 Zr2",
+      "delta_e": 0.0944847674999991,
+      "stability": 0.19177748999999975,
+      "icsd": false
+    },
+    {
+      "entry_id": 557113,
+      "composition_id": "Mo1 Ta1 Zr2",
+      "delta_e": 0.158176432499999,
+      "stability": 0.25546915499999967,
+      "icsd": false
+    },
+    {
+      "entry_id": 883466,
+      "composition_id": "Mo1 Ta1 Zr1",
+      "delta_e": 0.51755294,
+      "stability": 0.6472192689808063,
+      "icsd": false
+    },
+    {
+      "entry_id": 962564,
+      "composition_id": "Mo1 Ta1 Zr1",
+      "delta_e": 0.79572814,
+      "stability": 0.9253944689808062,
+      "icsd": false
+    },
+    {
+      "entry_id": 988211,
+      "composition_id": "Mo1 Ta1 Zr1",
+      "delta_e": 1.23316535333333,
+      "stability": 1.3628316823141362,
+      "icsd": false
+    }
+  ]
+}

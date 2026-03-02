@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_HfNb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.57339960
+_cell_length_b   7.57339960
+_cell_length_c   9.47309796
+_cell_angle_alpha   108.63159272
+_cell_angle_beta   108.63159272
+_cell_angle_gamma   36.74560778
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfNb3
+_chemical_formula_sum   'Hf4 Nb12'
+_cell_volume   306.08890878
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.62546416  0.62546416  0.05613004  1
+  Hf  Hf1  1  0.86569557  0.86569557  0.17627112  1
+  Hf  Hf2  1  0.50321232  0.50321232  0.26331646  1
+  Hf  Hf3  1  0.00301792  0.00301792  0.50280044  1
+  Nb  Nb4  1  0.25240556  0.25240556  0.12422060  1
+  Nb  Nb5  1  0.13266746  0.13266746  0.30646358  1
+  Nb  Nb6  1  0.74813996  0.74813996  0.38471088  1
+  Nb  Nb7  1  0.36494310  0.36494310  0.43525247  1
+  Nb  Nb8  1  0.63265842  0.63265842  0.57577992  1
+  Nb  Nb9  1  0.24938154  0.24938154  0.62908714  1
+  Nb  Nb10  1  0.87619928  0.87619928  0.69206794  1
+  Nb  Nb11  1  0.49775629  0.49775629  0.73946609  1
+  Nb  Nb12  1  0.12453721  0.12453721  0.82015393  1
+  Nb  Nb13  1  0.75054780  0.75054780  0.86329096  1
+  Nb  Nb14  1  0.37616782  0.37616782  0.93527158  1
+  Nb  Nb15  1  0.99720504  0.99720504  0.99571767  1

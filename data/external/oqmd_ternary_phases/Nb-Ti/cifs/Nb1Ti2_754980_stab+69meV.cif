@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ti2Nb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05075622
+_cell_length_b   5.05054879
+_cell_length_c   4.79427300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   60.00668713
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Nb
+_chemical_formula_sum   'Ti4 Nb2'
+_cell_volume   105.91991688
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.00000000  0.00000000  0.00000000  1
+  Nb  Nb1  1  0.33334792  0.33330793  0.00000000  1
+  Ti  Ti2  1  0.66672447  0.66660093  0.00000000  1
+  Ti  Ti3  1  0.99875328  0.33457673  0.50000073  1
+  Ti  Ti4  1  0.33455329  0.66665250  0.50000073  1
+  Ti  Ti5  1  0.66664252  0.99878875  0.50000073  1

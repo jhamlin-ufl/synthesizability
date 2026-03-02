@@ -1,0 +1,80 @@
+{
+  "space": "Ge-Mo-Os",
+  "elements": [
+    "Ge",
+    "Mo",
+    "Os"
+  ],
+  "entries": [
+    {
+      "entry_id": 572849,
+      "composition_id": "Ge1 Mo1 Os1",
+      "delta_e": -0.00714247833333204,
+      "stability": 0.104509087506484,
+      "icsd": false
+    },
+    {
+      "entry_id": 420089,
+      "composition_id": "Ge2 Mo1 Os1",
+      "delta_e": 0.163787382499999,
+      "stability": 0.287182739374999,
+      "icsd": false
+    },
+    {
+      "entry_id": 745495,
+      "composition_id": "Ge1 Mo2 Os1",
+      "delta_e": 0.17454679375,
+      "stability": 0.289652399798917,
+      "icsd": false
+    },
+    {
+      "entry_id": 449814,
+      "composition_id": "Ge1 Mo2 Os1",
+      "delta_e": 0.28022769875,
+      "stability": 0.395333304798917,
+      "icsd": false
+    },
+    {
+      "entry_id": 1007546,
+      "composition_id": "Ge2 Mo3 Os2",
+      "delta_e": 0.303425435714287,
+      "stability": 0.417050737079632,
+      "icsd": false
+    },
+    {
+      "entry_id": 369923,
+      "composition_id": "Ge1 Mo1 Os2",
+      "delta_e": 0.35773876625,
+      "stability": 0.444656205312499,
+      "icsd": false
+    },
+    {
+      "entry_id": 747329,
+      "composition_id": "Ge1 Mo1 Os2",
+      "delta_e": 0.372360813749999,
+      "stability": 0.459278252812498,
+      "icsd": false
+    },
+    {
+      "entry_id": 884402,
+      "composition_id": "Ge1 Mo1 Os1",
+      "delta_e": 0.353558655,
+      "stability": 0.465210220839816,
+      "icsd": false
+    },
+    {
+      "entry_id": 1128334,
+      "composition_id": "Ge2 Mo1 Os1",
+      "delta_e": 0.3535760225,
+      "stability": 0.476971379375,
+      "icsd": false
+    },
+    {
+      "entry_id": 867522,
+      "composition_id": "Ge1 Mo1 Os1",
+      "delta_e": 0.658975061666668,
+      "stability": 0.770626627506484,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZrRe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.14063519
+_cell_length_b   6.58120647
+_cell_length_c   4.70964000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   103.41805336
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrRe
+_chemical_formula_sum   'Zr6 Re6'
+_cell_volume   215.28325099
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.26748020  0.33057845  0.00000000  1
+  Re  Re1  1  0.96260207  0.48981317  0.00000000  1
+  Re  Re2  1  0.26724571  0.80411728  0.00000000  1
+  Re  Re3  1  0.95495815  0.25143542  0.50000000  1
+  Re  Re4  1  0.25960179  0.56574257  0.50000000  1
+  Re  Re5  1  0.95472079  0.72497657  0.50000000  1
+  Zr  Zr6  1  0.60107463  0.15670455  0.00000000  1
+  Zr  Zr7  1  0.59857809  0.64358955  0.00000000  1
+  Zr  Zr8  1  0.95569634  0.98805123  0.00000000  1
+  Zr  Zr9  1  0.26650463  0.06749618  0.50000000  1
+  Zr  Zr10  1  0.62362144  0.41195599  0.50000000  1
+  Zr  Zr11  1  0.62112635  0.89885046  0.50000000  1

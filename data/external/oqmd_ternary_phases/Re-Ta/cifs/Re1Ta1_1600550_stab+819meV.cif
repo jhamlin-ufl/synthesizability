@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_TaRe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32524842
+_cell_length_b   5.32524842
+_cell_length_c   16.73856746
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaRe
+_chemical_formula_sum   'Ta12 Re12'
+_cell_volume   411.08219158
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.00000000  0.00000000  0.10358593  1
+  Re  Re1  1  0.33333294  0.66666588  0.12502802  1
+  Re  Re2  1  0.66666622  0.33333403  0.14659797  1
+  Re  Re3  1  0.66666622  0.33333403  0.35340181  1
+  Re  Re4  1  0.33333294  0.66666588  0.37497175  1
+  Re  Re5  1  0.00000000  0.00000000  0.39641385  1
+  Re  Re6  1  0.00000000  0.00000000  0.60358570  1
+  Re  Re7  1  0.66666622  0.33333403  0.62502780  1
+  Re  Re8  1  0.33333294  0.66666588  0.64659775  1
+  Re  Re9  1  0.33333294  0.66666588  0.85340218  1
+  Re  Re10  1  0.66666622  0.33333403  0.87497213  1
+  Re  Re11  1  0.00000000  0.00000000  0.89641423  1
+  Ta  Ta12  1  0.49999921  0.00000000  0.00000000  1
+  Ta  Ta13  1  0.00000000  0.49999996  0.00000000  1
+  Ta  Ta14  1  0.49999958  0.49999996  0.00000000  1
+  Ta  Ta15  1  0.16386117  0.32772233  0.24999989  1
+  Ta  Ta16  1  0.16386205  0.83613983  0.24999989  1
+  Ta  Ta17  1  0.67227777  0.83613983  0.24999989  1
+  Ta  Ta18  1  0.49999921  0.00000000  0.49999978  1
+  Ta  Ta19  1  0.00000000  0.49999996  0.49999978  1
+  Ta  Ta20  1  0.49999958  0.49999996  0.49999978  1
+  Ta  Ta21  1  0.32772248  0.16386225  0.75000026  1
+  Ta  Ta22  1  0.83614007  0.16386225  0.75000026  1
+  Ta  Ta23  1  0.83613800  0.67227758  0.75000026  1

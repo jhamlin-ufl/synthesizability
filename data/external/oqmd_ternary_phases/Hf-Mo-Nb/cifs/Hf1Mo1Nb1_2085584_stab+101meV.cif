@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfNbMo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50295976
+_cell_length_b   5.71956959
+_cell_length_c   7.26766717
+_cell_angle_alpha   82.29128382
+_cell_angle_beta   78.72589050
+_cell_angle_gamma   80.41786981
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfNbMo
+_chemical_formula_sum   'Hf4 Nb4 Mo4'
+_cell_volume   219.97853284
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.51332183  0.24455452  0.00109340  1
+  Hf  Hf1  1  0.98587864  0.50500806  0.01294163  1
+  Hf  Hf2  1  0.86048343  0.41627527  0.64470825  1
+  Hf  Hf3  1  0.33641711  0.67277851  0.65472521  1
+  Mo  Mo4  1  0.01254962  0.99591332  0.00131913  1
+  Mo  Mo5  1  0.47843945  0.75537795  0.01775118  1
+  Mo  Mo6  1  0.67778854  0.83287368  0.32173618  1
+  Mo  Mo7  1  0.17305003  0.58761624  0.32420092  1
+  Nb  Nb8  1  0.15946476  0.08196011  0.33698735  1
+  Nb  Nb9  1  0.64915790  0.33176816  0.34051304  1
+  Nb  Nb10  1  0.34017089  0.15930932  0.66523314  1
+  Nb  Nb11  1  0.81328113  0.91656533  0.67878848  1

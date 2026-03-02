@@ -1,0 +1,513 @@
+{
+  "space": "Ta-Zr",
+  "elements": [
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 1610001,
+      "composition_id": "Ta2 Zr1",
+      "delta_e": 0.035019119166664815,
+      "stability": 0.03507642083275853,
+      "icsd": false
+    },
+    {
+      "entry_id": 1610091,
+      "composition_id": "Ta2 Zr1",
+      "delta_e": 0.0511278424999991,
+      "stability": 0.051185144166092815,
+      "icsd": false
+    },
+    {
+      "entry_id": 1576973,
+      "composition_id": "Ta2 Zr1",
+      "delta_e": 0.07153747833333075,
+      "stability": 0.07159477999942447,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121483,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.08745945812499833,
+      "stability": 0.08750243437499838,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086174,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.08745945874999883,
+      "stability": 0.08750243499999888,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080587,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.08881727500000025,
+      "stability": 0.0889462037500004,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121071,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.08887225000000143,
+      "stability": 0.08900117875000157,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080723,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.09100763812499935,
+      "stability": 0.0910506143749994,
+      "icsd": false
+    },
+    {
+      "entry_id": 758010,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.094958191249999,
+      "stability": 0.0950441437499991,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082189,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.09499333499999985,
+      "stability": 0.09507928749999994,
+      "icsd": false
+    },
+    {
+      "entry_id": 758012,
+      "composition_id": "Ta1 Zr5",
+      "delta_e": 0.0959936816666662,
+      "stability": 0.09613693583276002,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520706,
+      "composition_id": "Ta2 Zr1",
+      "delta_e": 0.09633962749999843,
+      "stability": 0.09639692916609215,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084845,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.09716245499999943,
+      "stability": 0.09724840749999952,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082489,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.10044451624999873,
+      "stability": 0.10048749249999878,
+      "icsd": false
+    },
+    {
+      "entry_id": 758027,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.102092901250002,
+      "stability": 0.10222183000000215,
+      "icsd": false
+    },
+    {
+      "entry_id": 757999,
+      "composition_id": "Ta3 Zr4",
+      "delta_e": 0.10742902642857,
+      "stability": 0.10752725785689596,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086038,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.10791740187500132,
+      "stability": 0.10804633062500146,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121387,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.10867346437500025,
+      "stability": 0.1088023931250004,
+      "icsd": false
+    },
+    {
+      "entry_id": 311445,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.112742244999998,
+      "stability": 0.11278522124999805,
+      "icsd": false
+    },
+    {
+      "entry_id": 758001,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.114578393124999,
+      "stability": 0.1146643456249991,
+      "icsd": false
+    },
+    {
+      "entry_id": 758021,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.11457108,
+      "stability": 0.11468568333390648,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080477,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.1150470575,
+      "stability": 0.11513301000000009,
+      "icsd": false
+    },
+    {
+      "entry_id": 1449953,
+      "composition_id": "Ta2 Zr1",
+      "delta_e": 0.11617207999999835,
+      "stability": 0.11622938166609206,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085902,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.11881052499999889,
+      "stability": 0.11889647749999899,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082339,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.12005351000000175,
+      "stability": 0.1201824387500019,
+      "icsd": false
+    },
+    {
+      "entry_id": 758004,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.12265097,
+      "stability": 0.1227369225000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 758003,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.122828265999999,
+      "stability": 0.1229142184999991,
+      "icsd": false
+    },
+    {
+      "entry_id": 758025,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.123396556666667,
+      "stability": 0.1234825091666671,
+      "icsd": false
+    },
+    {
+      "entry_id": 758018,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.130597026250001,
+      "stability": 0.13072595500000114,
+      "icsd": false
+    },
+    {
+      "entry_id": 757998,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.132217333333333,
+      "stability": 0.1323032858333331,
+      "icsd": false
+    },
+    {
+      "entry_id": 758006,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.132316662999999,
+      "stability": 0.1324026154999991,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082635,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.13646662999999926,
+      "stability": 0.13655258249999935,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450390,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.13738577000000043,
+      "stability": 0.1375003733339069,
+      "icsd": false
+    },
+    {
+      "entry_id": 758009,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.137883421249999,
+      "stability": 0.1379693737499991,
+      "icsd": false
+    },
+    {
+      "entry_id": 2124180,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.14371695312500066,
+      "stability": 0.1438458818750008,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083301,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.14627050250000018,
+      "stability": 0.14635645500000027,
+      "icsd": false
+    },
+    {
+      "entry_id": 308210,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.14651699,
+      "stability": 0.14664591875000016,
+      "icsd": false
+    },
+    {
+      "entry_id": 758015,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.1498334825,
+      "stability": 0.14996241125000015,
+      "icsd": false
+    },
+    {
+      "entry_id": 321987,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.150386102500001,
+      "stability": 0.15051503125000115,
+      "icsd": false
+    },
+    {
+      "entry_id": 758007,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.150822871666667,
+      "stability": 0.15093747500057347,
+      "icsd": false
+    },
+    {
+      "entry_id": 758013,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.152635390833333,
+      "stability": 0.15274999416723947,
+      "icsd": false
+    },
+    {
+      "entry_id": 758000,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.153702009166667,
+      "stability": 0.15378796166666708,
+      "icsd": false
+    },
+    {
+      "entry_id": 758022,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.160028346666667,
+      "stability": 0.16011429916666708,
+      "icsd": false
+    },
+    {
+      "entry_id": 757997,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.160990476666666,
+      "stability": 0.16110508000057247,
+      "icsd": false
+    },
+    {
+      "entry_id": 758024,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.162866609999999,
+      "stability": 0.16298121333390547,
+      "icsd": false
+    },
+    {
+      "entry_id": 1280313,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.165987577499999,
+      "stability": 0.16603055374999906,
+      "icsd": false
+    },
+    {
+      "entry_id": 346473,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.165999727500001,
+      "stability": 0.16612865625000114,
+      "icsd": false
+    },
+    {
+      "entry_id": 297681,
+      "composition_id": "Ta1 Zr3",
+      "delta_e": 0.168244992500002,
+      "stability": 0.16837392125000214,
+      "icsd": false
+    },
+    {
+      "entry_id": 758005,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.169631087499999,
+      "stability": 0.1697170399999991,
+      "icsd": false
+    },
+    {
+      "entry_id": 758017,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.176461180624999,
+      "stability": 0.1765471331249991,
+      "icsd": false
+    },
+    {
+      "entry_id": 757996,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.181395915833334,
+      "stability": 0.1814818683333341,
+      "icsd": false
+    },
+    {
+      "entry_id": 758020,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.184146001666666,
+      "stability": 0.18426060500057248,
+      "icsd": false
+    },
+    {
+      "entry_id": 758002,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.1915138925,
+      "stability": 0.1915998450000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 758011,
+      "composition_id": "Ta3 Zr4",
+      "delta_e": 0.194528989999999,
+      "stability": 0.19462722142832498,
+      "icsd": false
+    },
+    {
+      "entry_id": 758023,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.198884592499999,
+      "stability": 0.1989705449999991,
+      "icsd": false
+    },
+    {
+      "entry_id": 758016,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.2034985175,
+      "stability": 0.2035844700000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 306156,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.204795349999999,
+      "stability": 0.20488130249999909,
+      "icsd": false
+    },
+    {
+      "entry_id": 758026,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.2117227275,
+      "stability": 0.2118086800000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 300903,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.234087417499998,
+      "stability": 0.23413039374999806,
+      "icsd": false
+    },
+    {
+      "entry_id": 327240,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.242206319999999,
+      "stability": 0.24229227249999907,
+      "icsd": false
+    },
+    {
+      "entry_id": 758008,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.24769354625,
+      "stability": 0.2477794987500001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1236183,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.25166636,
+      "stability": 0.2517523125000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1231195,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.26572784,
+      "stability": 0.2658137925000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 343238,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.278463322499999,
+      "stability": 0.27850629874999905,
+      "icsd": false
+    },
+    {
+      "entry_id": 318752,
+      "composition_id": "Ta3 Zr1",
+      "delta_e": 0.286434687499998,
+      "stability": 0.28647766374999806,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609968,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.44579072666666636,
+      "stability": 0.44590533000057286,
+      "icsd": false
+    },
+    {
+      "entry_id": 337698,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 0.5033447,
+      "stability": 0.5034306525000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591969,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 0.5291754449999999,
+      "stability": 0.5292900483339064,
+      "icsd": false
+    },
+    {
+      "entry_id": 1105341,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 1.147001655,
+      "stability": 1.1470876075,
+      "icsd": false
+    },
+    {
+      "entry_id": 1224223,
+      "composition_id": "Ta1 Zr1",
+      "delta_e": 2.73392677,
+      "stability": 2.7340127225,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238071,
+      "composition_id": "Ta1 Zr2",
+      "delta_e": 2.869297855,
+      "stability": 2.8694124583339065,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238072,
+      "composition_id": "Ta2 Zr1",
+      "delta_e": 4.12026513166667,
+      "stability": 4.120322433332764,
+      "icsd": false
+    }
+  ]
+}

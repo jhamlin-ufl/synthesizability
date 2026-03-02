@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_GdGePt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28078030
+_cell_length_b   7.28078030
+_cell_length_c   3.93366699
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdGePt
+_chemical_formula_sum   'Gd3 Ge3 Pt3'
+_cell_volume   180.58599884
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.59142287  0.00000000  0.49999911  1
+  Gd  Gd1  1  0.40857727  0.40857745  0.49999911  1
+  Gd  Gd2  1  0.00000000  0.59142244  0.49999911  1
+  Ge  Ge3  1  0.25228477  0.00000000  0.00000000  1
+  Ge  Ge4  1  0.00000000  0.25228454  0.00000000  1
+  Ge  Ge5  1  0.74771595  0.74771535  0.00000000  1
+  Pt  Pt6  1  0.66666663  0.33333330  0.00000000  1
+  Pt  Pt7  1  0.33333330  0.66666659  0.00000000  1
+  Pt  Pt8  1  0.00000000  0.00000000  0.49999911  1

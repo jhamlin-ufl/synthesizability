@@ -1,0 +1,66 @@
+{
+  "space": "Nb-Ta-Zr",
+  "elements": [
+    "Nb",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 488151,
+      "composition_id": "Nb2 Ta1 Zr1",
+      "delta_e": 0.0749323099999994,
+      "stability": 0.07788006328125037,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085644,
+      "composition_id": "Nb1 Ta1 Zr1",
+      "delta_e": 0.08813335749999969,
+      "stability": 0.09132619959843812,
+      "icsd": false
+    },
+    {
+      "entry_id": 531175,
+      "composition_id": "Nb1 Ta2 Zr1",
+      "delta_e": 0.114426199999999,
+      "stability": 0.11792544874999841,
+      "icsd": false
+    },
+    {
+      "entry_id": 558181,
+      "composition_id": "Nb1 Ta1 Zr2",
+      "delta_e": 0.166863407500001,
+      "stability": 0.16930101531250136,
+      "icsd": false
+    },
+    {
+      "entry_id": 919252,
+      "composition_id": "Nb1 Ta1 Zr1",
+      "delta_e": 0.755665973333333,
+      "stability": 0.7588588154317714,
+      "icsd": false
+    },
+    {
+      "entry_id": 962273,
+      "composition_id": "Nb1 Ta1 Zr1",
+      "delta_e": 0.770988813333332,
+      "stability": 0.7741816554317704,
+      "icsd": false
+    },
+    {
+      "entry_id": 1533222,
+      "composition_id": "Nb2 Ta1 Zr2",
+      "delta_e": 0.8143098500000008,
+      "stability": 0.8167024336250016,
+      "icsd": false
+    },
+    {
+      "entry_id": 989279,
+      "composition_id": "Nb1 Ta1 Zr1",
+      "delta_e": 1.15755234333333,
+      "stability": 1.1607451854317683,
+      "icsd": false
+    }
+  ]
+}

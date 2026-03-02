@@ -1,0 +1,115 @@
+{
+  "space": "Ga-Nb-Zr",
+  "elements": [
+    "Ga",
+    "Nb",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 1483724,
+      "composition_id": "Ga3 Nb2 Zr3",
+      "delta_e": -0.49722379937499994,
+      "stability": -0.017286038749999344,
+      "icsd": false
+    },
+    {
+      "entry_id": 2026881,
+      "composition_id": "Ga3 Nb1 Zr4",
+      "delta_e": -0.5040064174999994,
+      "stability": 0.0020690671875006617,
+      "icsd": true
+    },
+    {
+      "entry_id": 1985474,
+      "composition_id": "Ga1 Nb1 Zr1",
+      "delta_e": -0.42991928833333404,
+      "stability": 0.01205742277469235,
+      "icsd": false
+    },
+    {
+      "entry_id": 1491494,
+      "composition_id": "Ga2 Nb2 Zr1",
+      "delta_e": -0.40736692100000055,
+      "stability": 0.03677768749999999,
+      "icsd": false
+    },
+    {
+      "entry_id": 1491493,
+      "composition_id": "Ga2 Nb1 Zr2",
+      "delta_e": -0.48002364299999983,
+      "stability": 0.04375403200000022,
+      "icsd": false
+    },
+    {
+      "entry_id": 1253001,
+      "composition_id": "Ga2 Nb2 Zr1",
+      "delta_e": -0.335921210000001,
+      "stability": 0.10822339849999951,
+      "icsd": false
+    },
+    {
+      "entry_id": 557959,
+      "composition_id": "Ga1 Nb1 Zr2",
+      "delta_e": -0.18577390625,
+      "stability": 0.16372774125000022,
+      "icsd": false
+    },
+    {
+      "entry_id": 738088,
+      "composition_id": "Ga1 Nb2 Zr1",
+      "delta_e": -0.130809466250001,
+      "stability": 0.20067306832407827,
+      "icsd": false
+    },
+    {
+      "entry_id": 739655,
+      "composition_id": "Ga1 Nb1 Zr2",
+      "delta_e": -0.0628645112499999,
+      "stability": 0.2866371362500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 520940,
+      "composition_id": "Ga2 Nb1 Zr1",
+      "delta_e": -0.213212597500001,
+      "stability": 0.29845929035336094,
+      "icsd": false
+    },
+    {
+      "entry_id": 487309,
+      "composition_id": "Ga1 Nb2 Zr1",
+      "delta_e": 0.0338578637499989,
+      "stability": 0.36534039832407816,
+      "icsd": false
+    },
+    {
+      "entry_id": 952037,
+      "composition_id": "Ga1 Nb1 Zr1",
+      "delta_e": 0.0800496316666657,
+      "stability": 0.5220263427746921,
+      "icsd": false
+    },
+    {
+      "entry_id": 1140989,
+      "composition_id": "Ga2 Nb1 Zr1",
+      "delta_e": 0.1407723175,
+      "stability": 0.6524442053533619,
+      "icsd": false
+    },
+    {
+      "entry_id": 918410,
+      "composition_id": "Ga1 Nb1 Zr1",
+      "delta_e": 0.681223671666666,
+      "stability": 1.1232003827746924,
+      "icsd": false
+    },
+    {
+      "entry_id": 989057,
+      "composition_id": "Ga1 Nb1 Zr1",
+      "delta_e": 0.838912368333332,
+      "stability": 1.2808890794413583,
+      "icsd": false
+    }
+  ]
+}

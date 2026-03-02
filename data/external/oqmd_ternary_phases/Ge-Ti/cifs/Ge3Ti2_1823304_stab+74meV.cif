@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ti2Ge3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.73091727
+_cell_length_b   9.73091727
+_cell_length_c   6.58866437
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   147.00527915
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2Ge3
+_chemical_formula_sum   'Ti8 Ge12'
+_cell_volume   339.74422691
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.87761555  0.12238445  0.06861937  1
+  Ge  Ge1  1  0.27600025  0.72399975  0.07331228  1
+  Ge  Ge2  1  0.27446646  0.22553354  0.25000059  1
+  Ge  Ge3  1  0.77446647  0.72553354  0.25000059  1
+  Ge  Ge4  1  0.77600010  0.22399991  0.42668739  1
+  Ge  Ge5  1  0.37761571  0.62238430  0.43138030  1
+  Ge  Ge6  1  0.62238430  0.37761571  0.56861904  1
+  Ge  Ge7  1  0.22399991  0.77600010  0.57331195  1
+  Ge  Ge8  1  0.22553354  0.27446646  0.75000026  1
+  Ge  Ge9  1  0.72553354  0.77446647  0.75000026  1
+  Ge  Ge10  1  0.72399975  0.27600025  0.92668706  1
+  Ge  Ge11  1  0.12238445  0.87761555  0.93137997  1
+  Ti  Ti12  1  0.42119566  0.57880435  0.06162706  1
+  Ti  Ti13  1  0.41701137  0.08298863  0.25000059  1
+  Ti  Ti14  1  0.91701137  0.58298863  0.25000059  1
+  Ti  Ti15  1  0.92119550  0.07880450  0.43837261  1
+  Ti  Ti16  1  0.07880450  0.92119550  0.56162673  1
+  Ti  Ti17  1  0.08298863  0.41701137  0.75000026  1
+  Ti  Ti18  1  0.58298863  0.91701137  0.75000026  1
+  Ti  Ti19  1  0.57880435  0.42119566  0.93837228  1

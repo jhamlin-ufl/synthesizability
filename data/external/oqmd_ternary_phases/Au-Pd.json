@@ -1,0 +1,338 @@
+{
+  "space": "Au-Pd",
+  "elements": [
+    "Au",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "entry_id": 22246,
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.0539886024999996,
+      "stability": -0.007380284342566906,
+      "icsd": true
+    },
+    {
+      "entry_id": 2131655,
+      "composition_id": "Au5 Pd2",
+      "delta_e": -0.08976698571428544,
+      "stability": -0.006503180033973183,
+      "icsd": false
+    },
+    {
+      "entry_id": 2131578,
+      "composition_id": "Au3 Pd2",
+      "delta_e": -0.09829287800000017,
+      "stability": -0.0060481116000001695,
+      "icsd": false
+    },
+    {
+      "entry_id": 1983478,
+      "composition_id": "Au8 Pd1",
+      "delta_e": -0.043741992222222116,
+      "stability": -0.0019355816152116026,
+      "icsd": false
+    },
+    {
+      "entry_id": 1784298,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.08607384449999955,
+      "stability": -0.00043933111844644823,
+      "icsd": false
+    },
+    {
+      "entry_id": 348854,
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.0539788024999996,
+      "stability": 9.80000000000425e-06,
+      "icsd": false
+    },
+    {
+      "entry_id": 2131636,
+      "composition_id": "Au3 Pd4",
+      "delta_e": -0.07642879571428551,
+      "stability": 0.00047783664820587324,
+      "icsd": false
+    },
+    {
+      "entry_id": 1956431,
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.05342430749999938,
+      "stability": 0.0005642950000002214,
+      "icsd": false
+    },
+    {
+      "entry_id": 2160097,
+      "composition_id": "Au9 Pd1",
+      "delta_e": -0.038754373999999814,
+      "stability": 0.0006134190000000941,
+      "icsd": false
+    },
+    {
+      "entry_id": 2160186,
+      "composition_id": "Au7 Pd9",
+      "delta_e": -0.07576064937499982,
+      "stability": 0.0022918846249997404,
+      "icsd": false
+    },
+    {
+      "entry_id": 2161443,
+      "composition_id": "Au11 Pd21",
+      "delta_e": -0.0636642009374997,
+      "stability": 0.002356367312499885,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340599,
+      "composition_id": "Au5 Pd3",
+      "delta_e": -0.0937874968750001,
+      "stability": 0.0026403421874999777,
+      "icsd": false
+    },
+    {
+      "entry_id": 1956440,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.07760153250000013,
+      "stability": 0.0027512502092041508,
+      "icsd": false
+    },
+    {
+      "entry_id": 22245,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.0775903750000002,
+      "stability": 0.002762407709204079,
+      "icsd": true
+    },
+    {
+      "entry_id": 2131670,
+      "composition_id": "Au1 Pd7",
+      "delta_e": -0.023867141250000223,
+      "stability": 0.003127159999999577,
+      "icsd": false
+    },
+    {
+      "entry_id": 1976479,
+      "composition_id": "Au7 Pd3",
+      "delta_e": -0.08552871500000023,
+      "stability": 0.005304007249999562,
+      "icsd": false
+    },
+    {
+      "entry_id": 1987630,
+      "composition_id": "Au5 Pd4",
+      "delta_e": -0.08730550111111057,
+      "stability": 0.005556695387640573,
+      "icsd": false
+    },
+    {
+      "entry_id": 2135248,
+      "composition_id": "Au19 Pd1",
+      "delta_e": -0.01381007549999964,
+      "stability": 0.0058738210000003135,
+      "icsd": false
+    },
+    {
+      "entry_id": 1951231,
+      "composition_id": "Au1 Pd7",
+      "delta_e": -0.020955497500000142,
+      "stability": 0.0060388037499996584,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340439,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.07931479718750012,
+      "stability": 0.006759047312499433,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340993,
+      "composition_id": "Au3 Pd5",
+      "delta_e": -0.0627595224999995,
+      "stability": 0.007271701000000075,
+      "icsd": false
+    },
+    {
+      "entry_id": 2034521,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.07283245875000022,
+      "stability": 0.007520323959204059,
+      "icsd": true
+    },
+    {
+      "entry_id": 1989033,
+      "composition_id": "Au2 Pd1",
+      "delta_e": -0.08530415499999933,
+      "stability": 0.008015285861753568,
+      "icsd": false
+    },
+    {
+      "entry_id": 347912,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.07018258,
+      "stability": 0.010170202709204282,
+      "icsd": false
+    },
+    {
+      "entry_id": 1341053,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.07459227000000013,
+      "stability": 0.011481574499999425,
+      "icsd": false
+    },
+    {
+      "entry_id": 303284,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.0655638825000002,
+      "stability": 0.014788900209204078,
+      "icsd": false
+    },
+    {
+      "entry_id": 1339472,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.0688541277777775,
+      "stability": 0.017219716722222056,
+      "icsd": false
+    },
+    {
+      "entry_id": 307354,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.0683106450000004,
+      "stability": 0.017763199499999147,
+      "icsd": false
+    },
+    {
+      "entry_id": 323426,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.0607430512500002,
+      "stability": 0.019609731459204076,
+      "icsd": false
+    },
+    {
+      "entry_id": 1435890,
+      "composition_id": "Au2 Pd1",
+      "delta_e": -0.0732646199999998,
+      "stability": 0.0200548208617531,
+      "icsd": false
+    },
+    {
+      "entry_id": 328438,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.0631637400000002,
+      "stability": 0.022910104499999348,
+      "icsd": false
+    },
+    {
+      "entry_id": 2034609,
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.02610287749999962,
+      "stability": 0.02788572499999998,
+      "icsd": true
+    },
+    {
+      "entry_id": 1450141,
+      "composition_id": "Au1 Pd2",
+      "delta_e": -0.03563057333333338,
+      "stability": 0.029053109726382066,
+      "icsd": false
+    },
+    {
+      "entry_id": 302342,
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.0186106074999994,
+      "stability": 0.035377995000000204,
+      "icsd": false
+    },
+    {
+      "entry_id": 313826,
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.0431419525000001,
+      "stability": 0.037210830209204175,
+      "icsd": false
+    },
+    {
+      "entry_id": 1228174,
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.0427127500000006,
+      "stability": 0.043361094499998955,
+      "icsd": false
+    },
+    {
+      "entry_id": 324368,
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.00716747124999983,
+      "stability": 0.04682113124999977,
+      "icsd": false
+    },
+    {
+      "entry_id": 312884,
+      "composition_id": "Au1 Pd3",
+      "delta_e": 0.0297810875000009,
+      "stability": 0.08376969000000051,
+      "icsd": false
+    },
+    {
+      "entry_id": 1449655,
+      "composition_id": "Au2 Pd1",
+      "delta_e": 0.004904060000000617,
+      "stability": 0.09822350086175351,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340784,
+      "composition_id": "Au4 Pd3",
+      "delta_e": 0.020075822857143,
+      "stability": 0.11487754837620427,
+      "icsd": false
+    },
+    {
+      "entry_id": 1338531,
+      "composition_id": "Au4 Pd3",
+      "delta_e": 0.025766035892857,
+      "stability": 0.12056776141191827,
+      "icsd": false
+    },
+    {
+      "entry_id": 1437186,
+      "composition_id": "Au3 Pd5",
+      "delta_e": 0.0618167493749997,
+      "stability": 0.13184797287499928,
+      "icsd": false
+    },
+    {
+      "entry_id": 1592427,
+      "composition_id": "Au1 Pd2",
+      "delta_e": 0.11055684333333342,
+      "stability": 0.17524052639304885,
+      "icsd": false
+    },
+    {
+      "entry_id": 338896,
+      "composition_id": "Au1 Pd1",
+      "delta_e": 0.17281819,
+      "stability": 0.25889203449999953,
+      "icsd": false
+    },
+    {
+      "entry_id": 1594810,
+      "composition_id": "Au2 Pd1",
+      "delta_e": 0.17843822166666712,
+      "stability": 0.27175766252842004,
+      "icsd": false
+    },
+    {
+      "entry_id": 1106539,
+      "composition_id": "Au1 Pd1",
+      "delta_e": 0.317518155,
+      "stability": 0.4035919994999996,
+      "icsd": false
+    },
+    {
+      "entry_id": 1218494,
+      "composition_id": "Au1 Pd1",
+      "delta_e": 0.91180683,
+      "stability": 0.9978806744999995,
+      "icsd": false
+    }
+  ]
+}

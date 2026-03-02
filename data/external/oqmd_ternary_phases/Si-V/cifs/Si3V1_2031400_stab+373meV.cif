@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_VSi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21433368
+_cell_length_b   7.21433368
+_cell_length_c   7.21433368
+_cell_angle_alpha   96.29329051
+_cell_angle_beta   96.29329051
+_cell_angle_gamma   141.33059547
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VSi3
+_chemical_formula_sum   'V4 Si12'
+_cell_volume   221.37871081
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.62824062  0.80712879  0.01590184  1
+  Si  Si1  1  0.10813220  0.52267903  0.04643516  1
+  Si  Si2  1  0.38765929  0.37175745  0.17888817  1
+  Si  Si3  1  0.31695616  0.00161380  0.26382160  1
+  Si  Si4  1  0.99838484  0.26220722  0.31534236  1
+  Si  Si5  1  0.93830103  0.89186587  0.41454682  1
+  Si  Si6  1  0.47731962  0.52375478  0.58545240  1
+  Si  Si7  1  0.94686408  0.68304249  0.68465686  1
+  Si  Si8  1  0.73779246  0.05313456  0.73617866  1
+  Si  Si9  1  0.19286985  0.20877169  0.82111105  1
+  Si  Si10  1  0.47624444  0.06169762  0.95356406  1
+  Si  Si11  1  0.79122753  0.61233935  0.98409738  1
+  V  V12  1  0.85044802  0.48596462  0.28162015  1
+  V  V13  1  0.51403345  0.79565360  0.36448340  1
+  V  V14  1  0.43117078  0.14955063  0.63551582  1
+  V  V15  1  0.20434504  0.56882844  0.71837907  1

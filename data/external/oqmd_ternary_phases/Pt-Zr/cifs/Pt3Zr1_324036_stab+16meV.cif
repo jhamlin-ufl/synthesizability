@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ZrPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72134838
+_cell_length_b   5.72134838
+_cell_length_c   4.66690964
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrPt3
+_chemical_formula_sum   'Zr2 Pt6'
+_cell_volume   132.29907587
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.16407717  0.32815435  0.25000055  1
+  Pt  Pt1  1  0.16407740  0.83592322  0.25000055  1
+  Pt  Pt2  1  0.67184582  0.83592322  0.25000055  1
+  Pt  Pt3  1  0.32815314  0.16407616  0.74999952  1
+  Pt  Pt4  1  0.83592331  0.16407616  0.74999952  1
+  Pt  Pt5  1  0.83592280  0.67184706  0.74999952  1
+  Zr  Zr6  1  0.66666583  0.33333313  0.25000055  1
+  Zr  Zr7  1  0.33333313  0.66666626  0.74999952  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ti3Mo2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.25187600
+_cell_length_b   7.25187564
+_cell_length_c   5.45614441
+_cell_angle_alpha   131.64861409
+_cell_angle_beta   48.35139786
+_cell_angle_gamma   119.99999253
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3Mo2
+_chemical_formula_sum   'Ti6 Mo4'
+_cell_volume   159.33649006
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.62378807  0.37621306  0.12863740  1
+  Mo  Mo1  1  0.87621288  0.12378776  0.37136317  1
+  Mo  Mo2  1  0.12378713  0.87621230  0.62863797  1
+  Mo  Mo3  1  0.37621273  0.62378859  0.87136374  1
+  Ti  Ti4  1  0.92855332  0.42855373  0.25000029  1
+  Ti  Ti5  1  0.57144611  0.74999970  0.25000029  1
+  Ti  Ti6  1  0.24999898  0.07144551  0.25000029  1
+  Ti  Ti7  1  0.74999965  0.92855456  0.75000086  1
+  Ti  Ti8  1  0.42855390  0.25000037  0.75000086  1
+  Ti  Ti9  1  0.07144531  0.57144633  0.75000086  1

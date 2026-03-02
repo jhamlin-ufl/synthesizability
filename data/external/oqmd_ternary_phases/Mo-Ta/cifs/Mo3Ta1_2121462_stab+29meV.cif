@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_TaMo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15458874
+_cell_length_b   7.15458874
+_cell_length_c   9.03145785
+_cell_angle_alpha   108.44206643
+_cell_angle_beta   108.44206643
+_cell_angle_gamma   36.81301377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaMo3
+_chemical_formula_sum   'Ta4 Mo12'
+_cell_volume   261.16528683
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.24959739  0.24959739  0.12294944  1
+  Mo  Mo1  1  0.12626768  0.12626768  0.31197857  1
+  Mo  Mo2  1  0.75064904  0.75064904  0.37963200  1
+  Mo  Mo3  1  0.37391072  0.37391072  0.44041615  1
+  Mo  Mo4  1  0.62852848  0.62852848  0.56742797  1
+  Mo  Mo5  1  0.25011946  0.25011946  0.62595603  1
+  Mo  Mo6  1  0.87485833  0.87485833  0.68952595  1
+  Mo  Mo7  1  0.49848388  0.49848388  0.74707218  1
+  Mo  Mo8  1  0.12552970  0.12552970  0.81465045  1
+  Mo  Mo9  1  0.74902252  0.74902252  0.86893879  1
+  Mo  Mo10  1  0.37526258  0.37526258  0.93474366  1
+  Mo  Mo11  1  0.99818791  0.99818791  0.99646618  1
+  Ta  Ta12  1  0.62579597  0.62579597  0.05939949  1
+  Ta  Ta13  1  0.87064225  0.87064225  0.18285159  1
+  Ta  Ta14  1  0.50171710  0.50171710  0.25453217  1
+  Ta  Ta15  1  0.00142811  0.00142811  0.50345875  1

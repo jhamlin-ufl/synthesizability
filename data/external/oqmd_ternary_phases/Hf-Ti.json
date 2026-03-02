@@ -1,0 +1,618 @@
+{
+  "space": "Hf-Ti",
+  "elements": [
+    "Hf",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": 1366289,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.0617024908575085,
+      "stability": -0.03384957966666586,
+      "icsd": false
+    },
+    {
+      "entry_id": 1435756,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": -0.0348161389885533,
+      "stability": -0.003964893559799048,
+      "icsd": false
+    },
+    {
+      "entry_id": 754556,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": -0.0348005906552196,
+      "stability": 1.5548333333698094e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1435632,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": -0.0347621856552204,
+      "stability": 5.395333333289842e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1436228,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": -0.0247080423218868,
+      "stability": 0.010108096666666497,
+      "icsd": false
+    },
+    {
+      "entry_id": 754559,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": -0.0279445065896997,
+      "stability": 0.0203148083333312,
+      "icsd": false
+    },
+    {
+      "entry_id": 324488,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": -0.0279241303396986,
+      "stability": 0.0203351845833323,
+      "icsd": false
+    },
+    {
+      "entry_id": 754571,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": -0.0273116028396991,
+      "stability": 0.0209477120833318,
+      "icsd": false
+    },
+    {
+      "entry_id": 1435737,
+      "composition_id": "Hf5 Ti1",
+      "delta_e": 0.00959824353562174,
+      "stability": 0.025023866249998868,
+      "icsd": false
+    },
+    {
+      "entry_id": 320972,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.00852121905343495,
+      "stability": 0.03165965312500064,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520702,
+      "composition_id": "Hf2 Ti1",
+      "delta_e": 0.0080207162379106,
+      "stability": 0.03887196166666485,
+      "icsd": false
+    },
+    {
+      "entry_id": 754562,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": -0.00896230033969836,
+      "stability": 0.03929701458333254,
+      "icsd": false
+    },
+    {
+      "entry_id": 754550,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": -0.00501854339313184,
+      "stability": 0.041258324749999534,
+      "icsd": false
+    },
+    {
+      "entry_id": 754551,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.0194291991908422,
+      "stability": 0.042273291666666296,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235872,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": -0.00371653939313177,
+      "stability": 0.042560328749999606,
+      "icsd": false
+    },
+    {
+      "entry_id": 1220627,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": -0.00322427189313146,
+      "stability": 0.043052596249999915,
+      "icsd": false
+    },
+    {
+      "entry_id": 754560,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": -0.00210668689313209,
+      "stability": 0.04417018124999928,
+      "icsd": false
+    },
+    {
+      "entry_id": 754553,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": -0.00182295064313287,
+      "stability": 0.0444539174999985,
+      "icsd": false
+    },
+    {
+      "entry_id": 754566,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": -0.00180679522646561,
+      "stability": 0.044470072916665764,
+      "icsd": false
+    },
+    {
+      "entry_id": 754555,
+      "composition_id": "Hf3 Ti4",
+      "delta_e": -0.00794314002072229,
+      "stability": 0.04494470946200639,
+      "icsd": false
+    },
+    {
+      "entry_id": 754546,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.00199488623186816,
+      "stability": 0.04827175437499953,
+      "icsd": false
+    },
+    {
+      "entry_id": 754557,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.0126627508575083,
+      "stability": 0.0490397400000002,
+      "icsd": false
+    },
+    {
+      "entry_id": 754545,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.00284281998186842,
+      "stability": 0.0491196881249998,
+      "icsd": false
+    },
+    {
+      "entry_id": 754547,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.00329302560686813,
+      "stability": 0.049569893749999504,
+      "icsd": false
+    },
+    {
+      "entry_id": 754561,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.00437171310686857,
+      "stability": 0.05064858124999994,
+      "icsd": false
+    },
+    {
+      "entry_id": 754544,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.00449274310686813,
+      "stability": 0.0507696112499995,
+      "icsd": false
+    },
+    {
+      "entry_id": 754543,
+      "composition_id": "Hf3 Ti4",
+      "delta_e": -0.00124322216357951,
+      "stability": 0.05164462731914917,
+      "icsd": false
+    },
+    {
+      "entry_id": 754554,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.00591320060686762,
+      "stability": 0.05219006874999899,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085850,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.007051954981868391,
+      "stability": 0.053328823124999765,
+      "icsd": false
+    },
+    {
+      "entry_id": 754564,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.0075264191908424,
+      "stability": 0.054176071666666104,
+      "icsd": false
+    },
+    {
+      "entry_id": 754569,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0124077747735344,
+      "stability": 0.05868464291666577,
+      "icsd": false
+    },
+    {
+      "entry_id": 754548,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.012691928106868,
+      "stability": 0.05896879624999937,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085986,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.0108644865353007,
+      "stability": 0.0591238014583316,
+      "icsd": false
+    },
+    {
+      "entry_id": 754565,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.00236959127417554,
+      "stability": 0.05933289958333296,
+      "icsd": false
+    },
+    {
+      "entry_id": 754568,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.00217938669084224,
+      "stability": 0.05952310416666626,
+      "icsd": false
+    },
+    {
+      "entry_id": 754570,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0141594681068682,
+      "stability": 0.06043633624999957,
+      "icsd": false
+    },
+    {
+      "entry_id": 754541,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": -0.000295955024175972,
+      "stability": 0.061406535833332526,
+      "icsd": false
+    },
+    {
+      "entry_id": 754542,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0203431672735341,
+      "stability": 0.06662003541666547,
+      "icsd": false
+    },
+    {
+      "entry_id": 754540,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.021149658523535,
+      "stability": 0.06742652666666638,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235874,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0261705456068686,
+      "stability": 0.07244741374999997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1229792,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0263172206068685,
+      "stability": 0.07259408874999987,
+      "icsd": false
+    },
+    {
+      "entry_id": 1235873,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0267273981068676,
+      "stability": 0.07300426624999898,
+      "icsd": false
+    },
+    {
+      "entry_id": 754552,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0276630856068678,
+      "stability": 0.07393995374999918,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082133,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.03593867185686861,
+      "stability": 0.08221553999999998,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082190,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.03593985310686776,
+      "stability": 0.08221672124999913,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082490,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.0358031171603006,
+      "stability": 0.0840624320833315,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082283,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.035811767160300434,
+      "stability": 0.08407108208333133,
+      "icsd": false
+    },
+    {
+      "entry_id": 299888,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.0364392334103005,
+      "stability": 0.0846985483333314,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080681,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.03802002591030096,
+      "stability": 0.08627934083333186,
+      "icsd": false
+    },
+    {
+      "entry_id": 348974,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.0382958234103015,
+      "stability": 0.08655513833333241,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121451,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.07235307155343484,
+      "stability": 0.09549150562500053,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086122,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.07238327905343489,
+      "stability": 0.09552171312500057,
+      "icsd": false
+    },
+    {
+      "entry_id": 303404,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.0764913628034343,
+      "stability": 0.09962979687499998,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082340,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.07706528530343348,
+      "stability": 0.10020371937499917,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082433,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.07707649405343453,
+      "stability": 0.10021492812500021,
+      "icsd": false
+    },
+    {
+      "entry_id": 345458,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.0781314928034345,
+      "stability": 0.1012699268750002,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080545,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.0786492540534347,
+      "stability": 0.10178768812500039,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083249,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.06268385560686696,
+      "stability": 0.10896072374999834,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520644,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 0.04970669914249134,
+      "stability": 0.11140918999999984,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080478,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.06800639185686741,
+      "stability": 0.11428325999999879,
+      "icsd": false
+    },
+    {
+      "entry_id": 338956,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0688046056068679,
+      "stability": 0.11508147374999926,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084793,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.08931957060686813,
+      "stability": 0.1355964387499995,
+      "icsd": false
+    },
+    {
+      "entry_id": 328498,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.0904512556068671,
+      "stability": 0.1367281237499985,
+      "icsd": false
+    },
+    {
+      "entry_id": 1472018,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": 0.10361384267811384,
+      "stability": 0.13842998166666715,
+      "icsd": false
+    },
+    {
+      "entry_id": 310430,
+      "composition_id": "Hf1 Ti3",
+      "delta_e": 0.0938920759103006,
+      "stability": 0.1421513908333315,
+      "icsd": false
+    },
+    {
+      "entry_id": 307414,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.105185260606868,
+      "stability": 0.15146212874999937,
+      "icsd": false
+    },
+    {
+      "entry_id": 1438120,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": 0.12209160184478,
+      "stability": 0.1569077408333333,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340280,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 0.104534755809157,
+      "stability": 0.1662372466666655,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609938,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 0.10457392580915818,
+      "stability": 0.16627641666666668,
+      "icsd": false
+    },
+    {
+      "entry_id": 1339452,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 0.109574889142491,
+      "stability": 0.1712773799999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590688,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 0.10961766080915798,
+      "stability": 0.17132015166666648,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340686,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 0.109659264142491,
+      "stability": 0.1713617549999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 313946,
+      "composition_id": "Hf3 Ti1",
+      "delta_e": 0.159832880303435,
+      "stability": 0.1829713143750007,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082583,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.14970644810686728,
+      "stability": 0.19598331624999865,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450641,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": 0.2164394193447805,
+      "stability": 0.2512555583333338,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450682,
+      "composition_id": "Hf3 Ti4",
+      "delta_e": 0.2851111085507065,
+      "stability": 0.33799895803343516,
+      "icsd": false
+    },
+    {
+      "entry_id": 1609971,
+      "composition_id": "Hf2 Ti1",
+      "delta_e": 0.4754290120712443,
+      "stability": 0.5062802574999985,
+      "icsd": false
+    },
+    {
+      "entry_id": 1610061,
+      "composition_id": "Hf2 Ti1",
+      "delta_e": 0.4866666816545771,
+      "stability": 0.5175179270833313,
+      "icsd": false
+    },
+    {
+      "entry_id": 1594269,
+      "composition_id": "Hf2 Ti1",
+      "delta_e": 0.4981790854045774,
+      "stability": 0.5290303308333316,
+      "icsd": false
+    },
+    {
+      "entry_id": 427356,
+      "composition_id": "Hf2 Ti3",
+      "delta_e": 0.596650436728241,
+      "stability": 0.6521826784999987,
+      "icsd": false
+    },
+    {
+      "entry_id": 1233278,
+      "composition_id": "Hf2 Ti1",
+      "delta_e": 0.731381073737911,
+      "stability": 0.7622323191666652,
+      "icsd": false
+    },
+    {
+      "entry_id": 1436227,
+      "composition_id": "Hf1 Ti5",
+      "delta_e": 0.7495397685114469,
+      "stability": 0.7843559075000002,
+      "icsd": false
+    },
+    {
+      "entry_id": 1106599,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 0.921952660606868,
+      "stability": 0.9682295287499993,
+      "icsd": false
+    },
+    {
+      "entry_id": 1226306,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 1.54144105560687,
+      "stability": 1.5877179237500014,
+      "icsd": false
+    },
+    {
+      "entry_id": 1222821,
+      "composition_id": "Hf1 Ti1",
+      "delta_e": 2.41788957560687,
+      "stability": 2.4641664437500013,
+      "icsd": false
+    },
+    {
+      "entry_id": 1239440,
+      "composition_id": "Hf2 Ti1",
+      "delta_e": 2.91417817873791,
+      "stability": 2.9450294241666644,
+      "icsd": false
+    },
+    {
+      "entry_id": 1239439,
+      "composition_id": "Hf1 Ti2",
+      "delta_e": 3.11264068580916,
+      "stability": 3.1743431766666683,
+      "icsd": false
+    }
+  ]
+}

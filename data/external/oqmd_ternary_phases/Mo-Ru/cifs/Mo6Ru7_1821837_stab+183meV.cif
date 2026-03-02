@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Mo6Ru7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.31811638
+_cell_length_b   9.31811638
+_cell_length_c   9.31811638
+_cell_angle_alpha   31.50880406
+_cell_angle_beta   31.50880406
+_cell_angle_gamma   31.50880406
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mo6Ru7
+_chemical_formula_sum   'Mo6 Ru7'
+_cell_volume   196.19744661
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.16356554  0.16356554  0.16356554  1
+  Mo  Mo1  1  0.35140010  0.35140010  0.35140010  1
+  Mo  Mo2  1  0.45333397  0.45333397  0.45333396  1
+  Mo  Mo3  1  0.54666620  0.54666620  0.54666620  1
+  Mo  Mo4  1  0.64860007  0.64860007  0.64860007  1
+  Mo  Mo5  1  0.83643462  0.83643462  0.83643462  1
+  Ru  Ru6  1  0.00000000  0.00000000  0.00000000  1
+  Ru  Ru7  1  0.58048717  0.09238888  0.09238685  1
+  Ru  Ru8  1  0.09238888  0.58048717  0.09238685  1
+  Ru  Ru9  1  0.90761217  0.90761217  0.41951325  1
+  Ru  Ru10  1  0.09238800  0.09238800  0.58048692  1
+  Ru  Ru11  1  0.90761128  0.41951299  0.90761331  1
+  Ru  Ru12  1  0.41951299  0.90761128  0.90761331  1

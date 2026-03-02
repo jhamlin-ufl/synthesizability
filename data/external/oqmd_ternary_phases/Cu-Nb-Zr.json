@@ -1,0 +1,87 @@
+{
+  "space": "Cu-Nb-Zr",
+  "elements": [
+    "Cu",
+    "Nb",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": 558232,
+      "composition_id": "Cu1 Nb1 Zr2",
+      "delta_e": 0.0322563499999999,
+      "stability": 0.1354352162500003,
+      "icsd": false
+    },
+    {
+      "entry_id": 1108859,
+      "composition_id": "Cu1 Nb2 Zr1",
+      "delta_e": 0.0892507250000012,
+      "stability": 0.16529207410674934,
+      "icsd": false
+    },
+    {
+      "entry_id": 1139508,
+      "composition_id": "Cu1 Nb2 Zr1",
+      "delta_e": 0.0895573525,
+      "stability": 0.16559870160674817,
+      "icsd": false
+    },
+    {
+      "entry_id": 404929,
+      "composition_id": "Cu2 Nb1 Zr1",
+      "delta_e": 0.0548848299999989,
+      "stability": 0.17624120566192925,
+      "icsd": false
+    },
+    {
+      "entry_id": 1111197,
+      "composition_id": "Cu1 Nb1 Zr2",
+      "delta_e": 0.1806706,
+      "stability": 0.2838494662500004,
+      "icsd": false
+    },
+    {
+      "entry_id": 489029,
+      "composition_id": "Cu1 Nb2 Zr1",
+      "delta_e": 0.278736700000001,
+      "stability": 0.35477804910674915,
+      "icsd": false
+    },
+    {
+      "entry_id": 1141114,
+      "composition_id": "Cu2 Nb1 Zr1",
+      "delta_e": 0.360040194999999,
+      "stability": 0.48139657066192937,
+      "icsd": false
+    },
+    {
+      "entry_id": 852365,
+      "composition_id": "Cu1 Nb1 Zr1",
+      "delta_e": 0.431708053333332,
+      "stability": 0.533096519267569,
+      "icsd": false
+    },
+    {
+      "entry_id": 1538210,
+      "composition_id": "Cu3 Nb2 Zr3",
+      "delta_e": 0.641741455,
+      "stability": 0.7558034786601222,
+      "icsd": false
+    },
+    {
+      "entry_id": 920130,
+      "composition_id": "Cu1 Nb1 Zr1",
+      "delta_e": 1.05132357666667,
+      "stability": 1.152712042600907,
+      "icsd": false
+    },
+    {
+      "entry_id": 989330,
+      "composition_id": "Cu1 Nb1 Zr1",
+      "delta_e": 1.12522671666667,
+      "stability": 1.226615182600907,
+      "icsd": false
+    }
+  ]
+}

@@ -68,6 +68,7 @@ rule all:
         "data/processed/synthesis_data.pkl",
         "data/processed/oqmd_hull_data.csv",
         "data/external/oqmd_structures/.extracted",
+        "data/external/oqmd_ternary_phases/.extracted",
         "results/susceptibility/susceptibility_real_part.pdf",
         "results/susceptibility/susceptibility_imaginary_part.pdf",
         "results/susceptibility/hc2_with_fits.pdf",
@@ -166,6 +167,33 @@ rule extract_oqmd_structures:
         "poetry run python {input.script} > {log} 2>&1"
 
 
+rule query_ternary_phases:
+    input:
+        script="scripts/query_ternary_phases.py",
+        src=SRC_OQMD,
+        validation="data/processed/.oqmd_validated",
+        csv="data/processed/synthesis_data_no_disorder.csv",
+    output:
+        marker=touch("data/external/oqmd_ternary_phases/.queried"),
+    log:
+        "logs/query_ternary_phases.log"
+    shell:
+        "poetry run python {input.script} > {log} 2>&1"
+
+
+rule extract_ternary_cifs:
+    input:
+        script="scripts/extract_ternary_cifs.py",
+        src=SRC_OQMD,
+        queried="data/external/oqmd_ternary_phases/.queried",
+    output:
+        marker=touch("data/external/oqmd_ternary_phases/.extracted"),
+    log:
+        "logs/extract_ternary_cifs.log"
+    shell:
+        "poetry run python {input.script} > {log} 2>&1"
+
+
 rule build_dataframe:
     input:
         script="scripts/build_dataframe.py",
@@ -203,6 +231,7 @@ rule generate_dashboard:
         params="results/susceptibility/hc2_fit_parameters.csv",
         chi_data=CHI_DATA_FILES,
         supercon_cache="data/processed/.supercon_cached",
+        ternary_cifs="data/external/oqmd_ternary_phases/.extracted",
     output:
         index="results/dashboard/index.html",
     shell:
