@@ -1,0 +1,266 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:48 PM
+FILE: E:\synthesizability\data\raw\0502_HM_Nb5Si2V\0502_HM_Nb5Si2V_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=6804.0/211.0, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (24)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.08739 (0.00602) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.15098 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.0358  (0.0    ) <3>
+  [x] s2 =-0.09822 (0.04979) <4>
+
+  [x] p0 = 0.61602 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.01965 (0.0    ) <3>
+  [x] p2 = 0.17274 (0.05104) <4>
+
+Phase #1 [Bragg-R = 25.79%]: Niobium Silicon
+
+  Chemical Formula = Nb5Si3
+
+  Reference: Tillard M., J. Alloys Compd., v584 p385-392 (2014)
+
+  Note: ANX: N3O5. LPF Collection Code: 1141421. Sample Preparation:
+  STARTING MATERIALS: Nb (powder),Si (powder). COMPOUND PREPARATION:
+  arc-melted.  Wyckoff Sequence: k h b a. Unit Cell Data Source: Single
+  Crystal.
+
+  Tetragonal: I4/mcm (140), Z=4, tI32 [PDF#04-027-2321] [CSD#1141421]
+
+  [x] a  = 9.99828 (0.00144) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 9.99828 (0.00144) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.04093 (0.00073) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 503.919 (126)(Å³), Density = 7.2331(g/cm³), Absorption(μ) = 1004.0(1/cm)
+
+  [x] SF = 74.3991 (1.89203) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.11083) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.48768 (0.07811) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.05862 (0.15091) <3>
+  [x] f2 =-0.03481 (0.05932) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 32
+
+  [ ] x1 = 0.07665 (0.0    ) <4> {Wyckoff = 16k   } Nb <Nb>
+  [ ] y1 = 0.21908 (0.0    ) <4> {                } Nb <Nb>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.3632  (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4b    } Nb <Nb>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Nb <Nb>
+  [ ] B2 = 0.5448  (0.0    ) <4> {                } Nb <Nb>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+  [ ] x3 = 0.1643  (0.0    ) <4> {Wyckoff = 8h    } Si <Si>
+  [ ] y3 = 0.6643  (0.0    ) <4> { (y=x+1/2)      } Si <Si>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] B3 = 0.52901 (0.0    ) <4> {                } Si <Si>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Si <Si>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] z4 = 0.25    (0.0    ) <0> {                } Si <Si>
+  [ ] B4 = 0.3632  (0.0    ) <4> {                } Si <Si>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Phase #2 [Bragg-R = 13.47%]: Nb12V4
+
+  Chemical Formula = Nb12V4
+
+  Note: [Nb3V1_2080589_stab+83meV.cif] 
+
+  Triclinic: P1 (1), Z=4, aP16 [PDF#98-001-7615] [CSD#17615]
+
+  [x] a  = 5.40884 (0.00371) <2> [x] α  = 78.577  (0.028  ) <2>
+  [x] b  = 7.25634 (0.00370) <2> [x] β  = 82.086  (0.031  ) <2>
+  [x] c  = 7.25767 (0.00372) <2> [x] γ  = 82.748  (0.027  ) <2>
+
+  Unit Cell Volume = 275.110 (274)(Å³), Density = 7.9586(g/cm³), Absorption(μ) = 1316.1(1/cm)
+
+  [x] SF = 45.3998 (1.50686) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.16006) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.5136  (0.1278 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.05014 (0.25111) <3>
+  [x] f2 =-0.06979 (0.10417) <3>
+
+  Asymmetry Atoms in Unit Cell = 16, General Site Multiplicity = 1
+
+  [ ] x1 = 0.24778 (0.0    ) <4> {Wyckoff = 1     } Nb0 <Nb>
+  [ ] y1 = 0.57164 (0.0    ) <4> {                } Nb0 <Nb>
+  [ ] z1 = 0.0592  (0.0    ) <4> {                } Nb0 <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb0 <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb0 <Nb>
+
+  [ ] x2 = 0.49538 (0.0    ) <4> {Wyckoff = 1     } Nb1 <Nb>
+  [ ] y2 = 0.11983 (0.0    ) <4> {                } Nb1 <Nb>
+  [ ] z2 = 0.12696 (0.0    ) <4> {                } Nb1 <Nb>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Nb1 <Nb>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Nb1 <Nb>
+
+  [ ] x3 = 0.75297 (0.0    ) <4> {Wyckoff = 1     } Nb2 <Nb>
+  [ ] y3 = 0.69444 (0.0    ) <4> {                } Nb2 <Nb>
+  [ ] z3 = 0.1852  (0.0    ) <4> {                } Nb2 <Nb>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Nb2 <Nb>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Nb2 <Nb>
+
+  [ ] x4 = 0.9986  (0.0    ) <4> {Wyckoff = 1     } Nb3 <Nb>
+  [ ] y4 = 0.24439 (0.0    ) <4> {                } Nb3 <Nb>
+  [ ] z4 = 0.24677 (0.0    ) <4> {                } Nb3 <Nb>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Nb3 <Nb>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Nb3 <Nb>
+
+  [ ] x5 = 0.50364 (0.0    ) <4> {Wyckoff = 1     } Nb4 <Nb>
+  [ ] y5 = 0.38043 (0.0    ) <4> {                } Nb4 <Nb>
+  [ ] z5 = 0.3778  (0.0    ) <4> {                } Nb4 <Nb>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Nb4 <Nb>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Nb4 <Nb>
+
+  [ ] x6 = 0.75148 (0.0    ) <4> {Wyckoff = 1     } Nb5 <Nb>
+  [ ] y6 = 0.92733 (0.0    ) <4> {                } Nb5 <Nb>
+  [ ] z6 = 0.44216 (0.0    ) <4> {                } Nb5 <Nb>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Nb5 <Nb>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Nb5 <Nb>
+
+  [ ] x7 = 0.00537 (0.0    ) <4> {Wyckoff = 1     } Nb6 <Nb>
+  [ ] y7 = 0.51045 (0.0    ) <4> {                } Nb6 <Nb>
+  [ ] z7 = 0.50231 (0.0    ) <4> {                } Nb6 <Nb>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Nb6 <Nb>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Nb6 <Nb>
+
+  [ ] x8 = 0.24415 (0.0    ) <4> {Wyckoff = 1     } Nb7 <Nb>
+  [ ] y8 = 0.05013 (0.0    ) <4> {                } Nb7 <Nb>
+  [ ] z8 = 0.56481 (0.0    ) <4> {                } Nb7 <Nb>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Nb7 <Nb>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Nb7 <Nb>
+
+  [ ] x9 = 0.75311 (0.0    ) <4> {Wyckoff = 1     } Nb8 <Nb>
+  [ ] y9 = 0.18291 (0.0    ) <4> {                } Nb8 <Nb>
+  [ ] z9 = 0.69271 (0.0    ) <4> {                } Nb8 <Nb>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Nb8 <Nb>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Nb8 <Nb>
+
+  [ ] x10= 0.25024 (0.0    ) <4> {Wyckoff = 1     } Nb9 <Nb>
+  [ ] y10= 0.31378 (0.0    ) <4> {                } Nb9 <Nb>
+  [ ] z10= 0.81222 (0.0    ) <4> {                } Nb9 <Nb>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Nb9 <Nb>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Nb9 <Nb>
+
+  [ ] x11= 0.49852 (0.0    ) <4> {Wyckoff = 1     } Nb10 <Nb>
+  [ ] y11= 0.87202 (0.0    ) <4> {                } Nb10 <Nb>
+  [ ] z11= 0.8733  (0.0    ) <4> {                } Nb10 <Nb>
+  [ ] B11= 0.5     (0.0    ) <4> {                } Nb10 <Nb>
+  [ ] n11= 1.0     (0.0    ) <4> {                } Nb10 <Nb>
+
+  [ ] x12= 0.75054 (0.0    ) <4> {Wyckoff = 1     } Nb11 <Nb>
+  [ ] y12= 0.44526 (0.0    ) <4> {                } Nb11 <Nb>
+  [ ] z12= 0.92895 (0.0    ) <4> {                } Nb11 <Nb>
+  [ ] B12= 0.5     (0.0    ) <4> {                } Nb11 <Nb>
+  [ ] n12= 1.0     (0.0    ) <4> {                } Nb11 <Nb>
+
+  [ ] x13= 0.99718 (0.0    ) <4> {Wyckoff = 1     } V12 <V>
+  [ ] y13= 0.99333 (0.0    ) <4> {                } V12 <V>
+  [ ] z13= 0.00154 (0.0    ) <4> {                } V12 <V>
+  [ ] B13= 0.5     (0.0    ) <4> {                } V12 <V>
+  [ ] n13= 1.0     (0.0    ) <4> {                } V12 <V>
+
+  [ ] x14= 0.25185 (0.0    ) <4> {Wyckoff = 1     } V13 <V>
+  [ ] y14= 0.8113  (0.0    ) <4> {                } V13 <V>
+  [ ] z14= 0.3164  (0.0    ) <4> {                } V13 <V>
+  [ ] B14= 0.5     (0.0    ) <4> {                } V13 <V>
+  [ ] n14= 1.0     (0.0    ) <4> {                } V13 <V>
+
+  [ ] x15= 0.49119 (0.0    ) <4> {Wyckoff = 1     } V14 <V>
+  [ ] y15= 0.63098 (0.0    ) <4> {                } V14 <V>
+  [ ] z15= 0.62095 (0.0    ) <4> {                } V14 <V>
+  [ ] B15= 0.5     (0.0    ) <4> {                } V14 <V>
+  [ ] n15= 1.0     (0.0    ) <4> {                } V14 <V>
+
+  [ ] x16= 0.00799 (0.0    ) <4> {Wyckoff = 1     } V15 <V>
+  [ ] y16= 0.7518  (0.0    ) <4> {                } V15 <V>
+  [ ] z16= 0.74871 (0.0    ) <4> {                } V15 <V>
+  [ ] B16= 0.5     (0.0    ) <4> {                } V15 <V>
+  [ ] n16= 1.0     (0.0    ) <4> {                } V15 <V>
+
+Phase #3 [Bragg-R = 15.83%]: Silicon
+
+  Chemical Formula = Si
+
+  Reference: Rudman R., Inorg. Chem., v5 p1823 (1966)
+
+  Note: ANX: N. LPF Collection Code: 1903714. Sample Preparation: STARTING
+  MATERIAL:Ga,B.Compound Formation:heated at 1373-1573 K for 24 h.CRUCIBLE:
+  sealed evacuated quartz tube. Calculated Pattern Original Remarks: LPF
+  Editor Comment:compound GaB12 reported in Comptes Rendus Hebdomadaires des
+  Seances de l`Academie des Sciences (1961) 252, 134 does not exist. Article
+  Title: On the Reported Synthesis of Gallium Dodecaboride. Minor Warning:
+  No e.s.d reported/abstracted on the cell dimension. No R factors
+  reported/abstracted. Wyckoff Sequence: a. Unit Cell Data Source: Single
+  Crystal.
+
+  Cubic: Fd-3m (227) ● origin at -3m, Z=8, cF8 [PDF#04-010-2410] [CSD#1903714]
+
+  [x] a  = 5.32874 (0.00182) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.32874 (0.00182) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 5.32874 (0.00182) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 151.312 (89)(Å³), Density = 2.4656(g/cm³), Absorption(μ) = 149.4(1/cm)
+
+  [x] SF = 25.4168 (3.6454 ) <1> Intensity Scale Factor
+  [x] TF = 1.0     (1.09504) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 =-0.02833 (0.13046) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.58591 (0.21979) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 192
+
+  [ ] x1 = 0.125   (0.0    ) <0> {Wyckoff = 8a    } Si <Si>
+  [ ] y1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] z1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Nb5Si3 ● Niobium Silicon            51.2 (2.0)    39.1 (2.8)    60.7 (0.3)   4.75   7.2331   04-027-2321
+  Nb12V4                              31.3 (1.4)    21.7 (1.6)    30.5 (0.2)   6.06   7.9586   98-001-7615
+  Si ● Silicon                        17.5 (2.6)    39.2 (6.2)     8.8 (1.2)   4.75   2.4656   04-010-2410
+
+  XRF(Wt%): Nb=69.8%, V=4.8%, Si=25.4%, XRF(DD%): Nb=77.1%, V=4.7%, Si=18.1%
+  Density of Specimen = 5.5217(g/cm³), Absorption(μ) of Specimen = 736.7(1/cm), EPD(1.0%,θ=45.0°) = 0.022(mm)
+
+Refinement Halted (R/E=4.35), Round=4, Iter=12, P=26, N=5751, R=13.58% (E=3.12%, EPS=0.5, χ²=0.018335)

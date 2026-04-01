@@ -1,0 +1,168 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:07 AM
+FILE: E:\synthesizability\data\raw\0449_HM_HfTa4Zr\0449_HM_HfTa4Zr.xy
+IDEN: 
+SCAN: 10.188°/129.982°/0.01671°/1(s), I(p)=17852/490, Cu(45kV,40mA), Tuesday, March 31, 2026, 11:01 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 30.0° - 130.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (6)
+
+  [x] c0 = 1625.33 (3.98321) <1>  [x] c1 = 2954.86 (18.7603) <1>
+  [x] c2 =-1408.53 (56.6573) <1>  [x] c3 =-6044.2  (149.574) <1>
+  [x] c4 = 10340.6 (224.645) <1>  [x] c5 = 9379.68 (261.707) <1>
+  [x] c6 =-12606.6 (297.755) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.18526 (0.00493) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.10034 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.017   (0.0    ) <3>
+  [x] s2 = 0.02063 (0.01499) <4>
+
+  [x] p0 = 0.60882 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.08448 (0.0    ) <3>
+  [x] p2 = 0.38807 (0.02041) <4>
+
+Phase #1 [Bragg-R = 7.50%]: Hf2Ta6
+
+  Chemical Formula = Hf2Ta6
+
+  Note: [Hf1Ta3_2082282_stab+87meV.cif] 
+
+  Triclinic: P1 (1), Z=2, aP8 [PDF#98-001-8599] [CSD#18599]
+
+  [x] a  = 3.35479 (0.00140) <2> [x] α  = 90.000  (2261.044) <2>
+  [x] b  = 4.80054 (0.00140) <2> [x] β  = 90.000  (1633.908) <2>
+  [x] c  = 9.51260 (0.00141) <2> [x] γ  = 90.000  (1895.574) <2>
+
+  Unit Cell Volume = 153.198 (81)(Å³), Density = 15.6362(g/cm³), Absorption(μ) = 2568.5(1/cm)
+
+  [x] SF = 198.82  (1.15155) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.03182) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.51609 (0.03794) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.03224 (0.0809 ) <3>
+  [x] f2 = 0.09131 (0.04308) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 1
+
+  [ ] x1 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Hf0 <Hf>
+  [ ] y1 = 0.0     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] z1 = 0.3659  (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Hf0 <Hf>
+
+  [ ] x2 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Hf1 <Hf>
+  [ ] y2 = 0.0     (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] z2 = 0.6341  (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Hf1 <Hf>
+
+  [ ] x3 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Ta2 <Ta>
+  [ ] y3 = 0.0     (0.0    ) <4> {                } Ta2 <Ta>
+  [ ] z3 = 0.11424 (0.0    ) <4> {                } Ta2 <Ta>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ta2 <Ta>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ta2 <Ta>
+
+  [ ] x4 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Ta3 <Ta>
+  [ ] y4 = 0.5     (0.0    ) <4> {                } Ta3 <Ta>
+  [ ] z4 = 0.1241  (0.0    ) <4> {                } Ta3 <Ta>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Ta3 <Ta>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Ta3 <Ta>
+
+  [ ] x5 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Ta4 <Ta>
+  [ ] y5 = 0.5     (0.0    ) <4> {                } Ta4 <Ta>
+  [ ] z5 = 0.37749 (0.0    ) <4> {                } Ta4 <Ta>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Ta4 <Ta>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Ta4 <Ta>
+
+  [ ] x6 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Ta5 <Ta>
+  [ ] y6 = 0.5     (0.0    ) <4> {                } Ta5 <Ta>
+  [ ] z6 = 0.62251 (0.0    ) <4> {                } Ta5 <Ta>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Ta5 <Ta>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Ta5 <Ta>
+
+  [ ] x7 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Ta6 <Ta>
+  [ ] y7 = 0.5     (0.0    ) <4> {                } Ta6 <Ta>
+  [ ] z7 = 0.8759  (0.0    ) <4> {                } Ta6 <Ta>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Ta6 <Ta>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Ta6 <Ta>
+
+  [ ] x8 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Ta7 <Ta>
+  [ ] y8 = 0.0     (0.0    ) <4> {                } Ta7 <Ta>
+  [ ] z8 = 0.88576 (0.0    ) <4> {                } Ta7 <Ta>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Ta7 <Ta>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Ta7 <Ta>
+
+Phase #2 [Bragg-R = 4.72%]: Zirconium
+
+  Chemical Formula = Zr
+
+  Reference: Savitskii E.M., Tylkina M.A., Tsyganova I.A., Sov. At. Energy,
+  v7 p724 (1959)
+
+  Note: LPF Collection Code: 458094. Melting Point: 2133 K. Polymorphism:
+  Low temperature phase. Sample Preparation: STARTING MATERIALS:Zr. Compound
+  Preparation: heated at 1673 K under vacuum, followed by arc-melted.
+  CRUCIBLE: copper hearth. ATMOSPHERE: argon. Article Title: PHASE DIAGRAM
+  OF THE ZIRCONIUM-RHENIUM SYSTEM. Minor Warning: No e.s.d
+  reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. Wyckoff Sequence: c. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Hexagonal: P63/mmc (194), Z=2, hP2 [PDF#04-003-6720] [CSD#458094]
+
+  [x] a  = 3.23266 (0.00183) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.23266 (0.00183) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.13734 (0.00554) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 46.493 (62)(Å³), Density = 6.5155(g/cm³), Absorption(μ) = 931.7(1/cm)
+
+  [x] SF = 8.45177 (1.22692) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.81516) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.42452 (0.05723) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 24
+
+  [ ] x1 = 0.33333 (0.0    ) <0> {Wyckoff = 2c    } Zr <Zr>
+  [ ] y1 = 0.66666 (0.0    ) <0> {                } Zr <Zr>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Zr <Zr>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Zr <Zr>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Hf2Ta6                              95.9 (1.0)    90.7 (1.7)    95.8 (0.1)  20.21  15.6362   98-001-8599
+  Zr ● Zirconium                       4.1 (0.6)     9.3 (1.4)     4.2 (0.2)  13.52   6.5155   04-003-6720
+
+  XRF(Wt%): Ta=72.2%, Hf=23.7%, Zr=4.1%, XRF(DD%): Ta=72.1%, Hf=23.7%, Zr=4.2%
+  Density of Specimen = 14.7919(g/cm³), Absorption(μ) of Specimen = 2417.0(1/cm), EPD(1.0%,θ=45.0°) = 0.007(mm)
+
+Refinement Halted (R/E=3.15), Round=4, Iter=12, P=26, N=5985, R=6.27% (E=1.99%, EPS=0.5, χ²=0.003885)

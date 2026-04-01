@@ -1,0 +1,299 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:04 PM
+FILE: E:\synthesizability\data\raw\0506_HM_Al3Cu2Y\0540_HM_Al3Cu2Y_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=43906/4211, Cu(45kV,40mA), Tuesday, March 03, 2026, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (27)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.02559 (0.00303) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.12561 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.01771 (0.0    ) <3>
+  [x] s2 =-0.04854 (0.03925) <4>
+
+  [x] p0 = 0.29464 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.03344 (0.0    ) <3>
+  [x] p2 = 0.38314 (0.04593) <4>
+
+Phase #1 [Bragg-R = 9.88%]: Y2Al5Cu5
+
+  Chemical Formula = Y2Al5Cu5
+
+  Note: [Al5Cu5Y2_1973830_stab-28meV.cif] 
+
+  Triclinic: P1 (1), Z=1, aP12 [PDF#98-001-6502] [CSD#16502]
+
+  [x] a  = 4.09817 (0.00314) <2> [x] α  = 90.000  (32665.820) <2>
+  [x] b  = 5.27764 (0.00298) <2> [x] β  = 90.000  (17258.840) <2>
+  [x] c  = 8.99652 (0.00315) <2> [x] γ  = 90.000  (6066.505) <2>
+
+  Unit Cell Volume = 194.583 (197)(Å³), Density = 5.3798(g/cm³), Absorption(μ) = 402.7(1/cm)
+
+  [x] SF = 543.959 (26.5255) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.36878) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.28229 (0.06444) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.03432 (0.22793) <3>
+  [x] f2 = 0.37424 (0.21268) <3>
+
+  Asymmetry Atoms in Unit Cell = 12, General Site Multiplicity = 1
+
+  [ ] x1 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Al0 <Al>
+  [ ] y1 = 0.25041 (0.0    ) <4> {                } Al0 <Al>
+  [ ] z1 = 0.23945 (0.0    ) <4> {                } Al0 <Al>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Al0 <Al>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Al0 <Al>
+
+  [ ] x2 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Al1 <Al>
+  [ ] y2 = 0.74959 (0.0    ) <4> {                } Al1 <Al>
+  [ ] z2 = 0.23945 (0.0    ) <4> {                } Al1 <Al>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Al1 <Al>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Al1 <Al>
+
+  [ ] x3 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Al2 <Al>
+  [ ] y3 = 0.0     (0.0    ) <4> {                } Al2 <Al>
+  [ ] z3 = 0.5     (0.0    ) <4> {                } Al2 <Al>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Al2 <Al>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Al2 <Al>
+
+  [ ] x4 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Al3 <Al>
+  [ ] y4 = 0.25041 (0.0    ) <4> {                } Al3 <Al>
+  [ ] z4 = 0.76055 (0.0    ) <4> {                } Al3 <Al>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Al3 <Al>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Al3 <Al>
+
+  [ ] x5 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Al4 <Al>
+  [ ] y5 = 0.74959 (0.0    ) <4> {                } Al4 <Al>
+  [ ] z5 = 0.76055 (0.0    ) <4> {                } Al4 <Al>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Al4 <Al>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Al4 <Al>
+
+  [ ] x6 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Cu5 <Cu>
+  [ ] y6 = 0.5     (0.0    ) <4> {                } Cu5 <Cu>
+  [ ] z6 = 0.0     (0.0    ) <4> {                } Cu5 <Cu>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Cu5 <Cu>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Cu5 <Cu>
+
+  [ ] x7 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Cu6 <Cu>
+  [ ] y7 = 0.5     (0.0    ) <4> {                } Cu6 <Cu>
+  [ ] z7 = 0.16479 (0.0    ) <4> {                } Cu6 <Cu>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Cu6 <Cu>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Cu6 <Cu>
+
+  [ ] x8 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Cu7 <Cu>
+  [ ] y8 = 0.0     (0.0    ) <4> {                } Cu7 <Cu>
+  [ ] z8 = 0.33302 (0.0    ) <4> {                } Cu7 <Cu>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Cu7 <Cu>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Cu7 <Cu>
+
+  [ ] x9 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Cu8 <Cu>
+  [ ] y9 = 0.0     (0.0    ) <4> {                } Cu8 <Cu>
+  [ ] z9 = 0.66698 (0.0    ) <4> {                } Cu8 <Cu>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Cu8 <Cu>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Cu8 <Cu>
+
+  [ ] x10= 0.0     (0.0    ) <4> {Wyckoff = 1     } Cu9 <Cu>
+  [ ] y10= 0.5     (0.0    ) <4> {                } Cu9 <Cu>
+  [ ] z10= 0.83521 (0.0    ) <4> {                } Cu9 <Cu>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Cu9 <Cu>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Cu9 <Cu>
+
+  [ ] x11= 0.0     (0.0    ) <4> {Wyckoff = 1     } Y10 <Y>
+  [ ] y11= 0.0     (0.0    ) <4> {                } Y10 <Y>
+  [ ] z11= 0.0     (0.0    ) <4> {                } Y10 <Y>
+  [ ] B11= 0.5     (0.0    ) <4> {                } Y10 <Y>
+  [ ] n11= 1.0     (0.0    ) <4> {                } Y10 <Y>
+
+  [ ] x12= 0.0     (0.0    ) <4> {Wyckoff = 1     } Y11 <Y>
+  [ ] y12= 0.5     (0.0    ) <4> {                } Y11 <Y>
+  [ ] z12= 0.5     (0.0    ) <4> {                } Y11 <Y>
+  [ ] B12= 0.5     (0.0    ) <4> {                } Y11 <Y>
+  [ ] n12= 1.0     (0.0    ) <4> {                } Y11 <Y>
+
+Phase #2 [Bragg-R = 8.38%]: Aluminum Copper Yttrium
+
+  Chemical Formula = Cu3YAl2
+
+  Reference: Krachan T., Stelmakhovych B.M., Kuz`ma Y.B., J. Alloys Compd.,
+  v349 p134-139 (2003)
+
+  Note: LPF Collection Code: 1810215. Sample Preparation: Compound
+  Preparation: arc-melted. ATMOSPHERE: argon. Sample annealed at 820 K for
+  800 h in sealed evacuated quartz tube, water-quenched. Article Title: The
+  Y-Cu-Al system. Minor Warning: No R factors reported/abstracted. Minor
+  warning from the LPF Editor exist. LPF Editor Comment: refined composition
+  differs from nominal composition. Wyckoff Sequence: g c a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Hexagonal: P6/mmm (191), Z=1, hP6 [PDF#04-019-4632] [CSD#1810215]
+
+  [x] a  = 5.26806 (0.00044) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.26806 (0.00044) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.08930 (0.00039) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 98.284 (15)(Å³), Density = 5.622(g/cm³), Absorption(μ) = 415.3(1/cm)
+
+  [x] SF = 496.679 (27.7756) <1> Intensity Scale Factor
+  [x] TF =-0.28022 (0.20986) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.14508 (0.02299) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.03637 (0.04945) <3>
+  [x] f2 = 0.06355 (0.0276 ) <3>
+
+  Asymmetry Atoms in Unit Cell = 5, General Site Multiplicity = 24
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 1a    } Y <Y>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] B1 = 0.35    (0.0    ) <4> {                } Y <Y>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x2 = 0.33333 (0.0    ) <0> {Wyckoff = 2c    } Cu <Cu>
+  [ ] y2 = 0.66666 (0.0    ) <0> {                } Cu <Cu>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] B2 = 0.75    (0.0    ) <4> {                } Cu <Cu>
+  [ ] n2 = 0.89    (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x3 = 0.33333 (0.0    ) <0> {Wyckoff = 2c    } Al <Al>
+  [ ] y3 = 0.66666 (0.0    ) <0> {                } Al <Al>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] B3 = 0.75    (0.0    ) <4> {                } Al <Al>
+  [ ] n3 = 0.11    (0.0    ) <4> {                } Al <Al>
+
+  [ ] x4 = 0.5     (0.0    ) <0> {Wyckoff = 3g    } Al <Al>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] z4 = 0.5     (0.0    ) <0> {                } Al <Al>
+  [ ] B4 = 0.64    (0.0    ) <4> {                } Al <Al>
+  [ ] n4 = 0.6     (0.0    ) <4> {                } Al <Al>
+
+  [ ] x5 = 0.5     (0.0    ) <0> {Wyckoff = 3g    } Cu <Cu>
+  [ ] y5 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] z5 = 0.5     (0.0    ) <0> {                } Cu <Cu>
+  [ ] B5 = 0.64    (0.0    ) <4> {                } Cu <Cu>
+  [ ] n5 = 0.4     (0.0    ) <4> {                } Cu <Cu>
+
+Phase #3 [Bragg-R = 4.96%]: Aluminum Copper Yttrium
+
+  Chemical Formula = Cu2.5Y3Al8.5
+
+  Reference: Krachan, T., Stel`makhovych, B. M., Kuz`ma, Y. B., J. Alloys
+  Compd., v349 #1-2 p134-139 (2003)
+
+  Note: ANX: N3O11. LPF Collection Code: 1810212. Sample Preparation:
+  Compound Preparation: arc-melted. ATMOSPHERE: argon. Sample annealed at
+  820 K for 800 h in sealed evacuated quartz tube, water-quenched.
+  Calculated Pattern Original Remarks: LPF Editor Comment: refined
+  composition differs from nominal composition. Article Title: The Y-Cu-Al
+  system. Minor Warning: Minor warning from the LPF Editor exist. Wyckoff
+  Sequence: l2 j g c a. Unit Cell Data Source: Powder Diffraction.
+
+  Orthorhombic: Immm (71), Z=2, oI28 [PDF#04-012-4027] [CSD#1810212]
+
+  [x] a  = 4.20952 (0.00052) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 12.40854(0.00171) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 9.80479 (0.00136) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 512.144 (119)(Å³), Density = 4.268(g/cm³), Absorption(μ) = 359.7(1/cm)
+
+  [x] SF = 413.007 (14.9354) <1> Intensity Scale Factor
+  [x] TF =-0.47187 (0.20383) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.26629 (0.03298) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.20854 (0.0774 ) <3>
+  [x] f2 = 0.11839 (0.04555) <3>
+
+  Asymmetry Atoms in Unit Cell = 9, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Y <Y>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] B1 = 1.4     (0.0    ) <4> {                } Y <Y>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4g    } Y <Y>
+  [ ] y2 = 0.6863  (0.0    ) <4> {                } Y <Y>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] B2 = 0.3     (0.0    ) <4> {                } Y <Y>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 2c    } Al <Al>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] z3 = 0.5     (0.0    ) <0> {                } Al <Al>
+  [ ] B3 = 1.3     (0.0    ) <4> {                } Al <Al>
+  [ ] n3 = 0.91    (0.0    ) <4> {                } Al <Al>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 2c    } Cu <Cu>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] z4 = 0.5     (0.0    ) <0> {                } Cu <Cu>
+  [ ] B4 = 1.3     (0.0    ) <4> {                } Cu <Cu>
+  [ ] n4 = 0.09    (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x5 = 0.5     (0.0    ) <0> {Wyckoff = 4j    } Al <Al>
+  [ ] y5 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] z5 = 0.2768  (0.0    ) <4> {                } Al <Al>
+  [ ] B5 = 0.7     (0.0    ) <4> {                } Al <Al>
+  [ ] n5 = 0.88    (0.0    ) <4> {                } Al <Al>
+
+  [ ] x6 = 0.5     (0.0    ) <0> {Wyckoff = 4j    } Cu <Cu>
+  [ ] y6 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] z6 = 0.2768  (0.0    ) <4> {                } Cu <Cu>
+  [ ] B6 = 0.7     (0.0    ) <4> {                } Cu <Cu>
+  [ ] n6 = 0.12    (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x7 = 0.0     (0.0    ) <0> {Wyckoff = 8l    } Al <Al>
+  [ ] y7 = 0.1467  (0.0    ) <4> {                } Al <Al>
+  [ ] z7 = 0.2686  (0.0    ) <4> {                } Al <Al>
+  [ ] B7 = 1.6     (0.0    ) <4> {                } Al <Al>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Al <Al>
+
+  [ ] x8 = 0.0     (0.0    ) <0> {Wyckoff = 8l    } Cu <Cu>
+  [ ] y8 = 0.6582  (0.0    ) <4> {                } Cu <Cu>
+  [ ] z8 = 0.631   (0.0    ) <4> {                } Cu <Cu>
+  [ ] B8 = 1.5     (0.0    ) <4> {                } Cu <Cu>
+  [ ] n8 = 0.565   (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x9 = 0.0     (0.0    ) <0> {Wyckoff = 8l    } Al <Al>
+  [ ] y9 = 0.6582  (0.0    ) <4> {                } Al <Al>
+  [ ] z9 = 0.631   (0.0    ) <4> {                } Al <Al>
+  [ ] B9 = 1.5     (0.0    ) <4> {                } Al <Al>
+  [ ] n9 = 0.435   (0.0    ) <4> {                } Al <Al>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Y2Al5Cu5                            37.4 (1.8)    35.3 (2.0)    27.5 (1.7)   4.73   5.3798   98-001-6502
+  Cu3YAl2 ● Aluminum Copper Yttriu    34.2 (1.7)    30.9 (1.8)    39.0 (1.6)   6.16   5.6220   04-019-4632
+  Cu2.5Y3Al8.5 ● Aluminum Copper Y    28.4 (1.2)    33.8 (1.7)    33.5 (1.1)   3.50   4.2680   04-012-4027
+
+  XRF(Wt%): Y=31.2%, Cu=45.4%, Al=23.4%, XRF(DD%): Y=31.8%, Cu=44.3%, Al=23.9%
+  Density of Specimen = 5.0787(g/cm³), Absorption(μ) of Specimen = 392.0(1/cm), EPD(1.0%,θ=45.0°) = 0.042(mm)
+
+Refinement Halted (R/E=5.2), Round=4, Iter=6, P=29, N=5751, R=6.85% (E=1.32%, EPS=0.5, χ²=0.004705)

@@ -1,0 +1,136 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:22 PM
+FILE: E:\synthesizability\data\raw\0486_HM_Al4FeCo3\0545_HM_Al4FeCo3_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=21799/203, Cu(45kV,40mA), Tuesday, March 31, 2026, 12:21 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (28)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.06304 (0.0015 ) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.05068 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.08603 (0.0    ) <3>
+  [x] s2 = 0.0428  (0.00624) <4>
+
+  [x] p0 = 0.03079 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.56604 (0.0    ) <3>
+  [x] p2 = 0.13104 (0.00644) <4>
+
+Phase #1 [Bragg-R = 6.11%]: Aluminum Cobalt
+
+  Chemical Formula = CoAl
+
+  Reference: Dekhtyar I.Y., Miniev M., Sakharova S.G., Fedchenko R.G., Phys.
+  Status Solidi A, v13 pK17 (1972)
+
+  Note: ANX: NO. LPF Collection Code: 375041. Sample Preparation: STARTING
+  MATERIALS:Co,Al. Compound Preparation: induction-melted in argon. Article
+  Title: Positron Annihilation on CoAl Alloys. Minor Warning: No R factor
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: b a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Pm-3m (221), Z=1, cP2 [PDF#04-002-3662] [CSD#375041]
+
+  [x] a  = 2.86436 (0.00009) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 2.86436 (0.00009) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 2.86436 (0.00009) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 23.501 (1)(Å³), Density = 6.0702(g/cm³), Absorption(μ) = 1395.9(1/cm)
+
+  [x] SF = 376.203 (3.62331) <1> Intensity Scale Factor
+  [x] TF =-0.63255 (0.04428) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.4619  (0.01213) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.42472 (0.02299) <3>
+  [x] f2 = 0.25333 (0.01137) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 48
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 1a    } Al <Al>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Al <Al>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Al <Al>
+
+  [ ] x2 = 0.5     (0.0    ) <0> {Wyckoff = 1b    } Co <Co>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Co <Co>
+  [ ] z2 = 0.5     (0.0    ) <0> {                } Co <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co <Co>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Co <Co>
+
+Phase #2 [Bragg-R = 6.12%]: Iron
+
+  Chemical Formula = Fe
+
+  Reference: Deganello F., Liotta L.F., Longo A., Casaletto M.P., Scopelliti
+  M., J. Solid State Chem., v179 p3406-3419 (2006)
+
+  Note: LPF Collection Code: 1817043. Sample Preparation: STARTINGMATERIALS:
+  Sr ( N O3 )2, Fe ( N O3 )3. COMPOUND PREPARATION: dissolved in water,
+  citric acid, ammonium and ammonia nitrate added, dried at 343 K, burned,
+  heated at 1273 K for 4 h in air, heated at 1273 K in Ar/H2 atmosphere,
+  cooled in He atmosphere. Article Title: Cerium effect on the phase
+  structure, phase stability and redox properties of Ce-doped strontium
+  ferrates. Minor Warning: Only profile R factor reported/abstracted.
+  Magnitude of e.s.d. on cell dimension is >1000 ppm. Wyckoff Sequence: a.
+  Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-014-0171] [CSD#1817043]
+
+  [x] a  = 2.87251 (0.00026) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 2.87251 (0.00026) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 2.87251 (0.00026) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 23.702 (4)(Å³), Density = 7.8247(g/cm³), Absorption(μ) = 2410.0(1/cm)
+
+  [x] SF = 38.7776 (1.99042) <1> Intensity Scale Factor
+  [x] TF =-0.79127 (0.26745) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.28684 (0.09784) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-1.44964 (0.16538) <3>
+  [x] f2 = 0.54126 (0.0689 ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Fe <Fe>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Fe <Fe>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Fe <Fe>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Fe <Fe>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Fe <Fe>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  CoAl ● Aluminum Cobalt              90.7 (1.3)    92.6 (1.8)    89.5 (0.6)   8.26   6.0702   04-002-3662
+  Fe ● Iron                            9.3 (0.5)     7.4 (0.4)    10.5 (0.3)  11.60   7.8247   04-014-0171
+
+  XRF(Wt%): Co=62.2%, Fe=9.3%, Al=28.5%, XRF(DD%): Co=61.4%, Fe=10.5%, Al=28.1%
+  Density of Specimen = 6.2001(g/cm³), Absorption(μ) of Specimen = 1471.0(1/cm), EPD(1.0%,θ=45.0°) = 0.011(mm)
+
+Refinement Halted (R/E=1.37), Round=4, Iter=6, P=15, N=5751, R=4.24% (E=3.09%, EPS=0.5, χ²=0.0018)

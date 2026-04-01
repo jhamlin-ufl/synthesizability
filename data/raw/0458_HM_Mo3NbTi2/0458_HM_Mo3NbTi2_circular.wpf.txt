@@ -1,0 +1,90 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:34 AM
+FILE: E:\synthesizability\data\raw\0458_HM_Mo3NbTi2\0458_HM_Mo3NbTi2_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=35928/323, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (26)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.021   (0.01409) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.06201 (0.16809) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.35145 (0.30201) <3>
+  [x] s2 =-0.26174 (0.1173 ) <4>
+
+  [x] p0 = 0.69356 (0.19747) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.52289 (0.38688) <3>
+  [x] p2 = 0.33176 (0.1678 ) <4>
+
+Phase #1 [Bragg-R = 23.32%]: Molybdenum Titanium
+
+  Chemical Formula = Ti0.6Mo0.4
+
+  Reference: Eremenko V.N., Velikanova T.Y., Soviet Powder Metall. and Met.
+  Ceramics, v8 p931 (1969)
+
+  Note: LPF Collection Code: 1009679. Melting Point: 2273 K. Calculated
+  Pattern Original Remarks: LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. LPF Editor Comment: editor took space
+  group setting from the literature. Article Title: Phase equilibria in the
+  Mo-TiC-Ti region of the ternary system Mo-Ti-C. Character of
+  solidification of alloys and projection of the solidus surface. Part I.
+  Minor Warning: Minor warning from the LPF Editor exist. No R factors
+  reported/abstracted. No e.s.d reported/abstracted on the cell dimension.
+  Wyckoff Sequence: a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-020-8692] [CSD#1009679]
+
+  [x] a  = 3.19168 (0.00089) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.19168 (0.00089) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.19168 (0.00089) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 32.513 (16)(Å³), Density = 6.8551(g/cm³), Absorption(μ) = 1245.6(1/cm)
+
+  [x] SF = 594.014 (7.75066) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.05789) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.67481 (0.13871) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.69846 (0.28774) <3>
+  [x] f2 = 0.63336 (0.13446) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ti <Ti>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ti <Ti>
+  [ ] n1 = 0.6     (0.0    ) <4> {                } Ti <Ti>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n2 = 0.4     (0.0    ) <4> {                } Mo <Mo>
+
+X-Ray Penetration Depth (EPD): EPD=0.013 (mm), μ=1245.6 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=8.28), Round=4, Iter=6, P=13, N=5751, R=23.32% (E=2.82%, EPS=0.5, χ²=0.054515)

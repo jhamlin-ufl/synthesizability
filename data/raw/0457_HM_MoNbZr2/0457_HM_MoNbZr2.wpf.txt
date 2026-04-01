@@ -1,0 +1,91 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:32 AM
+FILE: E:\synthesizability\data\raw\0457_HM_MoNbZr2\0457_HM_MoNbZr2.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=11241/621, Cu(45kV,40mA), Tuesday, March 31, 2026, 9:42 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (26)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.15463 (0.01647) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.26137 (0.09354) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.82736 (0.17354) <3>
+  [x] s2 = 0.55079 (0.06084) <4>
+
+  [x] p0 = 2.0697  (0.08614) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-5.10308 (0.1726 ) <3>
+  [x] p2 = 3.41933 (0.07445) <4>
+
+Phase #1 [Bragg-R = 8.04%]: Zr2Nb1Mo1
+
+  Chemical Formula = Zr2Nb1Mo1
+
+  Note: [Mo1Nb1Zr2_557342_stab+174meV.cif] 
+
+  Triclinic: P1 (1), Z=1, aP4 [PDF#98-000-1682] [CSD#1682]
+
+  [x] a  = 4.77789 (8.16858) <2> [x] α  = 60.0    (-Fixed-) <2>
+  [x] b  = 4.77789 (7.14846) <2> [x] β  = 60.0    (-Fixed-) <2>
+  [x] c  = 4.77789 (7.13285) <2> [x] γ  = 60.0    (-Fixed-) <2>
+
+  Unit Cell Volume = 77.125 (662)(Å³), Density = 7.9935(g/cm³), Absorption(μ) = 1202.3(1/cm)
+
+  [x] SF = 343.518 (2.65295) <1> Intensity Scale Factor
+  [x] TF = 0.26295 (0.04039) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.99201 (0.10646) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.70189 (0.23869) <3>
+  [x] f2 =-0.13431 (0.12207) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 1
+
+  [ ] x1 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Mo0 <Mo>
+  [ ] y1 = 0.25    (0.0    ) <4> {                } Mo0 <Mo>
+  [ ] z1 = 0.25    (0.0    ) <4> {                } Mo0 <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo0 <Mo>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Mo0 <Mo>
+
+  [ ] x2 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Nb1 <Nb>
+  [ ] y2 = 0.75    (0.0    ) <4> {                } Nb1 <Nb>
+  [ ] z2 = 0.75    (0.0    ) <4> {                } Nb1 <Nb>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Nb1 <Nb>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Nb1 <Nb>
+
+  [ ] x3 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Zr2 <Zr>
+  [ ] y3 = 0.0     (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] z3 = 0.0     (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Zr2 <Zr>
+
+  [ ] x4 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Zr3 <Zr>
+  [ ] y4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] z4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Zr3 <Zr>
+
+X-Ray Penetration Depth (EPD): EPD=0.014 (mm), μ=1202.3 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=3.28), Round=4, Iter=17, P=15, N=5751, R=8.04% (E=2.45%, EPS=0.5, χ²=0.00641)

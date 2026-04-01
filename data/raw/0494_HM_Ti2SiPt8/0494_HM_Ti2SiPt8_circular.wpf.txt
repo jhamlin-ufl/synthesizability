@@ -1,0 +1,136 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:41 PM
+FILE: E:\synthesizability\data\raw\0494_HM_Ti2SiPt8\0494_HM_Ti2SiPt8_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=6820.0/237.0, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 17.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (29)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.14943 (0.0194 ) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.08513 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.06311 (0.0    ) <3>
+  [x] s2 =-0.17637 (0.00678) <4>
+
+  [x] p0 = 1.45874 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.002   (0.0    ) <3>
+  [x] p2 = 0.45497 (0.04646) <4>
+
+Phase #1 [Bragg-R = 23.94%]: Platinum Titanium
+
+  Chemical Formula = Ti0.75Pt0.25
+
+  Reference: Kawasoe Y., Tanaka S., Kuroki T., Kusaba H., Ito K., Teraoka
+  Y., Sasaki K., J. Electrochem. Soc., v154 pB969-B975 (2007)
+
+  Note: ANX: N. LPF Collection Code: 1923879. Sample Preparation: Compound
+  Preparation: heated at 973-1173 K for 2 h. ATMOSPHERE: hydrogen. Article
+  Title: Preparation and electrochemical activities of Pt-Ti alloy PEFC
+  electrocatalysts. Minor Warning: No R factors reported/abstracted. LPF
+  Editor Comment: editor deduced probable site occupation from nominal
+  composition. Wyckoff Sequence: a. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Cubic: Fm-3m (225), Z=4, cF4 [PDF#04-015-0460] [CSD#1923879]
+
+  [x] a  = 3.92317 (0.00144) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.92317 (0.00144) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.92317 (0.00144) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 60.382 (38)(Å³), Density = 9.3162(g/cm³), Absorption(μ) = 1894.8(1/cm)
+
+  [x] SF = 74.1401 (1.89717) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.14555) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.93779 (0.2424 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.21054 (0.49891) <3>
+  [x] f2 = 0.12788 (0.24165) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 192
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Ti <Ti>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ti <Ti>
+  [ ] n1 = 0.75    (0.0    ) <4> {                } Ti <Ti>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Pt <Pt>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Pt <Pt>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Pt <Pt>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pt <Pt>
+  [ ] n2 = 0.25    (0.0    ) <4> {                } Pt <Pt>
+
+Phase #2 [Bragg-R = 14.19%]: Silicon
+
+  Chemical Formula = Si
+
+  Reference: Rudman R., Inorg. Chem., v5 p1823 (1966)
+
+  Note: ANX: N. LPF Collection Code: 1903714. Sample Preparation: STARTING
+  MATERIAL:Ga,B.Compound Formation:heated at 1373-1573 K for 24 h.CRUCIBLE:
+  sealed evacuated quartz tube. Calculated Pattern Original Remarks: LPF
+  Editor Comment:compound GaB12 reported in Comptes Rendus Hebdomadaires des
+  Seances de l`Academie des Sciences (1961) 252, 134 does not exist. Article
+  Title: On the Reported Synthesis of Gallium Dodecaboride. Minor Warning:
+  No e.s.d reported/abstracted on the cell dimension. No R factors
+  reported/abstracted. Wyckoff Sequence: a. Unit Cell Data Source: Single
+  Crystal.
+
+  Cubic: Fd-3m (227) ● origin at -3m, Z=8, cF8 [PDF#04-010-2410] [CSD#1903714]
+
+  [x] a  = 5.31559 (0.00348) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.31559 (0.00348) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 5.31559 (0.00348) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 150.195 (171)(Å³), Density = 2.4839(g/cm³), Absorption(μ) = 150.5(1/cm)
+
+  [x] SF = 22.2113 (2.61015) <1> Intensity Scale Factor
+  [x] TF =-0.66082 (0.82905) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 =-0.0367  (0.14488) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.67124 (0.24225) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 192
+
+  [ ] x1 = 0.125   (0.0    ) <0> {Wyckoff = 8a    } Si <Si>
+  [ ] y1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] z1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Ti0.75Pt0.25 ● Platinum Titanium    76.9 (3.2)    47.1 (3.8)    73.6 (0.4)  11.94   9.3162   04-015-0460
+  Si ● Silicon                        23.1 (2.8)    52.9 (7.4)    26.4 (1.6)   4.75   2.4839   04-010-2410
+
+  XRF(Wt%): Pt=44.3%, Ti=32.6%, Si=23.1%, XRF(DD%): Pt=42.4%, Ti=31.2%, Si=26.4%
+  Density of Specimen = 5.7012(g/cm³), Absorption(μ) of Specimen = 971.9(1/cm), EPD(1.0%,θ=45.0°) = 0.017(mm)
+
+Refinement Halted (R/E=4.21), Round=4, Iter=12, P=14, N=5151, R=17.45% (E=4.15%, EPS=0.5, χ²=0.030831)

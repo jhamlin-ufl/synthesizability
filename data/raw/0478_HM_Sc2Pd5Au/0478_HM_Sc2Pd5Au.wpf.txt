@@ -1,0 +1,90 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:10 PM
+FILE: E:\synthesizability\data\raw\0478_HM_Sc2Pd5Au\0478_HM_Sc2Pd5Au.xy
+IDEN: 
+SCAN: 20.008°/129.877°/0.01671°/1(s), I(p)=9774.0/336.0, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 20.0° - 129.9°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (4)
+
+  [x] c0 = 1104.5  (4.03198) <1>  [x] c1 = 1778.31 (10.2105) <1>
+  [x] c2 = 432.89  (24.9848) <1>  [x] c3 =-306.225 (15.7323) <1>
+  [x] c4 = 552.423 (28.8166) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.03324 (0.00724) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.21748 (0.10274) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.48666 (0.17863) <3>
+  [x] s2 =-0.01596 (0.06322) <4>
+
+  [x] p0 = 1.78648 (0.20806) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.42321 (0.39581) <3>
+  [x] p2 = 0.0151  (0.15418) <4>
+
+Phase #1 [Bragg-R = 12.30%]: Palladium Scandium
+
+  Chemical Formula = ScPd3
+
+  Reference: Gambke T., Elschner B., Schaafhausen J., Phys. Lett. A, v78
+  p413 (1980)
+
+  Note: ANX: NO3. LPF Collection Code: 533465. Article Title: INTERMEDIATE
+  VALENCE OF Ce IN Ce1-xScxPd3. Minor Warning: No e.s.d reported/abstracted
+  on the cell dimension. No R factor reported/abstracted. LPF Editor
+  Comment: editor deduced probable site occupation from nominal composition.
+  Wyckoff Sequence: c a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Pm-3m (221), Z=1, cP4 [PDF#04-004-7691] [CSD#533465]
+
+  [x] a  = 3.97776 (0.00047) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.97776 (0.00047) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.97776 (0.00047) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 62.938 (13)(Å³), Density = 9.6071(g/cm³), Absorption(μ) = 1953.0(1/cm)
+
+  [x] SF = 178.022 (1.97305) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.05619) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.53556 (0.08262) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.13809 (0.15891) <3>
+  [x] f2 = 0.04848 (0.06406) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 48
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 1a    } Sc <Sc>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Sc <Sc>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Sc <Sc>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Sc <Sc>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Sc <Sc>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 3c    } Pd <Pd>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Pd <Pd>
+  [ ] z2 = 0.5     (0.0    ) <0> {                } Pd <Pd>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pd <Pd>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Pd <Pd>
+
+X-Ray Penetration Depth (EPD): EPD=0.008 (mm), μ=1953.0 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=4.94), Round=4, Iter=12, P=18, N=6576, R=12.3% (E=2.49%, EPS=0.5, χ²=0.015133)

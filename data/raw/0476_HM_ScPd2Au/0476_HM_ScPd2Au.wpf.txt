@@ -1,0 +1,118 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:06 PM
+FILE: E:\synthesizability\data\raw\0476_HM_ScPd2Au\0476_HM_ScPd2Au.xy
+IDEN: 
+SCAN: 20.05°/129.846°/0.10027°/1(s), I(p)=6970.0/429.0, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 20.1° - 129.8°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (2)
+
+  [x] c0 = 1296.02 (14.8618) <1>  [x] c1 = 1757.69 (23.4048) <1>
+  [x] c2 = 929.569 (31.1212) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.03175 (0.07583) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.22771 (0.92888) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.19579 (1.60429) <3>
+  [x] s2 = 0.06068 (0.52295) <4>
+
+  [x] p0 = 0.76375 (1.59237) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.31623 (3.01581) <3>
+  [x] p2 = 0.63734 (1.20095) <4>
+
+Phase #1 [Bragg-R = 18.32%]: Pd6Au2
+
+  Chemical Formula = Pd6Au2
+
+  Note: [Au1Pd3_2034609_stab+28meV.cif] 
+
+  Triclinic: P1 (1), Z=2, aP8 [PDF#98-001-2263] [CSD#12263]
+
+  [x] a  = 4.66640 (0.02477) <2> [x] α  = 90.000  (16947.720) <2>
+  [x] b  = 5.62697 (0.02233) <2> [x] β  = 90.000  (7424.219) <2>
+  [x] c  = 4.88543 (0.02367) <2> [x] γ  = 90.000  (10963.760) <2>
+
+  Unit Cell Volume = 128.280 (53)(Å³), Density = 13.3622(g/cm³), Absorption(μ) = 2762.8(1/cm)
+
+  [x] SF = 97.5403 (7.05735) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.45932) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.55235 (0.69074) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.12629 (1.33739) <3>
+  [x] f2 = 0.05187 (0.57958) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 1
+
+  [ ] x1 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Au0 <Au>
+  [ ] y1 = 0.5     (0.0    ) <4> {                } Au0 <Au>
+  [ ] z1 = 0.33416 (0.0    ) <4> {                } Au0 <Au>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Au0 <Au>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Au0 <Au>
+
+  [ ] x2 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Au1 <Au>
+  [ ] y2 = 0.0     (0.0    ) <4> {                } Au1 <Au>
+  [ ] z2 = 0.66584 (0.0    ) <4> {                } Au1 <Au>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Au1 <Au>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Au1 <Au>
+
+  [ ] x3 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pd2 <Pd>
+  [ ] y3 = 0.25059 (0.0    ) <4> {                } Pd2 <Pd>
+  [ ] z3 = 0.16519 (0.0    ) <4> {                } Pd2 <Pd>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Pd2 <Pd>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Pd2 <Pd>
+
+  [ ] x4 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pd3 <Pd>
+  [ ] y4 = 0.74941 (0.0    ) <4> {                } Pd3 <Pd>
+  [ ] z4 = 0.16519 (0.0    ) <4> {                } Pd3 <Pd>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Pd3 <Pd>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Pd3 <Pd>
+
+  [ ] x5 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Pd4 <Pd>
+  [ ] y5 = 0.0     (0.0    ) <4> {                } Pd4 <Pd>
+  [ ] z5 = 0.33058 (0.0    ) <4> {                } Pd4 <Pd>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Pd4 <Pd>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Pd4 <Pd>
+
+  [ ] x6 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pd5 <Pd>
+  [ ] y6 = 0.5     (0.0    ) <4> {                } Pd5 <Pd>
+  [ ] z6 = 0.66942 (0.0    ) <4> {                } Pd5 <Pd>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Pd5 <Pd>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Pd5 <Pd>
+
+  [ ] x7 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Pd6 <Pd>
+  [ ] y7 = 0.24941 (0.0    ) <4> {                } Pd6 <Pd>
+  [ ] z7 = 0.83481 (0.0    ) <4> {                } Pd6 <Pd>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Pd6 <Pd>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Pd6 <Pd>
+
+  [ ] x8 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Pd7 <Pd>
+  [ ] y8 = 0.75059 (0.0    ) <4> {                } Pd7 <Pd>
+  [ ] z8 = 0.83481 (0.0    ) <4> {                } Pd7 <Pd>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Pd7 <Pd>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Pd7 <Pd>
+
+X-Ray Penetration Depth (EPD): EPD=0.006 (mm), μ=2762.8 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=7.91), Round=4, Iter=12, P=21, N=1096, R=18.32% (E=2.32%, EPS=0.5, χ²=0.033404)

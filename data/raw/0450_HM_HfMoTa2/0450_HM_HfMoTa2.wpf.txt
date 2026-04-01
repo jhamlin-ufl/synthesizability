@@ -1,0 +1,80 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:12 AM
+FILE: E:\synthesizability\data\raw\0450_HM_HfMoTa2\0450_HM_HfMoTa2.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=27052/1294, Cu(45kV,40mA), Tuesday, March 31, 2026, 11:10 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 12.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (22)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.10304 (0.01362) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.03441 (0.07564) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.83085 (0.13898) <3>
+  [x] s2 =-0.27732 (0.05978) <4>
+
+  [x] p0 = 1.3709  (0.13164) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-2.2529  (0.27425) <3>
+  [x] p2 = 1.2101  (0.12857) <4>
+
+Phase #1 [Bragg-R = 7.57%]: Tantalum
+
+  Chemical Formula = Ta
+
+  Reference: Predmore R., Arsenault R.J., Scr. Metall., v4 p213 (1970)
+
+  Note: LPF Collection Code: 457969. Sample Preparation: Compound
+  Preparation: crystals grown from the melt. Article Title: SHORT RANGE
+  ORDER OF Ta-MO B.C.C. ALLOYS. Minor Warning: No e.s.d reported/abstracted
+  on the cell dimension. No R factor reported/abstracted. LPF Editor
+  Comment: editor deduced probable site occupation from nominal composition.
+  Wyckoff Sequence: a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-003-6604] [CSD#457969]
+
+  [x] a  = 3.29236 (0.00089) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.29236 (0.00089) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.29236 (0.00089) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 35.688 (17)(Å³), Density = 16.8376(g/cm³), Absorption(μ) = 2795.0(1/cm)
+
+  [x] SF = 293.105 (2.34654) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.04268) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.64192 (0.1179 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.0937  (0.25982) <3>
+  [x] f2 = 0.22144 (0.13181) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ta <Ta>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Ta <Ta>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Ta <Ta>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Ta <Ta>
+
+X-Ray Penetration Depth (EPD): EPD=0.006 (mm), μ=2795.0 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=3.93), Round=4, Iter=6, P=13, N=5401, R=7.57% (E=1.93%, EPS=0.5, χ²=0.00681)

@@ -1,0 +1,90 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:21 PM
+FILE: E:\synthesizability\data\raw\0447_HM_MoTiTa2\0542_HM_MoTi2Ta_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=13032/899, Cu(45kV,40mA), Tuesday, March 31, 2026, 1:20 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (24)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.08908 (0.01275) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.06711 (0.13975) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.27804 (0.25209) <3>
+  [x] s2 =-0.02218 (0.09641) <4>
+
+  [x] p0 = 2.53638 (0.18563) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-2.76676 (0.36515) <3>
+  [x] p2 = 0.21457 (0.15958) <4>
+
+Phase #1 [Bragg-R = 4.42%]: Molybdenum Titanium
+
+  Chemical Formula = Ti0.75Mo0.25
+
+  Reference: Sun K., Yuan X., Wu E., Chen D., Gou C., Physica B, v385/
+  p141-143 (2006)
+
+  Note: LPF Collection Code: 1014646. Sample Preparation: STARTINGMATERIALS:
+  Ti (powder), Mo (powder). COMPOUND PREPARATION: arc-melted. ATMOSPHERE:
+  argon. THERMALTREATMENT: annealed at 1173 K for 72 h. Calculated Pattern
+  Original Remarks: editor deduced probable site occupation from nominal
+  composition. Article Title: Neutron diffraction study of the deuterides of
+  Ti-Mo alloys. Minor Warning: No R factors reported/abstracted. Minor
+  warning from the LPF Editor exist. No e.s.d reported/abstracted on the
+  cell dimension. Wyckoff Sequence: a. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-013-0263] [CSD#1014646]
+
+  [x] a  = 3.22574 (0.00086) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.22574 (0.00086) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.22574 (0.00086) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 33.565 (15)(Å³), Density = 5.9274(g/cm³), Absorption(μ) = 1123.7(1/cm)
+
+  [x] SF = 165.932 (1.8439 ) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.07016) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.679   (0.0759 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.58771 (0.15051) <3>
+  [x] f2 = 0.58154 (0.06684) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ti <Ti>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ti <Ti>
+  [ ] n1 = 0.75    (0.0    ) <4> {                } Ti <Ti>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n2 = 0.25    (0.0    ) <4> {                } Mo <Mo>
+
+X-Ray Penetration Depth (EPD): EPD=0.014 (mm), μ=1123.7 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=2.15), Round=4, Iter=7, P=13, N=5751, R=4.42% (E=2.06%, EPS=0.5, χ²=0.001961)

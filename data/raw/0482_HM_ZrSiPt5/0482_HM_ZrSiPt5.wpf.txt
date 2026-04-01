@@ -1,0 +1,109 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:17 PM
+FILE: E:\synthesizability\data\raw\0482_HM_ZrSiPt5\0482_HM_ZrSiPt5.xy
+IDEN: 
+SCAN: 20.075°/119.64°/0.1504°/1(s), I(p)=7968.0/474.0, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 20.1° - 119.6°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (25)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.12886 (0.0426 ) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.92138 (0.42822) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.71203 (0.82728) <3>
+  [x] s2 = 0.05879 (0.32405) <4>
+
+  [x] p0 = 2.57406 (0.95636) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-1.49546 (1.97471) <3>
+  [x] p2 = 0.2344  (0.8788 ) <4>
+
+Phase #1 [Bragg-R = 16.72%]: Ti1Si1Pt5
+
+  Chemical Formula = Ti1Si1Pt5
+
+  Note: [Pt5Si1Ti1_2146105_stab-16meV.cif] 
+
+  Triclinic: P1 (1), Z=1, aP7 [PDF#98-001-2891] [CSD#12891]
+
+  [x] a  = 3.98830 (0.13645) <2> [x] α  = 90.000  (10680.610) <2>
+  [x] b  = 3.98801 (0.13584) <2> [x] β  = 90.000  (78345.510) <2>
+  [x] c  = 6.91358 (0.15715) <2> [x] γ  = 90.000  (91488.330) <2>
+
+  Unit Cell Volume = 109.963 (868)(Å³), Density = 15.8765(g/cm³), Absorption(μ) = 3122.0(1/cm)
+
+  [x] SF = 132.338 (8.0893 ) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.38433) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.61132 (0.40597) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.12097 (0.80618) <3>
+  [x] f2 =-0.00283 (0.34105) <3>
+
+  Asymmetry Atoms in Unit Cell = 7, General Site Multiplicity = 1
+
+  [ ] x1 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pt0 <Pt>
+  [ ] y1 = 0.0     (0.0    ) <4> {                } Pt0 <Pt>
+  [ ] z1 = 0.0     (0.0    ) <4> {                } Pt0 <Pt>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Pt0 <Pt>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Pt0 <Pt>
+
+  [ ] x2 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Pt1 <Pt>
+  [ ] y2 = 0.0     (0.0    ) <4> {                } Pt1 <Pt>
+  [ ] z2 = 0.28403 (0.0    ) <4> {                } Pt1 <Pt>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pt1 <Pt>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Pt1 <Pt>
+
+  [ ] x3 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pt2 <Pt>
+  [ ] y3 = 0.5     (0.0    ) <4> {                } Pt2 <Pt>
+  [ ] z3 = 0.28403 (0.0    ) <4> {                } Pt2 <Pt>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Pt2 <Pt>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Pt2 <Pt>
+
+  [ ] x4 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Pt3 <Pt>
+  [ ] y4 = 0.0     (0.0    ) <4> {                } Pt3 <Pt>
+  [ ] z4 = 0.71597 (0.0    ) <4> {                } Pt3 <Pt>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Pt3 <Pt>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Pt3 <Pt>
+
+  [ ] x5 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pt4 <Pt>
+  [ ] y5 = 0.5     (0.0    ) <4> {                } Pt4 <Pt>
+  [ ] z5 = 0.71597 (0.0    ) <4> {                } Pt4 <Pt>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Pt4 <Pt>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Pt4 <Pt>
+
+  [ ] x6 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si5 <Si>
+  [ ] y6 = 0.0     (0.0    ) <4> {                } Si5 <Si>
+  [ ] z6 = 0.5     (0.0    ) <4> {                } Si5 <Si>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Si5 <Si>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Si5 <Si>
+
+  [ ] x7 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Ti6 <Ti>
+  [ ] y7 = 0.5     (0.0    ) <4> {                } Ti6 <Ti>
+  [ ] z7 = 0.0     (0.0    ) <4> {                } Ti6 <Ti>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Ti6 <Ti>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Ti6 <Ti>
+
+X-Ray Penetration Depth (EPD): EPD=0.005 (mm), μ=3122.0 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=7.34), Round=4, Iter=12, P=18, N=663, R=16.72% (E=2.28%, EPS=0.5, χ²=0.028239)

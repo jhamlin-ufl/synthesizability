@@ -1,0 +1,180 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:17 PM
+FILE: E:\synthesizability\data\raw\0526_HM_Re4TaZr\0526_HM_Re4TaZr.txt
+IDEN: 
+SCAN: 10.0°/80.0°/0.02°/1(s), I(p)=17476/699, Cu(45kV,40mA), Monday, February 23, 2026, 9:00 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 10.0° - 80.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (13)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.04221 (0.00339) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.04408 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.06681 (0.0    ) <3>
+  [x] s2 =-0.07899 (0.03316) <4>
+
+  [x] p0 = 0.62767 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.12095 (0.0    ) <3>
+  [ ] p2 = 0.0     (0.0    ) <4>
+
+Phase #1 [Bragg-R = 13.65%]: Rhenium Tantalum
+
+  Chemical Formula = Ta0.4Re0.6
+
+  Reference: Bucher E., Heiniger F., Müller J., Helv. Phys. Acta, v34 p843
+  (1961)
+
+  Note: LPF Collection Code: 526337. Sample Preparation: STARTING
+  MATERIALS:Re,Ta. Compound Preparation: arc-melted. Sample annealed at 1523
+  K, quenched. Article Title: Supraleitung und Paramagnetismus in komplexen
+  Phasen der übergangsmetalle. Wyckoff Sequence: g2 c a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: I-43m (217), Z=58, cI58 [PDF#04-004-1719] [CSD#526337]
+
+  [x] a  = 9.78485 (0.00094) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 9.78485 (0.00094) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 9.78485 (0.00094) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 936.834 (156)(Å³), Density = 18.925(g/cm³), Absorption(μ) = 3290.8(1/cm)
+
+  [x] SF = 128.817 (2.22063) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.12123) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.31304 (0.13   ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 4.96E-4 (0.2933 ) <3>
+  [x] f2 = 0.04559 (0.15429) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 48
+
+  [ ] x1 = 0.31787 (0.0    ) <4> {Wyckoff = 8c    } Re <Re>
+  [ ] y1 = 0.31787 (0.0    ) <4> { (y=x)          } Re <Re>
+  [ ] z1 = 0.31787 (0.0    ) <4> { (z=x)          } Re <Re>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Re <Re>
+  [ ] n1 = 0.6     (0.0    ) <4> {                } Re <Re>
+
+  [ ] x2 = 0.08958 (0.0    ) <4> {Wyckoff = 24g   } Re <Re>
+  [ ] y2 = 0.08958 (0.0    ) <4> { (y=x)          } Re <Re>
+  [ ] z2 = 0.28194 (0.0    ) <4> {                } Re <Re>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Re <Re>
+  [ ] n2 = 0.6     (0.0    ) <4> {                } Re <Re>
+
+  [ ] x3 = 0.35706 (0.0    ) <4> {Wyckoff = 24g   } Re <Re>
+  [ ] y3 = 0.35706 (0.0    ) <4> { (y=x)          } Re <Re>
+  [ ] z3 = 0.03457 (0.0    ) <4> {                } Re <Re>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Re <Re>
+  [ ] n3 = 0.6     (0.0    ) <4> {                } Re <Re>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Re <Re>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Re <Re>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Re <Re>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Re <Re>
+  [ ] n4 = 0.6     (0.0    ) <4> {                } Re <Re>
+
+  [ ] x5 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ta <Ta>
+  [ ] y5 = 0.0     (0.0    ) <0> {                } Ta <Ta>
+  [ ] z5 = 0.0     (0.0    ) <0> {                } Ta <Ta>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+  [ ] n5 = 0.4     (0.0    ) <4> {                } Ta <Ta>
+
+  [ ] x6 = 0.35706 (0.0    ) <4> {Wyckoff = 24g   } Ta <Ta>
+  [ ] y6 = 0.35706 (0.0    ) <4> { (y=x)          } Ta <Ta>
+  [ ] z6 = 0.03457 (0.0    ) <4> {                } Ta <Ta>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+  [ ] n6 = 0.4     (0.0    ) <4> {                } Ta <Ta>
+
+  [ ] x7 = 0.31787 (0.0    ) <4> {Wyckoff = 8c    } Ta <Ta>
+  [ ] y7 = 0.31787 (0.0    ) <4> { (y=x)          } Ta <Ta>
+  [ ] z7 = 0.31787 (0.0    ) <4> { (z=x)          } Ta <Ta>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+  [ ] n7 = 0.4     (0.0    ) <4> {                } Ta <Ta>
+
+  [ ] x8 = 0.08958 (0.0    ) <4> {Wyckoff = 24g   } Ta <Ta>
+  [ ] y8 = 0.08958 (0.0    ) <4> { (y=x)          } Ta <Ta>
+  [ ] z8 = 0.28194 (0.0    ) <4> {                } Ta <Ta>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+  [ ] n8 = 0.4     (0.0    ) <4> {                } Ta <Ta>
+
+Phase #2 [Bragg-R = 8.59%]: Rhenium Zirconium
+
+  Chemical Formula = ZrRe2
+
+  Reference: Kuz`ma Yu.B., Lakh V.I., Stadnyk B.I., Voroshilov Y.V., Soviet
+  Powder Metall. and Met. Ceramics, v7 p462 (1968)
+
+  Note: LPF Collection Code: 457501. Sample Preparation: STARTING
+  MATERIALS:Re,Zr. Compound Preparation: arc-melted. CRUCIBLE: copper
+  hearth. ATMOSPHERE: argon. Sample annealed at 1773 K for 100 h under
+  vacuum, furnace-cooled. Article Title: PHASE EQUILIBRIA IN THE SYSTEMS
+  Zr-Re-B AND W-Re-B. Wyckoff Sequence: h f a. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Hexagonal: P63/mmc (194), Z=4, hP12 [PDF#04-003-6178] [CSD#457501]
+
+  [x] a  = 5.25792 (0.00044) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.25792 (0.00044) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 8.58408 (0.00073) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 205.519 (30)(Å³), Density = 14.9827(g/cm³), Absorption(μ) = 2575.8(1/cm)
+
+  [x] SF = 100.482 (2.4815 ) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.17117) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.29422 (0.03891) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.02422 (0.08485) <3>
+  [x] f2 =-0.05603 (0.04408) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 24
+
+  [ ] x1 = 0.1697  (0.0    ) <4> {Wyckoff = 6h    } Re <Re>
+  [ ] y1 = 0.3394  (0.0    ) <4> { (y=2x)         } Re <Re>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Re <Re>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Re <Re>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Re <Re>
+
+  [ ] x2 = 0.33333 (0.0    ) <0> {Wyckoff = 4f    } Zr <Zr>
+  [ ] y2 = 0.66666 (0.0    ) <0> {                } Zr <Zr>
+  [ ] z2 = 0.5629  (0.0    ) <4> {                } Zr <Zr>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Zr <Zr>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Re <Re>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Re <Re>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Re <Re>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Re <Re>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Re <Re>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Ta0.4Re0.6 ● Rhenium Tantalum       56.2 (1.3)    50.4 (1.5)    56.0 (0.1)  22.01  18.9250   04-004-1719
+  ZrRe2 ● Rhenium Zirconium           43.8 (1.3)    49.6 (1.7)    44.0 (0.1)   8.50  14.9827   04-003-6178
+
+  XRF(Wt%): Re=69.3%, Ta=22.1%, Zr=8.6%, XRF(DD%): Re=69.3%, Ta=22.0%, Zr=8.7%
+  Density of Specimen = 16.9684(g/cm³), Absorption(μ) of Specimen = 2936.0(1/cm), EPD(1.0%,θ=45.0°) = 0.006(mm)
+
+Refinement Halted (R/E=4.01), Round=4, Iter=12, P=15, N=3501, R=8.65% (E=2.16%, EPS=0.5, χ²=0.00765)

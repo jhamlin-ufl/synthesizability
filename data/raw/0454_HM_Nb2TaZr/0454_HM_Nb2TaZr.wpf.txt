@@ -1,0 +1,88 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:26 AM
+FILE: E:\synthesizability\data\raw\0454_HM_Nb2TaZr\0454_HM_Nb2TaZr.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=6689.0/310.0, Cu(45kV,40mA), Tuesday, March 31, 2026, 9:42 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (26)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.16173 (0.01259) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.06118 (0.07947) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.43315 (0.13502) <3>
+  [x] s2 =-0.08969 (0.05219) <4>
+
+  [x] p0 = 1.15195 (0.09852) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-1.15267 (0.18456) <3>
+  [x] p2 = 0.54176 (0.07456) <4>
+
+Phase #1 [Bragg-R = 5.61%]: Niobium Zirconium
+
+  Chemical Formula = Zr0.2Nb0.8
+
+  Reference: Svechnikov V.N., Spektor A.T., Russ. Metall. (Engl. Transl.),
+  v4 p118-121 (1968)
+
+  Note: LPF Collection Code: 1011081. Sample Preparation: Sample annealed at
+  1623 K for 350 h. Article Title: Phase diagram of the Zr-Mo-Nb system in
+  the solid state (up to 1800 °C). Minor Warning: No e.s.d
+  reported/abstracted on the cell dimension. No R factors
+  reported/abstracted. Minor warning from the LPF Editor exist. LPF Editor
+  Comment: editor deduced probable site occupation from nominal composition.
+  Wyckoff Sequence: a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-018-8009] [CSD#1011081]
+
+  [x] a  = 3.34178 (0.00084) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.34178 (0.00084) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.34178 (0.00084) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 37.319 (16)(Å³), Density = 8.2372(g/cm³), Absorption(μ) = 1244.1(1/cm)
+
+  [x] SF = 74.6926 (0.62603) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.04421) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.50203 (0.08737) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.28076 (0.18602) <3>
+  [x] f2 = 0.19391 (0.08998) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Nb <Nb>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 0.8     (0.0    ) <4> {                } Nb <Nb>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Zr <Zr>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Zr <Zr>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Zr <Zr>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n2 = 0.2     (0.0    ) <4> {                } Zr <Zr>
+
+X-Ray Penetration Depth (EPD): EPD=0.013 (mm), μ=1244.1 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=1.85), Round=4, Iter=11, P=13, N=5751, R=5.61% (E=3.03%, EPS=0.5, χ²=0.003182)

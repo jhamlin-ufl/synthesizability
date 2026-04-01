@@ -1,0 +1,89 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:21 AM
+FILE: E:\synthesizability\data\raw\0452_HM_Hf2MoTi\0452_HM_Hf2MoTi.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=22272/1361, Cu(45kV,40mA), Tuesday, March 31, 2026, 11:20 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (22)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.0356  (0.00695) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.05926 (0.07133) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.22804 (0.12713) <3>
+  [x] s2 = 0.09061 (0.04564) <4>
+
+  [x] p0 = 1.06797 (0.08505) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-1.31368 (0.16415) <3>
+  [x] p2 = 0.84125 (0.06675) <4>
+
+Phase #1 [Bragg-R = 4.51%]: Hafnium Molybdenum
+
+  Chemical Formula = Hf0.6Mo0.4
+
+  Reference: Taylor A., Doyle N.J., Kagle B.J., J. Less-Common Met., v3 p265
+  (1961)
+
+  Note: ANX: N. LPF Collection Code: 250043. Polymorphism: High temperature
+  phase. Sample Preparation: Compound Preparation: arc-melted. CRUCIBLE:
+  copper hearth. ATMOSPHERE: argon. Sample annealed at 2148 K under vacuum,
+  quenched. Calculated Pattern Original Remarks: metal, superconductor.
+  Article Title: THE CONSTITUTION DIAGRAM OF THE MOLYBDENUM-HAFNIUM BINARY
+  SYSTEM. Minor Warning: No e.s.d reported/abstracted on the cell dimension.
+  No R factor reported/abstracted. Wyckoff Sequence: a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-001-0030] [CSD#250043]
+
+  [x] a  = 3.37189 (0.00049) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.37189 (0.00049) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.37189 (0.00049) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 38.337 (10)(Å³), Density = 12.6009(g/cm³), Absorption(μ) = 2013.5(1/cm)
+
+  [x] SF = 229.191 (1.31379) <1> Intensity Scale Factor
+  [x] TF =-0.0548  (0.02993) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.8002  (0.05759) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.75688 (0.12416) <3>
+  [x] f2 = 0.61207 (0.06036) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n1 = 0.4     (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Hf <Hf>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Hf <Hf>
+  [ ] n2 = 0.6     (0.0    ) <4> {                } Hf <Hf>
+
+X-Ray Penetration Depth (EPD): EPD=0.008 (mm), μ=2013.5 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=2.41), Round=4, Iter=7, P=13, N=5751, R=4.51% (E=1.87%, EPS=0.5, χ²=0.00205)

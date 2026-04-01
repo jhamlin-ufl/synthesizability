@@ -1,0 +1,169 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:09 PM
+FILE: E:\synthesizability\data\raw\0510_HM_B2NbNi2\0510_HM_B2NbNi2_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=26857/758, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (25)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.07347 (0.03819) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.18775 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.18764 (0.0    ) <3>
+  [x] s2 = 0.08195 (0.15823) <4>
+
+  [x] p0 = 0.70091 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.15818 (0.0    ) <3>
+  [x] p2 = 2.10477 (0.11688) <4>
+
+Phase #1 [Bragg-R = 22.66%]: Boron Nickel Niobium
+
+  Chemical Formula = Nb2Ni21B6
+
+  Reference: Kuz`ma Yu.B., Fedorov T.F., Sobolev A.S., Skolozdra R.V., Sov.
+  Phys. Crystallogr. (Engl. Transl.), v11 p697 (1967)
+
+  Note: ANX: N2O6P21. LPF Collection Code: 1406961. Sample Preparation:
+  STARTING MATERIALS:Nb,Ni,B. Compound Preparation: sintered at 1273 K under
+  argon, then arc-melted under helium. Sample annealed at 1173 K for 500 h
+  in sealed evacuated quartz tube. Article Title: THE CRYSTAL STRUCTURE OF
+  Nb2Ni21B6. Minor Warning: No R factor reported/abstracted. Wyckoff
+  Sequence: h f e c a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Fm-3m (225), Z=4, cF116 [PDF#04-007-7580] [CSD#1406961]
+
+  [x] a  = 10.59557(0.00995) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 10.59557(0.00995) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 10.59557(0.00995) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 1189.525 (935)(Å³), Density = 8.2824(g/cm³), Absorption(μ) = 474.1(1/cm)
+
+  [x] SF = 318.246 (26.7815) <1> Intensity Scale Factor
+  [x] TF =-0.17875 (0.47534) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 =-0.02483 (0.21526) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.52706 (0.45753) <3>
+  [x] f2 =-0.0851  (0.25121) <3>
+
+  Asymmetry Atoms in Unit Cell = 5, General Site Multiplicity = 192
+
+  [ ] x1 = 0.25    (0.0    ) <0> {Wyckoff = 8c    } Nb <Nb>
+  [ ] y1 = 0.25    (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Ni <Ni>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Ni <Ni>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Ni <Ni>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x3 = 0.385   (0.0    ) <4> {Wyckoff = 32f   } Ni <Ni>
+  [ ] y3 = 0.385   (0.0    ) <4> { (y=x)          } Ni <Ni>
+  [ ] z3 = 0.385   (0.0    ) <4> { (z=x)          } Ni <Ni>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 48h   } Ni <Ni>
+  [ ] y4 = 0.165   (0.0    ) <4> {                } Ni <Ni>
+  [ ] z4 = 0.165   (0.0    ) <4> { (z=y)          } Ni <Ni>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x5 = 0.275   (0.0    ) <4> {Wyckoff = 24e   } B <B>
+  [ ] y5 = 0.0     (0.0    ) <0> {                } B <B>
+  [ ] z5 = 0.0     (0.0    ) <0> {                } B <B>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } B <B>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } B <B>
+
+Phase #2 [Bragg-R = 43.93%]: Boron Niobium
+
+  Chemical Formula = Nb3B4
+
+  Reference: Okada S., Hamano K., Lundstrom T., Higashi I., AIP Conf. Proc.,
+  v231 p456 (1991)
+
+  Note: ANX: N3O4. LPF Collection Code: 529529. Sample Preparation: STARTING
+  MATERIALS:B,Nb. Compound Preparation: crystals grown by copper flux
+  method. ATMOSPHERE: argon. Article Title: CRYSTAL GROWTH OF THE NEW
+  COMPOUND Nb2B3, AND THE BORIDES NbB, Nb5B6, Nb3B4, AND NbB2, USING THE
+  COPPER-FLUX METHOD. Wyckoff Sequence: j2 i a. Unit Cell Data Source:
+  Powder Diffraction.
+
+  Orthorhombic: Immm (71), Z=2, oI14 [PDF#04-004-4263] [CSD#529529]
+
+  [x] a  = 3.13864 (0.01320) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 3.30906 (0.01348) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 13.89676(0.04641) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 144.331 (973)(Å³), Density = 7.4078(g/cm³), Absorption(μ) = 983.6(1/cm)
+
+  [x] SF = 173.572 (15.8088) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.37035) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.98971 (0.2531 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 16
+
+  [ ] x1 = 0.5     (0.0    ) <0> {Wyckoff = 4j    } Nb <Nb>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.18    (0.0    ) <4> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+  [ ] x2 = 0.5     (0.0    ) <0> {Wyckoff = 4j    } B <B>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } B <B>
+  [ ] z2 = 0.375   (0.0    ) <4> {                } B <B>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } B <B>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } B <B>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4i    } B <B>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } B <B>
+  [ ] z3 = 0.444   (0.0    ) <4> {                } B <B>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } B <B>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } B <B>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Nb <Nb>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Nb2Ni21B6 ● Boron Nickel Niobium    64.7 (4.7)    62.1 (5.7)    49.0 (1.9)   4.57   8.2824   04-007-7580
+  Nb3B4 ● Boron Niobium               35.3 (3.1)    37.9 (4.0)    51.0 (1.2)   5.14   7.4078   04-004-4263
+
+  XRF(Wt%): Nb=38.7%, Ni=53.8%, B=7.6%, XRF(DD%): Nb=50.3%, Ni=40.7%, B=9.0%
+  Density of Specimen = 7.9511(g/cm³), Absorption(μ) of Specimen = 667.1(1/cm), EPD(1.0%,θ=45.0°) = 0.024(mm)
+
+Refinement Halted (R/E=15.08), Round=4, Iter=6, P=15, N=5751, R=32.28% (E=2.14%, EPS=0.5, χ²=0.104241)

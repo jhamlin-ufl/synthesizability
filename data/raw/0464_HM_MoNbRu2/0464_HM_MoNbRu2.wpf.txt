@@ -1,0 +1,137 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:44 AM
+FILE: E:\synthesizability\data\raw\0464_HM_MoNbRu2\0464_HM_MoNbRu2.xy
+IDEN: 
+SCAN: 20.001°/132.877°/0.01671°/1(s), I(p)=6323.0/483.0, Cu(45kV,40mA), Thursday, February 05, 2026, 10:23 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 20.0° - 132.9°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (7)
+
+  [x] c0 = 1605.04 (6.48004) <1>  [x] c1 = 2149.41 (26.2799) <1>
+  [x] c2 =-928.094 (70.6958) <1>  [x] c3 =-361.455 (202.482) <1>
+  [x] c4 = 5227.91 (200.883) <1>  [x] c5 = 1319.15 (431.488) <1>
+  [x] c6 =-3326.51 (147.442) <1>  [x] c7 =-1096.59 (268.377) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.09118 (0.01383) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.25979 (0.30161) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.26156 (0.52003) <3>
+  [x] s2 = 0.00495 (0.18085) <4>
+
+  [x] p0 = 0.87672 (0.79817) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.0097  (1.4907 ) <3>
+  [x] p2 = 0.00671 (0.5605 ) <4>
+
+Phase #1 [Bragg-R = 10.52%]: Molybdenum Ruthenium
+
+  Chemical Formula = Mo0.7Ru0.3
+
+  Reference: Ramussen S.E., Lundtoft B., Powder Diffr., v2 p29 (1987)
+
+  Note: ANX: NO2. LPF Collection Code: 534044. Sample Preparation: STARTING
+  MATERIALS:Mo,Ru. Compound Preparation: induction-melted. Article Title:
+  New Crystal Data for Mo.63Ru.37 (Mo5Ru3) A Superconducting Sigma Phase.
+  Wyckoff Sequence: j i2 g a. Unit Cell Data Source: Powder Diffraction.
+
+  Tetragonal: P42/mnm (136), Z=30, tP30 [PDF#04-004-8226] [CSD#534044]
+
+  [x] a  = 9.61971 (0.00172) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 9.61971 (0.00172) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.95542 (0.00102) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 458.568 (150)(Å³), Density = 10.5888(g/cm³), Absorption(μ) = 1784.6(1/cm)
+
+  [x] SF = 86.6767 (2.8694 ) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.21279) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.50677 (0.21346) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.07122 (0.38728) <3>
+  [x] f2 =-0.03763 (0.13735) <3>
+
+  Asymmetry Atoms in Unit Cell = 10, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n1 = 0.7     (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x2 = 0.31733 (0.0    ) <4> {Wyckoff = 8j    } Mo <Mo>
+  [ ] y2 = 0.31733 (0.0    ) <4> { (y=x)          } Mo <Mo>
+  [ ] z2 = 0.24798 (0.0    ) <4> {                } Mo <Mo>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n2 = 0.7     (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x3 = 0.39864 (0.0    ) <4> {Wyckoff = 4g    } Mo <Mo>
+  [ ] y3 = 0.60136 (0.0    ) <4> { (y=-x)         } Mo <Mo>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n3 = 0.7     (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x4 = 0.06609 (0.0    ) <4> {Wyckoff = 8i    } Mo <Mo>
+  [ ] y4 = 0.26067 (0.0    ) <4> {                } Mo <Mo>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n4 = 0.7     (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x5 = 0.13122 (0.0    ) <4> {Wyckoff = 8i    } Mo <Mo>
+  [ ] y5 = 0.53651 (0.0    ) <4> {                } Mo <Mo>
+  [ ] z5 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n5 = 0.7     (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x6 = 0.31733 (0.0    ) <4> {Wyckoff = 8j    } Ru <Ru>
+  [ ] y6 = 0.31733 (0.0    ) <4> { (y=x)          } Ru <Ru>
+  [ ] z6 = 0.24798 (0.0    ) <4> {                } Ru <Ru>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n6 = 0.3     (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x7 = 0.06609 (0.0    ) <4> {Wyckoff = 8i    } Ru <Ru>
+  [ ] y7 = 0.26067 (0.0    ) <4> {                } Ru <Ru>
+  [ ] z7 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n7 = 0.3     (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x8 = 0.39864 (0.0    ) <4> {Wyckoff = 4g    } Ru <Ru>
+  [ ] y8 = 0.60136 (0.0    ) <4> { (y=-x)         } Ru <Ru>
+  [ ] z8 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n8 = 0.3     (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x9 = 0.13122 (0.0    ) <4> {Wyckoff = 8i    } Ru <Ru>
+  [ ] y9 = 0.53651 (0.0    ) <4> {                } Ru <Ru>
+  [ ] z9 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n9 = 0.3     (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x10= 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ru <Ru>
+  [ ] y10= 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] z10= 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n10= 0.3     (0.0    ) <4> {                } Ru <Ru>
+
+X-Ray Penetration Depth (EPD): EPD=0.009 (mm), μ=1784.6 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=4.71), Round=4, Iter=14, P=22, N=6756, R=10.52% (E=2.24%, EPS=0.5, χ²=0.011131)

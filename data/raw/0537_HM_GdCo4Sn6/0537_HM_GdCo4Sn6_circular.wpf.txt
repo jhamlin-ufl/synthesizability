@@ -1,0 +1,257 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:31 PM
+FILE: E:\synthesizability\data\raw\0490_HM_GdCo4Sn6\0537_HM_GdCo4Sn6_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=9423.0/305.0, Cu(45kV,40mA), Saturday, February 28, 2026, 4:59 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (28)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.02056 (0.00309) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.71021 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.56847 (0.0    ) <3>
+  [x] s2 = 0.02317 (0.02876) <4>
+
+  [x] p0 = 1.16471 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.35349 (0.0    ) <3>
+  [x] p2 = 0.02279 (0.0334 ) <4>
+
+Phase #1 [Bragg-R = 11.37%]: Cobalt Gadolinium Tin
+
+  Chemical Formula = Gd3Co4Sn13
+
+  Reference: Espinosa, G. P., Cooper, A. S., Barz, H., Mater. Res. Bull.,
+  v17 #8 p963-969 (1982)
+
+  Note: ANX: N3O4P13. LPF Collection Code: 460288. Sample Preparation:
+  STARTING MATERIALS:Gd,Co,Sn. Compound Preparation: heated at 1323 K for 2
+  h in evacuated silica tube, slowly cooled. Article Title: ISOMORPHS OF THE
+  SUPERCONDUCTING/MAGNETIC TERNARY STANNIDES. Wyckoff Sequence: k e c a.
+  Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Pm-3n (223), Z=2, cP40 [PDF#04-003-8741] [CSD#460288]
+
+  [x] a  = 9.51328 (0.00076) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 9.51328 (0.00076) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 9.51328 (0.00076) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 860.977 (120)(Å³), Density = 8.6801(g/cm³), Absorption(μ) = 2606.9(1/cm)
+
+  [x] SF = 114.109 (2.1578 ) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.16277) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.35429 (0.03316) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.37664 (0.07772) <3>
+  [x] f2 = 0.20396 (0.04343) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 48
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 24k   } Sn <Sn>
+  [ ] y1 = 0.15333 (0.0    ) <4> {                } Sn <Sn>
+  [ ] z1 = 0.3057  (0.0    ) <4> {                } Sn <Sn>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+  [ ] x2 = 0.25    (0.0    ) <0> {Wyckoff = 8e    } Co <Co>
+  [ ] y2 = 0.25    (0.0    ) <0> {                } Co <Co>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Co <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co <Co>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Co <Co>
+
+  [ ] x3 = 0.25    (0.0    ) <0> {Wyckoff = 6c    } Gd <Gd>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Gd <Gd>
+  [ ] z3 = 0.5     (0.0    ) <0> {                } Gd <Gd>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Sn <Sn>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Sn <Sn>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Sn <Sn>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+Phase #2 [Bragg-R = 22.24%]: Cobalt Tin
+
+  Chemical Formula = CoSn
+
+  Reference: Yan J.L., Xu Y., Long Q.X., Zhu J.M., Zhuang Y.H., J. Phase
+  Equilib. Diffus. , v30 p435 (2009)
+
+  Note: ANX: NO. LPF Collection Code: 1823857. Sample Preparation: STARTING
+  MATERIALS: Gd,Co,Sn. COMPOUND PREPARATION: arc-melted, re-melted.
+  CRUCIBLE: water-cooled copper boat.ATMOSPHERE: argon.THERMALTREATMENT:
+  annealed for 30 d, slowly cooled to 773 K, annealed at 773 K for 14 d in
+  sealed evacuated quartz tube, quenched. Article Title: Isothermal section
+  of the Co-Gd-Sn ternary system between 0 and 55 at.% Sn at 500 °C. Minor
+  Warning: Minor warning from the LPF Editor exist. No R factors
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: f d a. Unit Cell
+  Data Source: Powder Diffraction.
+
+  Hexagonal: P6/mmm (191), Z=3, hP6 [PDF#04-017-5161] [CSD#1823857]
+
+  [x] a  = 5.33255 (0.00061) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.33255 (0.00061) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.27269 (0.00065) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 105.221 (23)(Å³), Density = 8.4089(g/cm³), Absorption(μ) = 2311.7(1/cm)
+
+  [x] SF = 96.9194 (1.86441) <1> Intensity Scale Factor
+  [x] TF =-0.33356 (0.11008) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.5524  (0.03946) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.94609 (0.09801) <3>
+  [x] f2 = 0.73585 (0.06068) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 24
+
+  [ ] x1 = 0.5     (0.0    ) <0> {Wyckoff = 3f    } Co <Co>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Co <Co>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Co <Co>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Co <Co>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Co <Co>
+
+  [ ] x2 = 0.33333 (0.0    ) <0> {Wyckoff = 2d    } Sn <Sn>
+  [ ] y2 = 0.66666 (0.0    ) <0> {                } Sn <Sn>
+  [ ] z2 = 0.5     (0.0    ) <0> {                } Sn <Sn>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 1a    } Sn <Sn>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Sn <Sn>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Sn <Sn>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+Phase #3 [Bragg-R = 8.57%]: Cobalt Gadolinium Tin
+
+  Chemical Formula = GdCo0.27Sn2
+
+  Reference: Gil A., Pene B., Wawrzynska E., Hernandez Velasco J., Szytula
+  A., Zygmunt A., J. Alloys Compd., v365 p31-34 (2004)
+
+  Note: LPF Collection Code: 1120287. Sample Preparation: Compound
+  Preparation: arc-melted, annealed at 1073 K for several d. ATMOSPHERE:
+  argon. Article Title: Magnetic properties and magnetic structures of
+  RCoxSn2 (R= Gd-Er) compounds. Minor Warning: 10%<R factor<15% (for
+  powder). LPF Editor Comment: editor assigned an approximate value to the
+  occupancy of site M based on the nominal composition. Wyckoff Sequence:
+  c4. Unit Cell Data Source: Powder Diffraction.
+
+  Orthorhombic: Cmcm (63), Z=4, oC13.1 [PDF#04-014-2566] [CSD#1120287]
+
+  [x] a  = 4.43895 (0.00094) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 16.52784(0.00466) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.39081 (0.00094) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 322.137 (133)(Å³), Density = 8.4644(g/cm³), Absorption(μ) = 2778.9(1/cm)
+
+  [x] SF = 59.0937 (1.70729) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.27109) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.1821  (0.12294) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.03478 (0.32185) <3>
+  [x] f2 = 0.21239 (0.19958) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Gd <Gd>
+  [ ] y1 = 0.0999  (0.0    ) <4> {                } Gd <Gd>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Gd <Gd>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Co <Co>
+  [ ] y2 = 0.3151  (0.0    ) <4> {                } Co <Co>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Co <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co <Co>
+  [ ] n2 = 0.27    (0.0    ) <4> {                } Co <Co>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Sn <Sn>
+  [ ] y3 = 0.4384  (0.0    ) <4> {                } Sn <Sn>
+  [ ] z3 = 0.25    (0.0    ) <0> {                } Sn <Sn>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Sn <Sn>
+  [ ] y4 = 0.7462  (0.0    ) <4> {                } Sn <Sn>
+  [ ] z4 = 0.25    (0.0    ) <0> {                } Sn <Sn>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+Phase #4 [Bragg-R = 12.90%]: Tin
+
+  Chemical Formula = Sn
+
+  Reference: Brzakalik K., Acta Phys. Pol., A, v114 p1529-1536 (2008)
+
+  Note: LPF Collection Code: 1927697. Sample Preparation: STARTING MATERIAL:
+  Fe,Sn. COMPOUND FORMATION: arc-melted. Article Title: Structural and
+  magnetic properties of Fe3-xTixSn disordered alloys. Minor Warning: No R
+  factors reported/abstracted. No e.s.d reported/abstracted on the cell
+  dimension. Wyckoff Sequence: b. Unit Cell Data Source: Powder Diffraction.
+
+  Tetragonal: I41/amd (141) ● origin at 2/m, Z=4, tI4 [PDF#04-016-6444] [CSD#1927697]
+
+  [x] a  = 5.83111 (0.00064) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.83111 (0.00064) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 3.18068 (0.00051) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 108.149 (24)(Å³), Density = 7.289(g/cm³), Absorption(μ) = 1866.0(1/cm)
+
+  [x] SF = 12.974  (0.73433) <1> Intensity Scale Factor
+  [x] TF =-0.06839 (0.39842) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.08047 (0.02358) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.05897 (0.03453) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 32
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4b    } Sn <Sn>
+  [ ] y1 = 0.25    (0.0    ) <0> {                } Sn <Sn>
+  [ ] z1 = 0.375   (0.0    ) <0> {                } Sn <Sn>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Gd3Co4Sn13 ● Cobalt Gadolinium T    40.3 (0.9)    39.3 (1.0)    34.2 (0.2)  12.54   8.6801   04-003-8741
+  CoSn ● Cobalt Tin                   34.2 (0.8)    34.5 (0.9)    43.1 (0.2)   7.25   8.4089   04-017-5161
+  GdCo0.27Sn2 ● Cobalt Gadolinium     20.9 (0.7)    20.9 (0.7)    16.7 (0.1)  14.69   8.4644   04-014-2566
+  Sn ● Tin                             4.6 (0.3)     5.3 (0.3)     6.0 (0.1)  10.82   7.2890   04-016-6444
+
+  XRF(Wt%): Gd=16.4%, Sn=67.2%, Co=16.4%, XRF(DD%): Gd=13.6%, Sn=67.9%, Co=18.5%
+  Density of Specimen = 8.4675(g/cm³), Absorption(μ) of Specimen = 2501.6(1/cm), EPD(1.0%,θ=45.0°) = 0.007(mm)
+
+Refinement Halted (R/E=3.87), Round=4, Iter=6, P=30, N=5751, R=11.88% (E=3.07%, EPS=0.5, χ²=0.013968)

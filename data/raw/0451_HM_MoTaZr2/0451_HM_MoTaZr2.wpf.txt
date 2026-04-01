@@ -1,0 +1,247 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:18 AM
+FILE: E:\synthesizability\data\raw\0451_HM_MoTaZr2\0451_HM_MoTaZr2.xy
+IDEN: 
+SCAN: 30.008°/129.667°/0.01671°/1(s), I(p)=18857/651, Cu(45kV,40mA), Tuesday, March 31, 2026, 11:16 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 30.0° - 129.7°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (4)
+
+  [x] c0 = 1893.38 (9.8188 ) <1>  [x] c1 = 1695.38 (18.008 ) <1>
+  [x] c2 = 105.378 (42.7416) <1>  [x] c3 = 197.935 (26.9587) <1>
+  [x] c4 = 552.593 (47.8459) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.09203 (0.00612) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.11746 (0.28347) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.14026 (0.4786 ) <3>
+  [x] s2 =-0.13609 (0.01078) <4>
+
+  [ ] p0 = 0.53231 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.42804 (0.15681) <3>
+  [x] p2 = 0.70649 (0.03465) <4>
+
+Phase #1 [Bragg-R = 13.84%]: Ta12Mo4
+
+  Chemical Formula = Ta12Mo4
+
+  Note: [Mo1Ta3_2080736_stab+41meV.cif] 
+
+  Triclinic: P1 (1), Z=4, aP16 [PDF#98-001-4248] [CSD#14248]
+
+  [x] a  = 5.43302 (0.00342) <2> [x] α  = 78.530  (0.021  ) <2>
+  [x] b  = 7.32285 (0.00342) <2> [x] β  = 81.913  (0.029  ) <2>
+  [x] c  = 7.33732 (0.00341) <2> [x] γ  = 82.609  (0.027  ) <2>
+
+  Unit Cell Volume = 281.713 (256)(Å³), Density = 15.06(g/cm³), Absorption(μ) = 2490.9(1/cm)
+
+  [x] SF = 154.859 (2.58862) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.06525) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.4097  (0.01059) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 =-0.0607  (0.07396) <3>
+  [ ] f2 = 0.00486 (0.03396) <3>
+
+  Asymmetry Atoms in Unit Cell = 16, General Site Multiplicity = 1
+
+  [ ] x1 = 0.0017  (0.0    ) <4> {Wyckoff = 1     } Mo0 <Mo>
+  [ ] y1 = 0.99913 (0.0    ) <4> {                } Mo0 <Mo>
+  [ ] z1 = 0.0     (0.0    ) <4> {                } Mo0 <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo0 <Mo>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Mo0 <Mo>
+
+  [ ] x2 = 0.25126 (0.0    ) <4> {Wyckoff = 1     } Mo1 <Mo>
+  [ ] y2 = 0.81256 (0.0    ) <4> {                } Mo1 <Mo>
+  [ ] z2 = 0.31048 (0.0    ) <4> {                } Mo1 <Mo>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Mo1 <Mo>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Mo1 <Mo>
+
+  [ ] x3 = 0.49236 (0.0    ) <4> {Wyckoff = 1     } Mo2 <Mo>
+  [ ] y3 = 0.62539 (0.0    ) <4> {                } Mo2 <Mo>
+  [ ] z3 = 0.62434 (0.0    ) <4> {                } Mo2 <Mo>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Mo2 <Mo>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Mo2 <Mo>
+
+  [ ] x4 = 0.00551 (0.0    ) <4> {Wyckoff = 1     } Mo3 <Mo>
+  [ ] y4 = 0.74925 (0.0    ) <4> {                } Mo3 <Mo>
+  [ ] z4 = 0.75239 (0.0    ) <4> {                } Mo3 <Mo>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Mo3 <Mo>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Mo3 <Mo>
+
+  [ ] x5 = 0.24499 (0.0    ) <4> {Wyckoff = 1     } Ta4 <Ta>
+  [ ] y5 = 0.56609 (0.0    ) <4> {                } Ta4 <Ta>
+  [ ] z5 = 0.06555 (0.0    ) <4> {                } Ta4 <Ta>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Ta4 <Ta>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Ta4 <Ta>
+
+  [ ] x6 = 0.51035 (0.0    ) <4> {Wyckoff = 1     } Ta5 <Ta>
+  [ ] y6 = 0.11999 (0.0    ) <4> {                } Ta5 <Ta>
+  [ ] z6 = 0.12691 (0.0    ) <4> {                } Ta5 <Ta>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Ta5 <Ta>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Ta5 <Ta>
+
+  [ ] x7 = 0.73996 (0.0    ) <4> {Wyckoff = 1     } Ta6 <Ta>
+  [ ] y7 = 0.69479 (0.0    ) <4> {                } Ta6 <Ta>
+  [ ] z7 = 0.18597 (0.0    ) <4> {                } Ta6 <Ta>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Ta6 <Ta>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Ta6 <Ta>
+
+  [ ] x8 = 0.99876 (0.0    ) <4> {Wyckoff = 1     } Ta7 <Ta>
+  [ ] y8 = 0.25133 (0.0    ) <4> {                } Ta7 <Ta>
+  [ ] z8 = 0.24474 (0.0    ) <4> {                } Ta7 <Ta>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Ta7 <Ta>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Ta7 <Ta>
+
+  [ ] x9 = 0.50011 (0.0    ) <4> {Wyckoff = 1     } Ta8 <Ta>
+  [ ] y9 = 0.3753  (0.0    ) <4> {                } Ta8 <Ta>
+  [ ] z9 = 0.38083 (0.0    ) <4> {                } Ta8 <Ta>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Ta8 <Ta>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Ta8 <Ta>
+
+  [ ] x10= 0.76072 (0.0    ) <4> {Wyckoff = 1     } Ta9 <Ta>
+  [ ] y10= 0.92908 (0.0    ) <4> {                } Ta9 <Ta>
+  [ ] z10= 0.44558 (0.0    ) <4> {                } Ta9 <Ta>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Ta9 <Ta>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Ta9 <Ta>
+
+  [ ] x11= 0.99334 (0.0    ) <4> {Wyckoff = 1     } Ta10 <Ta>
+  [ ] y11= 0.50657 (0.0    ) <4> {                } Ta10 <Ta>
+  [ ] z11= 0.50083 (0.0    ) <4> {                } Ta10 <Ta>
+  [ ] B11= 0.5     (0.0    ) <4> {                } Ta10 <Ta>
+  [ ] n11= 1.0     (0.0    ) <4> {                } Ta10 <Ta>
+
+  [ ] x12= 0.24792 (0.0    ) <4> {Wyckoff = 1     } Ta11 <Ta>
+  [ ] y12= 0.05676 (0.0    ) <4> {                } Ta11 <Ta>
+  [ ] z12= 0.55695 (0.0    ) <4> {                } Ta11 <Ta>
+  [ ] B12= 0.5     (0.0    ) <4> {                } Ta11 <Ta>
+  [ ] n12= 1.0     (0.0    ) <4> {                } Ta11 <Ta>
+
+  [ ] x13= 0.75473 (0.0    ) <4> {Wyckoff = 1     } Ta12 <Ta>
+  [ ] y13= 0.18458 (0.0    ) <4> {                } Ta12 <Ta>
+  [ ] z13= 0.69317 (0.0    ) <4> {                } Ta12 <Ta>
+  [ ] B13= 0.5     (0.0    ) <4> {                } Ta12 <Ta>
+  [ ] n13= 1.0     (0.0    ) <4> {                } Ta12 <Ta>
+
+  [ ] x14= 0.25155 (0.0    ) <4> {Wyckoff = 1     } Ta13 <Ta>
+  [ ] y14= 0.30892 (0.0    ) <4> {                } Ta13 <Ta>
+  [ ] z14= 0.81342 (0.0    ) <4> {                } Ta13 <Ta>
+  [ ] B14= 0.5     (0.0    ) <4> {                } Ta13 <Ta>
+  [ ] n14= 1.0     (0.0    ) <4> {                } Ta13 <Ta>
+
+  [ ] x15= 0.49855 (0.0    ) <4> {Wyckoff = 1     } Ta14 <Ta>
+  [ ] y15= 0.87292 (0.0    ) <4> {                } Ta14 <Ta>
+  [ ] z15= 0.8685  (0.0    ) <4> {                } Ta14 <Ta>
+  [ ] B15= 0.5     (0.0    ) <4> {                } Ta14 <Ta>
+  [ ] n15= 1.0     (0.0    ) <4> {                } Ta14 <Ta>
+
+  [ ] x16= 0.74817 (0.0    ) <4> {Wyckoff = 1     } Ta15 <Ta>
+  [ ] y16= 0.44733 (0.0    ) <4> {                } Ta15 <Ta>
+  [ ] z16= 0.93046 (0.0    ) <4> {                } Ta15 <Ta>
+  [ ] B16= 0.5     (0.0    ) <4> {                } Ta15 <Ta>
+  [ ] n16= 1.0     (0.0    ) <4> {                } Ta15 <Ta>
+
+Phase #2 [Bragg-R = 14.86%]: Zr6Ta2
+
+  Chemical Formula = Zr6Ta2
+
+  Note: [Ta1Zr3_2082339_stab+120meV.cif] 
+
+  Triclinic: P1 (1), Z=2, aP8 [PDF#98-001-4940] [CSD#14940]
+
+  [x] a  = 3.42224 (0.00305) <2> [x] α  = 90.000  (10590.790) <2>
+  [x] b  = 4.99986 (0.00290) <2> [x] β  = 90.000  (27015.740) <2>
+  [x] c  = 10.06181(0.00299) <2> [x] γ  = 90.000  (57441.310) <2>
+
+  Unit Cell Volume = 172.165 (190)(Å³), Density = 8.7688(g/cm³), Absorption(μ) = 1334.2(1/cm)
+
+  [x] SF = 140.521 (3.98273) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.25971) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 =-1.36303 (0.39242) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 3.5503  (0.92247) <3>
+  [x] f2 =-0.88355 (0.50075) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 1
+
+  [ ] x1 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Ta0 <Ta>
+  [ ] y1 = 0.5     (0.0    ) <4> {                } Ta0 <Ta>
+  [ ] z1 = 0.3925  (0.0    ) <4> {                } Ta0 <Ta>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ta0 <Ta>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Ta0 <Ta>
+
+  [ ] x2 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Ta1 <Ta>
+  [ ] y2 = 0.5     (0.0    ) <4> {                } Ta1 <Ta>
+  [ ] z2 = 0.6075  (0.0    ) <4> {                } Ta1 <Ta>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ta1 <Ta>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ta1 <Ta>
+
+  [ ] x3 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Zr2 <Zr>
+  [ ] y3 = 0.0     (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] z3 = 0.1263  (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Zr2 <Zr>
+
+  [ ] x4 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Zr3 <Zr>
+  [ ] y4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] z4 = 0.13896 (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Zr3 <Zr>
+
+  [ ] x5 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Zr4 <Zr>
+  [ ] y5 = 0.0     (0.0    ) <4> {                } Zr4 <Zr>
+  [ ] z5 = 0.37852 (0.0    ) <4> {                } Zr4 <Zr>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Zr4 <Zr>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Zr4 <Zr>
+
+  [ ] x6 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Zr5 <Zr>
+  [ ] y6 = 0.0     (0.0    ) <4> {                } Zr5 <Zr>
+  [ ] z6 = 0.62148 (0.0    ) <4> {                } Zr5 <Zr>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Zr5 <Zr>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Zr5 <Zr>
+
+  [ ] x7 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Zr6 <Zr>
+  [ ] y7 = 0.5     (0.0    ) <4> {                } Zr6 <Zr>
+  [ ] z7 = 0.86104 (0.0    ) <4> {                } Zr6 <Zr>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Zr6 <Zr>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Zr6 <Zr>
+
+  [ ] x8 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Zr7 <Zr>
+  [ ] y8 = 0.0     (0.0    ) <4> {                } Zr7 <Zr>
+  [ ] z8 = 0.8737  (0.0    ) <4> {                } Zr7 <Zr>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Zr7 <Zr>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Zr7 <Zr>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Ta12Mo4                             52.4 (1.2)    39.1 (1.2)    58.7 (0.2)   9.50  15.0600   98-001-4248
+  Zr6Ta2                              47.6 (1.6)    60.9 (2.4)    41.3 (0.4)  14.39   8.7688   98-001-4940
+
+  XRF(Wt%): Ta=63.5%, Mo=7.9%, Zr=28.6%, XRF(DD%): Ta=66.3%, Mo=8.8%, Zr=24.8%
+  Density of Specimen = 11.2278(g/cm³), Absorption(μ) of Specimen = 1786.3(1/cm), EPD(1.0%,θ=45.0°) = 0.009(mm)
+
+Refinement Halted (R/E=6.34), Round=4, Iter=6, P=28, N=5965, R=12.54% (E=1.98%, EPS=0.5, χ²=0.015613)

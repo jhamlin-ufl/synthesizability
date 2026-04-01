@@ -1,0 +1,139 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:50 AM
+FILE: E:\synthesizability\data\raw\0467_HM_CuNb3Zr2\0467_HM_CuNb3Zr2 1.xy
+IDEN: 
+SCAN: 25.008°/124.984°/0.01671°/1(s), I(p)=7280.0/649.0, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 25.0° - 125.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (19)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.04917 (0.0063 ) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.28164 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.31044 (0.0    ) <3>
+  [x] s2 = 0.00851 (0.00394) <4>
+
+  [x] p0 = 1.01127 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.33728 (0.0    ) <3>
+  [x] p2 = 0.11661 (0.0331 ) <4>
+
+Phase #1 [Bragg-R = 6.22%]: Copper Zirconium
+
+  Chemical Formula = CuZr3
+
+  Reference: N.Karlsson, J. Inst. Met., v79 p404 (1951)
+
+  Note: NIST M&A collection code: N AL2806 3757. Temperature Factor:
+  IB=Cu,Zr. Minor Warning: No e.s.d reported/abstracted on the cell
+  dimension. No Rfactor reported/abstracted.
+
+  Tetragonal: P4/mmm (123), Z=1, tP4 [PDF#03-065-2803] [CSD#2002806]
+
+  [x] a  = 4.55616 (0.00136) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 4.55616 (0.00136) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 3.72063 (0.00095) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 77.235 (38)(Å³), Density = 7.2493(g/cm³), Absorption(μ) = 913.6(1/cm)
+
+  [x] SF = 83.0052 (2.97342) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.20918) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [x] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  ● POC in Spherical Harmonics of Order = 4, S(l,m) = 1.55 (Textureness), Sample Spinner: OFF
+
+  [x] f0 = 0.50132 (0.24104) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.02887 (0.53706) <3>
+  [x] f2 = 0.33159 (0.28813) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 16
+
+  [ ] x1 = 0.5     (0.0    ) <0> {Wyckoff = 1     } Zr <Zr>
+  [ ] y1 = 0.5     (0.0    ) <0> {                } Zr <Zr>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Zr <Zr>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Zr <Zr>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 1     } Cu <Cu>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Cu <Cu>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 2     } Zr <Zr>
+  [ ] y3 = 0.5     (0.0    ) <0> {                } Zr <Zr>
+  [ ] z3 = 0.5     (0.0    ) <0> {                } Zr <Zr>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Zr <Zr>
+
+Phase #2 [Bragg-R = 9.21%]: Niobium
+
+  Chemical Formula = Nb
+
+  Reference: Wilhelm H.A., Carlson O.N., Dickinson J.M., Trans. Am. Inst.
+  Min. Metall. Pet. Eng., v200 p915 (1954)
+
+  Note: ANX: N. LPF Collection Code: 456800.  Sample Preparation: STARTING
+  MATERIALS:Nb. Compound Preparation: arc-melted, three-four times remelted.
+  CRUCIBLE: copper hearth. ATMOSPHERE: argon. Sample annealed at 1873 K for
+  4 h. Article Title: Columbium-Vanadium Alloy System. Minor Warning: No
+  e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-003-5524] [CSD#456800]
+
+  [x] a  = 3.34308 (0.00044) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.34308 (0.00044) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.34308 (0.00044) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 37.363 (8)(Å³), Density = 8.2576(g/cm³), Absorption(μ) = 1263.4(1/cm)
+
+  [x] SF = 76.9709 (1.48812) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.11835) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.43786 (0.04646) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.07864 (0.09482) <3>
+  [x] f2 = 0.01694 (0.04742) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Nb <Nb>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  CuZr3 ● Copper Zirconium            51.9 (2.1)    55.1 (2.7)    49.4 (0.5)  12.95   7.2493   03-065-2803
+  Nb ● Niobium                        48.1 (1.4)    44.9 (1.7)    50.6 (0.2)  20.81   8.2576   04-003-5524
+
+  XRF(Wt%): Nb=48.1%, Zr=42.1%, Cu=9.8%, XRF(DD%): Nb=50.6%, Zr=40.1%, Cu=9.3%
+  Density of Specimen = 7.7018(g/cm³), Absorption(μ) of Specimen = 1070.6(1/cm), EPD(1.0%,θ=45.0°) = 0.015(mm)
+
+Refinement Halted (R/E=3.67), Round=4, Iter=8, P=19, N=5984, R=7.0% (E=1.91%, EPS=0.5, χ²=0.00512)

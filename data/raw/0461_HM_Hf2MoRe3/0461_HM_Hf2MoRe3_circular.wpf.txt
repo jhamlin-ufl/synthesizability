@@ -1,0 +1,139 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:38 AM
+FILE: E:\synthesizability\data\raw\0461_HM_Hf2MoRe3\0461_HM_Hf2MoRe3_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=53910/739, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (21)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.05499 (0.0018 ) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.23875 (0.04339) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.0605  (0.07202) <3>
+  [x] s2 = 0.06903 (0.02496) <4>
+
+  [x] p0 = 0.48205 (0.07953) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.34938 (0.15272) <3>
+  [x] p2 =-0.0949  (0.06319) <4>
+
+Phase #1 [Bragg-R = 7.76%]: Hf4Re8
+
+  Chemical Formula = Hf4Re8
+
+  Note: [Hf1Re2_19312_stab-119meV.cif] 
+
+  Triclinic: P1 (1), Z=4, aP12 [PDF#98-001-3889] [CSD#13889]
+
+  [x] a  = 5.26494 (0.00089) <2> [x] α  = 90.000  (126.747) <2>
+  [x] b  = 5.25835 (0.00089) <2> [x] β  = 90.000  (97.656 ) <2>
+  [x] c  = 8.62024 (0.00112) <2> [x] γ  = 120.001 (0.012  ) <2>
+
+  Unit Cell Volume = 206.676 (56)(Å³), Density = 17.7033(g/cm³), Absorption(μ) = 3054.2(1/cm)
+
+  [x] SF = 688.853 (4.07449) <1> Intensity Scale Factor
+  [x] TF =-0.52356 (0.02089) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.27018 (0.01344) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.20214 (0.02657) <3>
+  [x] f2 = 0.12218 (0.01249) <3>
+
+  Asymmetry Atoms in Unit Cell = 12, General Site Multiplicity = 1
+
+  [ ] x1 = 0.33332 (0.0    ) <4> {Wyckoff = 1     } Hf0 <Hf>
+  [ ] y1 = 0.66664 (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] z1 = 0.06261 (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Hf0 <Hf>
+
+  [ ] x2 = 0.33332 (0.0    ) <4> {Wyckoff = 1     } Hf1 <Hf>
+  [ ] y2 = 0.66664 (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] z2 = 0.43739 (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Hf1 <Hf>
+
+  [ ] x3 = 0.66668 (0.0    ) <4> {Wyckoff = 1     } Hf2 <Hf>
+  [ ] y3 = 0.33336 (0.0    ) <4> {                } Hf2 <Hf>
+  [ ] z3 = 0.56261 (0.0    ) <4> {                } Hf2 <Hf>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Hf2 <Hf>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Hf2 <Hf>
+
+  [ ] x4 = 0.66668 (0.0    ) <4> {Wyckoff = 1     } Hf3 <Hf>
+  [ ] y4 = 0.33336 (0.0    ) <4> {                } Hf3 <Hf>
+  [ ] z4 = 0.93739 (0.0    ) <4> {                } Hf3 <Hf>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Hf3 <Hf>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Hf3 <Hf>
+
+  [ ] x5 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Re4 <Re>
+  [ ] y5 = 0.0     (0.0    ) <4> {                } Re4 <Re>
+  [ ] z5 = 0.0     (0.0    ) <4> {                } Re4 <Re>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Re4 <Re>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Re4 <Re>
+
+  [ ] x6 = 0.34402 (0.0    ) <4> {Wyckoff = 1     } Re5 <Re>
+  [ ] y6 = 0.172   (0.0    ) <4> {                } Re5 <Re>
+  [ ] z6 = 0.25    (0.0    ) <4> {                } Re5 <Re>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Re5 <Re>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Re5 <Re>
+
+  [ ] x7 = 0.82798 (0.0    ) <4> {Wyckoff = 1     } Re6 <Re>
+  [ ] y7 = 0.172   (0.0    ) <4> {                } Re6 <Re>
+  [ ] z7 = 0.25    (0.0    ) <4> {                } Re6 <Re>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Re6 <Re>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Re6 <Re>
+
+  [ ] x8 = 0.82799 (0.0    ) <4> {Wyckoff = 1     } Re7 <Re>
+  [ ] y8 = 0.65598 (0.0    ) <4> {                } Re7 <Re>
+  [ ] z8 = 0.25    (0.0    ) <4> {                } Re7 <Re>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Re7 <Re>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Re7 <Re>
+
+  [ ] x9 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Re8 <Re>
+  [ ] y9 = 0.0     (0.0    ) <4> {                } Re8 <Re>
+  [ ] z9 = 0.5     (0.0    ) <4> {                } Re8 <Re>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Re8 <Re>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Re8 <Re>
+
+  [ ] x10= 0.17201 (0.0    ) <4> {Wyckoff = 1     } Re9 <Re>
+  [ ] y10= 0.34402 (0.0    ) <4> {                } Re9 <Re>
+  [ ] z10= 0.75    (0.0    ) <4> {                } Re9 <Re>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Re9 <Re>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Re9 <Re>
+
+  [ ] x11= 0.17202 (0.0    ) <4> {Wyckoff = 1     } Re10 <Re>
+  [ ] y11= 0.828   (0.0    ) <4> {                } Re10 <Re>
+  [ ] z11= 0.75    (0.0    ) <4> {                } Re10 <Re>
+  [ ] B11= 0.5     (0.0    ) <4> {                } Re10 <Re>
+  [ ] n11= 1.0     (0.0    ) <4> {                } Re10 <Re>
+
+  [ ] x12= 0.65598 (0.0    ) <4> {Wyckoff = 1     } Re11 <Re>
+  [ ] y12= 0.828   (0.0    ) <4> {                } Re11 <Re>
+  [ ] z12= 0.75    (0.0    ) <4> {                } Re11 <Re>
+  [ ] B12= 0.5     (0.0    ) <4> {                } Re11 <Re>
+  [ ] n12= 1.0     (0.0    ) <4> {                } Re11 <Re>
+
+X-Ray Penetration Depth (EPD): EPD=0.005 (mm), μ=3054.2 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=3.67), Round=4, Iter=6, P=18, N=5751, R=7.76% (E=2.11%, EPS=0.5, χ²=0.0058)

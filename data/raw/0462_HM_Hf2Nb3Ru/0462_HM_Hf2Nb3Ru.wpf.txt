@@ -1,0 +1,139 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:40 AM
+FILE: E:\synthesizability\data\raw\0462_HM_Hf2Nb3Ru\0462_HM_Hf2Nb3Ru.xy
+IDEN: (Scan or Sample ID - Optional)
+SCAN: 30.055°/124.895°/0.08356°/1(s), I(p)=5583.0/525.0, Cu(45kV,40mA), Tuesday, March 31, 2026, 11:39 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 30.1° - 124.9°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (2)
+
+  [x] c0 = 1638.77 (18.7145) <1>  [x] c1 = 1884.63 (25.471 ) <1>
+  [x] c2 = 753.077 (34.2675) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.13348 (0.05561) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.61941 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.53493 (0.0    ) <3>
+  [x] s2 =-9.02E-4 (0.06703) <4>
+
+  [x] p0 = 2.57589 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-2.79692 (0.0    ) <3>
+  [x] p2 =-0.30871 (0.17014) <4>
+
+Phase #1 [Bragg-R = 18.24%]: Niobium
+
+  Chemical Formula = Nb
+
+  Reference: Wilhelm H.A., Carlson O.N., Dickinson J.M., Trans. Am. Inst.
+  Min. Metall. Pet. Eng., v200 p915 (1954)
+
+  Note: ANX: N. LPF Collection Code: 456800.  Sample Preparation: STARTING
+  MATERIALS:Nb. Compound Preparation: arc-melted, three-four times remelted.
+  CRUCIBLE: copper hearth. ATMOSPHERE: argon. Sample annealed at 1873 K for
+  4 h. Article Title: Columbium-Vanadium Alloy System. Minor Warning: No
+  e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-003-5524] [CSD#456800]
+
+  [x] a  = 3.35197 (0.00488) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.35197 (0.00488) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.35197 (0.00488) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 37.662 (95)(Å³), Density = 8.1921(g/cm³), Absorption(μ) = 1253.4(1/cm)
+
+  [x] SF = 111.375 (6.72329) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.54397) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.02521 (0.30988) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.97171 (0.62219) <3>
+  [x] f2 = 0.36073 (0.27122) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Nb <Nb>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+Phase #2 [Bragg-R = 15.56%]: Hafnium Ruthenium
+
+  Chemical Formula = HfRu
+
+  Reference: Dwight A.E., Trans. Am. Inst. Min. Metall. Pet. Eng., v215 p283
+  (1959)
+
+  Note: ANX: NO. LPF Collection Code: 252223. Sample Preparation: Compound
+  Preparation: arc-melted. Sample annealed at 1073-1173 K. Article Title:
+  CsCl-Type Equiatomic Phases in Binary Alloys of Transition Elements. Minor
+  Warning: No e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: b a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Pm-3m (221), Z=1, cP2 [PDF#04-001-1577] [CSD#252223]
+
+  [x] a  = 3.23792 (0.00425) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.23792 (0.00425) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.23792 (0.00425) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 33.947 (77)(Å³), Density = 13.674(g/cm³), Absorption(μ) = 2292.8(1/cm)
+
+  [x] SF = 47.9218 (4.79086) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.62434) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.01671 (0.7729 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-1.09249 (1.64612) <3>
+  [x] f2 = 0.89272 (0.79474) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 48
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 1a    } Hf <Hf>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Hf <Hf>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Hf <Hf>
+
+  [ ] x2 = 0.5     (0.0    ) <0> {Wyckoff = 1b    } Ru <Ru>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Ru <Ru>
+  [ ] z2 = 0.5     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ru <Ru>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Nb ● Niobium                        69.9 (5.6)    79.5 (8.3)    76.0 (1.1)  20.81   8.1921   04-003-5524
+  HfRu ● Hafnium Ruthenium            30.1 (3.4)    20.5 (2.7)    24.0 (0.6)  26.04  13.6740   04-001-1577
+
+  XRF(Wt%): Hf=19.2%, Ru=10.9%, Nb=69.9%, XRF(DD%): Hf=15.3%, Ru=8.7%, Nb=76.0%
+  Density of Specimen = 9.3156(g/cm³), Absorption(μ) of Specimen = 1466.4(1/cm), EPD(1.0%,θ=45.0°) = 0.011(mm)
+
+Refinement Halted (R/E=6.93), Round=4, Iter=7, P=18, N=1136, R=14.77% (E=2.13%, EPS=0.5, χ²=0.021832)

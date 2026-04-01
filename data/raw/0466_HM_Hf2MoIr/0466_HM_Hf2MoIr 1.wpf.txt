@@ -1,0 +1,82 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:48 AM
+FILE: E:\synthesizability\data\raw\0466_HM_Hf2MoIr\0466_HM_Hf2MoIr 1.xy
+IDEN: 
+SCAN: 20.282°/129.924°/0.1504°/1(s), I(p)=22097/512, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 26.0° - 129.9°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (2)
+
+  [x] c0 = 1575.75 (17.0856) <1>  [x] c1 = 2317.42 (25.1966) <1>
+  [x] c2 = 1232.75 (42.0024) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.02572 (0.03398) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.36433 (0.24664) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.10124 (0.40303) <3>
+  [x] s2 =-0.08596 (0.136  ) <4>
+
+  [x] p0 = 1.48284 (0.39387) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.20148 (0.67113) <3>
+  [x] p2 =-0.62363 (0.24759) <4>
+
+Phase #1 [Bragg-R = 13.12%]: Hf1Ir1
+
+  Chemical Formula = Hf1Ir1
+
+  Note: [Hf1Ir1_2014613_stab+95meV.cif] 
+
+  Triclinic: P1 (1), Z=1, aP2 [PDF#98-001-3434] [CSD#13434]
+
+  [x] a  = 3.26887 (9.16741) <2> [x] α  = 90.0    (-Fixed-) <2>
+  [x] b  = 3.26887 (9.46696) <2> [x] β  = 90.0    (-Fixed-) <2>
+  [x] c  = 3.26887 (7.50301) <2> [x] γ  = 90.0    (-Fixed-) <2>
+
+  Unit Cell Volume = 34.930 (40)(Å³), Density = 17.6222(g/cm³), Absorption(μ) = 3112.6(1/cm)
+
+  [x] SF = 217.826 (7.1943 ) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.19877) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.02242 (0.18653) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.57432 (0.32649) <3>
+  [x] f2 = 0.12872 (0.11713) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 1
+
+  [ ] x1 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Hf0 <Hf>
+  [ ] y1 = 0.0     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] z1 = 0.0     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Hf0 <Hf>
+
+  [ ] x2 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Ir1 <Ir>
+  [ ] y2 = 0.5     (0.0    ) <4> {                } Ir1 <Ir>
+  [ ] z2 = 0.5     (0.0    ) <4> {                } Ir1 <Ir>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ir1 <Ir>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ir1 <Ir>
+
+X-Ray Penetration Depth (EPD): EPD=0.005 (mm), μ=3112.6 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=6.71), Round=4, Iter=17, P=18, N=692, R=13.12% (E=1.95%, EPS=0.5, χ²=0.0172)

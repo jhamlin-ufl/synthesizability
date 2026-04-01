@@ -1,0 +1,88 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:28 AM
+FILE: E:\synthesizability\data\raw\0455_HM_NbTa2Zr\0455_HM_NbTa2Zr.xy
+IDEN: (Scan or Sample ID - Optional)
+SCAN: 19.914°/129.983°/0.01671°/1(s), I(p)=16882/567, Cu(45kV,40mA), Tuesday, March 31, 2026, 11:27 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 32.0° - 130.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (6)
+
+  [x] c0 = 1892.75 (4.93153) <1>  [x] c1 = 2372.6  (15.4449) <1>
+  [x] c2 =-2919.46 (58.6581) <1>  [x] c3 =-1285.34 (92.1717) <1>
+  [x] c4 = 12211.2 (210.056) <1>  [x] c5 = 2050.23 (118.93 ) <1>
+  [x] c6 =-9831.39 (202.556) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.08554 (0.00852) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.24721 (0.04822) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.27658 (0.08045) <3>
+  [x] s2 =-0.01454 (0.02541) <4>
+
+  [x] p0 = 1.4482  (0.07834) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-1.24532 (0.1449 ) <3>
+  [x] p2 =-0.08507 (0.05641) <4>
+
+Phase #1 [Bragg-R = 5.91%]: Niobium
+
+  Chemical Formula = Nb
+
+  Reference: Wilhelm H.A., Carlson O.N., Dickinson J.M., Trans. Am. Inst.
+  Min. Metall. Pet. Eng., v200 p915 (1954)
+
+  Note: ANX: N. LPF Collection Code: 456800.  Sample Preparation: STARTING
+  MATERIALS:Nb. Compound Preparation: arc-melted, three-four times remelted.
+  CRUCIBLE: copper hearth. ATMOSPHERE: argon. Sample annealed at 1873 K for
+  4 h. Article Title: Columbium-Vanadium Alloy System. Minor Warning: No
+  e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-003-5524] [CSD#456800]
+
+  [x] a  = 3.34019 (0.00060) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.34019 (0.00060) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.34019 (0.00060) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 37.266 (12)(Å³), Density = 8.279(g/cm³), Absorption(μ) = 1266.7(1/cm)
+
+  [x] SF = 269.278 (2.07511) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.06066) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.50451 (0.03638) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.03987 (0.06706) <3>
+  [x] f2 = 0.2855  (0.02681) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Nb <Nb>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Nb <Nb>
+
+X-Ray Penetration Depth (EPD): EPD=0.013 (mm), μ=1266.7 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=3.0), Round=4, Iter=7, P=20, N=5865, R=5.91% (E=1.97%, EPS=0.5, χ²=0.003489)

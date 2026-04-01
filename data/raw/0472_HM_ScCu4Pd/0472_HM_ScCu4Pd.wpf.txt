@@ -1,0 +1,84 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:58 AM
+FILE: E:\synthesizability\data\raw\0472_HM_ScCu4Pd\0472_HM_ScCu4Pd.xy
+IDEN: 
+SCAN: 20.05°/129.846°/0.10027°/1(s), I(p)=12599/837, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 20.1° - 129.8°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (2)
+
+  [x] c0 = 2913.91 (28.8665) <1>  [x] c1 = 2523.46 (27.6211) <1>
+  [x] c2 = 452.489 (50.7735) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.0703  (0.39996) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.35568 (2.09638) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.26236 (3.73221) <3>
+  [x] s2 = 0.0     (1.44557) <4>
+
+  [x] p0 = 0.76952 (5.74123) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.539   (11.1671) <3>
+  [x] p2 = 0.0804  (4.99579) <4>
+
+Phase #1 [Bragg-R = 15.32%]: Copper
+
+  Chemical Formula = Cu
+
+  Reference: Owen E.A., O`Donnell Roberts E.A., J. Inst. Met., v81 p479
+  (1952)
+
+  Note: ANX: N. LPF Collection Code: 534297. Sample Preparation: STARTING
+  MATERIALS:Cu. Compound Preparation: melted in quartz tube. Article Title:
+  THE SOLUBILITY OF INDIUM IN COPPER. Temperature of Data Collection: 291 K.
+  Minor Warning: No e.s.d reported/abstracted on the cell dimension. No R
+  factor reported/abstracted. Wyckoff Sequence: a. Unit Cell Data Source:
+  Powder Diffraction.
+
+  Cubic: Fm-3m (225), Z=4, cF4 [PDF#04-004-8452] [CSD#534297]
+
+  [x] a  = 3.60950 (0.02804) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.60950 (0.02804) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.60950 (0.02804) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 47.026 (633)(Å³), Density = 8.9748(g/cm³), Absorption(μ) = 474.8(1/cm)
+
+  [x] SF = 238.926 (48.8728) <1> Intensity Scale Factor
+  [x] TF = 0.02904 (1.51239) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.17006 (5.58916) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.02009 (10.8737) <3>
+  [x] f2 = 0.00335 (4.91737) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 192
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Cu <Cu>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Cu <Cu>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Cu <Cu>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Cu <Cu>
+
+X-Ray Penetration Depth (EPD): EPD=0.034 (mm), μ=474.8 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=8.77), Round=4, Iter=7, P=16, N=1096, R=15.32% (E=1.75%, EPS=0.5, χ²=0.023339)

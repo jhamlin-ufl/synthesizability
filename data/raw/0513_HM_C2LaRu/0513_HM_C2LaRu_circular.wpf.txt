@@ -1,0 +1,229 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:12 PM
+FILE: E:\synthesizability\data\raw\0513_HM_C2LaRu\0513_HM_C2LaRu_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=8743.0/294.0, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (24)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.01962 (0.00387) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.19505 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [ ] s1 = 0.06019 (0.0    ) <3>
+  [ ] s2 =-0.00462 (0.03331) <4>
+
+  [x] p0 = 0.62821 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [ ] p1 = 0.43533 (0.0    ) <3>
+  [ ] p2 = 0.26974 (0.03307) <4>
+
+Phase #1 [Bragg-R = 17.88%]: Carbon
+
+  Chemical Formula = C
+
+  Reference: Portnoy V.K., Leonov A.V., Fadeeva V.I., Fedotov S.A., Izv.
+  Ross. Akad. Nauk, Ser. Fiz., v71 p1736-1739 (2007)
+
+  Note: ANX: N. LPF Collection Code: 1924189. Sample Preparation: Compound
+  Preparation: ball-milled. ATMOSPHERE: argon. Sample heated at 1073 K for 2
+  h. Article Title: Mechanochemical synthesis of phases in the Ni-Al-C
+  system. Minor Warning: No R factors reported/abstracted. No e.s.d
+  reported/abstracted on the cell dimension. Wyckoff Sequence: c b. Unit
+  Cell Data Source: Powder Diffraction.
+
+  Hexagonal: P63/mmc (194), Z=4, hP4 [PDF#04-015-0267] [CSD#1924189]
+
+  [x] a  = 2.48893 (0.00534) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 2.48893 (0.00534) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 6.57481 (0.00706) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 35.273 (114)(Å³), Density = 2.2616(g/cm³), Absorption(μ) = 10.4(1/cm)
+
+  [x] SF = 503.664 (20.3344) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.52059) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.94083 (0.07505) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 24
+
+  [ ] x1 = 0.33333 (0.0    ) <0> {Wyckoff = 2c    } C <C>
+  [ ] y1 = 0.66666 (0.0    ) <0> {                } C <C>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } C <C>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } C <C>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } C <C>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2b    } C <C>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } C <C>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } C <C>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } C <C>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } C <C>
+
+Phase #2 [Bragg-R = 8.38%]: Carbon
+
+  Chemical Formula = C
+
+  Reference: Johnston R.L., Hoffmann R.D., J. Am. Chem. Soc., v111 p810-819
+  (1989)
+
+  Note: ANX: N. LPF Collection Code: 1620283. Article Title: Superdense
+  Carbon, C8: Supercubane or Analogue of γ-Si. Minor Warning: No R factors
+  reported/abstracted. No e.s.d reported/abstracted on the cell dimension.
+  Wyckoff Sequence: c. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Ia-3 (206), Z=16, cI16 [PDF#04-012-2125] [CSD#1620283]
+
+  [x] a  = 4.28103 (0.00141) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 4.28103 (0.00141) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 4.28103 (0.00141) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 78.459 (45)(Å³), Density = 4.067(g/cm³), Absorption(μ) = 18.7(1/cm)
+
+  [x] SF = 190.657 (26.0139) <1> Intensity Scale Factor
+  [x] TF =-0.20994 (0.5232 ) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.56008 (0.06609) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 48
+
+  [ ] x1 = 0.1036  (0.0    ) <4> {Wyckoff = 16c   } C <C>
+  [ ] y1 = 0.1036  (0.0    ) <4> { (y=x)          } C <C>
+  [ ] z1 = 0.1036  (0.0    ) <4> { (z=x)          } C <C>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } C <C>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } C <C>
+
+Phase #3 [Bragg-R = 8.01%]: Lanthanum Ruthenium
+
+  Chemical Formula = LaRu2
+
+  Reference: Palenzona A., Canepa F., J. Less-Common Met., v157 p307 (1990)
+
+  Note: ANX: NO2. LPF Collection Code: 260923. Sample Preparation: STARTING
+  MATERIALS:La,Ru. Compound Preparation: semi-levitation-melted. Article
+  Title: THE PHASE DIAGRAMS OF THE La-Ru AND Nd-Ru SYSTEMS. Minor Warning:
+  No e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. Wyckoff Sequence: c b. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Cubic: Fd-3m (227) ● origin at -3m, Z=8, cF24 [PDF#04-001-2505] [CSD#260923]
+
+  [x] a  = 7.70321 (0.00059) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 7.70321 (0.00059) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 7.70321 (0.00059) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 457.104 (60)(Å³), Density = 9.9107(g/cm³), Absorption(μ) = 2451.4(1/cm)
+
+  [x] SF = 82.2324 (1.40452) <1> Intensity Scale Factor
+  [x] TF = 0.1816  (0.0902 ) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.20319 (0.03611) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.07357 (0.07618) <3>
+  [x] f2 = 0.09441 (0.03585) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 192
+
+  [ ] x1 = 0.375   (0.0    ) <0> {Wyckoff = 8b    } La <La>
+  [ ] y1 = 0.375   (0.0    ) <0> {                } La <La>
+  [ ] z1 = 0.375   (0.0    ) <0> {                } La <La>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } La <La>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 16c   } Ru <Ru>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ru <Ru>
+
+Phase #4 [Bragg-R = 17.64%]: Lanthanum Ruthenium
+
+  Chemical Formula = La3Ru
+
+  Reference: Garde C.S., Ray J., Chandra G., J. Alloys Compd., v198 p165-172
+  (1993)
+
+  Note: ANX: NO3. LPF Collection Code: 451776. Sample Preparation: COMPOUND
+  PREPARATION: arc-melted, several times re-melted. ATMOSPHERE:
+  argon.THERMALTREATMENT: annealed at 773 K for 1 w. Article Title:
+  Resistivity and thermopower studies on La3X (X= Al, Sn, In, Ru, Ir, Co,
+  Ni, Ge, Ga) systems. Minor Warning: No e.s.d reported/abstracted on the
+  cell dimension. Wyckoff Sequence: d c2. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Orthorhombic: Pnma (62), Z=4, oP16 [PDF#04-003-1144] [CSD#451776]
+
+  [x] a  = 7.51974 (0.00767) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 10.01324(0.00786) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 6.56962 (0.00626) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 494.672 (792)(Å³), Density = 6.952(g/cm³), Absorption(μ) = 2156.2(1/cm)
+
+  [x] SF = 80.1537 (2.31302) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.229  ) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.61291 (0.28427) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.07541 (0.76234) <3>
+  [x] f2 = 0.27858 (0.47386) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 8
+
+  [ ] x1 = 0.1834  (0.0    ) <4> {Wyckoff = 8d    } La <La>
+  [ ] y1 = 0.0689  (0.0    ) <4> {                } La <La>
+  [ ] z1 = 0.1656  (0.0    ) <4> {                } La <La>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } La <La>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x2 = 0.0388  (0.0    ) <4> {Wyckoff = 4c    } La <La>
+  [ ] y2 = 0.25    (0.0    ) <0> {                } La <La>
+  [ ] z2 = 0.6578  (0.0    ) <4> {                } La <La>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } La <La>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x3 = 0.3764  (0.0    ) <4> {Wyckoff = 4c    } Ru <Ru>
+  [ ] y3 = 0.25    (0.0    ) <0> {                } Ru <Ru>
+  [ ] z3 = 0.4426  (0.0    ) <4> {                } Ru <Ru>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ru <Ru>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  C ● Carbon                          58.8 (2.9)    77.0 (4.9)   40.1 (11.2)   2.22   2.2616   04-015-0267
+  C ● Carbon                          22.3 (1.7)    16.2 (1.4)    19.0 (7.6)   0.87   4.0670   04-012-2125
+  LaRu2 ● Lanthanum Ruthenium          9.6 (0.3)     2.9 (0.2)    23.8 (0.1)  15.35   9.9107   04-001-2505
+  La3Ru ● Lanthanum Ruthenium          9.4 (0.4)     4.0 (0.2)    17.1 (0.2)   3.67   6.9520   04-003-1144
+
+  XRF(Wt%): La=11.4%, Ru=7.5%, C=81.0%, XRF(DD%): La=23.5%, Ru=17.5%, C=59.1%
+  Density of Specimen = 2.9602(g/cm³), Absorption(μ) of Specimen = 167.2(1/cm), EPD(1.0%,θ=45.0°) = 0.097(mm)
+
+Refinement Halted (R/E=4.06), Round=4, Iter=7, P=24, N=5751, R=12.62% (E=3.11%, EPS=0.5, χ²=0.016131)

@@ -1,0 +1,88 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:37 PM
+FILE: E:\synthesizability\data\raw\0492_HM_Ti2GePt8\0492_HM_Ti2GePt8_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=6819.0/231.0, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 21.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (29)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.24774 (0.02336) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.36457 (0.10062) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.60527 (0.05468) <3>
+  [ ] s2 = 0.0     (0.0    ) <4>
+
+  [x] p0 = 1.2056  (0.05568) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [ ] p1 = 0.0     (0.0    ) <3>
+  [ ] p2 = 0.0     (0.0    ) <4>
+
+Phase #1 [Bragg-R = 16.67%]: Platinum Titanium
+
+  Chemical Formula = Ti0.75Pt0.25
+
+  Reference: Kawasoe Y., Tanaka S., Kuroki T., Kusaba H., Ito K., Teraoka
+  Y., Sasaki K., J. Electrochem. Soc., v154 pB969-B975 (2007)
+
+  Note: ANX: N. LPF Collection Code: 1923879. Sample Preparation: Compound
+  Preparation: heated at 973-1173 K for 2 h. ATMOSPHERE: hydrogen. Article
+  Title: Preparation and electrochemical activities of Pt-Ti alloy PEFC
+  electrocatalysts. Minor Warning: No R factors reported/abstracted. LPF
+  Editor Comment: editor deduced probable site occupation from nominal
+  composition. Wyckoff Sequence: a. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Cubic: Fm-3m (225), Z=4, cF4 [PDF#04-015-0460] [CSD#1923879]
+
+  [x] a  = 3.90786 (0.00119) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.90786 (0.00119) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.90786 (0.00119) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 59.678 (32)(Å³), Density = 9.4261(g/cm³), Absorption(μ) = 1917.2(1/cm)
+
+  [x] SF = 53.0235 (1.37226) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.11415) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.87025 (0.06659) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.13726 (0.06643) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 192
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Ti <Ti>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Ti <Ti>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ti <Ti>
+  [ ] n1 = 0.75    (0.0    ) <4> {                } Ti <Ti>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Pt <Pt>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Pt <Pt>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Pt <Pt>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pt <Pt>
+  [ ] n2 = 0.25    (0.0    ) <4> {                } Pt <Pt>
+
+X-Ray Penetration Depth (EPD): EPD=0.008 (mm), μ=1917.2 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=3.78), Round=4, Iter=16, P=9, N=4951, R=16.67% (E=4.41%, EPS=0.5, χ²=0.028212)

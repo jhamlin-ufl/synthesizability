@@ -1,0 +1,184 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 11:42 AM
+FILE: E:\synthesizability\data\raw\0463_HM_Mo3NbRu2\0463_HM_Mo3NbRu2.xy
+IDEN: 
+SCAN: 30.008°/134.763°/0.01671°/1(s), I(p)=6491.0/574.0, Cu(45kV,40mA), Thursday, February 05, 2026, 10:23 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 30.0° - 134.8°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (4)
+
+  [x] c0 = 2039.4  (6.13177) <1>  [x] c1 = 1981.73 (11.8397) <1>
+  [x] c2 =-584.73  (31.6671) <1>  [x] c3 = 326.138 (22.3217) <1>
+  [x] c4 = 1560.01 (39.0098) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.06447 (0.00529) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.74966 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.62559 (0.0    ) <3>
+  [x] s2 =-0.00312 (0.01057) <4>
+
+  [x] p0 = 2.17676 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-1.51687 (0.0    ) <3>
+  [x] p2 = 0.36156 (0.02562) <4>
+
+Phase #1 [Bragg-R = 9.46%]: Molybdenum Ruthenium
+
+  Chemical Formula = Mo0.63Ru0.37
+
+  Reference: Subbotin I.M., Raevskaya M.V., Loboda T.P., Sokolovskaya E.M.,
+  Moscow Univ. Chem. Bull. (Engl. Transl.), v36 p51 (1981)
+
+  Note: LPF Collection Code: 531800. Sample Preparation: STARTING
+  MATERIALS:Mo,Ru. Compound Preparation: melted. Sample annealed at 1273 K.
+  Article Title: THE REACTION OF MOLYBDENUM AND RUTHENIUM WITH TRANSITION
+  METALS OF PERIOD VI. Wyckoff Sequence: j i2 g a. Unit Cell Data Source:
+  Powder Diffraction.
+
+  Tetragonal: P42/mnm (136), Z=30, tP30.0 [PDF#04-004-6202] [CSD#531800]
+
+  [x] a  = 9.64179 (0.00112) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 9.64179 (0.00112) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.96380 (0.00070) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 461.455 (100)(Å³), Density = 10.5613(g/cm³), Absorption(μ) = 1795.7(1/cm)
+
+  [x] SF = 139.878 (2.86387) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.13045) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.50279 (0.06953) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.04764 (0.12659) <3>
+  [x] f2 =-0.01132 (0.04581) <3>
+
+  Asymmetry Atoms in Unit Cell = 10, General Site Multiplicity = 16
+
+  [ ] x1 = 0.31733 (0.0    ) <4> {Wyckoff = 8j    } Mo <Mo>
+  [ ] y1 = 0.31733 (0.0    ) <4> { (y=x)          } Mo <Mo>
+  [ ] z1 = 0.24798 (0.0    ) <4> {                } Mo <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n1 = 0.63    (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x2 = 0.06609 (0.0    ) <4> {Wyckoff = 8i    } Mo <Mo>
+  [ ] y2 = 0.26067 (0.0    ) <4> {                } Mo <Mo>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n2 = 0.63    (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n3 = 0.63    (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x4 = 0.39864 (0.0    ) <4> {Wyckoff = 4g    } Mo <Mo>
+  [ ] y4 = 0.60136 (0.0    ) <4> { (y=-x)         } Mo <Mo>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n4 = 0.63    (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x5 = 0.13122 (0.0    ) <4> {Wyckoff = 8i    } Mo <Mo>
+  [ ] y5 = 0.53651 (0.0    ) <4> {                } Mo <Mo>
+  [ ] z5 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n5 = 0.63    (0.0    ) <4> {                } Mo <Mo>
+
+  [ ] x6 = 0.39864 (0.0    ) <4> {Wyckoff = 4g    } Ru <Ru>
+  [ ] y6 = 0.60136 (0.0    ) <4> { (y=-x)         } Ru <Ru>
+  [ ] z6 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n6 = 0.37    (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x7 = 0.13122 (0.0    ) <4> {Wyckoff = 8i    } Ru <Ru>
+  [ ] y7 = 0.53651 (0.0    ) <4> {                } Ru <Ru>
+  [ ] z7 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n7 = 0.37    (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x8 = 0.31733 (0.0    ) <4> {Wyckoff = 8j    } Ru <Ru>
+  [ ] y8 = 0.31733 (0.0    ) <4> { (y=x)          } Ru <Ru>
+  [ ] z8 = 0.24798 (0.0    ) <4> {                } Ru <Ru>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n8 = 0.37    (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x9 = 0.06609 (0.0    ) <4> {Wyckoff = 8i    } Ru <Ru>
+  [ ] y9 = 0.26067 (0.0    ) <4> {                } Ru <Ru>
+  [ ] z9 = 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n9 = 0.37    (0.0    ) <4> {                } Ru <Ru>
+
+  [ ] x10= 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ru <Ru>
+  [ ] y10= 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] z10= 0.0     (0.0    ) <0> {                } Ru <Ru>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Ru <Ru>
+  [ ] n10= 0.37    (0.0    ) <4> {                } Ru <Ru>
+
+Phase #2 [Bragg-R = 9.73%]: Molybdenum
+
+  Chemical Formula = Mo
+
+  Reference: Svechnikov V.N., Kobzenko G.F., Dokl. Akad. Nauk SSSR, v155
+  p611 (1964)
+
+  Note: LPF Collection Code: 453847. Sample Preparation: STARTING
+  MATERIALS:Mo. Article Title: The chromium-molybdenum diagram. Minor
+  Warning: No e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. LPF Editor Comment: editor deduced probable site
+  occupation from nominal composition. Wyckoff Sequence: a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-003-2919] [CSD#453847]
+
+  [x] a  = 3.14392 (0.00038) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.14392 (0.00038) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.14392 (0.00038) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 31.075 (7)(Å³), Density = 10.2526(g/cm³), Absorption(μ) = 1660.9(1/cm)
+
+  [x] SF = 87.152  (1.64881) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.11366) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.03318 (0.07687) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-1.24022 (0.15147) <3>
+  [x] f2 = 0.64195 (0.06781) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Mo <Mo>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Mo0.63Ru0.37 ● Molybdenum Ruthen    61.6 (1.5)    60.9 (1.9)    58.8 (0.4)   5.24  10.5613   04-004-6202
+  Mo ● Molybdenum                     38.4 (0.9)    39.1 (1.2)    41.2 (0.2)  21.25  10.2526   04-003-2919
+
+  XRF(Wt%): Ru=23.5%, Mo=76.5%, XRF(DD%): Ru=22.5%, Mo=77.5%
+  Density of Specimen = 10.4406(g/cm³), Absorption(μ) of Specimen = 1743.0(1/cm), EPD(1.0%,θ=45.0°) = 0.009(mm)
+
+Refinement Halted (R/E=4.23), Round=4, Iter=7, P=21, N=6270, R=8.5% (E=2.01%, EPS=0.5, χ²=0.007209)

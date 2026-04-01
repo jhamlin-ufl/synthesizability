@@ -1,0 +1,145 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:44 PM
+FILE: E:\synthesizability\data\raw\0499_HM_GaHf2Nb\0499_HM_GaHf2Nb_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=6857.0/426.0, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (26)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.00239 (0.01085) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.08086 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.27376 (0.0    ) <3>
+  [x] s2 =-0.00594 (0.02341) <4>
+
+  [x] p0 = 1.67777 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-1.31464 (0.0    ) <3>
+  [x] p2 = 0.42365 (0.04044) <4>
+
+Phase #1 [Bragg-R = 27.25%]: Gallium Hafnium
+
+  Chemical Formula = Hf5Ga3
+
+  Reference: Markiv V.Y., Belyavina N.N., Russ. Metall. (Engl. Transl.) p163
+  (1981)
+
+  Note: ANX: N3O5. LPF Collection Code: 528436. Sample Preparation: STARTING
+  MATERIALS:Hf,Ga. Compound Preparation: arc-melted. ATMOSPHERE: argon.
+  Sample annealed at 1023 K for 700 h in evacuated quartz tube,
+  water-quenched. Article Title: ISOTHERMAL SECTIONS OF THE Hf-Sc-Ga AND
+  Hf-Ti-Ga (750° C) PHASE DIAGRAMS. Wyckoff Sequence: g2 d. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Hexagonal: P63/mcm (193), Z=2, hP16 [PDF#04-004-3596] [CSD#528436]
+
+  [x] a  = 7.92818 (0.00227) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 7.92818 (0.00227) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.62858 (0.00217) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 306.391 (171)(Å³), Density = 11.9399(g/cm³), Absorption(μ) = 1691.9(1/cm)
+
+  [x] SF = 52.3068 (1.7378 ) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.22817) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.40029 (0.09759) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.1466  (0.2112 ) <3>
+  [x] f2 = 0.09021 (0.10879) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 24
+
+  [ ] x1 = 0.236   (0.0    ) <4> {Wyckoff = 6g    } Hf <Hf>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Hf <Hf>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Hf <Hf>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Hf <Hf>
+
+  [ ] x2 = 0.5991  (0.0    ) <4> {Wyckoff = 6g    } Ga <Ga>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Ga <Ga>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Ga <Ga>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ga <Ga>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ga <Ga>
+
+  [ ] x3 = 0.33333 (0.0    ) <0> {Wyckoff = 4d    } Hf <Hf>
+  [ ] y3 = 0.66666 (0.0    ) <0> {                } Hf <Hf>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Hf <Hf>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Hf <Hf>
+
+Phase #2 [Bragg-R = 10.95%]: Hafnium Niobium
+
+  Chemical Formula = Hf0.5Nb0.5
+
+  Reference: Taylor A., Doyle N.J., J. Less-Common Met., v7 p37 (1964)
+
+  Note: ANX: N. LPF Collection Code: 250232. Sample Preparation: STARTING
+  MATERIALS:Hf,Nb. Compound Preparation: arc-melted. CRUCIBLE: copper
+  hearth. ATMOSPHERE: purified argon. Sample annealed at 2273 K for 86.4-324
+  ks, furnace-cooled. Article Title: THE CONSTITUTION DIAGRAM OF THE
+  NIOBIUM-HAFNIUM SYSTEM. Minor Warning: No e.s.d reported/abstracted on the
+  cell dimension. No R factor reported/abstracted. Wyckoff Sequence: a. Unit
+  Cell Data Source: Powder Diffraction.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-001-0145] [CSD#250232]
+
+  [x] a  = 3.42562 (0.00098) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.42562 (0.00098) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.42562 (0.00098) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 40.199 (20)(Å³), Density = 11.21(g/cm³), Absorption(μ) = 1759.4(1/cm)
+
+  [x] SF = 51.1668 (1.25652) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.13692) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.43251 (0.12472) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.28243 (0.27585) <3>
+  [x] f2 = 0.40585 (0.1426 ) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Nb <Nb>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Nb <Nb>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+  [ ] n1 = 0.5     (0.0    ) <4> {                } Nb <Nb>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Hf <Hf>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Hf <Hf>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Hf <Hf>
+  [ ] n2 = 0.5     (0.0    ) <4> {                } Hf <Hf>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Hf5Ga3 ● Gallium Hafnium            50.6 (2.0)    49.0 (2.3)    48.7 (0.2)   8.56  11.9399   04-004-3596
+  Hf0.5Nb0.5 ● Hafnium Niobium        49.4 (1.6)    51.0 (2.1)    51.3 (0.1)  25.15  11.2100   04-001-0145
+
+  XRF(Wt%): Hf=73.5%, Nb=16.9%, Ga=9.6%, XRF(DD%): Hf=73.2%, Nb=17.6%, Ga=9.2%
+  Density of Specimen = 11.5674(g/cm³), Absorption(μ) of Specimen = 1726.3(1/cm), EPD(1.0%,θ=45.0°) = 0.009(mm)
+
+Refinement Halted (R/E=5.08), Round=4, Iter=14, P=16, N=5751, R=13.94% (E=2.75%, EPS=0.5, χ²=0.019462)

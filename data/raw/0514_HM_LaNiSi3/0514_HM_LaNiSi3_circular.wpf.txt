@@ -1,0 +1,333 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:14 PM
+FILE: E:\synthesizability\data\raw\0514_HM_LaNiSi3\0514_HM_LaNiSi3_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=10514/360, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (24)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.02273 (0.00167) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.204   (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.25533 (0.0    ) <3>
+  [x] s2 = 0.02297 (0.0196 ) <4>
+
+  [x] p0 = 0.77554 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.01087 (0.0    ) <3>
+  [x] p2 = 0.0718  (0.02224) <4>
+
+Phase #1 [Bragg-R = 12.49%]: Lanthanum Nickel Silicon
+
+  Chemical Formula = La3Ni3Si7
+
+  Reference: Fritsch V., Bobev S., Thompson J.D., Sarrao J.L., J. Alloys
+  Compd., v388 p28-33 (2005)
+
+  Note: ANX: N3O4P6. LPF Collection Code: 1908175. Sample Preparation:
+  STARTING MATERIALS: La (ingot),Ni (pieces),Si (lumps). COMPOUND
+  PREPARATION: arc-melted, heated at 1373 K for 24 h, cooled at a rate of 5
+  K h-1 to 1123 K, maintained for 48 h;cooled at a rate of 5 K h-1 to 923 K.
+  CRUCIBLE: alumina crucible in sealed evacuated glass
+  tube.THERMALTREATMENT: crystals grown by flux method, flux Sn. Article
+  Title: Antiferromagnetic order in Ce3Ni2+xSi8-x (x≅ 1). Wyckoff Sequence:
+  j3 i3 a. Unit Cell Data Source: Powder Diffraction.
+
+  Orthorhombic: Cmmm (65), Z=2, oC26 [PDF#04-012-7900] [CSD#1908175]
+
+  [x] a  = 4.13853 (0.00030) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 26.15010(0.00188) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.23989 (0.00031) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 458.854 (58)(Å³), Density = 5.7154(g/cm³), Absorption(μ) = 1173.0(1/cm)
+
+  [x] SF = 254.136 (3.23411) <1> Intensity Scale Factor
+  [x] TF = 0.11095 (0.06944) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.3652  (0.0179 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.26262 (0.03959) <3>
+  [x] f2 = 0.13642 (0.02106) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } La <La>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } La <La>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } La <La>
+  [ ] B1 = 0.31583 (0.0    ) <4> {                } La <La>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4j    } La <La>
+  [ ] y2 = 0.3165  (0.0    ) <4> {                } La <La>
+  [ ] z2 = 0.5     (0.0    ) <0> {                } La <La>
+  [ ] B2 = 0.31583 (0.0    ) <4> {                } La <La>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4i    } Ni <Ni>
+  [ ] y3 = 0.1333  (0.0    ) <4> {                } Ni <Ni>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Ni <Ni>
+  [ ] B3 = 0.31583 (0.0    ) <4> {                } Ni <Ni>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 4i    } Si <Si>
+  [ ] y4 = 0.4075  (0.0    ) <4> {                } Si <Si>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] B4 = 0.5527  (0.0    ) <4> {                } Si <Si>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x5 = 0.0     (0.0    ) <0> {Wyckoff = 4i    } Si <Si>
+  [ ] y5 = 0.224   (0.0    ) <4> {                } Si <Si>
+  [ ] z5 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] B5 = 0.39478 (0.0    ) <4> {                } Si <Si>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x6 = 0.0     (0.0    ) <0> {Wyckoff = 4j    } Si <Si>
+  [ ] y6 = 0.0933  (0.0    ) <4> {                } Si <Si>
+  [ ] z6 = 0.5     (0.0    ) <0> {                } Si <Si>
+  [ ] B6 = 0.5527  (0.0    ) <4> {                } Si <Si>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x7 = 0.0     (0.0    ) <0> {Wyckoff = 4j    } Ni <Ni>
+  [ ] y7 = 0.4542  (0.0    ) <4> {                } Ni <Ni>
+  [ ] z7 = 0.5     (0.0    ) <0> {                } Ni <Ni>
+  [ ] B7 = 0.78957 (0.0    ) <4> {                } Ni <Ni>
+  [ ] n7 = 0.505   (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x8 = 0.0     (0.0    ) <0> {Wyckoff = 4j    } Si <Si>
+  [ ] y8 = 0.4542  (0.0    ) <4> {                } Si <Si>
+  [ ] z8 = 0.5     (0.0    ) <0> {                } Si <Si>
+  [ ] B8 = 0.78957 (0.0    ) <4> {                } Si <Si>
+  [ ] n8 = 0.495   (0.0    ) <4> {                } Si <Si>
+
+Phase #2 [Bragg-R = 12.02%]: La2Si4Ni2
+
+  Chemical Formula = La2Si4Ni2
+
+  Note: [La1Ni1Si2_31319_stab-24meV.cif] 
+
+  Triclinic: P1 (1), Z=2, aP8 [PDF#98-001-2558] [CSD#12558]
+
+  [x] a  = 4.10385 (0.00053) <2> [x] α  = 75.703  (0.007  ) <2>
+  [x] b  = 4.25420 (0.00050) <2> [x] β  = 90.000  (222.549) <2>
+  [x] c  = 8.58220 (0.00051) <2> [x] γ  = 90.000  (312.364) <2>
+
+  Unit Cell Volume = 145.193 (27)(Å³), Density = 5.8044(g/cm³), Absorption(μ) = 1222.6(1/cm)
+
+  [x] SF = 150.753 (2.52428) <1> Intensity Scale Factor
+  [x] TF =-0.56436 (0.07823) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.16866 (0.01252) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.07261 (0.02631) <3>
+  [x] f2 = 0.04103 (0.01332) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 1
+
+  [ ] x1 = 0.25    (0.0    ) <4> {Wyckoff = 1     } La0 <La>
+  [ ] y1 = 0.89282 (0.0    ) <4> {                } La0 <La>
+  [ ] z1 = 0.21436 (0.0    ) <4> {                } La0 <La>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } La0 <La>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } La0 <La>
+
+  [ ] x2 = 0.75    (0.0    ) <4> {Wyckoff = 1     } La1 <La>
+  [ ] y2 = 0.10718 (0.0    ) <4> {                } La1 <La>
+  [ ] z2 = 0.78564 (0.0    ) <4> {                } La1 <La>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } La1 <La>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } La1 <La>
+
+  [ ] x3 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Ni2 <Ni>
+  [ ] y3 = 0.31772 (0.0    ) <4> {                } Ni2 <Ni>
+  [ ] z3 = 0.36455 (0.0    ) <4> {                } Ni2 <Ni>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ni2 <Ni>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ni2 <Ni>
+
+  [ ] x4 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Ni3 <Ni>
+  [ ] y4 = 0.68228 (0.0    ) <4> {                } Ni3 <Ni>
+  [ ] z4 = 0.63544 (0.0    ) <4> {                } Ni3 <Ni>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Ni3 <Ni>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Ni3 <Ni>
+
+  [ ] x5 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Si4 <Si>
+  [ ] y5 = 0.4593  (0.0    ) <4> {                } Si4 <Si>
+  [ ] z5 = 0.08139 (0.0    ) <4> {                } Si4 <Si>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Si4 <Si>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Si4 <Si>
+
+  [ ] x6 = 0.75    (0.0    ) <4> {Wyckoff = 1     } Si5 <Si>
+  [ ] y6 = 0.75016 (0.0    ) <4> {                } Si5 <Si>
+  [ ] z6 = 0.49968 (0.0    ) <4> {                } Si5 <Si>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Si5 <Si>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Si5 <Si>
+
+  [ ] x7 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Si6 <Si>
+  [ ] y7 = 0.24984 (0.0    ) <4> {                } Si6 <Si>
+  [ ] z7 = 0.50032 (0.0    ) <4> {                } Si6 <Si>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Si6 <Si>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Si6 <Si>
+
+  [ ] x8 = 0.25    (0.0    ) <4> {Wyckoff = 1     } Si7 <Si>
+  [ ] y8 = 0.5407  (0.0    ) <4> {                } Si7 <Si>
+  [ ] z8 = 0.91861 (0.0    ) <4> {                } Si7 <Si>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Si7 <Si>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Si7 <Si>
+
+Phase #3 [Bragg-R = 5.78%]: Silicon
+
+  Chemical Formula = Si
+
+  Reference: Wu H., Hartman M.R., Udovic T.J., Rush J.J., Zhou W., Bowman
+  R.C. Jr., Vajo J.J., Acta Crystallogr., Sect. B: Struct. Sci., v63 p63-68
+  (2007)
+
+  Note: LPF Collection Code: 1622696. Sample Preparation: Compound
+  Preparation: milled, heated at 773 K for 2-3 h, deuterated at 723 K and
+  0.0007 GPa of D2. Sample annealed at 723 K for 8-9 d. Article Title:
+  Structure of the novel ternary hydrides Li4Tt2D (Tt= Si and Ge). Minor
+  Warning: Only profile R factor reported/abstracted. LPF Editor Comment:
+  editor deduced probable site occupation from nominal composition. Wyckoff
+  Sequence: a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Fd-3m (227) ● origin at -3m, Z=8, cF8 [PDF#04-014-8844] [CSD#1622696]
+
+  [x] a  = 5.42313 (0.00047) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.42313 (0.00047) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 5.42313 (0.00047) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 159.496 (24)(Å³), Density = 2.3391(g/cm³), Absorption(μ) = 141.7(1/cm)
+
+  [x] SF = 58.4774 (3.03648) <1> Intensity Scale Factor
+  [x] TF = 0.61295 (0.4002 ) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.18625 (0.059  ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.15924 (0.17325) <3>
+  [x] f2 = 0.18667 (0.12237) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 192
+
+  [ ] x1 = 0.125   (0.0    ) <0> {Wyckoff = 8a    } Si <Si>
+  [ ] y1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] z1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] B1 = 0.56849 (0.0    ) <4> {                } Si <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Phase #4 [Bragg-R = 5.10%]: Lanthanum Nickel Silicide
+
+  Chemical Formula = LaNi6Si6
+
+  Reference: Pani M., Manfrinetti P., Provino A., Yuan F., Mozharivskyj
+  Y.A., Morozkin A.V., Knotko A.V., Garshev A.V., Yapaskurt V.O., Isnard O.,
+  J. Solid State Chem., v210 p45 (2014)
+
+  Note: LPF Collection Code: 1640102. Sample Preparation: STARTING
+  MATERIALS: La,Ni,Si. COMPOUND PREPARATION: arc-melted. ATMOSPHERE:
+  argon.THERMALTREATMENT: annealed at 1070 K for 200 d, quenched. Calculated
+  Pattern Original Remarks: Original Max Intensity 999.0 < 1000.0. Article
+  Title: New tetragonal derivatives of cubic NaZn13-type structure: RNi6Si6
+  compounds, crystal structure and magnetic ordering (R= Y, La, Ce, Sm,
+  Gd-Yb). Temperature of Data Collection: 298 K. Minor Warning: No e.s.d
+  reported/abstracted on the cell dimension. Wyckoff Sequence: n m4 b a.
+  Unit Cell Data Source: Powder Diffraction.
+
+  Tetragonal: P4/nbm (125) ● origin at 2/m, Z=4, tP52 [PDF#04-022-3326] [CSD#1640102]
+
+  [x] a  = 7.83523 (0.00142) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 7.83523 (0.00142) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 11.20081(0.00382) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 687.627 (294)(Å³), Density = 6.3712(g/cm³), Absorption(μ) = 711.6(1/cm)
+
+  [x] SF = 29.0758 (2.63452) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.59947) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.15966 (0.0201 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 8, General Site Multiplicity = 16
+
+  [ ] x1 = 0.1913  (0.0    ) <4> {Wyckoff = 16n   } Ni <Ni>
+  [ ] y1 = 0.0518  (0.0    ) <4> {                } Ni <Ni>
+  [ ] z1 = 0.2489  (0.0    ) <4> {                } Ni <Ni>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n1 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x2 = 0.1913  (0.0    ) <4> {Wyckoff = 16n   } Si <Si>
+  [ ] y2 = 0.0518  (0.0    ) <4> {                } Si <Si>
+  [ ] z2 = 0.2489  (0.0    ) <4> {                } Si <Si>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n2 = 0.5     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x3 = 0.374   (0.0    ) <4> {Wyckoff = 8m    } Ni <Ni>
+  [ ] y3 = 0.626   (0.0    ) <4> { (y=-x)         } Ni <Ni>
+  [ ] z3 = 0.0743  (0.0    ) <4> {                } Ni <Ni>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x4 = 0.3744  (0.0    ) <4> {Wyckoff = 8m    } Si <Si>
+  [ ] y4 = 0.6256  (0.0    ) <4> { (y=-x)         } Si <Si>
+  [ ] z4 = 0.4139  (0.0    ) <4> {                } Si <Si>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x5 = 0.5806  (0.0    ) <4> {Wyckoff = 8m    } Si <Si>
+  [ ] y5 = 0.4194  (0.0    ) <4> { (y=-x)         } Si <Si>
+  [ ] z5 = 0.1318  (0.0    ) <4> {                } Si <Si>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x6 = 0.5814  (0.0    ) <4> {Wyckoff = 8m    } Ni <Ni>
+  [ ] y6 = 0.4186  (0.0    ) <4> { (y=-x)         } Ni <Ni>
+  [ ] z6 = 0.3732  (0.0    ) <4> {                } Ni <Ni>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x7 = 0.25    (0.0    ) <0> {Wyckoff = 2b    } La <La>
+  [ ] y7 = 0.25    (0.0    ) <0> {                } La <La>
+  [ ] z7 = 0.5     (0.0    ) <0> {                } La <La>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } La <La>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x8 = 0.25    (0.0    ) <0> {Wyckoff = 2a    } La <La>
+  [ ] y8 = 0.25    (0.0    ) <0> {                } La <La>
+  [ ] z8 = 0.0     (0.0    ) <0> {                } La <La>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } La <La>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } La <La>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  La3Ni3Si7 ● Lanthanum Nickel Sil    51.6 (0.9)    44.5 (1.1)    52.3 (0.3)   4.40   5.7154   04-012-7900
+  La2Si4Ni2                           30.6 (0.6)    26.0 (0.7)    36.5 (0.2)   4.61   5.8044   98-001-2558
+  Si ● Silicon                        11.9 (0.6)    25.0 (1.4)     7.9 (0.6)   4.73   2.3391   04-014-8844
+  LaNi6Si6 ● Lanthanum Nickel Sili     5.9 (0.5)     4.6 (0.4)     3.3 (0.3)   2.19   6.3712   04-022-3326
+
+  XRF(Wt%): La=45.2%, Ni=21.8%, Si=33.0%, XRF(DD%): La=48.3%, Ni=21.9%, Si=29.8%
+  Density of Specimen = 4.9244(g/cm³), Absorption(μ) of Specimen = 907.0(1/cm), EPD(1.0%,θ=45.0°) = 0.018(mm)
+
+Refinement Halted (R/E=3.5), Round=4, Iter=6, P=33, N=5751, R=9.67% (E=2.76%, EPS=0.5, χ²=0.009174)

@@ -1,0 +1,95 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:19 PM
+FILE: E:\synthesizability\data\raw\0483_HM_La5Al3Co2\0483_HM_La5Al3Cu2.xy
+IDEN: 
+SCAN: 20.05°/119.916°/0.13369°/1(s), I(p)=9754.0/2702.0, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 20.0° - 119.9°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Polynomial (2)
+
+  [x] c0 = 5351.9  (74.8365) <1>  [x] c1 = 3214.08 (84.2354) <1>
+  [x] c2 = 325.117 (76.8708) <1>
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.23675 (0.40049) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 1.0143  (0.38843) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.38843 (0.71801) <3>
+  [ ] s2 =-0.02155 (0.45997) <4>
+
+  [x] p0 =-0.93525 (0.91794) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [ ] p1 =-5.22019 (0.0    ) <3>
+  [ ] p2 =-1.52012 (0.68991) <4>
+
+Phase #1 [Bragg-R = 8.68%]: Aluminum Lanthanum | lanthanum aluminide
+
+  Chemical Formula = LaAl
+
+  Reference: Leineweber A., Jacobs H., J. Alloys Compd., v278 pL10 (1998)
+
+  Note: ANX: NO. Color: gray silver. LPF Collection Code: 1300698. Sample
+  Preparation: STARTING MATERIALS:La,Al. Compound Preparation: heated at
+  1223 K for 2 d, cooled over 1 d. CRUCIBLE: alumina. ATMOSPHERE: nitrogen.
+  Article Title: Preparation of single crystals of LaAl and X-ray structure
+  determination. Wyckoff Sequence: g c a. Unit Cell Data Source: Single
+  Crystal.
+
+  Orthorhombic: Cmcm (63), Z=8, oC16 [PDF#04-007-3389] [CSD#1300698]
+
+  [x] a  = 9.40867 (0.09698) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 7.76401 (0.07939) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.81556 (0.05669) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 424.821 (429)(Å³), Density = 5.187(g/cm³), Absorption(μ) = 1522.1(1/cm)
+
+  [x] SF = 160.206 (57.3198) <1> Intensity Scale Factor
+  [x] TF =-1.0     (1.48408) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.83765 (0.57933) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.07147 (0.64085) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 16
+
+  [ ] x1 = 0.32168 (0.0    ) <4> {Wyckoff = 8g    } La <La>
+  [ ] y1 = 0.16016 (0.0    ) <4> {                } La <La>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } La <La>
+  [ ] B1 = 0.7843  (0.0    ) <4> {                } La <La>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } La <La>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Al <Al>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] B2 = 1.00012 (0.0    ) <4> {                } Al <Al>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Al <Al>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Al <Al>
+  [ ] y3 = 0.3019  (0.0    ) <4> {                } Al <Al>
+  [ ] z3 = 0.25    (0.0    ) <0> {                } Al <Al>
+  [ ] B3 = 0.79746 (0.0    ) <4> {                } Al <Al>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Al <Al>
+
+X-Ray Penetration Depth (EPD): EPD=0.011 (mm), μ=1522.1 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=6.65), Round=4, Iter=12, P=14, N=748, R=8.68% (E=1.30%, EPS=0.5, χ²=0.007534)

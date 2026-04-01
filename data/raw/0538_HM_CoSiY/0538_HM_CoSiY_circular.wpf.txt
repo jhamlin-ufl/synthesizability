@@ -1,0 +1,195 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 12:56 PM
+FILE: E:\synthesizability\data\raw\0503_HM_CoSiY\0538_HM_CoSiY_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=18890/363, Cu(45kV,40mA), Sunday, March 01, 2026, 2:55 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (22)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.04116 (0.00577) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.70701 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.70841 (0.0    ) <3>
+  [x] s2 = 0.35171 (0.03829) <4>
+
+  [x] p0 = 0.97605 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.25432 (0.0    ) <3>
+  [x] p2 = 0.17919 (0.05114) <4>
+
+Phase #1 [Bragg-R = 25.26%]: Cobalt Silicon Yttrium
+
+  Chemical Formula = YCoSi
+
+  Reference: Rogl P., Handb. Phys. Chem. Rare Earths, v7 p1 (1984)
+
+  Note: LPF Collection Code: 1710176. Calculated Pattern Original Remarks:
+  Original Max Intensity 999.0 < 1000.0. Article Title: Phase equilibria in
+  ternary and higher order systems with rare earth elements and silicon.
+  Minor Warning: No e.s.d reported/abstracted on the cell dimension. Wyckoff
+  Sequence: c3. Unit Cell Data Source: Powder Diffraction.
+
+  Orthorhombic: Pnma (62), Z=4, oP12 [PDF#04-022-4206] [CSD#1710176]
+
+  [x] a  = 6.82027 (0.00114) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 4.13630 (0.00087) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 7.21344 (0.00118) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 203.496 (64)(Å³), Density = 5.7418(g/cm³), Absorption(μ) = 1046.4(1/cm)
+
+  [x] SF = 574.37  (9.59226) <1> Intensity Scale Factor
+  [x] TF = 0.80796 (0.10078) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [x] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  ● POC in Spherical Harmonics of Order = 4, S(l,m) = 1.26 (Textureness), Sample Spinner: OFF
+
+  [x] f0 = 0.02359 (0.03735) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.37023 (0.08438) <3>
+  [x] f2 =-0.12009 (0.04552) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 8
+
+  [ ] x1 = 0.0212  (0.0    ) <4> {Wyckoff = 4c    } Y <Y>
+  [ ] y1 = 0.25    (0.0    ) <0> {                } Y <Y>
+  [ ] z1 = 0.6803  (0.0    ) <4> {                } Y <Y>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Y <Y>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x2 = 0.142   (0.0    ) <4> {Wyckoff = 4c    } Co <Co>
+  [ ] y2 = 0.25    (0.0    ) <0> {                } Co <Co>
+  [ ] z2 = 0.0609  (0.0    ) <4> {                } Co <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co <Co>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Co <Co>
+
+  [ ] x3 = 0.2651  (0.0    ) <4> {Wyckoff = 4c    } Si <Si>
+  [ ] y3 = 0.25    (0.0    ) <0> {                } Si <Si>
+  [ ] z3 = 0.3771  (0.0    ) <4> {                } Si <Si>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Phase #2 [Bragg-R = 19.14%]: Yttrium Cobalt Silicon
+
+  Chemical Formula = YCo2Si2
+
+  Reference: Rossi D., Marazza R., Ferro R., J. Less-Common Met., v58 p203
+  (1978)
+
+  Note: ANX: NO2P2. LPF Collection Code: 300966. Sample Preparation:
+  STARTING MATERIALS:Y,Co,Si. Compound Preparation: induction-melted.
+  ATMOSPHERE: argon. Sample annealed at 773 K for 1 w. Article Title:
+  LATTICE PARAMETERS OF SOME ThCu2Si2-TYPE PHASES IN TERNARY ALLOYS OF RARE
+  EARTHS WITH COBALT (OR IRON) AND SILICON (OR GERMANIUM). Minor Warning: No
+  e.s.d reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. Wyckoff Sequence: e d a. Unit Cell Data Source:
+  Powder Diffraction.
+
+  Tetragonal: I4/mmm (139), Z=2, tI10 [PDF#04-001-4574] [CSD#300966]
+
+  [x] a  = 3.89063 (0.00088) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.89063 (0.00088) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 9.72751 (0.00443) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 147.246 (82)(Å³), Density = 5.9302(g/cm³), Absorption(μ) = 1177.5(1/cm)
+
+  [x] SF = 56.4052 (4.01478) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.36737) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.06637 (0.12138) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.04283 (0.29692) <3>
+  [x] f2 = 0.13981 (0.18172) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 32
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Y <Y>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Y <Y>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4d    } Co <Co>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Co <Co>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Co <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co <Co>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Co <Co>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4e    } Si <Si>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] z3 = 0.375   (0.0    ) <4> {                } Si <Si>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Phase #3 [Bragg-R = 11.97%]: Silicon
+
+  Chemical Formula = Si
+
+  Reference: Rudman R., Inorg. Chem., v5 p1823 (1966)
+
+  Note: ANX: N. LPF Collection Code: 1903714. Sample Preparation: STARTING
+  MATERIAL:Ga,B.Compound Formation:heated at 1373-1573 K for 24 h.CRUCIBLE:
+  sealed evacuated quartz tube. Calculated Pattern Original Remarks: LPF
+  Editor Comment:compound GaB12 reported in Comptes Rendus Hebdomadaires des
+  Seances de l`Academie des Sciences (1961) 252, 134 does not exist. Article
+  Title: On the Reported Synthesis of Gallium Dodecaboride. Minor Warning:
+  No e.s.d reported/abstracted on the cell dimension. No R factors
+  reported/abstracted. Wyckoff Sequence: a. Unit Cell Data Source: Single
+  Crystal.
+
+  Cubic: Fd-3m (227) ● origin at -3m, Z=8, cF8 [PDF#04-010-2410] [CSD#1903714]
+
+  [x] a  = 5.29939 (0.00333) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.29939 (0.00333) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 5.29939 (0.00333) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 148.826 (162)(Å³), Density = 2.5068(g/cm³), Absorption(μ) = 151.9(1/cm)
+
+  [x] SF = 15.7463 (4.03658) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.95668) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.3505  (0.10745) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 192
+
+  [ ] x1 = 0.125   (0.0    ) <0> {Wyckoff = 8a    } Si <Si>
+  [ ] y1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] z1 = 0.125   (0.0    ) <0> {                } Si <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  YCoSi ● Cobalt Silicon Yttrium      88.8 (2.1)    86.4 (3.0)    81.8 (1.0)   3.58   5.7418   04-022-4206
+  YCo2Si2 ● Yttrium Cobalt Silicon     8.7 (0.6)     8.2 (0.6)    14.2 (0.5)   5.76   5.9302   04-001-4574
+  Si ● Silicon                         2.4 (0.6)     5.4 (1.4)     4.0 (0.8)   4.75   2.5068   04-010-2410
+
+  XRF(Wt%): Y=47.8%, Co=33.7%, Si=18.5%, XRF(DD%): Y=46.1%, Co=33.8%, Si=20.1%
+  Density of Specimen = 5.5818(g/cm³), Absorption(μ) of Specimen = 1008.7(1/cm), EPD(1.0%,θ=45.0°) = 0.016(mm)
+
+Refinement Halted (R/E=6.76), Round=4, Iter=6, P=27, N=5751, R=18.21% (E=2.69%, EPS=0.5, χ²=0.033023)

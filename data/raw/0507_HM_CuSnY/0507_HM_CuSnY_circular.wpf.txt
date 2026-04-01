@@ -1,0 +1,165 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, March 31, 2026, 1:06 PM
+FILE: E:\synthesizability\data\raw\0507_HM_CuSnY\0507_HM_CuSnY_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=57517/1503, Cu(45kV,40mA), Tuesday, January 13, 2026, 12:53 PM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (24)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.00269 (6.17E-4) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.38321 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.1801  (0.0    ) <3>
+  [x] s2 =-0.02002 (0.00755) <4>
+
+  [x] p0 = 0.51968 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.21469 (0.0    ) <3>
+  [x] p2 = 0.07633 (0.00758) <4>
+
+Phase #1 [Bragg-R = 4.63%]: Copper Tin Yttrium
+
+  Chemical Formula = CuYSn
+
+  Reference: Sebastian C.P., Fehse C., Eckert H., Hoffman R.D., Pottgen R.,
+  Solid State Sci., v8 p1386-1392 (2006)
+
+  Note: Color: metallic luster. Habit: irregular. LPF Collection Code:
+  1910561. Sample Preparation: STARTINGMATERIALS: Y (ingot), Cu (wire), Sn
+  (shot). COMPOUND PREPARATION: arc-melted, remelted three times.
+  ATMOSPHERE: argon. Article Title: Structure, 119Sn solid state NMR and
+  Mossbauer spectroscopy of RECuSn (RE= Sc, Y, La, Lu). Wyckoff Sequence: b2
+  a. Unit Cell Data Source: Powder Diffraction.
+
+  Hexagonal: P63mc (186), Z=2, hP6 [PDF#04-014-1199] [CSD#1910561]
+
+  [x] a  = 4.50665 (0.00008) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 4.50665 (0.00008) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 7.27414 (0.00014) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 127.944 (4)(Å³), Density = 7.0376(g/cm³), Absorption(μ) = 1185.1(1/cm)
+
+  [x] SF = 579.043 (2.33491) <1> Intensity Scale Factor
+  [x] TF =-0.64328 (0.01852) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [x] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  ● POC in Spherical Harmonics of Order = 4, S(l,m) = 1.07 (Textureness), Sample Spinner: OFF
+
+  [x] f0 = 0.23765 (0.00443) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.16941 (0.00995) <3>
+  [x] f2 = 0.11155 (0.00535) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 12
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Y <Y>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] z1 = 0.001   (0.0    ) <4> {                } Y <Y>
+  [ ] B1 = 0.7843  (0.0    ) <4> {                } Y <Y>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x2 = 0.33333 (0.0    ) <0> {Wyckoff = 2b    } Cu <Cu>
+  [ ] y2 = 0.66666 (0.0    ) <0> {                } Cu <Cu>
+  [ ] z2 = 0.8158  (0.0    ) <4> {                } Cu <Cu>
+  [ ] B2 = 1.07381 (0.0    ) <4> {                } Cu <Cu>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x3 = 0.33333 (0.0    ) <0> {Wyckoff = 2b    } Sn <Sn>
+  [ ] y3 = 0.66666 (0.0    ) <0> {                } Sn <Sn>
+  [ ] z3 = 0.2328  (0.0    ) <4> {                } Sn <Sn>
+  [ ] B3 = 0.72903 (0.0    ) <4> {                } Sn <Sn>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+Phase #2 [Bragg-R = 3.80%]: Copper Tin Yttrium
+
+  Chemical Formula = Cu4Y3Sn4
+
+  Reference: Thirion F., Steinmetz J., Malaman B., Mater. Res. Bull., v18
+  p1537 (1983)
+
+  Note: ANX: N3O4P4. LPF Collection Code: 537800. Sample Preparation:
+  STARTING MATERIALS:Y,Cu,Sn. Compound Preparation: heated at 673 K and 1073
+  K for several days in evacuated quartz tube, quenched. Article Title:
+  STRUCTURES CRISTALLINES DE Sc3Cu4Ge4, T.R.3Cu4Sn4 (T.R.= Y, Gd, Tb, Dy,
+  Ho, Er), ISOTYPES DE Gd3Cu4Ge4, ET DE LA PHASE APPARENTEE Tm3Cu4Sn4.
+  Wyckoff Sequence: l j i h a. Unit Cell Data Source: Powder Diffraction.
+
+  Orthorhombic: Immm (71), Z=2, oI22 [PDF#04-005-1559] [CSD#537800]
+
+  [x] a  = 4.43571 (0.00040) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 6.92750 (0.00071) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 14.62984(0.00148) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 449.552 (76)(Å³), Density = 7.355(g/cm³), Absorption(μ) = 1261.1(1/cm)
+
+  [x] SF = 55.8377 (2.03667) <1> Intensity Scale Factor
+  [x] TF = 0.35433 (0.17148) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.15717 (0.00665) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 5, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 8l    } Cu <Cu>
+  [ ] y1 = 0.3107  (0.0    ) <4> {                } Cu <Cu>
+  [ ] z1 = 0.33048 (0.0    ) <4> {                } Cu <Cu>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Cu <Cu>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Cu <Cu>
+
+  [ ] x2 = 0.5     (0.0    ) <0> {Wyckoff = 4j    } Y <Y>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] z2 = 0.36884 (0.0    ) <4> {                } Y <Y>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Y <Y>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4i    } Sn <Sn>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Sn <Sn>
+  [ ] z3 = 0.21567 (0.0    ) <4> {                } Sn <Sn>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 4h    } Sn <Sn>
+  [ ] y4 = 0.189   (0.0    ) <4> {                } Sn <Sn>
+  [ ] z4 = 0.5     (0.0    ) <0> {                } Sn <Sn>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Sn <Sn>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Sn <Sn>
+
+  [ ] x5 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Y <Y>
+  [ ] y5 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] z5 = 0.0     (0.0    ) <0> {                } Y <Y>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Y <Y>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Y <Y>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  CuYSn ● Copper Tin Yttrium          91.2 (0.6)    91.6 (0.8)    93.0 (0.2)   9.19   7.0376   04-014-1199
+  Cu4Y3Sn4 ● Copper Tin Yttrium        8.8 (0.3)     8.4 (0.3)     7.0 (0.1)   4.88   7.3550   04-005-1559
+
+  XRF(Wt%): Sn=44.1%, Y=32.3%, Cu=23.6%, XRF(DD%): Sn=44.0%, Y=32.4%, Cu=23.6%
+  Density of Specimen = 7.0644(g/cm³), Absorption(μ) of Specimen = 1191.5(1/cm), EPD(1.0%,θ=45.0°) = 0.014(mm)
+
+Refinement Halted (R/E=2.16), Round=4, Iter=6, P=18, N=5751, R=4.12% (E=1.91%, EPS=0.5, χ²=0.001673)
