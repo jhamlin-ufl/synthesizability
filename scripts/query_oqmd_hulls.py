@@ -26,12 +26,13 @@ def main():
     print("Loading synthesis data...")
     df = pd.read_csv('data/processed/synthesis_data_no_disorder.csv')
     
+    formulas = df['formula'].dropna().unique().tolist()
+
     results = []
-    for idx, row in df.iterrows():
-        formula = row['formula']
+    for idx, formula in enumerate(formulas):
         oqmd_formula = parse_formula_to_oqmd(formula)
-        
-        print(f"Querying {formula} -> {oqmd_formula} ({idx+1}/{len(df)})...")
+
+        print(f"Querying {formula} -> {oqmd_formula} ({idx+1}/{len(formulas)})...")
         
         entries = query_formation_energies(oqmd_formula)
         

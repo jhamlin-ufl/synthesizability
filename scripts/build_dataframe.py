@@ -31,6 +31,21 @@ def main():
         print(f"✓ Merged OQMD data for {df['oqmd_stability'].notna().sum()}/{len(df)} compositions")
     else:
         print("\n⚠ OQMD hull data not found, skipping merge")
+
+    # Merge remake map if it exists
+    remake_map_path = Path.cwd() / "data" / "raw" / "REMAKE_MAP.csv"
+    if remake_map_path.exists():
+        print("\nMerging remake map...")
+        remake_df = pd.read_csv(remake_map_path)
+        remake_df['remake_sample'] = remake_df['remake_sample'].astype(str).str.lstrip('0').astype(int)
+        remake_df['original_sample'] = remake_df['original_sample'].astype(str).str.lstrip('0').astype(int)
+        remake_map = remake_df[['remake_sample', 'original_sample', 'remake_reason']].rename(
+            columns={'remake_sample': 'sample_number', 'original_sample': 'remake_of'}
+        )
+        df = df.merge(remake_map, on='sample_number', how='left')
+        print(f"✓ Marked {df['remake_of'].notna().sum()} remake samples")
+    else:
+        print("\n⚠ REMAKE_MAP.csv not found, skipping")
     
     # Analyze statistics
     analyze_field_statistics(df)

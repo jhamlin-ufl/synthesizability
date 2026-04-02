@@ -202,6 +202,7 @@ rule build_dataframe:
         reference=REFERENCE_DATA_FILES,
         disorder_cache="data/processed/disorder_cache.csv",
         oqmd_hulls="data/processed/oqmd_hull_data.csv",
+        remake_map="data/raw/REMAKE_MAP.csv",
     output:
         csv="data/processed/synthesis_data.csv",
         pkl="data/processed/synthesis_data.pkl",

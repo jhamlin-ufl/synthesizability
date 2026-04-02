@@ -16,7 +16,7 @@ from synthesizability.dashboard_plugins import (
 
 # Columns always shown first in the table regardless of plugins
 CORE_COLUMNS = [
-    'sample_number', 'sample_id', 'formula', 'has_summary',
+    'sample_number', 'sample_id', 'formula', 'remake_of', 'has_summary',
     'superconductivity', 'xrd_type', 'xrd_instrument', 'xrd_result',
     'prediction_list', 'mass_loss_percent', 'price_per_gram', 'arc_meltable',
     'disorder_probability',
@@ -33,7 +33,7 @@ CORE_SUMMARY_CARDS = [
 
 # Sections always shown on detail pages, in order
 CORE_DETAIL_SECTIONS = {
-    'Basic Information': ['sample_number', 'sample_id', 'formula', 'files', 'has_summary'],
+    'Basic Information': ['sample_number', 'sample_id', 'formula', 'remake_of', 'remake_reason', 'files', 'has_summary'],
     'Characterization': ['superconductivity', 'tc_kelvin', 'xrd_type', 'xrd_instrument', 'xrd_result'],
     'Synthesis Details': ['synthesis_content', 'mass_loss_percent', 'initial_mass_g', 'final_mass_g'],
     'Cost & Feasibility': ['price_per_gram', 'arc_meltable', 'disorder_probability', 'prediction_list'],

@@ -92,23 +92,23 @@
             
             <div class="stat-card">
                 <div class="stat-label">Total Samples</div>
-                <div class="stat-value">59</div>
+                <div class="stat-value">76</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">With XRD Data</div>
-                <div class="stat-value">58</div>
+                <div class="stat-value">68</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Arc Meltable</div>
-                <div class="stat-value">44</div>
+                <div class="stat-value">59</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg Price ($/g)</div>
-                <div class="stat-value">$42.80</div>
+                <div class="stat-value">$34.65</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg Mass Loss (%)</div>
-                <div class="stat-value">2.2%</div>
+                <div class="stat-value">2.5%</div>
             </div>
             
             <div class="stat-card">
@@ -117,15 +117,15 @@
             </div>
             <div class="stat-card">
                 <div class="stat-label">With OQMD Data</div>
-                <div class="stat-value">50</div>
+                <div class="stat-value">67</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">OQMD Stable (<0.1 eV)</div>
-                <div class="stat-value">39</div>
+                <div class="stat-value">56</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg E-above-hull</div>
-                <div class="stat-value">0.032 eV</div>
+                <div class="stat-value">0.022 eV</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Ternary Phase CIFs</div>
@@ -141,7 +141,7 @@
             </div>
             <div class="stat-card">
                 <div class="stat-label">Samples w/ SuperCon Hits</div>
-                <div class="stat-value">59</div>
+                <div class="stat-value">76</div>
             </div>
         </div>
         <div class="controls">
@@ -157,27 +157,28 @@
                     <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(1, this)"> sample_number</label>
 <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(2, this)"> sample_id</label>
 <label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(3, this)"> formula</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(4, this)"> has_summary</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(5, this)"> superconductivity</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(6, this)"> xrd_type</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(7, this)"> xrd_instrument</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(8, this)"> xrd_result</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(9, this)"> prediction_list</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(10, this)"> mass_loss_percent</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(11, this)"> price_per_gram</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(12, this)"> arc_meltable</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(13, this)"> disorder_probability</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(14, this)"> composition_ok</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(15, this)"> composition_max_deviation</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(16, this)"> oqmd_formula</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(17, this)"> oqmd_delta_e</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(18, this)"> oqmd_stability</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(19, this)"> oqmd_entry_id</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(20, this)"> oqmd_n_polymorphs</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(21, this)"> tc_kelvin</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(22, this)"> chi_n_files</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(23, this)"> chi_has_high_field</label>
-<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(24, this)"> chi_fields</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(4, this)"> remake_of</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(5, this)"> has_summary</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(6, this)"> superconductivity</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(7, this)"> xrd_type</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(8, this)"> xrd_instrument</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(9, this)"> xrd_result</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(10, this)"> prediction_list</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(11, this)"> mass_loss_percent</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(12, this)"> price_per_gram</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(13, this)"> arc_meltable</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(14, this)"> disorder_probability</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(15, this)"> composition_ok</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(16, this)"> composition_max_deviation</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(17, this)"> oqmd_formula</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(18, this)"> oqmd_delta_e</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(19, this)"> oqmd_stability</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(20, this)"> oqmd_entry_id</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(21, this)"> oqmd_n_polymorphs</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(22, this)"> tc_kelvin</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(23, this)"> chi_n_files</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(24, this)"> chi_has_high_field</label>
+<label class="toggle-label"><input type="checkbox" class="column-toggle" checked onchange="toggleColumn(25, this)"> chi_fields</label>
 
                 </div>
             </details>
@@ -188,33 +189,35 @@
 <th onclick="sortTable(1)">sample_number ▾</th>
 <th onclick="sortTable(2)">sample_id ▾</th>
 <th onclick="sortTable(3)">formula ▾</th>
-<th onclick="sortTable(4)">has_summary ▾</th>
-<th onclick="sortTable(5)">superconductivity ▾</th>
-<th onclick="sortTable(6)">xrd_type ▾</th>
-<th onclick="sortTable(7)">xrd_instrument ▾</th>
-<th onclick="sortTable(8)">xrd_result ▾</th>
-<th onclick="sortTable(9)">prediction_list ▾</th>
-<th onclick="sortTable(10)">mass_loss_percent ▾</th>
-<th onclick="sortTable(11)">price_per_gram ▾</th>
-<th onclick="sortTable(12)">arc_meltable ▾</th>
-<th onclick="sortTable(13)">disorder_probability ▾</th>
-<th onclick="sortTable(14)">composition_ok ▾</th>
-<th onclick="sortTable(15)">composition_max_deviation ▾</th>
-<th onclick="sortTable(16)">oqmd_formula ▾</th>
-<th onclick="sortTable(17)">oqmd_delta_e ▾</th>
-<th onclick="sortTable(18)">oqmd_stability ▾</th>
-<th onclick="sortTable(19)">oqmd_entry_id ▾</th>
-<th onclick="sortTable(20)">oqmd_n_polymorphs ▾</th>
-<th onclick="sortTable(21)">tc_kelvin ▾</th>
-<th onclick="sortTable(22)">chi_n_files ▾</th>
-<th onclick="sortTable(23)">chi_has_high_field ▾</th>
-<th onclick="sortTable(24)">chi_fields ▾</th>
+<th onclick="sortTable(4)">remake_of ▾</th>
+<th onclick="sortTable(5)">has_summary ▾</th>
+<th onclick="sortTable(6)">superconductivity ▾</th>
+<th onclick="sortTable(7)">xrd_type ▾</th>
+<th onclick="sortTable(8)">xrd_instrument ▾</th>
+<th onclick="sortTable(9)">xrd_result ▾</th>
+<th onclick="sortTable(10)">prediction_list ▾</th>
+<th onclick="sortTable(11)">mass_loss_percent ▾</th>
+<th onclick="sortTable(12)">price_per_gram ▾</th>
+<th onclick="sortTable(13)">arc_meltable ▾</th>
+<th onclick="sortTable(14)">disorder_probability ▾</th>
+<th onclick="sortTable(15)">composition_ok ▾</th>
+<th onclick="sortTable(16)">composition_max_deviation ▾</th>
+<th onclick="sortTable(17)">oqmd_formula ▾</th>
+<th onclick="sortTable(18)">oqmd_delta_e ▾</th>
+<th onclick="sortTable(19)">oqmd_stability ▾</th>
+<th onclick="sortTable(20)">oqmd_entry_id ▾</th>
+<th onclick="sortTable(21)">oqmd_n_polymorphs ▾</th>
+<th onclick="sortTable(22)">tc_kelvin ▾</th>
+<th onclick="sortTable(23)">chi_n_files ▾</th>
+<th onclick="sortTable(24)">chi_has_high_field ▾</th>
+<th onclick="sortTable(25)">chi_fields ▾</th>
 </tr></thead>
                 <tbody><tr>
 <td><a href="samples/0447_HM_MoTiTa2.html" class="sample-link">View</a></td>
 <td>447</td>
 <td>0447_HM_MoTiTa2</td>
 <td class="formula">MoTiTa2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Not above 4.2 K based on dipstick test.</td>
 <td>Powder</td>
@@ -242,6 +245,7 @@
 <td>448</td>
 <td>0448_HM_MoTi2Ta</td>
 <td class="formula">MoTi2Ta</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Not above 4.2 K based on dipstick test.</td>
 <td>Powder</td>
@@ -269,6 +273,7 @@
 <td>449</td>
 <td>0449_HM_HfTa4Zr</td>
 <td class="formula">HfTa4Zr</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Tc of 7.3 K</td>
 <td>Bulk</td>
@@ -296,10 +301,11 @@
 <td>450</td>
 <td>0450_HM_HfMoTa2</td>
 <td class="formula">HfMoTa2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>0.36</td>
@@ -323,6 +329,7 @@
 <td>451</td>
 <td>0451_HM_MoTaZr2</td>
 <td class="formula">MoTaZr2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Tc of 5.9 K</td>
 <td>Bulk</td>
@@ -350,10 +357,11 @@
 <td>452</td>
 <td>0452_HM_Hf2MoTi</td>
 <td class="formula">Hf2MoTi</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>0.5</td>
@@ -377,10 +385,11 @@
 <td>453</td>
 <td>0453_HM_HfMoTi</td>
 <td class="formula">HfMoTi</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #28a745; font-weight: bold;">✓</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>1</td>
@@ -404,10 +413,11 @@
 <td>454</td>
 <td>0454_HM_Nb2TaZr</td>
 <td class="formula">Nb2TaZr</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 9.7 K</td>
 <td>Bulk</td>
-<td>Panalytical</td>
+<td>Both</td>
 <td>BCC solid solution</td>
 <td>Diffusion Model</td>
 <td>0.23</td>
@@ -431,6 +441,7 @@
 <td>455</td>
 <td>0455_HM_NbTa2Zr</td>
 <td class="formula">NbTa2Zr</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 8.8 K</td>
 <td>Bulk</td>
@@ -458,10 +469,11 @@
 <td>456</td>
 <td>0456_HM_Hf2MoNb</td>
 <td class="formula">Hf2MoNb</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>0.35</td>
@@ -485,10 +497,11 @@
 <td>457</td>
 <td>0457_HM_MoNbZr2</td>
 <td class="formula">MoNbZr2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 5.7 K</td>
 <td>Bulk</td>
-<td>Panalytical</td>
+<td>Both</td>
 <td>BCC solid solution</td>
 <td>Diffusion Model</td>
 <td>0.02</td>
@@ -512,10 +525,11 @@
 <td>458</td>
 <td>0458_HM_Mo3NbTi2</td>
 <td class="formula">Mo3NbTi2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>1.87</td>
@@ -539,10 +553,11 @@
 <td>460</td>
 <td>0460_HM_HfMo2Zr</td>
 <td class="formula">HfMo2Zr</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>0.1</td>
@@ -566,10 +581,11 @@
 <td>461</td>
 <td>0461_HM_Hf2MoRe3</td>
 <td class="formula">Hf2MoRe3</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>1.67</td>
@@ -593,6 +609,7 @@
 <td>462</td>
 <td>0462_HM_Hf2Nb3Ru</td>
 <td class="formula">Hf2Nb3Ru</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 6.8 K</td>
 <td>Bulk</td>
@@ -620,6 +637,7 @@
 <td>463</td>
 <td>0463_HM_Mo3NbRu2</td>
 <td class="formula">Mo3NbRu2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 5.1. K</td>
 <td>Bulk</td>
@@ -647,6 +665,7 @@
 <td>464</td>
 <td>0464_HM_MoNbRu2</td>
 <td class="formula">MoNbRu2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 4.8 K</td>
 <td>Bulk</td>
@@ -674,6 +693,7 @@
 <td>465</td>
 <td>0465_HM_Cu5GePd6</td>
 <td class="formula">Cu5GePd6</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -701,6 +721,7 @@
 <td>466</td>
 <td>0466_HM_Hf2MoIr</td>
 <td class="formula">Hf2MoIr</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -728,6 +749,7 @@
 <td>467</td>
 <td>0467_HM_CuNb3Zr2</td>
 <td class="formula">CuNb3Zr2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 10.7 K</td>
 <td>Bulk</td>
@@ -755,10 +777,11 @@
 <td>469</td>
 <td>0469_HM_ScCuPd2</td>
 <td class="formula">ScCuPd2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
-<td>Panalytical</td>
+<td>Both</td>
 <td>multi-phase structure</td>
 <td>B (two active binaries, no real ternary phase)</td>
 <td>1.16</td>
@@ -782,6 +805,7 @@
 <td>470</td>
 <td>0470_HM_MoNbTa2</td>
 <td class="formula">MoNbTa2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td>Bulk</td>
@@ -809,6 +833,7 @@
 <td>471</td>
 <td>0471_HM_MoNb2Ta</td>
 <td class="formula">MoNb2Ta</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td>Bulk</td>
@@ -836,6 +861,7 @@
 <td>472</td>
 <td>0472_HM_ScCu4Pd</td>
 <td class="formula">ScCu4Pd</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -863,10 +889,11 @@
 <td>473</td>
 <td>0473_HM_Sc3CuPd2</td>
 <td class="formula">Sc3CuPd2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
-<td>Panalytical</td>
+<td>Both</td>
 <td>disordered B2 alloy</td>
 <td>B (two active binaries, no real ternary phase)</td>
 <td>0.21</td>
@@ -890,6 +917,7 @@
 <td>474</td>
 <td>0474_HM_Sc2CuPd</td>
 <td class="formula">Sc2CuPd</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -917,6 +945,7 @@
 <td>475</td>
 <td>0475_HM_La2PdAu2</td>
 <td class="formula">La2PdAu2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -944,6 +973,7 @@
 <td>476</td>
 <td>0476_HM_ScPd2Au</td>
 <td class="formula">ScPd2Au</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -971,6 +1001,7 @@
 <td>477</td>
 <td>0477_HM_ScPd5Au2</td>
 <td class="formula">ScPd5Au2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -998,6 +1029,7 @@
 <td>478</td>
 <td>0478_HM_Sc2Pd5Au</td>
 <td class="formula">Sc2Pd5Au</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -1025,6 +1057,7 @@
 <td>479</td>
 <td>0479_HM_MnAl2Au6</td>
 <td class="formula">MnAl2Au6</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -1052,6 +1085,7 @@
 <td>480</td>
 <td>0480_HM_GdGePt2</td>
 <td class="formula">GdGePt2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -1079,6 +1113,7 @@
 <td>481</td>
 <td>0481_HM_NiGe2Pt</td>
 <td class="formula">NiGe2Pt</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -1106,6 +1141,7 @@
 <td>482</td>
 <td>0482_HM_ZrSiPt5</td>
 <td class="formula">ZrSiPt5</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
@@ -1133,6 +1169,7 @@
 <td>483</td>
 <td>0483_HM_La5Al3Co2</td>
 <td class="formula">La5Al3Co2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 5.9 K</td>
 <td>Bulk</td>
@@ -1160,6 +1197,7 @@
 <td>486</td>
 <td>0486_HM_Al4FeCo3</td>
 <td class="formula">Al4FeCo3</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1187,6 +1225,7 @@
 <td>487</td>
 <td>0487_HM_Al8FeCo7</td>
 <td class="formula">Al8FeCo7</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1214,6 +1253,7 @@
 <td>489</td>
 <td>0489_HM_Gd3CoSn6</td>
 <td class="formula">Gd3CoSn6</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1241,6 +1281,7 @@
 <td>490</td>
 <td>0490_HM_GdCo4Sn6</td>
 <td class="formula">GdCo4Sn6</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1268,10 +1309,11 @@
 <td>491</td>
 <td>0491_HM_TiGePt5</td>
 <td class="formula">TiGePt5</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>C (two active binaries, single real ternary phase)</td>
 <td>1.4</td>
@@ -1295,10 +1337,11 @@
 <td>492</td>
 <td>0492_HM_Ti2GePt8</td>
 <td class="formula">Ti2GePt8</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>C (two active binaries, single real ternary phase)</td>
 <td>0.53</td>
@@ -1322,10 +1365,11 @@
 <td>493</td>
 <td>0493_HM_TiSiPt5</td>
 <td class="formula">TiSiPt5</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>C (two active binaries, single real ternary phase)</td>
 <td>1.87</td>
@@ -1349,10 +1393,11 @@
 <td>494</td>
 <td>0494_HM_Ti2SiPt8</td>
 <td class="formula">Ti2SiPt8</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Bulk</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>C (two active binaries, single real ternary phase)</td>
 <td>0.44</td>
@@ -1376,6 +1421,7 @@
 <td>495</td>
 <td>0495_HM_GdFeGe3</td>
 <td class="formula">GdFeGe3</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1403,6 +1449,7 @@
 <td>496</td>
 <td>0496_HM_Gd2Fe3Ge5</td>
 <td class="formula">Gd2Fe3Ge5</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1430,6 +1477,7 @@
 <td>497</td>
 <td>0497_HM_GdFeGe2</td>
 <td class="formula">GdFeGe2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 4.2 K</td>
 <td>Powder</td>
@@ -1457,10 +1505,11 @@
 <td>499</td>
 <td>0499_HM_GaHf2Nb</td>
 <td class="formula">GaHf2Nb</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 6.1 K</td>
 <td>Bulk</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>1.51</td>
@@ -1484,10 +1533,11 @@
 <td>500</td>
 <td>0500_HM_GaNbZr2</td>
 <td class="formula">GaNbZr2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 9.0 K</td>
 <td>Bulk</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>0.83</td>
@@ -1511,10 +1561,11 @@
 <td>502</td>
 <td>0502_HM_Nb5Si2V</td>
 <td class="formula">Nb5Si2V</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 3.0 K</td>
 <td>Bulk</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>Diffusion Model</td>
 <td>1.3</td>
@@ -1538,6 +1589,7 @@
 <td>503</td>
 <td>0503_HM_CoSiY</td>
 <td class="formula">CoSiY</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td>Powder</td>
@@ -1565,6 +1617,7 @@
 <td>504</td>
 <td>0504_HM_CoSi3Y</td>
 <td class="formula">CoSi3Y</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td>Powder</td>
@@ -1592,6 +1645,7 @@
 <td>506</td>
 <td>0506_HM_Al3Cu2Y</td>
 <td class="formula">Al3Cu2Y</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not tested yet</td>
 <td>Powder</td>
@@ -1619,10 +1673,11 @@
 <td>507</td>
 <td>0507_HM_CuSnY</td>
 <td class="formula">CuSnY</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not tested</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>James's (thermodynamically stable, low-disorder...</td>
 <td>0.43</td>
@@ -1646,10 +1701,11 @@
 <td>510</td>
 <td>0510_HM_B2NbNi2</td>
 <td class="formula">B2NbNi2</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>James's (thermodynamically stable, low-disorder...</td>
 <td>0.5</td>
@@ -1673,6 +1729,7 @@
 <td>512</td>
 <td>0512_HM_C2CrSc</td>
 <td class="formula">C2CrSc</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td><span style="color: #999;">—</span></td>
@@ -1700,10 +1757,11 @@
 <td>513</td>
 <td>0513_HM_C2LaRu</td>
 <td class="formula">C2LaRu</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not above 2.0 K</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>James's (thermodynamically stable, low-disorder...</td>
 <td>6.255</td>
@@ -1727,10 +1785,11 @@
 <td>514</td>
 <td>0514_HM_LaNiSi3</td>
 <td class="formula">LaNiSi3</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Not tested yet</td>
 <td>Powder</td>
-<td>Siemens</td>
+<td>Both</td>
 <td>not yet analyzed</td>
 <td>James's (thermodynamically stable, low-disorder...</td>
 <td>2.2</td>
@@ -1754,6 +1813,7 @@
 <td>526</td>
 <td>0526_HM_Re4TaZr</td>
 <td class="formula">Re4TaZr</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 5.2 K</td>
 <td>Bulk</td>
@@ -1781,6 +1841,7 @@
 <td>527</td>
 <td>0527_HM_Mo3Os0.5Ge0.5</td>
 <td class="formula">Mo3Os0.5Ge0.5</td>
+<td><span style="color: #999;">—</span></td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td>Tc of 5.15 K</td>
 <td>Bulk</td>
@@ -1799,6 +1860,482 @@
 <td><span style="color: #999;">—</span></td>
 <td>0</td>
 <td>5.15</td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0534_HM_Al4FeCo3.html" class="sample-link">View</a></td>
+<td>534</td>
+<td>0534_HM_Al4FeCo3</td>
+<td class="formula">Al4FeCo3</td>
+<td>486</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 486)</td>
+<td>Powder</td>
+<td>Siemens</td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>3.33</td>
+<td>0.97</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.8934</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000741</td>
+<td>Al4 Co3 Fe1</td>
+<td>-0.5611</td>
+<td>-0.006495</td>
+<td>2.147e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0535_HM_Al8FeCo7.html" class="sample-link">View</a></td>
+<td>535</td>
+<td>0535_HM_Al8FeCo7</td>
+<td class="formula">Al8FeCo7</td>
+<td>487</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 487)</td>
+<td>Powder</td>
+<td>Siemens</td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>0.56</td>
+<td>1.007</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.9188</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001557</td>
+<td>Al8 Co7 Fe1</td>
+<td>-0.5911</td>
+<td>-0.003415</td>
+<td>2.155e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0536_HM_Gd3CoSn6.html" class="sample-link">View</a></td>
+<td>536</td>
+<td>0536_HM_Gd3CoSn6</td>
+<td class="formula">Gd3CoSn6</td>
+<td>489</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 489)</td>
+<td>Powder</td>
+<td>Siemens</td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>9.46</td>
+<td>3.07</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.2373</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001517</td>
+<td>Co1 Gd3 Sn6</td>
+<td>-0.6358</td>
+<td>-0.02515</td>
+<td>1.791e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0537_HM_GdCo4Sn6.html" class="sample-link">View</a></td>
+<td>537</td>
+<td>0537_HM_GdCo4Sn6</td>
+<td class="formula">GdCo4Sn6</td>
+<td>490</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 490)</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>0.5</td>
+<td>1.709</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.04159</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000742</td>
+<td>Co4 Gd1 Sn6</td>
+<td>-0.311</td>
+<td>-0.004145</td>
+<td>1.369e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0538_HM_CoSiY.html" class="sample-link">View</a></td>
+<td>538</td>
+<td>0538_HM_CoSiY</td>
+<td class="formula">CoSiY</td>
+<td>503</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 2.0 K (based on 503)</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>James's (thermodynamically stable, low-disorder...</td>
+<td>0.039</td>
+<td>3.953</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.1349</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00311</td>
+<td>Co1 Si1 Y1</td>
+<td>-0.7567</td>
+<td>-0.04293</td>
+<td>1.369e+06</td>
+<td>13</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0539_HM_CoSi3Y.html" class="sample-link">View</a></td>
+<td>539</td>
+<td>0539_HM_CoSi3Y</td>
+<td class="formula">CoSi3Y</td>
+<td>504</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 2.0 K (based on 504)</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>James's (thermodynamically stable, low-disorder...</td>
+<td>0.46</td>
+<td>2.836</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.01165</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000661</td>
+<td>Co1 Si3 Y1</td>
+<td>-0.6659</td>
+<td>-0.0173</td>
+<td>1.476e+06</td>
+<td>3</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0540_HM_Al3Cu2Y.html" class="sample-link">View</a></td>
+<td>540</td>
+<td>0540_HM_Al3Cu2Y</td>
+<td class="formula">Al3Cu2Y</td>
+<td>506</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not tested yet</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>James's (thermodynamically stable, low-disorder...</td>
+<td>2.99</td>
+<td>2.695</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.1809</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000332</td>
+<td>Al3 Cu2 Y1</td>
+<td>-0.4375</td>
+<td>-0.01084</td>
+<td>1.37e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0541_HM_MoTiTa2.html" class="sample-link">View</a></td>
+<td>541</td>
+<td>0541_HM_MoTiTa2</td>
+<td class="formula">MoTiTa2</td>
+<td>447</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 447)</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>Diffusion Model</td>
+<td>1.76</td>
+<td>2.035</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.975</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000717</td>
+<td>Mo1 Ta2 Ti1</td>
+<td>-0.06738</td>
+<td>0.04485</td>
+<td>5.309e+05</td>
+<td>3</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0542_HM_MoTi2Ta.html" class="sample-link">View</a></td>
+<td>542</td>
+<td>0542_HM_MoTi2Ta</td>
+<td class="formula">MoTi2Ta</td>
+<td>448</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 448)</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>Diffusion Model</td>
+<td>1.31</td>
+<td>2.22</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>0.9981</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001095</td>
+<td>Mo1 Ta1 Ti2</td>
+<td>-0.0671</td>
+<td>0.04341</td>
+<td>1.127e+06</td>
+<td>2</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0544_HM_Al4FeCo3.html" class="sample-link">View</a></td>
+<td>544</td>
+<td>0544_HM_Al4FeCo3</td>
+<td class="formula">Al4FeCo3</td>
+<td>486</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>Not above 4.2 K (based on 486)</td>
+<td>Powder</td>
+<td><span style="color: #999;">—</span></td>
+<td>not x-rayed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>10.88</td>
+<td>0.97</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.8934</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00077</td>
+<td>Al4 Co3 Fe1</td>
+<td>-0.5611</td>
+<td>-0.006495</td>
+<td>2.147e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0545_HM_Al4FeCo3.html" class="sample-link">View</a></td>
+<td>545</td>
+<td>0545_HM_Al4FeCo3</td>
+<td class="formula">Al4FeCo3</td>
+<td>486</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 486)</td>
+<td>Powder</td>
+<td>Both</td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>0.82</td>
+<td>0.97</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.8934</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001312</td>
+<td>Al4 Co3 Fe1</td>
+<td>-0.5611</td>
+<td>-0.006495</td>
+<td>2.147e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0553_HM_GdFeGe3.html" class="sample-link">View</a></td>
+<td>553</td>
+<td>0553_HM_GdFeGe3</td>
+<td class="formula">GdFeGe3</td>
+<td>495</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 495)</td>
+<td>Powder</td>
+<td><span style="color: #999;">—</span></td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>2.34</td>
+<td>8.62</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00973</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000777</td>
+<td>Fe1 Gd1 Ge3</td>
+<td>-0.4714</td>
+<td>-0.01899</td>
+<td>1.365e+06</td>
+<td>2</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0554_HM_Gd2Fe3Ge5.html" class="sample-link">View</a></td>
+<td>554</td>
+<td>0554_HM_Gd2Fe3Ge5</td>
+<td class="formula">Gd2Fe3Ge5</td>
+<td>496</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 496)</td>
+<td>Powder</td>
+<td><span style="color: #999;">—</span></td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>4.49</td>
+<td>7.43</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.009938</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.00192</td>
+<td>Fe3 Gd2 Ge5</td>
+<td>-0.4763</td>
+<td>-0.008568</td>
+<td>1.8e+06</td>
+<td>2</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0555_HM_GdFeGe2.html" class="sample-link">View</a></td>
+<td>555</td>
+<td>0555_HM_GdFeGe2</td>
+<td class="formula">GdFeGe2</td>
+<td>497</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 497)</td>
+<td>Powder</td>
+<td><span style="color: #999;">—</span></td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>1.49</td>
+<td>7.775</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.01268</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.002201</td>
+<td>Fe1 Gd1 Ge2</td>
+<td>-0.5452</td>
+<td>0.0001589</td>
+<td>1.378e+06</td>
+<td>3</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0556_HM_Gd3CoSn6.html" class="sample-link">View</a></td>
+<td>556</td>
+<td>0556_HM_Gd3CoSn6</td>
+<td class="formula">Gd3CoSn6</td>
+<td>489</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 489)</td>
+<td>Powder</td>
+<td><span style="color: #999;">—</span></td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>2.04</td>
+<td>3.07</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.2373</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001138</td>
+<td>Co1 Gd3 Sn6</td>
+<td>-0.6358</td>
+<td>-0.02515</td>
+<td>1.791e+06</td>
+<td>1</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0557_HM_Gd2Fe3Ge5.html" class="sample-link">View</a></td>
+<td>557</td>
+<td>0557_HM_Gd2Fe3Ge5</td>
+<td class="formula">Gd2Fe3Ge5</td>
+<td>496</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td>Not above 4.2 K (based on 496)</td>
+<td>Powder</td>
+<td><span style="color: #999;">—</span></td>
+<td>not yet analyzed</td>
+<td>C (two active binaries, single real ternary phase)</td>
+<td>4.96</td>
+<td>7.43</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.009938</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.001152</td>
+<td>Fe3 Gd2 Ge5</td>
+<td>-0.4763</td>
+<td>-0.008568</td>
+<td>1.8e+06</td>
+<td>2</td>
+<td><span style="color: #999;">—</span></td>
+<td>0</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">[]</span></td>
+</tr>
+<tr>
+<td><a href="samples/0558_HM_ScCu4Pd.html" class="sample-link">View</a></td>
+<td>558</td>
+<td>0558_HM_ScCu4Pd</td>
+<td class="formula">ScCu4Pd</td>
+<td>472</td>
+<td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
+<td><span style="color: #999;">—</span></td>
+<td><span style="color: #999;">—</span></td>
+<td><span style="color: #999;">—</span></td>
+<td><span style="color: #999;">—</span></td>
+<td><span style="color: #999;">—</span></td>
+<td>13.04</td>
+<td>51.67</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.2457</td>
+<td><span style="color: #28a745; font-weight: bold;">✓</span></td>
+<td>0.000714</td>
+<td>Cu4 Pd1 Sc1</td>
+<td>-0.344</td>
+<td>-0.02417</td>
+<td>1.992e+06</td>
+<td>2</td>
+<td><span style="color: #999;">—</span></td>
 <td>0</td>
 <td><span style="color: #dc3545; font-weight: bold;">✗</span></td>
 <td><span style="color: #999;">[]</span></td>
