@@ -10,6 +10,8 @@ PLUGINS = [
     "synthesizability.dashboard_plugins.oqmd",
     "synthesizability.dashboard_plugins.ternary_phases",
     "synthesizability.dashboard_plugins.susceptibility",
+    "synthesizability.dashboard_plugins.xrd_rietveld",
+    "synthesizability.dashboard_plugins.xrd_comparison",
     "synthesizability.dashboard_plugins.supercon",
 ]
 

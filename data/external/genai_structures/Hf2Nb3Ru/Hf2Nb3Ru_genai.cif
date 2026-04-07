@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Hf2Nb3Ru
+_chemical_formula_sum              "Hf2 Nb3 Ru1"
+_cell_length_a       3.25176643905226
+_cell_length_b       3.251769828253517
+_cell_length_c       10.086009264768924
+_cell_angle_alpha    89.99627565231728
+_cell_angle_beta     90.00032934737172
+_cell_angle_gamma    90.0000015758436
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.6900157527999999  0.09198897069999999  0.7152960262999999  1.0000
+  Hf  Hf2       1.0  0.6900189556  0.09185976279999998  0.028910191300000002  1.0000
+  Nb  Nb1       1.0  0.1899862802  0.5918210048  0.21452305099999996  1.0000
+  Nb  Nb2       1.0  0.6899619195  0.09191569679999999  0.3720939086  1.0000
+  Nb  Nb3       1.0  0.18997243  0.5920121675  0.5296713235999999  1.0000
+  Ru  Ru1       1.0  0.1900216618  0.5919093973  0.8721074992999999  1.0000

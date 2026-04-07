@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       ZrTaRe4
+_chemical_formula_sum              "Zr1 Ta1 Re4"
+_cell_length_a       5.204595690832386
+_cell_length_b       5.204673725739055
+_cell_length_c       5.204728264602703
+_cell_angle_alpha    59.99826003520486
+_cell_angle_beta     60.00038830526201
+_cell_angle_gamma    60.00015506447279
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.022894013599999995  0.3370169318  0.2818791613  1.0000
+  Ta  Ta1       1.0  0.2729154239000001  0.5870552503999998  0.5318452817999999  1.0000
+  Re  Re1       1.0  0.6479521400999999  0.46189353709999986  0.9068984288  1.0000
+  Re  Re2       1.0  0.6479354476000001  0.9620520985999997  0.40674227129999996  1.0000
+  Re  Re3       1.0  0.6479239164000002  0.9620834333999999  0.9069149521  1.0000
+  Re  Re4       1.0  0.1477740583000001  0.9620567486999998  0.9069239046  1.0000

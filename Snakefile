@@ -7,6 +7,9 @@ from pathlib import Path
 
 RAW_DATA_FILES = [str(p) for p in Path("data/raw").rglob("*") if p.is_file()]
 CHI_DATA_FILES = [str(p) for p in Path("data/raw").rglob("*chiAC*.txt")]
+WPF_FILES = [str(p) for p in Path("data/raw").rglob("*.wpf.txt")]
+GENAI_CIF_FILES = [str(p) for p in Path("data/external/genai_structures").rglob("*.cif")]
+XRD_JPG_FILES = [str(p) for p in Path("data/raw").rglob("*_XRD_fit.JPG")]
 STATUS_FILES = [str(p) for p in Path("data/raw").rglob("STATUS")]
 SYNTHESIS_FILES = [str(p) for p in Path("data/raw").rglob("SYNTHESIS")]
 XRD_FILES = (
@@ -231,6 +234,9 @@ rule generate_dashboard:
         data="data/processed/synthesis_data.pkl",
         params="results/susceptibility/hc2_fit_parameters.csv",
         chi_data=CHI_DATA_FILES,
+        wpf_data=WPF_FILES,
+        genai_cifs=GENAI_CIF_FILES,
+        xrd_jpegs=XRD_JPG_FILES,
         supercon_cache="data/processed/.supercon_cached",
         ternary_cifs="data/external/oqmd_ternary_phases/.extracted",
     output:
