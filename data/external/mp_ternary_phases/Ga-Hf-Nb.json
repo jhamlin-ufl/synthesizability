@@ -1,0 +1,31 @@
+{
+  "space": "Ga-Hf-Nb",
+  "elements": [
+    "Ga",
+    "Hf",
+    "Nb"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-30644",
+      "composition_id": "Ga3 Hf3 Nb2",
+      "delta_e": -0.5368445712500041,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3275691",
+      "composition_id": "Ga3 Hf2 Nb1",
+      "delta_e": -0.5705566550000041,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3274112",
+      "composition_id": "Ga12 Hf7 Nb5",
+      "delta_e": -0.5518380541666701,
+      "stability": 0.000284343511911,
+      "icsd": false
+    }
+  ]
+}

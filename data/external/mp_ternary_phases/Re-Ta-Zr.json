@@ -1,0 +1,31 @@
+{
+  "space": "Re-Ta-Zr",
+  "elements": [
+    "Re",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-3269106",
+      "composition_id": "Re1 Ta3 Zr2",
+      "delta_e": -0.196956144083335,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3341630",
+      "composition_id": "Re5 Ta3 Zr4",
+      "delta_e": -0.387494471208332,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096000",
+      "composition_id": "Re2 Ta1 Zr1",
+      "delta_e": 4.530790721916666,
+      "stability": 4.836545283995098,
+      "icsd": false
+    }
+  ]
+}

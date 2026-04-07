@@ -1,0 +1,37 @@
+{
+  "space": "Mo-Ti",
+  "elements": [
+    "Mo",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1017983",
+      "composition_id": "Mo3 Ti1",
+      "delta_e": -0.134486429166667,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1216655",
+      "composition_id": "Mo1 Ti1",
+      "delta_e": -0.077603857222221,
+      "stability": 0.012053762222222,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1216675",
+      "composition_id": "Mo2 Ti1",
+      "delta_e": -0.05820639222222201,
+      "stability": 0.06133710037036601,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-998968",
+      "composition_id": "Mo1 Ti1",
+      "delta_e": 0.709237452777777,
+      "stability": 0.7988950722222221,
+      "icsd": false
+    }
+  ]
+}

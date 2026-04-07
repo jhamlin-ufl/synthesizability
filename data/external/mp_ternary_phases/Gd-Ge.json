@@ -1,0 +1,30 @@
+{
+  "space": "Gd-Ge",
+  "elements": [
+    "Gd",
+    "Ge"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1198083",
+      "composition_id": "Gd5 Ge4",
+      "delta_e": -0.8411585647222211,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-19918",
+      "composition_id": "Gd1 Ge1",
+      "delta_e": -0.8571168275000001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1072982",
+      "composition_id": "Gd1 Ge2",
+      "delta_e": -0.558959765,
+      "stability": 0.012451453333332,
+      "icsd": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "space": "Fe",
+  "elements": [
+    "Fe"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-13",
+      "composition_id": "Fe1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1271068",
+      "composition_id": "Fe1",
+      "delta_e": 0.017069855000000002,
+      "stability": 0.017069855000000002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1271198",
+      "composition_id": "Fe1",
+      "delta_e": 0.054992034999999,
+      "stability": 0.054992034999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-136",
+      "composition_id": "Fe1",
+      "delta_e": 0.09780592,
+      "stability": 0.09780592,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1271128",
+      "composition_id": "Fe1",
+      "delta_e": 0.099134600000001,
+      "stability": 0.099134600000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-150",
+      "composition_id": "Fe1",
+      "delta_e": 0.148364500000001,
+      "stability": 0.148364500000001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1194030",
+      "composition_id": "Fe1",
+      "delta_e": 0.17528872,
+      "stability": 0.175288720000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1245108",
+      "composition_id": "Fe1",
+      "delta_e": 0.279455497300001,
+      "stability": 0.2794554973,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096950",
+      "composition_id": "Fe1",
+      "delta_e": 0.47669942000000104,
+      "stability": 0.47669942000000104,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-568345",
+      "composition_id": "Fe1",
+      "delta_e": 0.76141216,
+      "stability": 0.76141216,
+      "icsd": false
+    }
+  ]
+}

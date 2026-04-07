@@ -1,12 +1,12 @@
 """
-Dashboard plugin for OQMD ternary phase diagram data.
+Dashboard plugin for ternary phase diagram data (OQMD and Materials Project).
 
-For three-element samples, renders an interactive Plotly ternary phase
-diagram followed by a sortable table of all entries with CIF download
-links.  For binary/unary samples only the table is shown.
+For three-element samples, renders interactive Plotly ternary phase diagrams
+with a source toggle (OQMD / Materials Project).  For binary/unary samples
+only the phase table is shown.
 
-Data lives in per-space JSONs under
-data/external/oqmd_ternary_phases/<space>.json.
+OQMD data:  data/external/oqmd_ternary_phases/<space>.json
+MP data:    data/external/mp_ternary_phases/<space>.json
 """
 import json
 import re
@@ -19,21 +19,31 @@ import plotly.graph_objects as go
 from synthesizability.oqmd import parse_elements_from_formula, parse_formula_to_oqmd
 
 
-TERNARY_DIR = Path("data/external/oqmd_ternary_phases")
+OQMD_DIR = Path("data/external/oqmd_ternary_phases")
+MP_DIR   = Path("data/external/mp_ternary_phases")
+
+# Keep old name working for backward compatibility in other code
+TERNARY_DIR = OQMD_DIR
+
 DEFAULT_SHOW = 10
 
-# Color scale: blue = very negative (stable), white = 0, red = unstable
+# Color scale: blue = stable (low energy), white = 0, red = unstable
 COLORSCALE = "RdBu_r"
-CMIN, CMAX = -0.5, 0.3
+# OQMD stability ranges from negative (below hull) to positive (above hull)
+# MP stability is always ≥ 0 (0 = on hull).  Use a shared display range.
+CMIN_OQMD, CMAX_OQMD = -0.5,  0.3   # eV/atom (OQMD: negative = stable)
+CMIN_MP,   CMAX_MP   =  0.0,  0.5   # eV/atom (MP: 0 = on hull)
 
 
 # ---------------------------------------------------------------------------
 # Data helpers (shared by figure and table)
 # ---------------------------------------------------------------------------
 
-def _load_all_entries(formula: str) -> list[dict]:
+def _load_all_entries(formula: str, data_dir: Path) -> list[dict]:
     """
-    Load and merge all entries across all subspaces for a given formula.
+    Load and merge all entries across all subspaces for a given formula
+    from *data_dir* (either OQMD_DIR or MP_DIR).
+
     Entries are augmented with 'order' (1=unary, 2=binary, 3=ternary)
     and 'space'.  Sorted by stability ascending (most stable first).
     """
@@ -42,7 +52,7 @@ def _load_all_entries(formula: str) -> list[dict]:
     for r in range(1, len(elements) + 1):
         for combo in combinations(elements, r):
             space = '-'.join(sorted(combo))
-            json_path = TERNARY_DIR / f"{space}.json"
+            json_path = data_dir / f"{space}.json"
             if not json_path.exists():
                 continue
             for entry in json.loads(json_path.read_text())["entries"]:
@@ -60,23 +70,39 @@ def _lowest_per_composition(entries: list[dict]) -> list[dict]:
     by_comp: dict[str, dict] = {}
     for e in entries:
         cid = e["composition_id"]
-        if cid not in by_comp or e["delta_e"] < by_comp[cid]["delta_e"]:
+        if cid not in by_comp or (e["delta_e"] is not None and
+                (by_comp[cid]["delta_e"] is None or
+                 e["delta_e"] < by_comp[cid]["delta_e"])):
             by_comp[cid] = e
     return list(by_comp.values())
 
 
-def _cif_rel_path(space: str, composition_id: str, entry_id: int,
-                  stability: float | None) -> str | None:
-    """
-    Return relative path from a detail page to the CIF file, or None if missing.
-    Detail pages live at results/dashboard/samples/<id>.html.
-    """
+def _oqmd_cif_rel_path(space: str, composition_id: str, entry_id: int,
+                        stability: float | None) -> str | None:
+    """Relative path to an OQMD CIF file from a sample detail page."""
     from synthesizability.oqmd import make_cif_filename
     filename = make_cif_filename(composition_id, entry_id, stability)
-    cif_path = TERNARY_DIR / space / "cifs" / filename
+    cif_path = OQMD_DIR / space / "cifs" / filename
     if not cif_path.exists():
         return None
     return f"../../../data/external/oqmd_ternary_phases/{space}/cifs/{filename}"
+
+
+def _mp_cif_rel_path(space: str, composition_id: str, mp_id: str,
+                     stability: float | None) -> str | None:
+    """Relative path to an MP CIF file from a sample detail page."""
+    compact = composition_id.replace(" ", "")
+    safe_mp_id = mp_id.replace("/", "_")
+    if stability is None:
+        stab_str = "stabNone"
+    else:
+        meV = round(stability * 1000)
+        stab_str = f"stab+{meV}meV" if meV >= 0 else f"stab{meV}meV"
+    filename = f"{compact}_{safe_mp_id}_{stab_str}.cif"
+    cif_path = MP_DIR / space / "cifs" / filename
+    if not cif_path.exists():
+        return None
+    return f"../../../data/external/mp_ternary_phases/{space}/cifs/{filename}"
 
 
 # ---------------------------------------------------------------------------
@@ -119,23 +145,29 @@ def _fracs_match(counts: dict[str, float], target_fracs: dict[str, float],
             abs(fc - target_fracs.get(elements[2], 0.0)) < tol)
 
 
-def _make_tooltip(e: dict, is_target: bool = False) -> str:
+def _make_tooltip(e: dict, is_target: bool = False, source: str = "oqmd") -> str:
     stab = e.get("stability")
-    stab_str = f"{stab * 1000:+.0f} meV/atom" if stab is not None else "unknown"
+    if source == "oqmd":
+        stab_str = f"{stab * 1000:+.0f} meV/atom" if stab is not None else "unknown"
+    else:
+        # MP: stability ≥ 0, 0 = on hull
+        stab_str = f"{stab * 1000:.0f} meV/atom above hull" if stab is not None else "unknown"
     icsd_str = "  [ICSD]" if e.get("icsd") else ""
     target_str = "★ Target composition<br>" if is_target else ""
+    de = e.get("delta_e")
+    de_str = f"{de * 1000:.0f} meV/atom" if de is not None else "—"
     return (
         f"{target_str}"
         f"<b>{e['composition_id']}</b>{icsd_str}<br>"
-        f"Formation energy ΔE = {e['delta_e'] * 1000:.0f} meV/atom<br>"
+        f"Formation energy ΔE = {de_str}<br>"
         f"Hull distance = {stab_str}"
     )
 
 
 def _make_ternary_figure(all_entries: list[dict], formula: str,
-                         elements: list[str]) -> go.Figure:
+                         elements: list[str], source: str = "oqmd") -> go.Figure:
     """
-    Build the interactive ternary figure.
+    Build an interactive ternary figure for *source* ('oqmd' or 'mp').
 
     Trace indices used by filter buttons:
       0 – non-ICSD, off-hull
@@ -144,15 +176,23 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
       3 – ICSD, on-hull
       4 – target composition
     """
+    cmin = CMIN_OQMD if source == "oqmd" else CMIN_MP
+    cmax = CMAX_OQMD if source == "oqmd" else CMAX_MP
+    source_label = "OQMD" if source == "oqmd" else "Materials Project"
+    no_entry_msg = (
+        f"(no {source_label} entry at this composition)"
+    )
+
     entries = _lowest_per_composition(all_entries)
     n_total = len(entries)
+    # OQMD: on-hull when stability ≤ 0.  MP: on-hull when stability ≈ 0.
+    hull_tol = 1e-6 if source == "oqmd" else 0.001
     n_hull = sum(1 for e in entries
-                 if e.get("stability") is not None and e["stability"] <= 1e-6)
+                 if e.get("stability") is not None and e["stability"] <= hull_tol)
     n_icsd = sum(1 for e in entries if e.get("icsd"))
 
     target_fracs = _target_fracs_from_formula(formula, elements)
 
-    # Separate target entry from the rest (avoid double-plotting)
     target_entry = None
     remaining = []
     for e in entries:
@@ -165,7 +205,7 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
     def _split(subset):
         ni_off, ni_on, ic_off, ic_on = [], [], [], []
         for e in subset:
-            on = e.get("stability") is not None and e["stability"] <= 1e-6
+            on = e.get("stability") is not None and e["stability"] <= hull_tol
             if e.get("icsd"):
                 (ic_on if on else ic_off).append(e)
             else:
@@ -180,8 +220,8 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
             counts = _parse_composition(e["composition_id"])
             fa, fb, fc = _to_ternary(counts, elements)
             a.append(fa); b.append(fb); c.append(fc)
-            de.append(e["delta_e"])
-            tips.append(_make_tooltip(e, is_target=is_target_group))
+            de.append(e.get("delta_e"))
+            tips.append(_make_tooltip(e, is_target=is_target_group, source=source))
         return a, b, c, de, tips
 
     fig = go.Figure()
@@ -194,7 +234,7 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
                 a=[], b=[], c=[], mode="markers", name=name,
                 showlegend=False,
                 marker=dict(symbol=symbol, size=size, color=[],
-                            colorscale=COLORSCALE, cmin=CMIN, cmax=CMAX,
+                            colorscale=COLORSCALE, cmin=cmin, cmax=cmax,
                             opacity=opacity,
                             line=dict(color=outline_color, width=outline_width)),
                 hoverinfo="text",
@@ -207,7 +247,7 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
             name=name,
             marker=dict(
                 symbol=symbol, size=size,
-                color=de, colorscale=COLORSCALE, cmin=CMIN, cmax=CMAX,
+                color=de, colorscale=COLORSCALE, cmin=cmin, cmax=cmax,
                 opacity=opacity,
                 line=dict(color=outline_color, width=outline_width),
             ),
@@ -221,11 +261,13 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
     _add_trace(ic_off, "ICSD, off-hull",     "diamond",  8, 0.55, "rgba(0,0,0,0)")
     _add_trace(ic_on,  "ICSD, on-hull",      "diamond", 11, 0.90, "black")
 
-    # Attach colorbar to the first trace that has data
+    # Attach colorbar
+    cb_title = ("Formation Energy<br>ΔE (eV/atom)" if source == "oqmd"
+                else "Hull Distance<br>(eV/atom)")
     for tr in fig.data:
         if tr.marker.color is not None and len(tr.marker.color) > 0:
             tr.marker.colorbar = dict(
-                title=dict(text="Formation Energy<br>ΔE (eV/atom)", side="right"),
+                title=dict(text=cb_title, side="right"),
                 thickness=14, len=0.45,
                 x=1.02, xanchor="left",
                 y=0.98, yanchor="top",
@@ -244,10 +286,10 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
             name=f"Target: {formula}",
             marker=dict(
                 symbol=symbol, size=18,
-                color=de, colorscale=COLORSCALE, cmin=CMIN, cmax=CMAX,
+                color=de, colorscale=COLORSCALE, cmin=cmin, cmax=cmax,
                 line=dict(color="black", width=1.5),
             ),
-            text=[_make_tooltip(target_entry, is_target=True)],
+            text=[_make_tooltip(target_entry, is_target=True, source=source)],
             hoverinfo="text",
             cliponaxis=False,
         ))
@@ -264,7 +306,7 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
                 color="gold",
                 line=dict(color="black", width=1.5),
             ),
-            text=[f"★ Target: {formula}<br>(no OQMD entry at this composition)"],
+            text=[f"★ Target: {formula}<br>{no_entry_msg}"],
             hoverinfo="text",
             cliponaxis=False,
         ))
@@ -286,7 +328,7 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
     fig.update_layout(
         title=dict(
             text=(
-                f"<b>{system_name} — OQMD phases</b>"
+                f"<b>{system_name} — {source_label} phases</b>"
                 f"<br><sup>{n_total} unique compositions · "
                 f"{n_hull} on hull · "
                 f"{n_icsd} ICSD entries · "
@@ -333,12 +375,129 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
 
 
 # ---------------------------------------------------------------------------
+# Plugin interface helpers
+# ---------------------------------------------------------------------------
+
+def _build_phase_table_html(entries: list[dict], source: str, formula: str,
+                             table_id: str) -> str:
+    """Build the phase table HTML (without toggleTPTable definition) for one source."""
+    elements = parse_elements_from_formula(formula)
+    space_label = "-".join(elements)
+    n_total = len(entries)
+    hull_tol = 1e-6 if source == "oqmd" else 0.001
+    n_stable = sum(1 for e in entries
+                   if e.get("stability") is not None and e["stability"] <= hull_tol)
+    n_icsd = sum(1 for e in entries if e.get("icsd"))
+    source_label = "OQMD" if source == "oqmd" else "Materials Project"
+    stab_col = "Stability (meV/atom)" if source == "oqmd" else "Hull Dist. (meV/atom)"
+    entry_col = "Entry" if source == "oqmd" else "MP ID"
+    note = ("OQMD: negative = below hull (stable)." if source == "oqmd"
+            else "MP: 0 = on hull, positive = above.")
+
+    rows_html = ""
+    for e in entries:
+        comp = e["composition_id"].replace(" ", "")
+        stability = e.get("stability")
+        delta_e = e.get("delta_e")
+        space = e["space"]
+
+        if stability is None:
+            stab_str, stab_style = "—", ""
+        else:
+            stab_meV = round(stability * 1000)
+            stab_str = f"{stab_meV:+d}"
+            if stability <= hull_tol:
+                stab_style = ' style="color:#28a745; font-weight:bold;"'
+            elif stability <= 0.05:
+                stab_style = ' style="color:#856404;"'
+            else:
+                stab_style = ' style="color:#721c24;"'
+
+        delta_e_str = f"{delta_e * 1000:.1f}" if delta_e is not None else "—"
+        icsd_str = "✓" if e.get("icsd") else ""
+
+        if source == "oqmd":
+            entry_id = e.get("entry_id")
+            cif_rel = _oqmd_cif_rel_path(space, e["composition_id"], entry_id, stability)
+            entry_cell = (
+                f'<a href="https://oqmd.org/materials/entry/{entry_id}" '
+                f'class="external-link" target="_blank">{entry_id}</a>'
+                if entry_id else "—"
+            )
+        else:
+            mp_id = e.get("mp_id")
+            cif_rel = _mp_cif_rel_path(space, e["composition_id"], mp_id, stability)
+            entry_cell = (
+                f'<a href="https://next-gen.materialsproject.org/materials/{mp_id}" '
+                f'class="external-link" target="_blank">{mp_id}</a>'
+                if mp_id else "—"
+            )
+
+        cif_html = (f'<a href="{cif_rel}" class="cif-link" download>CIF</a>'
+                    if cif_rel else "—")
+
+        rows_html += f"""<tr>
+    <td><code>{comp}</code></td>
+    <td{stab_style}>{stab_str}</td>
+    <td>{delta_e_str}</td>
+    <td style="text-align:center; color:#28a745;">{icsd_str}</td>
+    <td>{space}</td>
+    <td>{entry_cell}</td>
+    <td>{cif_html}</td>
+</tr>\n"""
+
+    return f"""
+<p style="color:#555; font-size:0.9em; margin:12px 0 8px 0;">
+    {n_total} {source_label} entries in the <strong>{space_label}</strong> element system
+    ({n_stable} on hull, {n_icsd} ICSD-tagged). {note} Sorted most stable first.
+</p>
+<table id="{table_id}" class="fit-table">
+    <thead>
+        <tr>
+            <th>Composition</th>
+            <th>{stab_col}</th>
+            <th>ΔE (meV/atom)</th>
+            <th>ICSD</th>
+            <th>Space</th>
+            <th>{entry_col}</th>
+            <th>CIF</th>
+        </tr>
+    </thead>
+    <tbody>
+        {rows_html}
+    </tbody>
+</table>
+<div id="{table_id}_controls" style="margin-top:8px; font-size:0.9em; color:#555;">
+    Showing <span id="{table_id}_showing">{min(DEFAULT_SHOW, n_total)}</span>
+    of {n_total} entries.
+    <button onclick="toggleTPTable('{table_id}', {n_total}, {DEFAULT_SHOW})"
+            id="{table_id}_btn"
+            style="margin-left:10px; padding:3px 10px; cursor:pointer;">
+        Show all
+    </button>
+</div>
+<script>
+(function() {{
+    var t = document.getElementById('{table_id}');
+    if (!t) return;
+    var rows = t.tBodies[0].rows;
+    for (var i = {DEFAULT_SHOW}; i < rows.length; i++) rows[i].style.display = 'none';
+}})();
+</script>
+"""
+
+
+# ---------------------------------------------------------------------------
 # Plugin interface
 # ---------------------------------------------------------------------------
 
 def get_summary_cards(df) -> list[dict]:
-    total = sum(1 for _ in TERNARY_DIR.rglob("*.cif")) if TERNARY_DIR.exists() else 0
-    return [{"label": "Ternary Phase CIFs", "value": str(total)}]
+    n_oqmd = sum(1 for _ in OQMD_DIR.rglob("*.cif")) if OQMD_DIR.exists() else 0
+    n_mp = sum(1 for _ in MP_DIR.rglob("*.cif")) if MP_DIR.exists() else 0
+    cards = [{"label": "OQMD Phase CIFs", "value": str(n_oqmd)}]
+    if n_mp > 0:
+        cards.append({"label": "MP Phase CIFs", "value": str(n_mp)})
+    return cards
 
 
 def get_table_columns(df) -> list[str]:
@@ -351,120 +510,112 @@ def generate(row, plots_dir: Path, results_dir: Path) -> None:
 
 def get_detail_section(row, plots_dir: Path, results_dir: Path) -> dict | None:
     formula = row["formula"]
-    entries = _load_all_entries(formula)
+    safe_id = re.sub(r"[^A-Za-z0-9]", "_", formula)
 
-    if not entries:
+    entries_oqmd = _load_all_entries(formula, OQMD_DIR)
+    entries_mp   = _load_all_entries(formula, MP_DIR)
+
+    if not entries_oqmd and not entries_mp:
         return None
 
     elements = parse_elements_from_formula(formula)
-    space_label = "-".join(elements)
-    n_total = len(entries)
-    n_stable = sum(1 for e in entries
-                   if e["stability"] is not None and e["stability"] <= 0)
-    n_icsd = sum(1 for e in entries if e["icsd"])
+    has_mp = bool(entries_mp)
 
     html = ""
 
-    # --- Ternary diagram (3-element systems only) --------------------------
-    if len(elements) == 3:
-        fig = _make_ternary_figure(entries, formula, elements)
-        html += fig.to_html(
-            full_html=False,
-            include_plotlyjs="cdn",
-            config={"displayModeBar": False},
-        )
-
-    # --- Phase table -------------------------------------------------------
-    html += f"""
-<p style="color:#555; font-size:0.9em; margin:12px 0 8px 0;">
-    {n_total} entries in the <strong>{space_label}</strong> element system
-    ({n_stable} on hull, {n_icsd} ICSD-tagged).
-    Stability in meV/atom. Sorted most stable first.
-</p>
+    # --- Source toggle (only shown when MP data is available) --------------
+    if has_mp:
+        html += f"""
+<div style="margin-bottom:14px;">
+    <button id="tp_src_btn_oqmd_{safe_id}"
+            onclick="toggleTPSource('{safe_id}', 'oqmd')"
+            style="padding:6px 16px; cursor:pointer; border:1px solid #2c7be5;
+                   background:#2c7be5; color:white; font-weight:bold;
+                   border-radius:4px 0 0 4px;">OQMD</button><button
+            id="tp_src_btn_mp_{safe_id}"
+            onclick="toggleTPSource('{safe_id}', 'mp')"
+            style="padding:6px 16px; cursor:pointer; border:1px solid #aaa;
+                   background:#f8f9fa; color:#333; font-weight:normal;
+                   border-radius:0 4px 4px 0;">Materials Project</button>
+</div>
 """
 
-    table_id = f"tp_table_{formula.replace('.', '_')}"
-    rows_html = ""
-    for e in entries:
-        comp = e["composition_id"].replace(" ", "")
-        entry_id = e["entry_id"]
-        stability = e["stability"]
-        delta_e = e["delta_e"]
-        space = e["space"]
+    # --- Build OQMD section HTML -------------------------------------------
+    oqmd_html = ""
+    if entries_oqmd:
+        if len(elements) == 3:
+            fig = _make_ternary_figure(entries_oqmd, formula, elements, source="oqmd")
+            oqmd_html += fig.to_html(
+                full_html=False,
+                include_plotlyjs="cdn",
+                config={"displayModeBar": False},
+            )
+        oqmd_html += _build_phase_table_html(
+            entries_oqmd, "oqmd", formula, f"tp_table_oqmd_{safe_id}"
+        )
 
-        if stability is None:
-            stab_str, stab_style = "—", ""
-        else:
-            stab_meV = round(stability * 1000)
-            stab_str = f"{stab_meV:+d}"
-            if stability <= 0:
-                stab_style = ' style="color:#28a745; font-weight:bold;"'
-            elif stability <= 0.05:
-                stab_style = ' style="color:#856404;"'
-            else:
-                stab_style = ' style="color:#721c24;"'
+    # --- Build MP section HTML ---------------------------------------------
+    mp_html = ""
+    if has_mp:
+        if len(elements) == 3:
+            fig = _make_ternary_figure(entries_mp, formula, elements, source="mp")
+            mp_html += fig.to_html(
+                full_html=False,
+                include_plotlyjs="cdn",
+                config={"displayModeBar": False},
+            )
+        mp_html += _build_phase_table_html(
+            entries_mp, "mp", formula, f"tp_table_mp_{safe_id}"
+        )
 
-        delta_e_str = f"{delta_e*1000:.1f}" if delta_e is not None else "—"
-        icsd_str = "✓" if e["icsd"] else ""
-
-        cif_rel = _cif_rel_path(space, e["composition_id"], entry_id, stability)
-        cif_html = (f'<a href="{cif_rel}" class="cif-link" download>CIF</a>'
-                    if cif_rel else "—")
-
-        rows_html += f"""<tr>
-    <td><code>{comp}</code></td>
-    <td{stab_style}>{stab_str}</td>
-    <td>{delta_e_str}</td>
-    <td style="text-align:center; color:#28a745;">{icsd_str}</td>
-    <td>{space}</td>
-    <td><a href="https://oqmd.org/materials/entry/{entry_id}"
-           class="external-link" target="_blank">{entry_id}</a></td>
-    <td>{cif_html}</td>
-</tr>\n"""
-
-    html += f"""<table id="{table_id}" class="fit-table">
-    <thead>
-        <tr>
-            <th>Composition</th>
-            <th>Stability (meV/atom)</th>
-            <th>ΔE (meV/atom)</th>
-            <th>ICSD</th>
-            <th>Space</th>
-            <th>Entry</th>
-            <th>CIF</th>
-        </tr>
-    </thead>
-    <tbody>
-        {rows_html}
-    </tbody>
-</table>
-
-<div id="{table_id}_controls" style="margin-top:8px; font-size:0.9em; color:#555;">
-    Showing <span id="{table_id}_showing">{min(DEFAULT_SHOW, n_total)}</span>
-    of {n_total} entries.
-    <button onclick="toggleTPTable('{table_id}', {n_total}, {DEFAULT_SHOW})"
-            id="{table_id}_btn"
-            style="margin-left:10px; padding:3px 10px; cursor:pointer;">
-        Show all
-    </button>
-</div>
-
+    # --- Assemble with toggle wrappers -------------------------------------
+    if has_mp:
+        html += f'<div id="tp_src_oqmd_{safe_id}">{oqmd_html}</div>\n'
+        html += f'<div id="tp_src_mp_{safe_id}" style="display:none">{mp_html}</div>\n'
+        html += f"""
 <script>
-(function() {{
-    const table = document.getElementById('{table_id}');
-    const rows = table.tBodies[0].rows;
-    for (let i = {DEFAULT_SHOW}; i < rows.length; i++) {{
-        rows[i].style.display = 'none';
-    }}
-}})();
-
+function toggleTPSource(safeId, source) {{
+    ['oqmd', 'mp'].forEach(function(s) {{
+        var active = (s === source);
+        var div = document.getElementById('tp_src_' + s + '_' + safeId);
+        var btn = document.getElementById('tp_src_btn_' + s + '_' + safeId);
+        if (div) div.style.display = active ? '' : 'none';
+        if (btn) {{
+            if (active) {{
+                btn.style.background = '#2c7be5'; btn.style.color = 'white';
+                btn.style.fontWeight = 'bold'; btn.style.borderColor = '#2c7be5';
+            }} else {{
+                btn.style.background = '#f8f9fa'; btn.style.color = '#333';
+                btn.style.fontWeight = 'normal'; btn.style.borderColor = '#aaa';
+            }}
+        }}
+    }});
+}}
 function toggleTPTable(tableId, nTotal, defaultShow) {{
-    const table = document.getElementById(tableId);
-    const rows = table.tBodies[0].rows;
-    const btn = document.getElementById(tableId + '_btn');
-    const showing = document.getElementById(tableId + '_showing');
-    const allVisible = rows[defaultShow] && rows[defaultShow].style.display !== 'none';
-    for (let i = defaultShow; i < rows.length; i++) {{
+    var table = document.getElementById(tableId);
+    var rows = table.tBodies[0].rows;
+    var btn = document.getElementById(tableId + '_btn');
+    var showing = document.getElementById(tableId + '_showing');
+    var allVisible = rows[defaultShow] && rows[defaultShow].style.display !== 'none';
+    for (var i = defaultShow; i < rows.length; i++) {{
+        rows[i].style.display = allVisible ? 'none' : '';
+    }}
+    btn.textContent = allVisible ? 'Show all' : 'Show less';
+    showing.textContent = allVisible ? Math.min(defaultShow, nTotal) : nTotal;
+}}
+</script>
+"""
+    else:
+        html += oqmd_html
+        html += f"""
+<script>
+function toggleTPTable(tableId, nTotal, defaultShow) {{
+    var table = document.getElementById(tableId);
+    var rows = table.tBodies[0].rows;
+    var btn = document.getElementById(tableId + '_btn');
+    var showing = document.getElementById(tableId + '_showing');
+    var allVisible = rows[defaultShow] && rows[defaultShow].style.display !== 'none';
+    for (var i = defaultShow; i < rows.length; i++) {{
         rows[i].style.display = allVisible ? 'none' : '';
     }}
     btn.textContent = allVisible ? 'Show all' : 'Show less';
@@ -473,4 +624,4 @@ function toggleTPTable(tableId, nTotal, defaultShow) {{
 </script>
 """
 
-    return {"title": "OQMD Phases in Element System", "html": html}
+    return {"title": "Phases in Element System", "html": html}

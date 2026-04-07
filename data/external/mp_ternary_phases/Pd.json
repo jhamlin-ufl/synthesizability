@@ -1,0 +1,36 @@
+{
+  "space": "Pd",
+  "elements": [
+    "Pd"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2",
+      "composition_id": "Pd1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1186427",
+      "composition_id": "Pd1",
+      "delta_e": 0.015005062500001002,
+      "stability": 0.015005062500001002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2646997",
+      "composition_id": "Pd1",
+      "delta_e": 0.022572985,
+      "stability": 0.022572985,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2646977",
+      "composition_id": "Pd1",
+      "delta_e": 0.044765070000000004,
+      "stability": 0.044765070000000004,
+      "icsd": false
+    }
+  ]
+}

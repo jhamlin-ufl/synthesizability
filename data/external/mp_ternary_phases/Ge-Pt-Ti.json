@@ -1,0 +1,31 @@
+{
+  "space": "Ge-Pt-Ti",
+  "elements": [
+    "Ge",
+    "Pt",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1008680",
+      "composition_id": "Ge1 Pt1 Ti1",
+      "delta_e": -0.9806829755555521,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3343902",
+      "composition_id": "Ge1 Pt8 Ti2",
+      "delta_e": -0.8304093093939391,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-961671",
+      "composition_id": "Ge1 Pt1 Ti1",
+      "delta_e": -0.5181297755555551,
+      "stability": 0.46255319999999805,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "space": "Ni-Pt",
+  "elements": [
+    "Ni",
+    "Pt"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-12798",
+      "composition_id": "Ni3 Pt1",
+      "delta_e": -0.069345527499999,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-945",
+      "composition_id": "Ni1 Pt1",
+      "delta_e": -0.095115924999998,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1186117",
+      "composition_id": "Ni1 Pt3",
+      "delta_e": -0.063425809999997,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1100766",
+      "composition_id": "Ni3 Pt1",
+      "delta_e": -0.069045414999999,
+      "stability": 0.000300112499999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1220052",
+      "composition_id": "Ni1 Pt1",
+      "delta_e": -0.05509396999999901,
+      "stability": 0.040021954999998006,
+      "icsd": false
+    }
+  ]
+}

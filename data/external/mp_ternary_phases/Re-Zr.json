@@ -1,0 +1,37 @@
+{
+  "space": "Re-Zr",
+  "elements": [
+    "Re",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-574458",
+      "composition_id": "Re25 Zr21",
+      "delta_e": -0.34692920103261005,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1374",
+      "composition_id": "Re24 Zr5",
+      "delta_e": -0.21693030379309902,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-12109",
+      "composition_id": "Re2 Zr1",
+      "delta_e": -0.35678036333333,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1193848",
+      "composition_id": "Re1 Zr2",
+      "delta_e": -0.128382913166668,
+      "stability": 0.08440033013333201,
+      "icsd": true
+    }
+  ]
+}

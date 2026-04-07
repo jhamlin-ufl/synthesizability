@@ -1,0 +1,107 @@
+{
+  "space": "Cu-Zr",
+  "elements": [
+    "Cu",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1216441",
+      "composition_id": "Cu51 Zr14",
+      "delta_e": -0.16313380046153803,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-193",
+      "composition_id": "Cu1 Zr2",
+      "delta_e": -0.13412213,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1195821",
+      "composition_id": "Cu8 Zr3",
+      "delta_e": -0.16707595590909102,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1188077",
+      "composition_id": "Cu10 Zr7",
+      "delta_e": -0.158314540000001,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-30603",
+      "composition_id": "Cu5 Zr1",
+      "delta_e": -0.11645303166666601,
+      "stability": 0.009781456785713,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1080022",
+      "composition_id": "Cu1 Zr1",
+      "delta_e": -0.127434691249999,
+      "stability": 0.022505552980771,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1067210",
+      "composition_id": "Cu1 Zr1",
+      "delta_e": -0.1250487375,
+      "stability": 0.024891506730771003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2018976",
+      "composition_id": "Cu1 Zr1",
+      "delta_e": -0.138376112500001,
+      "stability": 0.02955500173077,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2210",
+      "composition_id": "Cu1 Zr1",
+      "delta_e": -0.10770546,
+      "stability": 0.042234784230771004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1077372",
+      "composition_id": "Cu1 Zr2",
+      "delta_e": -0.089884348333331,
+      "stability": 0.044237781666669,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1072655",
+      "composition_id": "Cu2 Zr1",
+      "delta_e": -0.117626063333333,
+      "stability": 0.045630813846154,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-583800",
+      "composition_id": "Cu1 Zr2",
+      "delta_e": -0.06902328708333301,
+      "stability": 0.06509884291666601,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1188040",
+      "composition_id": "Cu3 Zr1",
+      "delta_e": -0.0777720325,
+      "stability": 0.087741483749999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-580287",
+      "composition_id": "Cu1 Zr3",
+      "delta_e": 0.032930704999999005,
+      "stability": 0.13352230250000002,
+      "icsd": false
+    }
+  ]
+}

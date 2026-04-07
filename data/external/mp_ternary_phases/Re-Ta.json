@@ -1,0 +1,30 @@
+{
+  "space": "Re-Ta",
+  "elements": [
+    "Re",
+    "Ta"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-3343176",
+      "composition_id": "Re2 Ta3",
+      "delta_e": -0.433529727400002,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187203",
+      "composition_id": "Re1 Ta3",
+      "delta_e": -0.24718471362500302,
+      "stability": 0.023771365999998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1217894",
+      "composition_id": "Re1 Ta1",
+      "delta_e": -0.24994253991665902,
+      "stability": 0.111332232916673,
+      "icsd": false
+    }
+  ]
+}

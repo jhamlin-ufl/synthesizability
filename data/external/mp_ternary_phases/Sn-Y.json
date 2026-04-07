@@ -1,0 +1,93 @@
+{
+  "space": "Sn-Y",
+  "elements": [
+    "Sn",
+    "Y"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1199133",
+      "composition_id": "Sn10 Y11",
+      "delta_e": -0.7515072278571291,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-567412",
+      "composition_id": "Sn3 Y5",
+      "delta_e": -0.7434176368750011,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1203494",
+      "composition_id": "Sn4 Y5",
+      "delta_e": -0.7558239497222211,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-13010",
+      "composition_id": "Sn2 Y1",
+      "delta_e": -0.595892614999998,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11571",
+      "composition_id": "Sn3 Y1",
+      "delta_e": -0.42316383375000105,
+      "stability": 0.023755627499997004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1094248",
+      "composition_id": "Sn3 Y1",
+      "delta_e": -0.381274653749999,
+      "stability": 0.065644807499999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1080522",
+      "composition_id": "Sn3 Y1",
+      "delta_e": -0.363508169999999,
+      "stability": 0.083411291249999,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-982243",
+      "composition_id": "Sn1 Y3",
+      "delta_e": -0.37443234874999903,
+      "stability": 0.12117940916666702,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187805",
+      "composition_id": "Sn1 Y3",
+      "delta_e": -0.362388371249999,
+      "stability": 0.133223386666666,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1094705",
+      "composition_id": "Sn1 Y1",
+      "delta_e": -0.5577406624999991,
+      "stability": 0.174314738749989,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1094257",
+      "composition_id": "Sn3 Y1",
+      "delta_e": -0.164952151249999,
+      "stability": 0.28196730999999803,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1094256",
+      "composition_id": "Sn1 Y3",
+      "delta_e": -0.20320466374999901,
+      "stability": 0.29240709416666705,
+      "icsd": false
+    }
+  ]
+}

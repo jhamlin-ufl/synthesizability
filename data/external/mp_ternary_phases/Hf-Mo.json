@@ -1,0 +1,51 @@
+{
+  "space": "Hf-Mo",
+  "elements": [
+    "Hf",
+    "Mo"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2363",
+      "composition_id": "Hf1 Mo2",
+      "delta_e": -0.173352725,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1191083",
+      "composition_id": "Hf1 Mo2",
+      "delta_e": -0.164982553750003,
+      "stability": 0.008370171249993001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1224449",
+      "composition_id": "Hf1 Mo4",
+      "delta_e": 0.034349668999999,
+      "stability": 0.13836130400000002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1224314",
+      "composition_id": "Hf1 Mo1",
+      "delta_e": 0.06907830374998901,
+      "stability": 0.199092847499997,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1224345",
+      "composition_id": "Hf1 Mo2",
+      "delta_e": 0.033769634999998,
+      "stability": 0.207122359999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1212251",
+      "composition_id": "Hf4 Mo1",
+      "delta_e": 0.9890717605000021,
+      "stability": 1.041077577999999,
+      "icsd": false
+    }
+  ]
+}

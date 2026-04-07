@@ -1,0 +1,44 @@
+{
+  "space": "Nb-Ti",
+  "elements": [
+    "Nb",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1216634",
+      "composition_id": "Nb1 Ti1",
+      "delta_e": 0.05417519666666901,
+      "stability": 0.05417519666666901,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1217091",
+      "composition_id": "Nb1 Ti3",
+      "delta_e": 0.0667913925,
+      "stability": 0.0667913925,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187514",
+      "composition_id": "Nb1 Ti3",
+      "delta_e": 0.07785404749999801,
+      "stability": 0.07785404749999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-981232",
+      "composition_id": "Nb1 Ti3",
+      "delta_e": 0.081936197499999,
+      "stability": 0.081936197499999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-980945",
+      "composition_id": "Nb1 Ti3",
+      "delta_e": 0.084450384999998,
+      "stability": 0.084450384999998,
+      "icsd": false
+    }
+  ]
+}

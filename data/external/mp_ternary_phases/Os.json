@@ -1,0 +1,43 @@
+{
+  "space": "Os",
+  "elements": [
+    "Os"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-49",
+      "composition_id": "Os1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-8643",
+      "composition_id": "Os1",
+      "delta_e": 0.16492783999999702,
+      "stability": 0.16492783999999702,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1080694",
+      "composition_id": "Os1",
+      "delta_e": 0.23444609375000103,
+      "stability": 0.23444609375000103,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2647031",
+      "composition_id": "Os1",
+      "delta_e": 0.88282908,
+      "stability": 0.88282908,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1180157",
+      "composition_id": "Os1",
+      "delta_e": 3.9035489425000023,
+      "stability": 3.9035489425000023,
+      "icsd": false
+    }
+  ]
+}

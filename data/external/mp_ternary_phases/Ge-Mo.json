@@ -1,0 +1,58 @@
+{
+  "space": "Ge-Mo",
+  "elements": [
+    "Ge",
+    "Mo"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-13688",
+      "composition_id": "Ge2 Mo1",
+      "delta_e": -0.15085383499999902,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-494",
+      "composition_id": "Ge1 Mo3",
+      "delta_e": -0.15494494125000402,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-569901",
+      "composition_id": "Ge23 Mo13",
+      "delta_e": -0.11387841555555901,
+      "stability": 0.037248159861110006,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-17094",
+      "composition_id": "Ge3 Mo5",
+      "delta_e": -0.111207846874997,
+      "stability": 0.042509762499999,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-10201",
+      "composition_id": "Ge2 Mo1",
+      "delta_e": -0.10556623333333401,
+      "stability": 0.045287601666665005,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1188813",
+      "composition_id": "Ge3 Mo5",
+      "delta_e": -0.012206746874998,
+      "stability": 0.141510862499998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1184671",
+      "composition_id": "Ge3 Mo1",
+      "delta_e": 0.437787760625003,
+      "stability": 0.5509281368750011,
+      "icsd": false
+    }
+  ]
+}

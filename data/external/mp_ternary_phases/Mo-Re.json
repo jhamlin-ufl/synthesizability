@@ -1,0 +1,65 @@
+{
+  "space": "Mo-Re",
+  "elements": [
+    "Mo",
+    "Re"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-12662",
+      "composition_id": "Mo5 Re24",
+      "delta_e": -0.029093352758622,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1219493",
+      "composition_id": "Mo3 Re1",
+      "delta_e": 0.056317363645838,
+      "stability": 0.065105980624998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1219297",
+      "composition_id": "Mo2 Re3",
+      "delta_e": 0.055882278750004004,
+      "stability": 0.07697495949999901,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1219485",
+      "composition_id": "Mo1 Re1",
+      "delta_e": 0.095506892291666,
+      "stability": 0.113084126249994,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1219135",
+      "composition_id": "Mo1 Re3",
+      "delta_e": 0.10335570593750201,
+      "stability": 0.129721556875004,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-974589",
+      "composition_id": "Mo1 Re3",
+      "delta_e": 0.10701953843749801,
+      "stability": 0.13338538937500002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-974420",
+      "composition_id": "Mo1 Re3",
+      "delta_e": 0.108346480937498,
+      "stability": 0.134712331875,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1219517",
+      "composition_id": "Mo3 Re1",
+      "delta_e": 0.30378106864584,
+      "stability": 0.31256968562500004,
+      "icsd": false
+    }
+  ]
+}

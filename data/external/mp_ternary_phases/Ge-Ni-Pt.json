@@ -1,0 +1,24 @@
+{
+  "space": "Ge-Ni-Pt",
+  "elements": [
+    "Ge",
+    "Ni",
+    "Pt"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-29752",
+      "composition_id": "Ge1 Ni1 Pt2",
+      "delta_e": -0.33175783875000003,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1220122",
+      "composition_id": "Ge1 Ni4 Pt5",
+      "delta_e": -0.068542083499998,
+      "stability": 0.121230606999999,
+      "icsd": false
+    }
+  ]
+}

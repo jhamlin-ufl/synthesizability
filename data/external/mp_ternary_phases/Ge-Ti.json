@@ -1,0 +1,65 @@
+{
+  "space": "Ge-Ti",
+  "elements": [
+    "Ge",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-568151",
+      "composition_id": "Ge3 Ti5",
+      "delta_e": -0.7418544810416651,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1198692",
+      "composition_id": "Ge4 Ti5",
+      "delta_e": -0.7315525723148141,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1189044",
+      "composition_id": "Ge1 Ti3",
+      "delta_e": -0.481565684374999,
+      "stability": 0.013003969652777001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1365",
+      "composition_id": "Ge5 Ti6",
+      "delta_e": -0.7022925877272731,
+      "stability": 0.015959028727269002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-567889",
+      "composition_id": "Ge2 Ti1",
+      "delta_e": -0.392877595555556,
+      "stability": 0.046053947833332005,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1191564",
+      "composition_id": "Ge5 Ti6",
+      "delta_e": -0.568975622553029,
+      "stability": 0.149275993901513,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-998987",
+      "composition_id": "Ge1 Ti3",
+      "delta_e": -0.30229709805555405,
+      "stability": 0.192272555972222,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1008727",
+      "composition_id": "Ge1 Ti2",
+      "delta_e": 0.189333750370371,
+      "stability": 0.848759955740739,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "space": "Nb-Ru",
+  "elements": [
+    "Nb",
+    "Ru"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-977434",
+      "composition_id": "Nb3 Ru1",
+      "delta_e": -0.208804326249999,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3260184",
+      "composition_id": "Nb3 Ru5",
+      "delta_e": -0.24600480562499802,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-11516",
+      "composition_id": "Nb1 Ru1",
+      "delta_e": -0.209169515833334,
+      "stability": 0.024435130000000003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-432",
+      "composition_id": "Nb1 Ru1",
+      "delta_e": -0.19814378750000103,
+      "stability": 0.035460858333333005,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11517",
+      "composition_id": "Nb1 Ru3",
+      "delta_e": -0.12545385625000002,
+      "stability": 0.038549347500001004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1186229",
+      "composition_id": "Nb1 Ru3",
+      "delta_e": -0.10904496375000101,
+      "stability": 0.054958240000001005,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1220325",
+      "composition_id": "Nb1 Ru1",
+      "delta_e": -0.11521451583333601,
+      "stability": 0.11839012999999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1220677",
+      "composition_id": "Nb2 Ru1",
+      "delta_e": -0.09168733277778,
+      "stability": 0.125383766666665,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1220372",
+      "composition_id": "Nb1 Ru3",
+      "delta_e": 0.013532608749997002,
+      "stability": 0.1775358125,
+      "icsd": false
+    }
+  ]
+}

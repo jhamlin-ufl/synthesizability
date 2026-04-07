@@ -1,0 +1,44 @@
+{
+  "space": "Fe-Gd",
+  "elements": [
+    "Fe",
+    "Gd"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1196805",
+      "composition_id": "Fe17 Gd2",
+      "delta_e": -0.005716790263157001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-581734",
+      "composition_id": "Fe17 Gd2",
+      "delta_e": -0.005381587894734001,
+      "stability": 0.00033520236842200004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1181137",
+      "composition_id": "Fe5 Gd1",
+      "delta_e": 0.00975087,
+      "stability": 0.015075331519609,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-20089",
+      "composition_id": "Fe2 Gd1",
+      "delta_e": 0.016234090000002,
+      "stability": 0.020493659215688003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1194558",
+      "composition_id": "Fe23 Gd6",
+      "delta_e": 1.242713354137931,
+      "stability": 1.247780772687628,
+      "icsd": true
+    }
+  ]
+}

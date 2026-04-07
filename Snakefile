@@ -197,6 +197,30 @@ rule extract_ternary_cifs:
         "poetry run python {input.script} > {log} 2>&1"
 
 
+rule query_mp_phases:
+    input:
+        script="scripts/query_mp_ternary_phases.py",
+        csv="data/processed/synthesis_data_no_disorder.csv",
+    output:
+        marker=touch("data/external/mp_ternary_phases/.queried"),
+    log:
+        "logs/query_mp_phases.log"
+    shell:
+        "poetry run python {input.script} > {log} 2>&1"
+
+
+rule extract_mp_cifs:
+    input:
+        script="scripts/extract_mp_cifs.py",
+        queried="data/external/mp_ternary_phases/.queried",
+    output:
+        marker=touch("data/external/mp_ternary_phases/.extracted"),
+    log:
+        "logs/extract_mp_cifs.log"
+    shell:
+        "poetry run python {input.script} > {log} 2>&1"
+
+
 rule build_dataframe:
     input:
         script="scripts/build_dataframe.py",
@@ -239,6 +263,7 @@ rule generate_dashboard:
         xrd_jpegs=XRD_JPG_FILES,
         supercon_cache="data/processed/.supercon_cached",
         ternary_cifs="data/external/oqmd_ternary_phases/.extracted",
+        mp_cifs="data/external/mp_ternary_phases/.extracted",
     output:
         index="results/dashboard/index.html",
     shell:

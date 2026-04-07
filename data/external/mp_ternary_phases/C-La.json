@@ -1,0 +1,44 @@
+{
+  "space": "C-La",
+  "elements": [
+    "C",
+    "La"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2367",
+      "composition_id": "C2 La1",
+      "delta_e": -0.330961655,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3326436",
+      "composition_id": "C5 La4",
+      "delta_e": -0.31304993222221905,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1184",
+      "composition_id": "C3 La2",
+      "delta_e": -0.31321403149999805,
+      "stability": 0.007000589833328,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1223019",
+      "composition_id": "C2 La1",
+      "delta_e": -0.275397878333334,
+      "stability": 0.055563776666666,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1001925",
+      "composition_id": "C1 La1",
+      "delta_e": 0.42367704850000004,
+      "stability": 0.7054219874999991,
+      "icsd": false
+    }
+  ]
+}

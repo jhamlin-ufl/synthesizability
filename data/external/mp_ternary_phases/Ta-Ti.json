@@ -1,0 +1,37 @@
+{
+  "space": "Ta-Ti",
+  "elements": [
+    "Ta",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1217887",
+      "composition_id": "Ta1 Ti1",
+      "delta_e": 0.08432236299999801,
+      "stability": 0.08432236299999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187250",
+      "composition_id": "Ta1 Ti3",
+      "delta_e": 0.09496721249999801,
+      "stability": 0.09496721249999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187256",
+      "composition_id": "Ta1 Ti3",
+      "delta_e": 0.097485679999998,
+      "stability": 0.097485679999998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187253",
+      "composition_id": "Ta1 Ti3",
+      "delta_e": 0.09749539499999901,
+      "stability": 0.09749539499999901,
+      "icsd": false
+    }
+  ]
+}

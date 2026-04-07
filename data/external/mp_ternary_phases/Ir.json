@@ -1,0 +1,36 @@
+{
+  "space": "Ir",
+  "elements": [
+    "Ir"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-101",
+      "composition_id": "Ir1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2647032",
+      "composition_id": "Ir1",
+      "delta_e": 0.062916919999999,
+      "stability": 0.062916919999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2647047",
+      "composition_id": "Ir1",
+      "delta_e": 0.588982909999998,
+      "stability": 0.588982909999998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1060567",
+      "composition_id": "Ir1",
+      "delta_e": 3.780912309999998,
+      "stability": 3.780912309999998,
+      "icsd": true
+    }
+  ]
+}

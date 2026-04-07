@@ -1,0 +1,107 @@
+{
+  "space": "Al-Fe",
+  "elements": [
+    "Al",
+    "Fe"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1202900",
+      "composition_id": "Al13 Fe4",
+      "delta_e": -0.32674975529411604,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2658",
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.326887014999999,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1183162",
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.198893174999999,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-570001",
+      "composition_id": "Al6 Fe1",
+      "delta_e": -0.195844072142856,
+      "stability": 0.002539707857142,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1214901",
+      "composition_id": "Al12 Fe7",
+      "delta_e": -0.31331543842105103,
+      "stability": 0.013503348070174,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1191778",
+      "composition_id": "Al9 Fe2",
+      "delta_e": -0.23460630045454403,
+      "stability": 0.017882146818181,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2018",
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.163539367499999,
+      "stability": 0.035353807499999,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1193259",
+      "composition_id": "Al8 Fe5",
+      "delta_e": -0.280431573076922,
+      "stability": 0.046395610769231,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1228952",
+      "composition_id": "Al1 Fe4",
+      "delta_e": -0.062807495999999,
+      "stability": 0.09630704400000101,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-985579",
+      "composition_id": "Al1 Fe2",
+      "delta_e": -0.141337556666666,
+      "stability": 0.10022023166666501,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1228919",
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.08600655999999901,
+      "stability": 0.11288661499999901,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-31184",
+      "composition_id": "Al1 Fe2",
+      "delta_e": -0.10484484166666601,
+      "stability": 0.136712946666666,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-984873",
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.154061757499999,
+      "stability": 0.17269562333333302,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-985578",
+      "composition_id": "Al1 Fe1",
+      "delta_e": 0.46102108,
+      "stability": 0.787908094999999,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "space": "Mo-Nb-Ta",
+  "elements": [
+    "Mo",
+    "Nb",
+    "Ta"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-3266332",
+      "composition_id": "Mo10 Nb3 Ta3",
+      "delta_e": -0.13409434949999902,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1217902",
+      "composition_id": "Mo1 Nb1 Ta1",
+      "delta_e": -0.05975382911110601,
+      "stability": 0.011763157288889001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096306",
+      "composition_id": "Mo2 Nb1 Ta1",
+      "delta_e": 4.5551541104,
+      "stability": 4.662429590000002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1095950",
+      "composition_id": "Mo1 Nb2 Ta1",
+      "delta_e": 4.612555677699998,
+      "stability": 4.666193417500001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096718",
+      "composition_id": "Mo1 Nb1 Ta2",
+      "delta_e": 4.761565092699996,
+      "stability": 4.815202832499999,
+      "icsd": false
+    }
+  ]
+}

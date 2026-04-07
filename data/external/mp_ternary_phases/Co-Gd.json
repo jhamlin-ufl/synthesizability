@@ -1,0 +1,37 @@
+{
+  "space": "Co-Gd",
+  "elements": [
+    "Co",
+    "Gd"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1225806",
+      "composition_id": "Co3 Gd4",
+      "delta_e": -0.123765395714285,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1077071",
+      "composition_id": "Co5 Gd1",
+      "delta_e": -0.051938176666666,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1201816",
+      "composition_id": "Co17 Gd2",
+      "delta_e": 0.691082227105262,
+      "stability": 0.723885286052632,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-542633",
+      "composition_id": "Co2 Gd1",
+      "delta_e": 1.5487430266666662,
+      "stability": 1.630257117058822,
+      "icsd": true
+    }
+  ]
+}

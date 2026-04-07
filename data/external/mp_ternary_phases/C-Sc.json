@@ -1,0 +1,86 @@
+{
+  "space": "C-Sc",
+  "elements": [
+    "C",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-29941",
+      "composition_id": "C1 Sc2",
+      "delta_e": -0.519047323333332,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-28733",
+      "composition_id": "C4 Sc3",
+      "delta_e": -0.541908377428571,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-15661",
+      "composition_id": "C3 Sc4",
+      "delta_e": -0.6238872749999991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-15957",
+      "composition_id": "C19 Sc15",
+      "delta_e": -0.547402738474789,
+      "stability": 0.001739071092439,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-16296",
+      "composition_id": "C3 Sc2",
+      "delta_e": -0.39316740110000103,
+      "stability": 0.11261375116666601,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-10020",
+      "composition_id": "C1 Sc1",
+      "delta_e": -0.27478291085714,
+      "stability": 0.308114915357144,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1219333",
+      "composition_id": "C2 Sc1",
+      "delta_e": 0.14783715866666802,
+      "stability": 0.5693214522222221,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-999205",
+      "composition_id": "C1 Sc1",
+      "delta_e": -0.004059435857142001,
+      "stability": 0.578838390357143,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-999203",
+      "composition_id": "C1 Sc1",
+      "delta_e": 0.017134829142857,
+      "stability": 0.600032655357143,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1009748",
+      "composition_id": "C1 Sc1",
+      "delta_e": 0.256916784142857,
+      "stability": 0.8398146103571431,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1009751",
+      "composition_id": "C1 Sc1",
+      "delta_e": 0.338737844142858,
+      "stability": 0.9216356703571441,
+      "icsd": false
+    }
+  ]
+}

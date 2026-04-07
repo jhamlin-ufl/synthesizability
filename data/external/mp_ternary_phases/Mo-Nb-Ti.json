@@ -1,0 +1,38 @@
+{
+  "space": "Mo-Nb-Ti",
+  "elements": [
+    "Mo",
+    "Nb",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-3296647",
+      "composition_id": "Mo13 Nb2 Ti1",
+      "delta_e": -0.08313212041666701,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3267216",
+      "composition_id": "Mo14 Nb1 Ti1",
+      "delta_e": -0.070472470416664,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096197",
+      "composition_id": "Mo1 Nb1 Ti2",
+      "delta_e": 3.990945435555556,
+      "stability": 4.035774245277778,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1097379",
+      "composition_id": "Mo1 Nb2 Ti1",
+      "delta_e": 4.260872866388894,
+      "stability": 4.305701676111113,
+      "icsd": false
+    }
+  ]
+}

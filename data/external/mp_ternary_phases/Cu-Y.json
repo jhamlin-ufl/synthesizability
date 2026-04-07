@@ -1,0 +1,58 @@
+{
+  "space": "Cu-Y",
+  "elements": [
+    "Cu",
+    "Y"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1080443",
+      "composition_id": "Cu1 Y1",
+      "delta_e": -0.24590260999999902,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2698",
+      "composition_id": "Cu2 Y1",
+      "delta_e": -0.246509470000001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2797",
+      "composition_id": "Cu5 Y1",
+      "delta_e": -0.192909463333334,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-712",
+      "composition_id": "Cu1 Y1",
+      "delta_e": -0.22700687999999902,
+      "stability": 0.018895730000000003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1102436",
+      "composition_id": "Cu2 Y1",
+      "delta_e": -0.173063584166669,
+      "stability": 0.073445885833331,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1077241",
+      "composition_id": "Cu2 Y1",
+      "delta_e": -0.140404950000001,
+      "stability": 0.10610451999999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1190402",
+      "composition_id": "Cu3 Y2",
+      "delta_e": 0.360209274000001,
+      "stability": 0.606476000000002,
+      "icsd": false
+    }
+  ]
+}

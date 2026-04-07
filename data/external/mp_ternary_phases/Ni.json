@@ -1,0 +1,50 @@
+{
+  "space": "Ni",
+  "elements": [
+    "Ni"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-23",
+      "composition_id": "Ni1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-10257",
+      "composition_id": "Ni1",
+      "delta_e": 0.04583529000000101,
+      "stability": 0.04583529000000101,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1008728",
+      "composition_id": "Ni1",
+      "delta_e": 0.11925923000000001,
+      "stability": 0.11925923000000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1246134",
+      "composition_id": "Ni1",
+      "delta_e": 0.409910799999999,
+      "stability": 0.409910799999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1014111",
+      "composition_id": "Ni1",
+      "delta_e": 0.6202391299999991,
+      "stability": 0.6202391299999991,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1094136",
+      "composition_id": "Ni1",
+      "delta_e": 0.7398515400000001,
+      "stability": 0.7398515400000001,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "space": "Mo-Nb-Ru",
+  "elements": [
+    "Mo",
+    "Nb",
+    "Ru"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1186206",
+      "composition_id": "Mo1 Nb2 Ru1",
+      "delta_e": -0.251421208749999,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3267427",
+      "composition_id": "Mo7 Nb8 Ru1",
+      "delta_e": -0.15417765031250102,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3217291",
+      "composition_id": "Mo2 Nb9 Ru5",
+      "delta_e": -0.2460064284375,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096088",
+      "composition_id": "Mo1 Nb2 Ru1",
+      "delta_e": 4.044733898750003,
+      "stability": 4.296155107500002,
+      "icsd": false
+    }
+  ]
+}

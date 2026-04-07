@@ -1,0 +1,93 @@
+{
+  "space": "Au-Mn",
+  "elements": [
+    "Au",
+    "Mn"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-12674",
+      "composition_id": "Au1 Mn1",
+      "delta_e": -0.373967652241375,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11252",
+      "composition_id": "Au2 Mn1",
+      "delta_e": -0.35741518482758206,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-12565",
+      "composition_id": "Au4 Mn1",
+      "delta_e": -0.239417388896549,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30410",
+      "composition_id": "Au5 Mn2",
+      "delta_e": -0.300842039852219,
+      "stability": 0.014431074999997,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30411",
+      "composition_id": "Au31 Mn9",
+      "delta_e": -0.238232049508616,
+      "stability": 0.023309926125001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1186010",
+      "composition_id": "Au3 Mn1",
+      "delta_e": -0.256872398620686,
+      "stability": 0.026794163750004003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-12675",
+      "composition_id": "Au1 Mn1",
+      "delta_e": -0.302307229224133,
+      "stability": 0.071660423017242,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1206376",
+      "composition_id": "Au3 Mn1",
+      "delta_e": -0.19753153612068503,
+      "stability": 0.086135026250005,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221711",
+      "composition_id": "Au4 Mn1",
+      "delta_e": -0.12653325089654502,
+      "stability": 0.11288413799999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221687",
+      "composition_id": "Au3 Mn1",
+      "delta_e": -0.16128096862068703,
+      "stability": 0.122385593750003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-30409",
+      "composition_id": "Au1 Mn2",
+      "delta_e": -0.013939208793099001,
+      "stability": 0.235372559367817,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-640079",
+      "composition_id": "Au1 Mn3",
+      "delta_e": 0.155351247255746,
+      "stability": 0.34233507337643504,
+      "icsd": true
+    }
+  ]
+}

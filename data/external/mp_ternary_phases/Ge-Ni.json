@@ -1,0 +1,107 @@
+{
+  "space": "Ge-Ni",
+  "elements": [
+    "Ge",
+    "Ni"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-21008",
+      "composition_id": "Ge1 Ni3",
+      "delta_e": -0.2472801625,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1428",
+      "composition_id": "Ge3 Ni5",
+      "delta_e": -0.27314263875,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1099",
+      "composition_id": "Ge1 Ni1",
+      "delta_e": -0.26575252999999804,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30082",
+      "composition_id": "Ge12 Ni19",
+      "delta_e": -0.272274830443549,
+      "stability": 0.000152636491934,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1106111",
+      "composition_id": "Ge3 Ni5",
+      "delta_e": -0.272438099999998,
+      "stability": 0.0007045387499960001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-17383",
+      "composition_id": "Ge1 Ni2",
+      "delta_e": -0.25978883083333404,
+      "stability": 0.004732982500000001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1200317",
+      "composition_id": "Ge2 Ni5",
+      "delta_e": -0.23945930809523602,
+      "stability": 0.015210133333335001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1219825",
+      "composition_id": "Ge4 Ni7",
+      "delta_e": -0.24496033443182003,
+      "stability": 0.025831170113635,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1594",
+      "composition_id": "Ge1 Ni2",
+      "delta_e": -0.232667855,
+      "stability": 0.031853958333334,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1219818",
+      "composition_id": "Ge4 Ni7",
+      "delta_e": -0.22506931181818202,
+      "stability": 0.045722192727273,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-29900",
+      "composition_id": "Ge2 Ni1",
+      "delta_e": -0.09176183999999901,
+      "stability": 0.085406513333332,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1220076",
+      "composition_id": "Ge1 Ni4",
+      "delta_e": 0.115747871999997,
+      "stability": 0.313572001999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-976774",
+      "composition_id": "Ge3 Ni1",
+      "delta_e": 0.28039929812500103,
+      "stability": 0.413275563124999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1186341",
+      "composition_id": "Ge3 Ni1",
+      "delta_e": 0.291592533125001,
+      "stability": 0.42446879812499905,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "space": "Pt-Zr",
+  "elements": [
+    "Pt",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1207440",
+      "composition_id": "Pt10 Zr7",
+      "delta_e": -1.209303492058826,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1065995",
+      "composition_id": "Pt1 Zr1",
+      "delta_e": -1.231538919999998,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1188129",
+      "composition_id": "Pt3 Zr1",
+      "delta_e": -1.138993978125,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1205768",
+      "composition_id": "Pt8 Zr1",
+      "delta_e": -0.5586446272222231,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1188953",
+      "composition_id": "Pt3 Zr5",
+      "delta_e": -0.9236079306250031,
+      "stability": 4.6259374997248435e-05,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1191960",
+      "composition_id": "Pt1 Zr2",
+      "delta_e": -0.8107161700000011,
+      "stability": 0.010309776666666002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30858",
+      "composition_id": "Pt3 Zr1",
+      "delta_e": -1.122151413750003,
+      "stability": 0.016842564374996,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30859",
+      "composition_id": "Pt11 Zr9",
+      "delta_e": -1.135575884833332,
+      "stability": 0.08336295933333501,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-971951",
+      "composition_id": "Pt1 Zr3",
+      "delta_e": -0.49139677500000506,
+      "stability": 0.12437268499999701,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1188043",
+      "composition_id": "Pt1 Zr3",
+      "delta_e": -0.48085952625000405,
+      "stability": 0.13490993374999802,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-11554",
+      "composition_id": "Pt1 Zr1",
+      "delta_e": -1.057382579999995,
+      "stability": 0.17415634000000302,
+      "icsd": true
+    }
+  ]
+}

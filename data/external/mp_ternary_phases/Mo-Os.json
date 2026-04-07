@@ -1,0 +1,30 @@
+{
+  "space": "Mo-Os",
+  "elements": [
+    "Mo",
+    "Os"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-801",
+      "composition_id": "Mo3 Os1",
+      "delta_e": 0.0017573587499980002,
+      "stability": 0.0017573587499980002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1221719",
+      "composition_id": "Mo3 Os2",
+      "delta_e": 0.01407836966667,
+      "stability": 0.01407836966667,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221418",
+      "composition_id": "Mo1 Os1",
+      "delta_e": 0.07818549499999901,
+      "stability": 0.07818549499999901,
+      "icsd": false
+    }
+  ]
+}

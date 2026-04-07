@@ -1,0 +1,114 @@
+{
+  "space": "Al-Cu",
+  "elements": [
+    "Al",
+    "Cu"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-985806",
+      "composition_id": "Al2 Cu1",
+      "delta_e": -0.21265698333333302,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-593",
+      "composition_id": "Al4 Cu9",
+      "delta_e": -0.23310230192307702,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2500",
+      "composition_id": "Al1 Cu1",
+      "delta_e": -0.24248409,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-12802",
+      "composition_id": "Al1 Cu3",
+      "delta_e": -0.20196853,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1183216",
+      "composition_id": "Al1 Cu3",
+      "delta_e": -0.1994387025,
+      "stability": 0.0025298275000000003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1008555",
+      "composition_id": "Al1 Cu3",
+      "delta_e": -0.19345201249999902,
+      "stability": 0.008516517500000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-12777",
+      "composition_id": "Al1 Cu3",
+      "delta_e": -0.180917327499999,
+      "stability": 0.0210512025,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-10886",
+      "composition_id": "Al3 Cu2",
+      "delta_e": -0.195314849999999,
+      "stability": 0.029272975999999003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1182885",
+      "composition_id": "Al1 Cu4",
+      "delta_e": -0.12646613250000002,
+      "stability": 0.035108691499999005,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-998",
+      "composition_id": "Al2 Cu1",
+      "delta_e": -0.16506810666666602,
+      "stability": 0.047588876666665,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-985825",
+      "composition_id": "Al3 Cu1",
+      "delta_e": -0.103018489999999,
+      "stability": 0.056474247499999006,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1228752",
+      "composition_id": "Al4 Cu15",
+      "delta_e": -0.10831318631579101,
+      "stability": 0.061765575789472005,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1022721",
+      "composition_id": "Al1 Cu1",
+      "delta_e": -0.168422851999999,
+      "stability": 0.074061238,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1183161",
+      "composition_id": "Al3 Cu1",
+      "delta_e": -0.06324690249999901,
+      "stability": 0.096245834999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-12794",
+      "composition_id": "Al2 Cu1",
+      "delta_e": -0.05815897999999901,
+      "stability": 0.15449800333333302,
+      "icsd": true
+    }
+  ]
+}

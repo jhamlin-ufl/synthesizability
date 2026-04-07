@@ -1,0 +1,86 @@
+{
+  "space": "Si-Zr",
+  "elements": [
+    "Si",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1278",
+      "composition_id": "Si1 Zr2",
+      "delta_e": -0.8331100050000011,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1207024",
+      "composition_id": "Si2 Zr3",
+      "delta_e": -0.932346501,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-11322",
+      "composition_id": "Si1 Zr1",
+      "delta_e": -0.9840065624999991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1515",
+      "composition_id": "Si2 Zr1",
+      "delta_e": -0.6571695349999991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1304",
+      "composition_id": "Si4 Zr5",
+      "delta_e": -0.95522965,
+      "stability": 7.687833333491767e-05,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-893",
+      "composition_id": "Si1 Zr1",
+      "delta_e": -0.9831583137499991,
+      "stability": 0.0008482487499990001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1200912",
+      "composition_id": "Si1 Zr3",
+      "delta_e": -0.603948375624998,
+      "stability": 0.020884128124997,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-568115",
+      "composition_id": "Si3 Zr5",
+      "delta_e": -0.8719251650000001,
+      "stability": 0.023207649999996003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1188035",
+      "composition_id": "Si1 Zr3",
+      "delta_e": -0.391732949999997,
+      "stability": 0.23309955374999802,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1215348",
+      "composition_id": "Si3 Zr5",
+      "delta_e": -0.47194710999999806,
+      "stability": 0.423185704999998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1066771",
+      "composition_id": "Si1 Zr1",
+      "delta_e": -0.098827234999998,
+      "stability": 0.8851793275000011,
+      "icsd": true
+    }
+  ]
+}

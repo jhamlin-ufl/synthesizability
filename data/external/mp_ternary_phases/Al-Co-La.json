@@ -1,0 +1,24 @@
+{
+  "space": "Al-Co-La",
+  "elements": [
+    "Al",
+    "Co",
+    "La"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-12274",
+      "composition_id": "Al4 Co1 La1",
+      "delta_e": -0.516136435833331,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1222930",
+      "composition_id": "Al1 Co4 La1",
+      "delta_e": -0.123513261204235,
+      "stability": 0.077059882282606,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "space": "Co-Si-Y",
+  "elements": [
+    "Co",
+    "Si",
+    "Y"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-5129",
+      "composition_id": "Co2 Si2 Y1",
+      "delta_e": -0.7844165319999991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1188435",
+      "composition_id": "Co3 Si5 Y2",
+      "delta_e": -0.7211472990000011,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1207632",
+      "composition_id": "Co1 Si1 Y1",
+      "delta_e": -0.6724761249999981,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1078782",
+      "composition_id": "Co1 Si2 Y1",
+      "delta_e": -0.7344411525000001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1208075",
+      "composition_id": "Co5 Si3 Y1",
+      "delta_e": -0.571666133703704,
+      "stability": 0.0030663982407430003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-20618",
+      "composition_id": "Co3 Si5 Y2",
+      "delta_e": -0.7175474764999991,
+      "stability": 0.0035998225,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1193464",
+      "composition_id": "Co9 Si4 Y1",
+      "delta_e": -0.449781081785714,
+      "stability": 0.009011983571427,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1206296",
+      "composition_id": "Co1 Si2 Y2",
+      "delta_e": -0.7239837159999991,
+      "stability": 0.014476413749999001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1207782",
+      "composition_id": "Co2 Si3 Y3",
+      "delta_e": -0.700783386249999,
+      "stability": 0.016442316874996,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1191660",
+      "composition_id": "Co9 Si2 Y1",
+      "delta_e": -0.28179442791666703,
+      "stability": 0.045045793750001006,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1216065",
+      "composition_id": "Co3 Si1 Y2",
+      "delta_e": -0.37198157666666704,
+      "stability": 0.045796796666666,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1215960",
+      "composition_id": "Co4 Si1 Y1",
+      "delta_e": -0.31974018333333404,
+      "stability": 0.053918121602563006,
+      "icsd": false
+    }
+  ]
+}

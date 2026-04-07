@@ -1,0 +1,65 @@
+{
+  "space": "Cu-Ge",
+  "elements": [
+    "Cu",
+    "Ge"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-19724",
+      "composition_id": "Cu3 Ge1",
+      "delta_e": 0.012639846249999,
+      "stability": 0.012639846249999,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1184021",
+      "composition_id": "Cu3 Ge1",
+      "delta_e": 0.022350810000000002,
+      "stability": 0.022350810000000002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225722",
+      "composition_id": "Cu5 Ge2",
+      "delta_e": 0.07095628690476201,
+      "stability": 0.07095628690476101,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225769",
+      "composition_id": "Cu5 Ge2",
+      "delta_e": 0.073870745476191,
+      "stability": 0.07387074547619,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225745",
+      "composition_id": "Cu3 Ge1",
+      "delta_e": 0.140930454999999,
+      "stability": 0.140930454999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1025440",
+      "composition_id": "Cu1 Ge3",
+      "delta_e": 0.307625651666667,
+      "stability": 0.307625651666667,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1184183",
+      "composition_id": "Cu1 Ge3",
+      "delta_e": 0.324850239166666,
+      "stability": 0.324850239166666,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1184147",
+      "composition_id": "Cu1 Ge3",
+      "delta_e": 0.33007597791666504,
+      "stability": 0.33007597791666504,
+      "icsd": false
+    }
+  ]
+}

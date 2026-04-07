@@ -1,0 +1,30 @@
+{
+  "space": "Hf-Ru",
+  "elements": [
+    "Hf",
+    "Ru"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2802",
+      "composition_id": "Hf1 Ru1",
+      "delta_e": -0.9023381424999991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1007657",
+      "composition_id": "Hf1 Ru3",
+      "delta_e": -0.261035368749997,
+      "stability": 0.19013370250000203,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-975921",
+      "composition_id": "Hf1 Ru3",
+      "delta_e": -0.24818657499999802,
+      "stability": 0.202982496250001,
+      "icsd": false
+    }
+  ]
+}

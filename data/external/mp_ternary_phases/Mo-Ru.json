@@ -1,0 +1,44 @@
+{
+  "space": "Mo-Ru",
+  "elements": [
+    "Mo",
+    "Ru"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-975834",
+      "composition_id": "Mo1 Ru3",
+      "delta_e": -0.05181358875000001,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1193202",
+      "composition_id": "Mo2 Ru1",
+      "delta_e": 0.023083231111111,
+      "stability": 0.046111492777779005,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1221651",
+      "composition_id": "Mo3 Ru2",
+      "delta_e": 0.039899930666668006,
+      "stability": 0.06753384466667,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221386",
+      "composition_id": "Mo1 Ru1",
+      "delta_e": 0.06541675666666001,
+      "stability": 0.09995914916666401,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221461",
+      "composition_id": "Mo4 Ru1",
+      "delta_e": 0.121083122666664,
+      "stability": 0.134900079666664,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "space": "Pt-Si-Zr",
+  "elements": [
+    "Pt",
+    "Si",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-972187",
+      "composition_id": "Pt1 Si1 Zr1",
+      "delta_e": -1.248102448333336,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3240121",
+      "composition_id": "Pt5 Si1 Zr1",
+      "delta_e": -1.026639624285719,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-961711",
+      "composition_id": "Pt1 Si1 Zr1",
+      "delta_e": -1.1008890416666661,
+      "stability": 0.14721340666666902,
+      "icsd": false
+    }
+  ]
+}

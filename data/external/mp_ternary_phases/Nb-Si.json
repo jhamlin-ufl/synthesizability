@@ -1,0 +1,93 @@
+{
+  "space": "Nb-Si",
+  "elements": [
+    "Nb",
+    "Si"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-13686",
+      "composition_id": "Nb5 Si3",
+      "delta_e": -0.7232154362499971,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-12104",
+      "composition_id": "Nb1 Si2",
+      "delta_e": -0.518684867777775,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2478",
+      "composition_id": "Nb1 Si2",
+      "delta_e": -0.5183990577777771,
+      "stability": 0.00028580999999900004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-17848",
+      "composition_id": "Nb3 Si1",
+      "delta_e": -0.46922024437499804,
+      "stability": 0.012923379791665001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1078996",
+      "composition_id": "Nb3 Si2",
+      "delta_e": -0.686334926,
+      "stability": 0.019349318666662,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1205390",
+      "composition_id": "Nb3 Si1",
+      "delta_e": -0.433420468124996,
+      "stability": 0.04872315604166701,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-567996",
+      "composition_id": "Nb5 Si3",
+      "delta_e": -0.6709278362499981,
+      "stability": 0.052287599999999004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-567871",
+      "composition_id": "Nb5 Si3",
+      "delta_e": -0.6232783687499961,
+      "stability": 0.0999370675,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-10229",
+      "composition_id": "Nb3 Si1",
+      "delta_e": -0.37033889874999504,
+      "stability": 0.11180472541666801,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1004",
+      "composition_id": "Nb3 Si1",
+      "delta_e": -0.262573273749996,
+      "stability": 0.219570350416667,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1220588",
+      "composition_id": "Nb3 Si1",
+      "delta_e": -0.22946106124999502,
+      "stability": 0.252682562916668,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1220602",
+      "composition_id": "Nb3 Si1",
+      "delta_e": 0.018378243750003003,
+      "stability": 0.5005218679166671,
+      "icsd": false
+    }
+  ]
+}

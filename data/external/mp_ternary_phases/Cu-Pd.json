@@ -1,0 +1,72 @@
+{
+  "space": "Cu-Pd",
+  "elements": [
+    "Cu",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-672265",
+      "composition_id": "Cu3 Pd1",
+      "delta_e": -0.099534913571428,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1018029",
+      "composition_id": "Cu1 Pd1",
+      "delta_e": -0.12335180499999801,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-680639",
+      "composition_id": "Cu3 Pd1",
+      "delta_e": -0.098123459285714,
+      "stability": 0.001411454285713,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-580357",
+      "composition_id": "Cu3 Pd1",
+      "delta_e": -0.095113082499999,
+      "stability": 0.004421831071429,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1225751",
+      "composition_id": "Cu3 Pd2",
+      "delta_e": -0.106051114999996,
+      "stability": 0.007773933428572001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1184119",
+      "composition_id": "Cu1 Pd3",
+      "delta_e": -0.050925034999998,
+      "stability": 0.0107508675,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-30594",
+      "composition_id": "Cu4 Pd1",
+      "delta_e": -0.063733222500002,
+      "stability": 0.015894708357143,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1225701",
+      "composition_id": "Cu1 Pd1",
+      "delta_e": -0.077466425,
+      "stability": 0.045885379999997006,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225656",
+      "composition_id": "Cu1 Pd1",
+      "delta_e": -0.035590074999998,
+      "stability": 0.08776173000000001,
+      "icsd": false
+    }
+  ]
+}

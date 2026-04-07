@@ -1,0 +1,37 @@
+{
+  "space": "Ge-Os",
+  "elements": [
+    "Ge",
+    "Os"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-10032",
+      "composition_id": "Ge2 Os1",
+      "delta_e": -0.083478636666669,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-16610",
+      "composition_id": "Ge3 Os2",
+      "delta_e": -0.08410202074999801,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-510032",
+      "composition_id": "Ge3 Os2",
+      "delta_e": -0.07191610149999901,
+      "stability": 0.012185919250001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1184652",
+      "composition_id": "Ge3 Os1",
+      "delta_e": 0.454837305000001,
+      "stability": 0.517446282499999,
+      "icsd": false
+    }
+  ]
+}

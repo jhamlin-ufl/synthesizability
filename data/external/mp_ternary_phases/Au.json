@@ -1,0 +1,36 @@
+{
+  "space": "Au",
+  "elements": [
+    "Au"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-81",
+      "composition_id": "Au1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1008634",
+      "composition_id": "Au1",
+      "delta_e": 0.0021085050000020002,
+      "stability": 0.0021085050000020002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2647062",
+      "composition_id": "Au1",
+      "delta_e": 0.021884700000001003,
+      "stability": 0.021884700000001003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1238808",
+      "composition_id": "Au1",
+      "delta_e": 0.11838149999999802,
+      "stability": 0.11838149999999802,
+      "icsd": false
+    }
+  ]
+}

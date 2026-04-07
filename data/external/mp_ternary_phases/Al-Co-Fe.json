@@ -1,0 +1,38 @@
+{
+  "space": "Al-Co-Fe",
+  "elements": [
+    "Al",
+    "Co",
+    "Fe"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-862691",
+      "composition_id": "Al2 Co1 Fe1",
+      "delta_e": -0.46805296249999906,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-10884",
+      "composition_id": "Al1 Co2 Fe1",
+      "delta_e": -0.35879662500000004,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3258444",
+      "composition_id": "Al8 Co7 Fe1",
+      "delta_e": -0.522238412499998,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1228905",
+      "composition_id": "Al2 Co1 Fe1",
+      "delta_e": -0.46761120000000006,
+      "stability": 0.00044176249999900005,
+      "icsd": false
+    }
+  ]
+}
