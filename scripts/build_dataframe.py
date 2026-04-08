@@ -32,6 +32,30 @@ def main():
     else:
         print("\n⚠ OQMD hull data not found, skipping merge")
 
+    # Merge hull membership data if it exists
+    hull_path = Path.cwd() / "data" / "processed" / "hull_membership.csv"
+    if hull_path.exists():
+        print("\nMerging hull membership data...")
+        hull_df = pd.read_csv(hull_path)
+        hull_df['hull_source_count'] = hull_df['hull_source_count'].fillna(0).astype(int)
+        df = df.merge(hull_df, on='formula', how='left')
+        # hull_sources stays as a string in CSV/stats; plugin parses it at read time
+        df['hull_sources'] = df['hull_sources'].fillna('[]')
+        df['hull_source_count'] = df['hull_source_count'].fillna(0).astype(int)
+        # Boolean per-database columns
+        for col in ['hull_oqmd', 'hull_mp', 'hull_alex_pbe', 'hull_alex_pbesol']:
+            if col in df.columns:
+                df[col] = df[col].fillna(False).astype(bool)
+        # Human-readable list for the dashboard table
+        import ast as _ast
+        df['hull_databases'] = df['hull_sources'].apply(
+            lambda x: ', '.join(_ast.literal_eval(x)) if x and x != '[]' else ''
+        )
+        n = (df['hull_source_count'] > 0).sum()
+        print(f"✓ Merged hull membership: {n}/{len(df)} samples on hull in ≥1 database")
+    else:
+        print("\n⚠ hull_membership.csv not found, skipping")
+
     # Merge remake map if it exists
     remake_map_path = Path.cwd() / "data" / "raw" / "REMAKE_MAP.csv"
     if remake_map_path.exists():

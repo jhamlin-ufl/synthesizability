@@ -51,7 +51,7 @@ def serialize_for_table(val):
         if len(val) == 0:
             return '<span style="color: #999;">[]</span>'
         return f'[{len(val)} items]'
-    elif isinstance(val, bool):
+    elif isinstance(val, (bool, np.bool_)):
         color = '#28a745' if val else '#dc3545'
         symbol = '✓' if val else '✗'
         return f'<span style="color: {color}; font-weight: bold;">{symbol}</span>'

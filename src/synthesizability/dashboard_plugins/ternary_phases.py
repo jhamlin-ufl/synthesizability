@@ -187,7 +187,8 @@ def _make_tooltip(e: dict, is_target: bool = False, source: str = "oqmd") -> str
 
 
 def _make_ternary_figure(all_entries: list[dict], formula: str,
-                         elements: list[str], source: str = "oqmd") -> go.Figure:
+                         elements: list[str], source: str = "oqmd",
+                         compact: bool = False) -> go.Figure:
     """
     Build an interactive ternary figure for *source* ('oqmd' or 'mp').
 
@@ -211,6 +212,21 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
         cmin, cmax = CMIN_ALEX, CMAX_ALEX
         source_label = "Alexandria PBEsol"
     no_entry_msg = f"(no {source_label} entry at this composition)"
+
+    if compact:
+        fig_width, fig_height = 510, 410
+        fig_margin = dict(l=40, r=130, t=62, b=58)
+        cb_thickness, cb_len, cb_x = 10, 0.35, 1.01
+        axis_title_size, axis_tick_size = 12, 9
+        legend_font_size = 10
+        btn_y = -0.07
+    else:
+        fig_width, fig_height = 750, 580
+        fig_margin = dict(l=60, r=175, t=80, b=80)
+        cb_thickness, cb_len, cb_x = 14, 0.45, 1.02
+        axis_title_size, axis_tick_size = 14, 10
+        legend_font_size = 11
+        btn_y = -0.06
 
     entries = _lowest_per_composition(all_entries)
     n_total = len(entries)
@@ -297,8 +313,8 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
         if tr.marker.color is not None and len(tr.marker.color) > 0:
             tr.marker.colorbar = dict(
                 title=dict(text=cb_title, side="right"),
-                thickness=14, len=0.45,
-                x=1.02, xanchor="left",
+                thickness=cb_thickness, len=cb_len,
+                x=cb_x, xanchor="left",
                 y=0.98, yanchor="top",
                 tickformat=".2f",
             )
@@ -365,24 +381,12 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
             ),
             x=0.5, y=0.97, yanchor="top",
         ),
-        ternary=dict(
-            sum=1,
-            aaxis=dict(title=dict(text=f"<b>{elements[0]}</b>", font=dict(size=14)),
-                       linewidth=2, ticks="outside", tickfont=dict(size=10),
-                       layer="below traces"),
-            baxis=dict(title=dict(text=f"<b>{elements[1]}</b>", font=dict(size=14)),
-                       linewidth=2, ticks="outside", tickfont=dict(size=10),
-                       layer="below traces"),
-            caxis=dict(title=dict(text=f"<b>{elements[2]}</b>", font=dict(size=14)),
-                       linewidth=2, ticks="outside", tickfont=dict(size=10),
-                       layer="below traces"),
-        ),
         updatemenus=[dict(
             type="buttons",
             direction="left",
             buttons=buttons,
             x=0.5, xanchor="center",
-            y=-0.06, yanchor="top",
+            y=btn_y, yanchor="top",
             bgcolor="white",
             bordercolor="#aaa",
             font=dict(size=12),
@@ -393,14 +397,71 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
             y=0.48, yanchor="top",
             bgcolor="rgba(255,255,255,0.9)",
             bordercolor="#ccc", borderwidth=1,
-            font=dict(size=11),
+            font=dict(size=legend_font_size),
         ),
-        width=750,
-        height=580,
-        margin=dict(l=60, r=175, t=80, b=80),
+        width=fig_width,
+        height=fig_height,
+        margin=fig_margin,
+        ternary=dict(
+            sum=1,
+            aaxis=dict(title=dict(text=f"<b>{elements[0]}</b>",
+                                  font=dict(size=axis_title_size)),
+                       linewidth=2, ticks="outside",
+                       tickfont=dict(size=axis_tick_size),
+                       layer="below traces"),
+            baxis=dict(title=dict(text=f"<b>{elements[1]}</b>",
+                                  font=dict(size=axis_title_size)),
+                       linewidth=2, ticks="outside",
+                       tickfont=dict(size=axis_tick_size),
+                       layer="below traces"),
+            caxis=dict(title=dict(text=f"<b>{elements[2]}</b>",
+                                  font=dict(size=axis_title_size)),
+                       linewidth=2, ticks="outside",
+                       tickfont=dict(size=axis_tick_size),
+                       layer="below traces"),
+        ),
     )
 
     return fig
+
+
+# ---------------------------------------------------------------------------
+# Hull membership (used by compute_hull_membership.py and the plugin)
+# ---------------------------------------------------------------------------
+
+_SOURCES_META = [
+    ("OQMD",           OQMD_DIR,        "oqmd"),
+    ("MP",             MP_DIR,          "mp"),
+    ("Alexandria PBE", ALEX_PBE_DIR,    "alex_pbe"),
+    ("Alexandria PBEsol", ALEX_PBESOL_DIR, "alex_pbesol"),
+]
+
+
+def get_hull_sources(formula: str) -> list[str]:
+    """
+    Return the list of database names that have the target composition
+    on (or below) the convex hull.
+
+    Uses the same data files and tolerances as the ternary phase diagram.
+    """
+    elements = parse_elements_from_formula(formula)
+    target_fracs = _target_fracs_from_formula(formula, elements)
+    result = []
+    for src_name, data_dir, src_key in _SOURCES_META:
+        if not data_dir.exists():
+            continue
+        entries = _load_all_entries(formula, data_dir)
+        if not entries:
+            continue
+        hull_tol = 1e-6 if src_key == "oqmd" else 0.001
+        for e in _lowest_per_composition(entries):
+            counts = _parse_composition(e["composition_id"])
+            if _fracs_match(counts, target_fracs, elements):
+                stab = e.get("stability")
+                if stab is not None and stab <= hull_tol:
+                    result.append(src_name)
+                break
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -553,7 +614,15 @@ def get_summary_cards(df) -> list[dict]:
 
 
 def get_table_columns(df) -> list[str]:
-    return []
+    candidates = [
+        'hull_databases',
+        'hull_source_count',
+        'hull_oqmd',
+        'hull_mp',
+        'hull_alex_pbe',
+        'hull_alex_pbesol',
+    ]
+    return [c for c in candidates if c in df.columns]
 
 
 def generate(row, plots_dir: Path, results_dir: Path) -> None:
@@ -573,111 +642,107 @@ def get_detail_section(row, plots_dir: Path, results_dir: Path) -> dict | None:
     if not any([entries_oqmd, entries_mp, entries_alex_pbe, entries_alex_pbes]):
         return None
 
-    # Determine which sources have data
-    sources_available = [
-        ("oqmd",      entries_oqmd,      "OQMD"),
-        ("mp",        entries_mp,        "Materials Project"),
-        ("alex_pbe",  entries_alex_pbe,  "Alexandria PBE"),
+    # Fixed 2×2 layout: OQMD top-left, MP top-right, Alex PBE bottom-left, Alex PBEsol bottom-right
+    grid_sources = [
+        ("oqmd",       entries_oqmd,      "OQMD"),
+        ("mp",         entries_mp,        "Materials Project"),
+        ("alex_pbe",   entries_alex_pbe,  "Alexandria PBE"),
         ("alex_pbesol", entries_alex_pbes, "Alexandria PBEsol"),
     ]
-    active_sources = [(k, e, lbl) for k, e, lbl in sources_available if e]
-    use_toggle = len(active_sources) >= 2
-    first_source = active_sources[0][0] if active_sources else "oqmd"
 
-    html = ""
+    is_ternary = (len(elements) == 3)
+    include_plotlyjs = "cdn"  # include once, suppress for subsequent figures
 
-    # --- Source toggle bar (when ≥2 sources have data) --------------------
-    if use_toggle:
-        n = len(active_sources)
-        btn_html = ""
-        for i, (src_key, _, lbl) in enumerate(active_sources):
-            is_first_btn = (i == 0)
-            if n == 1:
-                radius = "4px"
-            elif i == 0:
-                radius = "4px 0 0 4px"
-            elif i == n - 1:
-                radius = "0 4px 4px 0"
-            else:
-                radius = "0"
-            if is_first_btn:
-                style = (f"padding:6px 16px; cursor:pointer; border:1px solid #2c7be5; "
-                         f"background:#2c7be5; color:white; font-weight:bold; "
-                         f"border-radius:{radius};")
-            else:
-                style = (f"padding:6px 16px; cursor:pointer; border:1px solid #aaa; "
-                         f"background:#f8f9fa; color:#333; font-weight:normal; "
-                         f"border-radius:{radius};")
-            # Remove gap between adjacent buttons
-            margin = "" if i == 0 else "margin-left:-1px;"
-            btn_html += (
-                f'<button id="tp_src_btn_{src_key}_{safe_id}" '
-                f'onclick="toggleTPSource(\'{safe_id}\', \'{src_key}\')" '
-                f'style="{style}{margin}">{lbl}</button>'
-            )
-        html += f'<div style="margin-bottom:14px;">{btn_html}</div>\n'
-
-    # --- Build per-source HTML blocks -------------------------------------
-    source_html_map = {}
-    for src_key, entries, _ in active_sources:
-        src_html = ""
-        if len(elements) == 3:
-            fig = _make_ternary_figure(entries, formula, elements, source=src_key)
-            src_html += fig.to_html(
-                full_html=False,
-                include_plotlyjs="cdn",
-                config={"displayModeBar": False},
-            )
-        src_html += _build_phase_table_html(
-            entries, src_key, formula, f"tp_table_{src_key}_{safe_id}"
-        )
-        source_html_map[src_key] = src_html
-
-    # --- Assemble with toggle wrappers ------------------------------------
-    if use_toggle:
-        all_keys = [k for k, _, _ in active_sources]
-        for src_key, src_html in source_html_map.items():
-            display = "" if src_key == first_source else ' style="display:none"'
-            html += f'<div id="tp_src_{src_key}_{safe_id}"{display}>{src_html}</div>\n'
-
-        all_keys_js = json.dumps(all_keys)
-        html += f"""
-<script>
-function toggleTPSource(safeId, source) {{
-    {all_keys_js}.forEach(function(s) {{
-        var active = (s === source);
-        var div = document.getElementById('tp_src_' + s + '_' + safeId);
-        var btn = document.getElementById('tp_src_btn_' + s + '_' + safeId);
-        if (div) div.style.display = active ? '' : 'none';
-        if (btn) {{
-            if (active) {{
-                btn.style.background = '#2c7be5'; btn.style.color = 'white';
-                btn.style.fontWeight = 'bold'; btn.style.borderColor = '#2c7be5';
-            }} else {{
-                btn.style.background = '#f8f9fa'; btn.style.color = '#333';
-                btn.style.fontWeight = 'normal'; btn.style.borderColor = '#aaa';
-            }}
-        }}
-    }});
-}}
-function toggleTPTable(tableId, nTotal, defaultShow) {{
-    var table = document.getElementById(tableId);
-    var rows = table.tBodies[0].rows;
-    var btn = document.getElementById(tableId + '_btn');
-    var showing = document.getElementById(tableId + '_showing');
-    var allVisible = rows[defaultShow] && rows[defaultShow].style.display !== 'none';
-    for (var i = defaultShow; i < rows.length; i++) {{
-        rows[i].style.display = allVisible ? 'none' : '';
-    }}
-    btn.textContent = allVisible ? 'Show all' : 'Show less';
-    showing.textContent = allVisible ? Math.min(defaultShow, nTotal) : nTotal;
-}}
-</script>
-"""
+    # --- Hull membership banner -------------------------------------------
+    # Prefer pre-computed column from the dataframe; fall back to live computation.
+    hull_sources_raw = row.get("hull_sources", None)
+    if hull_sources_raw and not isinstance(hull_sources_raw, float):
+        import ast
+        try:
+            hull_sources = ast.literal_eval(hull_sources_raw)
+        except Exception:
+            hull_sources = get_hull_sources(formula)
     else:
-        # Single source — no toggle needed
-        html += list(source_html_map.values())[0]
-        html += """
+        hull_sources = get_hull_sources(formula)
+
+    all_src_names = [s for s, _, _ in _SOURCES_META]
+    badge_html = ""
+    for src_name in all_src_names:
+        on = src_name in hull_sources
+        bg    = "#d4edda" if on else "#f8f9fa"
+        color = "#155724" if on else "#6c757d"
+        border = "#c3e6cb" if on else "#dee2e6"
+        icon  = "✓" if on else "✗"
+        badge_html += (
+            f'<span style="display:inline-block; padding:3px 10px; margin:2px; '
+            f'border-radius:12px; font-size:0.85em; font-weight:{"bold" if on else "normal"}; '
+            f'background:{bg}; color:{color}; border:1px solid {border};">'
+            f'{icon} {src_name}</span>'
+        )
+
+    if hull_sources:
+        summary = f'{len(hull_sources)} of {len(all_src_names)} databases have {formula} on the convex hull'
+    else:
+        summary = f'{formula} is not on the convex hull in any of the {len(all_src_names)} databases'
+
+    html = f'''
+<div style="margin-bottom:14px; padding:10px 14px; background:#f8f9fa;
+            border:1px solid #dee2e6; border-radius:6px;">
+    <div style="font-size:0.85em; color:#555; margin-bottom:6px;">{summary}</div>
+    <div>{badge_html}</div>
+</div>
+'''
+
+    if is_ternary:
+        # --- 2×2 figure grid ------------------------------------------------
+        html += '<div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">\n'
+
+        for src_key, entries, label in grid_sources:
+            html += '<div style="min-width:0;">\n'
+            if entries:
+                fig = _make_ternary_figure(entries, formula, elements,
+                                           source=src_key, compact=True)
+                html += fig.to_html(
+                    full_html=False,
+                    include_plotlyjs=include_plotlyjs,
+                    config={"displayModeBar": False},
+                )
+                include_plotlyjs = False   # CDN script included once above
+            else:
+                html += (
+                    f'<div style="height:410px; display:flex; align-items:center; '
+                    f'justify-content:center; background:#f8f9fa; border:1px solid #dee2e6; '
+                    f'border-radius:4px; color:#6c757d; font-style:italic;">'
+                    f'No {label} data</div>\n'
+                )
+            html += '</div>\n'
+
+        html += '</div>\n'  # end grid
+
+    # --- Phase tables (collapsible, one per source) -----------------------
+    tables_html = ""
+    for src_key, entries, label in grid_sources:
+        if not entries:
+            continue
+        table_id = f"tp_table_{src_key}_{safe_id}"
+        tables_html += (
+            f'<h4 style="margin:16px 0 4px 0; font-size:0.95em; color:#333;">'
+            f'{label}</h4>\n'
+        )
+        tables_html += _build_phase_table_html(entries, src_key, formula, table_id)
+
+    if tables_html:
+        html += f"""
+<details style="margin-top:14px;">
+    <summary style="cursor:pointer; font-weight:bold; color:#2c7be5;
+                    padding:6px 0; user-select:none;">
+        Phase Tables ▸
+    </summary>
+    <div style="margin-top:8px;">{tables_html}</div>
+</details>
+"""
+
+    html += """
 <script>
 function toggleTPTable(tableId, nTotal, defaultShow) {
     var table = document.getElementById(tableId);
