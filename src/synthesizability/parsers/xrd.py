@@ -19,6 +19,10 @@ def is_xrd_file(filepath: Path) -> bool:
     fname_lower = filepath.name.lower()
     if 'chi' in fname_lower:
         return False
+
+    # Exclude Jade WPF fitting output files (Angle/I(o)/I(c)/I(d)/I(b) format)
+    if 'xrd_fit' in fname_lower:
+        return False
     
     # Only process .txt and .xy files
     if filepath.suffix not in ['.txt', '.xy']:
