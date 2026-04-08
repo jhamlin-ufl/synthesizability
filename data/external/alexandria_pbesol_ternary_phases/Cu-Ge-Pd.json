@@ -1,0 +1,59 @@
+{
+  "space": "Cu-Ge-Pd",
+  "elements": [
+    "Cu",
+    "Ge",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002207681",
+      "composition_id": "Cu2",
+      "delta_e": -0.1801708,
+      "stability": 0.07398121,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002268551",
+      "composition_id": "Pd2",
+      "delta_e": -0.3494473,
+      "stability": 0.084672354,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002146541",
+      "composition_id": "Pd2",
+      "delta_e": -0.34591767,
+      "stability": 0.088202,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002268542",
+      "composition_id": "Ge4 Pd2",
+      "delta_e": -0.19577941,
+      "stability": 0.101490796,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002668392",
+      "composition_id": "Ge2",
+      "delta_e": -0.054028723,
+      "stability": 0.21204214,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002463485",
+      "composition_id": "Ge3",
+      "delta_e": 0.63165784,
+      "stability": 0.84451455,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002463555",
+      "composition_id": "Pd3",
+      "delta_e": 0.7544242,
+      "stability": 1.149697,
+      "icsd": false
+    }
+  ]
+}

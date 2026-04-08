@@ -1,0 +1,38 @@
+{
+  "space": "Ga-Nb-Zr",
+  "elements": [
+    "Ga",
+    "Nb",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003220277",
+      "composition_id": "Ga3 Zr4",
+      "delta_e": -0.5467301,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002151918",
+      "composition_id": "Ga4 Nb2",
+      "delta_e": -0.49278003,
+      "stability": 0.011915881,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002978901",
+      "composition_id": "Ga2 Zr2",
+      "delta_e": -0.526418,
+      "stability": 0.02008464,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002480243",
+      "composition_id": "Ga3",
+      "delta_e": 0.5248011,
+      "stability": 1.0694467,
+      "icsd": false
+    }
+  ]
+}

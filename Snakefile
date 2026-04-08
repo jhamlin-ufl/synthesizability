@@ -221,6 +221,33 @@ rule extract_mp_cifs:
         "poetry run python {input.script} > {log} 2>&1"
 
 
+rule query_alexandria_phases:
+    input:
+        script="scripts/query_alexandria_phases.py",
+        csv="data/processed/synthesis_data_no_disorder.csv",
+    output:
+        pbe_marker=touch("data/external/alexandria_pbe_ternary_phases/.queried"),
+        pbesol_marker=touch("data/external/alexandria_pbesol_ternary_phases/.queried"),
+    log:
+        "logs/query_alexandria_phases.log"
+    shell:
+        "poetry run python {input.script} > {log} 2>&1"
+
+
+rule extract_alexandria_cifs:
+    input:
+        script="scripts/extract_alexandria_cifs.py",
+        pbe_queried="data/external/alexandria_pbe_ternary_phases/.queried",
+        pbesol_queried="data/external/alexandria_pbesol_ternary_phases/.queried",
+    output:
+        pbe_marker=touch("data/external/alexandria_pbe_ternary_phases/.extracted"),
+        pbesol_marker=touch("data/external/alexandria_pbesol_ternary_phases/.extracted"),
+    log:
+        "logs/extract_alexandria_cifs.log"
+    shell:
+        "poetry run python {input.script} > {log} 2>&1"
+
+
 rule build_dataframe:
     input:
         script="scripts/build_dataframe.py",
@@ -264,6 +291,8 @@ rule generate_dashboard:
         supercon_cache="data/processed/.supercon_cached",
         ternary_cifs="data/external/oqmd_ternary_phases/.extracted",
         mp_cifs="data/external/mp_ternary_phases/.extracted",
+        alex_cifs_pbe="data/external/alexandria_pbe_ternary_phases/.extracted",
+        alex_cifs_pbesol="data/external/alexandria_pbesol_ternary_phases/.extracted",
     output:
         index="results/dashboard/index.html",
     shell:

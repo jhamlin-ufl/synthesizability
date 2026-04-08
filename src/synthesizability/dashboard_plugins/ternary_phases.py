@@ -1,12 +1,14 @@
 """
-Dashboard plugin for ternary phase diagram data (OQMD and Materials Project).
+Dashboard plugin for ternary phase diagram data.
 
+Sources: OQMD, Materials Project, Alexandria PBE, Alexandria PBEsol.
 For three-element samples, renders interactive Plotly ternary phase diagrams
-with a source toggle (OQMD / Materials Project).  For binary/unary samples
-only the phase table is shown.
+with a source toggle.  For binary/unary samples only the phase table is shown.
 
-OQMD data:  data/external/oqmd_ternary_phases/<space>.json
-MP data:    data/external/mp_ternary_phases/<space>.json
+OQMD data:       data/external/oqmd_ternary_phases/<space>.json
+MP data:         data/external/mp_ternary_phases/<space>.json
+Alexandria PBE:  data/external/alexandria_pbe_ternary_phases/<space>.json
+Alexandria PBEsol: data/external/alexandria_pbesol_ternary_phases/<space>.json
 """
 import json
 import re
@@ -19,8 +21,10 @@ import plotly.graph_objects as go
 from synthesizability.oqmd import parse_elements_from_formula, parse_formula_to_oqmd
 
 
-OQMD_DIR = Path("data/external/oqmd_ternary_phases")
-MP_DIR   = Path("data/external/mp_ternary_phases")
+OQMD_DIR        = Path("data/external/oqmd_ternary_phases")
+MP_DIR          = Path("data/external/mp_ternary_phases")
+ALEX_PBE_DIR    = Path("data/external/alexandria_pbe_ternary_phases")
+ALEX_PBESOL_DIR = Path("data/external/alexandria_pbesol_ternary_phases")
 
 # Keep old name working for backward compatibility in other code
 TERNARY_DIR = OQMD_DIR
@@ -30,9 +34,10 @@ DEFAULT_SHOW = 10
 # Color scale: blue = stable (low energy), white = 0, red = unstable
 COLORSCALE = "RdBu_r"
 # OQMD stability ranges from negative (below hull) to positive (above hull)
-# MP stability is always ≥ 0 (0 = on hull).  Use a shared display range.
-CMIN_OQMD, CMAX_OQMD = -0.5,  0.3   # eV/atom (OQMD: negative = stable)
-CMIN_MP,   CMAX_MP   =  0.0,  0.5   # eV/atom (MP: 0 = on hull)
+# MP and Alexandria: stability ≥ 0 (0 = on hull)
+CMIN_OQMD,  CMAX_OQMD  = -0.5, 0.3   # eV/atom
+CMIN_MP,    CMAX_MP    =  0.0, 0.5   # eV/atom
+CMIN_ALEX,  CMAX_ALEX  =  0.0, 0.5   # eV/atom (same scale as MP)
 
 
 # ---------------------------------------------------------------------------
@@ -105,6 +110,23 @@ def _mp_cif_rel_path(space: str, composition_id: str, mp_id: str,
     return f"../../../data/external/mp_ternary_phases/{space}/cifs/{filename}"
 
 
+def _alex_cif_rel_path(source: str, space: str, composition_id: str,
+                       entry_id: str, stability: float | None) -> str | None:
+    """Relative path to an Alexandria CIF file from a sample detail page."""
+    data_dir = ALEX_PBE_DIR if source == "alex_pbe" else ALEX_PBESOL_DIR
+    compact = composition_id.replace(" ", "")
+    if stability is None:
+        stab_str = "stabNone"
+    else:
+        meV = round(stability * 1000)
+        stab_str = f"stab+{meV}meV" if meV >= 0 else f"stab{meV}meV"
+    filename = f"{compact}_{entry_id}_{stab_str}.cif"
+    cif_path = data_dir / space / "cifs" / filename
+    if not cif_path.exists():
+        return None
+    return f"../../../{data_dir.name}/{space}/cifs/{filename}"
+
+
 # ---------------------------------------------------------------------------
 # Ternary figure helpers
 # ---------------------------------------------------------------------------
@@ -150,7 +172,7 @@ def _make_tooltip(e: dict, is_target: bool = False, source: str = "oqmd") -> str
     if source == "oqmd":
         stab_str = f"{stab * 1000:+.0f} meV/atom" if stab is not None else "unknown"
     else:
-        # MP: stability ≥ 0, 0 = on hull
+        # MP and Alexandria: stability ≥ 0, 0 = on hull
         stab_str = f"{stab * 1000:.0f} meV/atom above hull" if stab is not None else "unknown"
     icsd_str = "  [ICSD]" if e.get("icsd") else ""
     target_str = "★ Target composition<br>" if is_target else ""
@@ -176,16 +198,23 @@ def _make_ternary_figure(all_entries: list[dict], formula: str,
       3 – ICSD, on-hull
       4 – target composition
     """
-    cmin = CMIN_OQMD if source == "oqmd" else CMIN_MP
-    cmax = CMAX_OQMD if source == "oqmd" else CMAX_MP
-    source_label = "OQMD" if source == "oqmd" else "Materials Project"
-    no_entry_msg = (
-        f"(no {source_label} entry at this composition)"
-    )
+    if source == "oqmd":
+        cmin, cmax = CMIN_OQMD, CMAX_OQMD
+        source_label = "OQMD"
+    elif source == "mp":
+        cmin, cmax = CMIN_MP, CMAX_MP
+        source_label = "Materials Project"
+    elif source == "alex_pbe":
+        cmin, cmax = CMIN_ALEX, CMAX_ALEX
+        source_label = "Alexandria PBE"
+    else:
+        cmin, cmax = CMIN_ALEX, CMAX_ALEX
+        source_label = "Alexandria PBEsol"
+    no_entry_msg = f"(no {source_label} entry at this composition)"
 
     entries = _lowest_per_composition(all_entries)
     n_total = len(entries)
-    # OQMD: on-hull when stability ≤ 0.  MP: on-hull when stability ≈ 0.
+    # OQMD: on-hull when stability ≤ 0.  MP/Alexandria: on-hull when stability ≈ 0.
     hull_tol = 1e-6 if source == "oqmd" else 0.001
     n_hull = sum(1 for e in entries
                  if e.get("stability") is not None and e["stability"] <= hull_tol)
@@ -388,11 +417,26 @@ def _build_phase_table_html(entries: list[dict], source: str, formula: str,
     n_stable = sum(1 for e in entries
                    if e.get("stability") is not None and e["stability"] <= hull_tol)
     n_icsd = sum(1 for e in entries if e.get("icsd"))
-    source_label = "OQMD" if source == "oqmd" else "Materials Project"
-    stab_col = "Stability (meV/atom)" if source == "oqmd" else "Hull Dist. (meV/atom)"
-    entry_col = "Entry" if source == "oqmd" else "MP ID"
-    note = ("OQMD: negative = below hull (stable)." if source == "oqmd"
-            else "MP: 0 = on hull, positive = above.")
+    if source == "oqmd":
+        source_label = "OQMD"
+        stab_col  = "Stability (meV/atom)"
+        entry_col = "Entry"
+        note      = "OQMD: negative = below hull (stable)."
+    elif source == "mp":
+        source_label = "Materials Project"
+        stab_col  = "Hull Dist. (meV/atom)"
+        entry_col = "MP ID"
+        note      = "MP: 0 = on hull, positive = above."
+    elif source == "alex_pbe":
+        source_label = "Alexandria PBE"
+        stab_col  = "Hull Dist. (meV/atom)"
+        entry_col = "Entry ID"
+        note      = "Alexandria: 0 = on hull, positive = above."
+    else:
+        source_label = "Alexandria PBEsol"
+        stab_col  = "Hull Dist. (meV/atom)"
+        entry_col = "Entry ID"
+        note      = "Alexandria: 0 = on hull, positive = above."
 
     rows_html = ""
     for e in entries:
@@ -424,7 +468,7 @@ def _build_phase_table_html(entries: list[dict], source: str, formula: str,
                 f'class="external-link" target="_blank">{entry_id}</a>'
                 if entry_id else "—"
             )
-        else:
+        elif source == "mp":
             mp_id = e.get("mp_id")
             cif_rel = _mp_cif_rel_path(space, e["composition_id"], mp_id, stability)
             entry_cell = (
@@ -432,6 +476,11 @@ def _build_phase_table_html(entries: list[dict], source: str, formula: str,
                 f'class="external-link" target="_blank">{mp_id}</a>'
                 if mp_id else "—"
             )
+        else:
+            alex_id = e.get("entry_id", "")
+            cif_rel = _alex_cif_rel_path(source, space, e["composition_id"],
+                                          alex_id, stability)
+            entry_cell = f"<code>{alex_id}</code>" if alex_id else "—"
 
         cif_html = (f'<a href="{cif_rel}" class="cif-link" download>CIF</a>'
                     if cif_rel else "—")
@@ -492,11 +541,14 @@ def _build_phase_table_html(entries: list[dict], source: str, formula: str,
 # ---------------------------------------------------------------------------
 
 def get_summary_cards(df) -> list[dict]:
-    n_oqmd = sum(1 for _ in OQMD_DIR.rglob("*.cif")) if OQMD_DIR.exists() else 0
-    n_mp = sum(1 for _ in MP_DIR.rglob("*.cif")) if MP_DIR.exists() else 0
+    n_oqmd        = sum(1 for _ in OQMD_DIR.rglob("*.cif"))        if OQMD_DIR.exists()        else 0
+    n_mp          = sum(1 for _ in MP_DIR.rglob("*.cif"))           if MP_DIR.exists()           else 0
+    n_alex_pbe    = sum(1 for _ in ALEX_PBE_DIR.rglob("*.cif"))    if ALEX_PBE_DIR.exists()    else 0
+    n_alex_pbesol = sum(1 for _ in ALEX_PBESOL_DIR.rglob("*.cif")) if ALEX_PBESOL_DIR.exists() else 0
     cards = [{"label": "OQMD Phase CIFs", "value": str(n_oqmd)}]
-    if n_mp > 0:
-        cards.append({"label": "MP Phase CIFs", "value": str(n_mp)})
+    if n_mp          > 0: cards.append({"label": "MP Phase CIFs",          "value": str(n_mp)})
+    if n_alex_pbe    > 0: cards.append({"label": "Alexandria PBE CIFs",    "value": str(n_alex_pbe)})
+    if n_alex_pbesol > 0: cards.append({"label": "Alexandria PBEsol CIFs", "value": str(n_alex_pbesol)})
     return cards
 
 
@@ -511,71 +563,88 @@ def generate(row, plots_dir: Path, results_dir: Path) -> None:
 def get_detail_section(row, plots_dir: Path, results_dir: Path) -> dict | None:
     formula = row["formula"]
     safe_id = re.sub(r"[^A-Za-z0-9]", "_", formula)
+    elements = parse_elements_from_formula(formula)
 
-    entries_oqmd = _load_all_entries(formula, OQMD_DIR)
-    entries_mp   = _load_all_entries(formula, MP_DIR)
+    entries_oqmd      = _load_all_entries(formula, OQMD_DIR)
+    entries_mp        = _load_all_entries(formula, MP_DIR)
+    entries_alex_pbe  = _load_all_entries(formula, ALEX_PBE_DIR)
+    entries_alex_pbes = _load_all_entries(formula, ALEX_PBESOL_DIR)
 
-    if not entries_oqmd and not entries_mp:
+    if not any([entries_oqmd, entries_mp, entries_alex_pbe, entries_alex_pbes]):
         return None
 
-    elements = parse_elements_from_formula(formula)
-    has_mp = bool(entries_mp)
+    # Determine which sources have data
+    sources_available = [
+        ("oqmd",      entries_oqmd,      "OQMD"),
+        ("mp",        entries_mp,        "Materials Project"),
+        ("alex_pbe",  entries_alex_pbe,  "Alexandria PBE"),
+        ("alex_pbesol", entries_alex_pbes, "Alexandria PBEsol"),
+    ]
+    active_sources = [(k, e, lbl) for k, e, lbl in sources_available if e]
+    use_toggle = len(active_sources) >= 2
+    first_source = active_sources[0][0] if active_sources else "oqmd"
 
     html = ""
 
-    # --- Source toggle (only shown when MP data is available) --------------
-    if has_mp:
-        html += f"""
-<div style="margin-bottom:14px;">
-    <button id="tp_src_btn_oqmd_{safe_id}"
-            onclick="toggleTPSource('{safe_id}', 'oqmd')"
-            style="padding:6px 16px; cursor:pointer; border:1px solid #2c7be5;
-                   background:#2c7be5; color:white; font-weight:bold;
-                   border-radius:4px 0 0 4px;">OQMD</button><button
-            id="tp_src_btn_mp_{safe_id}"
-            onclick="toggleTPSource('{safe_id}', 'mp')"
-            style="padding:6px 16px; cursor:pointer; border:1px solid #aaa;
-                   background:#f8f9fa; color:#333; font-weight:normal;
-                   border-radius:0 4px 4px 0;">Materials Project</button>
-</div>
-"""
+    # --- Source toggle bar (when ≥2 sources have data) --------------------
+    if use_toggle:
+        n = len(active_sources)
+        btn_html = ""
+        for i, (src_key, _, lbl) in enumerate(active_sources):
+            is_first_btn = (i == 0)
+            if n == 1:
+                radius = "4px"
+            elif i == 0:
+                radius = "4px 0 0 4px"
+            elif i == n - 1:
+                radius = "0 4px 4px 0"
+            else:
+                radius = "0"
+            if is_first_btn:
+                style = (f"padding:6px 16px; cursor:pointer; border:1px solid #2c7be5; "
+                         f"background:#2c7be5; color:white; font-weight:bold; "
+                         f"border-radius:{radius};")
+            else:
+                style = (f"padding:6px 16px; cursor:pointer; border:1px solid #aaa; "
+                         f"background:#f8f9fa; color:#333; font-weight:normal; "
+                         f"border-radius:{radius};")
+            # Remove gap between adjacent buttons
+            margin = "" if i == 0 else "margin-left:-1px;"
+            btn_html += (
+                f'<button id="tp_src_btn_{src_key}_{safe_id}" '
+                f'onclick="toggleTPSource(\'{safe_id}\', \'{src_key}\')" '
+                f'style="{style}{margin}">{lbl}</button>'
+            )
+        html += f'<div style="margin-bottom:14px;">{btn_html}</div>\n'
 
-    # --- Build OQMD section HTML -------------------------------------------
-    oqmd_html = ""
-    if entries_oqmd:
+    # --- Build per-source HTML blocks -------------------------------------
+    source_html_map = {}
+    for src_key, entries, _ in active_sources:
+        src_html = ""
         if len(elements) == 3:
-            fig = _make_ternary_figure(entries_oqmd, formula, elements, source="oqmd")
-            oqmd_html += fig.to_html(
+            fig = _make_ternary_figure(entries, formula, elements, source=src_key)
+            src_html += fig.to_html(
                 full_html=False,
                 include_plotlyjs="cdn",
                 config={"displayModeBar": False},
             )
-        oqmd_html += _build_phase_table_html(
-            entries_oqmd, "oqmd", formula, f"tp_table_oqmd_{safe_id}"
+        src_html += _build_phase_table_html(
+            entries, src_key, formula, f"tp_table_{src_key}_{safe_id}"
         )
+        source_html_map[src_key] = src_html
 
-    # --- Build MP section HTML ---------------------------------------------
-    mp_html = ""
-    if has_mp:
-        if len(elements) == 3:
-            fig = _make_ternary_figure(entries_mp, formula, elements, source="mp")
-            mp_html += fig.to_html(
-                full_html=False,
-                include_plotlyjs="cdn",
-                config={"displayModeBar": False},
-            )
-        mp_html += _build_phase_table_html(
-            entries_mp, "mp", formula, f"tp_table_mp_{safe_id}"
-        )
+    # --- Assemble with toggle wrappers ------------------------------------
+    if use_toggle:
+        all_keys = [k for k, _, _ in active_sources]
+        for src_key, src_html in source_html_map.items():
+            display = "" if src_key == first_source else ' style="display:none"'
+            html += f'<div id="tp_src_{src_key}_{safe_id}"{display}>{src_html}</div>\n'
 
-    # --- Assemble with toggle wrappers -------------------------------------
-    if has_mp:
-        html += f'<div id="tp_src_oqmd_{safe_id}">{oqmd_html}</div>\n'
-        html += f'<div id="tp_src_mp_{safe_id}" style="display:none">{mp_html}</div>\n'
+        all_keys_js = json.dumps(all_keys)
         html += f"""
 <script>
 function toggleTPSource(safeId, source) {{
-    ['oqmd', 'mp'].forEach(function(s) {{
+    {all_keys_js}.forEach(function(s) {{
         var active = (s === source);
         var div = document.getElementById('tp_src_' + s + '_' + safeId);
         var btn = document.getElementById('tp_src_btn_' + s + '_' + safeId);
@@ -606,21 +675,22 @@ function toggleTPTable(tableId, nTotal, defaultShow) {{
 </script>
 """
     else:
-        html += oqmd_html
-        html += f"""
+        # Single source — no toggle needed
+        html += list(source_html_map.values())[0]
+        html += """
 <script>
-function toggleTPTable(tableId, nTotal, defaultShow) {{
+function toggleTPTable(tableId, nTotal, defaultShow) {
     var table = document.getElementById(tableId);
     var rows = table.tBodies[0].rows;
     var btn = document.getElementById(tableId + '_btn');
     var showing = document.getElementById(tableId + '_showing');
     var allVisible = rows[defaultShow] && rows[defaultShow].style.display !== 'none';
-    for (var i = defaultShow; i < rows.length; i++) {{
+    for (var i = defaultShow; i < rows.length; i++) {
         rows[i].style.display = allVisible ? 'none' : '';
-    }}
+    }
     btn.textContent = allVisible ? 'Show all' : 'Show less';
     showing.textContent = allVisible ? Math.min(defaultShow, nTotal) : nTotal;
-}}
+}
 </script>
 """
 

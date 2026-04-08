@@ -1,0 +1,129 @@
+{
+  "space": "Al-Au-Mn",
+  "elements": [
+    "Al",
+    "Au",
+    "Mn"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002634309",
+      "composition_id": "Au2",
+      "delta_e": -0.21687631,
+      "stability": 0.055350453,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427549",
+      "composition_id": "Al2",
+      "delta_e": -0.2825956,
+      "stability": 0.08521411,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002134960",
+      "composition_id": "",
+      "delta_e": -0.20856234,
+      "stability": 0.09339021,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002250095",
+      "composition_id": "Au2",
+      "delta_e": -0.1723106,
+      "stability": 0.09991617,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168267",
+      "composition_id": "Al2",
+      "delta_e": -0.2636179,
+      "stability": 0.10419182,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002367564",
+      "composition_id": "Al3 Mn2",
+      "delta_e": -0.23167609,
+      "stability": 0.116722584,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168268",
+      "composition_id": "Al2",
+      "delta_e": -0.24945,
+      "stability": 0.11835973,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168272",
+      "composition_id": "Au2",
+      "delta_e": -0.1526453,
+      "stability": 0.11958147,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168270",
+      "composition_id": "Au2",
+      "delta_e": -0.14713664,
+      "stability": 0.12509014,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002329406",
+      "composition_id": "Au2",
+      "delta_e": -0.1376808,
+      "stability": 0.13454597,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004418129",
+      "composition_id": "Mn2",
+      "delta_e": -0.09117191,
+      "stability": 0.1352925,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168271",
+      "composition_id": "Au2",
+      "delta_e": -0.12595776,
+      "stability": 0.14626901,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002250094",
+      "composition_id": "",
+      "delta_e": -0.15183647,
+      "stability": 0.15011609,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168274",
+      "composition_id": "Mn2",
+      "delta_e": -0.073411696,
+      "stability": 0.15305272,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427558",
+      "composition_id": "Al2",
+      "delta_e": -0.15673266,
+      "stability": 0.21107705,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427551",
+      "composition_id": "Al2",
+      "delta_e": 0.0009536793,
+      "stability": 0.3687634,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002395638",
+      "composition_id": "Al3",
+      "delta_e": 0.6327441,
+      "stability": 1.0058322,
+      "icsd": false
+    }
+  ]
+}

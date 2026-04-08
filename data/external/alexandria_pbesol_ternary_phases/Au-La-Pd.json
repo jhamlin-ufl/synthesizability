@@ -1,0 +1,59 @@
+{
+  "space": "Au-La-Pd",
+  "elements": [
+    "Au",
+    "La",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003008729",
+      "composition_id": "La2 Pd2",
+      "delta_e": -0.7980684,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002306995",
+      "composition_id": "Au3 Pd2",
+      "delta_e": -0.59383935,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002307745",
+      "composition_id": "",
+      "delta_e": -0.7504145,
+      "stability": 0.04197384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002179753",
+      "composition_id": "La2",
+      "delta_e": -0.7032097,
+      "stability": 0.08123198,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003009078",
+      "composition_id": "Au2 La2",
+      "delta_e": -0.70209277,
+      "stability": 0.09254221,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002307593",
+      "composition_id": "Pd2",
+      "delta_e": -0.6475485,
+      "stability": 0.0997811,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002574398",
+      "composition_id": "La3",
+      "delta_e": -0.04344995,
+      "stability": 0.5944727,
+      "icsd": false
+    }
+  ]
+}

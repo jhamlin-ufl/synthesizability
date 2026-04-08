@@ -1,0 +1,115 @@
+{
+  "space": "Al-Co-Fe",
+  "elements": [
+    "Al",
+    "Co",
+    "Fe"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003278424",
+      "composition_id": "Al2",
+      "delta_e": -0.4893945,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002634814",
+      "composition_id": "Co2",
+      "delta_e": -0.3393085,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002632551",
+      "composition_id": "Al2",
+      "delta_e": -0.48855487,
+      "stability": 0.0008396,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003187960",
+      "composition_id": "Co2",
+      "delta_e": -0.30437335,
+      "stability": 0.03493514,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002134736",
+      "composition_id": "Fe2",
+      "delta_e": -0.25133598,
+      "stability": 0.06053068,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168553",
+      "composition_id": "Fe2",
+      "delta_e": -0.23113656,
+      "stability": 0.0807301,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168552",
+      "composition_id": "Fe2",
+      "delta_e": -0.22742635,
+      "stability": 0.084440306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168554",
+      "composition_id": "Fe2",
+      "delta_e": -0.21372479,
+      "stability": 0.09814187,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004224015",
+      "composition_id": "Co2",
+      "delta_e": -0.2264114,
+      "stability": 0.1128971,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168555",
+      "composition_id": "Fe2",
+      "delta_e": -0.18227427,
+      "stability": 0.12959239,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004153947",
+      "composition_id": "Fe2",
+      "delta_e": -0.16367108,
+      "stability": 0.14819558,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004153966",
+      "composition_id": "Fe2",
+      "delta_e": -0.13402374,
+      "stability": 0.17784292,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004153953",
+      "composition_id": "Al2",
+      "delta_e": -0.18419379,
+      "stability": 0.3052007,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004153960",
+      "composition_id": "Al2",
+      "delta_e": -0.15995826,
+      "stability": 0.3294362,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004153945",
+      "composition_id": "Co2",
+      "delta_e": -0.004135099,
+      "stability": 0.3351734,
+      "icsd": false
+    }
+  ]
+}

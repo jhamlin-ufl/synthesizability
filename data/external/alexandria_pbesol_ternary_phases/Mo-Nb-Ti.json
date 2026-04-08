@@ -1,0 +1,31 @@
+{
+  "space": "Mo-Nb-Ti",
+  "elements": [
+    "Mo",
+    "Nb",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002746053",
+      "composition_id": "Mo2",
+      "delta_e": -0.077489115,
+      "stability": 0.022048067,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002322068",
+      "composition_id": "Nb2",
+      "delta_e": -0.025562417,
+      "stability": 0.027556432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002744558",
+      "composition_id": "Ti2",
+      "delta_e": 0.032011442,
+      "stability": 0.08513029,
+      "icsd": false
+    }
+  ]
+}

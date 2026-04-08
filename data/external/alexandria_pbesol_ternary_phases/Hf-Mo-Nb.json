@@ -1,0 +1,24 @@
+{
+  "space": "Hf-Mo-Nb",
+  "elements": [
+    "Hf",
+    "Mo",
+    "Nb"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002713555",
+      "composition_id": "Mo2",
+      "delta_e": -0.043330267,
+      "stability": 0.078199245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002713581",
+      "composition_id": "Hf2",
+      "delta_e": 0.07781095,
+      "stability": 0.1385757,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "space": "C-La-Ru",
+  "elements": [
+    "C",
+    "La",
+    "Ru"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002258410",
+      "composition_id": "C4 La3",
+      "delta_e": -0.21647097,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003187132",
+      "composition_id": "C2",
+      "delta_e": -0.16604063,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002140469",
+      "composition_id": "Ru3",
+      "delta_e": -0.033274796,
+      "stability": 0.06896436,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002437135",
+      "composition_id": "La3",
+      "delta_e": 0.92218614,
+      "stability": 1.1280215,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002651934",
+      "composition_id": "Ru2",
+      "delta_e": 1.190278,
+      "stability": 1.318077,
+      "icsd": false
+    }
+  ]
+}

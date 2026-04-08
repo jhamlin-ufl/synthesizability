@@ -1,0 +1,38 @@
+{
+  "space": "Fe-Gd-Ge",
+  "elements": [
+    "Fe",
+    "Gd",
+    "Ge"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003194748",
+      "composition_id": "Fe2 Ge2",
+      "delta_e": -0.5210044,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002212835",
+      "composition_id": "Ge2",
+      "delta_e": -0.61434436,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002150912",
+      "composition_id": "Ge3",
+      "delta_e": -0.5528718,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002212836",
+      "composition_id": "Gd2 Ge2",
+      "delta_e": -0.7055228,
+      "stability": 0.030459285,
+      "icsd": false
+    }
+  ]
+}

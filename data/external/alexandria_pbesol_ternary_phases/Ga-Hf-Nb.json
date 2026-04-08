@@ -1,0 +1,52 @@
+{
+  "space": "Ga-Hf-Nb",
+  "elements": [
+    "Ga",
+    "Hf",
+    "Nb"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003220390",
+      "composition_id": "Ga3 Hf3 Nb2",
+      "delta_e": -0.50239766,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002978113",
+      "composition_id": "Ga2 Nb2",
+      "delta_e": -0.45823672,
+      "stability": 0.007119532,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002151255",
+      "composition_id": "Ga4 Nb2",
+      "delta_e": -0.43158564,
+      "stability": 0.026783613,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002978147",
+      "composition_id": "Ga2 Hf2",
+      "delta_e": -0.47110382,
+      "stability": 0.046387754,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002479569",
+      "composition_id": "Ga3",
+      "delta_e": 0.6926909,
+      "stability": 1.1724793,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002481308",
+      "composition_id": "Nb3",
+      "delta_e": 0.91231424,
+      "stability": 1.1802597,
+      "icsd": false
+    }
+  ]
+}

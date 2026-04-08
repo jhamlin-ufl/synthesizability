@@ -1,0 +1,2732 @@
+{
+  "space": "Ni-Pt",
+  "elements": [
+    "Ni",
+    "Pt"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002167645",
+      "composition_id": "Ni3",
+      "delta_e": -0.07526291,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068469954",
+      "composition_id": "Pt17",
+      "delta_e": -0.029616872,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003187317",
+      "composition_id": "Pt3",
+      "delta_e": -0.075034015,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm058241642",
+      "composition_id": "Pt9",
+      "delta_e": -0.043492522,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002113673",
+      "composition_id": "",
+      "delta_e": -0.10625361,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290607",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.09594149,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002348059",
+      "composition_id": "Ni3",
+      "delta_e": -0.07506359,
+      "stability": 0.0001993225,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002168447",
+      "composition_id": "Pt3",
+      "delta_e": -0.074254066,
+      "stability": 0.00077995,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047916006",
+      "composition_id": "Pt7",
+      "delta_e": -0.04772313,
+      "stability": 0.0010263083,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003263011",
+      "composition_id": "Ni3",
+      "delta_e": -0.07414898,
+      "stability": 0.00111393,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068319696",
+      "composition_id": "Pt17",
+      "delta_e": -0.027440472,
+      "stability": 0.0021764005,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002348707",
+      "composition_id": "Pt5",
+      "delta_e": -0.055217512,
+      "stability": 0.0022934522,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065287372",
+      "composition_id": "Pt18",
+      "delta_e": -0.025576483,
+      "stability": 0.0024816063,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003203054",
+      "composition_id": "Pt5",
+      "delta_e": -0.054047767,
+      "stability": 0.0034631973,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003289910",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": -0.093799345,
+      "stability": 0.0035997792,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007787087",
+      "composition_id": "Ni8 Pt3",
+      "delta_e": -0.07399401,
+      "stability": 0.004086237,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007834396",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.09356593,
+      "stability": 0.004437982,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003161428",
+      "composition_id": "Pt2",
+      "delta_e": -0.08452125,
+      "stability": 0.0044510877,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007813297",
+      "composition_id": "Ni5 Pt2",
+      "delta_e": -0.074603975,
+      "stability": 0.0050861808,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm054304124",
+      "composition_id": "Pt10",
+      "delta_e": -0.035244964,
+      "stability": 0.005409357,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm067599240",
+      "composition_id": "Pt11",
+      "delta_e": -0.032878883,
+      "stability": 0.0054102694,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008049297",
+      "composition_id": "Ni2",
+      "delta_e": -0.08011937,
+      "stability": 0.005473775,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003203984",
+      "composition_id": "Ni2",
+      "delta_e": -0.08007732,
+      "stability": 0.0055158283,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003203987",
+      "composition_id": "Ni5",
+      "delta_e": -0.044394035,
+      "stability": 0.0057812417,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003195078",
+      "composition_id": "Ni4",
+      "delta_e": -0.054379437,
+      "stability": 0.005830894,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008232876",
+      "composition_id": "Ni5",
+      "delta_e": -0.043795027,
+      "stability": 0.0063802465,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007928104",
+      "composition_id": "Pt7",
+      "delta_e": -0.042304557,
+      "stability": 0.006444882,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013285282",
+      "composition_id": "Pt14",
+      "delta_e": -0.02660361,
+      "stability": 0.006482175,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212374",
+      "composition_id": "Ni2",
+      "delta_e": -0.07899706,
+      "stability": 0.006596082,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm017582733",
+      "composition_id": "Pt8",
+      "delta_e": -0.039135363,
+      "stability": 0.0066935653,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008906630",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": -0.083874285,
+      "stability": 0.0068839737,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007930573",
+      "composition_id": "Ni7",
+      "delta_e": -0.030603902,
+      "stability": 0.007027554,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047661706",
+      "composition_id": "Pt5",
+      "delta_e": -0.05033427,
+      "stability": 0.007176693,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212375",
+      "composition_id": "Ni2",
+      "delta_e": -0.0783572,
+      "stability": 0.0072359457,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002227269",
+      "composition_id": "Pt8",
+      "delta_e": -0.03842439,
+      "stability": 0.007404539,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008152918",
+      "composition_id": "Pt3",
+      "delta_e": -0.06737847,
+      "stability": 0.0076555423,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003291120",
+      "composition_id": "Ni7 Pt3",
+      "delta_e": -0.0736876,
+      "stability": 0.007773456,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm046301152",
+      "composition_id": "Pt15",
+      "delta_e": -0.02386805,
+      "stability": 0.007916891,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005545484",
+      "composition_id": "Ni5",
+      "delta_e": -0.042253297,
+      "stability": 0.007921977,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007952296",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.09004755,
+      "stability": 0.007956365,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007797432",
+      "composition_id": "Ni3 Pt13",
+      "delta_e": -0.053614583,
+      "stability": 0.008277143,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008041787",
+      "composition_id": "Ni2",
+      "delta_e": -0.07726925,
+      "stability": 0.008323899,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068118817",
+      "composition_id": "Pt11",
+      "delta_e": -0.02966908,
+      "stability": 0.008620073,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008156772",
+      "composition_id": "Ni5",
+      "delta_e": -0.041502528,
+      "stability": 0.008672747,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069026762",
+      "composition_id": "Pt8",
+      "delta_e": -0.037031893,
+      "stability": 0.0087970365,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010138841",
+      "composition_id": "Ni6",
+      "delta_e": -0.034046315,
+      "stability": 0.008961063,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069786917",
+      "composition_id": "Pt7",
+      "delta_e": -0.039594647,
+      "stability": 0.009154793,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005540372",
+      "composition_id": "Ni2",
+      "delta_e": -0.076257326,
+      "stability": 0.0093358215,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm043988844",
+      "composition_id": "Pt7",
+      "delta_e": -0.039118256,
+      "stability": 0.009631182,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm044835963",
+      "composition_id": "Pt11",
+      "delta_e": -0.028559519,
+      "stability": 0.009729635,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm061750250",
+      "composition_id": "Pt12",
+      "delta_e": -0.026206361,
+      "stability": 0.010081496,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014071495",
+      "composition_id": "Ni8",
+      "delta_e": -0.023178352,
+      "stability": 0.010271831,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010133476",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": -0.08907612,
+      "stability": 0.010290672,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002378003",
+      "composition_id": "Ni8",
+      "delta_e": -0.02314827,
+      "stability": 0.010301913,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010207741",
+      "composition_id": "Ni3",
+      "delta_e": -0.06479151,
+      "stability": 0.010471404,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008701165",
+      "composition_id": "Ni2 Pt7",
+      "delta_e": -0.058243144,
+      "stability": 0.010949855,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm055635674",
+      "composition_id": "Pt11",
+      "delta_e": -0.027240789,
+      "stability": 0.011048365,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003291119",
+      "composition_id": "Ni3 Pt7",
+      "delta_e": -0.07181231,
+      "stability": 0.0115846945,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065694874",
+      "composition_id": "Pt11",
+      "delta_e": -0.026621863,
+      "stability": 0.01166729,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010128379",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.0842406,
+      "stability": 0.011682776,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012265881",
+      "composition_id": "Pt15",
+      "delta_e": -0.01999288,
+      "stability": 0.011792061,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014467382",
+      "composition_id": "Pt10",
+      "delta_e": -0.028848706,
+      "stability": 0.011805615,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008307542",
+      "composition_id": "Ni8 Pt3",
+      "delta_e": -0.06621623,
+      "stability": 0.0118640205,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003161427",
+      "composition_id": "Ni2",
+      "delta_e": -0.073603295,
+      "stability": 0.011989849,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002227268",
+      "composition_id": "Pt5",
+      "delta_e": -0.045360673,
+      "stability": 0.012150289,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002295808",
+      "composition_id": "Pt2",
+      "delta_e": -0.07660896,
+      "stability": 0.01236337,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009716420",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": -0.078135855,
+      "stability": 0.012622402,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm057304036",
+      "composition_id": "Pt9",
+      "delta_e": -0.030850358,
+      "stability": 0.012642165,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003264822",
+      "composition_id": "Ni7",
+      "delta_e": -0.024950862,
+      "stability": 0.012680595,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007939522",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": -0.08463394,
+      "stability": 0.012765187,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007914675",
+      "composition_id": "Pt6",
+      "delta_e": -0.03973658,
+      "stability": 0.012767796,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009844380",
+      "composition_id": "Ni2 Pt7",
+      "delta_e": -0.05630964,
+      "stability": 0.012883357,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066121399",
+      "composition_id": "Pt9",
+      "delta_e": -0.030606668,
+      "stability": 0.012885855,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068909296",
+      "composition_id": "Pt15",
+      "delta_e": -0.018853141,
+      "stability": 0.012931801,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065358290",
+      "composition_id": "Pt11",
+      "delta_e": -0.025044106,
+      "stability": 0.013245048,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007847647",
+      "composition_id": "Ni3 Pt4",
+      "delta_e": -0.08627249,
+      "stability": 0.014088478,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009892091",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.08174796,
+      "stability": 0.01419354,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007896662",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": -0.07647354,
+      "stability": 0.0142847225,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008262776",
+      "composition_id": "Pt5",
+      "delta_e": -0.04319942,
+      "stability": 0.0143115455,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009517363",
+      "composition_id": "Ni2 Pt7",
+      "delta_e": -0.05480784,
+      "stability": 0.014385157,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm016964679",
+      "composition_id": "Pt11",
+      "delta_e": -0.023887902,
+      "stability": 0.0144012505,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008231554",
+      "composition_id": "Pt5",
+      "delta_e": -0.04310056,
+      "stability": 0.014410405,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm016816074",
+      "composition_id": "Pt11",
+      "delta_e": -0.023768172,
+      "stability": 0.014520981,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008084474",
+      "composition_id": "Pt4",
+      "delta_e": -0.049986083,
+      "stability": 0.014534103,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003184756",
+      "composition_id": "Pt3",
+      "delta_e": -0.06043349,
+      "stability": 0.014600525,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002168445",
+      "composition_id": "Pt3",
+      "delta_e": -0.060420584,
+      "stability": 0.014613433,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068957390",
+      "composition_id": "Pt7",
+      "delta_e": -0.03390728,
+      "stability": 0.01484216,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068916775",
+      "composition_id": "Pt7",
+      "delta_e": -0.03375869,
+      "stability": 0.014990751,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003263013",
+      "composition_id": "Ni3",
+      "delta_e": -0.060240008,
+      "stability": 0.015022904,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003203986",
+      "composition_id": "Pt2",
+      "delta_e": -0.073920205,
+      "stability": 0.015052128,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014274739",
+      "composition_id": "Pt10",
+      "delta_e": -0.025539663,
+      "stability": 0.015114659,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007766985",
+      "composition_id": "Ni2 Pt13",
+      "delta_e": -0.034989905,
+      "stability": 0.01551184,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007793326",
+      "composition_id": "Ni2 Pt13",
+      "delta_e": -0.034942016,
+      "stability": 0.015559727,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068269804",
+      "composition_id": "Pt11",
+      "delta_e": -0.022653183,
+      "stability": 0.015635971,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008049047",
+      "composition_id": "Pt2",
+      "delta_e": -0.0732179,
+      "stability": 0.015754433,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm042618971",
+      "composition_id": "Pt9",
+      "delta_e": -0.027670778,
+      "stability": 0.015821746,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009844045",
+      "composition_id": "Ni7 Pt2",
+      "delta_e": -0.05082707,
+      "stability": 0.016073296,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003258760",
+      "composition_id": "Ni5 Pt2",
+      "delta_e": -0.06317671,
+      "stability": 0.016513452,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm048373230",
+      "composition_id": "Pt7",
+      "delta_e": -0.032037012,
+      "stability": 0.016712425,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267180",
+      "composition_id": "Ni2 Pt7",
+      "delta_e": -0.052366693,
+      "stability": 0.016826306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007843238",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.07692886,
+      "stability": 0.016928473,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010156725",
+      "composition_id": "Pt5",
+      "delta_e": -0.040525448,
+      "stability": 0.016985515,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010143870",
+      "composition_id": "Pt6",
+      "delta_e": -0.03524592,
+      "stability": 0.017258458,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003264824",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": -0.07306383,
+      "stability": 0.017694432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009025514",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": -0.072610594,
+      "stability": 0.018147668,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012997858",
+      "composition_id": "Pt9",
+      "delta_e": -0.025230726,
+      "stability": 0.018261796,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003298574",
+      "composition_id": "Pt5",
+      "delta_e": -0.039146107,
+      "stability": 0.018364858,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007814003",
+      "composition_id": "Ni2 Pt5",
+      "delta_e": -0.06184688,
+      "stability": 0.019160703,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070205901",
+      "composition_id": "Pt7",
+      "delta_e": -0.028884998,
+      "stability": 0.01986444,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212371",
+      "composition_id": "Ni2",
+      "delta_e": -0.06566468,
+      "stability": 0.019928467,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065363635",
+      "composition_id": "Pt9",
+      "delta_e": -0.02354208,
+      "stability": 0.019950444,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008791815",
+      "composition_id": "Ni2 Pt7",
+      "delta_e": -0.04886251,
+      "stability": 0.020330487,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007903588",
+      "composition_id": "Pt7",
+      "delta_e": -0.028402435,
+      "stability": 0.020347005,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013635557",
+      "composition_id": "Pt6",
+      "delta_e": -0.031810943,
+      "stability": 0.020693434,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007892160",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": -0.07856312,
+      "stability": 0.020803668,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009745668",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.07492581,
+      "stability": 0.021015687,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003195079",
+      "composition_id": "Pt4",
+      "delta_e": -0.04340026,
+      "stability": 0.021119924,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533261",
+      "composition_id": "Ni13 Pt3",
+      "delta_e": -0.03379394,
+      "stability": 0.022653243,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008030280",
+      "composition_id": "Pt2",
+      "delta_e": -0.066318214,
+      "stability": 0.022654118,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010131348",
+      "composition_id": "Pt5",
+      "delta_e": -0.03464002,
+      "stability": 0.022870941,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212376",
+      "composition_id": "Ni2",
+      "delta_e": -0.06260938,
+      "stability": 0.022983765,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm059579040",
+      "composition_id": "Pt9",
+      "delta_e": -0.020396851,
+      "stability": 0.023095671,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003184762",
+      "composition_id": "Pt3",
+      "delta_e": -0.0516592,
+      "stability": 0.023374815,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003268389",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": -0.07594406,
+      "stability": 0.023422731,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002168449",
+      "composition_id": "Pt7",
+      "delta_e": -0.0251434,
+      "stability": 0.023606038,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209661",
+      "composition_id": "Pt2",
+      "delta_e": -0.06529473,
+      "stability": 0.023677606,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212377",
+      "composition_id": "Ni2",
+      "delta_e": -0.06156644,
+      "stability": 0.024026707,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007933436",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.06963526,
+      "stability": 0.024222074,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002297513",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.07141435,
+      "stability": 0.024527142,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008059756",
+      "composition_id": "Pt4",
+      "delta_e": -0.03956231,
+      "stability": 0.024957873,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003268388",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": -0.07359871,
+      "stability": 0.025768075,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003186826",
+      "composition_id": "",
+      "delta_e": -0.0802498,
+      "stability": 0.02600381,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010206645",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.06989286,
+      "stability": 0.026048632,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003263014",
+      "composition_id": "Ni3",
+      "delta_e": -0.04898736,
+      "stability": 0.026275555,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007972329",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.06965309,
+      "stability": 0.026288407,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005532930",
+      "composition_id": "Ni3 Pt13",
+      "delta_e": -0.03545779,
+      "stability": 0.026433935,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003263012",
+      "composition_id": "Ni3",
+      "delta_e": -0.04882525,
+      "stability": 0.026437664,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007902109",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": -0.0689862,
+      "stability": 0.026955295,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212379",
+      "composition_id": "Pt2",
+      "delta_e": -0.061933346,
+      "stability": 0.027038988,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003186825",
+      "composition_id": "",
+      "delta_e": -0.07882037,
+      "stability": 0.027433237,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212380",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.06834338,
+      "stability": 0.02758,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005546947",
+      "composition_id": "Ni6",
+      "delta_e": -0.015216994,
+      "stability": 0.027790384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212373",
+      "composition_id": "Ni2",
+      "delta_e": -0.0576671,
+      "stability": 0.027926048,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003186127",
+      "composition_id": "Ni3",
+      "delta_e": -0.047164656,
+      "stability": 0.028098257,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290576",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": -0.062373575,
+      "stability": 0.028384686,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005535763",
+      "composition_id": "Ni3 Pt7",
+      "delta_e": -0.054971423,
+      "stability": 0.028425584,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007838456",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.06949893,
+      "stability": 0.028504992,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267181",
+      "composition_id": "Ni4 Pt5",
+      "delta_e": -0.07265777,
+      "stability": 0.029012676,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003162767",
+      "composition_id": "Ni3",
+      "delta_e": -0.046209775,
+      "stability": 0.029053137,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003210822",
+      "composition_id": "",
+      "delta_e": -0.077011265,
+      "stability": 0.029242344,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003208649",
+      "composition_id": "Ni7 Pt4",
+      "delta_e": -0.059622522,
+      "stability": 0.029727072,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003292287",
+      "composition_id": "Ni4 Pt5",
+      "delta_e": -0.07167052,
+      "stability": 0.02999993,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212372",
+      "composition_id": "Ni2",
+      "delta_e": -0.055386763,
+      "stability": 0.030206384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003208314",
+      "composition_id": "Ni4 Pt7",
+      "delta_e": -0.063100584,
+      "stability": 0.03094023,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003203985",
+      "composition_id": "Pt2",
+      "delta_e": -0.057648927,
+      "stability": 0.031323407,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002295807",
+      "composition_id": "Pt2",
+      "delta_e": -0.05760656,
+      "stability": 0.031365775,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007801876",
+      "composition_id": "Ni3 Pt7",
+      "delta_e": -0.052000217,
+      "stability": 0.031396788,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005548178",
+      "composition_id": "Pt8",
+      "delta_e": -0.014220145,
+      "stability": 0.031608786,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010194277",
+      "composition_id": "Ni5",
+      "delta_e": -0.018377401,
+      "stability": 0.031797875,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209657",
+      "composition_id": "Pt2",
+      "delta_e": -0.05676769,
+      "stability": 0.032204643,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003212378",
+      "composition_id": "Pt2",
+      "delta_e": -0.056749556,
+      "stability": 0.032222778,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003208650",
+      "composition_id": "Ni6 Pt5",
+      "delta_e": -0.06775577,
+      "stability": 0.032863166,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209656",
+      "composition_id": "Pt2",
+      "delta_e": -0.056007463,
+      "stability": 0.03296487,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010158463",
+      "composition_id": "Pt5",
+      "delta_e": -0.023824897,
+      "stability": 0.033686068,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007934023",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.06016198,
+      "stability": 0.03369535,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009706074",
+      "composition_id": "Ni3 Pt8",
+      "delta_e": -0.044988874,
+      "stability": 0.0338465,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209663",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.061907776,
+      "stability": 0.0340156,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003207280",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.06381619,
+      "stability": 0.034187727,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293140",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.06514723,
+      "stability": 0.03423164,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209650",
+      "composition_id": "Ni2",
+      "delta_e": -0.05108113,
+      "stability": 0.034512017,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008201477",
+      "composition_id": "Ni5",
+      "delta_e": -0.0153189115,
+      "stability": 0.034856364,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198258",
+      "composition_id": "Ni2",
+      "delta_e": -0.050643772,
+      "stability": 0.034949373,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009129079",
+      "composition_id": "Ni4 Pt5",
+      "delta_e": -0.06671635,
+      "stability": 0.034954093,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209671",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.06377946,
+      "stability": 0.03559941,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010155400",
+      "composition_id": "Pt3",
+      "delta_e": -0.03906906,
+      "stability": 0.035964955,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209804",
+      "composition_id": "",
+      "delta_e": -0.07010956,
+      "stability": 0.036144048,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007914291",
+      "composition_id": "Ni7",
+      "delta_e": -0.0013434237,
+      "stability": 0.036288034,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209668",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.0627554,
+      "stability": 0.036623467,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007932926",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.061223775,
+      "stability": 0.03678014,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003184761",
+      "composition_id": "Pt3",
+      "delta_e": -0.03808701,
+      "stability": 0.036947004,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003258761",
+      "composition_id": "Ni3 Pt4",
+      "delta_e": -0.06306644,
+      "stability": 0.037294533,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007894910",
+      "composition_id": "Ni3 Pt4",
+      "delta_e": -0.062699206,
+      "stability": 0.03766177,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009519587",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": -0.06072686,
+      "stability": 0.03863993,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007841209",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.056859057,
+      "stability": 0.03906432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003184760",
+      "composition_id": "Pt3",
+      "delta_e": -0.035738558,
+      "stability": 0.039295457,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007840948",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.05983986,
+      "stability": 0.03953901,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003218063",
+      "composition_id": "Ni3",
+      "delta_e": -0.035594463,
+      "stability": 0.03966845,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003158294",
+      "composition_id": "Pt2",
+      "delta_e": -0.04857301,
+      "stability": 0.040399324,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209672",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.05889871,
+      "stability": 0.040480155,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002227265",
+      "composition_id": "",
+      "delta_e": -0.065492734,
+      "stability": 0.04076087,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003205083",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.052985504,
+      "stability": 0.040871825,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209658",
+      "composition_id": "Pt2",
+      "delta_e": -0.048074745,
+      "stability": 0.04089759,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209659",
+      "composition_id": "Pt2",
+      "delta_e": -0.047842864,
+      "stability": 0.04112947,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006243869",
+      "composition_id": "Ni5 Pt2",
+      "delta_e": -0.038124576,
+      "stability": 0.04156558,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209660",
+      "composition_id": "Pt2",
+      "delta_e": -0.04737724,
+      "stability": 0.041595094,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009941455",
+      "composition_id": "Ni3",
+      "delta_e": -0.033526372,
+      "stability": 0.041736543,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003158292",
+      "composition_id": "Ni2",
+      "delta_e": -0.04383053,
+      "stability": 0.041762616,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005414185",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.052000094,
+      "stability": 0.041857235,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209664",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.053937286,
+      "stability": 0.04198609,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003258031",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": -0.055237934,
+      "stability": 0.04216119,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209806",
+      "composition_id": "",
+      "delta_e": -0.06404734,
+      "stability": 0.042206272,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007861254",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.05693863,
+      "stability": 0.042440236,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008703228",
+      "composition_id": "Ni7 Pt2",
+      "delta_e": -0.024245312,
+      "stability": 0.042655054,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209799",
+      "composition_id": "",
+      "delta_e": -0.063452415,
+      "stability": 0.042801194,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005538470",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.053037364,
+      "stability": 0.04288601,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198259",
+      "composition_id": "Ni2",
+      "delta_e": -0.04262222,
+      "stability": 0.042970926,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209665",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.05276686,
+      "stability": 0.043156516,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005538567",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.05603348,
+      "stability": 0.043345384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003208313",
+      "composition_id": "Ni5 Pt6",
+      "delta_e": -0.058932394,
+      "stability": 0.043571353,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003205082",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.050146013,
+      "stability": 0.043711316,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209662",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.0520901,
+      "stability": 0.043833278,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005531196",
+      "composition_id": "Ni5 Pt2",
+      "delta_e": -0.03441692,
+      "stability": 0.045273233,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009704907",
+      "composition_id": "Ni4 Pt7",
+      "delta_e": -0.04824443,
+      "stability": 0.045796383,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003292288",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": -0.053399865,
+      "stability": 0.045966923,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209654",
+      "composition_id": "Ni2",
+      "delta_e": -0.03838211,
+      "stability": 0.047211036,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003262196",
+      "composition_id": "",
+      "delta_e": -0.0589678,
+      "stability": 0.047285814,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002113683",
+      "composition_id": "",
+      "delta_e": -0.058328003,
+      "stability": 0.047925606,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003218599",
+      "composition_id": "Pt3",
+      "delta_e": -0.027047252,
+      "stability": 0.04798676,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209670",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.051034153,
+      "stability": 0.048344713,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209653",
+      "composition_id": "Ni2",
+      "delta_e": -0.03713949,
+      "stability": 0.048453655,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209667",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.047229633,
+      "stability": 0.048693746,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003193732",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.04919617,
+      "stability": 0.048807748,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209655",
+      "composition_id": "Pt2",
+      "delta_e": -0.03979526,
+      "stability": 0.049177077,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005540879",
+      "composition_id": "Pt2",
+      "delta_e": -0.039105367,
+      "stability": 0.049866967,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267182",
+      "composition_id": "Ni4 Pt5",
+      "delta_e": -0.051767465,
+      "stability": 0.049902983,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209651",
+      "composition_id": "Ni2",
+      "delta_e": -0.035571363,
+      "stability": 0.050021783,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198268",
+      "composition_id": "Ni5",
+      "delta_e": -0.00010819166,
+      "stability": 0.050067082,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209802",
+      "composition_id": "",
+      "delta_e": -0.054429237,
+      "stability": 0.051824372,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010180537",
+      "composition_id": "",
+      "delta_e": -0.053598702,
+      "stability": 0.05265491,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209807",
+      "composition_id": "",
+      "delta_e": -0.053264268,
+      "stability": 0.05298934,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209666",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": -0.042664513,
+      "stability": 0.053258866,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003162766",
+      "composition_id": "Ni3",
+      "delta_e": -0.021608645,
+      "stability": 0.05365427,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267183",
+      "composition_id": "Ni4 Pt5",
+      "delta_e": -0.047358237,
+      "stability": 0.05431221,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005488154",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": -0.042587355,
+      "stability": 0.054811772,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209808",
+      "composition_id": "",
+      "delta_e": -0.051142476,
+      "stability": 0.055111133,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209801",
+      "composition_id": "",
+      "delta_e": -0.051041577,
+      "stability": 0.055212032,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198269",
+      "composition_id": "Ni5",
+      "delta_e": 0.0052043265,
+      "stability": 0.055379603,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003173356",
+      "composition_id": "",
+      "delta_e": -0.05068532,
+      "stability": 0.05556829,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002168444",
+      "composition_id": "",
+      "delta_e": -0.05030593,
+      "stability": 0.05594768,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209649",
+      "composition_id": "Ni2",
+      "delta_e": -0.02894256,
+      "stability": 0.056650586,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007807704",
+      "composition_id": "Ni2 Pt5",
+      "delta_e": -0.024219632,
+      "stability": 0.05678795,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003162768",
+      "composition_id": "Ni3",
+      "delta_e": -0.01727204,
+      "stability": 0.05799087,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198267",
+      "composition_id": "Ni5",
+      "delta_e": 0.00788967,
+      "stability": 0.058064945,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003162769",
+      "composition_id": "Ni3",
+      "delta_e": -0.016012093,
+      "stability": 0.05925082,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002168446",
+      "composition_id": "Pt3",
+      "delta_e": -0.01458397,
+      "stability": 0.060450044,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209805",
+      "composition_id": "",
+      "delta_e": -0.045517135,
+      "stability": 0.060736474,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005495551",
+      "composition_id": "Ni3",
+      "delta_e": -0.013833639,
+      "stability": 0.061429273,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198942",
+      "composition_id": "",
+      "delta_e": -0.044679582,
+      "stability": 0.061574027,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003202241",
+      "composition_id": "Pt5",
+      "delta_e": 0.004787395,
+      "stability": 0.062298357,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209669",
+      "composition_id": "Ni5 Pt7",
+      "delta_e": -0.03647061,
+      "stability": 0.062908255,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003205086",
+      "composition_id": "Ni7 Pt3",
+      "delta_e": -0.018051568,
+      "stability": 0.063409485,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005543717",
+      "composition_id": "Ni4",
+      "delta_e": 0.004796049,
+      "stability": 0.065006375,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267179",
+      "composition_id": "Pt2",
+      "delta_e": -0.02301571,
+      "stability": 0.06595662,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198262",
+      "composition_id": "Ni2",
+      "delta_e": -0.019328617,
+      "stability": 0.066264525,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002297100",
+      "composition_id": "Pt3",
+      "delta_e": -0.0084841,
+      "stability": 0.06654991,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003238155",
+      "composition_id": "Ni24 Pt5",
+      "delta_e": 0.016632332,
+      "stability": 0.06853779,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003173389",
+      "composition_id": "",
+      "delta_e": -0.03743182,
+      "stability": 0.06882179,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003184759",
+      "composition_id": "Pt3",
+      "delta_e": -0.0059147673,
+      "stability": 0.069119245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007913798",
+      "composition_id": "Pt7",
+      "delta_e": 0.021093763,
+      "stability": 0.0698432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003193733",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.022985568,
+      "stability": 0.07087176,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003184757",
+      "composition_id": "Pt3",
+      "delta_e": -0.0037047674,
+      "stability": 0.07132925,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010156996",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": -0.026273608,
+      "stability": 0.07173031,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003202240",
+      "composition_id": "Pt5",
+      "delta_e": 0.016102664,
+      "stability": 0.07361363,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460730",
+      "composition_id": "",
+      "delta_e": -0.030770505,
+      "stability": 0.075483106,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209800",
+      "composition_id": "",
+      "delta_e": -0.03070433,
+      "stability": 0.07554928,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209803",
+      "composition_id": "",
+      "delta_e": -0.029954057,
+      "stability": 0.076299556,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198266",
+      "composition_id": "Pt2",
+      "delta_e": -0.01219833,
+      "stability": 0.076774,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003209652",
+      "composition_id": "Ni2",
+      "delta_e": -0.005217375,
+      "stability": 0.08037577,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198264",
+      "composition_id": "Pt2",
+      "delta_e": -0.008289526,
+      "stability": 0.08068281,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002377786",
+      "composition_id": "Ni5",
+      "delta_e": 0.033706307,
+      "stability": 0.08388158,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982782",
+      "composition_id": "Pt3",
+      "delta_e": 0.00906596,
+      "stability": 0.08409998,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073024764",
+      "composition_id": "Ni15 Pt4",
+      "delta_e": 0.021049896,
+      "stability": 0.08442919,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005472277",
+      "composition_id": "Pt2",
+      "delta_e": -0.0034216368,
+      "stability": 0.085550696,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003262197",
+      "composition_id": "",
+      "delta_e": -0.020369109,
+      "stability": 0.085884504,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003157309",
+      "composition_id": "",
+      "delta_e": -0.02003665,
+      "stability": 0.08621696,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003205084",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.007412001,
+      "stability": 0.08644533,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003205085",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": -0.006320828,
+      "stability": 0.08753651,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003157308",
+      "composition_id": "",
+      "delta_e": -0.01729335,
+      "stability": 0.08896026,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003158291",
+      "composition_id": "Ni2",
+      "delta_e": 0.0037062166,
+      "stability": 0.08929936,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003273882",
+      "composition_id": "Ni2",
+      "delta_e": 0.0040164734,
+      "stability": 0.089609616,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003285641",
+      "composition_id": "Ni13 Pt2",
+      "delta_e": 0.050437886,
+      "stability": 0.09057811,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003173411",
+      "composition_id": "",
+      "delta_e": -0.014411265,
+      "stability": 0.091842346,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005537409",
+      "composition_id": "Ni5 Pt6",
+      "delta_e": -0.009934044,
+      "stability": 0.0925697,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198260",
+      "composition_id": "Ni2",
+      "delta_e": 0.008649302,
+      "stability": 0.094242446,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005494530",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": 0.006670595,
+      "stability": 0.09742886,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006215191",
+      "composition_id": "Ni12 Pt17",
+      "delta_e": -0.0007486276,
+      "stability": 0.09839318,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005515959",
+      "composition_id": "Ni7 Pt6",
+      "delta_e": -0.0025271208,
+      "stability": 0.098958686,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003162763",
+      "composition_id": "Ni3",
+      "delta_e": 0.026154375,
+      "stability": 0.10141729,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003205081",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": 0.00404721,
+      "stability": 0.102051124,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293141",
+      "composition_id": "Ni7 Pt5",
+      "delta_e": 0.010275509,
+      "stability": 0.106198885,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003173400",
+      "composition_id": "",
+      "delta_e": 0.0021842124,
+      "stability": 0.10843782,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010155148",
+      "composition_id": "Ni4",
+      "delta_e": 0.05264291,
+      "stability": 0.11285324,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073023717",
+      "composition_id": "Ni4 Pt15",
+      "delta_e": 0.04667499,
+      "stability": 0.11340861,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005460668",
+      "composition_id": "Ni2",
+      "delta_e": 0.033541963,
+      "stability": 0.119135104,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005501296",
+      "composition_id": "Ni2",
+      "delta_e": 0.03490228,
+      "stability": 0.12049542,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982781",
+      "composition_id": "Ni3",
+      "delta_e": 0.046004664,
+      "stability": 0.12126757,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005488153",
+      "composition_id": "Ni3 Pt4",
+      "delta_e": 0.020923017,
+      "stability": 0.121283986,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002167647",
+      "composition_id": "Ni3",
+      "delta_e": 0.049192075,
+      "stability": 0.12445499,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005471115",
+      "composition_id": "Pt2",
+      "delta_e": 0.03568972,
+      "stability": 0.12466205,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004122192",
+      "composition_id": "Ni3",
+      "delta_e": 0.05299331,
+      "stability": 0.12825622,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003292729",
+      "composition_id": "Ni5 Pt6",
+      "delta_e": 0.027207049,
+      "stability": 0.1297108,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982863",
+      "composition_id": "Pt2",
+      "delta_e": 0.040938284,
+      "stability": 0.12991062,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005537206",
+      "composition_id": "Ni4 Pt7",
+      "delta_e": 0.043456428,
+      "stability": 0.13749725,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002168443",
+      "composition_id": "",
+      "delta_e": 0.0314394,
+      "stability": 0.13769302,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm037389320",
+      "composition_id": "Pt6",
+      "delta_e": 0.08661409,
+      "stability": 0.13911846,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005524957",
+      "composition_id": "Ni4 Pt5",
+      "delta_e": 0.039146435,
+      "stability": 0.14081688,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005531864",
+      "composition_id": "Ni2 Pt5",
+      "delta_e": 0.0617794,
+      "stability": 0.14278698,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006224222",
+      "composition_id": "Ni22",
+      "delta_e": 0.13001023,
+      "stability": 0.14309944,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982617",
+      "composition_id": "",
+      "delta_e": 0.036921825,
+      "stability": 0.14317544,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006211258",
+      "composition_id": "",
+      "delta_e": 0.04109063,
+      "stability": 0.14734423,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982869",
+      "composition_id": "Pt3",
+      "delta_e": 0.07292198,
+      "stability": 0.147956,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005460700",
+      "composition_id": "Ni2",
+      "delta_e": 0.06358662,
+      "stability": 0.14917977,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005428421",
+      "composition_id": "Ni5",
+      "delta_e": 0.10063075,
+      "stability": 0.15080602,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005525637",
+      "composition_id": "Ni5 Pt4",
+      "delta_e": 0.05294877,
+      "stability": 0.15231556,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982738",
+      "composition_id": "",
+      "delta_e": 0.052128688,
+      "stability": 0.1583823,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533979",
+      "composition_id": "Ni3 Pt4",
+      "delta_e": 0.06393279,
+      "stability": 0.16429377,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004122169",
+      "composition_id": "Ni3",
+      "delta_e": 0.091675706,
+      "stability": 0.16693862,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006243904",
+      "composition_id": "Ni2 Pt5",
+      "delta_e": 0.08737655,
+      "stability": 0.16838413,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005532672",
+      "composition_id": "Ni11 Pt3",
+      "delta_e": 0.107006006,
+      "stability": 0.17151707,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005486738",
+      "composition_id": "Ni3 Pt4",
+      "delta_e": 0.078401804,
+      "stability": 0.17876278,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005546441",
+      "composition_id": "Pt5",
+      "delta_e": 0.1218466,
+      "stability": 0.17935756,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006213458",
+      "composition_id": "Pt2",
+      "delta_e": 0.09210055,
+      "stability": 0.18107289,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005482843",
+      "composition_id": "Pt2",
+      "delta_e": 0.093101226,
+      "stability": 0.18207356,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005522857",
+      "composition_id": "Ni5 Pt3",
+      "delta_e": 0.09510412,
+      "stability": 0.18586238,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003286938",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": 0.08964004,
+      "stability": 0.18764396,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460724",
+      "composition_id": "",
+      "delta_e": 0.083316766,
+      "stability": 0.18957038,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004122195",
+      "composition_id": "",
+      "delta_e": 0.090653546,
+      "stability": 0.19690715,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005529571",
+      "composition_id": "Ni17 Pt2",
+      "delta_e": 0.16589415,
+      "stability": 0.1975838,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012792146",
+      "composition_id": "Ni5 Pt2",
+      "delta_e": 0.12405828,
+      "stability": 0.20374843,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006215654",
+      "composition_id": "Ni5 Pt24",
+      "delta_e": 0.14784037,
+      "stability": 0.2065598,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005428449",
+      "composition_id": "Ni2",
+      "delta_e": 0.1249998,
+      "stability": 0.21059294,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003287056",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": 0.116934165,
+      "stability": 0.2107915,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006216198",
+      "composition_id": "Ni17 Pt12",
+      "delta_e": 0.11691262,
+      "stability": 0.21247979,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005491075",
+      "composition_id": "",
+      "delta_e": 0.10766441,
+      "stability": 0.21391802,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005217444",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": 0.11947505,
+      "stability": 0.21747898,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005519421",
+      "composition_id": "Ni3 Pt5",
+      "delta_e": 0.13097292,
+      "stability": 0.2269144,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005411259",
+      "composition_id": "Ni2 Pt3",
+      "delta_e": 0.13411902,
+      "stability": 0.23212294,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005509785",
+      "composition_id": "Ni2",
+      "delta_e": 0.14712551,
+      "stability": 0.23271865,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005543922",
+      "composition_id": "Pt4",
+      "delta_e": 0.18556416,
+      "stability": 0.25008434,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005476783",
+      "composition_id": "Ni5",
+      "delta_e": 0.23781316,
+      "stability": 0.28798845,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006213888",
+      "composition_id": "Ni13",
+      "delta_e": 0.26996422,
+      "stability": 0.2914679,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006221525",
+      "composition_id": "Pt22",
+      "delta_e": 0.26916927,
+      "stability": 0.2923477,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002167646",
+      "composition_id": "Ni3",
+      "delta_e": 0.22069077,
+      "stability": 0.2959537,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982710",
+      "composition_id": "Pt2",
+      "delta_e": 0.2070583,
+      "stability": 0.2960306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982868",
+      "composition_id": "Pt2",
+      "delta_e": 0.20901553,
+      "stability": 0.29798788,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006211259",
+      "composition_id": "Ni2",
+      "delta_e": 0.21980555,
+      "stability": 0.3053987,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005527982",
+      "composition_id": "Ni4",
+      "delta_e": 0.25295863,
+      "stability": 0.31316894,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005495552",
+      "composition_id": "Pt3",
+      "delta_e": 0.25226226,
+      "stability": 0.3272963,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460727",
+      "composition_id": "",
+      "delta_e": 0.23296353,
+      "stability": 0.33921713,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005414186",
+      "composition_id": "Ni3 Pt2",
+      "delta_e": 0.2496986,
+      "stability": 0.34355593,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003297180",
+      "composition_id": "Ni4",
+      "delta_e": 0.28728902,
+      "stability": 0.34749934,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002167300",
+      "composition_id": "Ni2",
+      "delta_e": 0.2652933,
+      "stability": 0.35088643,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005488150",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": 0.29003987,
+      "stability": 0.38743898,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982777",
+      "composition_id": "",
+      "delta_e": 0.30513492,
+      "stability": 0.41138852,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006214197",
+      "composition_id": "Pt13",
+      "delta_e": 0.37742192,
+      "stability": 0.41199437,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005477565",
+      "composition_id": "Pt5",
+      "delta_e": 0.3587881,
+      "stability": 0.41629905,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460723",
+      "composition_id": "",
+      "delta_e": 0.31012544,
+      "stability": 0.41637903,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002297103",
+      "composition_id": "Pt5",
+      "delta_e": 0.36085516,
+      "stability": 0.41836613,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005416224",
+      "composition_id": "Pt4",
+      "delta_e": 0.36956543,
+      "stability": 0.4340856,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460725",
+      "composition_id": "",
+      "delta_e": 0.32945043,
+      "stability": 0.43570402,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005512515",
+      "composition_id": "Pt2",
+      "delta_e": 0.358131,
+      "stability": 0.44710332,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982735",
+      "composition_id": "",
+      "delta_e": 0.3500638,
+      "stability": 0.45631742,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005527983",
+      "composition_id": "Pt4",
+      "delta_e": 0.39262998,
+      "stability": 0.45715016,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533563",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": 0.37019187,
+      "stability": 0.467591,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005460691",
+      "composition_id": "Pt2",
+      "delta_e": 0.3788138,
+      "stability": 0.46778613,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982866",
+      "composition_id": "Ni2",
+      "delta_e": 0.38483548,
+      "stability": 0.47042862,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982783",
+      "composition_id": "Ni2",
+      "delta_e": 0.41968438,
+      "stability": 0.5052775,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003297179",
+      "composition_id": "Pt4",
+      "delta_e": 0.44694504,
+      "stability": 0.51146525,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460726",
+      "composition_id": "",
+      "delta_e": 0.41738802,
+      "stability": 0.52364165,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000115317",
+      "composition_id": "Ni4 Pt3",
+      "delta_e": 0.48826474,
+      "stability": 0.58566386,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982736",
+      "composition_id": "",
+      "delta_e": 0.48079443,
+      "stability": 0.58704805,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005508793",
+      "composition_id": "Pt2",
+      "delta_e": 0.5106829,
+      "stability": 0.5996553,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003291603",
+      "composition_id": "Ni8 Pt3",
+      "delta_e": 0.5415217,
+      "stability": 0.61960196,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000124902",
+      "composition_id": "Pt2",
+      "delta_e": 0.53435844,
+      "stability": 0.6233308,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000124861",
+      "composition_id": "Ni2",
+      "delta_e": 0.5894621,
+      "stability": 0.67505527,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005509486",
+      "composition_id": "Ni2",
+      "delta_e": 0.6875715,
+      "stability": 0.7731647,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460733",
+      "composition_id": "",
+      "delta_e": 0.68366545,
+      "stability": 0.789919,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005416223",
+      "composition_id": "Ni4",
+      "delta_e": 0.83424574,
+      "stability": 0.8944561,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000127476",
+      "composition_id": "Pt3",
+      "delta_e": 0.91363347,
+      "stability": 0.9886675,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004313883",
+      "composition_id": "",
+      "delta_e": 0.9531555,
+      "stability": 1.0594091,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460731",
+      "composition_id": "",
+      "delta_e": 0.96172065,
+      "stability": 1.0679743,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000127444",
+      "composition_id": "Ni3",
+      "delta_e": 1.0334733,
+      "stability": 1.1087362,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000129651",
+      "composition_id": "Pt5",
+      "delta_e": 1.0971643,
+      "stability": 1.1523818,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004460722",
+      "composition_id": "",
+      "delta_e": 1.0562353,
+      "stability": 1.1624889,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006182435",
+      "composition_id": "Pt4",
+      "delta_e": 1.0999745,
+      "stability": 1.1644946,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005404758",
+      "composition_id": "Ni6",
+      "delta_e": 1.1572729,
+      "stability": 1.2002803,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000129640",
+      "composition_id": "Ni5",
+      "delta_e": 1.1670747,
+      "stability": 1.21725,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006182436",
+      "composition_id": "Ni4",
+      "delta_e": 1.4335656,
+      "stability": 1.493776,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003982712",
+      "composition_id": "Pt3",
+      "delta_e": 1.4660733,
+      "stability": 1.5411073,
+      "icsd": false
+    }
+  ]
+}

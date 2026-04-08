@@ -1,0 +1,44 @@
+{
+  "space": "Ge-Mo",
+  "elements": [
+    "Ge",
+    "Mo"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003211248",
+      "composition_id": "Ge2",
+      "delta_e": -0.24182734,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003264144",
+      "composition_id": "Mo3",
+      "delta_e": -0.19857985,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003160844",
+      "composition_id": "Ge2",
+      "delta_e": -0.23380212,
+      "stability": 0.008025206,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003219035",
+      "composition_id": "Ge3 Mo5",
+      "delta_e": -0.16923986,
+      "stability": 0.042314243,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002152069",
+      "composition_id": "Ge2",
+      "delta_e": -0.19055243,
+      "stability": 0.051274907,
+      "icsd": false
+    }
+  ]
+}

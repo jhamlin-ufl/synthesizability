@@ -1,0 +1,128 @@
+{
+  "space": "Pd-Sc",
+  "elements": [
+    "Pd",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003231961",
+      "composition_id": "Sc2",
+      "delta_e": -0.655949,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001191617",
+      "composition_id": "",
+      "delta_e": -0.88557124,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001830078",
+      "composition_id": "Pd3",
+      "delta_e": -0.8613991,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184715",
+      "composition_id": "Pd5",
+      "delta_e": -0.5971205,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002239036",
+      "composition_id": "Pd8",
+      "delta_e": -0.41127205,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184716",
+      "composition_id": "Pd7",
+      "delta_e": -0.4532801,
+      "stability": 0.004454076,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184041",
+      "composition_id": "Pd3 Sc2",
+      "delta_e": -0.8654899,
+      "stability": 0.010412474,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002239031",
+      "composition_id": "",
+      "delta_e": -0.8695518,
+      "stability": 0.016019486,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184037",
+      "composition_id": "Sc2",
+      "delta_e": -0.63389057,
+      "stability": 0.02205844,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184713",
+      "composition_id": "Pd3",
+      "delta_e": -0.8338093,
+      "stability": 0.027589792,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184703",
+      "composition_id": "",
+      "delta_e": -0.85394996,
+      "stability": 0.031621292,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184150",
+      "composition_id": "Pd5 Sc3",
+      "delta_e": -0.830814,
+      "stability": 0.0426712,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002354797",
+      "composition_id": "Sc3",
+      "delta_e": -0.4405978,
+      "stability": 0.05136395,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002381229",
+      "composition_id": "Pd4",
+      "delta_e": -0.6435728,
+      "stability": 0.05925917,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184704",
+      "composition_id": "Pd2",
+      "delta_e": -0.7753809,
+      "stability": 0.09407561,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184036",
+      "composition_id": "Sc2",
+      "delta_e": -0.54844826,
+      "stability": 0.10750075,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002184705",
+      "composition_id": "Pd2",
+      "delta_e": -0.69632995,
+      "stability": 0.17312655,
+      "icsd": false
+    }
+  ]
+}

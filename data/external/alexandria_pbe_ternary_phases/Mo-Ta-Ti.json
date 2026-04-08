@@ -1,0 +1,920 @@
+{
+  "space": "Mo-Ta-Ti",
+  "elements": [
+    "Mo",
+    "Ta",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003400347",
+      "composition_id": "Mo2 Ti2",
+      "delta_e": -0.14736114,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005790651",
+      "composition_id": "Mo4",
+      "delta_e": -0.18227033,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003195872",
+      "composition_id": "",
+      "delta_e": -0.12924884,
+      "stability": 0.006819011,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003614854",
+      "composition_id": "Ti2",
+      "delta_e": -0.09282148,
+      "stability": 0.009229415,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005735630",
+      "composition_id": "Mo2 Ti6",
+      "delta_e": -0.07057914,
+      "stability": 0.011288163,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006067604",
+      "composition_id": "Mo5 Ta6",
+      "delta_e": -0.162679,
+      "stability": 0.013758398,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005807629",
+      "composition_id": "Ta14",
+      "delta_e": -0.013236535,
+      "stability": 0.017188532,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006067612",
+      "composition_id": "Mo6 Ta5",
+      "delta_e": -0.1752677,
+      "stability": 0.017408315,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005759866",
+      "composition_id": "Mo14",
+      "delta_e": -0.09437259,
+      "stability": 0.018023862,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005980724",
+      "composition_id": "Mo3 Ta4",
+      "delta_e": -0.14493728,
+      "stability": 0.018089233,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005980737",
+      "composition_id": "Mo4 Ta3",
+      "delta_e": -0.16690268,
+      "stability": 0.02054195,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027705",
+      "composition_id": "",
+      "delta_e": -0.113906495,
+      "stability": 0.022161363,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005734992",
+      "composition_id": "Mo6",
+      "delta_e": -0.14385465,
+      "stability": 0.023209749,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005660852",
+      "composition_id": "Mo2 Ta6",
+      "delta_e": -0.083726384,
+      "stability": 0.024451632,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003312561",
+      "composition_id": "Mo3 Ta2 Ti2",
+      "delta_e": -0.13769205,
+      "stability": 0.025605576,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003638634",
+      "composition_id": "Mo5 Ta4",
+      "delta_e": -0.16453579,
+      "stability": 0.026047658,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027700",
+      "composition_id": "",
+      "delta_e": -0.10794251,
+      "stability": 0.028125353,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003638635",
+      "composition_id": "Mo4 Ta5",
+      "delta_e": -0.1429586,
+      "stability": 0.028138522,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027716",
+      "composition_id": "",
+      "delta_e": -0.10716754,
+      "stability": 0.028900316,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027710",
+      "composition_id": "",
+      "delta_e": -0.10707894,
+      "stability": 0.028988922,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005773607",
+      "composition_id": "Ti4",
+      "delta_e": -0.03803064,
+      "stability": 0.03000329,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005749027",
+      "composition_id": "Ta6",
+      "delta_e": -0.025707882,
+      "stability": 0.03514225,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005750380",
+      "composition_id": "Ta4",
+      "delta_e": -0.045257084,
+      "stability": 0.035876427,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003433199",
+      "composition_id": "Mo3 Ta2",
+      "delta_e": -0.14611001,
+      "stability": 0.03610322,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003428260",
+      "composition_id": "Mo2 Ta3",
+      "delta_e": -0.11282157,
+      "stability": 0.036513183,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005629138",
+      "composition_id": "Mo4 Ta3 Ti2",
+      "delta_e": -0.13437694,
+      "stability": 0.037774265,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001259675",
+      "composition_id": "",
+      "delta_e": -0.09823459,
+      "stability": 0.03783327,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002745984",
+      "composition_id": "Mo2",
+      "delta_e": -0.13364877,
+      "stability": 0.038101677,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005843174",
+      "composition_id": "Ta2 Ti2",
+      "delta_e": -0.05583382,
+      "stability": 0.038462806,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005783053",
+      "composition_id": "Ti3",
+      "delta_e": -0.042492308,
+      "stability": 0.03914841,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027698",
+      "composition_id": "",
+      "delta_e": -0.09658024,
+      "stability": 0.039487623,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005833291",
+      "composition_id": "Mo5 Ta2",
+      "delta_e": -0.14776722,
+      "stability": 0.03999233,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005654137",
+      "composition_id": "Ta2",
+      "delta_e": -0.07732546,
+      "stability": 0.040545322,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027706",
+      "composition_id": "",
+      "delta_e": -0.09374376,
+      "stability": 0.0423241,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008859105",
+      "composition_id": "Mo3 Ta2 Ti3",
+      "delta_e": -0.09920046,
+      "stability": 0.043925706,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027704",
+      "composition_id": "",
+      "delta_e": -0.09199159,
+      "stability": 0.04407627,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009732906",
+      "composition_id": "Mo2 Ta2 Ti3",
+      "delta_e": -0.07227295,
+      "stability": 0.044356644,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001228957",
+      "composition_id": "Mo2",
+      "delta_e": -0.1253629,
+      "stability": 0.046387553,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009917181",
+      "composition_id": "Mo4 Ta3 Ti4",
+      "delta_e": -0.09441347,
+      "stability": 0.0467877,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027702",
+      "composition_id": "",
+      "delta_e": -0.08792499,
+      "stability": 0.048142873,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002027693",
+      "composition_id": "",
+      "delta_e": -0.08594925,
+      "stability": 0.05011861,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005703003",
+      "composition_id": "Mo3 Ta4 Ti4",
+      "delta_e": -0.06805137,
+      "stability": 0.05051337,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001116205",
+      "composition_id": "Mo2",
+      "delta_e": -0.12101943,
+      "stability": 0.05073102,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005739566",
+      "composition_id": "Ta3",
+      "delta_e": -0.044366814,
+      "stability": 0.0529934,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005660064",
+      "composition_id": "Mo2 Ta5 Ti5",
+      "delta_e": -0.026547942,
+      "stability": 0.05458557,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001116204",
+      "composition_id": "Ta2",
+      "delta_e": -0.062465664,
+      "stability": 0.055405118,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005630914",
+      "composition_id": "Mo6 Ta2",
+      "delta_e": -0.12710015,
+      "stability": 0.056097377,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005635378",
+      "composition_id": "Mo2",
+      "delta_e": -0.115357816,
+      "stability": 0.056392632,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm054059891",
+      "composition_id": "Mo2 Ti8",
+      "delta_e": -0.009782139,
+      "stability": 0.057200205,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002191224",
+      "composition_id": "Ta2",
+      "delta_e": -0.059896536,
+      "stability": 0.057974245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005989374",
+      "composition_id": "Mo3 Ti3",
+      "delta_e": -0.08629657,
+      "stability": 0.05840529,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006026259",
+      "composition_id": "Ta2 Ti4",
+      "delta_e": -0.0073669604,
+      "stability": 0.059987772,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011299110",
+      "composition_id": "Mo2 Ta3 Ti2",
+      "delta_e": -0.06774193,
+      "stability": 0.06025929,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001228967",
+      "composition_id": "Ta2",
+      "delta_e": -0.05726379,
+      "stability": 0.06060699,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005827481",
+      "composition_id": "Ta2 Ti3",
+      "delta_e": -0.017559748,
+      "stability": 0.061020773,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070189085",
+      "composition_id": "Ti4",
+      "delta_e": -0.005125774,
+      "stability": 0.06290816,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005706155",
+      "composition_id": "Mo3 Ti2",
+      "delta_e": -0.09818593,
+      "stability": 0.063101746,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005766142",
+      "composition_id": "Ta2 Ti6",
+      "delta_e": 0.014182066,
+      "stability": 0.06656908,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005833278",
+      "composition_id": "Mo5 Ti2",
+      "delta_e": -0.11112523,
+      "stability": 0.0675706,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005653694",
+      "composition_id": "Mo5 Ta2 Ti5",
+      "delta_e": -0.07643262,
+      "stability": 0.06937727,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009726676",
+      "composition_id": "Mo2 Ta3 Ti2",
+      "delta_e": -0.054416377,
+      "stability": 0.07358485,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm067495607",
+      "composition_id": "Ti14",
+      "delta_e": 0.04946712,
+      "stability": 0.07497984,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006131774",
+      "composition_id": "Mo6 Ti5",
+      "delta_e": -0.074399285,
+      "stability": 0.07565612,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005582364",
+      "composition_id": "",
+      "delta_e": -0.059356347,
+      "stability": 0.07671151,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005579187",
+      "composition_id": "Mo3 Ta2 Ti3",
+      "delta_e": -0.06264494,
+      "stability": 0.080481224,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm057307394",
+      "composition_id": "Ta3 Ti6",
+      "delta_e": 0.033102956,
+      "stability": 0.08178306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005709033",
+      "composition_id": "Ti2",
+      "delta_e": -0.017613642,
+      "stability": 0.08443725,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068482469",
+      "composition_id": "Ti14",
+      "delta_e": 0.059707746,
+      "stability": 0.08522047,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065309991",
+      "composition_id": "Ta5 Ti6",
+      "delta_e": 0.054767817,
+      "stability": 0.095334575,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm034883814",
+      "composition_id": "Ta2 Ti3",
+      "delta_e": 0.019402869,
+      "stability": 0.09798339,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001116206",
+      "composition_id": "Ti2",
+      "delta_e": 0.006606071,
+      "stability": 0.108656965,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047979698",
+      "composition_id": "Ta3 Ti4",
+      "delta_e": 0.059049707,
+      "stability": 0.11989984,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006024151",
+      "composition_id": "Ta4 Ti2",
+      "delta_e": 0.05235393,
+      "stability": 0.12189694,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001228283",
+      "composition_id": "Ti2",
+      "delta_e": 0.04383703,
+      "stability": 0.14588793,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002744541",
+      "composition_id": "Ti2",
+      "delta_e": 0.0512774,
+      "stability": 0.1533283,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005629714",
+      "composition_id": "Mo2 Ti3",
+      "delta_e": 0.06540026,
+      "stability": 0.18820122,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001188561",
+      "composition_id": "Mo4",
+      "delta_e": 0.011391914,
+      "stability": 0.19366224,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005629698",
+      "composition_id": "Mo2 Ta3",
+      "delta_e": 0.07278135,
+      "stability": 0.2221161,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003762409",
+      "composition_id": "Ta6",
+      "delta_e": 0.16441298,
+      "stability": 0.2252631,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005962282",
+      "composition_id": "Mo4 Ti2",
+      "delta_e": 0.05620137,
+      "stability": 0.22743656,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005569409",
+      "composition_id": "Mo2 Ta7 Ti2",
+      "delta_e": 0.14286979,
+      "stability": 0.23137906,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005656895",
+      "composition_id": "Mo4 Ta2 Ti3",
+      "delta_e": 0.07583367,
+      "stability": 0.23403451,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005761891",
+      "composition_id": "Ta3 Ti2",
+      "delta_e": 0.16373327,
+      "stability": 0.24486677,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003403718",
+      "composition_id": "Ta2 Ti2",
+      "delta_e": 0.18538393,
+      "stability": 0.27968055,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014551462",
+      "composition_id": "Ti2",
+      "delta_e": 0.1859769,
+      "stability": 0.2880278,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006026417",
+      "composition_id": "Mo8 Ta2",
+      "delta_e": 0.13077302,
+      "stability": 0.30274314,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005962267",
+      "composition_id": "Mo4 Ta2",
+      "delta_e": 0.12812829,
+      "stability": 0.31729966,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003762410",
+      "composition_id": "Mo6",
+      "delta_e": 0.18238482,
+      "stability": 0.34944922,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005989728",
+      "composition_id": "Mo3 Ta3",
+      "delta_e": 0.1801249,
+      "stability": 0.35472536,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005659377",
+      "composition_id": "Ta6 Ti2",
+      "delta_e": 0.30602726,
+      "stability": 0.36011627,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003614853",
+      "composition_id": "Ta2",
+      "delta_e": 0.262966,
+      "stability": 0.3808368,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003023286",
+      "composition_id": "Mo2 Ti2",
+      "delta_e": 0.2433452,
+      "stability": 0.39070636,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005836585",
+      "composition_id": "Mo3",
+      "delta_e": 0.24699011,
+      "stability": 0.43057454,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003729675",
+      "composition_id": "Ta3",
+      "delta_e": 0.34497812,
+      "stability": 0.44233832,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003023287",
+      "composition_id": "Mo2 Ti2",
+      "delta_e": 0.29875794,
+      "stability": 0.44611907,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005565925",
+      "composition_id": "Mo5 Ta2 Ti2",
+      "delta_e": 0.27567238,
+      "stability": 0.45399725,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003506031",
+      "composition_id": "Mo6 Ti2",
+      "delta_e": 0.27668503,
+      "stability": 0.45504797,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003023306",
+      "composition_id": "Ta2 Ti2",
+      "delta_e": 0.37319866,
+      "stability": 0.46749526,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005634124",
+      "composition_id": "Mo7 Ta2 Ti3",
+      "delta_e": 0.2998952,
+      "stability": 0.4762759,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005823590",
+      "composition_id": "Mo2 Ta2",
+      "delta_e": 0.33122593,
+      "stability": 0.49441105,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005560084",
+      "composition_id": "Mo3 Ta2 Ti2",
+      "delta_e": 0.35631126,
+      "stability": 0.51960886,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003749722",
+      "composition_id": "Mo4",
+      "delta_e": 0.34991357,
+      "stability": 0.5321839,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005607139",
+      "composition_id": "Mo6 Ta3 Ti2",
+      "delta_e": 0.3496214,
+      "stability": 0.5324579,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003460440",
+      "composition_id": "Mo2 Ta4",
+      "delta_e": 0.4062356,
+      "stability": 0.54094505,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005607149",
+      "composition_id": "Mo6 Ta2 Ti3",
+      "delta_e": 0.38419998,
+      "stability": 0.5556225,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005823585",
+      "composition_id": "Mo2 Ti2",
+      "delta_e": 0.40896255,
+      "stability": 0.5563237,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003403995",
+      "composition_id": "Mo2 Ta2",
+      "delta_e": 0.42989552,
+      "stability": 0.59308064,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002897506",
+      "composition_id": "Ti2",
+      "delta_e": 0.4987817,
+      "stability": 0.6008326,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005630902",
+      "composition_id": "Mo6 Ti2",
+      "delta_e": 0.42761654,
+      "stability": 0.6059795,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002898954",
+      "composition_id": "Ta2",
+      "delta_e": 0.6038687,
+      "stability": 0.7217395,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003724350",
+      "composition_id": "Mo3",
+      "delta_e": 0.54419166,
+      "stability": 0.72777605,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005233367",
+      "composition_id": "Ta2",
+      "delta_e": 0.6179685,
+      "stability": 0.7358393,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002948597",
+      "composition_id": "Ta2 Ti2",
+      "delta_e": 0.6416716,
+      "stability": 0.7359682,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002948591",
+      "composition_id": "Mo2 Ti2",
+      "delta_e": 0.59331465,
+      "stability": 0.7406758,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006120409",
+      "composition_id": "Mo6 Ta12",
+      "delta_e": 0.59887713,
+      "stability": 0.74776655,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005676216",
+      "composition_id": "Mo4 Ta5 Ti2",
+      "delta_e": 0.60174114,
+      "stability": 0.7574153,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002898928",
+      "composition_id": "Mo2",
+      "delta_e": 0.5925664,
+      "stability": 0.76431686,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003838551",
+      "composition_id": "Mo2",
+      "delta_e": 0.64589953,
+      "stability": 0.81765,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003838568",
+      "composition_id": "Ta2",
+      "delta_e": 0.7062792,
+      "stability": 0.82415,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003749723",
+      "composition_id": "Ta4",
+      "delta_e": 0.7929508,
+      "stability": 0.87408435,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003487306",
+      "composition_id": "Ta6 Ti2",
+      "delta_e": 0.8488899,
+      "stability": 0.9029789,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001077819",
+      "composition_id": "Ta2 Ti4",
+      "delta_e": 0.94778067,
+      "stability": 1.0151354,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002612629",
+      "composition_id": "Ti3",
+      "delta_e": 0.9485426,
+      "stability": 1.0301833,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001076334",
+      "composition_id": "Mo2 Ti4",
+      "delta_e": 1.0341017,
+      "stability": 1.1393597,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002615471",
+      "composition_id": "Ta3",
+      "delta_e": 1.362285,
+      "stability": 1.4596452,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002612628",
+      "composition_id": "Ti3",
+      "delta_e": 1.3922188,
+      "stability": 1.4738595,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002615424",
+      "composition_id": "Mo3",
+      "delta_e": 1.3687842,
+      "stability": 1.5523686,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001164884",
+      "composition_id": "Mo12 Ta3 Ti5",
+      "delta_e": 1.4134449,
+      "stability": 1.5907515,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002615472",
+      "composition_id": "Ta3",
+      "delta_e": 1.5896302,
+      "stability": 1.6869904,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002615423",
+      "composition_id": "Mo3",
+      "delta_e": 1.695026,
+      "stability": 1.8786104,
+      "icsd": false
+    }
+  ]
+}

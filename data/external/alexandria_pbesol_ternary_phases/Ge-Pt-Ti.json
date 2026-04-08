@@ -1,0 +1,45 @@
+{
+  "space": "Ge-Pt-Ti",
+  "elements": [
+    "Ge",
+    "Pt",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003160749",
+      "composition_id": "",
+      "delta_e": -0.8876271,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002191132",
+      "composition_id": "",
+      "delta_e": -0.8442964,
+      "stability": 0.04333076,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002322411",
+      "composition_id": "Pt2",
+      "delta_e": -0.72298026,
+      "stability": 0.09769447,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002358446",
+      "composition_id": "Pt2",
+      "delta_e": -0.6865903,
+      "stability": 0.13408443,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002614950",
+      "composition_id": "Pt3",
+      "delta_e": 0.42881998,
+      "stability": 1.2093233,
+      "icsd": false
+    }
+  ]
+}

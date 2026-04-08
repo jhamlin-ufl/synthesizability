@@ -1,0 +1,52 @@
+{
+  "space": "Hf-Mo-Ti",
+  "elements": [
+    "Hf",
+    "Mo",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003200689",
+      "composition_id": "Mo4",
+      "delta_e": -0.068827525,
+      "stability": 0.07408327,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002745995",
+      "composition_id": "Hf2",
+      "delta_e": 0.048992112,
+      "stability": 0.113017894,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002745969",
+      "composition_id": "Mo2",
+      "delta_e": 0.008524549,
+      "stability": 0.13005406,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002744526",
+      "composition_id": "Ti2",
+      "delta_e": 0.07867887,
+      "stability": 0.14270465,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002612601",
+      "composition_id": "Ti3",
+      "delta_e": 0.6951059,
+      "stability": 0.7463265,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002615393",
+      "composition_id": "Mo3",
+      "delta_e": 1.937649,
+      "stability": 2.0720074,
+      "icsd": false
+    }
+  ]
+}

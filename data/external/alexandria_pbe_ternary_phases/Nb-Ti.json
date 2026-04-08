@@ -1,0 +1,2760 @@
+{
+  "space": "Nb-Ti",
+  "elements": [
+    "Nb",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm007923071",
+      "composition_id": "Nb7",
+      "delta_e": -0.018122854,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014160089",
+      "composition_id": "Nb11",
+      "delta_e": -0.018267859,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm067151005",
+      "composition_id": "Nb17",
+      "delta_e": -0.017932441,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012681637",
+      "composition_id": "Nb10",
+      "delta_e": -0.017472874,
+      "stability": 0.00076862,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066384377",
+      "composition_id": "Nb17",
+      "delta_e": -0.016766047,
+      "stability": 0.0011663939,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066696285",
+      "composition_id": "Nb14",
+      "delta_e": -0.015472247,
+      "stability": 0.002594361,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003298523",
+      "composition_id": "Nb4",
+      "delta_e": -0.013630571,
+      "stability": 0.002938896,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068852005",
+      "composition_id": "Nb15",
+      "delta_e": -0.0146076325,
+      "stability": 0.0034086637,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm055581910",
+      "composition_id": "Nb11",
+      "delta_e": -0.014685026,
+      "stability": 0.0035828333,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066457738",
+      "composition_id": "Nb11",
+      "delta_e": -0.014542273,
+      "stability": 0.0037255858,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007929152",
+      "composition_id": "Nb8",
+      "delta_e": -0.013423958,
+      "stability": 0.004747231,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm044846447",
+      "composition_id": "Nb9",
+      "delta_e": -0.013079284,
+      "stability": 0.005130574,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm016285640",
+      "composition_id": "Nb8",
+      "delta_e": -0.0129846325,
+      "stability": 0.005186557,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013941029",
+      "composition_id": "Nb10",
+      "delta_e": -0.012889868,
+      "stability": 0.0053516272,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013705551",
+      "composition_id": "Nb9 Ti2",
+      "delta_e": -0.011336572,
+      "stability": 0.005609474,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm050588146",
+      "composition_id": "Nb9",
+      "delta_e": -0.012438068,
+      "stability": 0.0057717897,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011751100",
+      "composition_id": "Nb7 Ti2",
+      "delta_e": -0.010257032,
+      "stability": 0.0058521717,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003300041",
+      "composition_id": "Nb8",
+      "delta_e": -0.012082743,
+      "stability": 0.0060884454,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009628288",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": -0.007705171,
+      "stability": 0.0073579806,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008123018",
+      "composition_id": "Nb2",
+      "delta_e": -0.006171511,
+      "stability": 0.0076363776,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm050199847",
+      "composition_id": "Nb7",
+      "delta_e": -0.010176828,
+      "stability": 0.0079460265,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011760088",
+      "composition_id": "Nb7 Ti2",
+      "delta_e": -0.0074613476,
+      "stability": 0.008647856,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm045194682",
+      "composition_id": "Nb6",
+      "delta_e": -0.009077088,
+      "stability": 0.008675912,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015594689",
+      "composition_id": "Nb7",
+      "delta_e": -0.00935469,
+      "stability": 0.008768164,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066862662",
+      "composition_id": "Nb15",
+      "delta_e": -0.00894768,
+      "stability": 0.009068617,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007919080",
+      "composition_id": "Nb6",
+      "delta_e": -0.008330103,
+      "stability": 0.009422896,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008053293",
+      "composition_id": "Nb4",
+      "delta_e": -0.007058493,
+      "stability": 0.009510974,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005544880",
+      "composition_id": "Nb4",
+      "delta_e": -0.0068700546,
+      "stability": 0.009699412,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069618692",
+      "composition_id": "Nb5",
+      "delta_e": -0.0074418937,
+      "stability": 0.009817967,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047908924",
+      "composition_id": "Nb7",
+      "delta_e": -0.008120903,
+      "stability": 0.010001951,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007798994",
+      "composition_id": "Nb13 Ti2",
+      "delta_e": -0.007714761,
+      "stability": 0.010235494,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014440623",
+      "composition_id": "Nb7 Ti2",
+      "delta_e": -0.005855943,
+      "stability": 0.010253261,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007897270",
+      "composition_id": "Nb7",
+      "delta_e": -0.0077716825,
+      "stability": 0.010351172,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012373091",
+      "composition_id": "Nb9 Ti2",
+      "delta_e": -0.006423678,
+      "stability": 0.010522367,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012804241",
+      "composition_id": "Nb7",
+      "delta_e": -0.007099393,
+      "stability": 0.011023461,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm038593885",
+      "composition_id": "Nb5",
+      "delta_e": -0.006146017,
+      "stability": 0.011113844,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011744352",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": -0.003392021,
+      "stability": 0.011402146,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001192594",
+      "composition_id": "Nb5",
+      "delta_e": -0.0053994223,
+      "stability": 0.011860439,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007806463",
+      "composition_id": "Nb7 Ti2",
+      "delta_e": -0.0040510707,
+      "stability": 0.012058133,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005547731",
+      "composition_id": "Nb7",
+      "delta_e": -0.006063974,
+      "stability": 0.01205888,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm050606226",
+      "composition_id": "Nb7",
+      "delta_e": -0.0059446893,
+      "stability": 0.012178165,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012612871",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": -0.0027853155,
+      "stability": 0.012277836,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013507377",
+      "composition_id": "Nb2",
+      "delta_e": -0.00096452556,
+      "stability": 0.012843363,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm054846558",
+      "composition_id": "Nb7",
+      "delta_e": -0.0051021953,
+      "stability": 0.013020659,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm037254215",
+      "composition_id": "Nb7",
+      "delta_e": -0.0047436915,
+      "stability": 0.013379162,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003298874",
+      "composition_id": "Nb5",
+      "delta_e": -0.0038507055,
+      "stability": 0.013409155,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009614570",
+      "composition_id": "Nb7 Ti4",
+      "delta_e": 0.0002348606,
+      "stability": 0.013415118,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069346608",
+      "composition_id": "Nb7",
+      "delta_e": -0.0038566291,
+      "stability": 0.014266225,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm020845794",
+      "composition_id": "Nb5",
+      "delta_e": -0.002636518,
+      "stability": 0.014623343,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015655394",
+      "composition_id": "Nb7",
+      "delta_e": -0.0034682953,
+      "stability": 0.014654559,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm044903877",
+      "composition_id": "Nb5",
+      "delta_e": -0.002544208,
+      "stability": 0.014715653,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008107695",
+      "composition_id": "Nb4",
+      "delta_e": -0.0016550267,
+      "stability": 0.01491444,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005546193",
+      "composition_id": "Nb5",
+      "delta_e": -0.0023021188,
+      "stability": 0.014957742,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012368878",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": -6.2502724e-05,
+      "stability": 0.015000649,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008238919",
+      "composition_id": "Nb5",
+      "delta_e": -0.0017619522,
+      "stability": 0.015497909,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm018096569",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.00257397,
+      "stability": 0.015518866,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015461224",
+      "composition_id": "Nb7 Ti2",
+      "delta_e": -0.00038437074,
+      "stability": 0.015724832,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008045514",
+      "composition_id": "Nb4",
+      "delta_e": -0.0007940007,
+      "stability": 0.015775466,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003289176",
+      "composition_id": "Nb13 Ti3",
+      "delta_e": -0.0009432175,
+      "stability": 0.015885146,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm042059829",
+      "composition_id": "Nb5",
+      "delta_e": -0.0013375372,
+      "stability": 0.015922325,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047905528",
+      "composition_id": "Nb7",
+      "delta_e": -0.0011937029,
+      "stability": 0.016929151,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012002760",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": 0.0024764163,
+      "stability": 0.017270584,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008096961",
+      "composition_id": "Nb3",
+      "delta_e": 0.0017776391,
+      "stability": 0.017311513,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm061948454",
+      "composition_id": "Nb13 Ti5",
+      "delta_e": 0.0024037436,
+      "stability": 0.01736229,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007847277",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": 0.0027844205,
+      "stability": 0.017578587,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047128619",
+      "composition_id": "Nb9 Ti2",
+      "delta_e": 0.0009824549,
+      "stability": 0.0179285,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008059646",
+      "composition_id": "Nb3",
+      "delta_e": 0.0024517316,
+      "stability": 0.017985607,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012435328",
+      "composition_id": "Nb2",
+      "delta_e": 0.0042099,
+      "stability": 0.01801779,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015590480",
+      "composition_id": "Nb6",
+      "delta_e": 0.0003692838,
+      "stability": 0.018122284,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065785933",
+      "composition_id": "Nb13 Ti5",
+      "delta_e": 0.0031991797,
+      "stability": 0.018157726,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007849929",
+      "composition_id": "Nb7 Ti3",
+      "delta_e": 0.003917284,
+      "stability": 0.018415567,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008169084",
+      "composition_id": "Nb5",
+      "delta_e": 0.0012393611,
+      "stability": 0.018499222,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012469977",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.0059583536,
+      "stability": 0.01890325,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007800628",
+      "composition_id": "Nb13 Ti3",
+      "delta_e": 0.0023998707,
+      "stability": 0.019228235,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011924390",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.007970106,
+      "stability": 0.01947668,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm029025085",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.0076925643,
+      "stability": 0.019774467,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008175934",
+      "composition_id": "Nb5",
+      "delta_e": 0.0025473794,
+      "stability": 0.01980724,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014794337",
+      "composition_id": "Nb3",
+      "delta_e": 0.004458557,
+      "stability": 0.019992432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm037226879",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.008152532,
+      "stability": 0.020234436,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm030890720",
+      "composition_id": "Nb9 Ti4",
+      "delta_e": 0.006086887,
+      "stability": 0.020425849,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm052832180",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": 0.0054552136,
+      "stability": 0.020518364,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm039743324",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.008616098,
+      "stability": 0.020698,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009489460",
+      "composition_id": "Nb7 Ti4",
+      "delta_e": 0.0075683934,
+      "stability": 0.02074865,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm042295421",
+      "composition_id": "Nb7",
+      "delta_e": 0.002722162,
+      "stability": 0.020845016,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070297454",
+      "composition_id": "Nb4",
+      "delta_e": 0.004650568,
+      "stability": 0.021220036,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011501976",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.0096517615,
+      "stability": 0.021487094,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm044997653",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": 0.0069487174,
+      "stability": 0.021742884,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008150338",
+      "composition_id": "Nb5",
+      "delta_e": 0.0046526142,
+      "stability": 0.021912476,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008764011",
+      "composition_id": "Nb7 Ti2",
+      "delta_e": 0.0059405994,
+      "stability": 0.022049803,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007799286",
+      "composition_id": "Nb2 Ti13",
+      "delta_e": 0.01950808,
+      "stability": 0.022269657,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm029217908",
+      "composition_id": "Nb8 Ti5",
+      "delta_e": 0.009922257,
+      "stability": 0.022668,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015003415",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.010650612,
+      "stability": 0.023077713,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005531783",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": 0.009375538,
+      "stability": 0.024169704,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010184097",
+      "composition_id": "Nb3",
+      "delta_e": 0.00906756,
+      "stability": 0.024601433,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068142027",
+      "composition_id": "Ti15",
+      "delta_e": 0.02330703,
+      "stability": 0.02460152,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007804688",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": 0.009605125,
+      "stability": 0.024668276,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008158010",
+      "composition_id": "Nb3",
+      "delta_e": 0.009150702,
+      "stability": 0.024684576,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm062657314",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.012368604,
+      "stability": 0.0253135,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068178177",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.012901074,
+      "stability": 0.025328174,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm044996295",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": 0.0105548445,
+      "stability": 0.025349012,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm029206388",
+      "composition_id": "Nb9 Ti4",
+      "delta_e": 0.011132944,
+      "stability": 0.025471905,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm038982638",
+      "composition_id": "Ti5",
+      "delta_e": 0.022236384,
+      "stability": 0.025688356,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm018759371",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.012907043,
+      "stability": 0.025851939,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012160416",
+      "composition_id": "Nb4",
+      "delta_e": 0.009454126,
+      "stability": 0.026023593,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010128357",
+      "composition_id": "",
+      "delta_e": 0.015698364,
+      "stability": 0.02605428,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001827673",
+      "composition_id": "Nb3",
+      "delta_e": 0.010530419,
+      "stability": 0.026064293,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007932558",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.01428724,
+      "stability": 0.026122574,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015588978",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.014462256,
+      "stability": 0.02654416,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001416715",
+      "composition_id": "",
+      "delta_e": 0.016433598,
+      "stability": 0.026789514,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068381805",
+      "composition_id": "Ti15",
+      "delta_e": 0.025501892,
+      "stability": 0.026796382,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047324800",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": 0.011816019,
+      "stability": 0.02687917,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm043784814",
+      "composition_id": "Nb8 Ti3",
+      "delta_e": 0.0118530905,
+      "stability": 0.026916243,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008145808",
+      "composition_id": "Nb2",
+      "delta_e": 0.013458549,
+      "stability": 0.027266437,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008067560",
+      "composition_id": "Nb2",
+      "delta_e": 0.013503039,
+      "stability": 0.027310928,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007841906",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.015304704,
+      "stability": 0.027386608,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007790198",
+      "composition_id": "Nb7 Ti3",
+      "delta_e": 0.013669848,
+      "stability": 0.02816813,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm050254878",
+      "composition_id": "Ti7",
+      "delta_e": 0.025796749,
+      "stability": 0.028385727,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008051941",
+      "composition_id": "Nb2",
+      "delta_e": 0.015634561,
+      "stability": 0.02944245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007823720",
+      "composition_id": "Nb6 Ti5",
+      "delta_e": 0.018180199,
+      "stability": 0.029477563,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm035002353",
+      "composition_id": "Ti5",
+      "delta_e": 0.026393354,
+      "stability": 0.029845325,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010188118",
+      "composition_id": "Nb2",
+      "delta_e": 0.016212622,
+      "stability": 0.03002051,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008039100",
+      "composition_id": "Nb2",
+      "delta_e": 0.01622079,
+      "stability": 0.030028678,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm049176753",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.01709581,
+      "stability": 0.030040706,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010155981",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.017585052,
+      "stability": 0.030529948,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm059599152",
+      "composition_id": "Ti9",
+      "delta_e": 0.028777286,
+      "stability": 0.03084847,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011749594",
+      "composition_id": "Nb4 Ti5",
+      "delta_e": 0.021887545,
+      "stability": 0.031092802,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm039917650",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.019059591,
+      "stability": 0.031141493,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010170716",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.018781997,
+      "stability": 0.031209096,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007814301",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.019727532,
+      "stability": 0.031234106,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007841937",
+      "composition_id": "Nb5 Ti2",
+      "delta_e": 0.016459296,
+      "stability": 0.03125346,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007952495",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.018434148,
+      "stability": 0.031379044,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001415753",
+      "composition_id": "Nb3",
+      "delta_e": 0.015879981,
+      "stability": 0.031413857,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066271975",
+      "composition_id": "Nb7 Ti8",
+      "delta_e": 0.023187762,
+      "stability": 0.032853283,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003296152",
+      "composition_id": "Nb3",
+      "delta_e": 0.01748327,
+      "stability": 0.033017144,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm054365822",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.025421074,
+      "stability": 0.03318801,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003157371",
+      "composition_id": "",
+      "delta_e": 0.023096323,
+      "stability": 0.03345224,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm032386855",
+      "composition_id": "",
+      "delta_e": 0.02316342,
+      "stability": 0.033519335,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm033219431",
+      "composition_id": "Nb2",
+      "delta_e": 0.019835496,
+      "stability": 0.033643387,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011752101",
+      "composition_id": "Nb2 Ti7",
+      "delta_e": 0.029140266,
+      "stability": 0.033742893,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007912305",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.022409283,
+      "stability": 0.033915855,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010158904",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.02225837,
+      "stability": 0.0340937,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007924495",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.022394354,
+      "stability": 0.034229685,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007857226",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.024230901,
+      "stability": 0.035737477,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007977840",
+      "composition_id": "",
+      "delta_e": 0.025450388,
+      "stability": 0.035806306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009831279",
+      "composition_id": "Nb4 Ti7",
+      "delta_e": 0.028506832,
+      "stability": 0.036038406,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm038947430",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.027468381,
+      "stability": 0.036098313,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001850175",
+      "composition_id": "Nb2",
+      "delta_e": 0.022564089,
+      "stability": 0.036371976,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm039533046",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.027762664,
+      "stability": 0.036392596,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm039032694",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.027838128,
+      "stability": 0.03646806,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm049920502",
+      "composition_id": "Nb7 Ti3",
+      "delta_e": 0.021993686,
+      "stability": 0.036491968,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm051911172",
+      "composition_id": "",
+      "delta_e": 0.026790118,
+      "stability": 0.037146036,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014941315",
+      "composition_id": "",
+      "delta_e": 0.026860232,
+      "stability": 0.03721615,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070601017",
+      "composition_id": "Nb2",
+      "delta_e": 0.02382403,
+      "stability": 0.037631918,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm056892356",
+      "composition_id": "Ti8",
+      "delta_e": 0.035678834,
+      "stability": 0.037980147,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005540368",
+      "composition_id": "Nb2",
+      "delta_e": 0.024183031,
+      "stability": 0.03799092,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007842333",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.029749008,
+      "stability": 0.03837894,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005538964",
+      "composition_id": "",
+      "delta_e": 0.028049177,
+      "stability": 0.038405094,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011745022",
+      "composition_id": "Nb2 Ti7",
+      "delta_e": 0.03388295,
+      "stability": 0.03848558,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013049406",
+      "composition_id": "",
+      "delta_e": 0.02824617,
+      "stability": 0.038602088,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068716728",
+      "composition_id": "Ti7",
+      "delta_e": 0.03620178,
+      "stability": 0.03879076,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007932705",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.029959915,
+      "stability": 0.038836416,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007837330",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.026987644,
+      "stability": 0.03906955,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007823645",
+      "composition_id": "Nb5 Ti6",
+      "delta_e": 0.029762592,
+      "stability": 0.039177064,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007813173",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.02854185,
+      "stability": 0.040048424,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011904126",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.03118982,
+      "stability": 0.04006632,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008067416",
+      "composition_id": "Ti2",
+      "delta_e": 0.033290714,
+      "stability": 0.04019466,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm067101582",
+      "composition_id": "Ti17",
+      "delta_e": 0.039617043,
+      "stability": 0.040767703,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007857411",
+      "composition_id": "Nb4 Ti5",
+      "delta_e": 0.031913567,
+      "stability": 0.041118827,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065362934",
+      "composition_id": "Ti2",
+      "delta_e": 0.03481818,
+      "stability": 0.041722126,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069912745",
+      "composition_id": "Ti7",
+      "delta_e": 0.03923192,
+      "stability": 0.0418209,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007932955",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.03311645,
+      "stability": 0.041992947,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014817928",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.03343373,
+      "stability": 0.04206366,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003297017",
+      "composition_id": "Ti3",
+      "delta_e": 0.036887467,
+      "stability": 0.042065427,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008123263",
+      "composition_id": "Ti2",
+      "delta_e": 0.03541859,
+      "stability": 0.04232253,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007813984",
+      "composition_id": "Nb4 Ti5",
+      "delta_e": 0.03313307,
+      "stability": 0.04233833,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013628946",
+      "composition_id": "Ti7",
+      "delta_e": 0.03986299,
+      "stability": 0.04245197,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm040307278",
+      "composition_id": "Ti4",
+      "delta_e": 0.038722273,
+      "stability": 0.04286464,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm042009714",
+      "composition_id": "Ti5",
+      "delta_e": 0.039414976,
+      "stability": 0.04286695,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm041699741",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.030203812,
+      "stability": 0.043148708,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013677971",
+      "composition_id": "Ti2",
+      "delta_e": 0.03669985,
+      "stability": 0.043603793,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm031530355",
+      "composition_id": "Nb5 Ti8",
+      "delta_e": 0.035768602,
+      "stability": 0.043734692,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008123309",
+      "composition_id": "Ti4",
+      "delta_e": 0.039662804,
+      "stability": 0.04380517,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007926879",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.03108476,
+      "stability": 0.044029657,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012481831",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.03629775,
+      "stability": 0.044064686,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011922171",
+      "composition_id": "Nb2 Ti5",
+      "delta_e": 0.038157362,
+      "stability": 0.044075027,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007952555",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.036513835,
+      "stability": 0.04428077,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007998893",
+      "composition_id": "",
+      "delta_e": 0.03422806,
+      "stability": 0.044583976,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007951891",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.032304913,
+      "stability": 0.044732016,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007930308",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.032937605,
+      "stability": 0.044772938,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533183",
+      "composition_id": "Nb3 Ti13",
+      "delta_e": 0.041337404,
+      "stability": 0.045220874,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm042200434",
+      "composition_id": "Nb2",
+      "delta_e": 0.031436957,
+      "stability": 0.045244846,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm041477841",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.03236908,
+      "stability": 0.045313977,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005545939",
+      "composition_id": "Ti5",
+      "delta_e": 0.041956495,
+      "stability": 0.045408465,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012778290",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.03765599,
+      "stability": 0.045940723,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm037271323",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.03750543,
+      "stability": 0.04613536,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm038867894",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.038047615,
+      "stability": 0.04633235,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010144606",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.038378958,
+      "stability": 0.04666369,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005534989",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.039289508,
+      "stability": 0.047056448,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003185156",
+      "composition_id": "Ti3",
+      "delta_e": 0.04189168,
+      "stability": 0.047069635,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009801898",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.034394022,
+      "stability": 0.047338918,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm031695480",
+      "composition_id": "Nb4 Ti9",
+      "delta_e": 0.041062247,
+      "stability": 0.04743512,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm048854334",
+      "composition_id": "Ti2",
+      "delta_e": 0.040538594,
+      "stability": 0.047442537,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm041240551",
+      "composition_id": "Ti2",
+      "delta_e": 0.040647134,
+      "stability": 0.047551077,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003299326",
+      "composition_id": "Ti5",
+      "delta_e": 0.044469647,
+      "stability": 0.04792162,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007837234",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.039585207,
+      "stability": 0.048215136,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070388749",
+      "composition_id": "Ti4",
+      "delta_e": 0.044558346,
+      "stability": 0.048700713,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm048186790",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.035994213,
+      "stability": 0.04893911,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066047659",
+      "composition_id": "Ti14",
+      "delta_e": 0.047585383,
+      "stability": 0.048966173,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290250",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.040165767,
+      "stability": 0.049042266,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm055801369",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.03610224,
+      "stability": 0.049047135,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm045831779",
+      "composition_id": "Ti6",
+      "delta_e": 0.046381347,
+      "stability": 0.049340177,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010209675",
+      "composition_id": "Ti3",
+      "delta_e": 0.044206835,
+      "stability": 0.04938479,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009718469",
+      "composition_id": "Nb4 Ti7",
+      "delta_e": 0.041974384,
+      "stability": 0.04950596,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009547319",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.03832169,
+      "stability": 0.04982826,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007814544",
+      "composition_id": "Nb4 Ti5",
+      "delta_e": 0.041024365,
+      "stability": 0.050229624,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009164962",
+      "composition_id": "Nb2 Ti7",
+      "delta_e": 0.045857575,
+      "stability": 0.050460204,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm018277726",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.04291374,
+      "stability": 0.05068068,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013839269",
+      "composition_id": "Nb3 Ti8",
+      "delta_e": 0.04562369,
+      "stability": 0.051272374,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007915343",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.038352985,
+      "stability": 0.05129788,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010192357",
+      "composition_id": "Ti5",
+      "delta_e": 0.04906557,
+      "stability": 0.052517544,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066374808",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.040715743,
+      "stability": 0.052797645,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm063124631",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.040371295,
+      "stability": 0.052798394,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm030809320",
+      "composition_id": "Nb4 Ti9",
+      "delta_e": 0.04693239,
+      "stability": 0.05330526,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008044528",
+      "composition_id": "Ti2",
+      "delta_e": 0.047028065,
+      "stability": 0.05393201,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009454590",
+      "composition_id": "Nb3 Ti8",
+      "delta_e": 0.048317075,
+      "stability": 0.053965755,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005536010",
+      "composition_id": "Nb3 Ti7",
+      "delta_e": 0.047804955,
+      "stability": 0.054018505,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047339589",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.04112505,
+      "stability": 0.054069947,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm043558052",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.046341088,
+      "stability": 0.054108027,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007944684",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.04647849,
+      "stability": 0.05424543,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm040899471",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.04220675,
+      "stability": 0.05463385,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008038935",
+      "composition_id": "Ti2",
+      "delta_e": 0.047801185,
+      "stability": 0.054705128,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010148345",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.04272249,
+      "stability": 0.055149592,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007850030",
+      "composition_id": "Nb3 Ti7",
+      "delta_e": 0.04896376,
+      "stability": 0.055177312,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008052233",
+      "composition_id": "Ti2",
+      "delta_e": 0.048282508,
+      "stability": 0.055186454,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007795387",
+      "composition_id": "Nb2 Ti7",
+      "delta_e": 0.05067402,
+      "stability": 0.05527665,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm065904377",
+      "composition_id": "Nb5 Ti13",
+      "delta_e": 0.04979347,
+      "stability": 0.055546757,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm052535045",
+      "composition_id": "Nb3 Ti8",
+      "delta_e": 0.050100487,
+      "stability": 0.05574917,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm050467895",
+      "composition_id": "Nb3 Ti8",
+      "delta_e": 0.050826486,
+      "stability": 0.05647517,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001850176",
+      "composition_id": "Ti2",
+      "delta_e": 0.049619958,
+      "stability": 0.0565239,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015116488",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.048935864,
+      "stability": 0.057220597,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm063117811",
+      "composition_id": "Nb7 Ti5",
+      "delta_e": 0.04518937,
+      "stability": 0.057271272,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006243895",
+      "composition_id": "Nb2 Ti5",
+      "delta_e": 0.051383942,
+      "stability": 0.057301607,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm059110675",
+      "composition_id": "Nb3 Ti7",
+      "delta_e": 0.051127605,
+      "stability": 0.057341155,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm067709500",
+      "composition_id": "Ti17",
+      "delta_e": 0.057406023,
+      "stability": 0.05855668,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007777223",
+      "composition_id": "Nb2 Ti5",
+      "delta_e": 0.05296557,
+      "stability": 0.05888324,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014450348",
+      "composition_id": "Nb3 Ti8",
+      "delta_e": 0.0540723,
+      "stability": 0.059720986,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008053591",
+      "composition_id": "Ti4",
+      "delta_e": 0.05578118,
+      "stability": 0.059923545,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012154314",
+      "composition_id": "Nb2 Ti9",
+      "delta_e": 0.056830198,
+      "stability": 0.060595986,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm042271695",
+      "composition_id": "Ti4",
+      "delta_e": 0.056586962,
+      "stability": 0.06072933,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007809786",
+      "composition_id": "Nb3 Ti8",
+      "delta_e": 0.055162713,
+      "stability": 0.060811397,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008239265",
+      "composition_id": "Ti5",
+      "delta_e": 0.057433926,
+      "stability": 0.0608859,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010136778",
+      "composition_id": "Ti2",
+      "delta_e": 0.054156896,
+      "stability": 0.061060842,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015044284",
+      "composition_id": "Ti3",
+      "delta_e": 0.056180026,
+      "stability": 0.061357982,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007930220",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.05253955,
+      "stability": 0.06141605,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm067659248",
+      "composition_id": "Ti15",
+      "delta_e": 0.06090932,
+      "stability": 0.062203806,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm062716019",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.05374698,
+      "stability": 0.06237691,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001827672",
+      "composition_id": "Ti3",
+      "delta_e": 0.05726989,
+      "stability": 0.06244785,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014322005",
+      "composition_id": "Nb2 Ti7",
+      "delta_e": 0.057851035,
+      "stability": 0.062453665,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001281697",
+      "composition_id": "Ti3",
+      "delta_e": 0.05728622,
+      "stability": 0.062464178,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007938697",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.054918457,
+      "stability": 0.063794956,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009414720",
+      "composition_id": "Nb2 Ti5",
+      "delta_e": 0.0581139,
+      "stability": 0.06403156,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm050910784",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.055972684,
+      "stability": 0.06425742,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007951637",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.05605281,
+      "stability": 0.064337544,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007965084",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.056573223,
+      "stability": 0.06434016,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005531726",
+      "composition_id": "Nb2 Ti5",
+      "delta_e": 0.058677226,
+      "stability": 0.064594895,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm038652095",
+      "composition_id": "Ti2",
+      "delta_e": 0.058091156,
+      "stability": 0.0649951,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm019298090",
+      "composition_id": "Ti2",
+      "delta_e": 0.058624506,
+      "stability": 0.06552845,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002190772",
+      "composition_id": "Ti3",
+      "delta_e": 0.06035153,
+      "stability": 0.06552949,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm038655226",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.057915177,
+      "stability": 0.06568211,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003288105",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.057467654,
+      "stability": 0.06575239,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm039391873",
+      "composition_id": "Ti2",
+      "delta_e": 0.05933212,
+      "stability": 0.066236064,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007969720",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.05871879,
+      "stability": 0.066485725,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm062670099",
+      "composition_id": "Nb5 Ti7",
+      "delta_e": 0.05805024,
+      "stability": 0.06668017,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007847798",
+      "composition_id": "Nb2 Ti5",
+      "delta_e": 0.060848273,
+      "stability": 0.06676594,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm052924391",
+      "composition_id": "Nb2 Ti9",
+      "delta_e": 0.06312501,
+      "stability": 0.06689079,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007947859",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.060543243,
+      "stability": 0.06831018,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm046534257",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.06086425,
+      "stability": 0.06863119,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010046009",
+      "composition_id": "Ti3",
+      "delta_e": 0.064002454,
+      "stability": 0.069180414,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066940925",
+      "composition_id": "Ti15",
+      "delta_e": 0.06793841,
+      "stability": 0.0692329,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009801783",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.062134676,
+      "stability": 0.069901615,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm046877892",
+      "composition_id": "Ti7",
+      "delta_e": 0.0674817,
+      "stability": 0.07007068,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453156",
+      "composition_id": "",
+      "delta_e": 0.060010858,
+      "stability": 0.07036678,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005548339",
+      "composition_id": "Ti8",
+      "delta_e": 0.06808671,
+      "stability": 0.07038803,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070195843",
+      "composition_id": "Ti3",
+      "delta_e": 0.06521747,
+      "stability": 0.07039543,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008059474",
+      "composition_id": "Ti3",
+      "delta_e": 0.06548681,
+      "stability": 0.07066477,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008109353",
+      "composition_id": "Nb2",
+      "delta_e": 0.05687532,
+      "stability": 0.07068321,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014097125",
+      "composition_id": "Ti5",
+      "delta_e": 0.06735996,
+      "stability": 0.070811935,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm051889340",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.0634782,
+      "stability": 0.071245134,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001191318",
+      "composition_id": "",
+      "delta_e": 0.06089622,
+      "stability": 0.07125214,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007846005",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.062440448,
+      "stability": 0.07131695,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013740119",
+      "composition_id": "Nb2 Ti9",
+      "delta_e": 0.06758076,
+      "stability": 0.07134655,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008157761",
+      "composition_id": "Ti3",
+      "delta_e": 0.06627462,
+      "stability": 0.07145257,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm049577533",
+      "composition_id": "Nb2 Ti9",
+      "delta_e": 0.06770345,
+      "stability": 0.07146923,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008043197",
+      "composition_id": "Ti3",
+      "delta_e": 0.06637828,
+      "stability": 0.07155624,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003262495",
+      "composition_id": "Ti3",
+      "delta_e": 0.066736214,
+      "stability": 0.07191417,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm051357029",
+      "composition_id": "Ti10",
+      "delta_e": 0.07003225,
+      "stability": 0.071915135,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007832252",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.063784994,
+      "stability": 0.07206973,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047477633",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.06439646,
+      "stability": 0.072163396,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm039865002",
+      "composition_id": "Ti7",
+      "delta_e": 0.07179928,
+      "stability": 0.07438826,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008006731",
+      "composition_id": "Ti3",
+      "delta_e": 0.069397196,
+      "stability": 0.07457515,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm035140459",
+      "composition_id": "Ti2",
+      "delta_e": 0.06780129,
+      "stability": 0.074705236,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008045358",
+      "composition_id": "Ti4",
+      "delta_e": 0.0711645,
+      "stability": 0.07530687,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007870478",
+      "composition_id": "Ti7",
+      "delta_e": 0.07299059,
+      "stability": 0.07557957,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm051155071",
+      "composition_id": "Nb3 Ti5",
+      "delta_e": 0.06828927,
+      "stability": 0.07605621,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008169693",
+      "composition_id": "Ti5",
+      "delta_e": 0.073020704,
+      "stability": 0.07647268,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008025919",
+      "composition_id": "Ti3",
+      "delta_e": 0.07145805,
+      "stability": 0.07663601,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010178308",
+      "composition_id": "Ti4",
+      "delta_e": 0.07262024,
+      "stability": 0.07676261,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm012306043",
+      "composition_id": "Ti10",
+      "delta_e": 0.075673886,
+      "stability": 0.07755678,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm056305209",
+      "composition_id": "Ti4",
+      "delta_e": 0.07352455,
+      "stability": 0.077666916,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm055147264",
+      "composition_id": "Ti5",
+      "delta_e": 0.074972466,
+      "stability": 0.07842444,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003185157",
+      "composition_id": "Ti3",
+      "delta_e": 0.073742256,
+      "stability": 0.07892021,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001192593",
+      "composition_id": "Ti5",
+      "delta_e": 0.075555846,
+      "stability": 0.07900782,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014872811",
+      "composition_id": "Ti10",
+      "delta_e": 0.07761434,
+      "stability": 0.079497226,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010195775",
+      "composition_id": "Ti3",
+      "delta_e": 0.074820004,
+      "stability": 0.079997964,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003185158",
+      "composition_id": "Ti3",
+      "delta_e": 0.07489295,
+      "stability": 0.080070905,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070168561",
+      "composition_id": "Ti7",
+      "delta_e": 0.07814778,
+      "stability": 0.08073676,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008026100",
+      "composition_id": "Nb3",
+      "delta_e": 0.06550736,
+      "stability": 0.08104123,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008069507",
+      "composition_id": "Ti4",
+      "delta_e": 0.0788304,
+      "stability": 0.082972765,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm043114292",
+      "composition_id": "Ti7",
+      "delta_e": 0.080681376,
+      "stability": 0.083270356,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm017681526",
+      "composition_id": "Ti8",
+      "delta_e": 0.08109238,
+      "stability": 0.08339369,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015796547",
+      "composition_id": "Ti7",
+      "delta_e": 0.083474845,
+      "stability": 0.086063825,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007828093",
+      "composition_id": "Nb4 Ti5",
+      "delta_e": 0.07740124,
+      "stability": 0.0866065,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm063293689",
+      "composition_id": "Ti11",
+      "delta_e": 0.08519714,
+      "stability": 0.08692313,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047816610",
+      "composition_id": "",
+      "delta_e": 0.07690224,
+      "stability": 0.08725815,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007909101",
+      "composition_id": "Ti7",
+      "delta_e": 0.08480261,
+      "stability": 0.087391585,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm041992567",
+      "composition_id": "Ti5",
+      "delta_e": 0.08535634,
+      "stability": 0.08880831,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010206311",
+      "composition_id": "Ti3",
+      "delta_e": 0.083904706,
+      "stability": 0.089082666,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069000473",
+      "composition_id": "Ti7",
+      "delta_e": 0.086948544,
+      "stability": 0.08953752,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm013265243",
+      "composition_id": "Ti3",
+      "delta_e": 0.087307565,
+      "stability": 0.092485525,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002190616",
+      "composition_id": "Ti2",
+      "delta_e": 0.08685205,
+      "stability": 0.093756,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293824",
+      "composition_id": "",
+      "delta_e": 0.08420856,
+      "stability": 0.094564475,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007806721",
+      "composition_id": "Nb2 Ti7",
+      "delta_e": 0.09015198,
+      "stability": 0.094754614,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073026372",
+      "composition_id": "Nb4 Ti15",
+      "delta_e": 0.09313802,
+      "stability": 0.0974984,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm048243184",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.087653734,
+      "stability": 0.10059863,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008040783",
+      "composition_id": "",
+      "delta_e": 0.09211382,
+      "stability": 0.10246974,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm018020010",
+      "composition_id": "",
+      "delta_e": 0.09241019,
+      "stability": 0.102766104,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290604",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.09021034,
+      "stability": 0.10315523,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068383218",
+      "composition_id": "Nb3",
+      "delta_e": 0.087878875,
+      "stability": 0.103412755,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453157",
+      "composition_id": "",
+      "delta_e": 0.095808044,
+      "stability": 0.10616396,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005530905",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.09596123,
+      "stability": 0.108388335,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007828521",
+      "composition_id": "Nb5 Ti4",
+      "delta_e": 0.10516361,
+      "stability": 0.116670184,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001280512",
+      "composition_id": "Nb3",
+      "delta_e": 0.104832314,
+      "stability": 0.120366186,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069274085",
+      "composition_id": "",
+      "delta_e": 0.11816025,
+      "stability": 0.12851617,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010170336",
+      "composition_id": "Nb3 Ti4",
+      "delta_e": 0.13362214,
+      "stability": 0.14249864,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010206503",
+      "composition_id": "Nb2",
+      "delta_e": 0.12959126,
+      "stability": 0.14339915,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007998280",
+      "composition_id": "",
+      "delta_e": 0.13692667,
+      "stability": 0.14728259,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015254096",
+      "composition_id": "",
+      "delta_e": 0.1377032,
+      "stability": 0.14805911,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm070514002",
+      "composition_id": "Nb2",
+      "delta_e": 0.14122279,
+      "stability": 0.15503067,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001281696",
+      "composition_id": "Nb3",
+      "delta_e": 0.14088461,
+      "stability": 0.15641849,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008082100",
+      "composition_id": "Nb3",
+      "delta_e": 0.14279577,
+      "stability": 0.15832965,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066610291",
+      "composition_id": "Nb8 Ti7",
+      "delta_e": 0.1504395,
+      "stability": 0.16148582,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014643930",
+      "composition_id": "",
+      "delta_e": 0.151648,
+      "stability": 0.16200392,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005544687",
+      "composition_id": "Ti4",
+      "delta_e": 0.15807934,
+      "stability": 0.16222171,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003295149",
+      "composition_id": "Ti2",
+      "delta_e": 0.15582052,
+      "stability": 0.16272447,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073025084",
+      "composition_id": "Nb15 Ti4",
+      "delta_e": 0.1541228,
+      "stability": 0.17047425,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm047491478",
+      "composition_id": "Nb3",
+      "delta_e": 0.15700613,
+      "stability": 0.17254,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002322608",
+      "composition_id": "Ti2",
+      "delta_e": 0.16787454,
+      "stability": 0.17477848,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm045976486",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.16480055,
+      "stability": 0.17663589,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533732",
+      "composition_id": "Nb4 Ti3",
+      "delta_e": 0.17953125,
+      "stability": 0.19136658,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm066275880",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.17939466,
+      "stability": 0.19182177,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002190617",
+      "composition_id": "Ti2",
+      "delta_e": 0.19575432,
+      "stability": 0.20265825,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010215817",
+      "composition_id": "Nb2",
+      "delta_e": 0.1924725,
+      "stability": 0.2062804,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm015404723",
+      "composition_id": "Ti2",
+      "delta_e": 0.20057316,
+      "stability": 0.2074771,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001190265",
+      "composition_id": "Nb3",
+      "delta_e": 0.20995137,
+      "stability": 0.22548525,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014543852",
+      "composition_id": "Nb3",
+      "delta_e": 0.21017928,
+      "stability": 0.22571316,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003291310",
+      "composition_id": "Nb7 Ti3",
+      "delta_e": 0.21127045,
+      "stability": 0.22576873,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm055562279",
+      "composition_id": "Ti11",
+      "delta_e": 0.22580662,
+      "stability": 0.22753261,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001630505",
+      "composition_id": "Nb2",
+      "delta_e": 0.22056709,
+      "stability": 0.23437497,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm069373494",
+      "composition_id": "Ti5",
+      "delta_e": 0.24526899,
+      "stability": 0.24872094,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm060311791",
+      "composition_id": "Ti11",
+      "delta_e": 0.2562619,
+      "stability": 0.2579879,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005535137",
+      "composition_id": "Nb5 Ti3",
+      "delta_e": 0.24511895,
+      "stability": 0.25806385,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003288023",
+      "composition_id": "Nb3 Ti2",
+      "delta_e": 0.27021444,
+      "stability": 0.28264153,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453152",
+      "composition_id": "",
+      "delta_e": 0.3070543,
+      "stability": 0.31741023,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005217377",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 0.31002575,
+      "stability": 0.3183105,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453151",
+      "composition_id": "",
+      "delta_e": 0.39173365,
+      "stability": 0.40208957,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453154",
+      "composition_id": "",
+      "delta_e": 0.40295714,
+      "stability": 0.41331306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453155",
+      "composition_id": "",
+      "delta_e": 0.45682296,
+      "stability": 0.46717888,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm068854839",
+      "composition_id": "",
+      "delta_e": 0.46803704,
+      "stability": 0.47839296,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000122897",
+      "composition_id": "",
+      "delta_e": 0.5246603,
+      "stability": 0.53317934,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453153",
+      "composition_id": "",
+      "delta_e": 0.6467241,
+      "stability": 0.65708005,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000125827",
+      "composition_id": "Ti2",
+      "delta_e": 0.6790608,
+      "stability": 0.68474025,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003286234",
+      "composition_id": "Nb13 Ti2",
+      "delta_e": 0.7542247,
+      "stability": 0.772175,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453160",
+      "composition_id": "",
+      "delta_e": 0.8497166,
+      "stability": 0.86007255,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006182004",
+      "composition_id": "Ti4",
+      "delta_e": 0.96268255,
+      "stability": 0.9668249,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000128118",
+      "composition_id": "Nb3",
+      "delta_e": 1.0012904,
+      "stability": 1.0140691,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000120926",
+      "composition_id": "Nb9 Ti7",
+      "delta_e": 1.2055179,
+      "stability": 1.2151018,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006182005",
+      "composition_id": "Nb4",
+      "delta_e": 1.2030033,
+      "stability": 1.2195728,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453161",
+      "composition_id": "",
+      "delta_e": 1.5631559,
+      "stability": 1.5735117,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000125862",
+      "composition_id": "Nb2",
+      "delta_e": 1.9504949,
+      "stability": 1.9618536,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453150",
+      "composition_id": "",
+      "delta_e": 1.9847624,
+      "stability": 1.9951184,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000113752",
+      "composition_id": "Nb2 Ti3",
+      "delta_e": 2.3951619,
+      "stability": 2.401977,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453045",
+      "composition_id": "",
+      "delta_e": 2.4171157,
+      "stability": 2.4274716,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004453159",
+      "composition_id": "",
+      "delta_e": 2.5534546,
+      "stability": 2.5638106,
+      "icsd": false
+    }
+  ]
+}

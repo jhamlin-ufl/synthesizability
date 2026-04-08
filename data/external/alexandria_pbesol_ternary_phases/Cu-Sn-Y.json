@@ -1,0 +1,108 @@
+{
+  "space": "Cu-Sn-Y",
+  "elements": [
+    "Cu",
+    "Sn",
+    "Y"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003208592",
+      "composition_id": "Cu4 Sn4 Y3",
+      "delta_e": -0.5698354,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062255",
+      "composition_id": "",
+      "delta_e": -0.65917677,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003234944",
+      "composition_id": "Cu5",
+      "delta_e": -0.27795485,
+      "stability": 0.004549471,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002334691",
+      "composition_id": "",
+      "delta_e": -0.6498419,
+      "stability": 0.009334893,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002207899",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.50471073,
+      "stability": 0.017625866,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002207898",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.49957934,
+      "stability": 0.022757243,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002147098",
+      "composition_id": "",
+      "delta_e": -0.6355224,
+      "stability": 0.023654332,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002147097",
+      "composition_id": "",
+      "delta_e": -0.6145113,
+      "stability": 0.044665474,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002266937",
+      "composition_id": "Cu2",
+      "delta_e": -0.44524115,
+      "stability": 0.049141433,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002266929",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.4726526,
+      "stability": 0.049683977,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002146008",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.3812814,
+      "stability": 0.05033657,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002335294",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.47017905,
+      "stability": 0.05215752,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002267849",
+      "composition_id": "",
+      "delta_e": -0.6036555,
+      "stability": 0.05552124,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002268246",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.35157812,
+      "stability": 0.08003986,
+      "icsd": false
+    }
+  ]
+}

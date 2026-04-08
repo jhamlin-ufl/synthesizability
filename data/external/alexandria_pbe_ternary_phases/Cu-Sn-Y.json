@@ -1,0 +1,647 @@
+{
+  "space": "Cu-Sn-Y",
+  "elements": [
+    "Cu",
+    "Sn",
+    "Y"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003062255",
+      "composition_id": "",
+      "delta_e": -0.61979616,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003208592",
+      "composition_id": "Cu4 Sn4 Y3",
+      "delta_e": -0.5281643,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003234944",
+      "composition_id": "Cu5",
+      "delta_e": -0.26133132,
+      "stability": 0.0042956024,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005932417",
+      "composition_id": "Cu9 Sn2",
+      "delta_e": -0.15556276,
+      "stability": 0.008913586,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002334691",
+      "composition_id": "",
+      "delta_e": -0.6098885,
+      "stability": 0.009907688,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003631665",
+      "composition_id": "Sn2",
+      "delta_e": -0.46827504,
+      "stability": 0.011248745,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006079842",
+      "composition_id": "Cu5 Y12",
+      "delta_e": -0.24570571,
+      "stability": 0.014719926,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005715756",
+      "composition_id": "Cu6 Sn5 Y3",
+      "delta_e": -0.40373155,
+      "stability": 0.015231163,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002207899",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.486226,
+      "stability": 0.017738424,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006128136",
+      "composition_id": "Cu6 Y12",
+      "delta_e": -0.25158203,
+      "stability": 0.022760568,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002147098",
+      "composition_id": "",
+      "delta_e": -0.5960415,
+      "stability": 0.023754653,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005916054",
+      "composition_id": "Cu2 Y5",
+      "delta_e": -0.3650873,
+      "stability": 0.024052512,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002207898",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.47358173,
+      "stability": 0.030382708,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005932298",
+      "composition_id": "Sn3 Y3",
+      "delta_e": -0.6731171,
+      "stability": 0.030727116,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005800170",
+      "composition_id": "Cu2 Y6",
+      "delta_e": -0.31167683,
+      "stability": 0.034225233,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm014131902",
+      "composition_id": "Sn2",
+      "delta_e": -0.44450644,
+      "stability": 0.035017334,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008412350",
+      "composition_id": "Cu7 Sn4 Y3",
+      "delta_e": -0.378786,
+      "stability": 0.036200263,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002268246",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.35818785,
+      "stability": 0.03655537,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003727863",
+      "composition_id": "Sn3",
+      "delta_e": -0.3466245,
+      "stability": 0.03700439,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062265",
+      "composition_id": "",
+      "delta_e": -0.582111,
+      "stability": 0.03768516,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005670017",
+      "composition_id": "Cu2 Sn4 Y3",
+      "delta_e": -0.5741249,
+      "stability": 0.04354555,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003398992",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.3510528,
+      "stability": 0.043690447,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002266937",
+      "composition_id": "Cu2",
+      "delta_e": -0.41438946,
+      "stability": 0.050457656,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003537526",
+      "composition_id": "Cu9 Sn2",
+      "delta_e": -0.113118656,
+      "stability": 0.051357687,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002267849",
+      "composition_id": "",
+      "delta_e": -0.56418675,
+      "stability": 0.055609416,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002335294",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.44781408,
+      "stability": 0.05615034,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002266929",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.44545138,
+      "stability": 0.058513038,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005680310",
+      "composition_id": "Cu3 Sn4 Y3",
+      "delta_e": -0.50585896,
+      "stability": 0.062583126,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009637631",
+      "composition_id": "Cu2 Sn2 Y3",
+      "delta_e": -0.5413414,
+      "stability": 0.06400974,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003599950",
+      "composition_id": "",
+      "delta_e": -0.5534033,
+      "stability": 0.06639284,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062259",
+      "composition_id": "",
+      "delta_e": -0.55197513,
+      "stability": 0.06782105,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001262334",
+      "composition_id": "",
+      "delta_e": -0.5461829,
+      "stability": 0.0736133,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003629121",
+      "composition_id": "Y2",
+      "delta_e": -0.51851743,
+      "stability": 0.075999945,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003587728",
+      "composition_id": "Cu8 Sn3",
+      "delta_e": -0.08746966,
+      "stability": 0.08164588,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003695613",
+      "composition_id": "Cu6 Sn6",
+      "delta_e": -0.085470065,
+      "stability": 0.083483614,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002209218",
+      "composition_id": "Cu4 Sn6",
+      "delta_e": -0.10383,
+      "stability": 0.085729614,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm031186544",
+      "composition_id": "Cu3 Sn2",
+      "delta_e": -0.24173912,
+      "stability": 0.08721356,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008605600",
+      "composition_id": "Cu6 Sn11 Y5",
+      "delta_e": -0.35057414,
+      "stability": 0.087887056,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002146007",
+      "composition_id": "Cu2",
+      "delta_e": -0.37364134,
+      "stability": 0.09120579,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002267190",
+      "composition_id": "Cu4",
+      "delta_e": -0.2139592,
+      "stability": 0.09593888,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062267",
+      "composition_id": "",
+      "delta_e": -0.51706356,
+      "stability": 0.102732636,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002209074",
+      "composition_id": "",
+      "delta_e": -0.5158149,
+      "stability": 0.10398129,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003585160",
+      "composition_id": "Cu8 Y3",
+      "delta_e": -0.20947936,
+      "stability": 0.109449804,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002209075",
+      "composition_id": "Sn2",
+      "delta_e": -0.368039,
+      "stability": 0.11148474,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002919556",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.28054133,
+      "stability": 0.114201896,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001203886",
+      "composition_id": "Sn2",
+      "delta_e": -0.36103708,
+      "stability": 0.11848669,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003458337",
+      "composition_id": "Cu2 Y4",
+      "delta_e": -0.32429737,
+      "stability": 0.12043384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003714015",
+      "composition_id": "Y3",
+      "delta_e": -0.39367986,
+      "stability": 0.12397431,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062262",
+      "composition_id": "",
+      "delta_e": -0.48549014,
+      "stability": 0.13430603,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002147082",
+      "composition_id": "Y2",
+      "delta_e": -0.45740932,
+      "stability": 0.13710806,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008197485",
+      "composition_id": "Cu3 Sn16 Y4",
+      "delta_e": -0.19333209,
+      "stability": 0.13784638,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001122933",
+      "composition_id": "Y2",
+      "delta_e": -0.44234425,
+      "stability": 0.15217313,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002974771",
+      "composition_id": "Sn2 Y2",
+      "delta_e": -0.5221537,
+      "stability": 0.1564761,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062256",
+      "composition_id": "",
+      "delta_e": -0.4611333,
+      "stability": 0.15866286,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001203884",
+      "composition_id": "Y2",
+      "delta_e": -0.43095654,
+      "stability": 0.16356084,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062271",
+      "composition_id": "",
+      "delta_e": -0.45307362,
+      "stability": 0.16672254,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002973972",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.21587117,
+      "stability": 0.17887205,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062272",
+      "composition_id": "",
+      "delta_e": -0.4210716,
+      "stability": 0.19872457,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062260",
+      "composition_id": "",
+      "delta_e": -0.41735128,
+      "stability": 0.20244487,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062258",
+      "composition_id": "",
+      "delta_e": -0.40849054,
+      "stability": 0.21130563,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062257",
+      "composition_id": "",
+      "delta_e": -0.39445606,
+      "stability": 0.22534011,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062270",
+      "composition_id": "",
+      "delta_e": -0.39070922,
+      "stability": 0.22908695,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002268904",
+      "composition_id": "Sn6",
+      "delta_e": -0.01061331,
+      "stability": 0.22916092,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062264",
+      "composition_id": "",
+      "delta_e": -0.38628545,
+      "stability": 0.23351072,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002919520",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.2570926,
+      "stability": 0.24687184,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003744451",
+      "composition_id": "Y4",
+      "delta_e": -0.1624244,
+      "stability": 0.26895407,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003322722",
+      "composition_id": "Cu2 Sn2 Y7",
+      "delta_e": -0.18510337,
+      "stability": 0.28549132,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062261",
+      "composition_id": "",
+      "delta_e": -0.32736644,
+      "stability": 0.29242975,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002919521",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.18549359,
+      "stability": 0.31847084,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002973971",
+      "composition_id": "Cu2 Sn2",
+      "delta_e": -0.06650353,
+      "stability": 0.32823968,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062281",
+      "composition_id": "",
+      "delta_e": -0.2780165,
+      "stability": 0.34177965,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002465195",
+      "composition_id": "Y3",
+      "delta_e": -0.17101195,
+      "stability": 0.3466422,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002824001",
+      "composition_id": "Sn2",
+      "delta_e": -0.1099902,
+      "stability": 0.36953357,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002974772",
+      "composition_id": "Sn2 Y2",
+      "delta_e": -0.30488902,
+      "stability": 0.3737408,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002669275",
+      "composition_id": "Sn2",
+      "delta_e": -0.09982817,
+      "stability": 0.3796956,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002973928",
+      "composition_id": "Cu2 Y2",
+      "delta_e": -0.11657962,
+      "stability": 0.3873848,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062276",
+      "composition_id": "",
+      "delta_e": -0.22275372,
+      "stability": 0.39704245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062278",
+      "composition_id": "",
+      "delta_e": -0.2181124,
+      "stability": 0.40168378,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002465252",
+      "composition_id": "Sn3",
+      "delta_e": 0.029744016,
+      "stability": 0.4133729,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002822697",
+      "composition_id": "Cu2",
+      "delta_e": -0.036349766,
+      "stability": 0.42849734,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001019016",
+      "composition_id": "",
+      "delta_e": -0.17347597,
+      "stability": 0.4463202,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062273",
+      "composition_id": "",
+      "delta_e": -0.08092521,
+      "stability": 0.53887093,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005402090",
+      "composition_id": "Cu3 Sn3",
+      "delta_e": 0.26484856,
+      "stability": 0.55476093,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001998740",
+      "composition_id": "Sn2",
+      "delta_e": 0.12098528,
+      "stability": 0.60050905,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002462626",
+      "composition_id": "Cu3",
+      "delta_e": 0.32573155,
+      "stability": 0.69760925,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003062279",
+      "composition_id": "",
+      "delta_e": 0.11711529,
+      "stability": 0.7369115,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002823973",
+      "composition_id": "Y2",
+      "delta_e": 0.22733614,
+      "stability": 0.8218535,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002465194",
+      "composition_id": "Y3",
+      "delta_e": 0.5110435,
+      "stability": 1.0286976,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005260918",
+      "composition_id": "Cu3 Sn3 Y2",
+      "delta_e": 0.5706416,
+      "stability": 1.0571117,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002465251",
+      "composition_id": "Sn3",
+      "delta_e": 0.87643117,
+      "stability": 1.2600601,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002462627",
+      "composition_id": "Cu3",
+      "delta_e": 1.0376366,
+      "stability": 1.4095144,
+      "icsd": false
+    }
+  ]
+}

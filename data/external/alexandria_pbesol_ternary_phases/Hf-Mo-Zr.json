@@ -1,0 +1,31 @@
+{
+  "space": "Hf-Mo-Zr",
+  "elements": [
+    "Hf",
+    "Mo",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003202943",
+      "composition_id": "Mo4",
+      "delta_e": -0.14511159,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002753637",
+      "composition_id": "Mo2",
+      "delta_e": 0.047710605,
+      "stability": 0.16924012,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002753662",
+      "composition_id": "Hf2",
+      "delta_e": 0.102657124,
+      "stability": 0.17429581,
+      "icsd": false
+    }
+  ]
+}

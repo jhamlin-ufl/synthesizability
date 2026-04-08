@@ -1,0 +1,37 @@
+{
+  "space": "Fe-Gd",
+  "elements": [
+    "Fe",
+    "Gd"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003200157",
+      "composition_id": "Fe2",
+      "delta_e": -0.077069946,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003202910",
+      "composition_id": "Fe5",
+      "delta_e": -0.01696576,
+      "stability": 0.021569211,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002212827",
+      "composition_id": "",
+      "delta_e": 0.042512607,
+      "stability": 0.100315064,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002274735",
+      "composition_id": "",
+      "delta_e": 0.2070819,
+      "stability": 0.26488435,
+      "icsd": false
+    }
+  ]
+}

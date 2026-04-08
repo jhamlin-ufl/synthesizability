@@ -1,0 +1,933 @@
+{
+  "space": "Hf-Zr",
+  "elements": [
+    "Hf",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002247143",
+      "composition_id": "Zr2",
+      "delta_e": -0.02023969,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008200007",
+      "composition_id": "Zr5",
+      "delta_e": -0.010020472,
+      "stability": 9.9373334e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008146625",
+      "composition_id": "Hf3",
+      "delta_e": -0.00320382,
+      "stability": 0.0043860637,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001283535",
+      "composition_id": "Hf3",
+      "delta_e": -0.002624825,
+      "stability": 0.0049650585,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001829379",
+      "composition_id": "Hf3",
+      "delta_e": -0.0026135175,
+      "stability": 0.004976366,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005545764",
+      "composition_id": "Zr5",
+      "delta_e": -0.0050607617,
+      "stability": 0.0050590835,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005542573",
+      "composition_id": "Hf3",
+      "delta_e": -0.001284625,
+      "stability": 0.0063052587,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010125454",
+      "composition_id": "Hf5",
+      "delta_e": 0.0014886833,
+      "stability": 0.006548606,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002194346",
+      "composition_id": "Hf5",
+      "delta_e": 0.0030716434,
+      "stability": 0.0081315655,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290435",
+      "composition_id": "Hf5 Zr3",
+      "delta_e": -0.0022599087,
+      "stability": 0.009124917,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005540700",
+      "composition_id": "Hf2",
+      "delta_e": -0.0005367483,
+      "stability": 0.009583097,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003287209",
+      "composition_id": "Hf3 Zr2",
+      "delta_e": -0.002383867,
+      "stability": 0.009759947,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001417416",
+      "composition_id": "",
+      "delta_e": -0.0053007677,
+      "stability": 0.009879,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008150317",
+      "composition_id": "Zr5",
+      "delta_e": 0.0022449584,
+      "stability": 0.012364803,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002247203",
+      "composition_id": "Zr5",
+      "delta_e": 0.0031188,
+      "stability": 0.013238645,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533031",
+      "composition_id": "Hf3 Zr13",
+      "delta_e": 0.0018598819,
+      "stability": 0.013244707,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007831973",
+      "composition_id": "Hf3 Zr13",
+      "delta_e": 0.0018693181,
+      "stability": 0.013254143,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533614",
+      "composition_id": "Hf4 Zr3",
+      "delta_e": 0.00027295572,
+      "stability": 0.013284185,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008123339",
+      "composition_id": "Zr4",
+      "delta_e": 0.001196862,
+      "stability": 0.013340676,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002033806",
+      "composition_id": "",
+      "delta_e": -0.00172132,
+      "stability": 0.0134584475,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003260856",
+      "composition_id": "Zr3",
+      "delta_e": -0.0014815625,
+      "stability": 0.013698205,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001283534",
+      "composition_id": "Zr3",
+      "delta_e": -0.000952365,
+      "stability": 0.014227402,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001829380",
+      "composition_id": "Zr3",
+      "delta_e": -0.000923075,
+      "stability": 0.0142566925,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293534",
+      "composition_id": "",
+      "delta_e": -0.0002004825,
+      "stability": 0.014979285,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008039112",
+      "composition_id": "",
+      "delta_e": 0.0003600825,
+      "stability": 0.01553985,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008130870",
+      "composition_id": "Zr3",
+      "delta_e": 0.00041019375,
+      "stability": 0.015589961,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003287018",
+      "composition_id": "Hf2 Zr3",
+      "delta_e": -0.002276178,
+      "stability": 0.015939543,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002033817",
+      "composition_id": "",
+      "delta_e": 0.0013295325,
+      "stability": 0.0165093,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009614346",
+      "composition_id": "Hf4 Zr7",
+      "delta_e": -0.0025022253,
+      "stability": 0.016817478,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290436",
+      "composition_id": "Hf3 Zr5",
+      "delta_e": -0.001357405,
+      "stability": 0.017617304,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003294774",
+      "composition_id": "Zr2",
+      "delta_e": -0.0017168233,
+      "stability": 0.018522866,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009401610",
+      "composition_id": "Hf3 Zr5",
+      "delta_e": -0.0003883925,
+      "stability": 0.018586317,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002033809",
+      "composition_id": "",
+      "delta_e": 0.007854535,
+      "stability": 0.023034303,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005548070",
+      "composition_id": "Zr7",
+      "delta_e": 0.01921919,
+      "stability": 0.026809074,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005537001",
+      "composition_id": "Hf5 Zr4",
+      "delta_e": 0.014695792,
+      "stability": 0.02818892,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003286163",
+      "composition_id": "Hf2 Zr13",
+      "delta_e": 0.020360973,
+      "stability": 0.02845685,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005532350",
+      "composition_id": "Hf2 Zr7",
+      "delta_e": 0.023765575,
+      "stability": 0.037258703,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005544131",
+      "composition_id": "Zr4",
+      "delta_e": 0.030079203,
+      "stability": 0.042223018,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009924643",
+      "composition_id": "Hf2 Zr7",
+      "delta_e": 0.030878842,
+      "stability": 0.044371966,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005548069",
+      "composition_id": "Hf7",
+      "delta_e": 0.044009954,
+      "stability": 0.047804896,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003300615",
+      "composition_id": "Zr8",
+      "delta_e": 0.0441207,
+      "stability": 0.050867263,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009492996",
+      "composition_id": "Hf4 Zr7",
+      "delta_e": 0.033474293,
+      "stability": 0.052794,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005535918",
+      "composition_id": "Hf7 Zr3",
+      "delta_e": 0.04528784,
+      "stability": 0.0543957,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008181496",
+      "composition_id": "Zr5",
+      "delta_e": 0.044580217,
+      "stability": 0.05470006,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007778644",
+      "composition_id": "Hf3 Zr13",
+      "delta_e": 0.044129863,
+      "stability": 0.05551469,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005540799",
+      "composition_id": "Zr2",
+      "delta_e": 0.0360658,
+      "stability": 0.056305487,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001194235",
+      "composition_id": "Zr5",
+      "delta_e": 0.046267785,
+      "stability": 0.056387633,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001190885",
+      "composition_id": "Zr3",
+      "delta_e": 0.04444639,
+      "stability": 0.05962616,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008069032",
+      "composition_id": "Zr4",
+      "delta_e": 0.047483623,
+      "stability": 0.05962744,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010122993",
+      "composition_id": "Hf2 Zr5",
+      "delta_e": 0.0457442,
+      "stability": 0.06309251,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009838918",
+      "composition_id": "Hf2 Zr5",
+      "delta_e": 0.04687475,
+      "stability": 0.06422306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007800467",
+      "composition_id": "Hf3 Zr8",
+      "delta_e": 0.050892923,
+      "stability": 0.06745267,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005548608",
+      "composition_id": "Hf8",
+      "delta_e": 0.06435194,
+      "stability": 0.06772523,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001281126",
+      "composition_id": "Zr3",
+      "delta_e": 0.053258937,
+      "stability": 0.0684387,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001851062",
+      "composition_id": "Hf2",
+      "delta_e": 0.058357168,
+      "stability": 0.06847701,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010215400",
+      "composition_id": "Zr2",
+      "delta_e": 0.048450634,
+      "stability": 0.06869032,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003292445",
+      "composition_id": "Hf5 Zr4",
+      "delta_e": 0.05608685,
+      "stability": 0.06957998,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005535826",
+      "composition_id": "Hf3 Zr7",
+      "delta_e": 0.051845063,
+      "stability": 0.07006078,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001194234",
+      "composition_id": "Hf5",
+      "delta_e": 0.06502,
+      "stability": 0.07007992,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001851061",
+      "composition_id": "Zr2",
+      "delta_e": 0.049908534,
+      "stability": 0.07014822,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003292471",
+      "composition_id": "Hf4 Zr5",
+      "delta_e": 0.053476244,
+      "stability": 0.07034265,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009452931",
+      "composition_id": "Hf3 Zr5",
+      "delta_e": 0.051560685,
+      "stability": 0.0705354,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007959228",
+      "composition_id": "Hf5 Zr3",
+      "delta_e": 0.059152894,
+      "stability": 0.070537716,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533760",
+      "composition_id": "Hf3 Zr4",
+      "delta_e": 0.05325687,
+      "stability": 0.07060517,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005538319",
+      "composition_id": "Hf5 Zr7",
+      "delta_e": 0.052926317,
+      "stability": 0.07063605,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001190886",
+      "composition_id": "Hf3",
+      "delta_e": 0.06328377,
+      "stability": 0.070873655,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010190601",
+      "composition_id": "Hf3",
+      "delta_e": 0.06393539,
+      "stability": 0.071525276,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005536165",
+      "composition_id": "Hf8 Zr3",
+      "delta_e": 0.06333705,
+      "stability": 0.071616925,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005544132",
+      "composition_id": "Hf4",
+      "delta_e": 0.06556007,
+      "stability": 0.071631975,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003295022",
+      "composition_id": "Hf2",
+      "delta_e": 0.06204455,
+      "stability": 0.072164394,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290016",
+      "composition_id": "Hf4 Zr3",
+      "delta_e": 0.059652686,
+      "stability": 0.07266391,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005534689",
+      "composition_id": "Hf5 Zr3",
+      "delta_e": 0.061352745,
+      "stability": 0.07273757,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007965158",
+      "composition_id": "Hf3 Zr5",
+      "delta_e": 0.053776234,
+      "stability": 0.07275094,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005533032",
+      "composition_id": "Hf13 Zr3",
+      "delta_e": 0.06712962,
+      "stability": 0.07282203,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005545637",
+      "composition_id": "Hf5",
+      "delta_e": 0.068186864,
+      "stability": 0.07324679,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001281127",
+      "composition_id": "Hf3",
+      "delta_e": 0.065746956,
+      "stability": 0.07333684,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008055921",
+      "composition_id": "Hf3",
+      "delta_e": 0.06850321,
+      "stability": 0.07609309,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451101",
+      "composition_id": "",
+      "delta_e": 0.061379228,
+      "stability": 0.07655899,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451102",
+      "composition_id": "",
+      "delta_e": 0.0618223,
+      "stability": 0.07700207,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002194345",
+      "composition_id": "Hf2",
+      "delta_e": 0.068202026,
+      "stability": 0.078321874,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008026084",
+      "composition_id": "Zr3",
+      "delta_e": 0.06582695,
+      "stability": 0.08100672,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073025339",
+      "composition_id": "Hf4 Zr15",
+      "delta_e": 0.08626833,
+      "stability": 0.09905129,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003288891",
+      "composition_id": "Hf2 Zr5",
+      "delta_e": 0.08537068,
+      "stability": 0.102718994,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008044984",
+      "composition_id": "Zr2",
+      "delta_e": 0.08863255,
+      "stability": 0.108872235,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010176025",
+      "composition_id": "Zr4",
+      "delta_e": 0.098308764,
+      "stability": 0.11045258,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005537331",
+      "composition_id": "Hf5 Zr6",
+      "delta_e": 0.09559983,
+      "stability": 0.11215958,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003297585",
+      "composition_id": "Hf4",
+      "delta_e": 0.10770029,
+      "stability": 0.1137722,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073026145",
+      "composition_id": "Hf15 Zr4",
+      "delta_e": 0.10839879,
+      "stability": 0.11479027,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001416299",
+      "composition_id": "Zr3",
+      "delta_e": 0.10192574,
+      "stability": 0.11710551,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293027",
+      "composition_id": "Hf5 Zr6",
+      "delta_e": 0.100678556,
+      "stability": 0.117238306,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003288892",
+      "composition_id": "Hf5 Zr2",
+      "delta_e": 0.10939401,
+      "stability": 0.11806816,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005529992",
+      "composition_id": "Hf2 Zr3",
+      "delta_e": 0.10174421,
+      "stability": 0.119959936,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005529991",
+      "composition_id": "Hf3 Zr2",
+      "delta_e": 0.11376624,
+      "stability": 0.12591006,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293028",
+      "composition_id": "Hf6 Zr5",
+      "delta_e": 0.11324034,
+      "stability": 0.12704012,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003300319",
+      "composition_id": "Hf8",
+      "delta_e": 0.13539326,
+      "stability": 0.13876654,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007897398",
+      "composition_id": "Hf7",
+      "delta_e": 0.14132327,
+      "stability": 0.14511822,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001191826",
+      "composition_id": "",
+      "delta_e": 0.13130693,
+      "stability": 0.1464867,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005532859",
+      "composition_id": "Hf11 Zr3",
+      "delta_e": 0.14276734,
+      "stability": 0.14927295,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005536164",
+      "composition_id": "Hf3 Zr8",
+      "delta_e": 0.1331374,
+      "stability": 0.14969714,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001416298",
+      "composition_id": "Hf3",
+      "delta_e": 0.1498509,
+      "stability": 0.1574408,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003290160",
+      "composition_id": "Hf3 Zr4",
+      "delta_e": 0.14032288,
+      "stability": 0.15767118,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003291488",
+      "composition_id": "Hf3 Zr7",
+      "delta_e": 0.17683414,
+      "stability": 0.19504985,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003297586",
+      "composition_id": "Zr4",
+      "delta_e": 0.18356813,
+      "stability": 0.19571194,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003291487",
+      "composition_id": "Hf7 Zr3",
+      "delta_e": 0.21080689,
+      "stability": 0.21991475,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003293338",
+      "composition_id": "Hf5 Zr7",
+      "delta_e": 0.21955328,
+      "stability": 0.23726301,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005531767",
+      "composition_id": "Hf5 Zr2",
+      "delta_e": 0.31093726,
+      "stability": 0.3196114,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001631418",
+      "composition_id": "Hf2",
+      "delta_e": 0.313609,
+      "stability": 0.32372886,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451098",
+      "composition_id": "",
+      "delta_e": 0.31982034,
+      "stability": 0.3350001,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001631417",
+      "composition_id": "Zr2",
+      "delta_e": 0.32151273,
+      "stability": 0.3417524,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451096",
+      "composition_id": "",
+      "delta_e": 0.33765233,
+      "stability": 0.3528321,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451095",
+      "composition_id": "",
+      "delta_e": 0.3426025,
+      "stability": 0.35778227,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451099",
+      "composition_id": "",
+      "delta_e": 0.41604862,
+      "stability": 0.43122837,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000117611",
+      "composition_id": "Hf4 Zr5",
+      "delta_e": 0.59419376,
+      "stability": 0.6110602,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000115633",
+      "composition_id": "Hf3 Zr4",
+      "delta_e": 0.6102811,
+      "stability": 0.6276294,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451097",
+      "composition_id": "",
+      "delta_e": 0.641183,
+      "stability": 0.6563628,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000126121",
+      "composition_id": "Hf2",
+      "delta_e": 0.7233791,
+      "stability": 0.73349893,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000116112",
+      "composition_id": "Hf5 Zr3",
+      "delta_e": 0.8518816,
+      "stability": 0.86326647,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000128289",
+      "composition_id": "Hf3",
+      "delta_e": 0.8850241,
+      "stability": 0.892614,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451104",
+      "composition_id": "",
+      "delta_e": 0.95109254,
+      "stability": 0.9662723,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006187499",
+      "composition_id": "Zr4",
+      "delta_e": 1.0368723,
+      "stability": 1.0490161,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006187498",
+      "composition_id": "Hf4",
+      "delta_e": 1.2048199,
+      "stability": 1.2108917,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451105",
+      "composition_id": "",
+      "delta_e": 1.6165416,
+      "stability": 1.6317214,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000126096",
+      "composition_id": "Zr2",
+      "delta_e": 1.6867039,
+      "stability": 1.7069436,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451094",
+      "composition_id": "",
+      "delta_e": 1.9366555,
+      "stability": 1.9518354,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000118994",
+      "composition_id": "Hf5 Zr6",
+      "delta_e": 1.9541504,
+      "stability": 1.9707102,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000113883",
+      "composition_id": "Hf2 Zr3",
+      "delta_e": 2.392646,
+      "stability": 2.4108617,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000123015",
+      "composition_id": "",
+      "delta_e": 2.4609742,
+      "stability": 2.476154,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000113862",
+      "composition_id": "Hf3 Zr2",
+      "delta_e": 2.4760172,
+      "stability": 2.4881608,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451106",
+      "composition_id": "",
+      "delta_e": 2.5168874,
+      "stability": 2.532067,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000115630",
+      "composition_id": "Hf4 Zr3",
+      "delta_e": 2.570837,
+      "stability": 2.5838482,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004451103",
+      "composition_id": "",
+      "delta_e": 2.6056006,
+      "stability": 2.6207802,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000128265",
+      "composition_id": "Zr3",
+      "delta_e": 3.6364956,
+      "stability": 3.6516752,
+      "icsd": false
+    }
+  ]
+}

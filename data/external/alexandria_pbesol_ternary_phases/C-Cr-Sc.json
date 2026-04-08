@@ -1,0 +1,31 @@
+{
+  "space": "C-Cr-Sc",
+  "elements": [
+    "C",
+    "Cr",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003232790",
+      "composition_id": "C3 Sc2",
+      "delta_e": -0.4868017,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002202008",
+      "composition_id": "C2",
+      "delta_e": -0.43244436,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002202186",
+      "composition_id": "C4 Sc3",
+      "delta_e": -0.47294155,
+      "stability": 0.016569726,
+      "icsd": false
+    }
+  ]
+}

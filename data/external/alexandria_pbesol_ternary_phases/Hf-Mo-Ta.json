@@ -1,0 +1,24 @@
+{
+  "space": "Hf-Mo-Ta",
+  "elements": [
+    "Hf",
+    "Mo",
+    "Ta"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002702767",
+      "composition_id": "Mo2",
+      "delta_e": -0.08267382,
+      "stability": 0.07218498,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002531200",
+      "composition_id": "Ta3",
+      "delta_e": 2.2628078,
+      "stability": 2.3509028,
+      "icsd": false
+    }
+  ]
+}

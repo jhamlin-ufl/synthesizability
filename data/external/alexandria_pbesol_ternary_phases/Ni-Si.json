@@ -1,0 +1,345 @@
+{
+  "space": "Ni-Si",
+  "elements": [
+    "Ni",
+    "Si"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003160947",
+      "composition_id": "Si2",
+      "delta_e": -0.45259723,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003263343",
+      "composition_id": "",
+      "delta_e": -0.59085494,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003211178",
+      "composition_id": "Ni2",
+      "delta_e": -0.6272374,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001830297",
+      "composition_id": "Ni3",
+      "delta_e": -0.53137124,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003248178",
+      "composition_id": "Ni3 Si2",
+      "delta_e": -0.60953945,
+      "stability": 0.003144935,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187786",
+      "composition_id": "Ni2",
+      "delta_e": -0.6220101,
+      "stability": 0.00522724,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003249112",
+      "composition_id": "Ni31 Si12",
+      "delta_e": -0.55534214,
+      "stability": 0.009470749,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002186799",
+      "composition_id": "Ni2 Si3",
+      "delta_e": -0.49041227,
+      "stability": 0.017488034,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003268392",
+      "composition_id": "Ni8",
+      "delta_e": -0.21790232,
+      "stability": 0.018262656,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003242175",
+      "composition_id": "Ni25 Si9",
+      "delta_e": -0.5263525,
+      "stability": 0.02193626,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003204005",
+      "composition_id": "Ni5",
+      "delta_e": -0.33191884,
+      "stability": 0.022328623,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003204004",
+      "composition_id": "Ni5",
+      "delta_e": -0.32618293,
+      "stability": 0.028064547,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187808",
+      "composition_id": "Ni3",
+      "delta_e": -0.5002166,
+      "stability": 0.031154582,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002186334",
+      "composition_id": "Si2",
+      "delta_e": -0.41792837,
+      "stability": 0.034668863,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003262748",
+      "composition_id": "Ni3",
+      "delta_e": -0.49522665,
+      "stability": 0.03614455,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002186977",
+      "composition_id": "Ni3 Si4",
+      "delta_e": -0.48826298,
+      "stability": 0.04333865,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002022743",
+      "composition_id": "",
+      "delta_e": -0.54670715,
+      "stability": 0.04414778,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003193745",
+      "composition_id": "Ni4",
+      "delta_e": -0.37939435,
+      "stability": 0.045702606,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002022512",
+      "composition_id": "Ni2",
+      "delta_e": -0.58086854,
+      "stability": 0.046368804,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003261926",
+      "composition_id": "Ni5 Si3",
+      "delta_e": -0.5674687,
+      "stability": 0.050673075,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187806",
+      "composition_id": "Ni3",
+      "delta_e": -0.4803437,
+      "stability": 0.05102752,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002242990",
+      "composition_id": "Ni3 Si4",
+      "delta_e": -0.48012114,
+      "stability": 0.051480502,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003262749",
+      "composition_id": "Ni3",
+      "delta_e": -0.47940564,
+      "stability": 0.051965553,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003218439",
+      "composition_id": "Ni5 Si3",
+      "delta_e": -0.5658947,
+      "stability": 0.05224702,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003218438",
+      "composition_id": "Ni5 Si3",
+      "delta_e": -0.5486306,
+      "stability": 0.06951118,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002242040",
+      "composition_id": "Ni2",
+      "delta_e": -0.5510579,
+      "stability": 0.07617947,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002356741",
+      "composition_id": "Si3",
+      "delta_e": -0.26191115,
+      "stability": 0.07753678,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003200233",
+      "composition_id": "Ni2",
+      "delta_e": -0.53895026,
+      "stability": 0.0882871,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187784",
+      "composition_id": "",
+      "delta_e": -0.5025606,
+      "stability": 0.08829432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198332",
+      "composition_id": "Ni5",
+      "delta_e": -0.2641922,
+      "stability": 0.09005528,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002356480",
+      "composition_id": "Ni3 Si2",
+      "delta_e": -0.5198497,
+      "stability": 0.09283465,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187810",
+      "composition_id": "Ni3",
+      "delta_e": -0.43841898,
+      "stability": 0.09295223,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003198331",
+      "composition_id": "Ni5",
+      "delta_e": -0.2584051,
+      "stability": 0.095842384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002242039",
+      "composition_id": "",
+      "delta_e": -0.48660752,
+      "stability": 0.104247406,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005450630",
+      "composition_id": "Ni2",
+      "delta_e": -0.52141136,
+      "stability": 0.10582602,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005459579",
+      "composition_id": "Si2",
+      "delta_e": -0.34004667,
+      "stability": 0.11255055,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003294210",
+      "composition_id": "",
+      "delta_e": -0.46084446,
+      "stability": 0.13001047,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003820770",
+      "composition_id": "Ni3",
+      "delta_e": -0.3953521,
+      "stability": 0.1360191,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004004279",
+      "composition_id": "Ni3",
+      "delta_e": -0.39366296,
+      "stability": 0.13770826,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005408103",
+      "composition_id": "Ni3 Si2",
+      "delta_e": -0.4617388,
+      "stability": 0.1509456,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002022710",
+      "composition_id": "",
+      "delta_e": -0.3827841,
+      "stability": 0.20807083,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005450629",
+      "composition_id": "Si2",
+      "delta_e": -0.1705908,
+      "stability": 0.2820064,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005499728",
+      "composition_id": "Si3",
+      "delta_e": 0.025316516,
+      "stability": 0.36476442,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002186332",
+      "composition_id": "Si2",
+      "delta_e": -0.08032581,
+      "stability": 0.37227142,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003820864",
+      "composition_id": "Si3",
+      "delta_e": 0.05958197,
+      "stability": 0.39902988,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003820783",
+      "composition_id": "Si3",
+      "delta_e": 0.096964024,
+      "stability": 0.43641195,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004225412",
+      "composition_id": "",
+      "delta_e": -0.07508047,
+      "stability": 0.5157744,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005488489",
+      "composition_id": "Si3",
+      "delta_e": 0.19056833,
+      "stability": 0.53001624,
+      "icsd": false
+    }
+  ]
+}

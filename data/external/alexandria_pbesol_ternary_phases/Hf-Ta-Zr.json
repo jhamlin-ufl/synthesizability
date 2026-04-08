@@ -1,0 +1,31 @@
+{
+  "space": "Hf-Ta-Zr",
+  "elements": [
+    "Hf",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002753073",
+      "composition_id": "Zr2",
+      "delta_e": 0.15689006,
+      "stability": 0.17863794,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002753517",
+      "composition_id": "Ta2",
+      "delta_e": 0.19230896,
+      "stability": 0.20318289,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002630176",
+      "composition_id": "Ta3",
+      "delta_e": 1.6624788,
+      "stability": 1.671178,
+      "icsd": false
+    }
+  ]
+}

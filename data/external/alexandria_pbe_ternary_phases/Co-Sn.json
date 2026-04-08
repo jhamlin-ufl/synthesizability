@@ -1,0 +1,597 @@
+{
+  "space": "Co-Sn",
+  "elements": [
+    "Co",
+    "Sn"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003201710",
+      "composition_id": "",
+      "delta_e": -0.104957156,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144720",
+      "composition_id": "Sn2",
+      "delta_e": -0.07627068,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003219614",
+      "composition_id": "Sn3",
+      "delta_e": -0.05773298,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003241045",
+      "composition_id": "Sn3",
+      "delta_e": -0.05725992,
+      "stability": 0.00047305968,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144721",
+      "composition_id": "Sn2",
+      "delta_e": -0.074689224,
+      "stability": 0.0015814574,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003297894",
+      "composition_id": "Sn4",
+      "delta_e": -0.042259272,
+      "stability": 0.0039271126,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144728",
+      "composition_id": "Sn4",
+      "delta_e": -0.04052845,
+      "stability": 0.0056579327,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003195287",
+      "composition_id": "Sn2",
+      "delta_e": -0.067057125,
+      "stability": 0.009213555,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144132",
+      "composition_id": "Co5 Sn7",
+      "delta_e": -0.07806854,
+      "stability": 0.012545378,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010128026",
+      "composition_id": "Co4 Sn5",
+      "delta_e": -0.07409308,
+      "stability": 0.021301918,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010177026",
+      "composition_id": "Sn4",
+      "delta_e": -0.022704933,
+      "stability": 0.023481451,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005535587",
+      "composition_id": "Co3 Sn7",
+      "delta_e": -0.04331842,
+      "stability": 0.025537178,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010144927",
+      "composition_id": "Co5 Sn7",
+      "delta_e": -0.061814826,
+      "stability": 0.028799092,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144715",
+      "composition_id": "",
+      "delta_e": -0.067076065,
+      "stability": 0.037881095,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144082",
+      "composition_id": "Co3 Sn4",
+      "delta_e": -0.054199517,
+      "stability": 0.038463436,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002370357",
+      "composition_id": "Sn8",
+      "delta_e": 0.019588606,
+      "stability": 0.045247708,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003285767",
+      "composition_id": "Co2 Sn13",
+      "delta_e": 0.015536284,
+      "stability": 0.046327207,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002333183",
+      "composition_id": "Sn2",
+      "delta_e": -0.015216331,
+      "stability": 0.06105435,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002370293",
+      "composition_id": "Co8",
+      "delta_e": 0.037925556,
+      "stability": 0.061249368,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002333182",
+      "composition_id": "Sn2",
+      "delta_e": -0.014369767,
+      "stability": 0.06190091,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003288136",
+      "composition_id": "Co2 Sn3",
+      "delta_e": -0.024874968,
+      "stability": 0.0628703,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002143894",
+      "composition_id": "Co2 Sn3",
+      "delta_e": -0.023188626,
+      "stability": 0.06455664,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009102941",
+      "composition_id": "Co2 Sn17",
+      "delta_e": 0.04114442,
+      "stability": 0.06545304,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005250145",
+      "composition_id": "Co3 Sn2",
+      "delta_e": -0.01788155,
+      "stability": 0.06608418,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005543659",
+      "composition_id": "Sn3",
+      "delta_e": 0.010191628,
+      "stability": 0.06792461,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003288326",
+      "composition_id": "Co2 Sn5",
+      "delta_e": 0.01188911,
+      "stability": 0.07756682,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm009516191",
+      "composition_id": "Co2 Sn7",
+      "delta_e": 0.026721442,
+      "stability": 0.078039646,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002264778",
+      "composition_id": "Co3 Sn4",
+      "delta_e": -0.012073562,
+      "stability": 0.08058939,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144716",
+      "composition_id": "",
+      "delta_e": -0.014291554,
+      "stability": 0.0906656,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010180280",
+      "composition_id": "Sn5",
+      "delta_e": 0.056815892,
+      "stability": 0.09530455,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001192950",
+      "composition_id": "Co5",
+      "delta_e": 0.06349551,
+      "stability": 0.09848123,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm010192532",
+      "composition_id": "Sn5",
+      "delta_e": 0.063561775,
+      "stability": 0.10205042,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002333031",
+      "composition_id": "Co5",
+      "delta_e": 0.067634955,
+      "stability": 0.102620676,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002205834",
+      "composition_id": "Co5",
+      "delta_e": 0.09102129,
+      "stability": 0.12600702,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005220078",
+      "composition_id": "Co3 Sn2",
+      "delta_e": 0.04662373,
+      "stability": 0.13058946,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144078",
+      "composition_id": "Co3",
+      "delta_e": 0.08277722,
+      "stability": 0.1352558,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003296733",
+      "composition_id": "Sn3",
+      "delta_e": 0.07874678,
+      "stability": 0.13647977,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144079",
+      "composition_id": "Co3",
+      "delta_e": 0.09114738,
+      "stability": 0.14362596,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002370019",
+      "composition_id": "",
+      "delta_e": 0.04191271,
+      "stability": 0.14686987,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002333458",
+      "composition_id": "Co5 Sn6",
+      "delta_e": 0.05300236,
+      "stability": 0.15013593,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144717",
+      "composition_id": "",
+      "delta_e": 0.048341952,
+      "stability": 0.15329911,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144081",
+      "composition_id": "Co3",
+      "delta_e": 0.10127586,
+      "stability": 0.15375444,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006183377",
+      "composition_id": "Sn4",
+      "delta_e": 0.11886962,
+      "stability": 0.165056,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001190406",
+      "composition_id": "Co3",
+      "delta_e": 0.119070046,
+      "stability": 0.17154862,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002143891",
+      "composition_id": "Co2",
+      "delta_e": 0.106169336,
+      "stability": 0.17614077,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001282118",
+      "composition_id": "Sn3",
+      "delta_e": 0.11862499,
+      "stability": 0.17635797,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446703",
+      "composition_id": "",
+      "delta_e": 0.082376935,
+      "stability": 0.18733409,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm073025099",
+      "composition_id": "Co15 Sn4",
+      "delta_e": 0.1485634,
+      "stability": 0.19275588,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144724",
+      "composition_id": "Sn3",
+      "delta_e": 0.14608581,
+      "stability": 0.20381878,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005541744",
+      "composition_id": "Sn2",
+      "delta_e": 0.12800303,
+      "stability": 0.2042737,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005439538",
+      "composition_id": "Co2",
+      "delta_e": 0.14409637,
+      "stability": 0.21406782,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446702",
+      "composition_id": "",
+      "delta_e": 0.12046173,
+      "stability": 0.2254189,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446701",
+      "composition_id": "",
+      "delta_e": 0.12400923,
+      "stability": 0.22896639,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002057423",
+      "composition_id": "",
+      "delta_e": 0.13808826,
+      "stability": 0.2430454,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002144718",
+      "composition_id": "",
+      "delta_e": 0.14002939,
+      "stability": 0.24498653,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005236429",
+      "composition_id": "Co3",
+      "delta_e": 0.19379516,
+      "stability": 0.24627374,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001630690",
+      "composition_id": "Co2",
+      "delta_e": 0.18618567,
+      "stability": 0.2561571,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002016344",
+      "composition_id": "",
+      "delta_e": 0.15728728,
+      "stability": 0.26224446,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446697",
+      "composition_id": "",
+      "delta_e": 0.15960786,
+      "stability": 0.26456502,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446696",
+      "composition_id": "",
+      "delta_e": 0.16339508,
+      "stability": 0.26835224,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000126589",
+      "composition_id": "Sn3",
+      "delta_e": 0.23203748,
+      "stability": 0.28977045,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002016341",
+      "composition_id": "",
+      "delta_e": 0.19165386,
+      "stability": 0.296611,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000123736",
+      "composition_id": "Sn2",
+      "delta_e": 0.22876586,
+      "stability": 0.30503654,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011724140",
+      "composition_id": "Co2",
+      "delta_e": 0.24600537,
+      "stability": 0.3159768,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002016342",
+      "composition_id": "",
+      "delta_e": 0.23919553,
+      "stability": 0.3441527,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000128497",
+      "composition_id": "Sn4",
+      "delta_e": 0.34514332,
+      "stability": 0.3913297,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000121808",
+      "composition_id": "",
+      "delta_e": 0.2892753,
+      "stability": 0.39423245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm007930064",
+      "composition_id": "Co3 Sn5",
+      "delta_e": 0.32773978,
+      "stability": 0.41118208,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm008783524",
+      "composition_id": "Sn3",
+      "delta_e": 0.36218837,
+      "stability": 0.41992137,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446700",
+      "composition_id": "",
+      "delta_e": 0.32181075,
+      "stability": 0.42676792,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446698",
+      "composition_id": "",
+      "delta_e": 0.32513013,
+      "stability": 0.4300873,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446705",
+      "composition_id": "",
+      "delta_e": 0.34901944,
+      "stability": 0.4539766,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446699",
+      "composition_id": "",
+      "delta_e": 0.37217662,
+      "stability": 0.47713378,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446695",
+      "composition_id": "",
+      "delta_e": 0.3833202,
+      "stability": 0.48827738,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446706",
+      "composition_id": "",
+      "delta_e": 0.436535,
+      "stability": 0.54149216,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002143890",
+      "composition_id": "Co2",
+      "delta_e": 0.509352,
+      "stability": 0.5793235,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm011725016",
+      "composition_id": "Sn2",
+      "delta_e": 0.6437875,
+      "stability": 0.7200582,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000123704",
+      "composition_id": "Co2",
+      "delta_e": 0.7244163,
+      "stability": 0.79438776,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446707",
+      "composition_id": "",
+      "delta_e": 0.7285631,
+      "stability": 0.83352023,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004446704",
+      "composition_id": "",
+      "delta_e": 0.81367385,
+      "stability": 0.918631,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005405049",
+      "composition_id": "Co6",
+      "delta_e": 0.95936096,
+      "stability": 0.9893487,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000126568",
+      "composition_id": "Co3",
+      "delta_e": 1.068771,
+      "stability": 1.1212496,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm2000130013",
+      "composition_id": "Co6",
+      "delta_e": 1.406411,
+      "stability": 1.4363989,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006183378",
+      "composition_id": "Co4",
+      "delta_e": 1.7395751,
+      "stability": 1.781558,
+      "icsd": false
+    }
+  ]
+}

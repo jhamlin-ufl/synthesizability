@@ -1,0 +1,37 @@
+{
+  "space": "Hf-Mo",
+  "elements": [
+    "Hf",
+    "Mo"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003202017",
+      "composition_id": "Mo2",
+      "delta_e": -0.16203935,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003232112",
+      "composition_id": "Mo2",
+      "delta_e": -0.15307616,
+      "stability": 0.00896319,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002162887",
+      "composition_id": "Mo3",
+      "delta_e": -0.0696979,
+      "stability": 0.051831614,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002222987",
+      "composition_id": "Mo3",
+      "delta_e": -0.041917864,
+      "stability": 0.07961165,
+      "icsd": false
+    }
+  ]
+}

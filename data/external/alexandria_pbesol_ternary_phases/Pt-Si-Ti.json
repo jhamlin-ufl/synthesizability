@@ -1,0 +1,66 @@
+{
+  "space": "Pt-Si-Ti",
+  "elements": [
+    "Pt",
+    "Si",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002188413",
+      "composition_id": "",
+      "delta_e": -1.0731279,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003018967",
+      "composition_id": "Si2 Ti2",
+      "delta_e": -0.9604318,
+      "stability": 0.020638188,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002188415",
+      "composition_id": "Pt2",
+      "delta_e": -0.92760754,
+      "stability": 0.03386876,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002317852",
+      "composition_id": "",
+      "delta_e": -1.0261513,
+      "stability": 0.04697664,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003160233",
+      "composition_id": "",
+      "delta_e": -0.97971606,
+      "stability": 0.09341184,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002316504",
+      "composition_id": "Si3",
+      "delta_e": -0.35996518,
+      "stability": 0.33359665,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002242646",
+      "composition_id": "Ti2",
+      "delta_e": -0.60014623,
+      "stability": 0.33385733,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002602925",
+      "composition_id": "Si3",
+      "delta_e": 0.7167186,
+      "stability": 1.4102805,
+      "icsd": false
+    }
+  ]
+}

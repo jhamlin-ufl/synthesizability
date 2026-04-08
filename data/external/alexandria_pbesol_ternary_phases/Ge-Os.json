@@ -1,0 +1,30 @@
+{
+  "space": "Ge-Os",
+  "elements": [
+    "Ge",
+    "Os"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003202953",
+      "composition_id": "Ge2",
+      "delta_e": -0.14376166,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003246352",
+      "composition_id": "Ge3 Os2",
+      "delta_e": -0.12496344,
+      "stability": 0.0044220635,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003224516",
+      "composition_id": "Ge3 Os2",
+      "delta_e": -0.11482978,
+      "stability": 0.0145557225,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "space": "Mo-Nb-Ta",
+  "elements": [
+    "Mo",
+    "Nb",
+    "Ta"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002713570",
+      "composition_id": "Mo2",
+      "delta_e": -0.14575203,
+      "stability": 0.0014608675,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002713596",
+      "composition_id": "Ta2",
+      "delta_e": -0.078433424,
+      "stability": 0.03123514,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003160431",
+      "composition_id": "",
+      "delta_e": -0.05983089,
+      "stability": 0.065627836,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002551646",
+      "composition_id": "Ta3",
+      "delta_e": 1.506915,
+      "stability": 1.5950099,
+      "icsd": false
+    }
+  ]
+}

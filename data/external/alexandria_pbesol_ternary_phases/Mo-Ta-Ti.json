@@ -1,0 +1,45 @@
+{
+  "space": "Mo-Ta-Ti",
+  "elements": [
+    "Mo",
+    "Ta",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003195872",
+      "composition_id": "",
+      "delta_e": -0.115282334,
+      "stability": 0.010176386,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002745984",
+      "composition_id": "Mo2",
+      "delta_e": -0.11435206,
+      "stability": 0.026160315,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002191224",
+      "composition_id": "Ta2",
+      "delta_e": -0.044666592,
+      "stability": 0.06500197,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002744541",
+      "composition_id": "Ti2",
+      "delta_e": 0.059865635,
+      "stability": 0.15395968,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002612628",
+      "composition_id": "Ti3",
+      "delta_e": 1.449307,
+      "stability": 1.5245821,
+      "icsd": false
+    }
+  ]
+}

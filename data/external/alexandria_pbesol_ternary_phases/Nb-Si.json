@@ -1,0 +1,79 @@
+{
+  "space": "Nb-Si",
+  "elements": [
+    "Nb",
+    "Si"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002317374",
+      "composition_id": "Nb2",
+      "delta_e": -0.6325365,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002186323",
+      "composition_id": "Nb3 Si2",
+      "delta_e": -0.70500946,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003219430",
+      "composition_id": "Nb5 Si3",
+      "delta_e": -0.6973214,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267853",
+      "composition_id": "Si2",
+      "delta_e": -0.655291,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187751",
+      "composition_id": "Nb2",
+      "delta_e": -0.625558,
+      "stability": 0.0069784666,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003240051",
+      "composition_id": "Nb3",
+      "delta_e": -0.46721396,
+      "stability": 0.007188387,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002186321",
+      "composition_id": "Si2",
+      "delta_e": -0.6272988,
+      "stability": 0.027992189,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187750",
+      "composition_id": "",
+      "delta_e": -0.6370741,
+      "stability": 0.04929092,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003219434",
+      "composition_id": "Nb5 Si3",
+      "delta_e": -0.63298047,
+      "stability": 0.06434095,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002187749",
+      "composition_id": "",
+      "delta_e": -0.6206292,
+      "stability": 0.06573585,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "space": "Nb-Ta-Zr",
+  "elements": [
+    "Nb",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002753704",
+      "composition_id": "Nb2",
+      "delta_e": 0.06615851,
+      "stability": 0.06615851,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002753730",
+      "composition_id": "Ta2",
+      "delta_e": 0.107151255,
+      "stability": 0.107151255,
+      "icsd": false
+    }
+  ]
+}

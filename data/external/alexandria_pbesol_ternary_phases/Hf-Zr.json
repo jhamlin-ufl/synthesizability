@@ -1,0 +1,51 @@
+{
+  "space": "Hf-Zr",
+  "elements": [
+    "Hf",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002247143",
+      "composition_id": "Zr2",
+      "delta_e": -0.028997162,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002194346",
+      "composition_id": "Hf5",
+      "delta_e": 0.0022451475,
+      "stability": 0.009494438,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002247203",
+      "composition_id": "Zr5",
+      "delta_e": 0.007940451,
+      "stability": 0.02243903,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002033806",
+      "composition_id": "",
+      "delta_e": 0.0048682126,
+      "stability": 0.026616083,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003260856",
+      "composition_id": "Zr3",
+      "delta_e": 0.006551626,
+      "stability": 0.028299497,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002194345",
+      "composition_id": "Hf2",
+      "delta_e": 0.06566653,
+      "stability": 0.08016511,
+      "icsd": false
+    }
+  ]
+}

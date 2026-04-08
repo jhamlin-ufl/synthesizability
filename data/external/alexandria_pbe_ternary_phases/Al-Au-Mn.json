@@ -1,0 +1,626 @@
+{
+  "space": "Al-Au-Mn",
+  "elements": [
+    "Al",
+    "Au",
+    "Mn"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003494984",
+      "composition_id": "Al2 Au6",
+      "delta_e": -0.24852712,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005817072",
+      "composition_id": "Au3",
+      "delta_e": -0.22178681,
+      "stability": 0.0056019127,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002634309",
+      "composition_id": "Au2",
+      "delta_e": -0.24085274,
+      "stability": 0.007795139,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005744125",
+      "composition_id": "Au6 Mn2",
+      "delta_e": -0.16652946,
+      "stability": 0.008631369,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005766779",
+      "composition_id": "Au6",
+      "delta_e": -0.14634815,
+      "stability": 0.026210377,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005907042",
+      "composition_id": "Al2 Au8",
+      "delta_e": -0.18273637,
+      "stability": 0.032795575,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002134960",
+      "composition_id": "",
+      "delta_e": -0.24544166,
+      "stability": 0.034611166,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003531771",
+      "composition_id": "Au8 Mn2",
+      "delta_e": -0.11755105,
+      "stability": 0.03570821,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005804621",
+      "composition_id": "Au5",
+      "delta_e": -0.15420443,
+      "stability": 0.036955226,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003691727",
+      "composition_id": "Al6 Au12",
+      "delta_e": -0.26194173,
+      "stability": 0.0400443,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002250095",
+      "composition_id": "Au2",
+      "delta_e": -0.2035787,
+      "stability": 0.045069195,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005719747",
+      "composition_id": "Au3 Mn2",
+      "delta_e": -0.15043704,
+      "stability": 0.045244083,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005773814",
+      "composition_id": "Au14",
+      "delta_e": -0.04048737,
+      "stability": 0.04927659,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005906211",
+      "composition_id": "Al2 Au5",
+      "delta_e": -0.21126077,
+      "stability": 0.049987,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005631192",
+      "composition_id": "Al3 Au5 Mn2",
+      "delta_e": -0.22445527,
+      "stability": 0.054430537,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm006036861",
+      "composition_id": "Al3 Au6",
+      "delta_e": -0.2328772,
+      "stability": 0.05630768,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005719738",
+      "composition_id": "Al2 Au3",
+      "delta_e": -0.23949035,
+      "stability": 0.05864084,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427561",
+      "composition_id": "Al2",
+      "delta_e": -0.28460187,
+      "stability": 0.061758433,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005881565",
+      "composition_id": "Al2 Au4",
+      "delta_e": -0.21004722,
+      "stability": 0.067555666,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168270",
+      "composition_id": "Au2",
+      "delta_e": -0.17834516,
+      "stability": 0.07030273,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002329406",
+      "composition_id": "Au2",
+      "delta_e": -0.17056386,
+      "stability": 0.07808402,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002248218",
+      "composition_id": "Al2",
+      "delta_e": -0.26730463,
+      "stability": 0.079055645,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168272",
+      "composition_id": "Au2",
+      "delta_e": -0.16902263,
+      "stability": 0.07962525,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168267",
+      "composition_id": "Al2",
+      "delta_e": -0.2666823,
+      "stability": 0.07967799,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005579573",
+      "composition_id": "Al3 Au3 Mn2",
+      "delta_e": -0.22686763,
+      "stability": 0.08092832,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002250094",
+      "composition_id": "",
+      "delta_e": -0.19824526,
+      "stability": 0.08180756,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168271",
+      "composition_id": "Au2",
+      "delta_e": -0.1598849,
+      "stability": 0.08876298,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168268",
+      "composition_id": "Al2",
+      "delta_e": -0.2516335,
+      "stability": 0.09472678,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002367564",
+      "composition_id": "Al3 Mn2",
+      "delta_e": -0.23498057,
+      "stability": 0.096491374,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003168274",
+      "composition_id": "Mn2",
+      "delta_e": -0.12476658,
+      "stability": 0.09813361,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004418129",
+      "composition_id": "Mn2",
+      "delta_e": -0.12443648,
+      "stability": 0.098463714,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005815777",
+      "composition_id": "Au4",
+      "delta_e": -0.10639973,
+      "stability": 0.105444245,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003326452",
+      "composition_id": "Al2 Au7 Mn2",
+      "delta_e": -0.112916835,
+      "stability": 0.105992936,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm001045533",
+      "composition_id": "",
+      "delta_e": -0.17119806,
+      "stability": 0.10885476,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003825078",
+      "composition_id": "",
+      "delta_e": -0.16594158,
+      "stability": 0.11411124,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003767474",
+      "composition_id": "Au6",
+      "delta_e": -0.057954825,
+      "stability": 0.114603706,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427579",
+      "composition_id": "Mn2",
+      "delta_e": -0.10402685,
+      "stability": 0.11887334,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427563",
+      "composition_id": "Al2",
+      "delta_e": -0.22471745,
+      "stability": 0.121642835,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003516174",
+      "composition_id": "Al2 Au8",
+      "delta_e": -0.089099914,
+      "stability": 0.12643203,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003736486",
+      "composition_id": "Au4",
+      "delta_e": -0.08329582,
+      "stability": 0.12854816,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427569",
+      "composition_id": "Au2",
+      "delta_e": -0.11795763,
+      "stability": 0.13069026,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003706155",
+      "composition_id": "Au3",
+      "delta_e": -0.09075261,
+      "stability": 0.13663612,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427556",
+      "composition_id": "Al2",
+      "delta_e": -0.20551237,
+      "stability": 0.14084792,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003760437",
+      "composition_id": "Au5",
+      "delta_e": -0.049887314,
+      "stability": 0.14127234,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005119262",
+      "composition_id": "Au2",
+      "delta_e": -0.10342813,
+      "stability": 0.14521976,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427546",
+      "composition_id": "Mn2",
+      "delta_e": -0.07622094,
+      "stability": 0.14667925,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427538",
+      "composition_id": "Mn2",
+      "delta_e": -0.07020104,
+      "stability": 0.15269914,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005973007",
+      "composition_id": "Au8 Mn3",
+      "delta_e": 0.014008166,
+      "stability": 0.17082742,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427532",
+      "composition_id": "Mn2",
+      "delta_e": -0.045856986,
+      "stability": 0.1770432,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427570",
+      "composition_id": "Au2",
+      "delta_e": -0.070105135,
+      "stability": 0.17854275,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005119263",
+      "composition_id": "Al2",
+      "delta_e": -0.16181591,
+      "stability": 0.18454438,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427573",
+      "composition_id": "Mn2",
+      "delta_e": -0.03691017,
+      "stability": 0.18599002,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002956217",
+      "composition_id": "Au2 Mn2",
+      "delta_e": -0.014875803,
+      "stability": 0.1931175,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002954109",
+      "composition_id": "Al2 Au2",
+      "delta_e": -0.12989536,
+      "stability": 0.19454648,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427560",
+      "composition_id": "Al2",
+      "delta_e": -0.14826675,
+      "stability": 0.19809355,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427547",
+      "composition_id": "Mn2",
+      "delta_e": -0.022433646,
+      "stability": 0.20046654,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002954047",
+      "composition_id": "Al2 Mn2",
+      "delta_e": -0.100488335,
+      "stability": 0.20225945,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427558",
+      "composition_id": "Al2",
+      "delta_e": -0.1421087,
+      "stability": 0.2042516,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427549",
+      "composition_id": "Al2",
+      "delta_e": -0.14015247,
+      "stability": 0.20620781,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004418122",
+      "composition_id": "",
+      "delta_e": -0.065302975,
+      "stability": 0.21474986,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003825107",
+      "composition_id": "Au2",
+      "delta_e": -0.032791,
+      "stability": 0.21585688,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002635085",
+      "composition_id": "Al2",
+      "delta_e": -0.12344976,
+      "stability": 0.22291052,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002954110",
+      "composition_id": "Al2 Au2",
+      "delta_e": -0.10108473,
+      "stability": 0.2233571,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427544",
+      "composition_id": "Mn2",
+      "delta_e": 0.022300415,
+      "stability": 0.2452006,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427559",
+      "composition_id": "Al2",
+      "delta_e": -0.09596935,
+      "stability": 0.25039095,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427543",
+      "composition_id": "",
+      "delta_e": -0.011529255,
+      "stability": 0.26852357,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002954046",
+      "composition_id": "Al2 Mn2",
+      "delta_e": -0.027202476,
+      "stability": 0.27554533,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427542",
+      "composition_id": "Mn2",
+      "delta_e": 0.057026517,
+      "stability": 0.27992672,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427551",
+      "composition_id": "Al2",
+      "delta_e": -0.04385405,
+      "stability": 0.30250624,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002956218",
+      "composition_id": "Au2 Mn2",
+      "delta_e": 0.09813961,
+      "stability": 0.3061329,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427567",
+      "composition_id": "Al2",
+      "delta_e": -0.029768417,
+      "stability": 0.31659186,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427535",
+      "composition_id": "",
+      "delta_e": 0.037885863,
+      "stability": 0.3179387,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427578",
+      "composition_id": "Mn2",
+      "delta_e": 0.10102099,
+      "stability": 0.32392117,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002789500",
+      "composition_id": "Au2",
+      "delta_e": 0.08846752,
+      "stability": 0.3371154,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005420668",
+      "composition_id": "Mn4",
+      "delta_e": 0.17902382,
+      "stability": 0.34237924,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005419973",
+      "composition_id": "Au4",
+      "delta_e": 0.1630948,
+      "stability": 0.3749388,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004427531",
+      "composition_id": "",
+      "delta_e": 0.11096905,
+      "stability": 0.39102188,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005410967",
+      "composition_id": "Al2 Mn2",
+      "delta_e": 0.1378634,
+      "stability": 0.44061118,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002790261",
+      "composition_id": "Al2",
+      "delta_e": 0.10247924,
+      "stability": 0.44883955,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002633304",
+      "composition_id": "Mn2",
+      "delta_e": 0.28098756,
+      "stability": 0.5038878,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005419974",
+      "composition_id": "Al4",
+      "delta_e": 0.1818195,
+      "stability": 0.52653384,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002788509",
+      "composition_id": "Mn2",
+      "delta_e": 0.32575637,
+      "stability": 0.5486566,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm005414695",
+      "composition_id": "Al2 Mn2",
+      "delta_e": 0.24821612,
+      "stability": 0.55096394,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002397121",
+      "composition_id": "Au3",
+      "delta_e": 0.4254181,
+      "stability": 0.6528068,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002395639",
+      "composition_id": "Al3",
+      "delta_e": 0.34294993,
+      "stability": 0.69907594,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002397120",
+      "composition_id": "Au3",
+      "delta_e": 0.6541038,
+      "stability": 0.88149256,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002395638",
+      "composition_id": "Al3",
+      "delta_e": 0.54962033,
+      "stability": 0.90574634,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002394108",
+      "composition_id": "Mn3",
+      "delta_e": 0.917804,
+      "stability": 1.1057551,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "space": "Ge-Ni-Pt",
+  "elements": [
+    "Ge",
+    "Ni",
+    "Pt"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002168205",
+      "composition_id": "",
+      "delta_e": -0.41376346,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003263184",
+      "composition_id": "Pt2",
+      "delta_e": -0.365892,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002296479",
+      "composition_id": "Ge4 Ni2",
+      "delta_e": -0.34721097,
+      "stability": 0.026162773,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002297015",
+      "composition_id": "Pt2",
+      "delta_e": -0.31817955,
+      "stability": 0.047712456,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002297003",
+      "composition_id": "Ge4 Pt2",
+      "delta_e": -0.35304365,
+      "stability": 0.06900091,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002297014",
+      "composition_id": "Pt2",
+      "delta_e": -0.26564527,
+      "stability": 0.10024673,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002715168",
+      "composition_id": "Pt2",
+      "delta_e": -0.20140448,
+      "stability": 0.16448751,
+      "icsd": false
+    }
+  ]
+}

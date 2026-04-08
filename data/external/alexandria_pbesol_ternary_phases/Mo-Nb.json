@@ -1,0 +1,44 @@
+{
+  "space": "Mo-Nb",
+  "elements": [
+    "Mo",
+    "Nb"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm001191697",
+      "composition_id": "",
+      "delta_e": -0.1062377,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002225734",
+      "composition_id": "Mo3",
+      "delta_e": -0.07241163,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002166827",
+      "composition_id": "Mo3",
+      "delta_e": -0.07068137,
+      "stability": 0.00173026,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002166714",
+      "composition_id": "Nb3",
+      "delta_e": -0.045826674,
+      "stability": 0.0072921775,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003157413",
+      "composition_id": "",
+      "delta_e": -0.06533906,
+      "stability": 0.040898643,
+      "icsd": false
+    }
+  ]
+}

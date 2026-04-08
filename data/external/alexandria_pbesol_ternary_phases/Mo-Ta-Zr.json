@@ -1,0 +1,122 @@
+{
+  "space": "Mo-Ta-Zr",
+  "elements": [
+    "Mo",
+    "Ta",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003183382",
+      "composition_id": "Mo2",
+      "delta_e": -0.064616546,
+      "stability": 0.077051975,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003183381",
+      "composition_id": "Zr2",
+      "delta_e": -0.007238775,
+      "stability": 0.08685527,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003183383",
+      "composition_id": "Ta2",
+      "delta_e": -0.02121231,
+      "stability": 0.08845626,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003159854",
+      "composition_id": "",
+      "delta_e": -0.036374025,
+      "stability": 0.0890847,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003183384",
+      "composition_id": "Ta2",
+      "delta_e": -0.01408735,
+      "stability": 0.09558122,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004295783",
+      "composition_id": "Ta2",
+      "delta_e": 0.049374375,
+      "stability": 0.15904294,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004116232",
+      "composition_id": "Ta2",
+      "delta_e": 0.05328749,
+      "stability": 0.16295606,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002753677",
+      "composition_id": "Ta2",
+      "delta_e": 0.05577748,
+      "stability": 0.16544604,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004295720",
+      "composition_id": "Mo2",
+      "delta_e": 0.03870805,
+      "stability": 0.18037657,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004274183",
+      "composition_id": "Zr2",
+      "delta_e": 0.08669208,
+      "stability": 0.18078612,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002753151",
+      "composition_id": "Zr2",
+      "delta_e": 0.15608577,
+      "stability": 0.25017983,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004295824",
+      "composition_id": "Zr2",
+      "delta_e": 0.22337258,
+      "stability": 0.31746662,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004274297",
+      "composition_id": "Zr2",
+      "delta_e": 0.24623942,
+      "stability": 0.34033346,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm004273759",
+      "composition_id": "",
+      "delta_e": 0.24577336,
+      "stability": 0.3712321,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002630433",
+      "composition_id": "Mo3",
+      "delta_e": 1.5354993,
+      "stability": 1.6868937,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002630434",
+      "composition_id": "Mo3",
+      "delta_e": 2.0387106,
+      "stability": 2.190105,
+      "icsd": false
+    }
+  ]
+}

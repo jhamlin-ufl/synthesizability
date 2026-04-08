@@ -1,0 +1,44 @@
+{
+  "space": "Si-V",
+  "elements": [
+    "Si",
+    "V"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm003263789",
+      "composition_id": "V3",
+      "delta_e": -0.5124399,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003219517",
+      "composition_id": "Si3 V5",
+      "delta_e": -0.59685105,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003227880",
+      "composition_id": "Si5 V6",
+      "delta_e": -0.61172587,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003267924",
+      "composition_id": "Si2",
+      "delta_e": -0.59244347,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003219520",
+      "composition_id": "Si3 V5",
+      "delta_e": -0.5842664,
+      "stability": 0.012584645,
+      "icsd": false
+    }
+  ]
+}

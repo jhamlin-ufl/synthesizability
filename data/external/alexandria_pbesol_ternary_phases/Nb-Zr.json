@@ -1,0 +1,37 @@
+{
+  "space": "Nb-Zr",
+  "elements": [
+    "Nb",
+    "Zr"
+  ],
+  "entries": [
+    {
+      "entry_id": "agm002247285",
+      "composition_id": "Nb2",
+      "delta_e": 0.05776033,
+      "stability": 0.05776033,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002247208",
+      "composition_id": "Zr5",
+      "delta_e": 0.09412387,
+      "stability": 0.09412387,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm003987381",
+      "composition_id": "",
+      "delta_e": 0.10412531,
+      "stability": 0.10412531,
+      "icsd": false
+    },
+    {
+      "entry_id": "agm002194396",
+      "composition_id": "Nb2",
+      "delta_e": 0.21363772,
+      "stability": 0.21363772,
+      "icsd": false
+    }
+  ]
+}
