@@ -1,0 +1,87 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Thursday, April 09, 2026, 9:43 AM
+FILE: E:\XRD Redoes\0471\0471_HM_MoNb2Ta.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=15183/691, Cu(45kV,40mA), Thursday, April 09, 2026, 9:34 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (25)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.01733 (0.00781) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.07717 (0.14895) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.02329 (0.29256) <3>
+  [x] s2 = 0.03745 (0.13151) <4>
+
+  [x] p0 = 0.43816 (0.31055) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.02638 (0.62939) <3>
+  [x] p2 = 0.23129 (0.27314) <4>
+
+Phase #1 [Bragg-R = 8.45%]: Molybdenum Tantalum
+
+  Chemical Formula = Ta0.5Mo0.5
+
+  Reference: Bückle H., Z. Metallkd., v37 p53 (1946)
+
+  Note: LPF Collection Code: 261177. Sample Preparation: Compound
+  Preparation: powder metallurgical technique. Article Title: Aufbau und
+  Mikroharte der Zwei- und Dreistoffsysteme der Metalle Niob, Tantal,
+  Molybdan und Wolfram. Minor Warning: No e.s.d reported/abstracted on the
+  cell dimension. No R factor reported/abstracted. LPF Editor Comment:
+  editor deduced probable site occupation from nominal composition. Wyckoff
+  Sequence: a.
+
+  Cubic: Im-3m (229), Z=2, cI2 [PDF#04-001-2743] [CSD#261177]
+
+  [x] a  = 3.26313 (0.00042) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.26313 (0.00042) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 3.26313 (0.00042) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 34.746 (8)(Å³), Density = 13.2319(g/cm³), Absorption(μ) = 2178.1(1/cm)
+
+  [x] SF = 120.285 (1.46969) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.05801) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.43757 (0.10165) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.02059 (0.20572) <3>
+  [x] f2 = 0.00241 (0.08924) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 96
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Ta <Ta>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Ta <Ta>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Ta <Ta>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+  [ ] n1 = 0.5     (0.0    ) <4> {                } Ta <Ta>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Mo <Mo>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n2 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+
+X-Ray Penetration Depth (EPD): EPD=0.007 (mm), μ=2178.1 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=3.86), Round=4, Iter=7, P=13, N=5751, R=8.45% (E=2.19%, EPS=0.5, χ²=0.00715)

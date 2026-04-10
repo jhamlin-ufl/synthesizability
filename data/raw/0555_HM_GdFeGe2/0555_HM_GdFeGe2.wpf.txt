@@ -1,0 +1,215 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Thursday, April 09, 2026, 10:00 AM
+FILE: E:\XRD Redoes\0555\0555_HM_GdFeGe2.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=18562/336, Cu(45kV,40mA), Thursday, April 09, 2026, 9:35 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (25)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.01058 (0.00274) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.38699 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.11578 (0.0    ) <3>
+  [x] s2 = 0.02203 (0.02419) <4>
+
+  [x] p0 = 0.66699 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.28094 (0.0    ) <3>
+  [x] p2 =-0.14203 (0.02616) <4>
+
+Phase #1 [Bragg-R = 11.14%]: Gadolinium Germanium Iron
+
+  Chemical Formula = GdFe0.52Ge2
+
+  Reference: Gvozdetskii V., German N.V., Gladyshevskii R.E., Visn. L'viv.
+  Derzh. Univ., Ser. Khim., v53 p12-19 (2012)
+
+  Note: LPF Collection Code: 1229749. Sample Preparation: Compound
+  Preparation: arc-melted. ATMOSPHERE: purified argon. Sample annealed at
+  773 K for 720 h in sealed evacuated quartz tube, quenched. Article Title:
+  Phase equilibria in the systems Gd-Fe-(Ga,Ge)-Sb at 500 °C.
+  Crystallographic parameters of the compounds GdFe2Ge2 and GdFe0.52Ge2.
+  Wyckoff Sequence: c4. Unit Cell Data Source: Powder Diffraction.
+
+  Orthorhombic: Cmcm (63), Z=4, oC14.1 [PDF#04-019-1690] [CSD#1229749]
+
+  [x] a  = 4.16743 (0.00039) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 16.05847(0.00167) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.05521 (0.00038) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 271.385 (46)(Å³), Density = 8.1122(g/cm³), Absorption(μ) = 2177.0(1/cm)
+
+  [x] SF = 286.714 (3.26538) <1> Intensity Scale Factor
+  [x] TF = 0.65525 (0.06905) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.26951 (0.02221) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.21142 (0.05438) <3>
+  [x] f2 = 0.19114 (0.03475) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Gd <Gd>
+  [ ] y1 = 0.397   (0.0    ) <4> {                } Gd <Gd>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Gd <Gd>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Fe <Fe>
+  [ ] y2 = 0.18    (0.0    ) <4> {                } Fe <Fe>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Fe <Fe>
+  [ ] B2 = 0.9     (0.0    ) <4> {                } Fe <Fe>
+  [ ] n2 = 0.52    (0.0    ) <4> {                } Fe <Fe>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Ge <Ge>
+  [ ] y3 = 0.044   (0.0    ) <4> {                } Ge <Ge>
+  [ ] z3 = 0.25    (0.0    ) <0> {                } Ge <Ge>
+  [ ] B3 = 0.9     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ge <Ge>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 4c    } Ge <Ge>
+  [ ] y4 = 0.744   (0.0    ) <4> {                } Ge <Ge>
+  [ ] z4 = 0.25    (0.0    ) <0> {                } Ge <Ge>
+  [ ] B4 = 0.9     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Ge <Ge>
+
+Phase #2 [Bragg-R = 16.56%]: Gadolinium Germanium Iron
+
+  Chemical Formula = GdFe2Ge2
+
+  Reference: Gvozdetskii V.Y., German N.V., Gladyshevskii R.E., Visn. L'viv.
+  Derzh. Univ., Ser. Khim., v53 p12-19 (2012)
+
+  Note: LPF Collection Code: 1229748. Sample Preparation: STARTING
+  MATERIALS: Gd,Fe,Ge,Sb. COMPOUND PREPARATION: arc-melted. ATMOSPHERE:
+  argon purified.THERMALTREATMENT: annealed at 773 K for 720 h in sealed
+  evacuated quartz tube, quenched. Wyckoff Sequence: e d a. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Tetragonal: I4/mmm (139), Z=2, tI10 [PDF#04-027-3421] [CSD#1229748]
+
+  [x] a  = 3.98618 (0.00032) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.98618 (0.00032) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 10.44657(0.00113) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 165.992 (26)(Å³), Density = 8.285(g/cm³), Absorption(μ) = 2288.9(1/cm)
+
+  [x] SF = 161.526 (2.95324) <1> Intensity Scale Factor
+  [x] TF = 0.59889 (0.11567) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.20985 (0.02592) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.02784 (0.05633) <3>
+  [x] f2 = 0.05393 (0.02924) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 32
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Gd <Gd>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Gd <Gd>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Gd <Gd>
+  [ ] B1 = 0.4     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4d    } Fe <Fe>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Fe <Fe>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Fe <Fe>
+  [ ] B2 = 0.9     (0.0    ) <4> {                } Fe <Fe>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Fe <Fe>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4e    } Ge <Ge>
+  [ ] y3 = 0.0     (0.0    ) <0> {                } Ge <Ge>
+  [ ] z3 = 0.3774  (0.0    ) <4> {                } Ge <Ge>
+  [ ] B3 = 0.9     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ge <Ge>
+
+Phase #3 [Bragg-R = 8.50%]: Gadolinium Germanium Iron
+
+  Chemical Formula = Gd0.5Fe3Ge3
+
+  Reference: Cadogan J.M., Ryan D.H., Cashion J.D., J. Phys.: Condens.
+  Matter, v19 p1-9 (2007)
+
+  Note: LPF Collection Code: 1217966. Sample Preparation: Compound
+  Preparation: arc-melted. ATMOSPHERE: purified argon. Sample annealed at
+  1173 K for 14 d in sealed evacuated quartz tube, quenched. Article Title:
+  155Gd Mossbauer study of GdFe6Ge6. Temperature of Data Collection: 295 K.
+  Minor Warning: No R factors reported/abstracted. LPF Editor Comment: short
+  interatomic distances for partly occupied sites. Wyckoff Sequence: g e c
+  a. Unit Cell Data Source: Powder Diffraction.
+
+  Hexagonal: P6/mmm (191), Z=1, hP6.5 [PDF#04-014-5500] [CSD#1217966]
+
+  [x] a  = 5.12386 (0.00121) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.12386 (0.00121) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 4.07409 (0.00185) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 92.631 (52)(Å³), Density = 8.3161(g/cm³), Absorption(μ) = 1838.8(1/cm)
+
+  [x] SF = 20.4336 (2.66453) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.67992) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.17489 (0.02664) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 24
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 1a    } Gd <Gd>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Gd <Gd>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Gd <Gd>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n1 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x2 = 0.5     (0.0    ) <0> {Wyckoff = 3g    } Fe <Fe>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Fe <Fe>
+  [ ] z2 = 0.5     (0.0    ) <0> {                } Fe <Fe>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Fe <Fe>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Fe <Fe>
+
+  [ ] x3 = 0.33333 (0.0    ) <0> {Wyckoff = 2c    } Ge <Ge>
+  [ ] y3 = 0.66666 (0.0    ) <0> {                } Ge <Ge>
+  [ ] z3 = 0.0     (0.0    ) <0> {                } Ge <Ge>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ge <Ge>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 2e    } Ge <Ge>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Ge <Ge>
+  [ ] z4 = 0.3     (0.0    ) <4> {                } Ge <Ge>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n4 = 0.5     (0.0    ) <4> {                } Ge <Ge>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  GdFe0.52Ge2 ● Gadolinium Germani    61.2 (1.0)    61.7 (1.3)    61.4 (0.3)   8.34   8.1122   04-019-1690
+  GdFe2Ge2 ● Gadolinium Germanium     34.5 (0.7)    34.0 (0.9)    35.5 (0.3)   5.48   8.2850   04-027-3421
+  Gd0.5Fe3Ge3 ● Gadolinium Germani     4.4 (0.6)     4.3 (0.6)     3.1 (0.3)   4.17   8.3161   04-014-5500
+
+  XRF(Wt%): Gd=42.8%, Ge=40.9%, Fe=16.2%, XRF(DD%): Gd=43.1%, Ge=40.8%, Fe=16.1%
+  Density of Specimen = 8.1797(g/cm³), Absorption(μ) of Specimen = 2200.6(1/cm), EPD(1.0%,θ=45.0°) = 0.007(mm)
+
+Refinement Halted (R/E=3.6), Round=4, Iter=6, P=23, N=5751, R=10.06% (E=2.79%, EPS=0.5, χ²=0.010011)
