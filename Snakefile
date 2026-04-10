@@ -19,7 +19,7 @@ TERNARY_JSON_FILES = (
      if Path("data/external/alexandria_pbesol_ternary_phases").exists() else [])
 )
 GENAI_CIF_FILES = [str(p) for p in Path("data/external/genai_structures").rglob("*.cif")]
-XRD_JPG_FILES = [str(p) for p in Path("data/raw").rglob("*_XRD_fit.JPG")]
+XRD_JPG_FILES = [str(p) for p in Path("data/raw").rglob("*_XRD_fit*.JPG")]
 STATUS_FILES = [str(p) for p in Path("data/raw").rglob("STATUS")]
 SYNTHESIS_FILES = [str(p) for p in Path("data/raw").rglob("SYNTHESIS")]
 XRD_FILES = (

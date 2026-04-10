@@ -29,7 +29,7 @@ def _rel_base(sample_id: str) -> str:
 def get_summary_cards(df) -> list[dict]:
     n = sum(
         1 for row in df.itertuples()
-        if list(_raw_dir(row.sample_id).glob('*_XRD_fit.JPG'))
+        if list(_raw_dir(row.sample_id).glob('*_XRD_fit*.JPG'))
     )
     return [{'label': 'With XRD Fits', 'value': str(n)}]
 
@@ -47,7 +47,7 @@ def get_detail_section(row, plots_dir: Path, results_dir: Path) -> dict | None:
     sample_dir = _raw_dir(sample_id)
     rel_base = _rel_base(sample_id)
 
-    jpg_files = sorted(sample_dir.glob('*_XRD_fit.JPG'))
+    jpg_files = sorted(sample_dir.glob('*_XRD_fit*.JPG'))
     wpf_files = sorted(sample_dir.glob('*.wpf.txt'))
     cif_files = sorted(sample_dir.glob('*.cif'))
 
