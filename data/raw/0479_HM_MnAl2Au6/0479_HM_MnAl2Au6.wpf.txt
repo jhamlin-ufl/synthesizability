@@ -1,13 +1,13 @@
 USER: User
 JADE: WPF-Rietveld Refinement Report
-DATE: Tuesday, March 31, 2026, 12:11 PM
-FILE: E:\synthesizability\data\raw\0479_HM_MnAl2Au6\0479_HM_MnAl2Au6.xy
-IDEN: 
-SCAN: 23.066°/120.074°/0.1504°/1(s), I(p)=8038.0/474.0, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+DATE: Thursday, April 09, 2026, 9:51 AM
+FILE: E:\XRD Redoes\0479\0479_HM_MnAl2Au6.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=8968.0/618.0, Cu(45kV,40mA), Thursday, April 09, 2026, 9:34 AM
 
 Whole Pattern Fitting Controls:
 
-  Pattern Fitted-Range = 23.1° - 120.1°
+  Pattern Fitted-Range = 5.0° - 120.0°
   Wavelength to Compute d-Spacings = 1.54059Å (Cu)
   Diffraction Geometry for Lp-Correction: Diffractometer Lp
 
@@ -17,50 +17,70 @@ Whole Pattern Fitting Controls:
 
 Global Refinement Parameters:
 
-  Background Fitting Model: Polynomial (2)
-
-  [x] c0 = 1129.49 (21.423 ) <1>  [x] c1 = 1392.08 (23.9575) <1>
-  [x] c2 = 710.258 (31.9461) <1>
+  Background Fitting Model: Fixed-Curve (22)
 
   Profile Shape Function for All Phases - PSF: pseudo-Voigt
   Peak Broadening Model for All Phases: Individual FWHM Curve
   Instrument Profile Calibration Curve: NRF_MPD_2025ICP
 
-  [x] ZO = 0.06536 (0.08539) <2> Zero Offset
+  [x] ZO = 0.22696 (0.03588) <2> Zero Offset
   [ ] SD = 0.0     (0.0    ) <2> Displacement
   [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
   [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
   [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
 
-  [x] s0 = 0.02156 (0.81023) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
-  [x] s1 =-0.02068 (1.63751) <3>
-  [x] s2 = 0.05894 (0.75639) <4>
+  [x] s0 = 0.82344 (0.14238) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.9297  (0.26677) <3>
+  [x] s2 = 0.04835 (0.09863) <4>
 
-  [x] p0 = 0.73395 (0.97206) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
-  [x] p1 = 0.13939 (2.11092) <3>
-  [x] p2 = 0.26095 (1.05964) <4>
+  [x] p0 = 0.60042 (0.16925) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.23884 (0.37562) <3>
+  [x] p2 = 0.32075 (0.19639) <4>
 
-Phase #1 [Bragg-R = 14.79%]: Germanium Tungsten
+Phase #1 [Bragg-R = 10.18%]: Aluminum Gold
 
-  Chemical Formula = Ge2W
+  Chemical Formula = Au2Al
 
-  Tetragonal: I4/mmm (139), Z=2, tI6 [PDF#01-077-2652] [CSD#638120]
+  Reference: Puselj M., Schubert K., J. Less-Common Met., v35 p259 (1974)
 
-  [x] a  = 3.30841 (0.00638) <2> [ ] α  = 90.0    (0.0    ) <2>
-  [ ] b  = 3.30841 (0.00638) <2> [ ] β  = 90.0    (0.0    ) <2>
-  [x] c  = 9.00422 (0.01797) <2> [ ] γ  = 90.0    (0.0    ) <2>
+  Note: ANX: NO2. LPF Collection Code: 450924. Polymorphism: High
+  temperature phase. Sample Preparation: STARTING MATERIALS:Al,Au. Compound
+  Preparation: arc-melted. CRUCIBLE: copper hearth. ATMOSPHERE: argon.
+  Article Title: KRISTALLSTRUKTUREN DER PHASEN Au2Al(h), Au2Al1 - (r) UND
+  Au2Al1 + (r). Temperature of Data Collection: 843 K. Wyckoff Sequence: e
+  a. Unit Cell Data Source: Powder Diffraction.
 
-  Unit Cell Volume = 98.556 (333)(Å³), Density = 11.0866(g/cm³), Absorption(μ) = 1435.3(1/cm)
+  Tetragonal: I4/mmm (139), Z=2, tI6 [PDF#04-003-0365] [CSD#450924]
 
-  [x] SF = 480.307 (30.5619) <1> Intensity Scale Factor
-  [x] TF =-1.0     (0.55672) <4> Overall Temperature Factor
+  [x] a  = 3.33523 (0.00247) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.33523 (0.00247) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 8.96115 (0.00716) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 99.682 (131)(Å³), Density = 14.0225(g/cm³), Absorption(μ) = 2773.4(1/cm)
+
+  [x] SF = 215.295 (3.00053) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.07944) <4> Overall Temperature Factor
   [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
   [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
 
-  [x] f0 = 0.73847 (0.61717) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
-  [x] f1 =-0.14981 (1.42283) <3>
-  [x] f2 = 0.27013 (0.77037) <3>
+  [x] f0 = 1.451   (0.17006) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.06138 (0.40244) <3>
+  [x] f2 = 0.02653 (0.23029) <3>
 
-X-Ray Penetration Depth (EPD): EPD=0.011 (mm), μ=1435.3 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 32
 
-Refinement Halted (R/E=6.16), Round=4, Iter=11, P=17, N=646, R=14.79% (E=2.40%, EPS=0.5, χ²=0.021655)
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4e    } Au <Au>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Au <Au>
+  [ ] z1 = 0.33543 (0.0    ) <4> {                } Au <Au>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Au <Au>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Au <Au>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Al <Al>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Al <Al>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Al <Al>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Al <Al>
+
+X-Ray Penetration Depth (EPD): EPD=0.006 (mm), μ=2773.4 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+
+Refinement Halted (R/E=4.29), Round=4, Iter=8, P=14, N=5751, R=10.18% (E=2.37%, EPS=0.5, χ²=0.010289)
