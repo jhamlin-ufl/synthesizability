@@ -8,6 +8,16 @@ from pathlib import Path
 RAW_DATA_FILES = [str(p) for p in Path("data/raw").rglob("*") if p.is_file()]
 CHI_DATA_FILES = [str(p) for p in Path("data/raw").rglob("*chiAC*.txt")]
 WPF_FILES = [str(p) for p in Path("data/raw").rglob("*.wpf.txt")]
+TERNARY_JSON_FILES = (
+    ([str(p) for p in Path("data/external/oqmd_ternary_phases").rglob("*.json")]
+     if Path("data/external/oqmd_ternary_phases").exists() else []) +
+    ([str(p) for p in Path("data/external/mp_ternary_phases").rglob("*.json")]
+     if Path("data/external/mp_ternary_phases").exists() else []) +
+    ([str(p) for p in Path("data/external/alexandria_pbe_ternary_phases").rglob("*.json")]
+     if Path("data/external/alexandria_pbe_ternary_phases").exists() else []) +
+    ([str(p) for p in Path("data/external/alexandria_pbesol_ternary_phases").rglob("*.json")]
+     if Path("data/external/alexandria_pbesol_ternary_phases").exists() else [])
+)
 GENAI_CIF_FILES = [str(p) for p in Path("data/external/genai_structures").rglob("*.cif")]
 XRD_JPG_FILES = [str(p) for p in Path("data/raw").rglob("*_XRD_fit.JPG")]
 STATUS_FILES = [str(p) for p in Path("data/raw").rglob("STATUS")]
@@ -248,6 +258,18 @@ rule extract_alexandria_cifs:
         "poetry run python {input.script} > {log} 2>&1"
 
 
+rule compute_hull_membership:
+    input:
+        script="scripts/compute_hull_membership.py",
+        src="src/synthesizability/dashboard_plugins/ternary_phases.py",
+        formulas="data/processed/synthesis_data_no_disorder.csv",
+        ternary_data=TERNARY_JSON_FILES,
+    output:
+        csv="data/processed/hull_membership.csv",
+    shell:
+        "poetry run python {input.script}"
+
+
 rule build_dataframe:
     input:
         script="scripts/build_dataframe.py",
@@ -256,6 +278,7 @@ rule build_dataframe:
         reference=REFERENCE_DATA_FILES,
         disorder_cache="data/processed/disorder_cache.csv",
         oqmd_hulls="data/processed/oqmd_hull_data.csv",
+        hull_membership="data/processed/hull_membership.csv",
         remake_map="data/raw/REMAKE_MAP.csv",
     output:
         csv="data/processed/synthesis_data.csv",
