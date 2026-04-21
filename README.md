@@ -59,7 +59,11 @@ Running the full pipeline requires local access to the raw experimental data fil
 
 ## Citation
 
-A DOI will be added here once the associated paper is published. In the meantime, please cite this repository directly using the Zenodo DOI linked in the GitHub sidebar.
+Please cite this repository using the Zenodo DOI:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19685017.svg)](https://doi.org/10.5281/zenodo.19685017)
+
+A paper citation will be added here upon publication.
 
 ## License
 
