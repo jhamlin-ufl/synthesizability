@@ -1,0 +1,251 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Thursday, April 16, 2026, 12:09 PM
+FILE: E:\Jade Analysis (4_16)\561\0561_HM_ZrSiPt5.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=7957.0/403.0, Cu(45kV,40mA), Thursday, April 16, 2026, 10:48 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (27)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO =-0.03896 (0.01108) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.02215 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.25626 (0.0    ) <3>
+  [x] s2 =-0.33001 (0.009  ) <4>
+
+  [x] p0 =-0.29928 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 1.72179 (0.0    ) <3>
+  [x] p2 = 0.77637 (0.03057) <4>
+
+Phase #1 [Bragg-R = 12.52%]: Platinum Zirconium
+
+  Chemical Formula = ZrPt3
+
+  Reference: Ellner M., J. Alloys Compd., v366 p222 (2004)
+
+  Note: LPF Collection Code: 1230109. Sample Preparation: STARTING
+  MATERIALS: Zr,Pt. COMPOUND PREPARATION: arc-melted. ATMOSPHERE:
+  argon.THERMALTREATMENT: annealed at 1273 K for 3 d in sealed evacuated
+  silica tube, quenched. Article Title: Bond energy in palladium and
+  platinum-rich alloys with the A4 transition metals. Minor Warning: No
+  e.s.d reported/abstracted on the cell dimension. Wyckoff Sequence: h g d
+  a. Unit Cell Data Source: Powder Diffraction.
+
+  Hexagonal: P63/mmc (194), Z=4, hP16 [PDF#04-020-0817] [CSD#1230109]
+
+  [x] a  = 5.65778 (0.00147) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 5.65778 (0.00147) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 9.24859 (0.00289) <2> [ ] γ  = 120.0   (0.0    ) <2>
+
+  Unit Cell Volume = 256.388 (124)(Å³), Density = 17.5243(g/cm³), Absorption(μ) = 3370.2(1/cm)
+
+  [x] SF = 213.621 (3.11365) <1> Intensity Scale Factor
+  [x] TF = 0.46352 (0.11025) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.79254 (0.14026) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.36039 (0.30393) <3>
+  [x] f2 = 0.44609 (0.15649) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 24
+
+  [ ] x1 = 0.16667 (0.0    ) <4> {Wyckoff = 6h    } Pt <Pt>
+  [ ] y1 = 0.33333 (0.0    ) <4> { (y=2x)         } Pt <Pt>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Pt <Pt>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Pt <Pt>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Pt <Pt>
+
+  [ ] x2 = 0.5     (0.0    ) <0> {Wyckoff = 6g    } Pt <Pt>
+  [ ] y2 = 0.0     (0.0    ) <0> {                } Pt <Pt>
+  [ ] z2 = 0.0     (0.0    ) <0> {                } Pt <Pt>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pt <Pt>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Pt <Pt>
+
+  [ ] x3 = 0.33333 (0.0    ) <0> {Wyckoff = 2d    } Zr <Zr>
+  [ ] y3 = 0.66666 (0.0    ) <0> {                } Zr <Zr>
+  [ ] z3 = 0.75    (0.0    ) <0> {                } Zr <Zr>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Zr <Zr>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Zr <Zr>
+  [ ] y4 = 0.0     (0.0    ) <0> {                } Zr <Zr>
+  [ ] z4 = 0.0     (0.0    ) <0> {                } Zr <Zr>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Zr <Zr>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Zr <Zr>
+
+Phase #2 [Bragg-R = 13.92%]: Zr1Si3
+
+  Chemical Formula = Zr1Si3
+
+  Note: [Si3Zr1_343672_stab+377meV.cif] 
+
+  Triclinic: P1 (1), Z=1, aP4 [PDF#98-002-3800] [CSD#23800]
+
+  [x] a  = 3.96638 (0.00521) <2> [x] α  = 90.000  (152569.200) <2>
+  [x] b  = 3.98386 (0.00525) <2> [x] β  = 90.000  (77524.250) <2>
+  [x] c  = 4.00536 (0.00533) <2> [x] γ  = 90.000  (3595.895) <2>
+
+  Unit Cell Volume = 63.291 (145)(Å³), Density = 4.6036(g/cm³), Absorption(μ) = 476.2(1/cm)
+
+  [x] SF = 69.6052 (5.89392) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.69191) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.15181 (0.18548) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-2.03186 (0.44994) <3>
+  [x] f2 = 1.11715 (0.29558) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 1
+
+  [ ] x1 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si0 <Si>
+  [ ] y1 = 0.5     (0.0    ) <4> {                } Si0 <Si>
+  [ ] z1 = 0.0     (0.0    ) <4> {                } Si0 <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si0 <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si0 <Si>
+
+  [ ] x2 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si1 <Si>
+  [ ] y2 = 0.0     (0.0    ) <4> {                } Si1 <Si>
+  [ ] z2 = 0.5     (0.0    ) <4> {                } Si1 <Si>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Si1 <Si>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Si1 <Si>
+
+  [ ] x3 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si2 <Si>
+  [ ] y3 = 0.5     (0.0    ) <4> {                } Si2 <Si>
+  [ ] z3 = 0.5     (0.0    ) <4> {                } Si2 <Si>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Si2 <Si>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Si2 <Si>
+
+  [ ] x4 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Zr3 <Zr>
+  [ ] y4 = 0.0     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] z4 = 0.0     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Zr3 <Zr>
+
+Phase #3 [Bragg-R = 9.87%]: Platinum Silicon
+
+  Chemical Formula = Pt2Si
+
+  Reference: Gohle R., Schubert K., Z. Metallkd., v55 p503 (1964)
+
+  Note: ANX: A2X. LPF Collection Code: 452345. Polymorphism: Low temperature
+  phase. Sample Preparation: Compound Preparation: arc-melted. ATMOSPHERE:
+  argon. Sample annealed at 923 K for 46 h, water-quenched. Article Title:
+  Zum Aufbau des Systems Platin-Silizium. Minor Warning: No e.s.d
+  reported/abstracted on the cell dimension. No R factor
+  reported/abstracted. Wyckoff Sequence: d a. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Tetragonal: I4/mmm (139), Z=2, tI6 [PDF#04-003-1631] [CSD#452345]
+
+  [x] a  = 3.93935 (0.00173) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 3.93935 (0.00173) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.89845 (0.00365) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 91.535 (80)(Å³), Density = 15.1745(g/cm³), Absorption(μ) = 2892.9(1/cm)
+
+  [x] SF = 37.0563 (1.93812) <1> Intensity Scale Factor
+  [x] TF = 0.73918 (0.40967) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.91185 (0.21815) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.60037 (0.50008) <3>
+  [x] f2 = 0.36434 (0.27857) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 32
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 2a    } Si <Si>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Si <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si <Si>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4d    } Pt <Pt>
+  [ ] y2 = 0.5     (0.0    ) <0> {                } Pt <Pt>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Pt <Pt>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pt <Pt>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Pt <Pt>
+
+Phase #4 [Bragg-R = 10.91%]: Zr2Si1Pt1
+
+  Chemical Formula = Zr2Si1Pt1
+
+  Note: [Pt1Si1Zr2_1560733_stab+80meV.cif] 
+
+  Triclinic: P1 (1), Z=1, aP4 [PDF#98-000-1794] [CSD#1794]
+
+  [x] a  = 3.96122 (0.01250) <2> [x] α  = 38.835  (-Fixed-) <2>
+  [x] b  = 5.54498 (0.01054) <2> [x] β  = 90.0    (-Fixed-) <2>
+  [x] c  = 5.53025 (0.01054) <2> [x] γ  = 90.0    (-Fixed-) <2>
+
+  Unit Cell Volume = 76.173 (316)(Å³), Density = 8.8417(g/cm³), Absorption(μ) = 1456.3(1/cm)
+
+  [x] SF = 23.9531 (2.49679) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.95681) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 1.07417 (0.3113 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-1.46347 (0.75722) <3>
+  [x] f2 = 0.66939 (0.44446) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 1
+
+  [ ] x1 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Pt0 <Pt>
+  [ ] y1 = 0.92536 (0.0    ) <4> {                } Pt0 <Pt>
+  [ ] z1 = 0.92536 (0.0    ) <4> {                } Pt0 <Pt>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Pt0 <Pt>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Pt0 <Pt>
+
+  [ ] x2 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si1 <Si>
+  [ ] y2 = 0.08145 (0.0    ) <4> {                } Si1 <Si>
+  [ ] z2 = 0.08145 (0.0    ) <4> {                } Si1 <Si>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Si1 <Si>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Si1 <Si>
+
+  [ ] x3 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Zr2 <Zr>
+  [ ] y3 = 0.34715 (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] z3 = 0.34715 (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Zr2 <Zr>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Zr2 <Zr>
+
+  [ ] x4 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Zr3 <Zr>
+  [ ] y4 = 0.64604 (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] z4 = 0.64604 (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Zr3 <Zr>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Zr3 <Zr>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  ZrPt3 ● Platinum Zirconium          62.1 (1.6)    37.6 (1.9)    68.2 (0.2)  15.78  17.5243   04-020-0817
+  Zr1Si3                              20.2 (1.8)    46.6 (4.5)    15.3 (0.9)   7.11   4.6036   98-002-3800
+  Pt2Si ● Platinum Silicon            10.8 (0.6)     7.5 (0.5)    10.9 (0.1)  13.03  15.1745   04-003-1631
+  Zr2Si1Pt1                            7.0 (0.7)     8.3 (1.0)     5.6 (0.2)   8.91   8.8417   98-000-1794
+
+  XRF(Wt%): Pt=67.1%, Zr=22.0%, Si=10.9%, XRF(DD%): Pt=71.8%, Zr=19.7%, Si=8.5%
+  Density of Specimen = 10.6046(g/cm³), Absorption(μ) of Specimen = 1826.6(1/cm), EPD(1.0%,θ=45.0°) = 0.009(mm)
+
+Refinement Halted (R/E=4.22), Round=4, Iter=12, P=36, N=5751, R=10.67% (E=2.53%, EPS=0.5, χ²=0.011302)
