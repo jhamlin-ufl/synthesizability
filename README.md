@@ -2,9 +2,9 @@
 
 **Preliminary data repository associated with an upcoming publication.**
 
-This repository contains the analysis pipeline and results for an experimental study of crystal-structure synthesizability: we tested whether materials predicted as stable by high-throughput computational databases (Materials Project, OQMD, Alexandria, GNoME) actually form into their predicted crystal structures when synthesized by arc melting.
+This repository contains the analysis pipeline and results for an experimental study of crystal-structure synthesizability: we tested whether materials predicted as stable by high-throughput computational databases actually form into their predicted crystal structures when synthesized by arc melting.
 
-Across 59+ intermetallic samples, predicted crystal structures were confirmed by powder X-ray diffraction in only a minority of cases. A disorder-probability model (Jakob et al. 2025) was found to be strongly predictive of synthesis outcome.
+Across numerous intermetallic samples, predicted crystal structures were confirmed by powder X-ray diffraction in only a minority of cases. A disorder-probability model ([Jakob et al. 2025](https://doi.org/10.1002/adma.202514226)) was found to be strongly predictive of synthesis outcome.
 
 A companion paper is in preparation. This repository will be updated to reference the published work when available.
 
