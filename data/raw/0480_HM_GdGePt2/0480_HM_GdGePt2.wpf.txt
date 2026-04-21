@@ -1,13 +1,13 @@
 USER: User
 JADE: WPF-Rietveld Refinement Report
-DATE: Tuesday, March 31, 2026, 12:13 PM
-FILE: E:\synthesizability\data\raw\0480_HM_GdGePt2\0480_HM_GdGePt2.xy
-IDEN: 
-SCAN: 19.9°/119.9°/0.13369°/1(s), I(p)=12007/1805, Cu(45kV,40mA), Monday, December 08, 2025, 12:07 PM
+DATE: Tuesday, April 21, 2026, 8:37 AM
+FILE: E:\Jade Analysis (4_21)\480\0480_HM_GdGePt2.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=9071.0/504.0, Cu(45kV,40mA), Tuesday, April 21, 2026, 8:16 AM
 
 Whole Pattern Fitting Controls:
 
-  Pattern Fitted-Range = 19.9° - 119.9°
+  Pattern Fitted-Range = 5.0° - 120.0°
   Wavelength to Compute d-Spacings = 1.54059Å (Cu)
   Diffraction Geometry for Lp-Correction: Diffractometer Lp
 
@@ -17,60 +17,317 @@ Whole Pattern Fitting Controls:
 
 Global Refinement Parameters:
 
-  Background Fitting Model: Polynomial (2)
-
-  [x] c0 = 4312.48 (63.324 ) <1>  [x] c1 = 4836.8  (72.2477) <1>
-  [x] c2 = 2222.31 (107.494) <1>
+  Background Fitting Model: Fixed-Curve (25)
 
   Profile Shape Function for All Phases - PSF: pseudo-Voigt
   Peak Broadening Model for All Phases: Individual FWHM Curve
   Instrument Profile Calibration Curve: NRF_MPD_2025ICP
 
-  [x] ZO =-0.13833 (0.55941) <2> Zero Offset
+  [x] ZO =-0.03338 (0.00818) <2> Zero Offset
   [ ] SD = 0.0     (0.0    ) <2> Displacement
   [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
   [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
   [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
 
-  [x] s0 = 1.05601 (1.8565 ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
-  [x] s1 =-0.50567 (4.01621) <3>
-  [x] s2 =-0.20972 (1.83266) <4>
+  [x] s0 = 0.63873 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.37296 (0.0    ) <3>
+  [x] s2 = 0.06504 (0.05851) <4>
 
-  [x] p0 = 0.879   (3.98017) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
-  [x] p1 = 1.28776 (9.08665) <3>
-  [x] p2 = 0.48124 (4.76096) <4>
+  [x] p0 = 0.40781 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 =-0.07227 (0.0    ) <3>
+  [x] p2 = 0.54953 (0.05643) <4>
 
-Phase #1 [Bragg-R = 16.10%]: Ge1
+Phase #1 [Bragg-R = 11.58%]: Gadolinium Germanium Palladium
 
-  Chemical Formula = Ge1
+  Chemical Formula = GdPd2Ge
 
-  Note: [Ge1_690321_stab+336meV.cif] 
+  Reference: Jorda J.L., Ishikawa M., Hovestreydt E., J. Less-Common Met.,
+  v92 p155 (1983)
 
-  Triclinic: P1 (1), Z=1, aP1 [PDF#98-001-4164] [CSD#14164]
+  Note: ANX: NOP2. LPF Collection Code: 300552. Sample Preparation: STARTING
+  MATERIALS:Gd,Pd,Ge. Compound Preparation: levitation-melted. ATMOSPHERE:
+  argon. Sample annealed at 1173 K for 10 d in evacuated quartz tube.
+  Article Title: NEW TERNARY GERMANIDES RPd2Ge OF THE YPd2Si TYPE. Wyckoff
+  Sequence: d c2. Unit Cell Data Source: Powder Diffraction.
 
-  [x] a  = 3.02596 (0.0    ) <2> [x] α  = 119.740 (1823.334) <2>
-  [x] b  = 2.99599 (0.0    ) <2> [x] β  = 90.64   (0.0    ) <2>
-  [x] c  = 3.02596 (0.0    ) <2> [x] γ  = 119.740 (1823.397) <2>
+  Orthorhombic: Pnma (62), Z=4, oP16 [PDF#04-001-4179] [CSD#300552]
 
-  Unit Cell Volume = 19.441(Å³), Density = 6.1999(g/cm³), Absorption(μ) = 468.7(1/cm)
+  [x] a  = 7.40932 (0.00189) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 7.01088 (0.00185) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.60037 (0.00148) <2> [ ] γ  = 90.0    (0.0    ) <2>
 
-  [x] SF = 486.814 (84.2213) <1> Intensity Scale Factor
-  [x] TF = 0.26216 (1.51167) <4> Overall Temperature Factor
+  Unit Cell Volume = 290.916 (131)(Å³), Density = 10.1056(g/cm³), Absorption(μ) = 2702.1(1/cm)
+
+  [x] SF = 131.643 (4.46605) <1> Intensity Scale Factor
+  [x] TF =-0.3239  (0.14736) <4> Overall Temperature Factor
   [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
   [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
 
-  [x] f0 = 1.86163 (6.63635) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
-  [x] f1 = 0.45336 (14.789 ) <3>
-  [x] f2 =-0.30463 (7.45072) <3>
+  [x] f0 = 0.45355 (0.06219) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.23209 (0.13337) <3>
+  [x] f2 = 0.10758 (0.06439) <3>
 
-  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 1
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 8
 
-  [ ] x1 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Ge0 <Ge>
-  [ ] y1 = 0.0     (0.0    ) <4> {                } Ge0 <Ge>
-  [ ] z1 = 0.0     (0.0    ) <4> {                } Ge0 <Ge>
-  [ ] B1 = 0.5     (0.0    ) <4> {                } Ge0 <Ge>
-  [ ] n1 = 1.0     (0.0    ) <4> {                } Ge0 <Ge>
+  [ ] x1 = 0.1767  (0.0    ) <4> {Wyckoff = 8d    } Pd <Pd>
+  [ ] y1 = 0.0517  (0.0    ) <4> {                } Pd <Pd>
+  [ ] z1 = 0.0928  (0.0    ) <4> {                } Pd <Pd>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Pd <Pd>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Pd <Pd>
 
-X-Ray Penetration Depth (EPD): EPD=0.035 (mm), μ=468.7 (1/cm)...{I/I(o)=1.0%, θ=45.0°}
+  [ ] x2 = 0.0303  (0.0    ) <4> {Wyckoff = 4c    } Gd <Gd>
+  [ ] y2 = 0.25    (0.0    ) <0> {                } Gd <Gd>
+  [ ] z2 = 0.644   (0.0    ) <4> {                } Gd <Gd>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Gd <Gd>
 
-Refinement Halted (R/E=12.08), Round=4, Iter=6, P=21, N=749, R=16.1% (E=1.33%, EPS=0.5, χ²=0.025889)
+  [ ] x3 = 0.362   (0.0    ) <4> {Wyckoff = 4c    } Ge <Ge>
+  [ ] y3 = 0.25    (0.0    ) <0> {                } Ge <Ge>
+  [ ] z3 = 0.353   (0.0    ) <4> {                } Ge <Ge>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ge <Ge>
+
+Phase #2 [Bragg-R = 13.84%]: Gadolinium Germanium Nickel
+
+  Chemical Formula = GdNiGe
+
+  Reference: Kotsanidis P.A., Yakinthos J.K., Gamari Seale H., J.
+  Less-Common Met., v157 p295-300 (1990)
+
+  Note: LPF Collection Code: 459547. Sample Preparation: COMPOUND
+  PREPARATION: arc-melted, several times re-melted. ATMOSPHERE:
+  helium.THERMALTREATMENT: annealed at 1073 K for several d. Article Title:
+  Susceptibility of the rare earth ternary equiatomic germanides RNiGe (R=
+  Gd, Tb, Dy, Ho, Er, Tm and Y). Minor Warning: No e.s.d reported/abstracted
+  on the cell dimension. Wyckoff Sequence: c3. Unit Cell Data Source: Powder
+  Diffraction.
+
+  Orthorhombic: Pnma (62), Z=4, oP12 [PDF#04-003-8069] [CSD#459547]
+
+  [x] a  = 7.02857 (0.00398) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 4.30308 (0.00230) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 7.26072 (0.00372) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 219.597 (205)(Å³), Density = 8.7269(g/cm³), Absorption(μ) = 2335.0(1/cm)
+
+  [x] SF = 55.4341 (5.79113) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.89268) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.18362 (0.2079 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.14865 (0.62667) <3>
+  [x] f2 = 0.48136 (0.49515) <3>
+
+  Asymmetry Atoms in Unit Cell = 3, General Site Multiplicity = 8
+
+  [ ] x1 = 0.0212  (0.0    ) <4> {Wyckoff = 4c    } Gd <Gd>
+  [ ] y1 = 0.25    (0.0    ) <0> {                } Gd <Gd>
+  [ ] z1 = 0.6803  (0.0    ) <4> {                } Gd <Gd>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x2 = 0.142   (0.0    ) <4> {Wyckoff = 4c    } Ni <Ni>
+  [ ] y2 = 0.25    (0.0    ) <0> {                } Ni <Ni>
+  [ ] z2 = 0.0609  (0.0    ) <4> {                } Ni <Ni>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Ni <Ni>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Ni <Ni>
+
+  [ ] x3 = 0.2651  (0.0    ) <4> {Wyckoff = 4c    } Ge <Ge>
+  [ ] y3 = 0.25    (0.0    ) <0> {                } Ge <Ge>
+  [ ] z3 = 0.3771  (0.0    ) <4> {                } Ge <Ge>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Ge <Ge>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Ge <Ge>
+
+Phase #3 [Bragg-R = 12.71%]: Gadolinium Platinum
+
+  Chemical Formula = GdPt
+
+  Reference: Baenziger N.C., Moriarty J.L. Jr., Acta Crystallogr., v14 p946
+  (1961)
+
+  Note: ANX: NO. LPF Collection Code: 451427. Sample Preparation: STARTING
+  MATERIALS:Gd,Pt. Compound Preparation: arc-melted. CRUCIBLE: copper
+  hearth. ATMOSPHERE: argon. Article Title: Gadolinium and Dysprosium
+  Intermetallic Phases. I. The Crystal Structures of DyGa and GdPt and Their
+  Related Compounds. Minor Warning: LPF Editor Comment: computed density Dx
+  differs significantly from published calculated density Dx. Significant
+  Warning: 15%<R factor (for powder). Wyckoff Sequence: c2. Unit Cell Data
+  Source: Powder Diffraction.
+
+  Orthorhombic: Pnma (62), Z=4, oP8 [PDF#04-003-0832] [CSD#451427]
+
+  [x] a  = 7.15182 (0.00345) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 4.50654 (0.00310) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 5.60844 (0.00393) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 180.760 (198)(Å³), Density = 12.9461(g/cm³), Absorption(μ) = 3970.1(1/cm)
+
+  [x] SF = 43.3988 (3.92402) <1> Intensity Scale Factor
+  [x] TF = 1.0     (0.6284 ) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.41267 (0.15964) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 =-0.26695 (0.42836) <3>
+  [x] f2 = 0.33551 (0.29784) <3>
+
+  Asymmetry Atoms in Unit Cell = 2, General Site Multiplicity = 8
+
+  [ ] x1 = 0.185   (0.0    ) <4> {Wyckoff = 4c    } Gd <Gd>
+  [ ] y1 = 0.25    (0.0    ) <0> {                } Gd <Gd>
+  [ ] z1 = 0.144   (0.0    ) <4> {                } Gd <Gd>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Gd <Gd>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Gd <Gd>
+
+  [ ] x2 = 0.04    (0.0    ) <4> {Wyckoff = 4c    } Pt <Pt>
+  [ ] y2 = 0.25    (0.0    ) <0> {                } Pt <Pt>
+  [ ] z2 = 0.653   (0.0    ) <4> {                } Pt <Pt>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Pt <Pt>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Pt <Pt>
+
+Phase #4 [Bragg-R = 7.37%]: Si18
+
+  Chemical Formula = Si18
+
+  Note: [Si1_2031443_stab+49meV.cif] 
+
+  Triclinic: P1 (1), Z=18, aP18 [PDF#98-001-2532] [CSD#12532]
+
+  [x] a  = 5.45502 (0.03540) <2> [x] α  = 90.0    (-Fixed-) <2>
+  [x] b  = 13.01543(0.03615) <2> [x] β  = 90.0    (-Fixed-) <2>
+  [x] c  = 5.30433 (0.03580) <2> [x] γ  = 90.0    (-Fixed-) <2>
+
+  Unit Cell Volume = 376.605 (678)(Å³), Density = 2.2289(g/cm³), Absorption(μ) = 135.1(1/cm)
+
+  [x] SF = 28.379  (7.86923) <1> Intensity Scale Factor
+  [x] TF = 1.0     (1.86487) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.37025 (0.10752) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 18, General Site Multiplicity = 1
+
+  [ ] x1 = 0.73393 (0.0    ) <4> {Wyckoff = 1     } Si0 <Si>
+  [ ] y1 = 0.5     (0.0    ) <4> {                } Si0 <Si>
+  [ ] z1 = 0.0     (0.0    ) <4> {                } Si0 <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si0 <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si0 <Si>
+
+  [ ] x2 = 0.22932 (0.0    ) <4> {Wyckoff = 1     } Si1 <Si>
+  [ ] y2 = 0.71208 (0.0    ) <4> {                } Si1 <Si>
+  [ ] z2 = 0.00711 (0.0    ) <4> {                } Si1 <Si>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Si1 <Si>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Si1 <Si>
+
+  [ ] x3 = 0.65429 (0.0    ) <4> {Wyckoff = 1     } Si2 <Si>
+  [ ] y3 = 0.08486 (0.0    ) <4> {                } Si2 <Si>
+  [ ] z3 = 0.08151 (0.0    ) <4> {                } Si2 <Si>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Si2 <Si>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Si2 <Si>
+
+  [ ] x4 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si3 <Si>
+  [ ] y4 = 0.17378 (0.0    ) <4> {                } Si3 <Si>
+  [ ] z4 = 0.25    (0.0    ) <4> {                } Si3 <Si>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Si3 <Si>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Si3 <Si>
+
+  [ ] x5 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si4 <Si>
+  [ ] y5 = 0.38583 (0.0    ) <4> {                } Si4 <Si>
+  [ ] z5 = 0.25    (0.0    ) <4> {                } Si4 <Si>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Si4 <Si>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Si4 <Si>
+
+  [ ] x6 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si5 <Si>
+  [ ] y6 = 0.59769 (0.0    ) <4> {                } Si5 <Si>
+  [ ] z6 = 0.25    (0.0    ) <4> {                } Si5 <Si>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Si5 <Si>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Si5 <Si>
+
+  [ ] x7 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si6 <Si>
+  [ ] y7 = 0.81168 (0.0    ) <4> {                } Si6 <Si>
+  [ ] z7 = 0.25    (0.0    ) <4> {                } Si6 <Si>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Si6 <Si>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Si6 <Si>
+
+  [ ] x8 = 0.34571 (0.0    ) <4> {Wyckoff = 1     } Si7 <Si>
+  [ ] y8 = 0.08486 (0.0    ) <4> {                } Si7 <Si>
+  [ ] z8 = 0.41849 (0.0    ) <4> {                } Si7 <Si>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Si7 <Si>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Si7 <Si>
+
+  [ ] x9 = 0.77068 (0.0    ) <4> {Wyckoff = 1     } Si8 <Si>
+  [ ] y9 = 0.71208 (0.0    ) <4> {                } Si8 <Si>
+  [ ] z9 = 0.49289 (0.0    ) <4> {                } Si8 <Si>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Si8 <Si>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Si8 <Si>
+
+  [ ] x10= 0.26607 (0.0    ) <4> {Wyckoff = 1     } Si9 <Si>
+  [ ] y10= 0.5     (0.0    ) <4> {                } Si9 <Si>
+  [ ] z10= 0.5     (0.0    ) <4> {                } Si9 <Si>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Si9 <Si>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Si9 <Si>
+
+  [ ] x11= 0.77068 (0.0    ) <4> {Wyckoff = 1     } Si10 <Si>
+  [ ] y11= 0.28792 (0.0    ) <4> {                } Si10 <Si>
+  [ ] z11= 0.50711 (0.0    ) <4> {                } Si10 <Si>
+  [ ] B11= 0.5     (0.0    ) <4> {                } Si10 <Si>
+  [ ] n11= 1.0     (0.0    ) <4> {                } Si10 <Si>
+
+  [ ] x12= 0.34571 (0.0    ) <4> {Wyckoff = 1     } Si11 <Si>
+  [ ] y12= 0.91514 (0.0    ) <4> {                } Si11 <Si>
+  [ ] z12= 0.58151 (0.0    ) <4> {                } Si11 <Si>
+  [ ] B12= 0.5     (0.0    ) <4> {                } Si11 <Si>
+  [ ] n12= 1.0     (0.0    ) <4> {                } Si11 <Si>
+
+  [ ] x13= 0.5     (0.0    ) <4> {Wyckoff = 1     } Si12 <Si>
+  [ ] y13= 0.18832 (0.0    ) <4> {                } Si12 <Si>
+  [ ] z13= 0.75    (0.0    ) <4> {                } Si12 <Si>
+  [ ] B13= 0.5     (0.0    ) <4> {                } Si12 <Si>
+  [ ] n13= 1.0     (0.0    ) <4> {                } Si12 <Si>
+
+  [ ] x14= 0.0     (0.0    ) <4> {Wyckoff = 1     } Si13 <Si>
+  [ ] y14= 0.40231 (0.0    ) <4> {                } Si13 <Si>
+  [ ] z14= 0.75    (0.0    ) <4> {                } Si13 <Si>
+  [ ] B14= 0.5     (0.0    ) <4> {                } Si13 <Si>
+  [ ] n14= 1.0     (0.0    ) <4> {                } Si13 <Si>
+
+  [ ] x15= 0.5     (0.0    ) <4> {Wyckoff = 1     } Si14 <Si>
+  [ ] y15= 0.61417 (0.0    ) <4> {                } Si14 <Si>
+  [ ] z15= 0.75    (0.0    ) <4> {                } Si14 <Si>
+  [ ] B15= 0.5     (0.0    ) <4> {                } Si14 <Si>
+  [ ] n15= 1.0     (0.0    ) <4> {                } Si14 <Si>
+
+  [ ] x16= 0.0     (0.0    ) <4> {Wyckoff = 1     } Si15 <Si>
+  [ ] y16= 0.82622 (0.0    ) <4> {                } Si15 <Si>
+  [ ] z16= 0.75    (0.0    ) <4> {                } Si15 <Si>
+  [ ] B16= 0.5     (0.0    ) <4> {                } Si15 <Si>
+  [ ] n16= 1.0     (0.0    ) <4> {                } Si15 <Si>
+
+  [ ] x17= 0.65429 (0.0    ) <4> {Wyckoff = 1     } Si16 <Si>
+  [ ] y17= 0.91514 (0.0    ) <4> {                } Si16 <Si>
+  [ ] z17= 0.91849 (0.0    ) <4> {                } Si16 <Si>
+  [ ] B17= 0.5     (0.0    ) <4> {                } Si16 <Si>
+  [ ] n17= 1.0     (0.0    ) <4> {                } Si16 <Si>
+
+  [ ] x18= 0.22932 (0.0    ) <4> {Wyckoff = 1     } Si17 <Si>
+  [ ] y18= 0.28792 (0.0    ) <4> {                } Si17 <Si>
+  [ ] z18= 0.99289 (0.0    ) <4> {                } Si17 <Si>
+  [ ] B18= 0.5     (0.0    ) <4> {                } Si17 <Si>
+  [ ] n18= 1.0     (0.0    ) <4> {                } Si17 <Si>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  GdPd2Ge ● Gadolinium Germanium P    50.9 (2.6)    36.7 (3.3)    66.6 (0.5)   3.63  10.1056   04-001-4179
+  GdNiGe ● Gadolinium Germanium Ni    21.4 (2.4)    17.9 (2.4)    14.6 (0.6)   5.87   8.7269   04-003-8069
+  GdPt ● Gadolinium Platinum          16.8 (1.6)     9.5 (1.2)    14.0 (0.3)   7.93  12.9461   04-003-0832
+  Si18                                11.0 (2.1)    35.9 (7.4)     4.9 (1.7)   2.65   2.2289   98-001-2532
+
+  XRF(Wt%): Pt=9.3%, Gd=37.2%, Pd=24.4%, Ge=13.7%, Ni=4.4%, Si=11.0%, XRF(DD%): Pt=7.7%, Gd=37.8%, Pd=32.0%, Ge=14.6%, Ni=3.0%, Si=4.9%
+  Density of Specimen = 7.2992(g/cm³), Absorption(μ) of Specimen = 1834.6(1/cm), EPD(1.0%,θ=45.0°) = 0.009(mm)
+
+Refinement Halted (R/E=3.83), Round=4, Iter=10, P=33, N=5751, R=9.39% (E=2.45%, EPS=0.5, χ²=0.008845)
