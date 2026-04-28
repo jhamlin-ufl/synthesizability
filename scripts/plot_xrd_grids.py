@@ -59,8 +59,7 @@ def load_samples():
     sheet1 = sheet1.dropna(subset=['Sample Number'])
     sheet1['Sample Number'] = sheet1['Sample Number'].astype(int)
 
-    fa_nums = [482 if n == 561 else n
-               for n in fa['Sample Number'].dropna().astype(int).tolist()]
+    fa_nums = fa['Sample Number'].dropna().astype(int).tolist()
 
     sub = synth[synth['sample_number'].isin(fa_nums) &
                 (synth['prediction_list'] != 'Diffusion Model')].copy()
