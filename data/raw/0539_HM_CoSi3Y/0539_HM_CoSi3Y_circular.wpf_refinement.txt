@@ -1,0 +1,179 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Wednesday, April 29, 2026, 9:23 AM
+FILE: E:\Jade Analysis (4_29)\539\0539_HM_CoSi3Y_circular.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=13613/367, Cu(45kV,40mA), Wednesday, April 29, 2026, 8:51 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (24)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: NRF_MPD_2025ICP
+
+  [x] ZO = 0.02237 (0.00651) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 =-0.25461 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 =-0.03618 (0.0    ) <3>
+  [x] s2 =-1.65E-4 (0.04935) <4>
+
+  [x] p0 = 0.00917 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.89836 (0.0    ) <3>
+  [x] p2 = 0.10416 (0.04944) <4>
+
+Phase #1 [Bragg-R = 21.95%]: Y2Co2Si6
+
+  Chemical Formula = Y2Co2Si6
+
+  Triclinic: P1 (1), Z=2, aP10 [E:\OQMD_phases\Co1Si3Y1_1799027_stab+8meV.cif]
+
+  [x] a  = 3.96388 (12.21675) <2> [x] α  = 21.168  (47.818 ) <2>
+  [x] b  = 10.68855(8.68591) <2> [x] β  = 90.000  (1065257.000) <2>
+  [x] c  = 10.68855(8.68591) <2> [x] γ  = 90.000  (1065255.000) <2>
+
+  Unit Cell Volume = 163.528 (895)(Å³), Density = 4.7133(g/cm³), Absorption(μ) = 720.2(1/cm)
+
+  [x] SF = 237.506 (7.6404 ) <1> Intensity Scale Factor
+  [x] TF =-1.25263 (0.14809) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] W  = 0.03182 (0.00953) <2> FWHM² = U x tan(θ)² + V x tan(θ) + W
+  [x] V  = 0.05645 (0.04365) <3>
+  [x] U  = 0.05418 (0.05522) <3>
+
+  Asymmetry Atoms in Unit Cell = 10, General Site Multiplicity = 1
+
+  [ ] x1 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Co0 <Co>
+  [ ] y1 = 0.38959 (0.0    ) <4> {                } Co0 <Co>
+  [ ] z1 = 0.38959 (0.0    ) <4> {                } Co0 <Co>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Co0 <Co>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Co0 <Co>
+
+  [ ] x2 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Co1 <Co>
+  [ ] y2 = 0.607   (0.0    ) <4> {                } Co1 <Co>
+  [ ] z2 = 0.607   (0.0    ) <4> {                } Co1 <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co1 <Co>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Co1 <Co>
+
+  [ ] x3 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si2 <Si>
+  [ ] y3 = 0.05458 (0.0    ) <4> {                } Si2 <Si>
+  [ ] z3 = 0.05458 (0.0    ) <4> {                } Si2 <Si>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Si2 <Si>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Si2 <Si>
+
+  [ ] x4 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si3 <Si>
+  [ ] y4 = 0.28259 (0.0    ) <4> {                } Si3 <Si>
+  [ ] z4 = 0.28259 (0.0    ) <4> {                } Si3 <Si>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Si3 <Si>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Si3 <Si>
+
+  [ ] x5 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si4 <Si>
+  [ ] y5 = 0.44207 (0.0    ) <4> {                } Si4 <Si>
+  [ ] z5 = 0.44207 (0.0    ) <4> {                } Si4 <Si>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Si4 <Si>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Si4 <Si>
+
+  [ ] x6 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Si5 <Si>
+  [ ] y6 = 0.55451 (0.0    ) <4> {                } Si5 <Si>
+  [ ] z6 = 0.55451 (0.0    ) <4> {                } Si5 <Si>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Si5 <Si>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Si5 <Si>
+
+  [ ] x7 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si6 <Si>
+  [ ] y7 = 0.71397 (0.0    ) <4> {                } Si6 <Si>
+  [ ] z7 = 0.71397 (0.0    ) <4> {                } Si6 <Si>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Si6 <Si>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Si6 <Si>
+
+  [ ] x8 = 0.0     (0.0    ) <4> {Wyckoff = 1     } Si7 <Si>
+  [ ] y8 = 0.94202 (0.0    ) <4> {                } Si7 <Si>
+  [ ] z8 = 0.94202 (0.0    ) <4> {                } Si7 <Si>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Si7 <Si>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Si7 <Si>
+
+  [ ] x9 = 0.5     (0.0    ) <4> {Wyckoff = 1     } Y8 <Y>
+  [ ] y9 = 0.16744 (0.0    ) <4> {                } Y8 <Y>
+  [ ] z9 = 0.16744 (0.0    ) <4> {                } Y8 <Y>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Y8 <Y>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Y8 <Y>
+
+  [ ] x10= 0.5     (0.0    ) <4> {Wyckoff = 1     } Y9 <Y>
+  [ ] y10= 0.82912 (0.0    ) <4> {                } Y9 <Y>
+  [ ] z10= 0.82912 (0.0    ) <4> {                } Y9 <Y>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Y9 <Y>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Y9 <Y>
+
+Phase #2 [Bragg-R = 21.86%]: Yttrium Cobalt Silicon
+
+  Chemical Formula = CoSi2Y
+
+  Orthorhombic: Cmcm (63), Z=4, oC16 [E:\Jade Analysis (4_29)\539\PDF Card - 04-003-7723.cif]
+
+  [x] a  = 4.01732 (0.00277) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [x] b  = 16.12477(0.00829) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [x] c  = 3.99996 (0.00377) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 259.111 (331)(Å³), Density = 5.2293(g/cm³), Absorption(μ) = 865.4(1/cm)
+
+  [x] SF = 273.43  (8.96093) <1> Intensity Scale Factor
+  [x] TF = 0.61531 (0.23698) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] W  = 1.04093 (0.25202) <2> FWHM² = U x tan(θ)² + V x tan(θ) + W
+  [x] V  =-0.0282  (0.87539) <3>
+  [x] U  =-0.30703 (0.42694) <3>
+
+  Asymmetry Atoms in Unit Cell = 4, General Site Multiplicity = 16
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4     } Si1 <Si>
+  [ ] y1 = 0.0434  (0.0    ) <4> {                } Si1 <Si>
+  [ ] z1 = 0.25    (0.0    ) <0> {                } Si1 <Si>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Si1 <Si>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Si1 <Si>
+
+  [ ] x2 = 0.0     (0.0    ) <0> {Wyckoff = 4     } Co2 <Co>
+  [ ] y2 = 0.1842  (0.0    ) <4> {                } Co2 <Co>
+  [ ] z2 = 0.25    (0.0    ) <0> {                } Co2 <Co>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Co2 <Co>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Co2 <Co>
+
+  [ ] x3 = 0.0     (0.0    ) <0> {Wyckoff = 4     } Y3 <Y>
+  [ ] y3 = 0.393   (0.0    ) <4> {                } Y3 <Y>
+  [ ] z3 = 0.25    (0.0    ) <0> {                } Y3 <Y>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Y3 <Y>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Y3 <Y>
+
+  [ ] x4 = 0.0     (0.0    ) <0> {Wyckoff = 4     } Si4 <Si>
+  [ ] y4 = 0.7508  (0.0    ) <4> {                } Si4 <Si>
+  [ ] z4 = 0.25    (0.0    ) <0> {                } Si4 <Si>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Si4 <Si>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Si4 <Si>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Y2Co2Si6                            46.5 (1.8)    49.1 (2.4)    60.4 (0.9)   4.80   4.7133   Co1Si3Y1_1799027_stab+8meV.cif
+  CoSi2Y ● Yttrium Cobalt Silicon     53.5 (2.1)    50.9 (2.5)    39.6 (1.0)   3.06   5.2293   PDF Card - 04-003-7723.cif
+
+  XRF(Wt%): Y=41.1%, Co=27.3%, Si=31.6%, XRF(DD%): Y=40.4%, Co=26.8%, Si=32.8%
+  Density of Specimen = 4.9761(g/cm³), Absorption(μ) of Specimen = 794.2(1/cm), EPD(1.0%,θ=45.0°) = 0.021(mm)
+
+Refinement Halted (R/E=7.0), Round=4, Iter=10, P=22, N=5751, R=18.57% (E=2.65%, EPS=0.5, χ²=0.034606)
