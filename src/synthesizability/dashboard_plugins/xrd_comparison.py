@@ -150,7 +150,9 @@ def get_summary_cards(df) -> list[dict]:
 
 
 def get_table_columns(df) -> list[str]:
-    return []
+    # Flags which samples carry an annealed scan overlaid on their comparison
+    # plot. collect_table_columns() drops it if the column is absent.
+    return ['annealed_data_available']
 
 
 def _pattern_curve(pattern) -> tuple[np.ndarray, np.ndarray] | None:

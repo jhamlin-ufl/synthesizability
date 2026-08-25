@@ -37,7 +37,8 @@ CORE_DETAIL_SECTIONS = {
     'Characterization': ['superconductivity', 'tc_kelvin', 'xrd_type', 'xrd_instrument', 'xrd_result'],
     'Synthesis Details': ['synthesis_content', 'mass_loss_percent', 'initial_mass_g', 'final_mass_g'],
     'Cost & Feasibility': ['price_per_gram', 'arc_meltable', 'disorder_probability', 'prediction_list'],
-    'XRD Data': ['xrd_patterns', 'xrd_files', 'xrd_n_files', 'xrd_two_theta_min', 'xrd_two_theta_max'],
+    'XRD Data': ['xrd_patterns', 'xrd_files', 'xrd_n_files', 'annealed_data_available',
+                 'xrd_two_theta_min', 'xrd_two_theta_max'],
     'Susceptibility Data': ['chi_files', 'chi_n_files', 'chi_has_high_field', 'chi_fields'],
     'Status': ['status_content'],
 }
