@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 from ..parsers import parse_status_file, parse_synthesis_file, parse_xrd_file
-from ..parsers.xrd import is_xrd_file
+from ..parsers.xrd import is_xrd_file, is_annealed_file
 from ..formula import enrich_with_formula_properties
 
 
@@ -87,31 +87,37 @@ def parse_chi_files(dir_path: Path) -> dict:
 def parse_xrd_files(dir_path: Path) -> list:
     """
     Parse all XRD files in a directory by content inspection.
-    
+
+    Patterns come back in a deterministic order: as-cast first, then annealed
+    re-measurements, alphabetically within each group. Dashboard comparison
+    plots are cached by a pattern's index in this list, so an unstable order
+    (plain iterdir()) would let a cached plot pair with a different pattern.
+
     Returns:
         List of XRD pattern dicts from parse_xrd_file()
     """
     xrd_patterns = []
-    
+
     # Check all files in directory
-    for file in dir_path.iterdir():
+    for file in sorted(dir_path.iterdir(), key=lambda f: (is_annealed_file(f), f.name)):
         if not file.is_file():
             continue
-        
+
         # Skip obviously non-XRD files
         if file.suffix in ['.pptx', '.pdf', '.png', '.jpg']:
             continue
-        
+
         # Try to parse as XRD
         try:
             if is_xrd_file(file):
                 pattern = parse_xrd_file(file)
                 pattern['filename'] = file.name  # Add filename to pattern
+                pattern['annealed'] = is_annealed_file(file)
                 xrd_patterns.append(pattern)
         except Exception as e:
             # Silently skip files that aren't XRD data
             pass
-    
+
     return xrd_patterns
 
 
@@ -129,6 +135,7 @@ def get_xrd_summary_columns(xrd_patterns: list) -> dict:
             'xrd_instrument': None,
             'xrd_two_theta_min': None,
             'xrd_two_theta_max': None,
+            'annealed_data_available': False,
         }
     
     # Collect filenames
@@ -157,6 +164,7 @@ def get_xrd_summary_columns(xrd_patterns: list) -> dict:
         'xrd_instrument': instrument_str,
         'xrd_two_theta_min': overall_min,
         'xrd_two_theta_max': overall_max,
+        'annealed_data_available': any(p.get('annealed') for p in xrd_patterns),
     }
 
 

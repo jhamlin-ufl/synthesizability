@@ -69,6 +69,20 @@ def is_xrd_file(filepath: Path) -> bool:
         return False
 
 
+def is_annealed_file(filepath) -> bool:
+    """
+    Check if an XRD file holds a post-anneal re-measurement.
+
+    Annealed patterns live in the same sample folder as the as-cast pattern
+    and are distinguished only by an `_annealed` suffix on the filename.
+
+    Returns:
+        True if the filename marks the file as an annealed measurement
+    """
+    name = filepath.name if isinstance(filepath, Path) else str(filepath)
+    return '_annealed' in name.lower()
+
+
 def parse_xrd_file(filepath: Path) -> dict:
     """
     Parse XRD file (auto-detects format).
