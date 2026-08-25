@@ -20,6 +20,8 @@ _GENAI_DIR = Path('data/external/genai_structures')
 
 _FWHM = 0.15  # degrees — approximate lab instrument broadening
 
+_ANNEALED_OFFSET = 1.15  # vertical gap between stacked measured patterns
+
 
 # ---------------------------------------------------------------------------
 # CIF lookup
@@ -84,29 +86,51 @@ def _make_comparison_plot(
     sim_intensity: np.ndarray,
     sim_label: str,
     measured_filename: str,
+    annealed: list | None = None,
+    x_range: tuple[float, float] | None = None,
 ) -> plt.Figure:
-    """Return a matplotlib Figure with measured (blue) and simulated (red) patterns."""
-    # Normalize measured to max=1
-    meas_max = meas_intensity.max()
-    if meas_max > 0:
-        meas_norm = meas_intensity / meas_max
-    else:
-        meas_norm = meas_intensity
+    """
+    Return a matplotlib Figure with measured (blue) and simulated (red) patterns.
+
+    Annealed re-measurements are stacked above the as-cast pattern with a fixed
+    vertical offset rather than sharing its baseline — drawn on one baseline the
+    two measured patterns obscure each other exactly where they differ.
+    """
+    def _norm(values: np.ndarray) -> np.ndarray:
+        peak = values.max()
+        return values / peak if peak > 0 else values
 
     fig, ax = plt.subplots(figsize=(10, 4))
 
-    ax.plot(meas_two_theta, meas_norm,
-            color='#1f4e79', linewidth=0.8, label='Measured')
+    ax.plot(meas_two_theta, _norm(meas_intensity),
+            color='#1f4e79', linewidth=0.8,
+            label='Measured (as-cast)' if annealed else 'Measured')
     ax.plot(sim_two_theta, sim_intensity,
             color='#c0392b', linewidth=1.0, alpha=0.85, label=sim_label)
 
+    top = 1.0
+    for i, (tt, intensity, label) in enumerate(annealed or []):
+        offset = _ANNEALED_OFFSET * (i + 1)
+        ax.plot(tt, _norm(intensity) + offset,
+                color='#1a7f5a', linewidth=0.8, label=label)
+        top = offset + 1.0
+
     ax.set_xlabel('2θ (°)', fontsize=11)
-    ax.set_ylabel('Intensity (normalized)', fontsize=11)
-    ax.set_xlim(meas_two_theta.min(), meas_two_theta.max())
-    ax.set_ylim(bottom=0)
+    ax.set_ylabel('Intensity (normalized, offset)' if annealed else 'Intensity (normalized)',
+                  fontsize=11)
+    ax.set_xlim(*(x_range or (meas_two_theta.min(), meas_two_theta.max())))
+    if annealed:
+        ax.set_ylim(0, top + 0.30)
+    else:
+        ax.set_ylim(bottom=0)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    ax.legend(loc='upper right', fontsize=9)
+    # Only the stacked layout needs a more opaque legend, and keeping the
+    # as-cast-only call untouched leaves those plots byte-identical.
+    if annealed:
+        ax.legend(loc='upper right', fontsize=9, framealpha=0.9)
+    else:
+        ax.legend(loc='upper right', fontsize=9)
     ax.set_title(measured_filename, fontsize=9, color='#555555', pad=4)
 
     fig.tight_layout()
@@ -129,6 +153,40 @@ def get_table_columns(df) -> list[str]:
     return []
 
 
+def _pattern_curve(pattern) -> tuple[np.ndarray, np.ndarray] | None:
+    """Return (two_theta, intensity) for a pattern, or None if unusable."""
+    two_theta = pattern.get('two_theta')
+    intensity = pattern.get('intensity')
+    if two_theta is None or intensity is None or len(two_theta) < 10:
+        return None
+    return two_theta, intensity
+
+
+def _plot_is_current(plot_path: Path, sample_id: str,
+                     filenames: list[str], cif_path: Path) -> bool:
+    """
+    True when plot_path exists and postdates every input that feeds it.
+
+    A plain exists() check would leave a cached plot in place after an annealed
+    scan is added to the sample folder, so the new curve would never appear.
+    """
+    if not plot_path.exists():
+        return False
+
+    plot_mtime = plot_path.stat().st_mtime
+    raw_dir = Path('data/raw') / sample_id
+    sources = [raw_dir / name for name in filenames if name] + [cif_path]
+
+    for source in sources:
+        try:
+            if source.stat().st_mtime > plot_mtime:
+                return False
+        except OSError:
+            continue
+
+    return True
+
+
 def generate(row, plots_dir: Path, results_dir: Path) -> None:
     patterns = row.get('xrd_patterns') if hasattr(row, 'get') else None
     if patterns is None:
@@ -144,18 +202,37 @@ def generate(row, plots_dir: Path, results_dir: Path) -> None:
     if cif_path is None:
         return
 
-    for i, meas in enumerate(patterns):
+    annealed_patterns = [p for p in patterns if p.get('annealed')]
+    as_cast_patterns = [p for p in patterns if not p.get('annealed')]
+
+    # Annealed scans ride along on the as-cast plots instead of getting their
+    # own. A sample with nothing but an annealed scan still gets plotted.
+    primary = as_cast_patterns or annealed_patterns
+    overlay = annealed_patterns if as_cast_patterns else []
+
+    overlay_curves = []
+    for pattern in overlay:
+        curve = _pattern_curve(pattern)
+        if curve is not None:
+            overlay_curves.append((curve[0], curve[1], 'Measured (annealed)'))
+
+    overlay_names = [p.get('filename', '') for p in overlay]
+
+    for i, meas in enumerate(primary):
         plot_path = plots_dir / f'{row["sample_id"]}_xrd_comparison_{i}.png'
-        if plot_path.exists():
+        if _plot_is_current(plot_path, row['sample_id'],
+                            [meas.get('filename', '')] + overlay_names, cif_path):
             continue
 
-        two_theta = meas.get('two_theta')
-        intensity = meas.get('intensity')
-        if two_theta is None or len(two_theta) < 10:
+        curve = _pattern_curve(meas)
+        if curve is None:
             continue
+        two_theta, intensity = curve
 
-        t_min = float(two_theta.min())
-        t_max = float(two_theta.max())
+        # Span every curve drawn, so the simulation also covers the annealed
+        # scan — it often starts lower in 2θ than the as-cast pattern.
+        t_min = min([float(two_theta.min())] + [float(t.min()) for t, _, _ in overlay_curves])
+        t_max = max([float(two_theta.max())] + [float(t.max()) for t, _, _ in overlay_curves])
 
         try:
             sim_tt, sim_int = _simulate_pattern(cif_path, t_min, t_max)
@@ -173,6 +250,8 @@ def generate(row, plots_dir: Path, results_dir: Path) -> None:
             sim_tt, sim_int,
             sim_label,
             meas.get('filename', f'pattern {i}'),
+            annealed=overlay_curves,
+            x_range=(t_min, t_max),
         )
         fig.savefig(plot_path, dpi=150, bbox_inches='tight')
         plt.close(fig)
@@ -207,6 +286,13 @@ def get_detail_section(row, plots_dir: Path, results_dir: Path) -> dict | None:
             meta = 'OQMD stable phase'
     else:
         meta = 'Diffusion Model predicted structure'
+
+    try:
+        patterns = row['xrd_patterns']
+    except (KeyError, TypeError):
+        patterns = None
+    if isinstance(patterns, list) and any(p.get('annealed') for p in patterns):
+        meta += ' &nbsp;·&nbsp; annealed scan overlaid (offset above as-cast)'
 
     html = f'<div class="field-value" style="margin-bottom:8px;">{meta}</div>\n'
 
