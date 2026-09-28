@@ -69,11 +69,14 @@ def _composition_to_id(formula_reduced: str) -> str:
     """
     Parse OPTIMADE chemical_formula_reduced string into OQMD-style composition_id.
     e.g. "Al8Co7Fe1" → "Al8 Co7 Fe1"  (elements sorted alphabetically)
+
+    OPTIMADE omits a count of 1 ("CoSiY", "Co3Si2Y"), so a missing count
+    means 1.
     """
-    tokens = re.findall(r"([A-Z][a-z]*)(\d+)", formula_reduced)
+    tokens = re.findall(r"([A-Z][a-z]*)(\d*)", formula_reduced)
     parts = []
     for el, count in sorted(tokens, key=lambda x: x[0]):
-        parts.append(f"{el}{count}")
+        parts.append(f"{el}{count or 1}")
     return " ".join(parts)
 
 
