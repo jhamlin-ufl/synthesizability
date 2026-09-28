@@ -1,26 +1,26 @@
 formula,hull_sources,hull_source_count,hull_oqmd,hull_mp,hull_alex_pbe,hull_alex_pbesol
-Al3Cu2Y,['OQMD'],1,True,False,False,False
-Al4FeCo3,['OQMD'],1,True,False,False,False
+Al3Cu2Y,"['OQMD', 'Alexandria PBE', 'Alexandria PBEsol']",3,True,False,True,True
+Al4FeCo3,"['OQMD', 'Alexandria PBE']",2,True,False,True,False
 Al8FeCo7,"['OQMD', 'MP']",2,True,True,False,False
-B2NbNi2,[],0,False,False,False,False
-C2CrSc,"['OQMD', 'MP']",2,True,True,False,False
-C2LaRu,[],0,False,False,False,False
-CoSi3Y,['OQMD'],1,True,False,False,False
-CoSiY,"['OQMD', 'MP']",2,True,True,False,False
-Cu5GePd6,['OQMD'],1,True,False,False,False
+B2NbNi2,['Alexandria PBEsol'],1,False,False,False,True
+C2CrSc,"['OQMD', 'MP', 'Alexandria PBEsol']",3,True,True,False,True
+C2LaRu,['Alexandria PBEsol'],1,False,False,False,True
+CoSi3Y,"['OQMD', 'Alexandria PBE', 'Alexandria PBEsol']",3,True,False,True,True
+CoSiY,"['OQMD', 'MP', 'Alexandria PBE', 'Alexandria PBEsol']",4,True,True,True,True
+Cu5GePd6,"['OQMD', 'Alexandria PBE']",2,True,False,True,False
 CuNb3Zr2,[],0,False,False,False,False
-CuSnY,"['OQMD', 'MP']",2,True,True,False,False
+CuSnY,"['OQMD', 'MP', 'Alexandria PBE', 'Alexandria PBEsol']",4,True,True,True,True
 GaHf2Nb,[],0,False,False,False,False
 GaNbZr2,[],0,False,False,False,False
 Gd2Fe3Ge5,['OQMD'],1,True,False,False,False
 Gd3CoSn6,['OQMD'],1,True,False,False,False
-GdCo4Sn6,['OQMD'],1,True,False,False,False
-GdFeGe2,[],0,False,False,False,False
-GdFeGe3,['OQMD'],1,True,False,False,False
-GdGePt2,['OQMD'],1,True,False,False,False
-Hf2MoIr,"['OQMD', 'MP']",2,True,True,False,False
+GdCo4Sn6,"['OQMD', 'Alexandria PBE', 'Alexandria PBEsol']",3,True,False,True,True
+GdFeGe2,"['Alexandria PBE', 'Alexandria PBEsol']",2,False,False,True,True
+GdFeGe3,"['OQMD', 'Alexandria PBE', 'Alexandria PBEsol']",3,True,False,True,True
+GdGePt2,"['OQMD', 'Alexandria PBE', 'Alexandria PBEsol']",3,True,False,True,True
+Hf2MoIr,"['OQMD', 'MP', 'Alexandria PBE', 'Alexandria PBEsol']",4,True,True,True,True
 Hf2MoNb,[],0,False,False,False,False
-Hf2MoRe3,[],0,False,False,False,False
+Hf2MoRe3,['Alexandria PBE'],1,False,False,True,False
 Hf2MoTi,[],0,False,False,False,False
 Hf2Nb3Ru,[],0,False,False,False,False
 HfMo2Zr,[],0,False,False,False,False
@@ -29,8 +29,8 @@ HfMoTi,[],0,False,False,False,False
 HfTa4Zr,[],0,False,False,False,False
 La2PdAu2,['OQMD'],1,True,False,False,False
 La5Al3Co2,['OQMD'],1,True,False,False,False
-LaNiSi3,['OQMD'],1,True,False,False,False
-MnAl2Au6,['OQMD'],1,True,False,False,False
+LaNiSi3,"['OQMD', 'Alexandria PBE', 'Alexandria PBEsol']",3,True,False,True,True
+MnAl2Au6,"['OQMD', 'Alexandria PBE']",2,True,False,True,False
 Mo3NbRu2,[],0,False,False,False,False
 Mo3NbTi2,[],0,False,False,False,False
 Mo3Os0.5Ge0.5,[],0,False,False,False,False
@@ -46,15 +46,15 @@ Nb5Si2V,[],0,False,False,False,False
 NbTa2Zr,[],0,False,False,False,False
 NiGe2Pt,['OQMD'],1,True,False,False,False
 Re4TaZr,[],0,False,False,False,False
-Sc2CuPd,['MP'],1,False,True,False,False
-Sc2Pd5Au,"['OQMD', 'MP']",2,True,True,False,False
-Sc3CuPd2,['OQMD'],1,True,False,False,False
-ScCu4Pd,['OQMD'],1,True,False,False,False
-ScCuPd2,[],0,False,False,False,False
-ScPd2Au,[],0,False,False,False,False
+Sc2CuPd,"['MP', 'Alexandria PBE']",2,False,True,True,False
+Sc2Pd5Au,"['OQMD', 'MP', 'Alexandria PBE']",3,True,True,True,False
+Sc3CuPd2,"['OQMD', 'Alexandria PBEsol']",2,True,False,False,True
+ScCu4Pd,"['OQMD', 'Alexandria PBE']",2,True,False,True,False
+ScCuPd2,['Alexandria PBEsol'],1,False,False,False,True
+ScPd2Au,['Alexandria PBE'],1,False,False,True,False
 ScPd5Au2,[],0,False,False,False,False
 Ti2GePt8,"['OQMD', 'MP']",2,True,True,False,False
 Ti2SiPt8,['OQMD'],1,True,False,False,False
 TiGePt5,['OQMD'],1,True,False,False,False
 TiSiPt5,['OQMD'],1,True,False,False,False
-ZrSiPt5,"['OQMD', 'MP']",2,True,True,False,False
+ZrSiPt5,"['OQMD', 'MP', 'Alexandria PBE']",3,True,True,True,False
