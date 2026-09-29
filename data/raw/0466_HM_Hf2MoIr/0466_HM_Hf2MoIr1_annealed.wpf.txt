@@ -1,0 +1,209 @@
+USER: User
+JADE: WPF-Rietveld Refinement Report
+DATE: Tuesday, September 08, 2026, 11:43 AM
+FILE: E:\Jade Analysis (9_8)\466\0466_HM_Hf2MoIr1_annealed.txt
+IDEN: HardwareIndicator=65519
+SCAN: 5.0°/120.0°/0.02°/1(s), I(p)=17790/691, Cu, Tuesday, September 08, 2026, 11:38 AM
+
+Whole Pattern Fitting Controls:
+
+  Pattern Fitted-Range = 5.0° - 120.0°
+  Wavelength to Compute d-Spacings = 1.54059Å (Cu)
+  Diffraction Geometry for Lp-Correction: Diffractometer Lp
+
+  [x] Kα2 Peaks Present              [ ] Allow Negative Isotropic B's
+  [ ] Variable-Slit Pattern          [x] Apply Anomalous Scattering
+  [x] Use Isotropic B Values Only    [ ] Beam Spill-Off below 0.0°
+
+Global Refinement Parameters:
+
+  Background Fitting Model: Fixed-Curve (25)
+
+  Profile Shape Function for All Phases - PSF: pseudo-Voigt
+  Peak Broadening Model for All Phases: Individual FWHM Curve
+  Instrument Profile Calibration Curve: Constant FWHM = 0.1°
+
+  [x] ZO = 0.1237  (0.00473) <2> Zero Offset
+  [ ] SD = 0.0     (0.0    ) <2> Displacement
+  [ ] DS = 0.0     (0.0    ) <2> Distance Slack (Image-Plate)
+  [ ] α2 = 0.5     (0.0    ) <4> Kα2/Kα1 Ratio
+  [ ] MC = 1.0     (0.0    ) <4> Monochromator Correction for Lp Factor
+
+  [x] s0 = 0.09967 (0.0    ) <3> Skew = s0 + s1 x 2θ + s2 x 2θ²
+  [x] s1 = 0.00555 (0.0    ) <3>
+  [x] s2 = 0.14681 (0.02219) <4>
+
+  [x] p0 = 0.51272 (0.0    ) <3> Lorentzian Component = p0 + p1 x 2θ + p2 x 2θ²
+  [x] p1 = 0.01063 (0.0    ) <3>
+  [x] p2 = 0.14165 (0.03345) <4>
+
+Phase #1 [Bragg-R = 10.91%]: Hf4Mo12
+
+  Chemical Formula = Hf4Mo12
+
+  Note: [Hf1Mo3_2080538_stab+99meV.cif] 
+
+  Triclinic: P1 (1), Z=4, aP16 [PDF#98-001-4133] [CSD#14133]
+
+  [x] a  = 5.40927 (0.00202) <2> [x] α  = 78.472  (0.013  ) <2>
+  [x] b  = 7.29649 (0.00203) <2> [x] β  = 81.710  (0.011  ) <2>
+  [x] c  = 7.29153 (0.00210) <2> [x] γ  = 82.820  (0.014  ) <2>
+
+  Unit Cell Volume = 277.659 (152)(Å³), Density = 11.1543(g/cm³), Absorption(μ) = 1794.2(1/cm)
+
+  [x] SF = 159.049 (1.98819) <1> Intensity Scale Factor
+  [x] TF =-1.0     (0.0508 ) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [x] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  ● POC in Spherical Harmonics of Order = 2, S(l,m) = 1.03 (Textureness), Sample Spinner: ON
+
+  [x] f0 = 0.3879  (0.0452 ) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [x] f1 = 0.02179 (0.09411) <3>
+  [x] f2 =-0.03122 (0.04318) <3>
+
+  Asymmetry Atoms in Unit Cell = 16, General Site Multiplicity = 1
+
+  [ ] x1 = 0.24841 (0.0    ) <4> {Wyckoff = 1     } Hf0 <Hf>
+  [ ] y1 = 0.81154 (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] z1 = 0.31439 (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Hf0 <Hf>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Hf0 <Hf>
+
+  [ ] x2 = 0.51621 (0.0    ) <4> {Wyckoff = 1     } Hf1 <Hf>
+  [ ] y2 = 0.6169  (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] z2 = 0.63035 (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] B2 = 0.5     (0.0    ) <4> {                } Hf1 <Hf>
+  [ ] n2 = 1.0     (0.0    ) <4> {                } Hf1 <Hf>
+
+  [ ] x3 = 0.98958 (0.0    ) <4> {Wyckoff = 1     } Hf2 <Hf>
+  [ ] y3 = 0.74974 (0.0    ) <4> {                } Hf2 <Hf>
+  [ ] z3 = 0.74474 (0.0    ) <4> {                } Hf2 <Hf>
+  [ ] B3 = 0.5     (0.0    ) <4> {                } Hf2 <Hf>
+  [ ] n3 = 1.0     (0.0    ) <4> {                } Hf2 <Hf>
+
+  [ ] x4 = 0.9953  (0.0    ) <4> {Wyckoff = 1     } Hf3 <Hf>
+  [ ] y4 = 0.00987 (0.0    ) <4> {                } Hf3 <Hf>
+  [ ] z4 = 0.9964  (0.0    ) <4> {                } Hf3 <Hf>
+  [ ] B4 = 0.5     (0.0    ) <4> {                } Hf3 <Hf>
+  [ ] n4 = 1.0     (0.0    ) <4> {                } Hf3 <Hf>
+
+  [ ] x5 = 0.25178 (0.0    ) <4> {Wyckoff = 1     } Mo4 <Mo>
+  [ ] y5 = 0.55977 (0.0    ) <4> {                } Mo4 <Mo>
+  [ ] z5 = 0.06132 (0.0    ) <4> {                } Mo4 <Mo>
+  [ ] B5 = 0.5     (0.0    ) <4> {                } Mo4 <Mo>
+  [ ] n5 = 1.0     (0.0    ) <4> {                } Mo4 <Mo>
+
+  [ ] x6 = 0.49568 (0.0    ) <4> {Wyckoff = 1     } Mo5 <Mo>
+  [ ] y6 = 0.13492 (0.0    ) <4> {                } Mo5 <Mo>
+  [ ] z6 = 0.12415 (0.0    ) <4> {                } Mo5 <Mo>
+  [ ] B6 = 0.5     (0.0    ) <4> {                } Mo5 <Mo>
+  [ ] n6 = 1.0     (0.0    ) <4> {                } Mo5 <Mo>
+
+  [ ] x7 = 0.75541 (0.0    ) <4> {Wyckoff = 1     } Mo6 <Mo>
+  [ ] y7 = 0.68076 (0.0    ) <4> {                } Mo6 <Mo>
+  [ ] z7 = 0.18829 (0.0    ) <4> {                } Mo6 <Mo>
+  [ ] B7 = 0.5     (0.0    ) <4> {                } Mo6 <Mo>
+  [ ] n7 = 1.0     (0.0    ) <4> {                } Mo6 <Mo>
+
+  [ ] x8 = 0.00165 (0.0    ) <4> {Wyckoff = 1     } Mo7 <Mo>
+  [ ] y8 = 0.25247 (0.0    ) <4> {                } Mo7 <Mo>
+  [ ] z8 = 0.25368 (0.0    ) <4> {                } Mo7 <Mo>
+  [ ] B8 = 0.5     (0.0    ) <4> {                } Mo7 <Mo>
+  [ ] n8 = 1.0     (0.0    ) <4> {                } Mo7 <Mo>
+
+  [ ] x9 = 0.4963  (0.0    ) <4> {Wyckoff = 1     } Mo8 <Mo>
+  [ ] y9 = 0.37304 (0.0    ) <4> {                } Mo8 <Mo>
+  [ ] z9 = 0.37165 (0.0    ) <4> {                } Mo8 <Mo>
+  [ ] B9 = 0.5     (0.0    ) <4> {                } Mo8 <Mo>
+  [ ] n9 = 1.0     (0.0    ) <4> {                } Mo8 <Mo>
+
+  [ ] x10= 0.74091 (0.0    ) <4> {Wyckoff = 1     } Mo9 <Mo>
+  [ ] y10= 0.94912 (0.0    ) <4> {                } Mo9 <Mo>
+  [ ] z10= 0.42937 (0.0    ) <4> {                } Mo9 <Mo>
+  [ ] B10= 0.5     (0.0    ) <4> {                } Mo9 <Mo>
+  [ ] n10= 1.0     (0.0    ) <4> {                } Mo9 <Mo>
+
+  [ ] x11= 0.00676 (0.0    ) <4> {Wyckoff = 1     } Mo10 <Mo>
+  [ ] y11= 0.48463 (0.0    ) <4> {                } Mo10 <Mo>
+  [ ] z11= 0.49697 (0.0    ) <4> {                } Mo10 <Mo>
+  [ ] B11= 0.5     (0.0    ) <4> {                } Mo10 <Mo>
+  [ ] n11= 1.0     (0.0    ) <4> {                } Mo10 <Mo>
+
+  [ ] x12= 0.25778 (0.0    ) <4> {Wyckoff = 1     } Mo11 <Mo>
+  [ ] y12= 0.06747 (0.0    ) <4> {                } Mo11 <Mo>
+  [ ] z12= 0.56427 (0.0    ) <4> {                } Mo11 <Mo>
+  [ ] B12= 0.5     (0.0    ) <4> {                } Mo11 <Mo>
+  [ ] n12= 1.0     (0.0    ) <4> {                } Mo11 <Mo>
+
+  [ ] x13= 0.7477  (0.0    ) <4> {Wyckoff = 1     } Mo12 <Mo>
+  [ ] y13= 0.19085 (0.0    ) <4> {                } Mo12 <Mo>
+  [ ] z13= 0.6824  (0.0    ) <4> {                } Mo12 <Mo>
+  [ ] B13= 0.5     (0.0    ) <4> {                } Mo12 <Mo>
+  [ ] n13= 1.0     (0.0    ) <4> {                } Mo12 <Mo>
+
+  [ ] x14= 0.2492  (0.0    ) <4> {Wyckoff = 1     } Mo13 <Mo>
+  [ ] y14= 0.31419 (0.0    ) <4> {                } Mo13 <Mo>
+  [ ] z14= 0.81379 (0.0    ) <4> {                } Mo13 <Mo>
+  [ ] B14= 0.5     (0.0    ) <4> {                } Mo13 <Mo>
+  [ ] n14= 1.0     (0.0    ) <4> {                } Mo13 <Mo>
+
+  [ ] x15= 0.4965  (0.0    ) <4> {Wyckoff = 1     } Mo14 <Mo>
+  [ ] y15= 0.87652 (0.0    ) <4> {                } Mo14 <Mo>
+  [ ] z15= 0.8814  (0.0    ) <4> {                } Mo14 <Mo>
+  [ ] B15= 0.5     (0.0    ) <4> {                } Mo14 <Mo>
+  [ ] n15= 1.0     (0.0    ) <4> {                } Mo14 <Mo>
+
+  [ ] x16= 0.75085 (0.0    ) <4> {Wyckoff = 1     } Mo15 <Mo>
+  [ ] y16= 0.42821 (0.0    ) <4> {                } Mo15 <Mo>
+  [ ] z16= 0.94682 (0.0    ) <4> {                } Mo15 <Mo>
+  [ ] B16= 0.5     (0.0    ) <4> {                } Mo15 <Mo>
+  [ ] n16= 1.0     (0.0    ) <4> {                } Mo15 <Mo>
+
+Phase #2 [Bragg-R = 10.51%]: Molybdenum
+
+  Chemical Formula = Mo
+
+  Reference: Mokhov A.V., Gornostaeva T.A., Kartashov P.M., Bogatikov O.A.,
+  Sakharov O.A., Trubkin N.V., Dokl. Earth Sci., v471 p1154 (2016)
+
+  Note: LPF Collection Code: 1949633. Article Title: Structural state of
+  native molybdenum in the lunar regolith. Minor Warning: No R factors
+  reported/abstracted. No e.s.d reported/abstracted on the cell dimension.
+  Wyckoff Sequence: a. Unit Cell Data Source: Powder Diffraction.
+
+  Cubic: Fm-3m (225), Z=4, cF4 [PDF#04-023-9060] [CSD#1949633]
+
+  [x] a  = 4.10888 (0.00067) <2> [ ] α  = 90.0    (0.0    ) <2>
+  [ ] b  = 4.10888 (0.00067) <2> [ ] β  = 90.0    (0.0    ) <2>
+  [ ] c  = 4.10888 (0.00067) <2> [ ] γ  = 90.0    (0.0    ) <2>
+
+  Unit Cell Volume = 69.370 (20)(Å³), Density = 9.1856(g/cm³), Absorption(μ) = 1488.1(1/cm)
+
+  [x] SF = 15.0235 (1.30988) <1> Intensity Scale Factor
+  [x] TF = 0.58116 (0.33648) <4> Overall Temperature Factor
+  [ ] TS = 0.0     (0.0    ) <4> Thin Specimen Absorption Correction
+  [ ] PO = 1.0     (0.0    ) <3> Preferred Orientation Correction
+
+  [x] f0 = 0.29159 (0.02704) <2> FWHM = f0 + f1 x 2θ + f2 x 2θ²
+  [ ] f1 = 0.0     (0.0    ) <3>
+  [ ] f2 = 0.0     (0.0    ) <3>
+
+  Asymmetry Atoms in Unit Cell = 1, General Site Multiplicity = 192
+
+  [ ] x1 = 0.0     (0.0    ) <0> {Wyckoff = 4a    } Mo <Mo>
+  [ ] y1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] z1 = 0.0     (0.0    ) <0> {                } Mo <Mo>
+  [ ] B1 = 0.5     (0.0    ) <4> {                } Mo <Mo>
+  [ ] n1 = 1.0     (0.0    ) <4> {                } Mo <Mo>
+
+Quantitative Analysis:
+
+  Phase ID                             Wt% (σ)      Vol% (σ)       DD% (σ)     RIR   Density      PDF-#
+  Hf4Mo12                             91.4 (1.7)    89.7 (2.4)    93.3 (0.2)   7.68  11.1543   98-001-4133
+  Mo ● Molybdenum                      8.6 (0.8)    10.3 (0.9)     6.7 (0.2)  15.49   9.1856   04-023-9060
+
+  XRF(Wt%): Hf=35.0%, Mo=65.0%, XRF(DD%): Hf=35.7%, Mo=64.3%
+  Density of Specimen = 10.9517(g/cm³), Absorption(μ) of Specimen = 1762.7(1/cm), EPD(1.0%,θ=45.0°) = 0.009(mm)
+
+Refinement Halted (R/E=3.08), Round=4, Iter=13, P=19, N=5751, R=7.23% (E=2.35%, EPS=0.5, χ²=0.005264)
