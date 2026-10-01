@@ -2,6 +2,8 @@
 Chemical formula analysis and property calculation.
 """
 
+import re
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -131,3 +133,47 @@ def add_disorder_probabilities(df: pd.DataFrame, cache_path: Path = None) -> pd.
     print(f"Disorder probabilities: {n_with_disorder}/{len(df)} samples")
     
     return df
+
+
+# ---------------------------------------------------------------------------
+# Presentation ordering
+# ---------------------------------------------------------------------------
+
+# Allen electronegativity (configuration energy).  Chosen over Pauling because
+# it is the scale under which Si, Ge and Sn sit above the late transition
+# metals, giving the ordering conventional for these intermetallics
+# (ZrPt5Si, not ZrSiPt5).  La and Gd are estimates: Allen's tabulation omits
+# the f block, but both are the most electropositive element in every formula
+# here, so the ordering does not depend on their exact values.
+ALLEN_ELECTRONEGATIVITY = {
+    'Al': 1.613, 'Au': 1.92,  'B':  2.051, 'C':  2.544, 'Co': 1.84,
+    'Cr': 1.65,  'Cu': 1.85,  'Fe': 1.80,  'Gd': 1.20,  'Ge': 1.994,
+    'Hf': 1.16,  'Ir': 1.68,  'La': 1.10,  'Mn': 1.75,  'Mo': 1.47,
+    'Nb': 1.41,  'Ni': 1.88,  'Pd': 1.58,  'Pt': 1.72,  'Ru': 1.54,
+    'Sc': 1.19,  'Si': 1.916, 'Sn': 1.824, 'Ti': 1.38,  'Y':  1.12,
+    'Zr': 1.32,
+}
+
+
+def parse_formula(formula):
+    """'ZrSiPt5' -> [('Zr', ''), ('Si', ''), ('Pt', '5')]."""
+    return [(el, n) for el, n in re.findall(r'([A-Z][a-z]?)(\d*)', formula) if el]
+
+
+def sort_by_electronegativity(formula):
+    """'ZrSiPt5' -> 'ZrPt5Si': elements in order of increasing electronegativity."""
+    parts = parse_formula(formula)
+    missing = [el for el, _ in parts if el not in ALLEN_ELECTRONEGATIVITY]
+    if missing:
+        raise KeyError(f'no Allen electronegativity for {missing} '
+                       f'(formula {formula}); add it to ALLEN_ELECTRONEGATIVITY')
+    parts.sort(key=lambda p: (ALLEN_ELECTRONEGATIVITY[p[0]], p[0]))
+    return ''.join(el + n for el, n in parts)
+
+
+def formula_to_mathtext(formula):
+    """'ZrSiPt5' -> '$\\mathrm{ZrPt_{5}Si}$': reordered, with subscripts."""
+    return ('$\\mathrm{'
+            + ''.join(f'{el}_{{{n}}}' if n else el
+                      for el, n in parse_formula(sort_by_electronegativity(formula)))
+            + '}$')

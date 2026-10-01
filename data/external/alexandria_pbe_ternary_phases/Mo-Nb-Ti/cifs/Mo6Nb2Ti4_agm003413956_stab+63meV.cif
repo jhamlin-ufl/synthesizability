@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ti2NbMo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53975171
+_cell_length_b   7.75736738
+_cell_length_c   7.75736738
+_cell_angle_alpha   119.60093999
+_cell_angle_beta   106.75665174
+_cell_angle_gamma   106.75665174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2NbMo3
+_chemical_formula_sum   'Ti4 Nb2 Mo6'
+_cell_volume   194.64461710
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.25000000  0.91688372  0.08311628  1
+  Ti  Ti1  1  0.25000000  0.24729911  0.75270089  1
+  Ti  Ti2  1  0.75000000  0.08311628  0.91688372  1
+  Ti  Ti3  1  0.75000000  0.75270089  0.24729911  1
+  Nb  Nb4  1  0.25000000  0.58551912  0.41448088  1
+  Nb  Nb5  1  0.75000000  0.41448088  0.58551912  1
+  Mo  Mo6  1  0.00023022  0.16679423  0.33345180  1
+  Mo  Mo7  1  0.50023022  0.33345180  0.16679423  1
+  Mo  Mo8  1  0.00000000  0.50000000  0.00000000  1
+  Mo  Mo9  1  0.99976978  0.83320577  0.66654820  1
+  Mo  Mo10  1  0.50000000  0.00000000  0.50000000  1
+  Mo  Mo11  1  0.49976978  0.66654820  0.83320577  1

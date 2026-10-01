@@ -1,7 +1,9 @@
 # scripts/extract_alexandria_cifs.py
 """
 Fetch CIF files from Alexandria for all entries at the target composition
-for each sample.  Handles both PBE and PBEsol in one run.
+for each sample.  Handles both PBE and PBEsol in one run, or only the
+functionals named on the command line.  The pipeline runs it for PBEsol only;
+PBE CIFs come from the bulk release (extract_alexandria_release_phases.py).
 
 Reads per-space JSONs from:
   data/external/alexandria_pbe_ternary_phases/<space>.json
@@ -152,7 +154,10 @@ def main():
     formulas = df["formula"].dropna().unique().tolist()
     print(f"Found {len(formulas)} unique formulas\n")
 
+    wanted = sys.argv[1:] or list(FUNCTIONALS)
     for functional, (data_dir_str, base_url) in FUNCTIONALS.items():
+        if functional not in wanted:
+            continue
         data_dir = Path(data_dir_str)
 
         print(f"{'='*60}")

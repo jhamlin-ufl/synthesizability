@@ -1,178 +1,371 @@
 {
-  "space": "Ge-Mo-Os",
-  "elements": [
-    "Ge",
-    "Mo",
-    "Os"
-  ],
-  "entries": [
-    {
-      "entry_id": "agm001276702",
-      "composition_id": "Ge1 Mo1 Os1",
-      "delta_e": -0.026906341,
-      "stability": 0.09113524,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm001235142",
-      "composition_id": "Ge1 Mo1 Os1",
-      "delta_e": -0.012554161,
-      "stability": 0.10548741,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm003154770",
-      "composition_id": "Ge1 Mo1 Os1",
-      "delta_e": 0.01572173,
-      "stability": 0.13376331,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm003462664",
-      "composition_id": "Ge4 Mo2 Os1",
-      "delta_e": 0.018143026,
-      "stability": 0.16789638,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm001002846",
-      "composition_id": "Ge1 Mo1 Os1",
-      "delta_e": 0.0872633,
-      "stability": 0.20530488,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm001114317",
-      "composition_id": "Ge1 Mo1 Os2",
-      "delta_e": 0.11857764,
-      "stability": 0.21087237,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002339618",
-      "composition_id": "Ge1 Mo1 Os1",
-      "delta_e": 0.13524935,
-      "stability": 0.25329092,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002678479",
-      "composition_id": "Ge2 Mo1 Os1",
-      "delta_e": 0.15937772,
-      "stability": 0.29041192,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002980078",
-      "composition_id": "Ge2 Mo1 Os2",
-      "delta_e": 0.29001498,
-      "stability": 0.39484233,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002980050",
-      "composition_id": "Ge2 Mo2 Os1",
-      "delta_e": 0.258402,
-      "stability": 0.39704105,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002679276",
-      "composition_id": "Ge1 Mo2 Os1",
-      "delta_e": 0.27179855,
-      "stability": 0.3988308,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002679300",
-      "composition_id": "Ge1 Mo1 Os2",
-      "delta_e": 0.35272267,
-      "stability": 0.4450174,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm001984835",
-      "composition_id": "Ge2 Mo1 Os1",
-      "delta_e": 0.39996582,
-      "stability": 0.531,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002922925",
-      "composition_id": "Ge2 Mo1 Os2",
-      "delta_e": 0.61269754,
-      "stability": 0.7175249,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002833679",
-      "composition_id": "Ge1 Mo2 Os1",
-      "delta_e": 0.66162646,
-      "stability": 0.7886587,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002832910",
-      "composition_id": "Ge2 Mo1 Os1",
-      "delta_e": 0.6905106,
-      "stability": 0.82154477,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm001076312",
-      "composition_id": "Ge4 Mo2 Os1",
-      "delta_e": 0.8089656,
-      "stability": 0.95871896,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002833703",
-      "composition_id": "Ge1 Mo1 Os2",
-      "delta_e": 1.065495,
-      "stability": 1.1577897,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002483148",
-      "composition_id": "Ge3 Mo1 Os1",
-      "delta_e": 1.0559081,
-      "stability": 1.1864587,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002483149",
-      "composition_id": "Ge3 Mo1 Os1",
-      "delta_e": 1.3948812,
-      "stability": 1.5254319,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002484708",
-      "composition_id": "Ge1 Mo3 Os1",
-      "delta_e": 1.6085697,
-      "stability": 1.7409965,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002484707",
-      "composition_id": "Ge1 Mo3 Os1",
-      "delta_e": 1.6329465,
-      "stability": 1.7653732,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002484759",
-      "composition_id": "Ge1 Mo1 Os3",
-      "delta_e": 1.7534826,
-      "stability": 1.8303292,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002484758",
-      "composition_id": "Ge1 Mo1 Os3",
-      "delta_e": 2.1986456,
-      "stability": 2.2754922,
-      "icsd": false
-    }
-  ]
+ "space": "Ge-Mo-Os",
+ "elements": [
+  "Ge",
+  "Mo",
+  "Os"
+ ],
+ "source": "pbe_2025.07.02",
+ "entries": [
+  {
+   "entry_id": "agm001276702",
+   "composition_id": "Ge1 Mo1 Os1",
+   "delta_e": -0.026906323,
+   "stability": 0.091135085,
+   "icsd": false,
+   "e_above_hull": 0.091135085,
+   "e_phase_separation": 0.091135085,
+   "energy_per_atom": -8.919645990000001,
+   "spg": 187,
+   "nsites": 3,
+   "prototype_id": "ABC_2_spg156",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm001235142",
+   "composition_id": "Ge1 Mo1 Os1",
+   "delta_e": -0.012554144,
+   "stability": 0.105487265,
+   "icsd": false,
+   "e_above_hull": 0.105487265,
+   "e_phase_separation": 0.105487265,
+   "energy_per_atom": -8.90529381,
+   "spg": 216,
+   "nsites": 3,
+   "prototype_id": "ABC_0_spg216",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm003154770",
+   "composition_id": "Ge1 Mo1 Os1",
+   "delta_e": 0.01572175,
+   "stability": 0.13376315,
+   "icsd": false,
+   "e_above_hull": 0.13376315,
+   "e_phase_separation": 0.13376315,
+   "energy_per_atom": -8.877017916666667,
+   "spg": 107,
+   "nsites": 3,
+   "prototype_id": "ABC_4_spg107",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm001114317",
+   "composition_id": "Ge1 Mo1 Os2",
+   "delta_e": 0.11857764,
+   "stability": 0.21087211,
+   "icsd": false,
+   "e_above_hull": 0.21087211,
+   "e_phase_separation": 0.21087211,
+   "energy_per_atom": -9.3584142375,
+   "spg": 123,
+   "nsites": 4,
+   "prototype_id": "ABC2_27_spg99",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002679300",
+   "composition_id": "Ge1 Mo1 Os2",
+   "delta_e": 0.35272267,
+   "stability": 0.44501716,
+   "icsd": false,
+   "e_above_hull": 0.44501716,
+   "e_phase_separation": 0.44501716,
+   "energy_per_atom": -9.1242692025,
+   "spg": 225,
+   "nsites": 4,
+   "prototype_id": "ABC2_3_spg225",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002484759",
+   "composition_id": "Ge1 Mo1 Os3",
+   "delta_e": 1.7534826,
+   "stability": 1.830329,
+   "icsd": false,
+   "e_above_hull": 1.830329,
+   "e_phase_separation": 1.830329,
+   "energy_per_atom": -8.074060593999999,
+   "spg": 221,
+   "nsites": 5,
+   "prototype_id": "ABC3_0_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002484758",
+   "composition_id": "Ge1 Mo1 Os3",
+   "delta_e": 2.1986456,
+   "stability": 2.275492,
+   "icsd": false,
+   "e_above_hull": 2.275492,
+   "e_phase_separation": 2.275492,
+   "energy_per_atom": -7.628897546,
+   "spg": 221,
+   "nsites": 5,
+   "prototype_id": "ABC3_0_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002679276",
+   "composition_id": "Ge1 Mo2 Os1",
+   "delta_e": 0.27179858,
+   "stability": 0.39883077,
+   "icsd": false,
+   "e_above_hull": 0.39883077,
+   "e_phase_separation": 0.39883077,
+   "energy_per_atom": -9.105533665,
+   "spg": 225,
+   "nsites": 4,
+   "prototype_id": "ABC2_3_spg225",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002484708",
+   "composition_id": "Ge1 Mo3 Os1",
+   "delta_e": 1.6085699,
+   "stability": 1.7409965,
+   "icsd": false,
+   "e_above_hull": 1.7409965,
+   "e_phase_separation": 1.7409965,
+   "energy_per_atom": -8.05951799,
+   "spg": 221,
+   "nsites": 5,
+   "prototype_id": "ABC3_0_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002484707",
+   "composition_id": "Ge1 Mo3 Os1",
+   "delta_e": 1.6329466,
+   "stability": 1.7653732,
+   "icsd": false,
+   "e_above_hull": 1.7653732,
+   "e_phase_separation": 1.7653732,
+   "energy_per_atom": -8.035141194000001,
+   "spg": 221,
+   "nsites": 5,
+   "prototype_id": "ABC3_0_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002678479",
+   "composition_id": "Ge2 Mo1 Os1",
+   "delta_e": 0.15937774,
+   "stability": 0.29041186,
+   "icsd": false,
+   "e_above_hull": 0.29041186,
+   "e_phase_separation": 0.29041186,
+   "energy_per_atom": -7.66451714,
+   "spg": 225,
+   "nsites": 4,
+   "prototype_id": "ABC2_3_spg225",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm001984835",
+   "composition_id": "Ge2 Mo1 Os1",
+   "delta_e": 0.39996585,
+   "stability": 0.53099996,
+   "icsd": false,
+   "e_above_hull": 0.53099996,
+   "e_phase_separation": 0.53099996,
+   "energy_per_atom": -7.423929035,
+   "spg": 166,
+   "nsites": 4,
+   "prototype_id": "ABC2_83_spg166",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002922925",
+   "composition_id": "Ge2 Mo1 Os2",
+   "delta_e": 0.61269754,
+   "stability": 0.7175248,
+   "icsd": false,
+   "e_above_hull": 0.7175248,
+   "e_phase_separation": 0.7175248,
+   "energy_per_atom": -7.892368048,
+   "spg": 139,
+   "nsites": 5,
+   "prototype_id": "AB2C2_5_spg139",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm001002846",
+   "composition_id": "Ge2 Mo2 Os2",
+   "delta_e": 0.08726332,
+   "stability": 0.20530473,
+   "icsd": false,
+   "e_above_hull": 0.20530473,
+   "e_phase_separation": 0.20530473,
+   "energy_per_atom": -8.805476345,
+   "spg": 187,
+   "nsites": 6,
+   "prototype_id": "ABC_7952_spg187",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002833703",
+   "composition_id": "Ge2 Mo2 Os4",
+   "delta_e": 1.065495,
+   "stability": 1.1577895,
+   "icsd": false,
+   "e_above_hull": 1.1577895,
+   "e_phase_separation": 1.1577895,
+   "energy_per_atom": -8.41149686,
+   "spg": 122,
+   "nsites": 8,
+   "prototype_id": "ABC2_7_spg122",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002833679",
+   "composition_id": "Ge2 Mo4 Os2",
+   "delta_e": 0.66162646,
+   "stability": 0.7886587,
+   "icsd": false,
+   "e_above_hull": 0.7886587,
+   "e_phase_separation": 0.7886587,
+   "energy_per_atom": -8.71570577,
+   "spg": 122,
+   "nsites": 8,
+   "prototype_id": "ABC2_185_spg122",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002483148",
+   "composition_id": "Ge3 Mo1 Os1",
+   "delta_e": 1.0559081,
+   "stability": 1.1864587,
+   "icsd": false,
+   "e_above_hull": 1.1864587,
+   "e_phase_separation": 1.1864587,
+   "energy_per_atom": -6.12667993,
+   "spg": 221,
+   "nsites": 5,
+   "prototype_id": "ABC3_0_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002483149",
+   "composition_id": "Ge3 Mo1 Os1",
+   "delta_e": 1.3948812,
+   "stability": 1.5254319,
+   "icsd": false,
+   "e_above_hull": 1.5254319,
+   "e_phase_separation": 1.5254319,
+   "energy_per_atom": -5.787706752,
+   "spg": 221,
+   "nsites": 5,
+   "prototype_id": "ABC3_0_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm003462664",
+   "composition_id": "Ge4 Mo2 Os1",
+   "delta_e": 0.018143043,
+   "stability": 0.16789633,
+   "icsd": false,
+   "e_above_hull": 0.16789633,
+   "e_phase_separation": 0.16789633,
+   "energy_per_atom": -7.319201314285714,
+   "spg": 12,
+   "nsites": 7,
+   "prototype_id": "AB2C4_690_spg12",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm001076312",
+   "composition_id": "Ge4 Mo2 Os1",
+   "delta_e": 0.8089656,
+   "stability": 0.9587189,
+   "icsd": false,
+   "e_above_hull": 0.9587189,
+   "e_phase_separation": 0.9587189,
+   "energy_per_atom": -6.528378745714286,
+   "spg": 139,
+   "nsites": 7,
+   "prototype_id": "AB2C4_163_spg139",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002832910",
+   "composition_id": "Ge4 Mo2 Os2",
+   "delta_e": 0.6905106,
+   "stability": 0.8215447,
+   "icsd": false,
+   "e_above_hull": 0.8215447,
+   "e_phase_separation": 0.8215447,
+   "energy_per_atom": -7.1333842925,
+   "spg": 122,
+   "nsites": 8,
+   "prototype_id": "ABC2_185_spg122",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002980078",
+   "composition_id": "Ge4 Mo2 Os4",
+   "delta_e": 0.29001495,
+   "stability": 0.39484227,
+   "icsd": false,
+   "e_above_hull": 0.39484227,
+   "e_phase_separation": 0.39484227,
+   "energy_per_atom": -8.215050635999999,
+   "spg": 127,
+   "nsites": 10,
+   "prototype_id": "AB2C2_10_spg127",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002980050",
+   "composition_id": "Ge4 Mo4 Os2",
+   "delta_e": 0.25840202,
+   "stability": 0.39704096,
+   "icsd": false,
+   "e_above_hull": 0.39704096,
+   "e_phase_separation": 0.39704096,
+   "energy_per_atom": -8.166935882999999,
+   "spg": 127,
+   "nsites": 10,
+   "prototype_id": "AB2C2_3_spg127",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  },
+  {
+   "entry_id": "agm002339618",
+   "composition_id": "Ge4 Mo4 Os4",
+   "delta_e": 0.13524936,
+   "stability": 0.25329077,
+   "icsd": false,
+   "e_above_hull": 0.25329077,
+   "e_phase_separation": 0.25329077,
+   "energy_per_atom": -8.757490299166667,
+   "spg": 62,
+   "nsites": 12,
+   "prototype_id": "ABC_31_spg59",
+   "source": "pbe_2025.07.02",
+   "space": "Ge-Mo-Os"
+  }
+ ]
 }

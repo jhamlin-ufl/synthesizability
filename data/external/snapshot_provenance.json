@@ -1,0 +1,103 @@
+{
+  "recorded": "2026-10-01T12:00:47",
+  "repository_commit": "0ff06c2",
+  "caches": {
+    "oqmd": {
+      "path": "data/external/oqmd_ternary_phases",
+      "source": "local MySQL dump qmdb (OQMD v1.7) via src/synthesizability/oqmd.py",
+      "n_files": 7103,
+      "n_json": 160,
+      "bytes": 9143047,
+      "oldest_file": "2026-03-02",
+      "newest_file": "2026-09-29",
+      "last_commit": "647d649 2026-03-02 add all relevant cif files for phase diagrams",
+      "sha256_json": "fd87bc2955f61bc705be9ae6401fe134c3aa3322d7306e4284a5edecde5edb65",
+      "git_clean": true
+    },
+    "mp": {
+      "path": "data/external/mp_ternary_phases",
+      "source": "Materials Project REST API (mp_api)",
+      "n_files": 178,
+      "n_json": 160,
+      "bytes": 207321,
+      "oldest_file": "2026-04-07",
+      "newest_file": "2026-10-01",
+      "last_commit": "dcc9a64 2026-04-07 Add Materials Project ternary phase data with OQMD/MP toggle in dashboard",
+      "sha256_json": "1f68e0be789971042a153656b60a617c782376b5ecf0c05f42909598705b76a0",
+      "git_clean": true
+    },
+    "alex_pbe": {
+      "path": "data/external/alexandria_pbe_ternary_phases",
+      "source": "Alexandria bulk PBE 2025.07.02 release (extract_alexandria_release_phases.py)",
+      "n_files": 407,
+      "n_json": 160,
+      "bytes": 7199545,
+      "oldest_file": "2026-10-01",
+      "newest_file": "2026-10-01",
+      "last_commit": "dfccd4e 2026-09-28 Fix Alexandria composition parsing that dropped elements with count 1",
+      "sha256_json": "fadaaa0467f41f06e5cbbfd3df441293e5f32b6a28603a109b3696e5a73409f9",
+      "git_clean": false
+    },
+    "alex_pbesol": {
+      "path": "data/external/alexandria_pbesol_ternary_phases",
+      "source": "Alexandria OPTIMADE API, PBEsol",
+      "n_files": 162,
+      "n_json": 160,
+      "bytes": 515052,
+      "oldest_file": "2026-04-08",
+      "newest_file": "2026-09-29",
+      "last_commit": "dfccd4e 2026-09-28 Fix Alexandria composition parsing that dropped elements with count 1",
+      "sha256_json": "8ed1482ceb28ebbe90c7b73ebe8c6b0ca7b290df608b07fa2b8e66614a22a631",
+      "git_clean": true
+    },
+    "oqmd_structures": {
+      "path": "data/external/oqmd_structures",
+      "source": "CIFs of the predicted (lowest-stability) OQMD entry per target",
+      "n_files": 51,
+      "n_json": 0,
+      "bytes": 53973,
+      "oldest_file": "2026-08-25",
+      "newest_file": "2026-10-01",
+      "last_commit": "b6052fc 2026-02-23 add oqmd stability",
+      "sha256_json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_clean": true
+    }
+  },
+  "oqmd_dump": {
+    "database": "qmdb (MySQL)",
+    "version": "1.7",
+    "entries": "1317701",
+    "formation_energy_rows": "2166874",
+    "note": "The stored `stability` column is a snapshot and can disagree with the dump's own energies (Hf2MoIr: stored -18.6, recomputed -12.0 meV/atom); hull distances are recomputed by scripts/compute_hull_distances.py."
+  },
+  "alexandria_local": {
+    "pbe_2025.07.02_chunks": {
+      "description": "Alexandria PBE 2025.07.02 full release, alexandria_*.json.bz2",
+      "path": "/home/jhamlin/data/alexandria/pbe_2025.07.02",
+      "n_files": 58,
+      "bytes": 3568660327,
+      "sha256_of_listing": "5469dc84eaae7d7d66ab9e9a2d262a30928d9603ba8bd94d11a80867f28387fd"
+    },
+    "convex_hull.json.bz2": {
+      "description": "Alexandria PBE 2025.07.02 convex-hull release",
+      "path": "/home/jhamlin/data/alexandria/convex_hull.json.bz2",
+      "bytes": 167972944,
+      "file_date": "2026-09-28",
+      "sha256": "8e3206c2f3623c0931ce5b0c3aa62ba83905b4838e4660fd6f2067c55c5bbb8e"
+    },
+    "convex_hull_pbe_2023.12.29.json.bz2": {
+      "description": "Alexandria PBE 2023.12.29 convex-hull release",
+      "path": "/home/jhamlin/data/alexandria/convex_hull_pbe_2023.12.29.json.bz2",
+      "bytes": 82996526,
+      "file_date": "2026-09-28",
+      "sha256": "e85df5f0d600fe755b4f7a96d3f495d85e84b96d38a101bcb977f35b2cbf3c26"
+    },
+    "convex_hull_ps_2023.12.29.json.bz2": {
+      "description": "Alexandria PBEsol 2023.12.29 convex-hull release",
+      "path": "/home/jhamlin/data/alexandria/convex_hull_ps_2023.12.29.json.bz2",
+      "bytes": 36460552,
+      "file_date": "2026-09-28",
+      "sha256": "29919b93c751b954c538ff80153ab5ad9541c4354d253f5d96bda3396518c28a"
+    }
+  }
+}

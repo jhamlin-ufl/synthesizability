@@ -1,204 +1,414 @@
 {
-  "space": "Fe",
-  "elements": [
-    "Fe"
-  ],
-  "entries": [
-    {
-      "entry_id": "agm003284891",
-      "composition_id": "Fe1",
-      "delta_e": 0.0,
-      "stability": 0.0,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002211245",
-      "composition_id": "Fe1",
-      "delta_e": 0.08844901,
-      "stability": 0.08844901,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002149566",
-      "composition_id": "Fe1",
-      "delta_e": 0.093841426,
-      "stability": 0.093841426,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002149562",
-      "composition_id": "Fe1",
-      "delta_e": 0.14074579,
-      "stability": 0.14074579,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002211246",
-      "composition_id": "Fe1",
-      "delta_e": 0.15304363,
-      "stability": 0.15304363,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444421",
-      "composition_id": "Fe1",
-      "delta_e": 0.15413122,
-      "stability": 0.15413122,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002149560",
-      "composition_id": "Fe1",
-      "delta_e": 0.159765,
-      "stability": 0.159765,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm005232708",
-      "composition_id": "Fe1",
-      "delta_e": 0.17193313,
-      "stability": 0.17193313,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002149561",
-      "composition_id": "Fe1",
-      "delta_e": 0.1851171,
-      "stability": 0.1851171,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002371512",
-      "composition_id": "Fe1",
-      "delta_e": 0.19048212,
-      "stability": 0.19048212,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444415",
-      "composition_id": "Fe1",
-      "delta_e": 0.3811261,
-      "stability": 0.3811261,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002149563",
-      "composition_id": "Fe1",
-      "delta_e": 0.40033764,
-      "stability": 0.40033764,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm005272142",
-      "composition_id": "Fe1",
-      "delta_e": 0.48687568,
-      "stability": 0.48687568,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm002149568",
-      "composition_id": "Fe1",
-      "delta_e": 0.50219434,
-      "stability": 0.50219434,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004170323",
-      "composition_id": "Fe1",
-      "delta_e": 0.53431666,
-      "stability": 0.53431666,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444418",
-      "composition_id": "Fe1",
-      "delta_e": 0.70938206,
-      "stability": 0.70938206,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444423",
-      "composition_id": "Fe1",
-      "delta_e": 0.79156435,
-      "stability": 0.79156435,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm2000000149",
-      "composition_id": "Fe1",
-      "delta_e": 0.8542263,
-      "stability": 0.8542263,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm003815557",
-      "composition_id": "Fe1",
-      "delta_e": 0.9930046,
-      "stability": 0.9930046,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444416",
-      "composition_id": "Fe1",
-      "delta_e": 1.0405658,
-      "stability": 1.0405658,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444417",
-      "composition_id": "Fe1",
-      "delta_e": 1.0534319,
-      "stability": 1.0534319,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444414",
-      "composition_id": "Fe1",
-      "delta_e": 1.0843867,
-      "stability": 1.0843867,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444424",
-      "composition_id": "Fe1",
-      "delta_e": 1.2193621,
-      "stability": 1.2193621,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004126627",
-      "composition_id": "Fe1",
-      "delta_e": 1.290642,
-      "stability": 1.290642,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444422",
-      "composition_id": "Fe1",
-      "delta_e": 1.6108202,
-      "stability": 1.6108202,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm004444413",
-      "composition_id": "Fe1",
-      "delta_e": 1.6511204,
-      "stability": 1.6511204,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm2000000154",
-      "composition_id": "Fe1",
-      "delta_e": 1.8524995,
-      "stability": 1.8524995,
-      "icsd": false
-    },
-    {
-      "entry_id": "agm2000000153",
-      "composition_id": "Fe1",
-      "delta_e": 2.5993502,
-      "stability": 2.5993502,
-      "icsd": false
-    }
-  ]
+ "space": "Fe",
+ "elements": [
+  "Fe"
+ ],
+ "source": "pbe_2025.07.02",
+ "entries": [
+  {
+   "entry_id": "agm003284891",
+   "composition_id": "Fe1",
+   "delta_e": 4.2e-07,
+   "stability": 0.0,
+   "icsd": false,
+   "e_above_hull": 0.0,
+   "e_phase_separation": 4.2e-07,
+   "energy_per_atom": -8.46268708,
+   "spg": 229,
+   "nsites": 1,
+   "prototype_id": "A_1_spg229",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002149560",
+   "composition_id": "Fe1",
+   "delta_e": 0.15976542,
+   "stability": 0.15976542,
+   "icsd": false,
+   "e_above_hull": 0.15976542,
+   "e_phase_separation": 0.15976542,
+   "energy_per_atom": -8.30292208,
+   "spg": 225,
+   "nsites": 1,
+   "prototype_id": "A_18_spg225",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm005272142",
+   "composition_id": "Fe1",
+   "delta_e": 0.4868761,
+   "stability": 0.4868761,
+   "icsd": false,
+   "e_above_hull": 0.4868761,
+   "e_phase_separation": 0.4868761,
+   "energy_per_atom": -7.9758114,
+   "spg": 191,
+   "nsites": 1,
+   "prototype_id": "A_63_spg191",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444423",
+   "composition_id": "Fe1",
+   "delta_e": 0.79156476,
+   "stability": 0.79156476,
+   "icsd": false,
+   "e_above_hull": 0.79156476,
+   "e_phase_separation": 0.79156476,
+   "energy_per_atom": -7.67112274,
+   "spg": 221,
+   "nsites": 1,
+   "prototype_id": "A_47_spg221",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm080032781",
+   "composition_id": "Fe1",
+   "delta_e": 5.018157,
+   "stability": 5.018157,
+   "icsd": false,
+   "e_above_hull": 5.018157,
+   "e_phase_separation": 5.018157,
+   "energy_per_atom": -3.44453062,
+   "spg": 225,
+   "nsites": 1,
+   "prototype_id": "A_138_spg139",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444421",
+   "composition_id": "Fe12",
+   "delta_e": 0.15413165,
+   "stability": 0.15413165,
+   "icsd": false,
+   "e_above_hull": 0.15413165,
+   "e_phase_separation": 0.15413165,
+   "energy_per_atom": -8.308555855833333,
+   "spg": 42,
+   "nsites": 12,
+   "prototype_id": "A_534_spg42",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444417",
+   "composition_id": "Fe12",
+   "delta_e": 1.0534322,
+   "stability": 1.0534322,
+   "icsd": false,
+   "e_above_hull": 1.0534322,
+   "e_phase_separation": 1.0534322,
+   "energy_per_atom": -7.409255216666666,
+   "spg": 176,
+   "nsites": 12,
+   "prototype_id": "A_480_spg176",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444422",
+   "composition_id": "Fe12",
+   "delta_e": 1.6108205,
+   "stability": 1.6108205,
+   "icsd": false,
+   "e_above_hull": 1.6108205,
+   "e_phase_separation": 1.6108205,
+   "energy_per_atom": -6.8518669333333335,
+   "spg": 229,
+   "nsites": 12,
+   "prototype_id": "A_477_spg229",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444418",
+   "composition_id": "Fe16",
+   "delta_e": 0.7093825,
+   "stability": 0.7093825,
+   "icsd": false,
+   "e_above_hull": 0.7093825,
+   "e_phase_separation": 0.7093825,
+   "energy_per_atom": -7.753305051875,
+   "spg": 142,
+   "nsites": 16,
+   "prototype_id": "A_474_spg142",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444414",
+   "composition_id": "Fe16",
+   "delta_e": 1.0843871,
+   "stability": 1.0843871,
+   "icsd": false,
+   "e_above_hull": 1.0843871,
+   "e_phase_separation": 1.0843871,
+   "energy_per_atom": -7.378300409375,
+   "spg": 87,
+   "nsites": 16,
+   "prototype_id": "A_526_spg139",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444413",
+   "composition_id": "Fe16",
+   "delta_e": 1.6511208,
+   "stability": 1.6511208,
+   "icsd": false,
+   "e_above_hull": 1.6511208,
+   "e_phase_separation": 1.6511208,
+   "energy_per_atom": -6.81156671375,
+   "spg": 229,
+   "nsites": 16,
+   "prototype_id": "A_470_spg217",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002211245",
+   "composition_id": "Fe2",
+   "delta_e": 0.08844943,
+   "stability": 0.08844943,
+   "icsd": false,
+   "e_above_hull": 0.08844943,
+   "e_phase_separation": 0.08844943,
+   "energy_per_atom": -8.37423807,
+   "spg": 194,
+   "nsites": 2,
+   "prototype_id": "A_11_spg194",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004170323",
+   "composition_id": "Fe2",
+   "delta_e": 0.5343171,
+   "stability": 0.5343171,
+   "icsd": false,
+   "e_above_hull": 0.5343171,
+   "e_phase_separation": 0.5343171,
+   "energy_per_atom": -7.92837042,
+   "spg": 141,
+   "nsites": 2,
+   "prototype_id": "A_14_spg141",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004126627",
+   "composition_id": "Fe2",
+   "delta_e": 1.2906425,
+   "stability": 1.2906425,
+   "icsd": false,
+   "e_above_hull": 1.2906425,
+   "e_phase_separation": 1.2906425,
+   "energy_per_atom": -7.172045,
+   "spg": 227,
+   "nsites": 2,
+   "prototype_id": "A_26_spg227",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm005232708",
+   "composition_id": "Fe28",
+   "delta_e": 0.17193355,
+   "stability": 0.17193355,
+   "icsd": false,
+   "e_above_hull": 0.17193355,
+   "e_phase_separation": 0.17193355,
+   "energy_per_atom": -8.29075395642857,
+   "spg": 136,
+   "nsites": 28,
+   "prototype_id": "A_423_spg136",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002149561",
+   "composition_id": "Fe3",
+   "delta_e": 0.18511751,
+   "stability": 0.18511751,
+   "icsd": false,
+   "e_above_hull": 0.18511751,
+   "e_phase_separation": 0.18511751,
+   "energy_per_atom": -8.277569983333334,
+   "spg": 191,
+   "nsites": 3,
+   "prototype_id": "A_2_spg191",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002149562",
+   "composition_id": "Fe4",
+   "delta_e": 0.14074622,
+   "stability": 0.14074622,
+   "icsd": false,
+   "e_above_hull": 0.14074622,
+   "e_phase_separation": 0.14074622,
+   "energy_per_atom": -8.321941285,
+   "spg": 194,
+   "nsites": 4,
+   "prototype_id": "A_22_spg194",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002149568",
+   "composition_id": "Fe4",
+   "delta_e": 0.50219476,
+   "stability": 0.50219476,
+   "icsd": false,
+   "e_above_hull": 0.50219476,
+   "e_phase_separation": 0.50219476,
+   "energy_per_atom": -7.9604927625,
+   "spg": 139,
+   "nsites": 4,
+   "prototype_id": "A_137_spg139",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm003815557",
+   "composition_id": "Fe4",
+   "delta_e": 0.99300504,
+   "stability": 0.99300504,
+   "icsd": false,
+   "e_above_hull": 0.99300504,
+   "e_phase_separation": 0.99300504,
+   "energy_per_atom": -7.4696824425,
+   "spg": 194,
+   "nsites": 4,
+   "prototype_id": "A_23_spg194",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444424",
+   "composition_id": "Fe4",
+   "delta_e": 1.2193626,
+   "stability": 1.2193626,
+   "icsd": false,
+   "e_above_hull": 1.2193626,
+   "e_phase_separation": 1.2193626,
+   "energy_per_atom": -7.2433248875,
+   "spg": 194,
+   "nsites": 4,
+   "prototype_id": "A_73_spg194",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002211246",
+   "composition_id": "Fe6",
+   "delta_e": 0.15304406,
+   "stability": 0.15304406,
+   "icsd": false,
+   "e_above_hull": 0.15304406,
+   "e_phase_separation": 0.15304406,
+   "energy_per_atom": -8.309643446666668,
+   "spg": 227,
+   "nsites": 6,
+   "prototype_id": "A_29_spg227",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002371512",
+   "composition_id": "Fe6",
+   "delta_e": 0.19048254,
+   "stability": 0.19048254,
+   "icsd": false,
+   "e_above_hull": 0.19048254,
+   "e_phase_separation": 0.19048254,
+   "energy_per_atom": -8.272204956666666,
+   "spg": 12,
+   "nsites": 6,
+   "prototype_id": "A_167_spg12",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002149563",
+   "composition_id": "Fe6",
+   "delta_e": 0.40033808,
+   "stability": 0.40033808,
+   "icsd": false,
+   "e_above_hull": 0.40033808,
+   "e_phase_separation": 0.40033808,
+   "energy_per_atom": -8.06234943,
+   "spg": 220,
+   "nsites": 6,
+   "prototype_id": "A_31_spg220",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm051175558",
+   "composition_id": "Fe7",
+   "delta_e": 0.28193182,
+   "stability": 0.28193182,
+   "icsd": false,
+   "e_above_hull": 0.28193182,
+   "e_phase_separation": 0.28193182,
+   "energy_per_atom": -8.180755677142857,
+   "spg": 229,
+   "nsites": 7,
+   "prototype_id": "A_1049_spg229",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm002149566",
+   "composition_id": "Fe8",
+   "delta_e": 0.09384185,
+   "stability": 0.09384185,
+   "icsd": false,
+   "e_above_hull": 0.09384185,
+   "e_phase_separation": 0.09384185,
+   "energy_per_atom": -8.36884565125,
+   "spg": 223,
+   "nsites": 8,
+   "prototype_id": "A_10_spg223",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444415",
+   "composition_id": "Fe8",
+   "delta_e": 0.38112652,
+   "stability": 0.38112652,
+   "icsd": false,
+   "e_above_hull": 0.38112652,
+   "e_phase_separation": 0.38112652,
+   "energy_per_atom": -8.08156098625,
+   "spg": 87,
+   "nsites": 8,
+   "prototype_id": "A_533_spg87",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  },
+  {
+   "entry_id": "agm004444416",
+   "composition_id": "Fe8",
+   "delta_e": 1.0405662,
+   "stability": 1.0405662,
+   "icsd": false,
+   "e_above_hull": 1.0405662,
+   "e_phase_separation": 1.0405662,
+   "energy_per_atom": -7.4221212625,
+   "spg": 136,
+   "nsites": 8,
+   "prototype_id": "A_490_spg136",
+   "source": "pbe_2025.07.02",
+   "space": "Fe"
+  }
+ ]
 }

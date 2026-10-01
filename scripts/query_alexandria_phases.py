@@ -6,6 +6,11 @@ functionals in one run.
 
 Uses the public OPTIMADE API — no API key required.
 
+Usage: query_alexandria_phases.py [pbe] [pbesol]   (default: both).
+The pipeline runs it for PBEsol only; the PBE cache is built from the bulk
+2025.07.02 release by extract_alexandria_release_phases.py, because the
+OPTIMADE server serves only part of the PBE database.
+
 Results are stored as JSON at:
   data/external/alexandria_pbe_ternary_phases/<space>.json
   data/external/alexandria_pbesol_ternary_phases/<space>.json
@@ -181,7 +186,10 @@ def main():
         print(f"  {n}-element spaces: {count}")
     print()
 
+    wanted = sys.argv[1:] or list(FUNCTIONALS)
     for functional, out_dir_str in FUNCTIONALS.items():
+        if functional not in wanted:
+            continue
         out_dir = Path(out_dir_str)
         out_dir.mkdir(parents=True, exist_ok=True)
         base_url = BASE_URLS[functional]

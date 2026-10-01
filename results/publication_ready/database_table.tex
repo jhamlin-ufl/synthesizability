@@ -1,0 +1,55 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{The 34 targets as seen by the three databases. For each database, $\Delta E_{\mathrm{hull}}$ is the energy of its lowest entry at the target composition relative to the convex hull of all other compositions in that database (meV/atom; negative means the database predicts the compound to be stable), recomputed from the cached entries by the same construction for all three. ``Same states whether the database's ground-state structure at that composition is the same structure as the OQMD prediction from which the target was selected (pymatgen StructureMatcher); the space group is given where it differs. Blank: no entry at the composition. Snapshots: OQMD v1.7 local dump; Materials Project API, April 2026; Alexandria PBE 2025.07.02 release.}
+\label{tab:databases}
+\vspace{4pt}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{rllrrlrl}
+\toprule
+ & & \multicolumn{1}{c}{OQMD} & & \multicolumn{2}{c}{Materials Project} & \multicolumn{2}{c}{Alexandria (PBE)} \\
+\cmidrule(lr){3-3}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+\# & Formula & $\Delta E_{\mathrm{hull}}$ & Structure & $\Delta E_{\mathrm{hull}}$ & Same & $\Delta E_{\mathrm{hull}}$ & Same \\
+\midrule
+\multicolumn{8}{l}{\textit{Solid Solution}} \\
+1 & \ch{Pd6Cu5Ge} & -19.6 & $Cmmm$ &  &  & -15.9 & no ($Immm$) \\
+2 & \ch{Al8FeCo7} & -3.4 & $Pm\bar{3}m$ & 12.1 & yes &  &  \\
+3 & \ch{Hf2MoIr} & -12.0 & $Fm\bar{3}m$ & -9.1 & yes & 3.7 & yes \\
+4 & \ch{Al4FeCo3} & -6.5 & $Im\bar{3}m$ &  &  & -3.2 & no ($R\bar{3}m$) \\
+5 & \ch{Sc2PdCu} & 4.8 & $Fm\bar{3}m$ & -1.3 & yes & -0.7 & no ($P4/mmm$) \\
+6 & \ch{Sc3Pd2Cu} & -3.0 & $P4/mmm$ &  &  & 4.9 & yes \\
+7 & \ch{ScPd5Au2} & 2.8 & $Pbam$ &  &  & 9.9 & yes \\
+8 & \ch{ScPd2Cu} & 17.7 & $I4/mmm$ & 33.2 & no ($Fm\bar{3}m$) & 4.8 & no ($P4/mmm$) \\
+9 & \ch{Al2MnAu6} & -0.6 & $C2/m$ &  &  & 3.2 & yes \\
+10 & \ch{Sc2Pd5Au} & -9.6 & $Pbam$ & -12.9 & no ($Amm2$) & -34.7 & yes \\
+11 & \ch{PtNiGe2} & -5.8 & $P2_1/m$ &  &  & 17.9 & no ($P\bar{3}m1$) \\
+12 & \ch{Gd3Sn6Co} & -25.1 & $Cmcm$ &  &  &  &  \\
+\midrule
+\multicolumn{8}{l}{\textit{Multi-Phase}} \\
+13 & \ch{NbNi2B2} & 12.1 & $I4/mmm$ &  &  & 23.0 & yes \\
+14 & \ch{ScPd2Au} & 6.4 & $P4/mmm$ & 2078.0 & no ($Immm$) & -4.7 & yes \\
+15 & \ch{LaRuC2} & 0.9 & $Cmcm$ &  &  & 28.3 & no ($Amm2$) \\
+16 & \ch{GdFeGe2} & 0.2 & $P2_1/m$ &  &  & -6.3 & yes \\
+17 & \ch{La5Al3Co2} & -0.7 & $Cmcm$ &  &  &  &  \\
+18 & \ch{La2PdAu2} & -0.8 & $C2/m$ &  &  & 11.9 & yes \\
+19 & \ch{Ti2Pt8Ge} & -3.9 & $P4/mmm$ & -45.4 & yes & 103.0 & no ($Immm$) \\
+20 & \ch{GdSn6Co4} & -4.1 & $I\bar{4}2m$ &  &  & -11.2 & yes \\
+21 & \ch{Ti2Pt8Si} & -4.8 & $P4/mmm$ &  &  & 90.4 & no ($Immm$) \\
+22 & \ch{Gd2Fe3Ge5} & -8.6 & $C2/c$ &  &  &  &  \\
+23 & \ch{ScCrC2} & -10.0 & $P6_3/mmc$ & 26.1 & yes & 26.8 & yes \\
+24 & \ch{YAl3Cu2} & -10.8 & $P6/mmm$ &  &  & -3.0 & yes \\
+25 & \ch{TiPt5Ge} & -18.8 & $P4/mmm$ &  &  & -34.0 & yes \\
+26 & \ch{GdFeGe3} & -19.0 & $I4mm$ &  &  & -30.6 & yes \\
+27 & \ch{ScPdCu4} & -24.2 & $F\bar{4}3m$ &  &  & 3.9 & yes \\
+28 & \ch{LaNiSi3} & -24.7 & $I4mm$ &  &  & -5.2 & yes \\
+29 & \ch{GdPt2Ge} & -32.5 & $Cmcm$ &  &  & -25.4 & no ($Pnma$) \\
+30 & \ch{YCoSi} & -42.9 & $P4/nmm$ & 16.9 & no ($Pnma$) & -31.1 & yes \\
+\midrule
+\multicolumn{8}{l}{\textit{Predicted Structure Found}} \\
+31 & \ch{TiPt5Si} & -16.5 & $P4/mmm$ &  &  & -25.6 & yes \\
+32 & \ch{YCoSi3} & -17.3 & $I4mm$ &  &  & -14.9 & yes \\
+33 & \ch{ZrPt5Si} & -41.8 & $P4/mmm$ & -41.8 & yes & -21.5 & yes \\
+34 & \ch{YSnCu} & -69.1 & $P6_3mc$ & -69.0 & yes & -69.6 & yes \\
+\bottomrule
+\end{tabular}
+\end{table*}

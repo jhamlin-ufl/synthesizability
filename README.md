@@ -68,3 +68,7 @@ A paper citation will be added here upon publication.
 ## License
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material with appropriate attribution.
+
+## Before publication
+
+Open items that must be resolved before the paper is submitted (database snapshots and refresh, outstanding XRD fits and measurements, classification decisions, Methods text) are tracked in [PUBLICATION_CHECKLIST.md](PUBLICATION_CHECKLIST.md).
