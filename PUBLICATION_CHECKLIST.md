@@ -8,19 +8,12 @@ items, occupancy analysis) are in `data/temp/`, which is gitignored.
 
 ## State at the end of the 2026-10-01 session (read first)
 
-- **Nothing is committed.** `git status` shows ~235 changed or new files: the
-  Snakefile, nine new scripts (`compute_hull_distances.py`,
-  `extract_alexandria_release_phases.py`, `make_database_table.py`,
-  `make_sample_table.py`, `plot_hull_cross_database.py`,
-  `plot_xrd_comparison_grid.py`, `plot_xrd_representative.py`,
-  `record_database_snapshot.py`, `src/synthesizability/{paper_samples,
-  xrd_background,xrd_figure,xrd_simulator}.py`), the regenerated Alexandria
-  PBE cache (160 JSON files, now from the bulk release), the new structure
-  folder `data/external/alexandria_hull_structures/`, `hull_distances.csv`,
-  the provenance snapshot, the publication-ready figures and tables, and
-  `reference_papers/`. First action next session: commit this on a branch
-  (suggested name `paper-figures-tables`) so the state is recoverable, then
-  tag the database state (`db-snapshot-A`).
+- **Committed on branch `paper-figures-tables`** (2026-10-01, commit
+  6935d39, 684 files; not pushed, not merged). Left uncommitted on purpose:
+  `reference_papers/` (publisher PDFs), `notes_on_xrd.txt` (candid voice
+  notes) and `synthesizability_study_structures.zip` (origin unclear). Still
+  to do: tag the database state (`git tag db-snapshot-A`), push, and open the
+  PR when the figures settle.
 - **Overleaf** (`~/ufdb/Apps/Overleaf/Synthesizability Project/`): main.tex,
   supplementary.tex, `figures/{xrd_representative,xrd_appendix_SS,MP,P,
   disorder_vs_stability}.pdf`, `tables/{sample_table,database_table}.tex`
