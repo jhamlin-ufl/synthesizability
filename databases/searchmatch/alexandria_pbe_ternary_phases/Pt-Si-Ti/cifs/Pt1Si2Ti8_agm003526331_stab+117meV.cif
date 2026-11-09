@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ti8Si2Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02218919
+_cell_length_b   6.72771833
+_cell_length_c   7.50199780
+_cell_angle_alpha   114.16255050
+_cell_angle_beta   105.54972268
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8Si2Pt
+_chemical_formula_sum   'Ti8 Si2 Pt1'
+_cell_volume   177.04426318
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.41250665  0.54606159  0.82501331  1
+  Ti  Ti1  1  0.67482172  0.91488337  0.34964444  1
+  Ti  Ti2  1  0.82177526  0.73354551  0.64355052  1
+  Ti  Ti3  1  0.96417402  0.21830613  0.92834704  1
+  Ti  Ti4  1  0.17822474  0.26645449  0.35644948  1
+  Ti  Ti5  1  0.32517828  0.08511663  0.65035556  1
+  Ti  Ti6  1  0.58749335  0.45393841  0.17498669  1
+  Ti  Ti7  1  0.03582698  0.78169387  0.07165396  1
+  Si  Si8  1  0.80623646  0.33016784  0.61247193  1
+  Si  Si9  1  0.19376354  0.66983216  0.38752807  1
+  Pt  Pt10  1  0.50000000  0.00000000  0.00000000  1

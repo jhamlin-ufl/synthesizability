@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Gd2Fe3Ge5/buttons/0554/0554_HM_Gd2Fe3Ge5.txt --space samples/Gd2Fe3Ge5/fits/0554_tex_FoR/start --occ pred --uiso-max 0.04 --main-key 'Gd(FeGe)2_oqmd_18402' --md --md-axis 0 0 1 --main-window 0.03 --limits 18 118 --partners GdFe0.37Ge2_CeNiSi2_Jemmali2010 Gd0.5Fe3Ge3_YCo6Ge6_oqmd1791584half Ge_cod_1563567_o1 --out results/refits/0554_tex_FoR --strict-final --accept-bound

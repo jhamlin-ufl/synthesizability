@@ -1,0 +1,272 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-27 13:49:54 +0300 (Wed, 27 Sep 2017) $
+#$Revision: 201366 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/31/07/2310775.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2310775
+loop_
+_publ_author_name
+'M\"uller, Carola J'
+'Lidin, Sven'
+_publ_section_title
+;
+ Cu~3~Sn - understanding the systematic absences.
+;
+_journal_coden_ASTM              ACSBDA
+_journal_coeditor_code           DQ5008
+_journal_issue                   5
+_journal_name_full
+;
+ Acta Crystallographica, Section B: Structural Science, Crystal Engineering
+ and Materials
+;
+_journal_page_first              879
+_journal_page_last               887
+_journal_paper_doi               10.1107/S205252061401806X
+_journal_volume                  70
+_journal_year                    2014
+_chemical_formula_sum            'Cu3.048 Sn0.952'
+_chemical_formula_weight         306.7
+_space_group_IT_number           51
+_space_group_ssg_name            Xmcm(0\b0)000
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2a 2a (1/2*y,z+1/3,x-1/4)'
+_symmetry_space_group_name_H-M   'P m m a (2*b+1/4,c,a-1/3)'
+_cell_angle_alpha                90.00(6)
+_cell_angle_beta                 90.00(3)
+_cell_angle_gamma                90.00(6)
+_cell_formula_units_Z            2
+_cell_length_a                   5.528(2)
+_cell_length_b                   4.783(4)
+_cell_length_c                   4.3391(18)
+_cell_measurement_reflns_used    776
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      27.61
+_cell_measurement_theta_min      5.33
+_cell_modulation_dimension       1
+_cell_volume                     114.73(11)
+_computing_cell_refinement
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.37.33 (release 27-03-2014 CrysAlis171 .NET)
+(compiled Mar 27 2014,17:12:48)
+;
+_computing_data_collection
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.37.33 (release 27-03-2014 CrysAlis171 .NET)
+(compiled Mar 27 2014,17:12:48)
+;
+_computing_data_reduction
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.37.33 (release 27-03-2014 CrysAlis171 .NET)
+(compiled Mar 27 2014,17:12:48)
+;
+_diffrn_ambient_temperature      293
+_diffrn_detector                 'CCD plate'
+_diffrn_detector_area_resol_mean 16.1367
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.95
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Xcalibur, Eos'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0292
+_diffrn_reflns_av_unetI/netI     0.0254
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_index_m_1_max 3
+_diffrn_reflns_limit_index_m_1_min -3
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            4102
+_diffrn_reflns_theta_full        27.88
+_diffrn_reflns_theta_max         28.35
+_diffrn_reflns_theta_min         3.45
+_diffrn_source                   'Enhance (Mo) X-ray Source'
+_exptl_absorpt_coefficient_mu    37.664
+_exptl_absorpt_correction_T_max  0.474
+_exptl_absorpt_correction_T_min  0.148
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.37.33 (release 27-03-2014 CrysAlis171 .NET)
+(compiled Mar 27 2014,17:12:48)
+Analytical numeric absorption correction using a multifaceted crystal
+   model based on expressions derived by R.C. Clark & J.S. Reid.
+(Clark, R. C. & Reid, J. S. (1995). Acta Cryst. A51, 887-897)
+Empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_colour            'metallic dark grey'
+_exptl_crystal_density_diffrn    8.8753
+_exptl_crystal_description       'trigonal prismatic'
+_exptl_crystal_F_000             272
+_exptl_crystal_size_max          0.24
+_exptl_crystal_size_mid          0.051
+_exptl_crystal_size_min          0.026
+_refine_diff_density_max         2.84
+_refine_diff_density_min         -3.75
+_refine_ls_extinction_coef       111(8)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.63
+_refine_ls_goodness_of_fit_ref   1.34
+_refine_ls_number_constraints    12
+_refine_ls_number_parameters     24
+_refine_ls_number_reflns         591
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0780
+_refine_ls_R_factor_gt           0.0350
+_refine_ls_shift/su_max          0.0447
+_refine_ls_shift/su_mean         0.0092
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0834
+_refine_ls_wR_factor_ref         0.1027
+_reflns_number_gt                276
+_reflns_number_total             591
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            dq5008sup1.cif
+_cod_data_source_block           473K-modulated
+_cod_database_code               2310775
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,z
+3 x,y,-z
+4 -x,y,-z
+5 x+0.5,y,z
+6 -x+0.5,y,z
+7 x+0.5,y,-z
+8 -x+0.5,y,-z
+9 -x,-y+0.666666666666667,-z+0.5
+10 x,-y+0.666666666666667,-z+0.5
+11 -x,-y+0.666666666666667,z+0.5
+12 x,-y+0.666666666666667,z+0.5
+13 -x+0.5,-y+0.666666666666667,-z+0.5
+14 x+0.5,-y+0.666666666666667,-z+0.5
+15 -x+0.5,-y+0.666666666666667,z+0.5
+16 x+0.5,-y+0.666666666666667,z+0.5
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,x2,x3,x4
+3 x1,x2,-x3,x4
+4 -x1,-x2+2/3,-x3+1/2,-x4
+5 -x1,x2,-x3,x4
+6 x1,-x2+2/3,-x3+1/2,-x4
+7 -x1,-x2+2/3,x3+1/2,-x4
+8 x1,-x2+2/3,x3+1/2,-x4
+9 x1+1/2,x2,x3,x4+1/2
+10 -x1+1/2,x2,x3,x4+1/2
+11 x1+1/2,x2,-x3,x4+1/2
+12 -x1+1/2,-x2+2/3,-x3+1/2,-x4+1/2
+13 -x1+1/2,x2,-x3,x4+1/2
+14 x1+1/2,-x2+2/3,-x3+1/2,-x4+1/2
+15 -x1+1/2,-x2+2/3,x3+1/2,-x4+1/2
+16 x1+1/2,-x2+2/3,x3+1/2,-x4+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Sn1 Sn 0 0.65651(15) 0 Uani 0.0097(2) 4 0.476(3) d
+Cu1 Cu 0 0.65651(15) 0 Uani 0.0097(2) 4 0.524(3) d
+Cu2 Cu -0.25 0.49256(19) 0.5 Uani 0.0127(3) 4 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sn1 Sn 0.0093(4) 0.0104(4) 0.0093(4) 0 0 0
+Cu1 Cu 0.0093(4) 0.0104(4) 0.0093(4) 0 0 0
+Cu2 Cu 0.0150(6) 0.0120(5) 0.0110(6) 0 0 0
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Sn1 x 1 0 0
+Sn1 y 1 -0.00502(19) -0.01858(19)
+Sn1 z 1 0 0
+Sn1 x 2 0 0
+Sn1 y 2 0.0027(4) -0.0017(4)
+Sn1 z 2 0 0
+Sn1 x 3 0 0
+Sn1 y 3 -0.0015(2) -0.0037(2)
+Sn1 z 3 0 0
+Cu1 x 1 0 0
+Cu1 y 1 -0.00502(19) -0.01858(19)
+Cu1 z 1 0 0
+Cu1 x 2 0 0
+Cu1 y 2 0.0027(4) -0.0017(4)
+Cu1 z 2 0 0
+Cu1 x 3 0 0
+Cu1 y 3 -0.0015(2) -0.0037(2)
+Cu1 z 3 0 0
+Cu2 x 1 0.0033(2) 0.00299(19)
+Cu2 y 1 0 0
+Cu2 z 1 0 0
+Cu2 x 2 0 0
+Cu2 y 2 -0.0002(5) -0.0013(6)
+Cu2 z 2 0 0
+Cu2 x 3 0.0032(2) 0.0013(2)
+Cu2 y 3 0 0
+Cu2 z 3 0 0
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_jana_atom_site_fourier_wave_vector_q1_coeff
+1 1
+2 2
+3 3
+loop_
+_atom_site_occ_special_func_atom_site_label
+_atom_site_occ_special_func_crenel_c
+_atom_site_occ_special_func_crenel_w
+Sn1 -0.2686(7) 0.476(3)
+Cu1 0.2314(7) 0.524(3)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu 0.3201 1.2651 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Sn -0.6537 1.4246 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.094900 0.000000

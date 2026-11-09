@@ -1,0 +1,15 @@
+db,id,file,db_sg,spglib_sg,hull_meV,n_atoms_conv,note
+OQMD,1013867,OQMD-1013867_Fm-3m_hull-19meV_SELECTED-PREDICTION.cif,Immm,Fm-3m,-18.6,16,prediction the target was selected on
+OQMD,1018128,OQMD-1018128_Fm-3m_hull+0meV.cif,Immm,Fm-3m,0.0,16,
+OQMD,1014363,OQMD-1014363_Fm-3m_hull+0meV.cif,Immm,Fm-3m,0.0,16,
+OQMD,415579,OQMD-415579_Fm-3m_hull+1meV.cif,Fm-3m,Fm-3m,1.3,16,
+OQMD,1017050,OQMD-1017050_P4-mmm_hull+7meV.cif,P4/mmm,P4/mmm,7.2,4,
+OQMD,1012791,OQMD-1012791_P4-mmm_hull+37meV.cif,P4/mmm,P4/mmm,37.5,4,
+OQMD,1147048,OQMD-1147048_F-43m_hull+407meV.cif,F-43m,F-43m,407.2,16,
+OQMD,1127778,OQMD-1127778_F-43m_hull+407meV.cif,F-43m,F-43m,407.2,16,
+OQMD,1018621,OQMD-1018621_Pnma_hull+487meV.cif,Pnma,Pnma,487.1,16,
+MP,mp-864684,MP-mp-864684_Fm-3m_hull+0meV.cif,Fm-3m,Fm-3m,0.0,16,
+Alexandria-PBE,agm002703150,ALEX-agm002703150_Fm-3m_hull+4meV.cif,225,Fm-3m,3.7,16,
+Alexandria-PBE,agm001215668,ALEX-agm001215668_P4-mmm_hull+12meV.cif,123,P4/mmm,12.3,4,
+Alexandria-PBE,agm001143134,ALEX-agm001143134_P4-mmm_hull+38meV.cif,123,P4/mmm,37.7,4,
+Alexandria-PBE,agm002856991,ALEX-agm002856991_I-42d_hull+750meV.cif,122,I-42d,750.5,16,

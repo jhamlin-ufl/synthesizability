@@ -1,0 +1,153 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-07-11 23:14:11 +0300 (Sat, 11 Jul 2015) $
+#$Revision: 146139 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/52/1525219.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1525219
+loop_
+_publ_author_name
+'Schluckebier, G.'
+'Wachtel, E.'
+'Predel, B.'
+_publ_section_title
+;
+ Ueber eine neue intermetallische Phase im System Kobalt-Zinn
+;
+_journal_name_full               'Zeitschrift fuer Metallkunde'
+_journal_page_first              456
+_journal_page_last               460
+_journal_volume                  71
+_journal_year                    1980
+_chemical_formula_sum            'Co1.5 Sn0.5'
+_chemical_name_systematic        '(Co3 Sn)0.5'
+_space_group_IT_number           229
+_symmetry_space_group_name_Hall  '-I 4 2 3'
+_symmetry_space_group_name_H-M   'I m -3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   2.9228
+_cell_length_b                   2.9228
+_cell_length_c                   2.9228
+_cell_volume                     24.969
+_citation_journal_id_ASTM        ZEMTAE
+_cod_data_source_file            Schluckebier_ZEMTAE_1980_1225.cif
+_cod_data_source_block           Co1.5Sn0.5
+_cod_original_cell_volume        24.96878
+_cod_database_code               1525219
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+x,-y,-z
+y,x,-z
+-x,y,-z
+-y,-x,-z
+z,x,y
+-x,z,y
+-z,-x,y
+x,-z,y
+z,-x,-y
+x,z,-y
+-z,x,-y
+-x,-z,-y
+y,z,x
+y,-z,-x
+z,y,-x
+-y,z,-x
+-z,-y,-x
+-y,-z,x
+z,-y,x
+-z,y,x
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+-x,y,z
+-y,-x,z
+x,-y,z
+y,x,z
+-z,-x,-y
+x,-z,-y
+z,x,-y
+-x,z,-y
+-z,x,y
+-x,-z,y
+z,-x,y
+x,z,y
+-y,-z,-x
+-y,z,x
+-z,-y,x
+y,-z,x
+z,y,x
+y,z,-x
+-z,y,-x
+z,-y,-x
+x+1/2,y+1/2,z+1/2
+-y+1/2,x+1/2,z+1/2
+-x+1/2,-y+1/2,z+1/2
+y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,-z+1/2
+y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,-z+1/2
+-y+1/2,-x+1/2,-z+1/2
+z+1/2,x+1/2,y+1/2
+-x+1/2,z+1/2,y+1/2
+-z+1/2,-x+1/2,y+1/2
+x+1/2,-z+1/2,y+1/2
+z+1/2,-x+1/2,-y+1/2
+x+1/2,z+1/2,-y+1/2
+-z+1/2,x+1/2,-y+1/2
+-x+1/2,-z+1/2,-y+1/2
+y+1/2,z+1/2,x+1/2
+y+1/2,-z+1/2,-x+1/2
+z+1/2,y+1/2,-x+1/2
+-y+1/2,z+1/2,-x+1/2
+-z+1/2,-y+1/2,-x+1/2
+-y+1/2,-z+1/2,x+1/2
+z+1/2,-y+1/2,x+1/2
+-z+1/2,y+1/2,x+1/2
+-x+1/2,-y+1/2,-z+1/2
+y+1/2,-x+1/2,-z+1/2
+x+1/2,y+1/2,-z+1/2
+-y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,z+1/2
+-y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,z+1/2
+y+1/2,x+1/2,z+1/2
+-z+1/2,-x+1/2,-y+1/2
+x+1/2,-z+1/2,-y+1/2
+z+1/2,x+1/2,-y+1/2
+-x+1/2,z+1/2,-y+1/2
+-z+1/2,x+1/2,y+1/2
+-x+1/2,-z+1/2,y+1/2
+z+1/2,-x+1/2,y+1/2
+x+1/2,z+1/2,y+1/2
+-y+1/2,-z+1/2,-x+1/2
+-y+1/2,z+1/2,x+1/2
+-z+1/2,-y+1/2,x+1/2
+y+1/2,-z+1/2,x+1/2
+z+1/2,y+1/2,x+1/2
+y+1/2,z+1/2,-x+1/2
+-z+1/2,y+1/2,-x+1/2
+z+1/2,-y+1/2,-x+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Sn1 Sn 0 0 0 0.25 0.0
+Co1 Co 0 0 0 0.75 0.0

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ni4Pt7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66560407
+_cell_length_b   7.18578338
+_cell_length_c   4.74369559
+_cell_angle_alpha   96.27127570
+_cell_angle_beta   99.01930941
+_cell_angle_gamma   90.28071080
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni4Pt7
+_chemical_formula_sum   'Ni4 Pt7'
+_cell_volume   156.09159833
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00103378  0.00004369  0.99843953  1
+  Ni  Ni1  1  0.09108822  0.18234526  0.54795821  1
+  Ni  Ni2  1  0.72709360  0.45401838  0.36113270  1
+  Ni  Ni3  1  0.81714804  0.63631994  0.91065138  1
+  Pt  Pt4  1  0.55325486  0.09589217  0.27508539  1
+  Pt  Pt5  1  0.64420863  0.27783890  0.81330200  1
+  Pt  Pt6  1  0.17397319  0.35852473  0.09578891  1
+  Pt  Pt7  1  0.26492695  0.54047147  0.63400552  1
+  Pt  Pt8  1  0.36195185  0.72429996  0.17578470  1
+  Pt  Pt9  1  0.90909091  0.81818182  0.45454545  1
+  Pt  Pt10  1  0.45622997  0.91206367  0.73330621  1

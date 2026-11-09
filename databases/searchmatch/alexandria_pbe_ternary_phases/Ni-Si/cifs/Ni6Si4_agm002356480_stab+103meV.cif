@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Si2Ni3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.08340314
+_cell_length_b   5.28345363
+_cell_length_c   6.88264725
+_cell_angle_alpha   69.21176491
+_cell_angle_beta   72.34684537
+_cell_angle_gamma   54.94087075
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si2Ni3
+_chemical_formula_sum   'Si4 Ni6'
+_cell_volume   112.67225946
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.26562393  0.17721008  0.27241311  1
+  Ni  Ni1  1  0.73437607  0.82278992  0.72758689  1
+  Ni  Ni2  1  0.16294563  0.73387049  0.95996648  1
+  Ni  Ni3  1  0.98478540  0.25897936  0.64897175  1
+  Ni  Ni4  1  0.83705437  0.26612951  0.04003352  1
+  Ni  Ni5  1  0.01521460  0.74102064  0.35102825  1
+  Si  Si6  1  0.58630652  0.73698691  0.12846175  1
+  Si  Si7  1  0.62102027  0.25122943  0.43085146  1
+  Si  Si8  1  0.41369348  0.26301309  0.87153825  1
+  Si  Si9  1  0.37897973  0.74877057  0.56914854  1

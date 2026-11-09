@@ -1,0 +1,75 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/26/1522663.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1522663
+loop_
+_publ_author_name
+'Panda, S.C.'
+'Bhan, S.'
+_publ_section_title
+;
+ Alloying behaviour of zirconium with other transition metals
+;
+_journal_name_full               'Zeitschrift fuer Metallkunde'
+_journal_page_first              793
+_journal_page_last               799
+_journal_volume                  64
+_journal_year                    1973
+_chemical_formula_sum            'Pt11 Zr9'
+_space_group_IT_number           87
+_symmetry_space_group_name_Hall  '-I 4'
+_symmetry_space_group_name_H-M   'I 4/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.297
+_cell_length_b                   10.297
+_cell_length_c                   6.888
+_cell_volume                     730.322
+_citation_journal_id_ASTM        ZEMTAE
+_cod_data_source_file            Panda_ZEMTAE_1973_1889.cif
+_cod_data_source_block           Pt11Zr9
+_cod_original_cell_volume        730.3223
+_cod_database_code               1522663
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+x+1/2,y+1/2,z+1/2
+-y+1/2,x+1/2,z+1/2
+-x+1/2,-y+1/2,z+1/2
+y+1/2,-x+1/2,z+1/2
+-x+1/2,-y+1/2,-z+1/2
+y+1/2,-x+1/2,-z+1/2
+x+1/2,y+1/2,-z+1/2
+-y+1/2,x+1/2,-z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Pt3 Pt 0.225 0.125 0.22 1 0.0
+Pt2 Pt 0 0.5 0.25 1 0.0
+Zr1 Zr 0 0 0 1 0.0
+Zr2 Zr 0.108 0.305 0 1 0.0
+Pt1 Pt 0 0 0.5 1 0.0
+Zr3 Zr 0.405 0.21 0 1 0.0

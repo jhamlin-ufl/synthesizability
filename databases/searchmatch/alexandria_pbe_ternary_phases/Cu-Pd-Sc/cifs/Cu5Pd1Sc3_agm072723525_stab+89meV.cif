@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sc3Cu5Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.90999314
+_cell_length_b   5.03765631
+_cell_length_c   6.76784898
+_cell_angle_alpha   100.90705646
+_cell_angle_beta   93.78224401
+_cell_angle_gamma   119.23584426
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc3Cu5Pd
+_chemical_formula_sum   'Sc3 Cu5 Pd1'
+_cell_volume   140.96716852
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.08998736  0.47329765  0.13072127  1
+  Sc  Sc1  1  0.56824311  0.36748166  0.75879178  1
+  Sc  Sc2  1  0.20749828  0.65834402  0.62232849  1
+  Cu  Cu3  1  0.64151307  0.55837275  0.37729859  1
+  Cu  Cu4  1  0.64165494  0.06804452  0.40247224  1
+  Cu  Cu5  1  0.72868994  0.82153323  0.07648200  1
+  Cu  Cu6  1  0.14168312  0.06786326  0.39808620  1
+  Cu  Cu7  1  0.36280607  0.07113124  0.05708093  1
+  Pd  Pd8  1  0.90996151  0.03209336  0.75608316  1

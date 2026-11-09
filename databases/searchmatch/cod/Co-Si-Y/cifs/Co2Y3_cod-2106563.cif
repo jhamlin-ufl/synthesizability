@@ -1,0 +1,69 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/65/2106563.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106563
+loop_
+_publ_author_name
+'Moreau, J.M.'
+'Paccard, D.'
+'Parthe, E.'
+_publ_section_title
+;
+ The orthorombic structure of Y3 Co2, a shift structure variation of the
+ monoclinic Dy3Ni2-type
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              747
+_journal_page_last               749
+_journal_volume                  31
+_journal_year                    1975
+_chemical_formula_sum            'Co2 Y3'
+_space_group_IT_number           58
+_symmetry_space_group_name_Hall  '-P 2 2n'
+_symmetry_space_group_name_H-M   'P n n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.248
+_cell_length_b                   9.389
+_cell_length_c                   3.975
+_cell_volume                     457.111
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Moreau_ACBCAR_1975_1938.cif
+_cod_data_source_block           Co2Y3
+_cod_database_code               2106563
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x+1/2,-y+1/2,-z+1/2
+-x+1/2,y+1/2,-z+1/2
+-x,-y,-z
+x,y,-z
+-x-1/2,y-1/2,z-1/2
+x-1/2,-y-1/2,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Y2 Y 0.387 0.373 0 1 0.0
+Co1 Co 0.269 0.86 0 1 0.0
+Y3 Y 0.137 0.574 0 1 0.0
+Co2 Co 0.462 0.883 0 1 0.0
+Y1 Y 0.128 0.193 0 1 0.0

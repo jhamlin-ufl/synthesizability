@@ -1,0 +1,63 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/33/1523318.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1523318
+loop_
+_publ_author_name
+'Buechler, H.'
+'Range, K.J.'
+_publ_section_title
+;
+ Hochdruck-Hochtemperatursynthese und Kristall- struktur von Al11 Au4 und
+ Al Au
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              143
+_journal_page_last               152
+_journal_volume                  160
+_journal_year                    1990
+_chemical_formula_sum            'Al Au'
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 93.14
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.3998
+_cell_length_b                   3.3286
+_cell_length_c                   6.3254
+_cell_volume                     134.544
+_citation_journal_id_ASTM        JCOMAH
+_cod_data_source_file            Buechler_JCOMAH_1990_889.cif
+_cod_data_source_block           Al1Au1
+_cod_original_cell_volume        134.5437
+_cod_original_formula_sum        'Al1 Au1'
+_cod_database_code               1523318
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y+1/2,-z
+-x,-y,-z
+x,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Al2 Al 0.318 0.25 0.9211 1 0.0
+Au1 Au 0.4737 0.25 0.3092 1 0.0
+Au2 Au 0.0076 0.25 0.1871 1 0.0
+Al1 Al 0.8215 0.25 0.5492 1 0.0

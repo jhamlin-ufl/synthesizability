@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaAlCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16275590
+_cell_length_b   6.07639207
+_cell_length_c   6.83289614
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   95.86518309
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaAlCo
+_chemical_formula_sum   'La4 Al4 Co4'
+_cell_volume   254.53418198
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.28287984  0.85945373  0.10275342  1
+  La  La1  1  0.78287984  0.64054627  0.60275342  1
+  La  La2  1  0.71712016  0.14054627  0.89724658  1
+  La  La3  1  0.21712016  0.35945373  0.39724658  1
+  Al  Al4  1  0.21278610  0.36585215  0.87795367  1
+  Al  Al5  1  0.78721390  0.63414785  0.12204633  1
+  Al  Al6  1  0.28721390  0.86585215  0.62204633  1
+  Al  Al7  1  0.71278610  0.13414785  0.37795367  1
+  Co  Co8  1  0.49782234  0.36628850  0.15384189  1
+  Co  Co9  1  0.50217766  0.63371150  0.84615811  1
+  Co  Co10  1  0.99782234  0.13371150  0.65384189  1
+  Co  Co11  1  0.00217766  0.86628850  0.34615811  1

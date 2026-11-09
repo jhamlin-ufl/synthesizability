@@ -1,0 +1,529 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "GdCo4Sn6_pred_OQMD-1368900",
+  "space": "../../../refits_2026-11/cifs_l/0537",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0537_HM_GdCo4Sn6_circular.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 36.47132544692755,
+  "gof": 10.336377435784293,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 6.67742,
+     "length_b": 6.67742,
+     "length_c": 6.67742
+    }
+   ],
+   "shift": 0.0,
+   "size": 1.0,
+   "mustrain": 60000.0,
+   "md": null,
+   "atoms": {
+    "Co0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Co1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Co2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Co3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Gd4": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Sn5": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Sn6": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Sn7": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Sn8": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Sn9": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Sn10": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 36.695,
+   "kept": false,
+   "note": "cell outside its window: GdCo4Sn6_pred_OQMD-1368900",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 6.75553,
+      "length_b": 6.75553,
+      "length_c": 6.53348
+     }
+    ],
+    "shift": -2075.7925202941174,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Co0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Gd4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn10": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": false
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 37.545,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 6.67742,
+      "length_b": 6.67742,
+      "length_c": 6.67742
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 60000.0,
+    "md": null,
+    "atoms": {
+     "Co0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Gd4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn10": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 37.34,
+   "kept": false,
+   "note": "unphysical value",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 6.67742,
+      "length_b": 6.67742,
+      "length_c": 6.67742
+     }
+    ],
+    "shift": 0.0,
+    "size": 0.02,
+    "mustrain": 60000.0,
+    "md": null,
+    "atoms": {
+     "Co0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Gd4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn10": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 37.565,
+   "kept": false,
+   "note": "no gain over 37.55",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 6.67742,
+      "length_b": 6.67742,
+      "length_c": 6.67742
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 60000.0,
+    "md": null,
+    "atoms": {
+     "Co0": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Co1": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Co2": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Co3": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Gd4": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Sn5": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Sn6": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Sn7": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Sn8": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Sn9": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     },
+     "Sn10": {
+      "occ": 1.0,
+      "uiso": -0.02199
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 36.471,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 6.67742,
+      "length_b": 6.67742,
+      "length_c": 6.67742
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 60000.0,
+    "md": null,
+    "atoms": {
+     "Co0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Gd4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn10": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 36.471,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 6.67742,
+      "length_b": 6.67742,
+      "length_c": 6.67742
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 60000.0,
+    "md": null,
+    "atoms": {
+     "Co0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Co3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Gd4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Sn10": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

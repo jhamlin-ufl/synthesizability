@@ -1,0 +1,82 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/54/01/1540133.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1540133
+loop_
+_publ_author_name
+'Ido, H.'
+'Nanjo, M.'
+'Yamada, M.'
+_publ_section_title
+;
+ Magnetic susceptibility of R Co3 B2 (R= Y, Sm, Gd, and Dy)
+;
+_journal_name_full               'Journal of Applied Physics'
+_journal_page_first              7140
+_journal_page_last               7142
+_journal_volume                  75
+_journal_year                    1994
+_chemical_formula_sum            'Co5 Y'
+_space_group_IT_number           191
+_symmetry_space_group_name_Hall  '-P 6 2'
+_symmetry_space_group_name_H-M   'P 6/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   4.914
+_cell_length_b                   4.914
+_cell_length_c                   3.982
+_cell_volume                     83.273
+_citation_journal_id_ASTM        JAPIAU
+_cod_data_source_file            Ido_JAPIAU_1994_1125.cif
+_cod_data_source_block           Co5Y1
+_cod_original_cell_volume        83.27261
+_cod_original_formula_sum        'Co5 Y1'
+_cod_database_code               1540133
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z
+-y,x-y,z
+-x,-y,z
+-x+y,-x,z
+y,-x+y,z
+-y,-x,-z
+x-y,-y,-z
+x,x-y,-z
+y,x,-z
+-x+y,y,-z
+-x,-x+y,-z
+-x,-y,-z
+-x+y,-x,-z
+y,-x+y,-z
+x,y,-z
+x-y,x,-z
+-y,x-y,-z
+y,x,z
+-x+y,y,z
+-x,-x+y,z
+-y,-x,z
+x-y,-y,z
+x,x-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Co1 Co 0.3333 0.6667 0 1 0.0
+Co2 Co 0.5 0 0.5 1 0.0
+Y1 Y 0 0 0 1 0.0

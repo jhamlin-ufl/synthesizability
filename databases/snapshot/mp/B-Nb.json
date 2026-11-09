@@ -1,0 +1,51 @@
+{
+  "space": "B-Nb",
+  "elements": [
+    "B",
+    "Nb"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1080021",
+      "composition_id": "B3 Nb2",
+      "delta_e": -0.771060937500001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-20689",
+      "composition_id": "B2 Nb3",
+      "delta_e": -0.672687687000001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-10255",
+      "composition_id": "B4 Nb3",
+      "delta_e": -0.789740828571429,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1102394",
+      "composition_id": "B6 Nb5",
+      "delta_e": -0.7981935177272721,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2580",
+      "composition_id": "B1 Nb1",
+      "delta_e": -0.8092043887500001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-450",
+      "composition_id": "B2 Nb1",
+      "delta_e": -0.7052428549999991,
+      "stability": 0.0,
+      "icsd": true
+    }
+  ]
+}

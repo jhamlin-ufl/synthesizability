@@ -1,0 +1,74 @@
+{
+  "title": "synthesizability: data and code for 'Experimental Evaluation of High-Throughput Structure Predictions'",
+  "upload_type": "software",
+  "description": "Data, analysis code and fits behind the paper Experimental Evaluation of High-Throughput Structure Predictions (arXiv:2611.09671): measured X-ray patterns of 34 arc-melted candidate compositions, the GSAS-II Rietveld fits shown in the Supplement with their exact commands and open-source starting structures, the search-match code (without ICDD PDF cards), database extracts, and the pipeline that rebuilds every table and figure.",
+  "creators": [
+    {
+      "name": "Di Gianluca, Gabriele D."
+    },
+    {
+      "name": "Grossmann, James"
+    },
+    {
+      "name": "Niedel, Jackson"
+    },
+    {
+      "name": "Esquivel, Juan"
+    },
+    {
+      "name": "Crossman, Molly"
+    },
+    {
+      "name": "Miniati, Tyler"
+    },
+    {
+      "name": "Jean, Melchior"
+    },
+    {
+      "name": "Li, Zhongwei"
+    },
+    {
+      "name": "Prakash, Pawan"
+    },
+    {
+      "name": "Valentini, Andrew"
+    },
+    {
+      "name": "Kim, Jung Soo"
+    },
+    {
+      "name": "Geisler, Benjamin"
+    },
+    {
+      "name": "Hennig, Richard G."
+    },
+    {
+      "name": "Hirschfeld, Peter J."
+    },
+    {
+      "name": "Stewart, Gregory R."
+    },
+    {
+      "name": "Hamlin, James J.",
+      "affiliation": "University of Florida"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2611.09671",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv"
+    }
+  ],
+  "keywords": [
+    "materials discovery",
+    "convex hull",
+    "synthesizability",
+    "X-ray diffraction",
+    "Rietveld refinement",
+    "OQMD",
+    "Materials Project",
+    "Alexandria"
+  ]
+}

@@ -1,0 +1,4 @@
+# This fit was made with the three-step chain in workflow/scripts/chain_TiPt5Si_ZrPt5Si/ (see its README),
+# not with workflow/scripts/refine.py. Final step:
+uv run python workflow/scripts/chain_TiPt5Si_ZrPt5Si/refine_0493_annealed_polish.py --sample 561
+# The GSAS-II project work/fit.gpx is the result and re-refines in GSAS-II.

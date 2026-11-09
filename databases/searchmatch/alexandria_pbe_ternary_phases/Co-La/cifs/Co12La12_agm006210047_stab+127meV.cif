@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LaCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.94729642
+_cell_length_b   8.55044802
+_cell_length_c   9.23080943
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCo
+_chemical_formula_sum   'La12 Co12'
+_cell_volume   548.33312872
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.25000000  0.14136557  0.15825640  1
+  Co  Co1  1  0.75000000  0.85863443  0.84174360  1
+  Co  Co2  1  0.25000000  0.64136557  0.84174360  1
+  Co  Co3  1  0.75000000  0.35863443  0.15825640  1
+  Co  Co4  1  0.25000000  0.58707283  0.40899649  1
+  Co  Co5  1  0.75000000  0.41292717  0.59100351  1
+  Co  Co6  1  0.25000000  0.08707283  0.59100351  1
+  Co  Co7  1  0.75000000  0.91292717  0.40899649  1
+  Co  Co8  1  0.00000000  0.75000000  0.96173346  1
+  Co  Co9  1  0.50000000  0.25000000  0.03826654  1
+  Co  Co10  1  0.00000000  0.25000000  0.03826654  1
+  Co  Co11  1  0.50000000  0.75000000  0.96173346  1
+  La  La12  1  0.25000000  0.49066313  0.11763209  1
+  La  La13  1  0.75000000  0.50933687  0.88236791  1
+  La  La14  1  0.25000000  0.99066313  0.88236791  1
+  La  La15  1  0.75000000  0.00933687  0.11763209  1
+  La  La16  1  0.25000000  0.87098936  0.27268098  1
+  La  La17  1  0.75000000  0.12901064  0.72731902  1
+  La  La18  1  0.25000000  0.37098936  0.72731902  1
+  La  La19  1  0.75000000  0.62901064  0.27268098  1
+  La  La20  1  0.00000000  0.75000000  0.59802402  1
+  La  La21  1  0.50000000  0.25000000  0.40197598  1
+  La  La22  1  0.00000000  0.25000000  0.40197598  1
+  La  La23  1  0.50000000  0.75000000  0.59802402  1

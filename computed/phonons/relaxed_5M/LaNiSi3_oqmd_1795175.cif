@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       La2Si6Ni2
+_chemical_formula_sum              "La2 Si6 Ni2"
+_cell_length_a       10.98758394741
+_cell_length_b       10.987583947410013
+_cell_length_c       4.102629464530724
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    158.82441532357313
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.8326367523355873  0.1673632476644137  1.9618178500547434e-44  1.0000
+  La  La2       1.0  0.16736324766441313  0.8326367523355872  0.0  1.0000
+  Si  Si1       1.0  0.9453743158332443  0.05462568416675585  0.5000000000000002  1.0000
+  Si  Si2       1.0  0.7179518552545526  0.28204814474544754  0.5000000000000002  1.0000
+  Si  Si3       1.0  0.2820481447454471  0.7179518552545533  0.5000000000000002  1.0000
+  Si  Si4       1.0  0.05462568416675438  0.9453743158332442  0.5000000000000002  1.0000
+  Si  Si5       1.0  0.5547555306036117  0.4452444693963882  7.847271400218978e-44  1.0000
+  Si  Si6       1.0  0.44524446939638734  0.5547555306036116  0.0  1.0000
+  Ni  Ni1       1.0  0.6069485848206605  0.39305141517934017  0.5000000000000002  1.0000
+  Ni  Ni2       1.0  0.3930514151793397  0.60694858482066  0.5000000000000002  1.0000

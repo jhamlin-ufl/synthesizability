@@ -1,0 +1,249 @@
+{
+ "record": {
+  "wR": 8.766648989363338,
+  "gof": 2.7722517740936703,
+  "state": {
+   "wt": [
+    0.9696,
+    0.0304
+   ],
+   "SHL": 0.025000366762203918,
+   "transparency": 0.0,
+   "rough": [
+    0.0,
+    0.0
+   ],
+   "shift": -21.15093311890967,
+   "uiso": {
+    "Zr0": 0.01,
+    "Si1": 0.01,
+    "Pt2": 0.00471,
+    "Pt3": 0.00471
+   },
+   "cell": [
+    {
+     "length_a": 3.97576,
+     "length_c": 6.90959
+    },
+    {
+     "length_a": 5.65093,
+     "length_c": 9.24073
+    }
+   ]
+  },
+  "md": 0.9174586634798814,
+  "start_wR": 10.226002256309636
+ },
+ "stages": [
+  {
+   "stage": "starting point (scales + background)",
+   "wR": 10.226,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9718,
+     0.0282
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.604786828715582,
+    "uiso": {
+     "Zr0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.01,
+     "Pt3": 0.01
+    },
+    "cell": [
+     {
+      "length_a": 3.97565,
+      "length_c": 6.90975
+     },
+     {
+      "length_a": 5.65093,
+      "length_c": 9.24073
+     }
+    ]
+   }
+  },
+  {
+   "stage": "SH/L (axial-divergence asymmetry)",
+   "wR": 10.223,
+   "kept": false,
+   "note": "no gain over 10.23",
+   "state": {
+    "wt": [
+     0.9718,
+     0.0282
+    ],
+    "SHL": 0.025944608043374832,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.604786828715582,
+    "uiso": {
+     "Zr0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.01,
+     "Pt3": 0.01
+    },
+    "cell": [
+     {
+      "length_a": 3.97565,
+      "length_c": 6.90975
+     },
+     {
+      "length_a": 5.65093,
+      "length_c": 9.24073
+     }
+    ]
+   }
+  },
+  {
+   "stage": "sample transparency",
+   "wR": 10.224,
+   "kept": false,
+   "note": "no gain over 10.23",
+   "state": {
+    "wt": [
+     0.9718,
+     0.0282
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": -0.05146127456447726,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.604786828715582,
+    "uiso": {
+     "Zr0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.01,
+     "Pt3": 0.01
+    },
+    "cell": [
+     {
+      "length_a": 3.97565,
+      "length_c": 6.90975
+     },
+     {
+      "length_a": 5.65093,
+      "length_c": 9.24073
+     }
+    ]
+   }
+  },
+  {
+   "stage": "Pt Uiso (Pt2 = Pt3; Ti or Zr, and Si held 0.01)",
+   "wR": 9.123,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9688,
+     0.0312
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.604786828715582,
+    "uiso": {
+     "Zr0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.00471,
+     "Pt3": 0.00471
+    },
+    "cell": [
+     {
+      "length_a": 3.97565,
+      "length_c": 6.90975
+     },
+     {
+      "length_a": 5.65093,
+      "length_c": 9.24073
+     }
+    ]
+   }
+  },
+  {
+   "stage": "surface roughness (Suortti)",
+   "wR": 9.121,
+   "kept": false,
+   "note": "no gain over 9.12",
+   "state": {
+    "wt": [
+     0.9685,
+     0.0315
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     -0.007350458963230766
+    ],
+    "shift": -20.604786828715582,
+    "uiso": {
+     "Zr0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.00413,
+     "Pt3": 0.00413
+    },
+    "cell": [
+     {
+      "length_a": 3.97565,
+      "length_c": 6.90975
+     },
+     {
+      "length_a": 5.65093,
+      "length_c": 9.24073
+     }
+    ]
+   }
+  },
+  {
+   "stage": "joint cycle",
+   "wR": 8.767,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9696,
+     0.0304
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -21.15093311890967,
+    "uiso": {
+     "Zr0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.00471,
+     "Pt3": 0.00471
+    },
+    "cell": [
+     {
+      "length_a": 3.97576,
+      "length_c": 6.90959
+     },
+     {
+      "length_a": 5.65093,
+      "length_c": 9.24073
+     }
+    ]
+   }
+  }
+ ]
+}

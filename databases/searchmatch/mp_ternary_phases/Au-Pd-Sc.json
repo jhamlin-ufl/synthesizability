@@ -1,0 +1,38 @@
+{
+  "space": "Au-Pd-Sc",
+  "elements": [
+    "Au",
+    "Pd",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-3336546",
+      "composition_id": "Au1 Pd5 Sc2",
+      "delta_e": -0.848009931249997,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3327051",
+      "composition_id": "Au3 Pd1 Sc1",
+      "delta_e": -0.637861498999996,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-972866",
+      "composition_id": "Au1 Pd1 Sc2",
+      "delta_e": -0.8739244649999981,
+      "stability": 0.008915302500000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096660",
+      "composition_id": "Au1 Pd2 Sc1",
+      "delta_e": 1.259872226458366,
+      "stability": 2.078006698333332,
+      "icsd": false
+    }
+  ]
+}

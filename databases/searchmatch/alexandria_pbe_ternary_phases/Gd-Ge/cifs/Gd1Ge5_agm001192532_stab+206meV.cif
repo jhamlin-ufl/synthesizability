@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GdGe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72386730
+_cell_length_b   4.84932057
+_cell_length_c   7.16304790
+_cell_angle_alpha   109.78524509
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdGe5
+_chemical_formula_sum   'Gd1 Ge5'
+_cell_volume   121.71603233
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.00000000  0.65530037  0.31060074  1
+  Ge  Ge1  1  0.00000000  0.34469963  0.68939926  1
+  Ge  Ge2  1  0.50000000  0.50000000  0.00000000  1
+  Ge  Ge3  1  0.50000000  0.18979742  0.37959384  1
+  Ge  Ge4  1  0.50000000  0.81020258  0.62040616  1
+  Gd  Gd5  1  0.00000000  0.00000000  0.00000000  1

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Ti(SiPt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92115229
+_cell_length_b   3.92115230
+_cell_length_c   5.82643692
+_cell_angle_alpha   109.67935600
+_cell_angle_beta   109.67935593
+_cell_angle_gamma   89.99361208
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti(SiPt)2
+_chemical_formula_sum   'Ti1 Si2 Pt2'
+_cell_volume   78.77363696
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.60901373  0.60901373  0.21784746  1
+  Si  Si1  1  0.39098627  0.39098627  0.78215254  1
+  Pt  Pt2  1  0.25009999  0.74990001  0.50000000  1
+  Pt  Pt3  1  0.74990001  0.25009999  0.50000000  1
+  Ti  Ti4  1  0.00000000  0.00000000  0.00000000  1

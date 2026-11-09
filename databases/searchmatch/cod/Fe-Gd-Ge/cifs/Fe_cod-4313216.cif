@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-08-21 00:21:57 +0300 (Thu, 21 Aug 2025) $
+#$Revision: 301837 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/31/32/4313216.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4313216
+loop_
+_publ_author_name
+'Patrick M. Woodward'
+'Pavel Karen'
+_publ_section_title
+;
+ Mixed Valence in YBaFe2O5
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1121
+_journal_page_last               1129
+_journal_paper_doi               10.1021/ic026022z
+_journal_volume                  42
+_journal_year                    2003
+_chemical_formula_sum            Fe
+_space_group_IT_number           47
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2'
+_symmetry_space_group_name_H-M   'P m m m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            16
+_cell_length_a                   7.8643(6)
+_cell_length_b                   7.8344(7)
+_cell_length_c                   15.1369(12)
+_cell_volume                     932.62(13)
+_computing_structure_refinement  GSAS
+_pd_block_id                     |PHASE_2||
+_pd_phase_name                   'Magnetic Structure'
+_refine_ls_goodness_of_fit_all   1.08
+_refine_ls_number_parameters     40
+_refine_ls_shift/esd_max         0.02
+_refine_ls_shift/esd_mean        0.00
+_cod_data_source_file            ic026022z_s1_18.cif
+_cod_data_source_block           Y500_340_phase_2
+_cod_database_code               4313216
+_cod_database_fobs_code          4313216
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,+y,+z
++x,-y,+z
+-x,-y,+z
+-x,-y,-z
++x,-y,-z
+-x,+y,-z
++x,+y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Fe1 0.01825 0.0 0.0 0.00893 0.0 0.00944
+Fe2 0.01825 0.0 0.0 0.00893 0.0 0.00944
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Fe1 0.25 0.25 0.13166 1.0 Uani 0.01221 8
+Fe2 0.25 0.25 0.36834 1.0 Uani 0.01221 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+FE 16.0
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22368
+2 PubChem 5497022

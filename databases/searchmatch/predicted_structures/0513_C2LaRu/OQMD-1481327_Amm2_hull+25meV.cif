@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LaRuC2
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   4.07537738
+_cell_length_b   4.77261132
+_cell_length_c   6.29480483
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   LaRuC2
+_chemical_formula_sum   'La2 Ru2 C4'
+_cell_volume   122.43516379
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.00000000  0.00000000  0.18756814  1
+  Ru  Ru1  2  0.50000000  0.00000000  0.80608454  1
+  C  C2  4  0.50000000  0.14482219  0.48298476  1

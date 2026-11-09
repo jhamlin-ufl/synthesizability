@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Cu10Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.83496590
+_cell_length_b   6.83496591
+_cell_length_c   5.79670845
+_cell_angle_alpha   75.89030114
+_cell_angle_beta   104.10969887
+_cell_angle_gamma   148.97792334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu10Pd
+_chemical_formula_sum   'Cu10 Pd1'
+_cell_volume   135.02322518
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.59231371  0.40768629  0.46082333  1
+  Cu  Cu1  1  0.31574409  0.68425591  0.09159267  1
+  Cu  Cu2  1  0.13928419  0.86071581  0.18816110  1
+  Cu  Cu3  1  0.04702458  0.95297542  0.72093159  1
+  Cu  Cu4  1  0.86071581  0.13928419  0.81183890  1
+  Cu  Cu5  1  0.68425591  0.31574409  0.90840733  1
+  Cu  Cu6  1  0.40768629  0.59231371  0.53917667  1
+  Cu  Cu7  1  0.95297542  0.04702458  0.27906841  1
+  Cu  Cu8  1  0.22803724  0.77196276  0.63720728  1
+  Cu  Cu9  1  0.77196276  0.22803724  0.36279272  1
+  Pd  Pd10  1  0.50000000  0.50000000  0.00000000  1

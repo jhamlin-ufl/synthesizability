@@ -1,0 +1,404 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/10/29/8102955.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8102955
+loop_
+_publ_author_name
+'Gumeniuk, R.'
+'Borrmann, H.'
+'Leithe-Jasper, A.'
+_publ_section_title
+;
+Refinement of the crystal structures of trinickel boron, Ni~3~B, and 
+tripalladium boron, Pd~3~B
+;
+_journal_issue                   4
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              425
+_journal_page_last               426
+_journal_volume                  221
+_journal_year                    2006
+_chemical_formula_sum            'B Ni3'
+_chemical_formula_weight         186.94
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_date             2006-11-16T12:21:05-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.2219(2)
+_cell_length_b                   6.6171(2)
+_cell_length_c                   4.39180(10)
+_cell_measurement_temperature    293(2)
+_cell_volume                     151.754(8)
+_computing_cell_refinement       'CSD (Akselrud, 1993)'
+_computing_data_collection       'CrystalClear (Rigaku Corp., 2000)'
+_computing_data_reduction        'CrystalClear (Rigaku Corp., 2000)'
+_computing_molecular_graphics    'Atoms 5.1 (E. Dowty, 2000)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      295.15
+_diffrn_detector_area_resol_mean 10.0000
+_diffrn_measurement_details
+;
+scan:
+ Number of images: 80
+            Slice: 86.0000 - 206.0000
+      Image width: 1.5000
+         Exp time: 720.0000
+    Rotation axis: Omega
+            Omega: 0.0000
+              Chi: 5.0000
+              Phi: 0.0000
+              XTD: 127.4000
+           2theta: 0.0000
+scan:
+ Number of images: 80
+            Slice: 86.0000 - 206.0000
+      Image width: 1.5000
+         Exp time: 720.0000
+    Rotation axis: Omega
+            Omega: 0.0000
+              Chi: 35.0000
+              Phi: 0.0000
+              XTD: 127.4000
+           2theta: 0.0000
+scan:
+ Number of images: 80
+            Slice: 86.0000 - 206.0000
+      Image width: 1.5000
+         Exp time: 720.0000
+    Rotation axis: Omega
+            Omega: 0.0000
+              Chi: 35.0000
+              Phi: 120.0000
+              XTD: 127.4000
+           2theta: 0.0000
+;
+_diffrn_measurement_device       'Rigaku R-AXIS SPIDER'
+_diffrn_measurement_method       oscillation
+_diffrn_radiation_detector       'IP detector'
+_diffrn_radiation_monochromator  'Graphite Monochromator'
+_diffrn_radiation_source         'Sealed Tube'
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.5608
+_diffrn_reflns_av_R_equivalents  0.0200
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            9768
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         52.48
+_diffrn_reflns_theta_min         4.39
+_diffrn_source_current           20.0000
+_diffrn_source_power             1.2000
+_diffrn_source_voltage           60.0000
+_exptl_absorpt_coefficient_mu    18.833
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.7216
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            metalic
+_exptl_crystal_density_diffrn    8.182
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             356
+_exptl_crystal_size_max          0.054
+_exptl_crystal_size_mid          0.024
+_exptl_crystal_size_min          0.017
+_refine_diff_density_max         1.463
+_refine_diff_density_min         -1.459
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.203
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     26
+_refine_ls_number_reflns         1622
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.203
+_refine_ls_R_factor_gt           0.0217
+_refine_ls_shift/su_max          0.001
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0132P)^2^+0.0307P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0363
+_reflns_number_gt                1404
+_reflns_number_total             1622
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            409893.cff
+_cod_data_source_block           0000b_Ni3B
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_database_code               8102955
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'-x-1/2, y-1/2, z-1/2'
+'x, -y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ni1 Ni 0.179855(14) 0.061504(14) 0.154432(18) 0.00517(2) Uani 1.000(14) 8 d d .
+Ni2 Ni 0.02798(2) 0.25 0.63106(3) 0.00555(2) Uani 0.999(14) 4 c d SP
+B B 0.38224(18) 0.25 0.4380(2) 0.00745(19) Uani 1.007(15) 4 c d SP
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ni1 0.00598(2) 0.00438(4) 0.00514(2) -0.00035(2) -0.00045(2) 0.00008(2)
+Ni2 0.00545(3) 0.00510(5) 0.00611(3) 0 0.00091(2) 0
+B 0.0061(3) 0.0078(4) 0.0085(3) 0 -0.0007(2) 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0004 0.0004 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3147 0.7232 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+B Ni1 B 98.14(2) 6_556 . ?
+B Ni1 B 111.134(11) 6_556 2_554 ?
+B Ni1 B 150.41(2) . 2_554 ?
+B Ni1 Ni1 104.66(3) 6_556 2_554 ?
+B Ni1 Ni1 126.16(3) . 2_554 ?
+B Ni1 Ni1 51.17(2) 2_554 2_554 ?
+B Ni1 Ni1 127.60(3) 6_556 2 ?
+B Ni1 Ni1 60.37(2) . 2 ?
+B Ni1 Ni1 96.61(2) 2_554 2 ?
+Ni1 Ni1 Ni1 126.990(7) 2_554 2 ?
+B Ni1 Ni1 60.56(2) 6_556 5 ?
+B Ni1 Ni1 158.31(2) . 5 ?
+B Ni1 Ni1 50.57(2) 2_554 5 ?
+Ni1 Ni1 Ni1 67.921(4) 2_554 5 ?
+Ni1 Ni1 Ni1 127.786(7) 2 5 ?
+B Ni1 Ni1 52.169(17) 6_556 8_565 ?
+B Ni1 Ni1 52.632(17) . 8_565 ?
+B Ni1 Ni1 154.02(2) 2_554 8_565 ?
+Ni1 Ni1 Ni1 109.373(4) 2_554 8_565 ?
+Ni1 Ni1 Ni1 109.373(4) 2 8_565 ?
+Ni1 Ni1 Ni1 109.357(4) 5 8_565 ?
+B Ni1 Ni2 104.35(2) 6_556 5_556 ?
+B Ni1 Ni2 119.52(2) . 5_556 ?
+B Ni1 Ni2 49.98(2) 2_554 5_556 ?
+Ni1 Ni1 Ni2 101.090(6) 2_554 5_556 ?
+Ni1 Ni1 Ni2 61.402(5) 2 5_556 ?
+Ni1 Ni1 Ni2 66.724(5) 5 5_556 ?
+Ni1 Ni1 Ni2 145.115(3) 8_565 5_556 ?
+B Ni1 Ni2 98.48(2) 6_556 6_656 ?
+B Ni1 Ni2 68.44(3) . 6_656 ?
+B Ni1 Ni2 109.79(2) 2_554 6_656 ?
+Ni1 Ni1 Ni2 60.445(4) 2_554 6_656 ?
+Ni1 Ni1 Ni2 113.051(5) 2 6_656 ?
+Ni1 Ni1 Ni2 115.987(6) 5 6_656 ?
+Ni1 Ni1 Ni2 60.542(3) 8_565 6_656 ?
+Ni2 Ni1 Ni2 153.940(4) 5_556 6_656 ?
+B Ni1 Ni2 68.16(3) 6_556 . ?
+B Ni1 Ni2 50.86(3) . . ?
+B Ni1 Ni2 137.09(2) 2_554 . ?
+Ni1 Ni1 Ni2 170.023(6) 2_554 . ?
+Ni1 Ni1 Ni2 61.500(3) 2 . ?
+Ni1 Ni1 Ni2 112.075(5) 5 . ?
+Ni1 Ni1 Ni2 60.873(2) 8_565 . ?
+Ni2 Ni1 Ni2 87.670(3) 5_556 . ?
+Ni2 Ni1 Ni2 112.724(4) 6_656 . ?
+B Ni1 Ni2 159.86(2) 6_556 2_554 ?
+B Ni1 Ni2 101.887(19) . 2_554 ?
+B Ni1 Ni2 49.12(2) 2_554 2_554 ?
+Ni1 Ni1 Ni2 61.336(5) 2_554 2_554 ?
+Ni1 Ni1 Ni2 65.915(5) 2 2_554 ?
+Ni1 Ni1 Ni2 99.578(6) 5 2_554 ?
+Ni1 Ni1 Ni2 143.431(3) 8_565 2_554 ?
+Ni2 Ni1 Ni2 67.227(4) 5_556 2_554 ?
+Ni2 Ni1 Ni2 87.084(4) 6_656 2_554 ?
+Ni2 Ni1 Ni2 127.414(5) . 2_554 ?
+B Ni1 Ni2 47.97(3) 6_556 1_554 ?
+B Ni1 Ni2 112.45(2) . 1_554 ?
+B Ni1 Ni2 91.18(2) 2_554 1_554 ?
+Ni1 Ni1 Ni2 59.025(3) 2_554 1_554 ?
+Ni1 Ni1 Ni2 172.197(6) 2 1_554 ?
+Ni1 Ni1 Ni2 57.637(4) 5 1_554 ?
+Ni1 Ni1 Ni2 62.843(2) 8_565 1_554 ?
+Ni2 Ni1 Ni2 124.361(4) 5_556 1_554 ?
+Ni2 Ni1 Ni2 64.389(3) 6_656 1_554 ?
+Ni2 Ni1 Ni2 112.030(4) . 1_554 ?
+Ni2 Ni1 Ni2 120.361(5) 2_554 1_554 ?
+B Ni2 B 136.53(4) . 6_557 ?
+B Ni2 Ni1 123.288(6) . 4_556 ?
+B Ni2 Ni1 59.404(9) 6_557 4_556 ?
+B Ni2 Ni1 123.288(6) . 5_556 ?
+B Ni2 Ni1 59.404(9) 6_557 5_556 ?
+Ni1 Ni2 Ni1 110.230(6) 4_556 5_556 ?
+B Ni2 Ni1 116.46(2) . 6_556 ?
+B Ni2 Ni1 101.03(2) 6_557 6_556 ?
+Ni1 Ni2 Ni1 106.212(4) 4_556 6_556 ?
+Ni1 Ni2 Ni1 58.153(3) 5_556 6_556 ?
+B Ni2 Ni1 116.46(2) . 3_455 ?
+B Ni2 Ni1 101.03(2) 6_557 3_455 ?
+Ni1 Ni2 Ni1 58.153(3) 4_556 3_455 ?
+Ni1 Ni2 Ni1 106.212(4) 5_556 3_455 ?
+Ni1 Ni2 Ni1 58.917(5) 6_556 3_455 ?
+B Ni2 Ni1 51.56(2) . . ?
+B Ni2 Ni1 150.852(3) 6_557 . ?
+Ni1 Ni2 Ni1 147.057(5) 4_556 . ?
+Ni1 Ni2 Ni1 92.330(3) 5_556 . ?
+Ni1 Ni2 Ni1 65.078(3) 6_556 . ?
+Ni1 Ni2 Ni1 93.289(5) 3_455 . ?
+B Ni2 Ni1 51.56(2) . 8_565 ?
+B Ni2 Ni1 150.852(3) 6_557 8_565 ?
+Ni1 Ni2 Ni1 92.330(3) 4_556 8_565 ?
+Ni1 Ni2 Ni1 147.057(5) 5_556 8_565 ?
+Ni1 Ni2 Ni1 93.289(5) 6_556 8_565 ?
+Ni1 Ni2 Ni1 65.078(3) 3_455 8_565 ?
+Ni1 Ni2 Ni1 58.254(5) . 8_565 ?
+B Ni2 Ni1 58.418(10) . 7_666 ?
+B Ni2 Ni1 100.642(16) 6_557 7_666 ?
+Ni1 Ni2 Ni1 65.351(3) 4_556 7_666 ?
+Ni1 Ni2 Ni1 154.233(5) 5_556 7_666 ?
+Ni1 Ni2 Ni1 147.228(5) 6_556 7_666 ?
+Ni1 Ni2 Ni1 92.916(3) 3_455 7_666 ?
+Ni1 Ni2 Ni1 103.864(4) . 7_666 ?
+Ni1 Ni2 Ni1 57.164(2) 8_565 7_666 ?
+B Ni2 Ni1 58.418(10) . 2 ?
+B Ni2 Ni1 100.642(16) 6_557 2 ?
+Ni1 Ni2 Ni1 154.233(5) 4_556 2 ?
+Ni1 Ni2 Ni1 65.351(3) 5_556 2 ?
+Ni1 Ni2 Ni1 92.916(3) 6_556 2 ?
+Ni1 Ni2 Ni1 147.227(5) 3_455 2 ?
+Ni1 Ni2 Ni1 57.164(2) . 2 ?
+Ni1 Ni2 Ni1 103.864(4) 8_565 2 ?
+Ni1 Ni2 Ni1 106.861(6) 7_666 2 ?
+B Ni2 Ni1 94.97(3) . 8_566 ?
+B Ni2 Ni1 47.77(2) 6_557 8_566 ?
+Ni1 Ni2 Ni1 55.639(4) 4_556 8_566 ?
+Ni1 Ni2 Ni1 100.627(4) 5_556 8_566 ?
+Ni1 Ni2 Ni1 148.026(5) 6_556 8_566 ?
+Ni1 Ni2 Ni1 113.538(4) 3_455 8_566 ?
+Ni1 Ni2 Ni1 145.027(6) . 8_566 ?
+Ni1 Ni2 Ni1 112.030(4) 8_565 8_566 ?
+Ni1 Ni2 Ni1 55.060(3) 7_666 8_566 ?
+Ni1 Ni2 Ni1 99.231(4) 2 8_566 ?
+B Ni2 Ni1 94.97(3) . 1_556 ?
+B Ni2 Ni1 47.77(2) 6_557 1_556 ?
+Ni1 Ni2 Ni1 100.627(4) 4_556 1_556 ?
+Ni1 Ni2 Ni1 55.639(4) 5_556 1_556 ?
+Ni1 Ni2 Ni1 113.538(4) 6_556 1_556 ?
+Ni1 Ni2 Ni1 148.026(5) 3_455 1_556 ?
+Ni1 Ni2 Ni1 112.030(4) . 1_556 ?
+Ni1 Ni2 Ni1 145.027(6) 8_565 1_556 ?
+Ni1 Ni2 Ni1 99.231(4) 7_666 1_556 ?
+Ni1 Ni2 Ni1 55.060(3) 2 1_556 ?
+Ni1 Ni2 Ni1 54.313(4) 8_566 1_556 ?
+Ni1 B Ni1 75.66(3) 3 6_656 ?
+Ni1 B Ni2 141.06(2) 3 . ?
+Ni1 B Ni2 141.06(2) 6_656 . ?
+Ni1 B Ni2 84.26(3) 3 6_657 ?
+Ni1 B Ni2 84.26(3) 6_656 6_657 ?
+Ni2 B Ni2 87.28(4) . 6_657 ?
+Ni1 B Ni1 130.11(5) 3 . ?
+Ni1 B Ni1 84.25(2) 6_656 . ?
+Ni2 B Ni1 77.59(3) . . ?
+Ni2 B Ni1 138.94(3) 6_657 . ?
+Ni1 B Ni1 84.25(2) 3 8_565 ?
+Ni1 B Ni1 130.11(5) 6_656 8_565 ?
+Ni2 B Ni1 77.59(3) . 8_565 ?
+Ni2 B Ni1 138.94(3) 6_657 8_565 ?
+Ni1 B Ni1 74.74(3) . 8_565 ?
+Ni1 B Ni1 68.866(11) 3 7_666 ?
+Ni1 B Ni1 137.92(4) 6_656 7_666 ?
+Ni2 B Ni1 72.46(2) . 7_666 ?
+Ni2 B Ni1 70.62(3) 6_657 7_666 ?
+Ni1 B Ni1 136.39(4) . 7_666 ?
+Ni1 B Ni1 68.463(10) 8_565 7_666 ?
+Ni1 B Ni1 137.92(4) 3 2 ?
+Ni1 B Ni1 68.866(11) 6_656 2 ?
+Ni2 B Ni1 72.46(2) . 2 ?
+Ni2 B Ni1 70.62(3) 6_657 2 ?
+Ni1 B Ni1 68.463(10) . 2 ?
+Ni1 B Ni1 136.39(4) 8_565 2 ?
+Ni1 B Ni1 128.04(5) 7_666 2 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ni1 B 2.0337(7) 6_556 ?
+Ni1 B 2.0551(8) . ?
+Ni1 B 2.2929(5) 2_554 ?
+Ni1 Ni1 2.4538 2_554 ?
+Ni1 Ni1 2.4538 2 ?
+Ni1 Ni1 2.45576(16) 5 ?
+Ni1 Ni1 2.4946(2) 8_565 ?
+Ni1 Ni2 2.51279(12) 5_556 ?
+Ni1 Ni2 2.53624(14) 6_656 ?
+Ni1 Ni2 2.56251(13) . ?
+Ni1 Ni2 2.56650(12) 2_554 ?
+Ni1 Ni2 2.73277(13) 1_554 ?
+Ni2 B 2.0350(10) . ?
+Ni2 B 2.0400(10) 6_557 ?
+Ni2 Ni1 2.51279(12) 4_556 ?
+Ni2 Ni1 2.51279(12) 5_556 ?
+Ni2 Ni1 2.53624(14) 6_556 ?
+Ni2 Ni1 2.53624(14) 3_455 ?
+Ni2 Ni1 2.56251(13) 8_565 ?
+Ni2 Ni1 2.56650(12) 7_666 ?
+Ni2 Ni1 2.56650(12) 2 ?
+Ni2 Ni1 2.73277(13) 8_566 ?
+Ni2 Ni1 2.73277(13) 1_556 ?
+B Ni1 2.0337(8) 3 ?
+B Ni1 2.0337(7) 6_656 ?
+B Ni2 2.0400(10) 6_657 ?
+B Ni1 2.0551(8) 8_565 ?
+B Ni1 2.2929(5) 7_666 ?
+B Ni1 2.2929(5) 2 ?

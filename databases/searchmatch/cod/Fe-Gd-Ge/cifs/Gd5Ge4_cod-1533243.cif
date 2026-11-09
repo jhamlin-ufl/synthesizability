@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/32/1533243.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1533243
+loop_
+_publ_author_name
+'Yang, H.F.'
+'Liu, G.Y.'
+'Rao, G.-H.'
+'Liang, J.K.'
+'Ouyang, Z.W.'
+'Feng, X.M.'
+'Liu, W.F.'
+'Chu, W.G.'
+_publ_section_title
+;
+ Crystal structures of compounds in the pseudobinary system (Gd5 Ge4) -
+ (La5 Ge4)
+;
+_journal_name_full               'Journal of Alloys Compd.'
+_journal_page_first              113
+_journal_page_last               117
+_journal_volume                  361
+_journal_year                    2003
+_chemical_formula_sum            'Gd5 Ge4'
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.689
+_cell_length_b                   14.8196
+_cell_length_c                   7.78
+_cell_volume                     886.515
+_citation_journal_id_ASTM        JALCEU
+_cod_data_source_file            Yang_JALCEU_2003_103.cif
+_cod_data_source_block           Gd5Ge4
+_cod_original_cell_volume        886.5148
+_cod_database_code               1533243
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,-y,z+1/2
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x,-y,-z
+x-1/2,y,-z-1/2
+-x-1/2,y-1/2,z-1/2
+x,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ge1 Ge 0.1712 0.25 0.3688 1 0.0
+Gd3 Gd 0.3787 0.8821 0.1629 1 0.0
+Gd1 Gd 0.2927 0.25 0.0022 1 0.0
+Gd2 Gd -0.0237 0.0997 0.1811 1 0.0
+Ge3 Ge 0.218 0.9553 0.473 1 0.0
+Ge2 Ge 0.9157 0.25 0.884 1 0.0

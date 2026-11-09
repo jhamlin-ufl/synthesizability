@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_LaAl11Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15651477
+_cell_length_b   7.25889154
+_cell_length_c   6.82002987
+_cell_angle_alpha   82.99236237
+_cell_angle_beta   67.78754881
+_cell_angle_gamma   71.17251601
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaAl11Co
+_chemical_formula_sum   'La1 Al11 Co1'
+_cell_volume   223.68802458
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.00000000  0.00000000  0.00000000  1
+  Al  Al1  1  0.28084230  0.23746122  0.21778118  1
+  Al  Al2  1  0.71915770  0.76253878  0.78221882  1
+  Al  Al3  1  0.50137651  0.76253878  0.21778118  1
+  Al  Al4  1  0.49862349  0.23746122  0.78221882  1
+  Al  Al5  1  0.36358136  0.63748921  0.65402492  1
+  Al  Al6  1  0.63641864  0.36251079  0.34597508  1
+  Al  Al7  1  0.98239371  0.36251079  0.65402492  1
+  Al  Al8  1  0.01760629  0.63748921  0.34597508  1
+  Al  Al9  1  0.00000000  0.50000000  0.00000000  1
+  Al  Al10  1  0.50000000  0.00000000  0.50000000  1
+  Al  Al11  1  0.00000000  0.00000000  0.50000000  1
+  Co  Co12  1  0.50000000  0.50000000  0.00000000  1

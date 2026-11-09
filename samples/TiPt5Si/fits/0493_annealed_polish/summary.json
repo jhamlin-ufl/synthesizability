@@ -1,0 +1,249 @@
+{
+ "record": {
+  "wR": 10.582956930144283,
+  "gof": 3.2242399230056353,
+  "state": {
+   "wt": [
+    0.9067,
+    0.0933
+   ],
+   "SHL": 0.025000366762203918,
+   "transparency": 0.0,
+   "rough": [
+    0.0,
+    0.0
+   ],
+   "shift": -21.388940837358312,
+   "uiso": {
+    "Ti0": 0.01,
+    "Si1": 0.01,
+    "Pt2": 0.00376,
+    "Pt3": 0.00376
+   },
+   "cell": [
+    {
+     "length_a": 3.92575,
+     "length_c": 6.81269
+    },
+    {
+     "length_a": 3.897,
+     "length_c": 3.897
+    }
+   ]
+  },
+  "md": 0.9475033896901802,
+  "start_wR": 11.71698214029442
+ },
+ "stages": [
+  {
+   "stage": "starting point (scales + background)",
+   "wR": 11.717,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9112,
+     0.0888
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.603117266567747,
+    "uiso": {
+     "Ti0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.01,
+     "Pt3": 0.01
+    },
+    "cell": [
+     {
+      "length_a": 3.92565,
+      "length_c": 6.81281
+     },
+     {
+      "length_a": 3.897,
+      "length_c": 3.897
+     }
+    ]
+   }
+  },
+  {
+   "stage": "SH/L (axial-divergence asymmetry)",
+   "wR": 11.716,
+   "kept": false,
+   "note": "no gain over 11.72",
+   "state": {
+    "wt": [
+     0.9112,
+     0.0888
+    ],
+    "SHL": 0.024574060791710706,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.603117266567747,
+    "uiso": {
+     "Ti0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.01,
+     "Pt3": 0.01
+    },
+    "cell": [
+     {
+      "length_a": 3.92565,
+      "length_c": 6.81281
+     },
+     {
+      "length_a": 3.897,
+      "length_c": 3.897
+     }
+    ]
+   }
+  },
+  {
+   "stage": "sample transparency",
+   "wR": 11.717,
+   "kept": false,
+   "note": "no gain over 11.72",
+   "state": {
+    "wt": [
+     0.9111,
+     0.0889
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.02930218457100303,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.603117266567747,
+    "uiso": {
+     "Ti0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.01,
+     "Pt3": 0.01
+    },
+    "cell": [
+     {
+      "length_a": 3.92565,
+      "length_c": 6.81281
+     },
+     {
+      "length_a": 3.897,
+      "length_c": 3.897
+     }
+    ]
+   }
+  },
+  {
+   "stage": "Pt Uiso (Pt2 = Pt3; Ti, Si held 0.01)",
+   "wR": 10.857,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9044,
+     0.0956
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -20.603117266567747,
+    "uiso": {
+     "Ti0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.00376,
+     "Pt3": 0.00376
+    },
+    "cell": [
+     {
+      "length_a": 3.92565,
+      "length_c": 6.81281
+     },
+     {
+      "length_a": 3.897,
+      "length_c": 3.897
+     }
+    ]
+   }
+  },
+  {
+   "stage": "surface roughness (Suortti)",
+   "wR": 10.857,
+   "kept": false,
+   "note": "no gain over 10.86",
+   "state": {
+    "wt": [
+     0.9046,
+     0.0954
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.001382594266029877
+    ],
+    "shift": -20.603117266567747,
+    "uiso": {
+     "Ti0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.00391,
+     "Pt3": 0.00391
+    },
+    "cell": [
+     {
+      "length_a": 3.92565,
+      "length_c": 6.81281
+     },
+     {
+      "length_a": 3.897,
+      "length_c": 3.897
+     }
+    ]
+   }
+  },
+  {
+   "stage": "joint cycle",
+   "wR": 10.583,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9067,
+     0.0933
+    ],
+    "SHL": 0.025000366762203918,
+    "transparency": 0.0,
+    "rough": [
+     0.0,
+     0.0
+    ],
+    "shift": -21.388940837358312,
+    "uiso": {
+     "Ti0": 0.01,
+     "Si1": 0.01,
+     "Pt2": 0.00376,
+     "Pt3": 0.00376
+    },
+    "cell": [
+     {
+      "length_a": 3.92575,
+      "length_c": 6.81269
+     },
+     {
+      "length_a": 3.897,
+      "length_c": 3.897
+     }
+    ]
+   }
+  }
+ ]
+}

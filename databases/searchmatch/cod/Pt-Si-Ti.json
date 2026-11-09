@@ -1,0 +1,527 @@
+{
+  "space": "Pt-Si-Ti",
+  "elements": [
+    "Pt",
+    "Si",
+    "Ti"
+  ],
+  "source": "COD REST https://www.crystallography.net/cod/result (strictmin/strictmax exact element subsets; REST defaults exclude theoretical/duplicate/error entries)",
+  "licence": "CC0 1.0 (https://www.crystallography.net/cod/)",
+  "retrieved": "2026-10-06",
+  "n_entries": 64,
+  "n_partial_occupancy": 1,
+  "entries": [
+    {
+      "cod_id": "1011103",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011107",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011109",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011111",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011113",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011114",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1007/BF01327394",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1101019",
+      "formula": "Pt",
+      "space_group": "Fm-3m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104023",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768103021761",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104026",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768103021761",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104029",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768103021761",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4334349",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic302809v",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008480",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012957",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013417",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.25.753",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1526655",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1573832",
+      "formula": "Si",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1021/acs.nanolett.8b02816",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2102763",
+      "formula": "Si",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768106046465",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104737",
+      "formula": "Si",
+      "space_group": "F d -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768110011845",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4104917",
+      "formula": "Si",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1021/ja903823w",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4350826",
+      "formula": "Si",
+      "space_group": "I a -3",
+      "n_elements": 1,
+      "doi": "10.1021/acs.inorgchem.6b01443",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4507226",
+      "formula": "Si",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1021/cg3013443",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "7248757",
+      "formula": "Si",
+      "space_group": "P -3 m 1",
+      "n_elements": 1,
+      "doi": "10.1039/d4cp01424c",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008565",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008566",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011056",
+      "formula": "Si",
+      "space_group": "I a -3",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X64001840",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011644",
+      "formula": "Si",
+      "space_group": "C m c e",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevLett.82.1197",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011645",
+      "formula": "Si",
+      "space_group": "C m c e",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevLett.82.1197",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011646",
+      "formula": "Si",
+      "space_group": "C m c e",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevLett.82.1197",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011656",
+      "formula": "Si",
+      "space_group": "I m m a",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevB.47.8337",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011998",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1107/S0021889875010965",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012724",
+      "formula": "Si",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevLett.58.775",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012918",
+      "formula": "Si",
+      "space_group": "P 6/m m m",
+      "n_elements": 1,
+      "doi": "10.1016/0375-9601(84)90219-6",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012919",
+      "formula": "Si",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1016/0375-9601(84)90219-6",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013102",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013103",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013104",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013105",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013106",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013107",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013108",
+      "formula": "Si",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1002/pssb.19620020803",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1532765",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1534878",
+      "formula": "Ti",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008517",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008554",
+      "formula": "Ti",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011600",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012924",
+      "formula": "Ti",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012925",
+      "formula": "Ti",
+      "space_group": "P 6/m m m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9016190",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9017383",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2106969",
+      "formula": "PtSi",
+      "space_group": "P b n m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008940",
+      "formula": "PtSi",
+      "space_group": "P b n m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1523470",
+      "formula": "PtTi",
+      "space_group": "P m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1523943",
+      "formula": "PtTi3",
+      "space_group": "P m -3 n",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008160",
+      "formula": "Pt12Si5",
+      "space_group": "P 4/n :1",
+      "n_elements": 2,
+      "doi": "10.1524/zkri.1969.128.3-6.406",
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1539010",
+      "formula": "Pt2Si",
+      "space_group": "I 4/m m m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1539263",
+      "formula": "Pt3Ti",
+      "space_group": "P m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2107204",
+      "formula": "Pt3Ti",
+      "space_group": "P -3 m 1",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1522192",
+      "formula": "Pt5Ti3",
+      "space_group": "I b a m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1522696",
+      "formula": "Pt8Ti",
+      "space_group": "I 4/m m m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1539473",
+      "formula": "SiTi",
+      "space_group": "P m m 2",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1009012",
+      "formula": "Si2Ti",
+      "space_group": "F m m m",
+      "n_elements": 2,
+      "doi": "10.1557/PROC-481-605",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1010453",
+      "formula": "Si2Ti",
+      "space_group": "F d d d :1",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1532210",
+      "formula": "Si2Ti",
+      "space_group": "F d d d :1",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1541130",
+      "formula": "Si3Ti5",
+      "space_group": "P 63/m c m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    }
+  ]
+}

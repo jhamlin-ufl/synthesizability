@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/NbNi2B2/buttons/0510/0510_HM_B2NbNi2_circular.txt --space samples/NbNi2B2/fits/0510_FoR_c/start --occ pred --uiso-max 0.04 --main-key Ni3B_alex_agm003219598 --limits 18 118 --partners NbB2_cod_1510778 'Nb2(Ni7B2)3_alex_agm003238496' --partner-mustrain 1 6000 --out results/refits/0510_FoR_c --strict-final --accept-bound

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Al3FeCo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.87894066
+_cell_length_b   4.92623533
+_cell_length_c   4.87894034
+_cell_angle_alpha   109.66770622
+_cell_angle_beta   109.27401576
+_cell_angle_gamma   109.66770700
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3FeCo3
+_chemical_formula_sum   'Al3 Fe1 Co3'
+_cell_volume   90.05036355
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.49979036  0.00352844  0.00000000  1
+  Al  Al1  1  0.50020964  0.50373809  0.50020964  1
+  Al  Al2  1  0.00000000  0.00352844  0.49979036  1
+  Fe  Fe3  1  0.00000000  0.50374042  0.00000000  1
+  Co  Co4  1  0.49995664  0.50347408  0.00000000  1
+  Co  Co5  1  0.50004336  0.00351644  0.50004336  1
+  Co  Co6  1  0.00000000  0.50347408  0.49995664  1

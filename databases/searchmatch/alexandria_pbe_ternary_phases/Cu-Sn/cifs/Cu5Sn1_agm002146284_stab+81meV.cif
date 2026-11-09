@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Cu5Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66318035
+_cell_length_b   4.66309713
+_cell_length_c   5.06806270
+_cell_angle_alpha   63.48634112
+_cell_angle_beta   63.48616415
+_cell_angle_gamma   60.29347750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu5Sn
+_chemical_formula_sum   'Cu5 Sn1'
+_cell_volume   81.97957340
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00084677  0.99916667  0.99998854  1
+  Cu  Cu1  1  0.66839576  0.66812801  0.99491173  1
+  Cu  Cu2  1  0.81974551  0.18027997  0.49998631  1
+  Cu  Cu3  1  0.17824378  0.49908337  0.50002969  1
+  Cu  Cu4  1  0.50093569  0.82178526  0.49994494  1
+  Cu  Cu5  1  0.33189150  0.33161570  0.00506079  1

@@ -1,0 +1,57 @@
+{
+  "space": "Mn",
+  "elements": [
+    "Mn"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-35",
+      "composition_id": "Mn1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-542909",
+      "composition_id": "Mn1",
+      "delta_e": 0.039890561017242004,
+      "stability": 0.039890561017243004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2647025",
+      "composition_id": "Mn1",
+      "delta_e": 0.052632352068965,
+      "stability": 0.052632352068965,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1055908",
+      "composition_id": "Mn1",
+      "delta_e": 0.36972538551724204,
+      "stability": 0.36972538551724204,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-8634",
+      "composition_id": "Mn1",
+      "delta_e": 0.42059543551724204,
+      "stability": 0.42059543551724204,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1057139",
+      "composition_id": "Mn1",
+      "delta_e": 0.657519872068965,
+      "stability": 0.657519872068965,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1191484",
+      "composition_id": "Mn1",
+      "delta_e": 0.8065849943416921,
+      "stability": 0.8065849943416921,
+      "icsd": false
+    }
+  ]
+}

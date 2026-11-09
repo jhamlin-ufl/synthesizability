@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Sc4Au3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.67318449
+_cell_length_b   11.67318449
+_cell_length_c   11.67318449
+_cell_angle_alpha   162.40832937
+_cell_angle_beta   162.40832937
+_cell_angle_gamma   24.97810374
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc4Au3
+_chemical_formula_sum   'Sc4 Au3'
+_cell_volume   145.25211420
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.15732431  0.15732431  0.00000000  1
+  Sc  Sc1  1  0.43113203  0.43113203  0.00000000  1
+  Sc  Sc2  1  0.56886797  0.56886797  0.00000000  1
+  Sc  Sc3  1  0.84267569  0.84267569  0.00000000  1
+  Au  Au4  1  0.00000000  0.00000000  0.00000000  1
+  Au  Au5  1  0.28887841  0.28887841  0.00000000  1
+  Au  Au6  1  0.71112159  0.71112159  0.00000000  1

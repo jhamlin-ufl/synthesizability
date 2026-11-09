@@ -1,0 +1,35 @@
+sample,formula,category,outcome,n_entries,n_groups,n_pending,ground_key,ground_db,ground_spg,ground_hull_meV,ground_status,ground_min_THz,ground_manifest,oqmd_ground_status,mp_ground_status,alex_ground_status,n_groups_25,n_unstable_25,n_unstable_50,best_stable_hull_meV,best_stable_key,formed_keys,formed_status,formed_min_THz
+480,GdGePt2,1,on-hull formed,3,2,0,GdGePt2_oqmd_1365099,oqmd,63,-32.5,Stable,-0.0,Stable,Stable,,Stable,2,0,0,-32.5,GdGePt2_oqmd_1365099,GdGePt2_alex_pbe_agm077800246,Stable,-0.0
+493,TiSiPt5,1,on-hull formed,2,1,0,TiSiPt5_alex_pbe_agm027752216,alex_pbe,123,-25.6,Stable,-0.0,,Stable,,Stable,1,0,0,-25.6,TiSiPt5_alex_pbe_agm027752216,TiSiPt5_alex_pbe_agm027752216,Stable,-0.0
+507,CuSnY,1,on-hull formed,19,12,0,CuSnY_alex_pbe_agm003062255,alex_pbe,186,-69.6,Stable,-0.0,,Stable,Stable,Stable,10,2,2,-69.6,CuSnY_alex_pbe_agm003062255,,,
+512,C2CrSc,1,on-hull formed,5,2,0,C2CrSc_oqmd_14516,oqmd,194,-10.0,Stable,-0.0,Stable,Stable,Stable,Stable,2,0,0,-10.0,C2CrSc_oqmd_14516,C2CrSc_mp_mp-1188534,Stable,-0.0
+540,Al3Cu2Y,1,on-hull formed,2,1,0,Al3Cu2Y_oqmd_1370163,oqmd,191,-10.8,Stable,-0.0,Stable,Stable,,Stable,1,0,0,-10.8,Al3Cu2Y_oqmd_1370163,Al3Cu2Y_oqmd_1370163,Stable,-0.0
+561,ZrSiPt5,1,on-hull formed,3,1,0,ZrSiPt5_mp_mp-3240121,mp,123,-41.8,Stable,-0.0,,Stable,Stable,Stable,1,0,0,-41.8,ZrSiPt5_mp_mp-3240121,ZrSiPt5_oqmd_2146113,Stable,-0.0
+538,CoSiY,2,above-hull polymorph,7,3,0,CoSiY_oqmd_1368530,oqmd,129,-42.9,Stable,-0.0,Stable,Stable,Stable,Stable,2,0,0,-42.9,CoSiY_oqmd_1368530,CoSiY_oqmd_1444920,Stable,-0.0
+539,CoSi3Y,2,above-hull polymorph,5,3,0,CoSi3Y_oqmd_1475971,oqmd,107,-17.3,unStable,-0.3701,unStable,unStable,,unStable,3,1,1,-9.8,CoSi3Y_oqmd_1365767,CoSi3Y_oqmd_1799027,Stable,0.0
+466,Hf2MoIr,3,disordered parent,10,3,0,Hf2MoIr_oqmd_1013867,oqmd,225,-12.0,Stable,-0.0,Stable,Stable,Stable,Stable,2,0,0,-12.0,Hf2MoIr_oqmd_1013867,,,
+473,Sc3CuPd2,3,disordered parent,8,7,0,Sc3CuPd2_oqmd_1374854,oqmd,123,-3.0,unStable,-0.4717,unStable,unStable,,unStable,7,7,7,,,Sc3CuPd2_alex_pbe_agm032593258,unStable,-0.7352
+474,Sc2CuPd,3,disordered parent,6,4,0,Sc2CuPd_mp_mp-1186941,mp,225,-1.3,unStable,-0.3748,,unStable,unStable,unStable,3,3,4,,,Sc2CuPd_alex_pbe_agm001130047,unStable,-0.5259
+477,ScPd5Au2,3,disordered parent,2,1,0,ScPd5Au2_oqmd_1990792,oqmd,55,2.8,Stable,-0.0,Stable,Stable,,Stable,1,0,0,2.8,ScPd5Au2_oqmd_1990792,ScPd5Au2_alex_pbe_agm003466567,Stable,-0.0
+478,Sc2Pd5Au,3,disordered parent,4,3,0,Sc2Pd5Au_alex_pbe_agm003466568,alex_pbe,55,-34.7,Stable,-0.0,,Stable,Stable,Stable,3,0,0,-34.7,Sc2Pd5Au_alex_pbe_agm003466568,,,
+479,MnAl2Au6,3,disordered parent,2,1,0,MnAl2Au6_oqmd_1992237,oqmd,12,-0.6,unStable,-0.4552,unStable,unStable,,unStable,1,1,1,,,,,
+481,NiGe2Pt,3,disordered parent,4,4,0,NiGe2Pt_oqmd_1646030,oqmd,11,-5.8,Stable,-0.0,Stable,Stable,,Stable,4,0,0,-5.8,NiGe2Pt_oqmd_1646030,,,
+535,Al8FeCo7,3,disordered parent,2,1,0,Al8FeCo7_oqmd_2154926,oqmd,221,-3.4,Stable,-0.0,Stable,Stable,Stable,,1,0,0,-3.4,Al8FeCo7_oqmd_2154926,Al8FeCo7_mp_mp-3258444,Stable,-0.0
+545,Al4FeCo3,3,disordered parent,6,6,0,Al4FeCo3_oqmd_2146849,oqmd,229,-6.5,Stable,-0.0,Stable,Stable,,Stable,6,0,0,-6.5,Al4FeCo3_oqmd_2146849,,,
+556,Gd3CoSn6,3,disordered parent,1,1,0,Gd3CoSn6_oqmd_1790943,oqmd,63,-25.1,Stable,0.0,Stable,Stable,,,1,0,0,-25.1,Gd3CoSn6_oqmd_1790943,,,
+472,ScCu4Pd,4,other solid solution,3,1,0,ScCu4Pd_oqmd_1991578,oqmd,216,-24.2,Stable,0.0,Stable,Stable,,Stable,1,0,0,-24.2,ScCu4Pd_oqmd_1991578,,,
+476,ScPd2Au,4,other solid solution,2,1,0,ScPd2Au_alex_pbe_agm001223908,alex_pbe,123,-4.7,Stable,0.0,,Stable,,Stable,1,0,0,-4.7,ScPd2Au_alex_pbe_agm001223908,,,
+469,ScCuPd2,5,multiphase,6,5,0,ScCuPd2_alex_pbe_agm002354501,alex_pbe,123,4.8,Stable,-0.0,,Stable,unStable,Stable,2,0,1,4.8,ScCuPd2_alex_pbe_agm002354501,ScCuPd2_alex_pbe_agm078275705,Stable,-0.0
+483,La5Al3Co2,5,multiphase,1,1,0,La5Al3Co2_oqmd_1782939,oqmd,63,-0.7,unStable,-0.863,unStable,unStable,,,1,1,1,,,,,
+491,TiGePt5,5,multiphase,2,1,0,TiGePt5_alex_pbe_agm027236946,alex_pbe,123,-34.0,Stable,-0.0,,Stable,,Stable,1,0,0,-34.0,TiGePt5_alex_pbe_agm027236946,,,
+494,Ti2SiPt8,5,multiphase,1,1,0,Ti2SiPt8_oqmd_2149228,oqmd,123,-4.8,Stable,-0.0,Stable,Stable,,,1,0,0,-4.8,Ti2SiPt8_oqmd_2149228,,,
+510,B2NbNi2,5,multiphase,3,2,0,B2NbNi2_oqmd_1378348,oqmd,139,12.1,Stable,-0.0,Stable,Stable,,Stable,1,0,0,12.1,B2NbNi2_oqmd_1378348,,,
+513,C2LaRu,5,multiphase,4,3,0,C2LaRu_oqmd_1751220,oqmd,63,0.9,Stable,0.0,Stable,Stable,,unStable,2,1,2,0.9,C2LaRu_oqmd_1751220,,,
+514,LaNiSi3,5,multiphase,4,2,0,LaNiSi3_oqmd_1364676,oqmd,107,-24.7,unStable,-0.139,unStable,unStable,,unStable,2,2,2,,,,,
+537,GdCo4Sn6,5,multiphase,2,1,0,GdCo4Sn6_alex_pbe_agm002206773,alex_pbe,121,-11.2,unStable,-2.6152,,unStable,,unStable,1,1,1,,,,,
+553,GdFeGe3,5,multiphase,3,2,0,GdFeGe3_alex_pbe_agm002150912,alex_pbe,107,-30.6,unStable,-0.1148,,unStable,,unStable,2,1,1,16.3,GdFeGe3_oqmd_1902227,,,
+554,Gd2Fe3Ge5,5,multiphase,2,2,0,Gd2Fe3Ge5_oqmd_1800260,oqmd,15,-8.6,Stable,-0.0,unStable,Stable,,,2,0,0,-8.6,Gd2Fe3Ge5_oqmd_1800260,,,
+555,GdFeGe2,5,multiphase,2,1,0,GdFeGe2_alex_pbe_agm002212835,alex_pbe,11,-6.3,Stable,-0.0,,Stable,,Stable,1,0,0,-6.3,GdFeGe2_alex_pbe_agm002212835,,,
+465,Cu5GePd6,6,unresolved,3,2,0,Cu5GePd6_oqmd_1992694,oqmd,65,-19.6,unStable,-0.5918,unStable,unStable,,unStable,2,2,2,,,Cu5GePd6_oqmd_1992694;Cu5GePd6_alex_pbe_agm003674995,unStable;unStable,-0.5918;-0.5918
+475,La2PdAu2,6,unresolved,3,2,0,La2PdAu2_oqmd_1980865,oqmd,12,-0.8,Stable,-0.0,Stable,Stable,,Stable,2,1,1,-0.8,La2PdAu2_oqmd_1980865,,,
+492,Ti2GePt8,6,unresolved,2,1,0,Ti2GePt8_mp_mp-3343902,mp,123,-45.4,Stable,-0.0,,Stable,Stable,,1,0,0,-45.4,Ti2GePt8_mp_mp-3343902,,,

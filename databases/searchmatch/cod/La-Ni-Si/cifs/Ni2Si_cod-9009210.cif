@@ -1,0 +1,69 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/92/9009210.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009210
+loop_
+_publ_author_name
+'Wyckoff, R. W. G.'
+_publ_section_title
+;
+ Second edition. Interscience Publishers, New York, New York
+;
+_journal_name_full               'Crystal Structures'
+_journal_page_first              298
+_journal_page_last               306
+_journal_volume                  1
+_journal_year                    1963
+_chemical_formula_structural     Ni2Si
+_chemical_formula_sum            'Ni2 Si'
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   7.03
+_cell_length_b                   4.99
+_cell_length_c                   3.72
+_cell_formula_units_Z            4
+_cell_volume                     130.496
+_database_code_amcsd             0011889
+_exptl_crystal_density_diffrn    7.404
+_cod_original_formula_sum        'Si Ni2'
+_cod_database_code               9009210
+_amcsd_formula_title             Ni2Si
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si 0.61400 0.71400 0.25000
+Ni1 0.20300 0.04200 0.25000
+Ni2 0.56300 0.17500 0.25000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011889

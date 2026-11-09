@@ -1,0 +1,94 @@
+{
+  "space": "La-Ni-Si",
+  "elements": [
+    "La",
+    "Ni",
+    "Si"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-5898",
+      "composition_id": "La1 Ni2 Si2",
+      "delta_e": -0.754931222999989,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1079037",
+      "composition_id": "La1 Ni1 Si2",
+      "delta_e": -0.8179414674999991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1190732",
+      "composition_id": "La1 Ni9 Si2",
+      "delta_e": -0.466419799583333,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11726",
+      "composition_id": "La1 Ni9 Si4",
+      "delta_e": -0.5679900817857141,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-7030",
+      "composition_id": "La1 Ni1 Si1",
+      "delta_e": -0.7015016166666631,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1071627",
+      "composition_id": "La1 Ni4 Si1",
+      "delta_e": -0.5417325258333341,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3256764",
+      "composition_id": "La3 Ni4 Si2",
+      "delta_e": -0.5950467983333311,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-568370",
+      "composition_id": "La3 Ni4 Si4",
+      "delta_e": -0.7170075122727271,
+      "stability": 0.008780289090903,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1223188",
+      "composition_id": "La3 Ni1 Si3",
+      "delta_e": -0.6986985664285731,
+      "stability": 0.010697497857144,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1223126",
+      "composition_id": "La3 Ni3 Si7",
+      "delta_e": -0.7404768288461551,
+      "stability": 0.014546064230768001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1223674",
+      "composition_id": "La6 Ni2 Si3",
+      "delta_e": -0.47085796545454606,
+      "stability": 0.065848558198652,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1223258",
+      "composition_id": "La2 Ni1 Si3",
+      "delta_e": -0.703275815000001,
+      "stability": 0.080457463333334,
+      "icsd": false
+    }
+  ]
+}

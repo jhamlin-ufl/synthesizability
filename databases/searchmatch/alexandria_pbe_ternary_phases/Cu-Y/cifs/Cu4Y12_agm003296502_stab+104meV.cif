@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y3Cu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08711785
+_cell_length_b   8.99095185
+_cell_length_c   8.99095185
+_cell_angle_alpha   83.41994090
+_cell_angle_beta   70.21366337
+_cell_angle_gamma   70.21366331
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Cu
+_chemical_formula_sum   'Y12 Cu4'
+_cell_volume   435.67915539
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.35674716  0.99246570  0.80714636  1
+  Y  Y1  1  0.15635922  0.00753430  0.19285364  1
+  Y  Y2  1  0.83610648  0.80714636  0.00753430  1
+  Y  Y3  1  0.65078714  0.19285364  0.99246570  1
+  Y  Y4  1  0.50868612  0.35552769  0.63673283  1
+  Y  Y5  1  0.50094664  0.64447231  0.36326717  1
+  Y  Y6  1  0.85458105  0.63673283  0.64447231  1
+  Y  Y7  1  0.13578619  0.36326717  0.35552769  1
+  Y  Y8  1  0.99002095  0.99090334  0.59837898  1
+  Y  Y9  1  0.57930226  0.00909666  0.40162102  1
+  Y  Y10  1  0.41160007  0.59837898  0.00909666  1
+  Y  Y11  1  0.01907572  0.40162102  0.99090334  1
+  Cu  Cu12  1  0.01182998  0.28407943  0.70148952  1
+  Cu  Cu13  1  0.99739893  0.71592057  0.29851048  1
+  Cu  Cu14  1  0.28667950  0.70148952  0.71592057  1
+  Cu  Cu15  1  0.70409059  0.29851048  0.28407943  1

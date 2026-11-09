@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NiPt9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82956055
+_cell_length_b   4.83069254
+_cell_length_c   7.36578577
+_cell_angle_alpha   102.53117709
+_cell_angle_beta   109.00346705
+_cell_angle_gamma   99.56568883
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiPt9
+_chemical_formula_sum   'Ni1 Pt9'
+_cell_volume   153.29809093
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00000000  0.00000000  0.00000000  1
+  Pt  Pt1  1  0.19818392  0.59843755  0.19450671  1
+  Pt  Pt2  1  0.80181608  0.40156245  0.80549329  1
+  Pt  Pt3  1  0.40256801  0.70686183  0.90209005  1
+  Pt  Pt4  1  0.59743199  0.29313817  0.09790995  1
+  Pt  Pt5  1  0.60012944  0.80204728  0.60394585  1
+  Pt  Pt6  1  0.39987056  0.19795272  0.39605415  1
+  Pt  Pt7  1  0.00000000  0.50000000  0.50000000  1
+  Pt  Pt8  1  0.80520574  0.89743862  0.29597014  1
+  Pt  Pt9  1  0.19479426  0.10256138  0.70402986  1

@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/NbNi2B2/buttons/0510/0510_HM_B2NbNi2_circular.txt --space samples/NbNi2B2/fits/0510_pred_alone/start --main-key NbNi2B2_pred_OQMD-1378348 --partners --out results/refits/0510_pred_alone --strict-final --accept-bound

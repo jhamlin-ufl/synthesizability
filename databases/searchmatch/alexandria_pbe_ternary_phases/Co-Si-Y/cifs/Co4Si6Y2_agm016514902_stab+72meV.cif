@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YCo2Si3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94843659
+_cell_length_b   5.94843659
+_cell_length_c   5.02186445
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   104.58423270
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YCo2Si3
+_chemical_formula_sum   'Y2 Co4 Si6'
+_cell_volume   171.96759948
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.66317631  0.66317631  0.75000000  1
+  Y  Y1  1  0.33682369  0.33682369  0.25000000  1
+  Co  Co2  1  0.19929096  0.80070904  0.50000000  1
+  Co  Co3  1  0.19929096  0.80070904  0.00000000  1
+  Co  Co4  1  0.80070904  0.19929096  0.00000000  1
+  Co  Co5  1  0.80070904  0.19929096  0.50000000  1
+  Si  Si6  1  0.52604523  0.90335082  0.25000000  1
+  Si  Si7  1  0.90335082  0.52604523  0.25000000  1
+  Si  Si8  1  0.47395477  0.09664918  0.75000000  1
+  Si  Si9  1  0.93497049  0.93497049  0.25000000  1
+  Si  Si10  1  0.06502951  0.06502951  0.75000000  1
+  Si  Si11  1  0.09664918  0.47395477  0.75000000  1

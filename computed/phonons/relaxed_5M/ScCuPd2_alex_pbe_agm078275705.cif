@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Sc2Cu2Pd4
+_chemical_formula_sum              "Sc2 Cu2 Pd4"
+_cell_length_a       3.9509091041557767
+_cell_length_b       3.9509091041557767
+_cell_length_c       7.9982679924834725
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.49999999999999994  0.49999999999999994  0.2561884812666311  1.0000
+  Sc  Sc2       1.0  0.49999999999999994  0.49999999999999994  0.743811518733369  1.0000
+  Cu  Cu1       1.0  0.49999999999999994  4.119018960712596e-71  0.0  1.0000
+  Cu  Cu2       1.0  0.0  0.49999999999999994  1.5049585940021374e-36  1.0000
+  Pd  Pd1       1.0  0.0  0.0  0.2315242846667934  1.0000
+  Pd  Pd2       1.0  0.0  1.2186625240007675e-35  0.7684757153332064  1.0000
+  Pd  Pd3       1.0  0.49999999999999994  6.093312620003837e-36  0.5  1.0000
+  Pd  Pd4       1.0  2.502148215221701e-51  0.49999999999999994  0.5  1.0000

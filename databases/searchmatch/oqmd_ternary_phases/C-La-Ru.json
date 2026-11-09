@@ -1,0 +1,52 @@
+{
+  "space": "C-La-Ru",
+  "elements": [
+    "C",
+    "La",
+    "Ru"
+  ],
+  "entries": [
+    {
+      "entry_id": 1788715,
+      "composition_id": "C9 La7 Ru4",
+      "delta_e": -0.24893724587499974,
+      "stability": -0.042406640440687454,
+      "icsd": false
+    },
+    {
+      "entry_id": 1373964,
+      "composition_id": "C4 La3 Ru1",
+      "delta_e": -0.21968365,
+      "stability": 0.0003466017187496173,
+      "icsd": false
+    },
+    {
+      "entry_id": 1751220,
+      "composition_id": "C2 La1 Ru1",
+      "delta_e": -0.17688979874999866,
+      "stability": 0.0009225186652701001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1481327,
+      "composition_id": "C2 La1 Ru1",
+      "delta_e": -0.15316356374999884,
+      "stability": 0.024648753665269918,
+      "icsd": false
+    },
+    {
+      "entry_id": 1427836,
+      "composition_id": "C1 La1 Ru3",
+      "delta_e": -0.0346431955,
+      "stability": 0.09433093536097573,
+      "icsd": false
+    },
+    {
+      "entry_id": 1788624,
+      "composition_id": "C3 La2 Ru5",
+      "delta_e": -0.03503775524999923,
+      "stability": 0.10721209918009027,
+      "icsd": false
+    }
+  ]
+}

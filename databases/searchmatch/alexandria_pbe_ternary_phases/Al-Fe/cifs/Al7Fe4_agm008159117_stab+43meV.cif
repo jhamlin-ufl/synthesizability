@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Al7Fe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.84650829
+_cell_length_b   4.84650829
+_cell_length_c   6.49394766
+_cell_angle_alpha   82.63005116
+_cell_angle_beta   82.63005116
+_cell_angle_gamma   101.46896685
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al7Fe4
+_chemical_formula_sum   'Al7 Fe4'
+_cell_volume   146.38585734
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.51145535  0.91015422  0.80107362  1
+  Al  Al1  1  0.08984578  0.48854465  0.19892638  1
+  Al  Al2  1  0.48854465  0.08984578  0.19892638  1
+  Al  Al3  1  0.91015422  0.51145535  0.80107362  1
+  Al  Al4  1  0.00000000  0.00000000  0.00000000  1
+  Al  Al5  1  0.18005121  0.18005121  0.57120722  1
+  Al  Al6  1  0.81994879  0.81994879  0.42879278  1
+  Fe  Fe7  1  0.29454569  0.70545431  0.50000000  1
+  Fe  Fe8  1  0.70545431  0.29454569  0.50000000  1
+  Fe  Fe9  1  0.62130707  0.62130707  0.12707314  1
+  Fe  Fe10  1  0.37869293  0.37869293  0.87292686  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ni12Ge5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.84891395
+_cell_length_b   6.84891396
+_cell_length_c   6.84891396
+_cell_angle_alpha   98.12305820
+_cell_angle_beta   98.12305816
+_cell_angle_gamma   135.84029286
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni12Ge5
+_chemical_formula_sum   'Ni12 Ge5'
+_cell_volume   207.39930929
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.15109382  0.56970803  0.72080185  1
+  Ni  Ni1  1  0.84890618  0.43029197  0.27919815  1
+  Ni  Ni2  1  0.43029197  0.15109382  0.58138578  1
+  Ni  Ni3  1  0.56970803  0.84890618  0.41861422  1
+  Ni  Ni4  1  0.63181799  0.93517767  0.07031529  1
+  Ni  Ni5  1  0.86486238  0.56150271  0.92968471  1
+  Ni  Ni6  1  0.56150271  0.63181799  0.69664033  1
+  Ni  Ni7  1  0.93517767  0.86486238  0.30335967  1
+  Ni  Ni8  1  0.36818201  0.06482233  0.92968471  1
+  Ni  Ni9  1  0.13513762  0.43849729  0.07031529  1
+  Ni  Ni10  1  0.43849729  0.36818201  0.30335967  1
+  Ni  Ni11  1  0.06482233  0.13513762  0.69664033  1
+  Ge  Ge12  1  0.68894874  0.08450768  0.77345642  1
+  Ge  Ge13  1  0.31105126  0.91549232  0.22654358  1
+  Ge  Ge14  1  0.91549232  0.68894874  0.60444107  1
+  Ge  Ge15  1  0.08450768  0.31105126  0.39555893  1
+  Ge  Ge16  1  0.50000000  0.50000000  0.00000000  1

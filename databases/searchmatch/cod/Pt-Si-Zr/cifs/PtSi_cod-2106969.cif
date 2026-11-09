@@ -1,0 +1,69 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/69/2106969.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106969
+loop_
+_publ_author_name
+'Graeber, E.J.'
+'Baughman, R.J.'
+'Morosin, B.'
+_publ_section_title
+;
+ Crystal structure and linear thermal expansivities of platinum silicide
+ and platinum germanide
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              1991
+_journal_page_last               1994
+_journal_volume                  29
+_journal_year                    1973
+_chemical_formula_sum            'Pt Si'
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.916
+_cell_length_b                   5.577
+_cell_length_c                   3.587
+_cell_volume                     118.348
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Graeber_ACBCAR_1973_1174.cif
+_cod_data_source_block           Pt1Si1
+_cod_original_cell_volume        118.3478
+_cod_original_sg_symbol_Hall     '-P 2ac 2n (z,x,y)'
+_cod_original_formula_sum        'Pt1 Si1'
+_cod_database_code               2106969
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z+1/2
+-x,-y,z+1/2
+-x,-y,-z
+-x-1/2,y-1/2,z
+x-1/2,-y-1/2,z-1/2
+x,y,-z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Si1 Si 0.583 0.177 0.25 1 0.0
+Pt1 Pt 0.1922 -0.0044 0.25 1 0.0

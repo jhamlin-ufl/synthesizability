@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Nb(NiB)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.26399938
+_cell_length_b   3.40004128
+_cell_length_c   9.23094252
+_cell_angle_alpha   100.61247994
+_cell_angle_beta   100.18322887
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb(NiB)2
+_chemical_formula_sum   'Nb2 Ni4 B4'
+_cell_volume   99.04799839
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.82337963  0.57337863  0.64675827  1
+  Nb  Nb1  1  0.17662037  0.42662137  0.35324173  1
+  Ni  Ni2  1  0.55463428  0.30463528  0.10926956  1
+  Ni  Ni3  1  0.94686193  0.19686193  0.89372386  1
+  Ni  Ni4  1  0.44536572  0.69536472  0.89073044  1
+  Ni  Ni5  1  0.05313807  0.80313807  0.10627614  1
+  B  B6  1  0.72410000  0.97410000  0.44820000  1
+  B  B7  1  0.27590000  0.02590000  0.55180000  1
+  B  B8  1  0.37670466  0.12670466  0.75340933  1
+  B  B9  1  0.62329534  0.87329534  0.24659067  1

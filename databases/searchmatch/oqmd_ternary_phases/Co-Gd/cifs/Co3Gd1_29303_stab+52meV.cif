@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GdCo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97966664
+_cell_length_b   4.97966700
+_cell_length_c   8.62304948
+_cell_angle_alpha   106.78263173
+_cell_angle_beta   73.21736753
+_cell_angle_gamma   119.99999573
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdCo3
+_chemical_formula_sum   'Gd3 Co9'
+_cell_volume   174.58355719
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.66584206  0.33415718  0.00247243  1
+  Co  Co1  1  0.41876949  0.08022924  0.24269050  1
+  Co  Co2  1  0.41876949  0.58123061  0.24269050  1
+  Co  Co3  1  0.91977146  0.58123086  0.24269050  1
+  Co  Co4  1  0.49999943  0.49999977  0.50000031  1
+  Co  Co5  1  0.08022973  0.41876984  0.75731012  1
+  Co  Co6  1  0.58122938  0.41876893  0.75731012  1
+  Co  Co7  1  0.58122938  0.91977030  0.75731012  1
+  Co  Co8  1  0.33415913  0.66584352  0.99752819  1
+  Gd  Gd9  1  0.00000000  0.00000000  0.00000000  1
+  Gd  Gd10  1  0.85997361  0.14002766  0.42008056  1
+  Gd  Gd11  1  0.14002798  0.85997263  0.57991883  1

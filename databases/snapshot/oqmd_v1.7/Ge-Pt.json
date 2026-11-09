@@ -1,0 +1,408 @@
+{
+  "space": "Ge-Pt",
+  "elements": [
+    "Ge",
+    "Pt"
+  ],
+  "entries": [
+    {
+      "entry_id": 1907874,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.47582246874999967,
+      "stability": -0.049132502374999165,
+      "icsd": false
+    },
+    {
+      "entry_id": 7905,
+      "composition_id": "Ge3 Pt2",
+      "delta_e": -0.417835729000001,
+      "stability": -0.021360500500000712,
+      "icsd": true
+    },
+    {
+      "entry_id": 1371420,
+      "composition_id": "Ge1 Pt2",
+      "delta_e": -0.405129591666667,
+      "stability": -0.0204239646305035,
+      "icsd": false
+    },
+    {
+      "entry_id": 14058,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.321157405,
+      "stability": -0.017310211249999763,
+      "icsd": true
+    },
+    {
+      "entry_id": 32367,
+      "composition_id": "Ge2 Pt3",
+      "delta_e": -0.43554420375,
+      "stability": -0.002137461249999917,
+      "icsd": true
+    },
+    {
+      "entry_id": 1794936,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.32093281625000003,
+      "stability": 0.00022458874999997658,
+      "icsd": false
+    },
+    {
+      "entry_id": 10310,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.32085370625,
+      "stability": 0.00030369875000002544,
+      "icsd": true
+    },
+    {
+      "entry_id": 2258,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.475091245,
+      "stability": 0.0007312237499996765,
+      "icsd": true
+    },
+    {
+      "entry_id": 2070098,
+      "composition_id": "Ge1 Pt124",
+      "delta_e": -0.008778031560000272,
+      "stability": 0.001499005399999729,
+      "icsd": false
+    },
+    {
+      "entry_id": 8190,
+      "composition_id": "Ge2 Pt3",
+      "delta_e": -0.430981706000001,
+      "stability": 0.004562497749999006,
+      "icsd": true
+    },
+    {
+      "entry_id": 8191,
+      "composition_id": "Ge2 Pt1",
+      "delta_e": -0.343577068333334,
+      "stability": 0.004619371107214387,
+      "icsd": true
+    },
+    {
+      "entry_id": 1821780,
+      "composition_id": "Ge2 Pt5",
+      "delta_e": -0.3414929614285711,
+      "stability": 0.01565252369138931,
+      "icsd": false
+    },
+    {
+      "entry_id": 1785762,
+      "composition_id": "Ge3 Pt2",
+      "delta_e": -0.3875108990000008,
+      "stability": 0.03032483000000019,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340114,
+      "composition_id": "Ge1 Pt2",
+      "delta_e": -0.374284978333333,
+      "stability": 0.030844613333333992,
+      "icsd": false
+    },
+    {
+      "entry_id": 1244274,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.4410698825,
+      "stability": 0.03475258624999966,
+      "icsd": false
+    },
+    {
+      "entry_id": 2065286,
+      "composition_id": "Ge64 Pt1",
+      "delta_e": 0.020740828307691573,
+      "stability": 0.036811433076382814,
+      "icsd": true
+    },
+    {
+      "entry_id": 2065288,
+      "composition_id": "Ge64 Pt1",
+      "delta_e": 0.02720720830769166,
+      "stability": 0.0432778130763829,
+      "icsd": true
+    },
+    {
+      "entry_id": 1929600,
+      "composition_id": "Ge2 Pt5",
+      "delta_e": -0.30924691571428603,
+      "stability": 0.047898569405674385,
+      "icsd": false
+    },
+    {
+      "entry_id": 13687,
+      "composition_id": "Ge1 Pt2",
+      "delta_e": -0.355184798333334,
+      "stability": 0.049944793333333015,
+      "icsd": true
+    },
+    {
+      "entry_id": 1520585,
+      "composition_id": "Ge1 Pt2",
+      "delta_e": -0.34878914583333415,
+      "stability": 0.056340445833332864,
+      "icsd": false
+    },
+    {
+      "entry_id": 345099,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.23843688875,
+      "stability": 0.08272051625000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1956472,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.23825184125000032,
+      "stability": 0.08290556374999969,
+      "icsd": false
+    },
+    {
+      "entry_id": 2072287,
+      "composition_id": "Ge1 Pt15",
+      "delta_e": 0.019946324687500905,
+      "stability": 0.1002356759375009,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069292,
+      "composition_id": "Ge1 Pt9",
+      "delta_e": -0.02590382399999953,
+      "stability": 0.10255913800000048,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069312,
+      "composition_id": "Ge1 Pt10",
+      "delta_e": -0.012271599090909873,
+      "stability": 0.10451291065033592,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062279,
+      "composition_id": "Ge1 Pt15",
+      "delta_e": 0.030102375000000237,
+      "stability": 0.11039172625000024,
+      "icsd": false
+    },
+    {
+      "entry_id": 2066601,
+      "composition_id": "Ge1 Pt15",
+      "delta_e": 0.030561019375000775,
+      "stability": 0.11085037062500078,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062331,
+      "composition_id": "Ge1 Pt15",
+      "delta_e": 0.03821287281250019,
+      "stability": 0.11850222406250019,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069282,
+      "composition_id": "Ge1 Pt9",
+      "delta_e": -0.008399978499999605,
+      "stability": 0.12006298350000041,
+      "icsd": false
+    },
+    {
+      "entry_id": 1798522,
+      "composition_id": "Ge7 Pt3",
+      "delta_e": -0.18838821699999997,
+      "stability": 0.12498857975000077,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062600,
+      "composition_id": "Ge1 Pt17",
+      "delta_e": 0.05443877777777731,
+      "stability": 0.1258070892863164,
+      "icsd": false
+    },
+    {
+      "entry_id": 2070037,
+      "composition_id": "Ge1 Pt8",
+      "delta_e": -0.016692418333333434,
+      "stability": 0.12604420468374478,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062292,
+      "composition_id": "Ge1 Pt15",
+      "delta_e": 0.04612768781250054,
+      "stability": 0.12641703906250054,
+      "icsd": false
+    },
+    {
+      "entry_id": 2072158,
+      "composition_id": "Ge1 Pt7",
+      "delta_e": -0.03288346312499968,
+      "stability": 0.12769523937500032,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062614,
+      "composition_id": "Ge1 Pt17",
+      "delta_e": 0.06262100805555566,
+      "stability": 0.13398931956409477,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069467,
+      "composition_id": "Ge1 Pt7",
+      "delta_e": -0.012026550625000354,
+      "stability": 0.14855215187499965,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520582,
+      "composition_id": "Ge2 Pt1",
+      "delta_e": -0.19355759083333388,
+      "stability": 0.15463884860721452,
+      "icsd": false
+    },
+    {
+      "entry_id": 320613,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.12797308625,
+      "stability": 0.19318431875,
+      "icsd": false
+    },
+    {
+      "entry_id": 1964033,
+      "composition_id": "Ge2 Pt3",
+      "delta_e": -0.24194505200000052,
+      "stability": 0.1935991517499995,
+      "icsd": false
+    },
+    {
+      "entry_id": 298540,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.10452046125,
+      "stability": 0.21663694375,
+      "icsd": false
+    },
+    {
+      "entry_id": 309078,
+      "composition_id": "Ge1 Pt3",
+      "delta_e": -0.0931655787499999,
+      "stability": 0.2279918262500001,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069302,
+      "composition_id": "Ge2 Pt9",
+      "delta_e": 0.0032281763636367537,
+      "stability": 0.2367971990577024,
+      "icsd": false
+    },
+    {
+      "entry_id": 1229662,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.216734642500001,
+      "stability": 0.2590878262499987,
+      "icsd": false
+    },
+    {
+      "entry_id": 1104650,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.2128299525,
+      "stability": 0.26299251624999964,
+      "icsd": false
+    },
+    {
+      "entry_id": 1222691,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.2068468525,
+      "stability": 0.26897561624999966,
+      "icsd": false
+    },
+    {
+      "entry_id": 2070034,
+      "composition_id": "Ge2 Pt7",
+      "delta_e": 0.0033289655555558775,
+      "stability": 0.28880221480128637,
+      "icsd": false
+    },
+    {
+      "entry_id": 326549,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.1831095075,
+      "stability": 0.2927129612499997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1244273,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.1548899125,
+      "stability": 0.32093255624999967,
+      "icsd": false
+    },
+    {
+      "entry_id": 305465,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.1319774975,
+      "stability": 0.3438449712499997,
+      "icsd": false
+    },
+    {
+      "entry_id": 337007,
+      "composition_id": "Ge1 Pt1",
+      "delta_e": -0.1281001075,
+      "stability": 0.34772236124999967,
+      "icsd": false
+    },
+    {
+      "entry_id": 299529,
+      "composition_id": "Ge3 Pt1",
+      "delta_e": 0.0870441812499996,
+      "stability": 0.3481915118750002,
+      "icsd": false
+    },
+    {
+      "entry_id": 319620,
+      "composition_id": "Ge3 Pt1",
+      "delta_e": 0.0924198024999994,
+      "stability": 0.353567133125,
+      "icsd": false
+    },
+    {
+      "entry_id": 310071,
+      "composition_id": "Ge3 Pt1",
+      "delta_e": 0.10317980875,
+      "stability": 0.3643271393750006,
+      "icsd": false
+    },
+    {
+      "entry_id": 344106,
+      "composition_id": "Ge3 Pt1",
+      "delta_e": 0.125516291249999,
+      "stability": 0.3866636218749996,
+      "icsd": false
+    },
+    {
+      "entry_id": 1594722,
+      "composition_id": "Ge1 Pt2",
+      "delta_e": 0.0598125233333325,
+      "stability": 0.4649421149999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591448,
+      "composition_id": "Ge2 Pt1",
+      "delta_e": 0.4330004966666661,
+      "stability": 0.7811969361072146,
+      "icsd": false
+    },
+    {
+      "entry_id": 1237506,
+      "composition_id": "Ge1 Pt2",
+      "delta_e": 1.41798366333333,
+      "stability": 1.823113254999997,
+      "icsd": false
+    }
+  ]
+}

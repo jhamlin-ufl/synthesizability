@@ -1,0 +1,51 @@
+{
+  "space": "Au-Sc",
+  "elements": [
+    "Au",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1209057",
+      "composition_id": "Au1 Sc2",
+      "delta_e": -0.7162463683333341,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-11256",
+      "composition_id": "Au1 Sc1",
+      "delta_e": -0.8570578424999981,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1018148",
+      "composition_id": "Au2 Sc1",
+      "delta_e": -0.8795857516666671,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1068446",
+      "composition_id": "Au4 Sc1",
+      "delta_e": -0.588137915000004,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-972895",
+      "composition_id": "Au3 Sc1",
+      "delta_e": -0.6308624287499921,
+      "stability": 0.066568424999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1186977",
+      "composition_id": "Au3 Sc1",
+      "delta_e": -0.6232297012499971,
+      "stability": 0.07420115249999501,
+      "icsd": false
+    }
+  ]
+}

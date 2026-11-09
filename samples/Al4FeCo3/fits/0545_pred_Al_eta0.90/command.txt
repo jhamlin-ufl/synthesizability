@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Al4FeCo3/buttons/0545/0545_HM_Al4FeCo3_circular.txt --space samples/Al4FeCo3/fits/0545_pred_Al_eta0.90/start --occ pred --uiso-max 0.04 --main-key pred_Al_eta0.90 --limits 18 118 --partners --out results/refits/0545_pred_Al_eta0.90 --strict-final --accept-bound

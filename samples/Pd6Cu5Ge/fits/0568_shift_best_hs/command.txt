@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Pd6Cu5Ge/buttons/0568/0568_HM_Cu5GePd6.txt --space samples/Pd6Cu5Ge/fits/0568_shift_best_hs/start --occ pred --uiso-max 0.04 --main-key Cu5GePd6_proto_fcc_A1 --limits 25.4 118 --partners Cu5GePd6_proto_bcc_A2 --strict-final --accept-bound --out results/refits/0568_shift_best_hs --hold-shift

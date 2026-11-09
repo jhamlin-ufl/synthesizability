@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_La8Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.90248755
+_cell_length_b   7.90248755
+_cell_length_c   7.90248755
+_cell_angle_alpha   96.46106651
+_cell_angle_beta   96.46106651
+_cell_angle_gamma   140.79994879
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La8Ni
+_chemical_formula_sum   'La8 Ni1'
+_cell_volume   293.83699308
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.66705977  0.66705977  0.33411954  1
+  La  La1  1  0.33294023  0.33294023  0.66588046  1
+  La  La2  1  0.00000000  0.30398202  0.30398202  1
+  La  La3  1  0.33294023  0.66705977  0.00000000  1
+  La  La4  1  0.69601798  0.00000000  0.69601798  1
+  La  La5  1  0.66705977  0.33294023  0.00000000  1
+  La  La6  1  0.00000000  0.69601798  0.69601798  1
+  La  La7  1  0.30398202  0.00000000  0.30398202  1
+  Ni  Ni8  1  0.00000000  0.00000000  0.00000000  1

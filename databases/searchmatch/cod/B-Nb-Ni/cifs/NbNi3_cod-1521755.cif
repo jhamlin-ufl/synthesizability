@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/17/1521755.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1521755
+loop_
+_publ_author_name
+'Kaufman, A.'
+'Hoffman, N. J.'
+'Lipson, H.'
+_publ_section_title
+;
+ Intensity anomalies in the X-ray diffraction pattern of Ni~3~Nb and their
+ relationship to those for martensite
+;
+_journal_issue                   10
+_journal_name_full               'Scripta Metallurgica'
+_journal_page_first              715
+_journal_page_last               720
+_journal_paper_doi               10.1016/0036-9748(69)90220-8
+_journal_volume                  3
+_journal_year                    1969
+_chemical_formula_sum            'Nb Ni3'
+_space_group_IT_number           139
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.62
+_cell_length_b                   3.62
+_cell_length_c                   7.41
+_cell_volume                     97.104
+_citation_journal_id_ASTM        SCRMBU
+_cod_data_source_file            Kaufman_SCRMBU_1969_1349.cif
+_cod_data_source_block           Nb1Ni3
+_cod_original_cell_volume        97.1036
+_cod_original_formula_sum        'Nb1 Ni3'
+_cod_database_code               1521755
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+x,-y,-z
+y,x,-z
+-x,y,-z
+-y,-x,-z
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+-x,y,z
+-y,-x,z
+x,-y,z
+y,x,z
+x+1/2,y+1/2,z+1/2
+-y+1/2,x+1/2,z+1/2
+-x+1/2,-y+1/2,z+1/2
+y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,-z+1/2
+y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,-z+1/2
+-y+1/2,-x+1/2,-z+1/2
+-x+1/2,-y+1/2,-z+1/2
+y+1/2,-x+1/2,-z+1/2
+x+1/2,y+1/2,-z+1/2
+-y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,z+1/2
+-y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,z+1/2
+y+1/2,x+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Nb1 Nb 0 0 0 1 0.0
+Ni1 Ni 0 0 0.5 1 0.0
+Ni2 Ni 0 0.5 0.25 1 0.0

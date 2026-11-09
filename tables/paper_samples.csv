@@ -1,0 +1,35 @@
+table_row,formula,list,category,category_name,alt_category,confidence,reported,sample,record_sample,record_scan,annealed,instrument,mount,mass_loss_pct,other_samples
+1,ZrPt5Si,B,1,On-hull structure,,probable,no,0561,0561,samples/ZrPt5Si/buttons/0561/0561_HM_ZrPt5Si_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.99,0482 earlier attempt
+2,YAl3Cu2,C,1,On-hull structure,,probable,series,0540,0615,samples/YAl3Cu2/buttons/0615/0615_HM_Al3Cu2Y_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",2.09,0506 earlier attempt; 0615 remake
+3,GdPt2Ge,B,1,On-hull structure,,probable,no,0480,0480,samples/GdPt2Ge/buttons/0480/0480_HM_GdPt2Ge_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.33,
+4,TiPt5Si,B,1,On-hull structure,,probable,no,0493,0493,samples/TiPt5Si/buttons/0493/0493_HM_TiPt5Si_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",1.87,0618 second button
+5,YSnCu,C,1,On-hull structure,,firm,yes,0507,0507,samples/YSnCu/buttons/0507/0507_HM_CuSnY_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.43,
+6,ScCrC2,C,1,On-hull structure,,firm,yes,0512,0605,samples/ScCrC2/buttons/0605/0605_HM_C2CrSc.txt,no,Siemens D500,"powder, PMMA slide (inferred)",,0605 remake
+7,YCoSi,C,2,Above-hull polymorph,,probable,yes,0538,0538,samples/YCoSi/buttons/0538/0538_HM_CoSiY_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.039,0503 earlier attempt
+8,YCoSi3,C,2,Above-hull polymorph,,probable,composition,0539,0539,samples/YCoSi3/buttons/0539/0539_HM_YCoSi3_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.46,0504 earlier attempt
+9,Al8FeCo7,B,3,Disordered parent of on-hull structure,,firm,no,0535,0535,samples/Al8FeCo7/buttons/0535/0535_HM_Al8FeCo7_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.56,0487 earlier attempt
+10,Hf2MoIr,A,3,Disordered parent of on-hull structure,,probable,no,0466,0466,samples/Hf2MoIr/buttons/0466/0466_HM_Hf2MoIr_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.55,
+11,Al4FeCo3,B,3,Disordered parent of on-hull structure,,firm,no,0545,0545,samples/Al4FeCo3/buttons/0545/0545_HM_Al4FeCo3_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.82,0486 earlier attempt; 0534 remake; 0544 remake
+12,Sc2PdCu,A,3,Disordered parent of on-hull structure,,probable,no,0474,0474,samples/Sc2PdCu/buttons/0474/0474_HM_Sc2CuPd.xy,no,PANalytical X'Pert MPD,bulk piece (cut face),0.09,
+13,Sc3Pd2Cu,A,3,Disordered parent of on-hull structure,,firm,no,0473,0473,samples/Sc3Pd2Cu/buttons/0473/0473_HM_Sc3CuPd2_annealed.txt,yes,Siemens D500,"powder, PMMA slide (inferred)",0.21,
+14,ScPd5Au2,A,3,Disordered parent of on-hull structure,,tentative,no,0477,0477,samples/ScPd5Au2/buttons/0477/0477_HM_ScPd5Au2.xy,no,PANalytical X'Pert MPD,bulk piece (uncut button face),15.57,
+15,Al2MnAu6,B,3,Disordered parent of on-hull structure,,probable,no,0479,0479,samples/Al2MnAu6/buttons/0479/0479_HM_MnAl2Au6.txt,no,Siemens D500,"powder, PMMA slide (inferred)",2.01,
+16,Sc2Pd5Au,A,3,Disordered parent of on-hull structure,,probable,no,0478,0610,samples/Sc2Pd5Au/buttons/0610/0610_HM_Sc2Pd5Au.txt,no,Siemens D500,"powder, PMMA slide (inferred)",1.01,0610 remake
+17,PtNiGe2,B,3,Disordered parent of on-hull structure,,tentative,no,0481,0481,samples/PtNiGe2/buttons/0481/0481_HM_NiGe2Pt.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.25,
+18,Gd3Sn6Co,B,3,Disordered parent of on-hull structure,,probable,yes,0556,0556,samples/Gd3Sn6Co/buttons/0556/0556_HM_Gd3CoSn6.txt,no,Siemens D500,"powder, PMMA slide (inferred)",2.04,0489 earlier attempt; 0536 remake
+19,ScPd2Au,A,4,Other solid solution,,probable,no,0476,0476,samples/ScPd2Au/buttons/0476/0476_HM_ScPd2Au.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.18,
+20,ScPd2Cu,A,5,"Multiphase, on-hull structure not formed",3,tentative,no,0469,0469,samples/ScPd2Cu/buttons/0469/0469_HM_ScCuPd2.txt,no,Siemens D500,"powder, PMMA slide (inferred)",1.16,
+21,La5Al3Co2,B,5,"Multiphase, on-hull structure not formed",,probable,no,0483,0483,samples/La5Al3Co2/buttons/0483/0483_HM_La5Al3Co2.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.03,
+22,TiPt5Ge,B,5,"Multiphase, on-hull structure not formed",,probable,no,0491,0491,samples/TiPt5Ge/buttons/0491/0491_HM_TiGePt5_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",1.40,
+23,Ti2Pt8Si,B,5,"Multiphase, on-hull structure not formed",,probable,no,0494,0494,samples/Ti2Pt8Si/buttons/0494/0494_HM_Ti2SiPt8.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.44,
+24,LaNiSi3,C,5,"Multiphase, on-hull structure not formed",,firm,no,0514,0514,samples/LaNiSi3/buttons/0514/0514_HM_LaNiSi3_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",2.2,
+25,GdSn6Co4,B,5,"Multiphase, on-hull structure not formed",,firm,no,0537,0537,samples/GdSn6Co4/buttons/0537/0537_HM_GdCo4Sn6_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.5,0490 earlier attempt
+26,NbNi2B2,C,5,"Multiphase, on-hull structure not formed",,probable,no,0510,0510,samples/NbNi2B2/buttons/0510/0510_HM_B2NbNi2_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.50,
+27,GdFeGe2,B,5,"Multiphase, on-hull structure not formed",,firm,no,0555,0555,samples/GdFeGe2/buttons/0555/0555_HM_GdFeGe2.txt,no,Siemens D500,"powder, PMMA slide (inferred)",1.49,0497 earlier attempt
+28,Gd2Fe3Ge5,B,5,"Multiphase, on-hull structure not formed",,firm,no,0554,0554,samples/Gd2Fe3Ge5/buttons/0554/0554_HM_Gd2Fe3Ge5.txt,no,Siemens D500,"powder, PMMA slide (inferred)",4.49,0496 earlier attempt; 0557 remake
+29,GdFeGe3,B,5,"Multiphase, on-hull structure not formed",,firm,no,0553,0553,samples/GdFeGe3/buttons/0553/0553_HM_GdFeGe3.txt,no,Siemens D500,"powder, PMMA slide (inferred)",2.34,0495 earlier attempt
+30,LaRuC2,C,5,"Multiphase, on-hull structure not formed",,tentative,no,0513,0614,samples/LaRuC2/buttons/0614/0614_HM_C2LaRu.txt,no,Siemens D500,"powder, PMMA slide (inferred)",6.2555,0614 remake; 0617 remake
+31,Pd6Cu5Ge,A,6,On-hull structure did not form but structure(s) unresolved,,tentative,no,0465,0568,samples/Pd6Cu5Ge/buttons/0568/0568_HM_Cu5GePd6.txt,no,Siemens D500,"powder, PMMA slide (inferred)",1.61,0568 remake; 0608 remake
+32,La2PdAu2,A,6,On-hull structure did not form but structure(s) unresolved,,firm,no,0475,0475,samples/La2PdAu2/buttons/0475/0475_HM_La2PdAu2.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.9,
+33,Ti2Pt8Ge,B,6,On-hull structure did not form but structure(s) unresolved,,probable,no,0492,0492,samples/Ti2Pt8Ge/buttons/0492/0492_HM_Ti2GePt8_circular.txt,no,Siemens D500,bulk chunk,0.53,
+34,ScPdCu4,A,6,On-hull structure did not form but structure(s) unresolved,,tentative,no,0472,0472,samples/ScPdCu4/buttons/0472/0472_HM_ScCu4Pd.txt,no,Siemens D500,"powder, PMMA slide (inferred)",5.06,0558 remake; 0566 remake; 0613 remake

@@ -1,0 +1,655 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "pred_Al_eta0.90",
+  "space": "../../../refits_2026-11/cifs_new/0535",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0535_HM_Al8FeCo7_circular.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 5.90687521125883,
+  "gof": 1.4137099065085204,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 5.72511,
+     "length_b": 5.72511,
+     "length_c": 5.72511
+    }
+   ],
+   "shift": -7.295737898084728,
+   "size": 0.38759144900454373,
+   "mustrain": 6667.989732193187,
+   "md": null,
+   "atoms": {
+    "Al0": {
+     "occ": 0.95,
+     "uiso": 0.00441
+    },
+    "Fe1": {
+     "occ": 0.0063,
+     "uiso": 0.00441
+    },
+    "Co2": {
+     "occ": 0.0437,
+     "uiso": 0.00441
+    },
+    "Fe3": {
+     "occ": 0.95,
+     "uiso": 0.00441
+    },
+    "Al4": {
+     "occ": 0.05,
+     "uiso": 0.00441
+    },
+    "Co5": {
+     "occ": 0.95,
+     "uiso": 0.00441
+    },
+    "Al6": {
+     "occ": 0.05,
+     "uiso": 0.00441
+    },
+    "Co7": {
+     "occ": 0.95,
+     "uiso": 0.00441
+    },
+    "Al8": {
+     "occ": 0.05,
+     "uiso": 0.00441
+    },
+    "Co9": {
+     "occ": 0.95,
+     "uiso": 0.00441
+    },
+    "Al10": {
+     "occ": 0.05,
+     "uiso": 0.00441
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 25.7,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.728,
+      "length_b": 5.728,
+      "length_c": 5.728
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.01
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 25.7,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.728,
+      "length_b": 5.728,
+      "length_c": 5.728
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.01
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 23.892,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.72544,
+      "length_b": 5.72544,
+      "length_c": 5.72544
+     }
+    ],
+    "shift": -23.9760810075442,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.01
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 7.165,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.72507,
+      "length_b": 5.72507,
+      "length_c": 5.72507
+     }
+    ],
+    "shift": -6.603585295129408,
+    "size": 1.0,
+    "mustrain": 7137.355469336103,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.01
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 6.954,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.72509,
+      "length_b": 5.72509,
+      "length_c": 5.72509
+     }
+    ],
+    "shift": -6.575847671795185,
+    "size": 0.13827008044483086,
+    "mustrain": 5133.791256234295,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.01
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.01
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.01
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.01
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 6.362,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.72501,
+      "length_b": 5.72501,
+      "length_c": 5.72501
+     }
+    ],
+    "shift": -5.515644912003331,
+    "size": 0.423630859581577,
+    "mustrain": 6810.4273249390735,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.00411
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.00411
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.00411
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.00411
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.00411
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.00411
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.00411
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.00411
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.00411
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.00411
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.00411
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 5.907,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.72511,
+      "length_b": 5.72511,
+      "length_c": 5.72511
+     }
+    ],
+    "shift": -7.385607576661677,
+    "size": 0.388061561493433,
+    "mustrain": 6670.484462954174,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.00441
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.00441
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 5.907,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.72511,
+      "length_b": 5.72511,
+      "length_c": 5.72511
+     }
+    ],
+    "shift": -7.295737898084728,
+    "size": 0.38759144900454373,
+    "mustrain": 6667.989732193187,
+    "md": null,
+    "atoms": {
+     "Al0": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Fe1": {
+      "occ": 0.0063,
+      "uiso": 0.00441
+     },
+     "Co2": {
+      "occ": 0.0437,
+      "uiso": 0.00441
+     },
+     "Fe3": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al4": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     },
+     "Co5": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al6": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     },
+     "Co7": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al8": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     },
+     "Co9": {
+      "occ": 0.95,
+      "uiso": 0.00441
+     },
+     "Al10": {
+      "occ": 0.05,
+      "uiso": 0.00441
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

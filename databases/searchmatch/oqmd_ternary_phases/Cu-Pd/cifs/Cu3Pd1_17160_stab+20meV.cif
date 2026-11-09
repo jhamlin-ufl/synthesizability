@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Cu3Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67517600
+_cell_length_b   3.67517600
+_cell_length_c   25.31765600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu3Pd
+_chemical_formula_sum   'Cu21 Pd7'
+_cell_volume   341.96351952
+_cell_formula_units_Z   7
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.50000054  0.50000054  0.99796640  1
+  Cu  Cu1  1  0.50000054  0.50000054  0.14096803  1
+  Cu  Cu2  1  0.50000054  0.50000054  0.28309374  1
+  Cu  Cu3  1  0.50000054  0.50000054  0.42770705  1
+  Cu  Cu4  1  0.00000000  0.00000000  0.56970400  1
+  Cu  Cu5  1  0.00000000  0.00000000  0.71215242  1
+  Cu  Cu6  1  0.00000000  0.00000000  0.85567558  1
+  Cu  Cu7  1  0.50000054  0.00000000  0.78378069  1
+  Cu  Cu8  1  0.00000000  0.50000054  0.78378069  1
+  Cu  Cu9  1  0.50000054  0.00000000  0.92696180  1
+  Cu  Cu10  1  0.00000000  0.50000054  0.92696180  1
+  Cu  Cu11  1  0.50000054  0.00000000  0.21192602  1
+  Cu  Cu12  1  0.00000000  0.50000054  0.21192602  1
+  Cu  Cu13  1  0.50000054  0.00000000  0.35570710  1
+  Cu  Cu14  1  0.00000000  0.50000054  0.35570710  1
+  Cu  Cu15  1  0.50000054  0.00000000  0.49845491  1
+  Cu  Cu16  1  0.00000000  0.50000054  0.49845491  1
+  Cu  Cu17  1  0.50000054  0.00000000  0.64121773  1
+  Cu  Cu18  1  0.00000000  0.50000054  0.64121773  1
+  Cu  Cu19  1  0.50000054  0.00000000  0.06882904  1
+  Cu  Cu20  1  0.00000000  0.50000054  0.06882904  1
+  Pd  Pd21  1  0.50000054  0.50000054  0.85557763  1
+  Pd  Pd22  1  0.50000054  0.50000054  0.71264970  1
+  Pd  Pd23  1  0.50000054  0.50000054  0.56978300  1
+  Pd  Pd24  1  0.00000000  0.00000000  0.42706600  1
+  Pd  Pd25  1  0.00000000  0.00000000  0.28407409  1
+  Pd  Pd26  1  0.00000000  0.00000000  0.14008603  1
+  Pd  Pd27  1  0.00000000  0.00000000  0.99744186  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Y2Cu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68246782
+_cell_length_b   6.63204999
+_cell_length_c   6.91896488
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2Cu
+_chemical_formula_sum   'Y4 Cu2'
+_cell_volume   168.97710981
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.00000000  0.22174755  0.33729402  1
+  Y  Y1  1  0.00000000  0.77825245  0.66270598  1
+  Y  Y2  1  0.50000000  0.72174755  0.16270598  1
+  Y  Y3  1  0.50000000  0.27825245  0.83729402  1
+  Cu  Cu4  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu5  1  0.50000000  0.50000000  0.50000000  1

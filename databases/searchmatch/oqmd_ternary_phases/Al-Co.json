@@ -1,0 +1,1367 @@
+{
+  "space": "Al-Co",
+  "elements": [
+    "Al",
+    "Co"
+  ],
+  "entries": [
+    {
+      "entry_id": 1977652,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.6141558649999999,
+      "stability": -0.15167083006939197,
+      "icsd": false
+    },
+    {
+      "entry_id": 10412,
+      "composition_id": "Al9 Co2",
+      "delta_e": -0.332345372272727,
+      "stability": -0.029132960085312687,
+      "icsd": true
+    },
+    {
+      "entry_id": 19163,
+      "composition_id": "Al5 Co2",
+      "delta_e": -0.465958328571429,
+      "stability": -0.025277057542535508,
+      "icsd": true
+    },
+    {
+      "entry_id": 1522297,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.6141244100000005,
+      "stability": 3.145499999934742e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 2015345,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.6141166299999998,
+      "stability": 3.923500000002633e-05,
+      "icsd": true
+    },
+    {
+      "entry_id": 305856,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.61409658,
+      "stability": 5.928499999985348e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485051,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.6138120650000003,
+      "stability": 0.0003437999999995611,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485020,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.6136909299999997,
+      "stability": 0.0004649350000001107,
+      "icsd": false
+    },
+    {
+      "entry_id": 1217513,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.61364361,
+      "stability": 0.0005122549999998505,
+      "icsd": false
+    },
+    {
+      "entry_id": 5772,
+      "composition_id": "Al5 Co2",
+      "delta_e": -0.464659263571428,
+      "stability": 0.0012990650000009873,
+      "icsd": true
+    },
+    {
+      "entry_id": 10411,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.610342165,
+      "stability": 0.003813699999999809,
+      "icsd": true
+    },
+    {
+      "entry_id": 1787083,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.4117688393749992,
+      "stability": 0.008260035468750981,
+      "icsd": false
+    },
+    {
+      "entry_id": 684912,
+      "composition_id": "Al13 Co4",
+      "delta_e": -0.39239253480392156,
+      "stability": 0.00872421171993032,
+      "icsd": true
+    },
+    {
+      "entry_id": 1795943,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.39846186999999933,
+      "stability": 0.021567004843750848,
+      "icsd": false
+    },
+    {
+      "entry_id": 337398,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.590864585,
+      "stability": 0.023291279999999803,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577293,
+      "composition_id": "Al1 Co28",
+      "delta_e": -0.0059385655172410805,
+      "stability": 0.05214320773619375,
+      "icsd": false
+    },
+    {
+      "entry_id": 1437799,
+      "composition_id": "Al13 Co4",
+      "delta_e": -0.343217097647059,
+      "stability": 0.057899648876792886,
+      "icsd": false
+    },
+    {
+      "entry_id": 1338793,
+      "composition_id": "Al6 Co1",
+      "delta_e": -0.195512912142857,
+      "stability": 0.06561559606719441,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577606,
+      "composition_id": "Al4 Co25",
+      "delta_e": -0.1147556048275862,
+      "stability": 0.06689818958337704,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782484,
+      "composition_id": "Al11 Co4",
+      "delta_e": -0.37285908466666723,
+      "stability": 0.0686035356953763,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782957,
+      "composition_id": "Al3 Co5",
+      "delta_e": -0.3930300462499998,
+      "stability": 0.07180962749999997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1791802,
+      "composition_id": "Al9 Co7",
+      "delta_e": -0.49721252874999955,
+      "stability": 0.07371905429767533,
+      "icsd": false
+    },
+    {
+      "entry_id": 1471974,
+      "composition_id": "Al4 Co3",
+      "delta_e": -0.48561547857142834,
+      "stability": 0.07914120811303965,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485026,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.22988939249999962,
+      "stability": 0.08563409000000011,
+      "icsd": false
+    },
+    {
+      "entry_id": 1484953,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.2298891799999998,
+      "stability": 0.08563430249999993,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577343,
+      "composition_id": "Al5 Co24",
+      "delta_e": -0.13466728724137939,
+      "stability": 0.08817718226548668,
+      "icsd": false
+    },
+    {
+      "entry_id": 1797267,
+      "composition_id": "Al3 Co2",
+      "delta_e": -0.4556996679999997,
+      "stability": 0.08929734617267526,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782360,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.22416793874999996,
+      "stability": 0.09135554374999977,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489233,
+      "composition_id": "Al1 Co14",
+      "delta_e": -0.0035494173333328644,
+      "stability": 0.09297698267578422,
+      "icsd": false
+    },
+    {
+      "entry_id": 2015364,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.21762578374999997,
+      "stability": 0.09789769874999976,
+      "icsd": true
+    },
+    {
+      "entry_id": 321396,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.2174827375,
+      "stability": 0.09804074499999973,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082206,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.20428069000000004,
+      "stability": 0.11124279249999969,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489235,
+      "composition_id": "Al14 Co1",
+      "delta_e": -0.010180113333333433,
+      "stability": 0.11167985760781769,
+      "icsd": false
+    },
+    {
+      "entry_id": 2015334,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.1925807500000003,
+      "stability": 0.12294273249999943,
+      "icsd": true
+    },
+    {
+      "entry_id": 345882,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.1924262875,
+      "stability": 0.12309719499999974,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086045,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.2879849374999992,
+      "stability": 0.13204393734375097,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577635,
+      "composition_id": "Al28 Co1",
+      "delta_e": 0.07176325551724104,
+      "stability": 0.13479427359433838,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121393,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.28343788249999946,
+      "stability": 0.13659099234375072,
+      "icsd": false
+    },
+    {
+      "entry_id": 2034512,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.28275595499999984,
+      "stability": 0.13727291984375034,
+      "icsd": true
+    },
+    {
+      "entry_id": 1340552,
+      "composition_id": "Al5 Co3",
+      "delta_e": -0.385928692499999,
+      "stability": 0.14177861007732634,
+      "icsd": false
+    },
+    {
+      "entry_id": 303718,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.170914495,
+      "stability": 0.14460898749999973,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477096,
+      "composition_id": "Al12 Co1",
+      "delta_e": 0.004215783846153552,
+      "stability": 0.1448234403235523,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080576,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.1653544237500002,
+      "stability": 0.15016905874999953,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477094,
+      "composition_id": "Al1 Co12",
+      "delta_e": 0.04479005615384652,
+      "stability": 0.1535680407797509,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477151,
+      "composition_id": "Al2 Co11",
+      "delta_e": -0.04334993923076743,
+      "stability": 0.1573149359936894,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489205,
+      "composition_id": "Al11 Co4",
+      "delta_e": -0.2746332490000005,
+      "stability": 0.166829371362043,
+      "icsd": false
+    },
+    {
+      "entry_id": 1438128,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.136091334583333,
+      "stability": 0.16855859110781796,
+      "icsd": false
+    },
+    {
+      "entry_id": 324802,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.249294624999999,
+      "stability": 0.17073424984375118,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477039,
+      "composition_id": "Al2 Co11",
+      "delta_e": -0.025166113846152117,
+      "stability": 0.17549876137830472,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489160,
+      "composition_id": "Al1 Co4",
+      "delta_e": -0.07798432666666599,
+      "stability": 0.17781267933333372,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485396,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.3210097491666672,
+      "stability": 0.1778813649484497,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489265,
+      "composition_id": "Al4 Co11",
+      "delta_e": -0.15043626933333296,
+      "stability": 0.18499603667578426,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121316,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.12213297062499961,
+      "stability": 0.19339051187500012,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085909,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.12213292750000004,
+      "stability": 0.1933905549999997,
+      "icsd": false
+    },
+    {
+      "entry_id": 300312,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.22494224,
+      "stability": 0.1950866348437502,
+      "icsd": false
+    },
+    {
+      "entry_id": 1484979,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.22493940499999976,
+      "stability": 0.19508946984375042,
+      "icsd": false
+    },
+    {
+      "entry_id": 1484909,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.22493869749999984,
+      "stability": 0.19509017734375034,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477002,
+      "composition_id": "Al4 Co9",
+      "delta_e": -0.18885117999999926,
+      "stability": 0.1955874704489148,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485345,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.10707962833333322,
+      "stability": 0.19757029735781773,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487068,
+      "composition_id": "Al1 Co5",
+      "delta_e": -0.01692113416666648,
+      "stability": 0.19905821884245065,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489211,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.2135281459999997,
+      "stability": 0.20153946599088263,
+      "icsd": false
+    },
+    {
+      "entry_id": 1435758,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.102921718333333,
+      "stability": 0.20172820735781796,
+      "icsd": false
+    },
+    {
+      "entry_id": 349288,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.216311277499999,
+      "stability": 0.20371759734375117,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487090,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.09729367666666633,
+      "stability": 0.20735624902448463,
+      "icsd": false
+    },
+    {
+      "entry_id": 1799582,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.21117377062499987,
+      "stability": 0.2088551042187503,
+      "icsd": false
+    },
+    {
+      "entry_id": 1438127,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.0947236095833333,
+      "stability": 0.20992631610781765,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485380,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.28815188750000037,
+      "stability": 0.21073922661511651,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485477,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.0936209391666664,
+      "stability": 0.21102898652448454,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487165,
+      "composition_id": "Al1 Co5",
+      "delta_e": -0.0044087849999989714,
+      "stability": 0.21157056800911817,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477007,
+      "composition_id": "Al3 Co10",
+      "delta_e": -0.07986972076923084,
+      "stability": 0.2126820390811308,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082356,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.2027680137499992,
+      "stability": 0.21726086109375098,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450577,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.08495843166666657,
+      "stability": 0.2196914940244844,
+      "icsd": false
+    },
+    {
+      "entry_id": 1791482,
+      "composition_id": "Al11 Co5",
+      "delta_e": -0.2646129831250006,
+      "stability": 0.21987003749999978,
+      "icsd": false
+    },
+    {
+      "entry_id": 1436234,
+      "composition_id": "Al5 Co1",
+      "delta_e": -0.0846644366666667,
+      "stability": 0.21998548902448425,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080712,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.19573275624999908,
+      "stability": 0.2242961185937511,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489149,
+      "composition_id": "Al3 Co2",
+      "delta_e": -0.32039324666666763,
+      "stability": 0.22460376750600736,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485513,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.18711905333333334,
+      "stability": 0.22794855865754898,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477126,
+      "composition_id": "Al2 Co11",
+      "delta_e": 0.03093287615384755,
+      "stability": 0.23159775137830438,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782616,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.3815627970000001,
+      "stability": 0.23259306799999974,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489221,
+      "composition_id": "Al2 Co3",
+      "delta_e": -0.26049732333333303,
+      "stability": 0.2342055886666668,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477021,
+      "composition_id": "Al3 Co10",
+      "delta_e": -0.05339671153846071,
+      "stability": 0.23915504831190093,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487178,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.1719916166666664,
+      "stability": 0.24307599532421592,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577125,
+      "composition_id": "Al17 Co12",
+      "delta_e": -0.31115072034482744,
+      "stability": 0.24338544617712526,
+      "icsd": false
+    },
+    {
+      "entry_id": 1790028,
+      "composition_id": "Al15 Co1",
+      "delta_e": 0.12947329062499957,
+      "stability": 0.24371701234374948,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489280,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.2529300959999991,
+      "stability": 0.24596101811511778,
+      "icsd": false
+    },
+    {
+      "entry_id": 1476993,
+      "composition_id": "Al5 Co8",
+      "delta_e": -0.22494486461538526,
+      "stability": 0.2513806704594336,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485500,
+      "composition_id": "Al1 Co5",
+      "delta_e": 0.03716579166666752,
+      "stability": 0.25314514467578464,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477072,
+      "composition_id": "Al3 Co10",
+      "delta_e": -0.03905929615384615,
+      "stability": 0.2534924636965155,
+      "icsd": false
+    },
+    {
+      "entry_id": 314260,
+      "composition_id": "Al1 Co3",
+      "delta_e": -0.0598923625000003,
+      "stability": 0.25563111999999943,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489148,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.24182511299999968,
+      "stability": 0.25706600111511724,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083172,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.3525897950000001,
+      "stability": 0.26156606999999976,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477066,
+      "composition_id": "Al7 Co6",
+      "delta_e": -0.3229204892307689,
+      "stability": 0.2646358178727195,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489199,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.14991239399999945,
+      "stability": 0.2651552179908829,
+      "icsd": false
+    },
+    {
+      "entry_id": 1227979,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.34838821,
+      "stability": 0.2657676549999999,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485826,
+      "composition_id": "Al1 Co5",
+      "delta_e": 0.050356470833334534,
+      "stability": 0.2663358238424517,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591011,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.14771146833333285,
+      "stability": 0.26735614365754945,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485185,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.1476933349999996,
+      "stability": 0.26737427699088273,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487147,
+      "composition_id": "Al1 Co5",
+      "delta_e": 0.05438018375000079,
+      "stability": 0.27035953675911795,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477068,
+      "composition_id": "Al4 Co9",
+      "delta_e": -0.10687851692307614,
+      "stability": 0.2775601335258379,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477010,
+      "composition_id": "Al5 Co8",
+      "delta_e": -0.1942030546153848,
+      "stability": 0.282122480459434,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477031,
+      "composition_id": "Al4 Co9",
+      "delta_e": -0.10185151538461504,
+      "stability": 0.282587135064299,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577332,
+      "composition_id": "Al16 Co13",
+      "delta_e": -0.294270104482759,
+      "stability": 0.2841139414304125,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487094,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.12700743958333285,
+      "stability": 0.28806017240754944,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520891,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.1302790499999995,
+      "stability": 0.28974982484375067,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485563,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.3188218374999998,
+      "stability": 0.29533402750000004,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487113,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.1187417112500005,
+      "stability": 0.29632590074088183,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577257,
+      "composition_id": "Al25 Co4",
+      "delta_e": 0.046732177931034395,
+      "stability": 0.2988562535628774,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489146,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.11548655666666624,
+      "stability": 0.2995810553242161,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577160,
+      "composition_id": "Al13 Co16",
+      "delta_e": -0.25182994379310364,
+      "stability": 0.300539908563042,
+      "icsd": false
+    },
+    {
+      "entry_id": 1790924,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.31263394833333297,
+      "stability": 0.3015219166666669,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577258,
+      "composition_id": "Al12 Co17",
+      "delta_e": -0.20962912068965472,
+      "stability": 0.30155006254323574,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477009,
+      "composition_id": "Al6 Co7",
+      "delta_e": -0.263013533846154,
+      "stability": 0.3051988858038963,
+      "icsd": false
+    },
+    {
+      "entry_id": 1791192,
+      "composition_id": "Al13 Co3",
+      "delta_e": -0.03267150062500068,
+      "stability": 0.3069808301953116,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487048,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.3067949091666667,
+      "stability": 0.30736095583333317,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577176,
+      "composition_id": "Al17 Co12",
+      "delta_e": -0.2413421620689658,
+      "stability": 0.3131940044529869,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577254,
+      "composition_id": "Al16 Co13",
+      "delta_e": -0.2600152789655181,
+      "stability": 0.31836876694765337,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489198,
+      "composition_id": "Al4 Co1",
+      "delta_e": -0.03437646433333346,
+      "stability": 0.32135117529166635,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085773,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.29275525437499983,
+      "stability": 0.321400610625,
+      "icsd": false
+    },
+    {
+      "entry_id": 310854,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.0981507974999998,
+      "stability": 0.3218780773437504,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485847,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.2919449849999995,
+      "stability": 0.32221088000000037,
+      "icsd": false
+    },
+    {
+      "entry_id": 1603484,
+      "composition_id": "Al1 Co5",
+      "delta_e": 0.11220570833333454,
+      "stability": 0.3281850613424517,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477141,
+      "composition_id": "Al10 Co3",
+      "delta_e": -0.059415027692307484,
+      "stability": 0.3358826033504347,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489207,
+      "composition_id": "Al8 Co7",
+      "delta_e": -0.25396036133333266,
+      "stability": 0.3371425528969004,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477124,
+      "composition_id": "Al5 Co8",
+      "delta_e": -0.13896239769230825,
+      "stability": 0.33736313738251056,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080356,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.27157794687500036,
+      "stability": 0.3425779181249995,
+      "icsd": false
+    },
+    {
+      "entry_id": 2120975,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.27157794437500016,
+      "stability": 0.3425779206249997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489259,
+      "composition_id": "Al7 Co8",
+      "delta_e": -0.22849622700000036,
+      "stability": 0.34584198495844354,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477011,
+      "composition_id": "Al11 Co2",
+      "delta_e": 0.06483595076923074,
+      "stability": 0.3460512670474819,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485474,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.06267795416666644,
+      "stability": 0.3523896578242159,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485478,
+      "composition_id": "Al1 Co2",
+      "delta_e": -0.06124584166666717,
+      "stability": 0.35382177032421513,
+      "icsd": false
+    },
+    {
+      "entry_id": 326940,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.25697102,
+      "stability": 0.35718484499999986,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082056,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.25664098624999987,
+      "stability": 0.35751487875,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487007,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.061152680833333285,
+      "stability": 0.35887619401041687,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487093,
+      "composition_id": "Al3 Co1",
+      "delta_e": -0.05526737041666685,
+      "stability": 0.3647615044270833,
+      "icsd": false
+    },
+    {
+      "entry_id": 1476983,
+      "composition_id": "Al11 Co2",
+      "delta_e": 0.08553357615384599,
+      "stability": 0.3667488924320972,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477059,
+      "composition_id": "Al10 Co3",
+      "delta_e": -0.02297990307692288,
+      "stability": 0.3723177279658193,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577231,
+      "composition_id": "Al24 Co5",
+      "delta_e": 0.058278588965517374,
+      "stability": 0.3734336826744577,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489177,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.12410219533333304,
+      "stability": 0.37478891878178383,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577280,
+      "composition_id": "Al12 Co17",
+      "delta_e": -0.13462744068965452,
+      "stability": 0.376551742543236,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489263,
+      "composition_id": "Al7 Co8",
+      "delta_e": -0.19277978766666687,
+      "stability": 0.381558424291777,
+      "icsd": false
+    },
+    {
+      "entry_id": 1231465,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.111720701666667,
+      "stability": 0.38717041244844985,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477082,
+      "composition_id": "Al8 Co5",
+      "delta_e": -0.14295333615384628,
+      "stability": 0.39140385515661913,
+      "icsd": false
+    },
+    {
+      "entry_id": 1577627,
+      "composition_id": "Al13 Co16",
+      "delta_e": -0.15752573344827597,
+      "stability": 0.3948441189078697,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477038,
+      "composition_id": "Al10 Co3",
+      "delta_e": 0.004633567692307631,
+      "stability": 0.3999311987350498,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487016,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.09852618875000019,
+      "stability": 0.4003649253651167,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487162,
+      "composition_id": "Al2 Co1",
+      "delta_e": -0.09831473333333385,
+      "stability": 0.40057638078178304,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489132,
+      "composition_id": "Al7 Co8",
+      "delta_e": -0.1593748020000002,
+      "stability": 0.4149634099584437,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487173,
+      "composition_id": "Al1 Co3",
+      "delta_e": 0.10028561499999948,
+      "stability": 0.4158090974999992,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489122,
+      "composition_id": "Al11 Co4",
+      "delta_e": -0.02381957666666684,
+      "stability": 0.4176430436953767,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489253,
+      "composition_id": "Al3 Co2",
+      "delta_e": -0.12666172633333397,
+      "stability": 0.41833528783934104,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489231,
+      "composition_id": "Al8 Co7",
+      "delta_e": -0.16224426233333322,
+      "stability": 0.42885865189689987,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082506,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.18353069000000044,
+      "stability": 0.4306251749999994,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489229,
+      "composition_id": "Al8 Co7",
+      "delta_e": -0.1573328140000001,
+      "stability": 0.433770100230233,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487141,
+      "composition_id": "Al7 Co5",
+      "delta_e": -0.11832215875000014,
+      "stability": 0.43820133080755824,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477120,
+      "composition_id": "Al9 Co4",
+      "delta_e": -0.033835150769230785,
+      "stability": 0.44732292474821184,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477071,
+      "composition_id": "Al11 Co2",
+      "delta_e": 0.16646338538461528,
+      "stability": 0.44767870166286644,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487062,
+      "composition_id": "Al1 Co3",
+      "delta_e": 0.13310322208333267,
+      "stability": 0.4486267045833324,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487115,
+      "composition_id": "Al7 Co5",
+      "delta_e": -0.10717439583333348,
+      "stability": 0.44934909372422494,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477092,
+      "composition_id": "Al8 Co5",
+      "delta_e": -0.04653446692307629,
+      "stability": 0.4878227243873891,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487103,
+      "composition_id": "Al5 Co7",
+      "delta_e": -0.02207015249999955,
+      "stability": 0.49254158300911766,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084716,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.12113014500000041,
+      "stability": 0.49302571999999945,
+      "icsd": false
+    },
+    {
+      "entry_id": 1489272,
+      "composition_id": "Al3 Co2",
+      "delta_e": -0.04209308900000034,
+      "stability": 0.5029039251726746,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487088,
+      "composition_id": "Al5 Co1",
+      "delta_e": 0.20370192875000015,
+      "stability": 0.5083518544411512,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487045,
+      "composition_id": "Al5 Co7",
+      "delta_e": -0.006112766249999642,
+      "stability": 0.5084989692591175,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487118,
+      "composition_id": "Al5 Co1",
+      "delta_e": 0.20976150125000004,
+      "stability": 0.514411426941151,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485552,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.09740435583333233,
+      "stability": 0.5167515091666676,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487025,
+      "composition_id": "Al5 Co7",
+      "delta_e": 0.005435390416667,
+      "stability": 0.5200471259257842,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477090,
+      "composition_id": "Al8 Co5",
+      "delta_e": -0.0016856423076916371,
+      "stability": 0.5326715490027738,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487029,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.08020309291666668,
+      "stability": 0.5339527720833331,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485451,
+      "composition_id": "Al1 Co1",
+      "delta_e": -0.08009383916666597,
+      "stability": 0.5340620258333338,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477144,
+      "composition_id": "Al6 Co7",
+      "delta_e": -0.031039476153846016,
+      "stability": 0.5371729434962043,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477114,
+      "composition_id": "Al9 Co4",
+      "delta_e": 0.06817540307692291,
+      "stability": 0.5493334785943655,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487111,
+      "composition_id": "Al5 Co7",
+      "delta_e": 0.04015496416666645,
+      "stability": 0.5547666996757836,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487061,
+      "composition_id": "Al7 Co5",
+      "delta_e": 0.021137217916666746,
+      "stability": 0.5776607074742252,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487032,
+      "composition_id": "Al7 Co5",
+      "delta_e": 0.028556019583333498,
+      "stability": 0.5850795091408919,
+      "icsd": false
+    },
+    {
+      "entry_id": 1472390,
+      "composition_id": "Al8 Co1",
+      "delta_e": 0.3879242633333335,
+      "stability": 0.5910242126862829,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487144,
+      "composition_id": "Al7 Co5",
+      "delta_e": 0.061314052083333216,
+      "stability": 0.6178375416408917,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477133,
+      "composition_id": "Al9 Co4",
+      "delta_e": 0.14447828769230744,
+      "stability": 0.6256363632097501,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487177,
+      "composition_id": "Al7 Co5",
+      "delta_e": 0.07206179666666657,
+      "stability": 0.6285852862242249,
+      "icsd": false
+    },
+    {
+      "entry_id": 1436233,
+      "composition_id": "Al5 Co1",
+      "delta_e": 0.325119583333333,
+      "stability": 0.6297695090244839,
+      "icsd": false
+    },
+    {
+      "entry_id": 1477060,
+      "composition_id": "Al7 Co6",
+      "delta_e": 0.053633963076923516,
+      "stability": 0.641190270180412,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487056,
+      "composition_id": "Al5 Co7",
+      "delta_e": 0.156146135833333,
+      "stability": 0.6707578713424502,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487035,
+      "composition_id": "Al5 Co7",
+      "delta_e": 0.16466965875000028,
+      "stability": 0.6792813942591175,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485855,
+      "composition_id": "Al2 Co1",
+      "delta_e": 0.22368581999999945,
+      "stability": 0.7225769341151163,
+      "icsd": false
+    },
+    {
+      "entry_id": 425542,
+      "composition_id": "Al2 Co3",
+      "delta_e": 0.239708887,
+      "stability": 0.7344117989999999,
+      "icsd": false
+    },
+    {
+      "entry_id": 1487034,
+      "composition_id": "Al2 Co1",
+      "delta_e": 0.24411420874999953,
+      "stability": 0.7430053228651163,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590045,
+      "composition_id": "Al2 Co1",
+      "delta_e": 0.2571217599999998,
+      "stability": 0.7560128741151166,
+      "icsd": false
+    },
+    {
+      "entry_id": 1485117,
+      "composition_id": "Al2 Co1",
+      "delta_e": 0.2571243299999999,
+      "stability": 0.7560154441151168,
+      "icsd": false
+    },
+    {
+      "entry_id": 1105041,
+      "composition_id": "Al1 Co1",
+      "delta_e": 0.204603035,
+      "stability": 0.8187588999999998,
+      "icsd": false
+    },
+    {
+      "entry_id": 1472389,
+      "composition_id": "Al1 Co8",
+      "delta_e": 0.6742722066666675,
+      "stability": 0.8238888086727455,
+      "icsd": false
+    },
+    {
+      "entry_id": 1224493,
+      "composition_id": "Al1 Co1",
+      "delta_e": 0.397883975,
+      "stability": 1.01203984,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238125,
+      "composition_id": "Al2 Co1",
+      "delta_e": 1.00574512,
+      "stability": 1.504636234115117,
+      "icsd": false
+    },
+    {
+      "entry_id": 1218299,
+      "composition_id": "Al1 Co1",
+      "delta_e": 0.92553573,
+      "stability": 1.5396915949999999,
+      "icsd": false
+    },
+    {
+      "entry_id": 1238124,
+      "composition_id": "Al1 Co2",
+      "delta_e": 2.42589314333333,
+      "stability": 2.8409607553242124,
+      "icsd": false
+    }
+  ]
+}

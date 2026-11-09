@@ -1,0 +1,51 @@
+{
+  "space": "Co-Si",
+  "elements": [
+    "Co",
+    "Si"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-19905",
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.331056189166666,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-7577",
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.4929253525,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2379",
+      "composition_id": "Co1 Si2",
+      "delta_e": -0.41107844000000104,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1079393",
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.1794570825,
+      "stability": 0.06883505937499901,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-22746",
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.29181173125000004,
+      "stability": 0.20111362124999901,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1105498",
+      "composition_id": "Co2 Si3",
+      "delta_e": -0.241066568,
+      "stability": 0.202750637000001,
+      "icsd": true
+    }
+  ]
+}

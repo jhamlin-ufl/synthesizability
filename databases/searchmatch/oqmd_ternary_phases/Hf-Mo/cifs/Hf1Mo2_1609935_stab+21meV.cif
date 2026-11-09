@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfMo2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38370092
+_cell_length_b   5.38370092
+_cell_length_c   8.64956540
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMo2
+_chemical_formula_sum   'Hf4 Mo8'
+_cell_volume   217.11347075
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.33333321  0.66666641  0.06057645  1
+  Hf  Hf1  1  0.33333321  0.66666641  0.43942323  1
+  Hf  Hf2  1  0.66666652  0.33333321  0.56057614  1
+  Hf  Hf3  1  0.66666652  0.33333321  0.93942408  1
+  Mo  Mo4  1  0.00000000  0.00000000  0.00000000  1
+  Mo  Mo5  1  0.34006350  0.17003181  0.24999984  1
+  Mo  Mo6  1  0.82996813  0.17003181  0.24999984  1
+  Mo  Mo7  1  0.82996792  0.65993601  0.24999984  1
+  Mo  Mo8  1  0.00000000  0.00000000  0.49999969  1
+  Mo  Mo9  1  0.17003181  0.34006361  0.74999953  1
+  Mo  Mo10  1  0.17003159  0.82996781  0.74999953  1
+  Mo  Mo11  1  0.65993622  0.82996781  0.74999953  1

@@ -1,0 +1,35 @@
+sample_number,formula,n_below_hull,n_stable_below_hull,below_hull_structures,all_below_hull_unstable
+465,Cu5GePd6,2,0,oqmd sg65 -20 unStable; alex_pbe sg71 -16 unStable,True
+466,Hf2MoIr,2,2,oqmd sg225 -12 Stable; oqmd sg123 -5 Stable,False
+469,ScCuPd2,0,0,,False
+472,ScCu4Pd,1,1,oqmd sg216 -24 Stable,False
+473,Sc3CuPd2,1,0,oqmd sg123 -3 unStable,True
+474,Sc2CuPd,2,0,mp sg225 -1 unStable; alex_pbe sg123 -1 unStable,True
+475,La2PdAu2,1,1,oqmd sg12 -1 Stable,False
+476,ScPd2Au,1,1,alex_pbe sg123 -5 Stable,False
+477,ScPd5Au2,0,0,,False
+478,Sc2Pd5Au,3,3,alex_pbe sg55 -35 Stable; alex_pbe sg139 -27 Stable; mp sg38 -13 Stable,False
+479,MnAl2Au6,1,0,oqmd sg12 -1 unStable,True
+480,GdGePt2,2,2,oqmd sg63 -32 Stable; alex_pbe sg62 -25 Stable,False
+481,NiGe2Pt,1,1,oqmd sg11 -6 Stable,False
+483,La5Al3Co2,1,0,oqmd sg63 -1 unStable,True
+491,TiGePt5,1,1,alex_pbe sg123 -34 Stable,False
+492,Ti2GePt8,1,1,mp sg123 -45 Stable,False
+493,TiSiPt5,1,1,alex_pbe sg123 -26 Stable,False
+494,Ti2SiPt8,1,1,oqmd sg123 -5 Stable,False
+507,CuSnY,8,7,alex_pbe sg186 -70 Stable; alex_pbe sg216 -60 Stable; oqmd sg62 -46 Stable; oqmd sg194 -33 unStable; alex_pbe sg129 -32 Stable; alex_pbe sg187 -14 Stable; alex_pbe sg62 -3 Stable; alex_pbe sg44 -2 Stable,False
+510,B2NbNi2,0,0,,False
+512,C2CrSc,2,2,oqmd sg194 -10 Stable; oqmd sg59 -10 Stable,False
+513,C2LaRu,0,0,,False
+514,LaNiSi3,1,0,oqmd sg107 -25 unStable,True
+535,Al8FeCo7,1,1,oqmd sg221 -3 Stable,False
+537,GdCo4Sn6,1,0,alex_pbe sg121 -11 unStable,True
+538,CoSiY,2,2,oqmd sg129 -43 Stable; oqmd sg62 -12 Stable,False
+539,CoSi3Y,3,2,oqmd sg107 -17 unStable; oqmd sg65 -10 Stable; alex_pbe sg10 -7 Stable,False
+540,Al3Cu2Y,1,1,oqmd sg191 -11 Stable,False
+545,Al4FeCo3,3,3,oqmd sg229 -6 Stable; alex_pbe sg166 -3 Stable; alex_pbe sg123 -0 Stable,False
+553,GdFeGe3,1,0,alex_pbe sg107 -31 unStable,True
+554,Gd2Fe3Ge5,2,2,oqmd sg15 -9 Stable; oqmd sg72 -4 Stable,False
+555,GdFeGe2,1,1,alex_pbe sg11 -6 Stable,False
+556,Gd3CoSn6,1,1,oqmd sg63 -25 Stable,False
+561,ZrSiPt5,1,1,mp sg123 -42 Stable,False

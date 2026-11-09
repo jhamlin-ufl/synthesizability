@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/ScPd2Au/buttons/0476/0476_HM_ScPd2Au.txt --space samples/ScPd2Au/fits/0476_pred_for_L12_hs/start --occ pred --uiso-max 0.04 --main-key ScPd3_alex_agm010202394 --limits 26.2 118 --partners ScPd2Au_pred_OQMD-1988846 Sc2Pd3Au2_alex_agm005557588 --out results/refits/0476_pred_for_L12_hs --strict-final --accept-bound --hold-shift

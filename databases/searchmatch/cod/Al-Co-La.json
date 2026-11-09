@@ -1,0 +1,655 @@
+{
+  "space": "Al-Co-La",
+  "elements": [
+    "Al",
+    "Co",
+    "La"
+  ],
+  "source": "COD REST https://www.crystallography.net/cod/result (strictmin/strictmax exact element subsets; REST defaults exclude theoretical/duplicate/error entries)",
+  "licence": "CC0 1.0 (https://www.crystallography.net/cod/)",
+  "retrieved": "2026-10-06",
+  "n_entries": 80,
+  "n_partial_occupancy": 3,
+  "entries": [
+    {
+      "cod_id": "1502689",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/jp102463p",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2300250",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0021889809027897",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4004108",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4313202",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic026022z",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4313206",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic026022z",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4313210",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic026022z",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4313214",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic026022z",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4313217",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic026022z",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008460",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011602",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.25.753",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012002",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1063/1.1698520",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012428",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1063/1.1749562",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012955",
+      "formula": "Al",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9017775",
+      "formula": "Al",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1534891",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4105680",
+      "formula": "Co",
+      "space_group": "P 1",
+      "n_elements": 1,
+      "doi": "10.1021/ja109553u",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4105684",
+      "formula": "Co",
+      "space_group": "P 1",
+      "n_elements": 1,
+      "doi": "10.1021/ja109553u",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008466",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008492",
+      "formula": "Co",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9010967",
+      "formula": "Co",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X50000732",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9010968",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X50000732",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011615",
+      "formula": "Co",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011616",
+      "formula": "Co",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011617",
+      "formula": "Co",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011618",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011619",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011620",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011621",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011622",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011623",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011624",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011625",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011626",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.49.831",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012884",
+      "formula": "Co",
+      "space_group": "P 63 m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012926",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012927",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012928",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012929",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012930",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012931",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012932",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012933",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012934",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012935",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012936",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012937",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012938",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012939",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012940",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012941",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012942",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012943",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012944",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012945",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012946",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012947",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012948",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012949",
+      "formula": "Co",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012950",
+      "formula": "Co",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1538330",
+      "formula": "Co3",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1522694",
+      "formula": "La",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1523533",
+      "formula": "La",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1534925",
+      "formula": "La",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4031654",
+      "formula": "La",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008472",
+      "formula": "La",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008503",
+      "formula": "La",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008525",
+      "formula": "La",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9010986",
+      "formula": "La",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X5600156X",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "6000431",
+      "formula": "AlLa",
+      "space_group": "C m c m",
+      "n_elements": 2,
+      "doi": "10.1016/S0925-8388(98)00636-7",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1523557",
+      "formula": "Al0.13Co0.87",
+      "space_group": "F m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1523752",
+      "formula": "Al13Co4",
+      "space_group": "P m n 21",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "8104041",
+      "formula": "Al13La16",
+      "space_group": "P -6 2 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1533734",
+      "formula": "Al3.19La4.06",
+      "space_group": "P -6 2 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1010445",
+      "formula": "Al5Co2",
+      "space_group": "P 63/m m c",
+      "n_elements": 2,
+      "doi": "10.1524/zkri.1938.99.1.480",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1525506",
+      "formula": "Co13La",
+      "space_group": "F m -3 c",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1525161",
+      "formula": "Co2La",
+      "space_group": "F d -3 m :1",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1524411",
+      "formula": "Co3La2",
+      "space_group": "C m c a",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1524765",
+      "formula": "Co5La",
+      "space_group": "P 6/m m m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1529171",
+      "formula": "Al4CoLa",
+      "space_group": "P m m a",
+      "n_elements": 3,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4513193",
+      "formula": "Al8Co2La",
+      "space_group": "P b a m",
+      "n_elements": 3,
+      "doi": "10.1021/acs.cgd.5b00417",
+      "has_partial_occupancy": false
+    }
+  ]
+}

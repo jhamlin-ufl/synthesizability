@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Hf2MoIr/buttons/0466/0466_HM_Hf2MoIr_annealed_ZB.txt --space samples/Hf2MoIr/fits/0466_pred_L21/start --occ pred --uiso-max 0.04 --main-key Hf2MoIr_pred_OQMD-1013867 --limits 5.02 150 --partners Hf2Ir_E93_oqmd_2052705 --strict-final --out results/refits/0466_pred_L21 --accept-bound

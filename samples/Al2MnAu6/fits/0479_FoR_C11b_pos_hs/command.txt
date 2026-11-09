@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Al2MnAu6/buttons/0479/0479_HM_MnAl2Au6.txt --space samples/Al2MnAu6/fits/0479_FoR_C11b_pos_hs/start --occ pred --uiso-max 0.04 --main-key C11b_eta0.50 --limits 18 118 --positions --partners --out results/refits/0479_FoR_C11b_pos_hs --strict-final --accept-bound --hold-shift

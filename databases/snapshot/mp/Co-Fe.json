@@ -1,0 +1,93 @@
+{
+  "space": "Co-Fe",
+  "elements": [
+    "Co",
+    "Fe"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-601848",
+      "composition_id": "Co5 Fe11",
+      "delta_e": -0.049183250625,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-601820",
+      "composition_id": "Co1 Fe3",
+      "delta_e": -0.041613642499999,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-601842",
+      "composition_id": "Co7 Fe9",
+      "delta_e": -0.056785647499999,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2090",
+      "composition_id": "Co1 Fe1",
+      "delta_e": -0.055374125,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1080603",
+      "composition_id": "Co1 Fe7",
+      "delta_e": -0.020268399999999003,
+      "stability": 0.0005384212500000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-18695",
+      "composition_id": "Co1 Fe15",
+      "delta_e": -0.009417776874999001,
+      "stability": 0.0009856337500000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-641526",
+      "composition_id": "Co3 Fe13",
+      "delta_e": -0.027467104999999003,
+      "stability": 0.0037431268750010003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1084832",
+      "composition_id": "Co3 Fe5",
+      "delta_e": -0.0019012150000000002,
+      "stability": 0.0510832340625,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1007852",
+      "composition_id": "Co3 Fe1",
+      "delta_e": 0.028938069999999,
+      "stability": 0.056625132499999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225083",
+      "composition_id": "Co3 Fe1",
+      "delta_e": 0.05374232749999901,
+      "stability": 0.081429389999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225016",
+      "composition_id": "Co1 Fe1",
+      "delta_e": 0.047685790000000006,
+      "stability": 0.103059915000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1096987",
+      "composition_id": "Co9 Fe1",
+      "delta_e": 0.6267293099999981,
+      "stability": 0.637804134999999,
+      "icsd": false
+    }
+  ]
+}

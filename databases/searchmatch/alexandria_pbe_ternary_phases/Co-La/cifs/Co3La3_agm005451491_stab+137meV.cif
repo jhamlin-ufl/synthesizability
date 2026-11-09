@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LaCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.95480189
+_cell_length_b   5.95480189
+_cell_length_c   7.52720480
+_cell_angle_alpha   64.58761060
+_cell_angle_beta   64.58761060
+_cell_angle_gamma   38.38453298
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCo
+_chemical_formula_sum   'La3 Co3'
+_cell_volume   147.63802770
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.58925450  0.58925450  0.72519746  1
+  La  La1  1  0.92146020  0.92146020  0.46482386  1
+  La  La2  1  0.77840795  0.77840795  0.06040548  1
+  Co  Co3  1  0.08148064  0.08148064  0.00602728  1
+  Co  Co4  1  0.31223809  0.31223809  0.76753050  1
+  Co  Co5  1  0.48382528  0.48382528  0.14268208  1

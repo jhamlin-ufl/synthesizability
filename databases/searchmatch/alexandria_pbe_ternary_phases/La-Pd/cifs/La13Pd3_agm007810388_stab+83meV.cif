@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_La13Pd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.23079159
+_cell_length_b   8.23079159
+_cell_length_c   7.66658153
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   94.65757173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La13Pd3
+_chemical_formula_sum   'La13 Pd3'
+_cell_volume   517.66459598
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.49961293  0.04899642  0.72910818  1
+  La  La1  1  0.51172167  0.48827833  0.73992466  1
+  La  La2  1  0.95100358  0.50038707  0.72910818  1
+  La  La3  1  0.80005722  0.85447122  0.50000000  1
+  La  La4  1  0.14552878  0.19994278  0.50000000  1
+  La  La5  1  0.23696670  0.76303330  0.50000000  1
+  La  La6  1  0.49961293  0.04899642  0.27089182  1
+  La  La7  1  0.51172167  0.48827833  0.26007534  1
+  La  La8  1  0.95100358  0.50038707  0.27089182  1
+  La  La9  1  0.81133725  0.18866275  0.00000000  1
+  La  La10  1  0.76948760  0.77347702  0.00000000  1
+  La  La11  1  0.22652298  0.23051240  0.00000000  1
+  La  La12  1  0.25649485  0.74350515  0.00000000  1
+  Pd  Pd13  1  0.05398777  0.94601223  0.78445570  1
+  Pd  Pd14  1  0.72095130  0.27904870  0.50000000  1
+  Pd  Pd15  1  0.05398777  0.94601223  0.21554430  1

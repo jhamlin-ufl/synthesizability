@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Ti2Pt8Si/buttons/0494/0494_HM_Ti2SiPt8.txt --space samples/Ti2Pt8Si/fits/0494_pred_for_TiSiPt5_hs/start --occ pred --uiso-max 0.04 --main-key TiPt2_alex_agm008023269 --limits 26.9 118 --partners Ti2SiPt8_pred_OQMD-2149228 --out results/refits/0494_pred_for_TiSiPt5_hs --strict-final --accept-bound --hold-shift

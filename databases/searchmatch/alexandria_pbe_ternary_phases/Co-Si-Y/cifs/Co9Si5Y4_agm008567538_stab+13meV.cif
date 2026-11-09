@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Y4Co9Si5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.34561181
+_cell_length_b   11.34561181
+_cell_length_c   11.34561182
+_cell_angle_alpha   26.47035805
+_cell_angle_beta   26.47035805
+_cell_angle_gamma   26.47035806
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y4Co9Si5
+_chemical_formula_sum   'Y4 Co9 Si5'
+_cell_volume   255.75110420
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.05040333  0.05040333  0.05040333  1
+  Y  Y1  1  0.94959667  0.94959667  0.94959667  1
+  Y  Y2  1  0.14779922  0.14779922  0.14779922  1
+  Y  Y3  1  0.85220078  0.85220078  0.85220078  1
+  Co  Co4  1  0.50000000  0.50000000  0.00000000  1
+  Co  Co5  1  0.00000000  0.50000000  0.50000000  1
+  Co  Co6  1  0.50000000  0.00000000  0.50000000  1
+  Co  Co7  1  0.60754688  0.10837856  0.60754688  1
+  Co  Co8  1  0.60754688  0.60754688  0.10837856  1
+  Co  Co9  1  0.10837856  0.60754688  0.60754688  1
+  Co  Co10  1  0.39245312  0.89162144  0.39245312  1
+  Co  Co11  1  0.89162144  0.39245312  0.39245312  1
+  Co  Co12  1  0.39245312  0.39245312  0.89162144  1
+  Si  Si13  1  0.50000000  0.50000000  0.50000000  1
+  Si  Si14  1  0.27887003  0.27887003  0.27887003  1
+  Si  Si15  1  0.72112997  0.72112997  0.72112997  1
+  Si  Si16  1  0.38750841  0.38750841  0.38750841  1
+  Si  Si17  1  0.61249159  0.61249159  0.61249159  1

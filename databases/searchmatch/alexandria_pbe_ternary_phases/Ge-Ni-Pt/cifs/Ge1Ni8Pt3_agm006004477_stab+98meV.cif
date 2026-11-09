@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ni8GePt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.68160676
+_cell_length_b   9.21967983
+_cell_length_c   10.34077048
+_cell_angle_alpha   41.28577175
+_cell_angle_beta   112.86801984
+_cell_angle_gamma   98.29563615
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni8GePt3
+_chemical_formula_sum   'Ni8 Ge1 Pt3'
+_cell_volume   150.77150134
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.30791807  0.71539346  0.79982551  1
+  Ni  Ni1  1  0.47895652  0.96295087  0.82960231  1
+  Ni  Ni2  1  0.09253476  0.18189487  0.83359611  1
+  Ni  Ni3  1  0.18712415  0.38212157  0.49648467  1
+  Ni  Ni4  1  0.81518668  0.60450745  0.50793041  1
+  Ni  Ni5  1  0.91837258  0.81107362  0.17422922  1
+  Ni  Ni6  1  0.65669829  0.31644104  0.16330031  1
+  Ni  Ni7  1  0.54755709  0.02867533  0.18857550  1
+  Ge  Ge8  1  0.41847097  0.84974307  0.49555128  1
+  Pt  Pt9  1  0.75016127  0.40989451  0.86271520  1
+  Pt  Pt10  1  0.57088865  0.11815536  0.50616879  1
+  Pt  Pt11  1  0.25441596  0.58882286  0.13859368  1

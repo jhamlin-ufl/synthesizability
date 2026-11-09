@@ -1,0 +1,79 @@
+{
+  "space": "Si-Y",
+  "elements": [
+    "Si",
+    "Y"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2538",
+      "composition_id": "Si3 Y5",
+      "delta_e": -0.7842043937500001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-9972",
+      "composition_id": "Si1 Y1",
+      "delta_e": -0.8982283075,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1198133",
+      "composition_id": "Si4 Y5",
+      "delta_e": -0.8372678411111121,
+      "stability": 0.010283171388888,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1199890",
+      "composition_id": "Si4 Y5",
+      "delta_e": -0.8361698883333331,
+      "stability": 0.011381124166668002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-12769",
+      "composition_id": "Si2 Y1",
+      "delta_e": -0.560288173333335,
+      "stability": 0.038530698333332,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2568",
+      "composition_id": "Si2 Y1",
+      "delta_e": -0.5361982633333351,
+      "stability": 0.06262060833333201,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1189560",
+      "composition_id": "Si3 Y1",
+      "delta_e": -0.34030881749999803,
+      "stability": 0.10880533625000001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1187788",
+      "composition_id": "Si1 Y3",
+      "delta_e": -0.27979694180555303,
+      "stability": 0.243005987361112,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1216212",
+      "composition_id": "Si2 Y1",
+      "delta_e": -0.297575115833334,
+      "stability": 0.301243755833333,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1077026",
+      "composition_id": "Si1 Y1",
+      "delta_e": -0.11778432416666801,
+      "stability": 0.7804439833333331,
+      "icsd": false
+    }
+  ]
+}

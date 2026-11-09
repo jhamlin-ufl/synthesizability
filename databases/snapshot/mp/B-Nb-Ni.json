@@ -1,0 +1,45 @@
+{
+  "space": "B-Nb-Ni",
+  "elements": [
+    "B",
+    "Nb",
+    "Ni"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1210179",
+      "composition_id": "B6 Nb2 Ni21",
+      "delta_e": -0.317679833965515,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1210153",
+      "composition_id": "B6 Nb3 Ni20",
+      "delta_e": -0.35058072603448004,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1188857",
+      "composition_id": "B2 Nb1 Ni1",
+      "delta_e": -0.6160427914583321,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1220806",
+      "composition_id": "B12 Nb5 Ni41",
+      "delta_e": -0.332480959482758,
+      "stability": 0.001649320517239,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-9985",
+      "composition_id": "B1 Nb1 Ni1",
+      "delta_e": -0.5600169847222211,
+      "stability": 0.004139907988502001,
+      "icsd": true
+    }
+  ]
+}

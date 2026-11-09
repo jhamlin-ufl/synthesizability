@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/54/20/1542010.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1542010
+loop_
+_publ_author_name
+'Jeitschko, W.'
+'Hofmann, W.K.'
+_publ_section_title
+;
+ Ternary Alkaline Earth and Rare Earth Metal Palladium Phosphides with Th
+ Cr2 Si2- and La6 Ni6 P17-Type Structures
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              317
+_journal_page_last               322
+_journal_volume                  95
+_journal_year                    1983
+_chemical_formula_sum            'La Pd2'
+_chemical_name_systematic        'La Pd2 P2'
+_space_group_IT_number           139
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.188
+_cell_length_b                   4.188
+_cell_length_c                   9.857
+_cell_volume                     172.885
+_citation_journal_id_ASTM        JCOMAH
+_cod_data_source_file            Jeitschko_JCOMAH_1983_1918.cif
+_cod_data_source_block           La1Pd2
+_cod_original_cell_volume        172.8853
+_cod_original_formula_sum        'La1 Pd2'
+_cod_database_code               1542010
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+x,-y,-z
+y,x,-z
+-x,y,-z
+-y,-x,-z
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+-x,y,z
+-y,-x,z
+x,-y,z
+y,x,z
+x+1/2,y+1/2,z+1/2
+-y+1/2,x+1/2,z+1/2
+-x+1/2,-y+1/2,z+1/2
+y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,-z+1/2
+y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,-z+1/2
+-y+1/2,-x+1/2,-z+1/2
+-x+1/2,-y+1/2,-z+1/2
+y+1/2,-x+1/2,-z+1/2
+x+1/2,y+1/2,-z+1/2
+-y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,z+1/2
+-y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,z+1/2
+y+1/2,x+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La1 La 0 0 0 1 0.0
+Pd1 Pd 0 0.5 0.25 1 0.0

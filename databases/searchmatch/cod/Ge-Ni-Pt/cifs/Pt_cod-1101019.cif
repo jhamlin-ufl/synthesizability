@@ -1,0 +1,56 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 02:32:00 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201954 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/10/10/1101019.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1101019
+_chemical_formula_sum            Pt
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_H-M   Fm-3m
+_audit_update_record             'Last update Sat May 10 13:54:28 CEST 2003'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   3.9195998
+_cell_length_b                   3.9195998
+_cell_length_c                   3.9195998
+_pd_phase_id                     Pt
+_pd_phase_name                   platinum-EWIMV
+_pd_proc_info_author_name        'Mag por Jesus'
+_pd_proc_ls_prof_R_factor        0.14258711
+_pd_proc_ls_prof_wR_expected     0.21868365
+_pd_proc_ls_prof_wR_factor       0.17336029
+_cod_original_formula_sum        Pt1
+_cod_database_code               1101019
+_pd_proc_title                   PTCF1
+_pd_proc_ls_extract_int          'end of iteration'
+_pd_proc_ls_texture_comp         'end of iteration'
+_pd_proc_ls_theoretical_weight   false
+_pd_proc_ls_extract_pos          'end of iteration'
+_pd_proc_ls_strain_comp          'end of iteration'
+_pd_proc_ls_extract_fhkl         'end of iteration'
+_pd_proc_ls_fhkl_comp            'end of iteration'
+_pd_proc_ls_weight_scheme        sqrt
+_maud_proc_ls_minimize_quantity  WgtSS
+_riet_z_molecula_number          1
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pt Pt 1.0 0.0 0.0 0.0 0.0
+loop_
+_cod_related_entry_id
+_cod_related_entry_code
+_cod_related_entry_database
+1 22381 ChemSpider

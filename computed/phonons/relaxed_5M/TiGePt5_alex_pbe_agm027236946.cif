@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       TiGePt5
+_chemical_formula_sum              "Ti1 Ge1 Pt5"
+_cell_length_a       3.9767373071102305
+_cell_length_b       3.9767373071102305
+_cell_length_c       7.166274772950656
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.4999999999999998  0.4999999999999998  0.5  1.0000
+  Ge  Ge1       1.0  2.7471138222516865e-97  2.1507196507556365e-49  0.9999999999999999  1.0000
+  Pt  Pt1       1.0  0.4999999999999998  0.0  0.7739824581040181  1.0000
+  Pt  Pt2       1.0  0.4999999999999998  0.0  0.2260175418959824  1.0000
+  Pt  Pt3       1.0  1.0060300227758557e-35  0.4999999999999998  0.7739824581040181  1.0000
+  Pt  Pt4       1.0  0.0  0.4999999999999998  0.2260175418959824  1.0000
+  Pt  Pt5       1.0  2.752921152967215e-48  0.0  0.5  1.0000

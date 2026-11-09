@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-10-05 14:25:11 +0300 (Mon, 05 Oct 2015) $
+#$Revision: 160125 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/38/1533842.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1533842
+loop_
+_publ_author_name
+'Szytula, A.'
+'Wawrzynska, E.'
+'Zygmunt, A.'
+_publ_section_title
+;
+ Crystal structure and magnetic properties of Gd Co6 X6 (X = Ge, Sn)and Tb
+ Co6 Ge6
+;
+_journal_name_full               'Journal of Alloys Compd.'
+_journal_page_first              L16
+_journal_page_last               L18
+_journal_volume                  366
+_journal_year                    2004
+_chemical_formula_sum            'Co3 Gd0.34 Sn2.92'
+_chemical_name_systematic        'Gd0.34 Co3 Sn2.92'
+_space_group_IT_number           191
+_symmetry_space_group_name_Hall  '-P 6 2'
+_symmetry_space_group_name_H-M   'P 6/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   5.368
+_cell_length_b                   5.368
+_cell_length_c                   4.272
+_cell_volume                     106.607
+_citation_journal_id_ASTM        JALCEU
+_cod_data_source_file            Szytula_JALCEU_2004_1390.cif
+_cod_data_source_block           Co3Gd0.34Sn2.92
+_cod_original_cell_volume        106.6073
+_cod_database_code               1533842
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z
+-y,x-y,z
+-x,-y,z
+-x+y,-x,z
+y,-x+y,z
+-y,-x,-z
+x-y,-y,-z
+x,x-y,-z
+y,x,-z
+-x+y,y,-z
+-x,-x+y,-z
+-x,-y,-z
+-x+y,-x,-z
+y,-x+y,-z
+x,y,-z
+x-y,x,-z
+-y,x-y,-z
+y,x,z
+-x+y,y,z
+-x,-x+y,z
+-y,-x,z
+x-y,-y,z
+x,x-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Sn2 Sn 0.3333 0.6667 0 1 0.0
+Co1 Co 0.5 0 0.5 1 0.0
+Gd1 Gd 0 0 0 0.34 0.0
+Sn1 Sn 0 0 0.358 0.46 0.0

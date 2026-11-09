@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sc2CuPd
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   4.41593630
+_cell_length_b   3.34274873
+_cell_length_c   10.00731102
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   Sc2CuPd
+_chemical_formula_sum   'Sc4 Cu2 Pd2'
+_cell_volume   147.72157531
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z'
+  3  '-x, y, z'
+  4  'x, -y, z'
+  5  'x, y+1/2, z+1/2'
+  6  '-x, -y+1/2, z+1/2'
+  7  '-x, y+1/2, z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  2  0.00000000  0.00000000  0.73345837  1.0
+  Sc  Sc1  2  0.50000000  0.00000000  0.01684271  1.0
+  Cu  Cu2  2  0.50000000  0.00000000  0.29292916  1.0
+  Pd  Pd3  2  0.00000000  0.00000000  0.45596800  1.0

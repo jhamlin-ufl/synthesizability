@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/TiPt5Ge/buttons/0491/0491_HM_TiGePt5_circular.txt --space samples/TiPt5Ge/fits/0491_pred_alone/start --main-key TiGePt5_pred_OQMD-2146080 --partners --out results/refits/0491_pred_alone --strict-final --accept-bound

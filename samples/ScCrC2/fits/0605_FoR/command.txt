@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/ScCrC2/buttons/0605/0605_HM_C2CrSc.txt --space samples/ScCrC2/fits/0605_FoR/start --occ pred --uiso-max 0.04 --main-key ScCrC2_Poettgen1995 --limits 18 118 --md --md-hold 0.70 --partners C_cod_9011577 --out results/refits/0605_FoR --strict-final --accept-bound

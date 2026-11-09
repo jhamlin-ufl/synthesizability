@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/LaRuC2/buttons/0614/0614_HM_C2LaRu.txt --space samples/LaRuC2/fits/0614_FoR/start --main-key Ru_cod_9017842 --partners LaOH3_cod_4031381 --out results/refits/0614_FoR --strict-final --accept-bound

@@ -1,0 +1,403 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "LaNiSi3_pred_OQMD-1364676",
+  "space": "../../../refits_2026-11/cifs/0514",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0514_HM_LaNiSi3_circular.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 41.27058185300873,
+  "gof": 13.350112260118815,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 4.23678,
+     "length_b": 4.23678,
+     "length_c": 9.50626
+    }
+   ],
+   "shift": 95.6750264456261,
+   "size": 1.0,
+   "mustrain": 1000.0,
+   "md": null,
+   "atoms": {
+    "La0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Si1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Si2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Ni3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 41.523,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.23557,
+      "length_b": 4.23557,
+      "length_c": 9.46947
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 41.523,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.23557,
+      "length_b": 4.23557,
+      "length_c": 9.46947
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 41.505,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.23514,
+      "length_b": 4.23514,
+      "length_c": 9.48051
+     }
+    ],
+    "shift": 39.46869754231234,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 38.579,
+   "kept": false,
+   "note": "cell outside its window: LaNiSi3_pred_OQMD-1364676",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.23022,
+      "length_b": 4.23022,
+      "length_c": 9.92131
+     }
+    ],
+    "shift": 71.13469782730078,
+    "size": 1.0,
+    "mustrain": 38848.20214582364,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": false
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 38.617,
+   "kept": false,
+   "note": "cell outside its window: LaNiSi3_pred_OQMD-1364676",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.20891,
+      "length_b": 4.20891,
+      "length_c": 9.80423
+     }
+    ],
+    "shift": 745.9039791407265,
+    "size": 0.02,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": false
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 41.456,
+   "kept": false,
+   "note": "no gain over 41.50",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.23326,
+      "length_b": 4.23326,
+      "length_c": 9.49307
+     }
+    ],
+    "shift": 105.03433957053218,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": -0.12419
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": -0.12419
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": -0.12419
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": -0.12419
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 41.279,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.2358,
+      "length_b": 4.2358,
+      "length_c": 9.49884
+     }
+    ],
+    "shift": 87.21939888592163,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 41.271,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.23678,
+      "length_b": 4.23678,
+      "length_c": 9.50626
+     }
+    ],
+    "shift": 95.6750264456261,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "La0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ni3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

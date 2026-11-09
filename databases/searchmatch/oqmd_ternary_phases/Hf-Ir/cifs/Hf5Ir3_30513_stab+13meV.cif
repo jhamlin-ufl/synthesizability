@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Hf5Ir3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.96630900
+_cell_length_b   7.96630861
+_cell_length_c   5.50175000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99823252
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf5Ir3
+_chemical_formula_sum   'Hf10 Ir6'
+_cell_volume   302.38029957
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.66664168  0.33332353  0.00000000  1
+  Hf  Hf1  1  0.33332323  0.66664169  0.00000000  1
+  Hf  Hf2  1  0.75946346  0.75946376  0.24999137  1
+  Hf  Hf3  1  0.24053813  0.99999325  0.25000409  1
+  Hf  Hf4  1  0.99999274  0.24053719  0.25000409  1
+  Hf  Hf5  1  0.66667665  0.33335831  0.50000091  1
+  Hf  Hf6  1  0.33335820  0.66667647  0.50000091  1
+  Hf  Hf7  1  0.24053641  0.24053624  0.74999046  1
+  Hf  Hf8  1  0.75946174  0.00000675  0.75000500  1
+  Hf  Hf9  1  0.00000641  0.75946136  0.75000500  1
+  Ir  Ir10  1  0.60184754  0.00000087  0.24999682  1
+  Ir  Ir11  1  0.00000106  0.60184775  0.24999682  1
+  Ir  Ir12  1  0.39815596  0.39815573  0.25000591  1
+  Ir  Ir13  1  0.39815108  0.99999913  0.74999773  1
+  Ir  Ir14  1  0.99999808  0.39815080  0.74999773  1
+  Ir  Ir15  1  0.60184392  0.60184427  0.75000682  1

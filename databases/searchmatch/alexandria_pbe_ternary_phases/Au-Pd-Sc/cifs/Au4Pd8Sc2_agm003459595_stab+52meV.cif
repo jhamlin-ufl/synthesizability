@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sc(Pd2Au)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79853397
+_cell_length_b   5.52319495
+_cell_length_c   7.53360248
+_cell_angle_alpha   112.90658117
+_cell_angle_beta   103.71897951
+_cell_angle_gamma   105.06934413
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc(Pd2Au)2
+_chemical_formula_sum   'Sc2 Pd8 Au4'
+_cell_volume   232.69899216
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.34094776  0.64918478  0.52665123  1
+  Sc  Sc1  1  0.11279550  0.90754752  0.97977386  1
+  Pd  Pd2  1  0.92831856  0.20741692  0.23515602  1
+  Pd  Pd3  1  0.20754770  0.49459941  0.09659462  1
+  Pd  Pd4  1  0.97430893  0.75181253  0.55022438  1
+  Pd  Pd5  1  0.77859663  0.06067066  0.81085951  1
+  Pd  Pd6  1  0.25417176  0.04345234  0.40485418  1
+  Pd  Pd7  1  0.40296989  0.18477793  0.83865973  1
+  Pd  Pd8  1  0.48876776  0.77756676  0.94590261  1
+  Pd  Pd9  1  0.83551299  0.61723748  0.11816695  1
+  Au  Au10  1  0.68106153  0.47040567  0.69309354  1
+  Au  Au11  1  0.63427241  0.91568779  0.37430246  1
+  Au  Au12  1  0.54517510  0.32861056  0.25951864  1
+  Au  Au13  1  0.06554947  0.34102764  0.66623827  1

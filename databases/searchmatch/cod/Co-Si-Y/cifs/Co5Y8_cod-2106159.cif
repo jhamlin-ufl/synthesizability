@@ -1,0 +1,72 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/61/2106159.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106159
+loop_
+_publ_author_name
+'Moreau, D.'
+'Parthe, E.'
+'Paccard, D.'
+_publ_section_title
+;
+ Y8Co5, a new monoclinic phase with Co centred trigonal prisms
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              496
+_journal_page_last               500
+_journal_volume                  32
+_journal_year                    1976
+_chemical_formula_sum            'Co5 Y8'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 102.11
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.058
+_cell_length_b                   7.286
+_cell_length_c                   24.77
+_cell_volume                     1245.441
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Moreau_ACBCAR_1976_1272.cif
+_cod_data_source_block           Co5Y8
+_cod_database_code               2106159
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y+1/2,-z+1/2
+-x,-y,-z
+x,-y-1/2,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Co3 Co 0.637 0.029 0.282 1 0.0
+Co4 Co 0.097 0.03 0.765 1 0.0
+Y8 Y 0.141 0.976 0.064 1 0.0
+Co5 Co 0.489 0.884 0.905 1 0.0
+Y7 Y 0.685 0.956 0.415 1 0.0
+Co1 Co 0.025 0.142 0.479 1 0.0
+Y2 Y 0.471 0.173 0.823 1 0.0
+Co2 Co 0.835 0.028 0.133 1 0.0
+Y3 Y 0.308 0.815 0.298 1 0.0
+Y4 Y 0.212 0.835 0.441 1 0.0
+Y6 Y 0.188 0.182 0.196 1 0.0
+Y1 Y 0.36 0.185 0.963 1 0.0
+Y5 Y 0 0.181 0.337 1 0.0

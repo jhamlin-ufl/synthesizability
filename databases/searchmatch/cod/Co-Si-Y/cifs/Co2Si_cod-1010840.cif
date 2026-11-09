@@ -1,0 +1,50 @@
+#------------------------------------------------------------------------------
+#$Date: 2012-02-28 14:14:52 +0200 (Tue, 28 Feb 2012) $
+#$Revision: 35911 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/01/08/1010840.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1010840
+_chemical_name_systematic          'Cobalt silicide'
+_chemical_formula_structural       'Co2 Si'
+_chemical_formula_sum              'Co2 Si'
+_publ_section_title
+;
+Kristallstruktur und Zusammensetzung des rhombischen Kobaltsilicides.
+;
+loop_
+_publ_author_name
+  'Boren, B'
+  'Stahl, S'
+  'Westgren, A'
+_journal_name_full
+;
+Zeitschrift fuer Physikalische Chemie, Abteilung B: Chemie der
+Elementarprozesse, Aufbau der Materie
+;
+_journal_coden_ASTM                ZPCBAL
+_journal_volume                    29
+_journal_year                      1935
+_journal_page_first                231
+_journal_page_last                 235
+_cell_length_a                     7.095(3)
+_cell_length_b                     4.908(3)
+_cell_length_c                     3.730(3)
+_cell_angle_alpha                  90
+_cell_angle_beta                   90
+_cell_angle_gamma                  90
+_cell_volume                       129.9
+_cell_formula_units_Z              4
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+? ? ? ?
+_cod_database_code 1010840

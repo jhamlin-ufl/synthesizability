@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_HfMo6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.02225320
+_cell_length_b   7.02225320
+_cell_length_c   7.02225321
+_cell_angle_alpha   37.50829340
+_cell_angle_beta   37.50829344
+_cell_angle_gamma   37.50829334
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfMo6
+_chemical_formula_sum   'Hf1 Mo6'
+_cell_volume   115.13352640
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.00000000  0.00000000  0.00000000  1
+  Mo  Mo1  1  0.28236240  0.28236240  0.28236240  1
+  Mo  Mo2  1  0.57203162  0.57203162  0.57203162  1
+  Mo  Mo3  1  0.85389296  0.85389296  0.85389296  1
+  Mo  Mo4  1  0.14610704  0.14610704  0.14610704  1
+  Mo  Mo5  1  0.42796838  0.42796838  0.42796838  1
+  Mo  Mo6  1  0.71763760  0.71763760  0.71763760  1

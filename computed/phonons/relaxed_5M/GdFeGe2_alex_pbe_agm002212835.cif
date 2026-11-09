@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Gd2Fe2Ge4
+_chemical_formula_sum              "Gd2 Fe2 Ge4"
+_cell_length_a       4.378714543929114
+_cell_length_b       4.245729869741164
+_cell_length_c       8.101931748952758
+_cell_angle_alpha    90.0
+_cell_angle_beta     104.81459712057692
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.3880554363085514  0.25  0.7909245214387232  1.0000
+  Gd  Gd2       1.0  0.6119445636914462  0.7499999999999999  0.20907547856127517  1.0000
+  Fe  Fe1       1.0  0.8790518252121768  0.7499999999999999  0.606967764903297  1.0000
+  Fe  Fe2       1.0  0.12094817478782037  0.25  0.393032235096701  1.0000
+  Ge  Ge1       1.0  0.6866016449930563  0.25  0.49926349375239737  1.0000
+  Ge  Ge2       1.0  0.31339835500694185  0.7499999999999999  0.5007365062476007  1.0000
+  Ge  Ge3       1.0  0.9482832590846405  0.7499999999999999  0.8998124852058189  1.0000
+  Ge  Ge4       1.0  0.05171674091535704  0.25  0.1001875147941797  1.0000

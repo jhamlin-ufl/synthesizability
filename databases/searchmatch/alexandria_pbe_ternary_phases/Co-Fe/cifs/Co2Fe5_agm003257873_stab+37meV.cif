@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Fe5Co2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17321582
+_cell_length_b   6.17879342
+_cell_length_c   6.17149342
+_cell_angle_alpha   118.15433265
+_cell_angle_beta   118.20223332
+_cell_angle_gamma   118.27956427
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe5Co2
+_chemical_formula_sum   'Fe5 Co2'
+_cell_volume   80.95426232
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.99740406  0.99663706  0.99708444  1
+  Co  Co1  1  0.14545309  0.57479151  0.28862984  1
+  Fe  Fe2  1  0.28192606  0.13834824  0.56716498  1
+  Fe  Fe3  1  0.42968858  0.71494407  0.85614296  1
+  Fe  Fe4  1  0.57142857  0.28571429  0.14285714  1
+  Fe  Fe5  1  0.71316857  0.85648450  0.42957132  1
+  Fe  Fe6  1  0.86093109  0.43308033  0.71854930  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Y4Al7Cu5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41641433
+_cell_length_b   6.48198647
+_cell_length_c   10.18537718
+_cell_angle_alpha   89.62933451
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y4Al7Cu5
+_chemical_formula_sum   'Y4 Al7 Cu5'
+_cell_volume   291.57209569
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.50000000  0.74944853  0.83305421  1
+  Y  Y1  1  0.50000000  0.24613187  0.65557117  1
+  Y  Y2  1  0.00000000  0.25533600  0.15672285  1
+  Y  Y3  1  0.00000000  0.75696421  0.35213011  1
+  Al  Al4  1  0.50000000  0.93458970  0.14916919  1
+  Al  Al5  1  0.50000000  0.43559629  0.35676333  1
+  Al  Al6  1  0.00000000  0.07150589  0.85573097  1
+  Al  Al7  1  0.00000000  0.56993244  0.63900390  1
+  Al  Al8  1  0.50000000  0.25875225  0.95241501  1
+  Al  Al9  1  0.00000000  0.24491064  0.45130328  1
+  Al  Al10  1  0.00000000  0.74549963  0.04782526  1
+  Cu  Cu11  1  0.50000000  0.55857718  0.11763477  1
+  Cu  Cu12  1  0.50000000  0.05154006  0.38862220  1
+  Cu  Cu13  1  0.00000000  0.44859694  0.87959391  1
+  Cu  Cu14  1  0.00000000  0.94717872  0.61826085  1
+  Cu  Cu15  1  0.50000000  0.72544066  0.54619999  1

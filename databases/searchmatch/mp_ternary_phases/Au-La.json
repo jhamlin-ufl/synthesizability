@@ -1,0 +1,58 @@
+{
+  "space": "Au-La",
+  "elements": [
+    "Au",
+    "La"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1223670",
+      "composition_id": "Au51 La14",
+      "delta_e": -0.6633894832307691,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1103395",
+      "composition_id": "Au1 La2",
+      "delta_e": -0.553784210000005,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1002136",
+      "composition_id": "Au1 La1",
+      "delta_e": -0.8244094650000041,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1072087",
+      "composition_id": "Au2 La1",
+      "delta_e": -0.805862649999995,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1025399",
+      "composition_id": "Au1 La1",
+      "delta_e": -0.8215519199999991,
+      "stability": 0.0028575450000040002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-864901",
+      "composition_id": "Au3 La1",
+      "delta_e": -0.683693155000001,
+      "stability": 0.02150910543478,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-976113",
+      "composition_id": "Au3 La1",
+      "delta_e": -0.6680701387499971,
+      "stability": 0.037132121684783005,
+      "icsd": false
+    }
+  ]
+}

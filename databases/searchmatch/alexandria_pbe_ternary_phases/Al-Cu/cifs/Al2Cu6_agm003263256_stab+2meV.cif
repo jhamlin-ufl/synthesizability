@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_AlCu3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22763241
+_cell_length_b   4.57565199
+_cell_length_c   5.16273234
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCu3
+_chemical_formula_sum   'Al2 Cu6'
+_cell_volume   99.86879606
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  0.33798625  0.00000000  1
+  Al  Al1  1  0.50000000  0.66201375  0.50000000  1
+  Cu  Cu2  1  0.50000000  0.66323350  0.00000000  1
+  Cu  Cu3  1  0.00000000  0.33676650  0.50000000  1
+  Cu  Cu4  1  0.00000000  0.83833504  0.25074346  1
+  Cu  Cu5  1  0.00000000  0.83833504  0.74925654  1
+  Cu  Cu6  1  0.50000000  0.16166496  0.75074346  1
+  Cu  Cu7  1  0.50000000  0.16166496  0.24925654  1

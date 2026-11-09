@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NbNi2B2
+_chemical_formula_sum              "Nb1 Ni2 B2"
+_cell_length_a       4.988972364407443
+_cell_length_b       4.98897236440744
+_cell_length_c       4.988972364407442
+_cell_angle_alpha    140.76379805266038
+_cell_angle_beta     140.76379805266035
+_cell_angle_gamma    56.695395740360055
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.0  0.0  0.0  1.0000
+  Ni  Ni1       1.0  0.7500000000000004  0.2500000000000001  0.5000000000000007  1.0000
+  Ni  Ni2       1.0  0.24999999999999953  0.75  0.5000000000000003  1.0000
+  B   B1        1.0  0.5995134492692599  0.5995134492692605  5.808648050467298e-16  1.0000
+  B   B2        1.0  0.40048655073074024  0.40048655073074013  4.103359301883292e-16  1.0000

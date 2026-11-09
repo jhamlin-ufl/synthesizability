@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/Sc3Pd2Cu/buttons/0473/0473_HM_Sc3CuPd2_annealed.txt --space samples/Sc3Pd2Cu/fits/0473_FoR_B2/start --occ pred --uiso-max 0.04 --main-key B2_eta0.75 --limits 8 118 --partners --bkg-peak 11.8 2.5 --strict-final --out results/refits/0473_FoR_B2 --accept-bound

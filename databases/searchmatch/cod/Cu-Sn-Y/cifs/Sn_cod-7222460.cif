@@ -1,0 +1,123 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-22 17:10:16 +0300 (Thu, 22 Apr 2021) $
+#$Revision: 264415 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/7/22/24/7222460.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7222460
+loop_
+_publ_author_name
+'Oehl, Nikolas'
+'Schmuelling, Guido'
+'Knipper, Martin'
+'Kloepsch, Richard'
+'Placke, Tobias'
+'Kolny-Olesiak, Joanna'
+'Plaggenborg, Thorsten'
+'Winter, Martin'
+'Parisi, Juergen'
+_publ_section_title
+;
+ In situ X-ray diffraction study on the formation of \a-Sn in
+ nanocrystalline Sn-based electrodes for lithium-ion batteries
+;
+_journal_issue                   44
+_journal_name_full               CrystEngComm
+_journal_page_first              8500
+_journal_paper_doi               10.1039/C5CE01841B
+_journal_volume                  17
+_journal_year                    2015
+_chemical_formula_sum            Sn
+_chemical_name_common            'Sn Beta'
+_space_group_IT_number           141
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I 4bw 2bw -1bw'
+_symmetry_space_group_name_H-M   'I 41/a m d :1'
+_audit_creation_date             'Mon Oct 12 15:11:53 PDT 1998'
+_audit_creation_method           'Maud, version 2.54'
+_audit_update_record             'Last update Wed Jun 17 12:35:01 CEST 2015'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.8393(7)
+_cell_length_b                   5.8392763
+_cell_length_c                   3.1876(4)
+_cell_volume                     108.689(19)
+_computing_structure_refinement  'Maud, version 2.54'
+_refine_ls_d_res_high            5000
+_refine_ls_d_res_low             0
+_refine_ls_goodness_of_fit_all   0.026165336
+_refine_ls_R_factor_all          0.05188525
+_refine_ls_wR_factor_all         0.07587875
+_reflns_d_resolution_high        50
+_reflns_d_resolution_low         0.7
+_cod_data_source_file            c5ce01841b2.cif
+_cod_data_source_block           Sn_Beta
+_cod_depositor_comments
+;
+ Changing the _symmetry_equiv_pos_site_id data item values to start from 1
+ instead of 0.
+
+ Antanas Vaitkus,
+ 2018-07-07
+
+ Adding full bibliography for 7222459--7222460.cif.
+
+ Changed the _cell_formula_units_Z data item value from '1' to '4'.
+
+ Antanas Vaitkus,
+ 2021-04-22
+;
+_cod_original_sg_symbol_H-M      I41/amd:1
+_cod_database_code               7222460
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y+0.5, -z+0.25'
+3 '-y, x+0.5, z+0.25'
+4 '-x, -y, z'
+5 'y, -x+0.5, z+0.25'
+6 'y, -x, -z'
+7 '-y, x, -z'
+8 'x, -y+0.5, -z+0.25'
+9 '-x, y+0.5, -z+0.25'
+10 'y, x, -z'
+11 '-y, -x, -z'
+12 'x, y+0.5, -z+0.25'
+13 '-x, y, z'
+14 'x, -y, z'
+15 '-y, -x+0.5, z+0.25'
+16 'y, x+0.5, z+0.25'
+17 'x+0.5, y+0.5, z+0.5'
+18 '-x+0.5, -y, -z+0.75'
+19 '-y+0.5, x, z+0.75'
+20 '-x+0.5, -y+0.5, z+0.5'
+21 'y+0.5, -x, z+0.75'
+22 'y+0.5, -x+0.5, -z+0.5'
+23 '-y+0.5, x+0.5, -z+0.5'
+24 'x+0.5, -y, -z+0.75'
+25 '-x+0.5, y, -z+0.75'
+26 'y+0.5, x+0.5, -z+0.5'
+27 '-y+0.5, -x+0.5, -z+0.5'
+28 'x+0.5, y, -z+0.75'
+29 '-x+0.5, y+0.5, z+0.5'
+30 'x+0.5, -y+0.5, z+0.5'
+31 '-y+0.5, -x, z+0.75'
+32 'y+0.5, x, z+0.75'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Sn Sn 1.0 0.0 0.0 0.0 0.077(8)

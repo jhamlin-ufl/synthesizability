@@ -1,0 +1,600 @@
+{
+ "record": {
+  "zero": 0.21953169200412873,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "TiSiPt5_pred_OQMD-2146105",
+  "space": "../../../refits_2026-11/cifs_d/0493",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0493_HM_TiSiPt5.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [
+   "TiPt8_oqmd_18017"
+  ],
+  "partner_scales": [],
+  "wR": 6.148142697964228,
+  "gof": 2.3813522253582473,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    0.6172,
+    0.3828
+   ],
+   "cells": [
+    {
+     "length_a": 3.95389,
+     "length_b": 3.95389,
+     "length_c": 6.84108
+    },
+    {
+     "length_a": 8.37062,
+     "length_b": 8.37062,
+     "length_c": 3.92068
+    }
+   ],
+   "shift": 0.0,
+   "size": 1.0,
+   "mustrain": 34859.455353678866,
+   "md": null,
+   "atoms": {
+    "Ti0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Si1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pt2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pt3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 20.03,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.2463,
+     0.7537
+    ],
+    "cells": [
+     {
+      "length_a": 3.97733,
+      "length_b": 3.97733,
+      "length_c": 6.87671
+     },
+     {
+      "length_a": 8.37598,
+      "length_b": 8.37598,
+      "length_c": 3.92284
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 19.95,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.3657,
+     0.6343
+    ],
+    "cells": [
+     {
+      "length_a": 3.97733,
+      "length_b": 3.97733,
+      "length_c": 6.87671
+     },
+     {
+      "length_a": 8.37598,
+      "length_b": 8.37598,
+      "length_c": 3.92284
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 17.058,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.5041,
+     0.4959
+    ],
+    "cells": [
+     {
+      "length_a": 3.9706,
+      "length_b": 3.9706,
+      "length_c": 6.85309
+     },
+     {
+      "length_a": 8.37598,
+      "length_b": 8.37598,
+      "length_c": 3.92284
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "TiPt8_oqmd_18017 cell",
+   "wR": 16.885,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.5154,
+     0.4846
+    ],
+    "cells": [
+     {
+      "length_a": 3.96635,
+      "length_b": 3.96635,
+      "length_c": 6.84721
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "joint isotropic microstrain, all phases",
+   "wR": 7.482,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6203,
+     0.3797
+    ],
+    "cells": [
+     {
+      "length_a": 3.95456,
+      "length_b": 3.95456,
+      "length_c": 6.83928
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 40091.23101136119,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 7.488,
+   "kept": false,
+   "note": "no gain over 7.48",
+   "state": {
+    "wt": [
+     0.6208,
+     0.3792
+    ],
+    "cells": [
+     {
+      "length_a": 3.95453,
+      "length_b": 3.95453,
+      "length_c": 6.83916
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 40271.599988179994,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 7.443,
+   "kept": false,
+   "note": "no gain over 7.48",
+   "state": {
+    "wt": [
+     0.6226,
+     0.3774
+    ],
+    "cells": [
+     {
+      "length_a": 3.95423,
+      "length_b": 3.95423,
+      "length_c": 6.83796
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 0.07552078975494433,
+    "mustrain": 35777.93108025874,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "TiPt8_oqmd_18017 microstrain",
+   "wR": 7.488,
+   "kept": false,
+   "note": "no gain over 7.48",
+   "state": {
+    "wt": [
+     0.6208,
+     0.3792
+    ],
+    "cells": [
+     {
+      "length_a": 3.95453,
+      "length_b": 3.95453,
+      "length_c": 6.83916
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 40271.599988179994,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 7.302,
+   "kept": false,
+   "note": "unphysical value",
+   "state": {
+    "wt": [
+     0.5912,
+     0.4088
+    ],
+    "cells": [
+     {
+      "length_a": 3.95321,
+      "length_b": 3.95321,
+      "length_c": 6.83748
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 42104.96078990862,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": -0.00669
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": -0.00669
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": -0.00669
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": -0.00669
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 6.148,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6172,
+     0.3828
+    ],
+    "cells": [
+     {
+      "length_a": 3.95393,
+      "length_b": 3.95393,
+      "length_c": 6.84115
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 34851.59684937549,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 6.148,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6172,
+     0.3828
+    ],
+    "cells": [
+     {
+      "length_a": 3.95389,
+      "length_b": 3.95389,
+      "length_c": 6.84108
+     },
+     {
+      "length_a": 8.37062,
+      "length_b": 8.37062,
+      "length_c": 3.92068
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 34859.455353678866,
+    "md": null,
+    "atoms": {
+     "Ti0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Si1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pt3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

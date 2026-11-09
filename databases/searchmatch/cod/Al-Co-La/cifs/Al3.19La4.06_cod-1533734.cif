@@ -1,0 +1,77 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-10-05 13:46:48 +0300 (Mon, 05 Oct 2015) $
+#$Revision: 160003 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/37/1533734.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1533734
+loop_
+_publ_author_name
+'Belyavina, N.M.'
+'Markiv, V.Ya.'
+'Zavodyanny, V.V.'
+_publ_section_title
+;
+ Crystal structure of the "La5 Al4" compound
+;
+_journal_name_full               'Journal of Alloys Compd.'
+_journal_page_first              132
+_journal_page_last               136
+_journal_volume                  367
+_journal_year                    2004
+_chemical_formula_sum            'Al3.19 La4.06'
+_chemical_name_systematic        'La4 Al3 (La0.06 Al0.19)'
+_space_group_IT_number           189
+_symmetry_space_group_name_Hall  'P -6 -2'
+_symmetry_space_group_name_H-M   'P -6 2 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            4
+_cell_length_a                   9.1628
+_cell_length_b                   9.1628
+_cell_length_c                   11.2309
+_cell_volume                     816.585
+_citation_journal_id_ASTM        JALCEU
+_cod_data_source_file            Belyavina_JALCEU_2004_1396.cif
+_cod_data_source_block           Al3.19La4.06
+_cod_original_cell_volume        816.5853
+_cod_database_code               1533734
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+y,-x,-z
+-y,x-y,z
+x,y,-z
+-x+y,-x,z
+-y,x-y,-z
+y,x,z
+x-y,-y,-z
+-x,-x+y,z
+y,x,-z
+x-y,-y,z
+-x,-x+y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Al3 Al 0.3333 0.6667 0.5 0.95 0.0
+La2 La 0.7399 0 0.5 1 0.0
+Al2 Al 0 0 0.732 1 0.0
+La1 La 0.3891 0 0.336 1 0.0
+Al1 Al 0.714 0 0.206 1 0.0
+La3 La 0.237 0 0 1 0.0
+Al4 Al 0.572 0 0 0.95 0.0
+La5 La 0.3333 0.6667 0.5 0.05 0.0
+La6 La 0.572 0 0 0.05 0.0
+La4 La 0.3333 0.6667 0.1572 1 0.0

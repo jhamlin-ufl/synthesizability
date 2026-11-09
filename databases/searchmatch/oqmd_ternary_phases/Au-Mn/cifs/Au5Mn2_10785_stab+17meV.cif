@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Mn2Au5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92929900
+_cell_length_b   5.04043778
+_cell_length_c   6.62383376
+_cell_angle_alpha   96.41882940
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   112.94066494
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Au5
+_chemical_formula_sum   'Mn2 Au5'
+_cell_volume   119.91831483
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.00000000  0.00000000  0.00000000  1
+  Au  Au1  1  0.71379069  0.42758102  0.14612859  1
+  Au  Au2  1  0.13692900  0.27385794  0.43342427  1
+  Au  Au3  1  0.86307074  0.72614104  0.56657482  1
+  Au  Au4  1  0.28620905  0.57241796  0.85387050  1
+  Mn  Mn5  1  0.42393350  0.84786679  0.28051184  1
+  Mn  Mn6  1  0.57606638  0.15213246  0.71948877  1

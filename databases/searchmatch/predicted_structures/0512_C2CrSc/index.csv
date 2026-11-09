@@ -1,0 +1,9 @@
+db,id,file,db_sg,spglib_sg,hull_meV,n_atoms_conv,note
+OQMD,14516,OQMD-14516_P6_3-mmc_hull-10meV_SELECTED-PREDICTION.cif,P63/mmc,P6_3/mmc,-10.0,8,prediction the target was selected on
+OQMD,14515,OQMD-14515_Pmmn_hull+0meV.cif,Pmmn,Pmmn,0.1,16,
+MP,mp-1188534,MP-mp-1188534_Pmmn_hull+1meV.cif,Pmmn,Pmmn,0.6,16,MP: experimentally observed (ICSD-linked)
+MP,mp-4992,MP-mp-4992_P6_3-mmc_hull+0meV.cif,P6_3/mmc,P6_3/mmc,0.0,8,MP: experimentally observed (ICSD-linked)
+Alexandria-PBE,agm002202008,ALEX-agm002202008_P6_3-mmc_hull+27meV.cif,194,P6_3/mmc,26.8,8,
+Alexandria-PBE,agm001954307,ALEX-agm001954307_R-3m_hull+227meV.cif,166,R-3m,226.5,12,
+Alexandria-PBE,agm002806424,ALEX-agm002806424_I-42d_hull+564meV.cif,122,I-42d,564.2,16,
+Alexandria-PBE,agm002651546,ALEX-agm002651546_Fm-3m_hull+1032meV.cif,225,Fm-3m,1032.0,16,

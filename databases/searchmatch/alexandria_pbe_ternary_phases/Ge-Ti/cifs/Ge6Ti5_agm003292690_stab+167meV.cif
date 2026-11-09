@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ti5Ge6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18483382
+_cell_length_b   6.42220789
+_cell_length_c   6.83160037
+_cell_angle_alpha   79.30114823
+_cell_angle_beta   62.61908141
+_cell_angle_gamma   66.19253929
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti5Ge6
+_chemical_formula_sum   'Ti5 Ge6'
+_cell_volume   184.80608464
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.50000000  0.00000000  0.50000000  1
+  Ti  Ti1  1  0.34711472  0.30576956  0.00000000  1
+  Ti  Ti2  1  0.65288528  0.69423044  1.00000000  1
+  Ti  Ti3  1  0.20118697  0.59762507  0.50000000  1
+  Ti  Ti4  1  0.79881303  0.40237493  0.50000000  1
+  Ge  Ge5  1  0.82792089  0.00000000  0.72039191  1
+  Ge  Ge6  1  0.17207911  1.00000000  0.27960809  1
+  Ge  Ge7  1  0.32010475  0.70312072  0.79324047  1
+  Ge  Ge8  1  0.97677453  0.70312072  0.20675953  1
+  Ge  Ge9  1  0.67989525  0.29687928  0.20675953  1
+  Ge  Ge10  1  0.02322547  0.29687928  0.79324047  1

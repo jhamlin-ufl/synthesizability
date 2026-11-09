@@ -1,0 +1,109 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/51/14/1511438.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1511438
+loop_
+_publ_author_name
+'Ploog, K.'
+'Kasper, J.S.'
+'Vlasse, M.'
+'Naslain, R.'
+_publ_section_title
+;
+ The crystal structure of tetragonal boron
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              1
+_journal_page_last               6
+_journal_paper_doi               10.1016/0022-5088(79)90067-5
+_journal_volume                  67
+_journal_year                    1979
+_chemical_formula_sum            B
+_space_group_IT_number           76
+_symmetry_space_group_name_Hall  'P 4w'
+_symmetry_space_group_name_H-M   'P 41'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            190
+_cell_length_a                   10.14
+_cell_length_b                   10.14
+_cell_length_c                   14.17
+_cell_volume                     1456.954
+_citation_journal_id_ASTM        JCOMAH
+_cod_data_source_file            boron0-1_61.cif
+_cod_data_source_block           B1
+_cod_original_formula_sum        B1
+_cod_database_code               1511438
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z+1/4
+-x,-y,z+1/2
+y,-x,z+3/4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+B42 B 0.145 0.433 0.466 0.5 0.0
+B8 B 0.388 0.608 0.806 1 0.0
+B41 B 0.332 0.801 0.629 1 0.0
+B30 B 0.091 0.688 0.552 1 0.0
+B43 B 0.061 0.36 0.035 0.5 0.0
+B25 B 0.468 0.614 0.413 1 0.0
+B17 B 0.26 0.702 0.86 1 0.0
+B15 B 0.365 0.613 0.934 1 0.0
+B18 B 0.317 0.554 0.362 1 0.0
+B28 B 0.292 0.955 0.574 1 0.0
+B1 B 0.877 0.742 0.128 1 0.0
+B48 B 0.394 0.46 0.883 1 0.0
+B20 B 0.389 0.698 0.325 1 0.0
+B36 B 0.439 0.685 0.524 1 0.0
+B13 B 0.194 0.616 0.932 1 0.0
+B32 B 0.171 0.767 0.455 1 0.0
+B14 B 0.112 0.864 0.065 1 0.0
+B4 B 0.271 0.468 0.969 1 0.0
+B10 B 0.098 0.622 0.845 1 0.0
+B34 B 0.131 0.461 0.79 1 0.0
+B40 B 0.29 0.839 0.384 1 0.0
+B26 B 0.113 0.964 0.589 1 0.0
+B9 B 0.118 0.6 0.155 1 0.0
+B7 B 0.105 0.886 0.191 1 0.0
+B47 B 0.956 0.893 0.116 1 0.0
+B12 B 0.238 0.377 0.871 1 0.0
+B27 B 0.467 0.792 0.42 1 0.0
+B19 B 0.056 0.814 0.632 1 0.0
+B33 B 0.346 0.536 0.496 1 0.0
+B16 B 0.204 0.758 0.144 1 0.0
+B11 B 0.113 0.687 0.047 1 0.0
+B29 B 0.187 0.589 0.449 1 0.0
+B37 B 0.182 0.94 0.476 1 0.0
+B6 B 0.22 0.607 0.754 1 0.0
+B23 B 0.96 0.628 0.208 1 0.0
+B49 B 0.967 0.606 0.078 1 0.0
+B5 B 0.109 0.721 0.244 1 0.0
+B39 B 0.039 0.534 0.497 1 0.0
+B38 B 0.334 0.835 0.497 1 0.0
+B44 B 0.225 0.244 0.732 0.47 0.0
+B45 B 0.956 0.809 0.225 1 0.0
+B3 B 0.963 0.776 0.028 1 0.0
+B22 B 0.203 0.696 0.34 1 0.0
+B35 B 0.04 0.849 0.503 1 0.0
+B24 B 0.193 0.706 0.655 1 0.0
+B46 B 0.313 0.459 0.77 1 0.0
+B2 B 0.106 0.47 0.92 1 0.0
+B31 B 0.265 0.675 0.547 1 0.0
+B21 B 0.197 0.886 0.675 1 0.0

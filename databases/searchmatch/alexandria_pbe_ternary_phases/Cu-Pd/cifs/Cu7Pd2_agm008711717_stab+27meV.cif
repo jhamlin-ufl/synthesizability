@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Cu7Pd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79316557
+_cell_length_b   5.79316557
+_cell_length_c   5.87918352
+_cell_angle_alpha   73.15509000
+_cell_angle_beta   73.15509000
+_cell_angle_gamma   37.76872828
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu7Pd2
+_chemical_formula_sum   'Cu7 Pd2'
+_cell_volume   115.04026405
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.66258848  0.66258848  0.00274014  1
+  Cu  Cu1  1  0.33741152  0.33741152  0.99725986  1
+  Cu  Cu2  1  0.55107033  0.55107033  0.66763097  1
+  Cu  Cu3  1  0.44892967  0.44892967  0.33236903  1
+  Cu  Cu4  1  0.89262286  0.89262286  0.67012166  1
+  Cu  Cu5  1  0.10737714  0.10737714  0.32987834  1
+  Cu  Cu6  1  0.00000000  0.00000000  0.00000000  1
+  Pd  Pd7  1  0.77963363  0.77963363  0.32277002  1
+  Pd  Pd8  1  0.22036637  0.22036637  0.67722998  1

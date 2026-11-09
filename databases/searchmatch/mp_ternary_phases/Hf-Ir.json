@@ -1,0 +1,65 @@
+{
+  "space": "Hf-Ir",
+  "elements": [
+    "Hf",
+    "Ir"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1212499",
+      "composition_id": "Hf5 Ir3",
+      "delta_e": -0.824096651666668,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1007786",
+      "composition_id": "Hf1 Ir1",
+      "delta_e": -0.9479872649999981,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1524302",
+      "composition_id": "Hf1 Ir1",
+      "delta_e": -1.061796515000004,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-2126",
+      "composition_id": "Hf1 Ir3",
+      "delta_e": -0.817064965000003,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1189573",
+      "composition_id": "Hf5 Ir3",
+      "delta_e": -0.8107171160416741,
+      "stability": 0.013379535624993001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1018055",
+      "composition_id": "Hf1 Ir1",
+      "delta_e": -0.9288918700000011,
+      "stability": 0.019095394999997,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1206659",
+      "composition_id": "Hf1 Ir1",
+      "delta_e": -0.9101728724999981,
+      "stability": 0.037814392499999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1002122",
+      "composition_id": "Hf1 Ir1",
+      "delta_e": -0.9055590749999991,
+      "stability": 0.042428189999998006,
+      "icsd": false
+    }
+  ]
+}

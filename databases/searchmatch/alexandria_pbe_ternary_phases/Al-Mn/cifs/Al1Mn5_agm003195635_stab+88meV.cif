@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Mn5Al
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79507457
+_cell_length_b   4.79507456
+_cell_length_c   5.58485043
+_cell_angle_alpha   73.60662106
+_cell_angle_beta   73.60662108
+_cell_angle_gamma   34.32079022
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn5Al
+_chemical_formula_sum   'Mn5 Al1'
+_cell_volume   69.17087184
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.97223185  0.97223185  0.05553687  1
+  Mn  Mn1  1  0.29681625  0.29681625  0.39959720  1
+  Mn  Mn2  1  0.64764435  0.64764435  0.71142259  1
+  Mn  Mn3  1  0.64914763  0.64914763  0.21807852  1
+  Mn  Mn4  1  0.97222596  0.97222596  0.55562501  1
+  Mn  Mn5  1  0.29526730  0.29526730  0.89307313  1

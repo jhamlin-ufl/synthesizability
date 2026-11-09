@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_GdPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22707346
+_cell_length_b   5.84553163
+_cell_length_c   5.84552416
+_cell_angle_alpha   75.22742035
+_cell_angle_beta   68.72739760
+_cell_angle_gamma   68.72734116
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdPt2
+_chemical_formula_sum   'Gd2 Pt4'
+_cell_volume   124.15559652
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.55121778  0.19886615  0.69887010  1
+  Gd  Gd1  1  0.44878222  0.80113385  0.30112990  1
+  Pt  Pt2  1  0.15468533  0.38387059  0.30605813  1
+  Pt  Pt3  1  0.84531467  0.61612941  0.69394187  1
+  Pt  Pt4  1  0.15468026  0.80606156  0.88387457  1
+  Pt  Pt5  1  0.84531974  0.19393844  0.11612543  1

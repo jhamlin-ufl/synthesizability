@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-06-05 17:01:20 +0300 (Wed, 05 Jun 2024) $
+#$Revision: 292204 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/74/9017471.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017471
+loop_
+_publ_author_name
+'Parakhonskiy, G.'
+'Dubrovinskaia, N.'
+'Bykova, E.'
+'Wirth, R.'
+'Dubrovinsky, L.'
+_publ_section_title
+;
+ High pressure synthesis and investigation of single crystals
+ of metastable boron phases
+ Note: alpha-tetragonal phase
+;
+_journal_name_full               'High Pressure Research'
+_journal_page_first              673
+_journal_page_last               683
+_journal_volume                  33
+_journal_year                    2013
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            B
+_chemical_name_mineral           Boron
+_space_group_IT_number           134
+_space_group_name_Hall           'P 4n 2 -1n'
+_space_group_name_H-M_alt        'P 42/n n m :1'
+_symmetry_space_group_name_H-M   'P 42/n n m :1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   8.708
+_cell_length_b                   8.708
+_cell_length_c                   5.0750
+_cell_formula_units_Z            50
+_cell_volume                     384.834
+_database_code_amcsd             0020599
+_exptl_crystal_density_diffrn    2.332
+_cod_data_source_file            inputs/fixed/downloads/15/15218.cif
+_cod_data_source_block           15218
+_cod_depositor_comments
+;
+
+2024-06-04
+Z value and formula fixed to values more according to usual
+chemical conventions.                 miguel
+;
+_cod_original_formula_sum            B25
+_cod_original_formula_units_Z            2
+_cod_original_sg_symbol_H-M      'P 42/n n m'
+_cod_database_code               9017471
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-y,-x,z
+1/2+y,1/2+x,1/2-z
+y,-x,-z
+1/2-y,1/2+x,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,-z
+1/2+x,1/2+y,1/2-z
+-x,-y,z
+y,x,z
+1/2-y,1/2-x,1/2-z
+-y,x,-z
+1/2+y,1/2-x,1/2+z
+1/2-x,1/2+y,1/2+z
+x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1 0.00000 0.00000 0.50000
+B2 0.12390 0.12390 0.36850
+B3 0.24580 0.24580 0.58970
+B4 0.31610 0.10420 0.39070
+B5 0.22880 0.08270 0.08190
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020599

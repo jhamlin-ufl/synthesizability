@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Al4FeCo3
+_chemical_formula_sum              "Al4 Fe1 Co3"
+_cell_length_a       6.995141430837983
+_cell_length_b       6.99514143083798
+_cell_length_c       6.995141430837982
+_cell_angle_alpha    33.55451673415839
+_cell_angle_beta     33.5545167341584
+_cell_angle_gamma    33.55451673415843
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.6258742130463859  0.6258742130463851  0.6258742130463864  1.0000
+  Al  Al2       1.0  0.12409744765034768  0.12409744765034991  0.12409744765035151  1.0000
+  Al  Al3       1.0  0.8759025523496505  0.8759025523496501  0.8759025523496501  1.0000
+  Al  Al4       1.0  0.37412578695361226  0.3741257869536141  0.374125786953615  1.0000
+  Fe  Fe1       1.0  0.9999999999999979  2.6967355426448227e-16  1.935787798628289e-15  1.0000
+  Co  Co1       1.0  0.2483760770109744  0.24837607701097592  0.24837607701097747  1.0000
+  Co  Co2       1.0  0.7516239229890239  0.7516239229890243  0.7516239229890231  1.0000
+  Co  Co3       1.0  0.4999999999999987  0.4999999999999997  0.5000000000000004  1.0000

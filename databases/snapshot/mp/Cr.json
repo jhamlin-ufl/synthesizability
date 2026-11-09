@@ -1,0 +1,50 @@
+{
+  "space": "Cr",
+  "elements": [
+    "Cr"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-90",
+      "composition_id": "Cr1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1192789",
+      "composition_id": "Cr1",
+      "delta_e": 0.26357824500000304,
+      "stability": 0.26357824500000104,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1059289",
+      "composition_id": "Cr1",
+      "delta_e": 0.335908380000001,
+      "stability": 0.335908380000001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-17",
+      "composition_id": "Cr1",
+      "delta_e": 0.357538657500001,
+      "stability": 0.357538657500001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-8633",
+      "composition_id": "Cr1",
+      "delta_e": 0.40252634000000104,
+      "stability": 0.40252634000000104,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-89",
+      "composition_id": "Cr1",
+      "delta_e": 0.420340105000001,
+      "stability": 0.420340105000001,
+      "icsd": true
+    }
+  ]
+}

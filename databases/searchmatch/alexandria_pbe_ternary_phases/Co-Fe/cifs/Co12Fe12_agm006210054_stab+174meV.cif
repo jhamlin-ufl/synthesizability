@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_FeCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.15423109
+_cell_length_b   7.08368784
+_cell_length_c   4.81047677
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeCo
+_chemical_formula_sum   'Fe12 Co12'
+_cell_volume   277.86289204
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.13101432  0.89589901  0.25000000  1
+  Co  Co1  1  0.86898568  0.10410099  0.75000000  1
+  Co  Co2  1  0.86898568  0.39589901  0.25000000  1
+  Co  Co3  1  0.13101432  0.60410099  0.75000000  1
+  Co  Co4  1  0.39238563  0.43619569  0.25000000  1
+  Co  Co5  1  0.60761437  0.56380431  0.75000000  1
+  Co  Co6  1  0.60761437  0.93619569  0.25000000  1
+  Co  Co7  1  0.39238563  0.06380431  0.75000000  1
+  Co  Co8  1  0.12374240  0.25000000  0.00000000  1
+  Co  Co9  1  0.87625760  0.75000000  0.50000000  1
+  Co  Co10  1  0.87625760  0.75000000  0.00000000  1
+  Co  Co11  1  0.12374240  0.25000000  0.50000000  1
+  Fe  Fe12  1  0.11750365  0.56335147  0.25000000  1
+  Fe  Fe13  1  0.88249635  0.43664853  0.75000000  1
+  Fe  Fe14  1  0.88249635  0.06335147  0.25000000  1
+  Fe  Fe15  1  0.11750365  0.93664853  0.75000000  1
+  Fe  Fe16  1  0.35604580  0.10343452  0.25000000  1
+  Fe  Fe17  1  0.64395420  0.89656548  0.75000000  1
+  Fe  Fe18  1  0.64395420  0.60343452  0.25000000  1
+  Fe  Fe19  1  0.35604580  0.39656548  0.75000000  1
+  Fe  Fe20  1  0.62576981  0.25000000  0.00000000  1
+  Fe  Fe21  1  0.37423019  0.75000000  0.50000000  1
+  Fe  Fe22  1  0.37423019  0.75000000  0.00000000  1
+  Fe  Fe23  1  0.62576981  0.25000000  0.50000000  1

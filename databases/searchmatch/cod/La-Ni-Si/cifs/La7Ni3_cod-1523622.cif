@@ -1,0 +1,72 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/36/1523622.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1523622
+loop_
+_publ_author_name
+'Fischer, P.'
+'Haelg, W.'
+'Schlapbach, L.'
+'Yvon, K.'
+_publ_section_title
+;
+ Neutron and X-ray diffraction investigation of deuterium storage in La7
+ Ni3
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              1
+_journal_page_last               9
+_journal_volume                  60
+_journal_year                    1978
+_chemical_formula_sum            'La7 Ni3'
+_space_group_IT_number           186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   10.14
+_cell_length_b                   10.14
+_cell_length_c                   6.475
+_cell_volume                     576.562
+_citation_journal_id_ASTM        JCOMAH
+_cod_data_source_file            Fischer_JCOMAH_1978_912.cif
+_cod_data_source_block           La7Ni3
+_cod_original_cell_volume        576.5624
+_cod_database_code               1523622
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+y,x,z+1/2
+-x+y,y,z
+-x,-x+y,z+1/2
+-y,-x,z
+x-y,-y,z+1/2
+x,x-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La1 La 0.3333 0.6667 0.788 1 0.0
+La3 La 0.5393 0.4607 0.8126 1 0.0
+La2 La 0.1254 0.8746 0 1 0.0
+Ni1 Ni 0.8115 0.1885 0.06 1 0.0

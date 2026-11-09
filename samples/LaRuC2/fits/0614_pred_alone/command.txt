@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/LaRuC2/buttons/0614/0614_HM_C2LaRu.txt --space samples/LaRuC2/fits/0614_pred_alone/start --main-key LaRuC2_pred_OQMD-1751220 --partners --out results/refits/0614_pred_alone --strict-final --accept-bound

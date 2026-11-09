@@ -1,0 +1,7 @@
+db,id,file,db_sg,spglib_sg,hull_meV,n_atoms_conv,note
+OQMD,1980865,OQMD-1980865_C2-m_hull-1meV_SELECTED-PREDICTION.cif,C2/m,C2/m,-0.8,20,prediction the target was selected on
+Alexandria-PBE,agm003403475,ALEX-agm003403475_C2-m_hull+12meV.cif,12,C2/m,11.9,20,
+Alexandria-PBE,agm045642044,ALEX-agm045642044_Amm2_hull+21meV.cif,38,Amm2,20.7,10,
+Alexandria-PBE,agm003009078,ALEX-agm003009078_P4-mbm_hull+105meV.cif,127,P4/mbm,105.3,10,
+Alexandria-PBE,agm003009079,ALEX-agm003009079_P4-mbm_hull+269meV.cif,127,P4/mbm,269.4,10,
+Alexandria-PBE,agm002940692,ALEX-agm002940692_I4-mmm_hull+296meV.cif,139,I4/mmm,295.6,10,

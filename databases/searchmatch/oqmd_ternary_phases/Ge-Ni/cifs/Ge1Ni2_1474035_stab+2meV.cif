@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ni2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55988774
+_cell_length_b   6.55988774
+_cell_length_c   2.92367933
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni2Ge
+_chemical_formula_sum   'Ni6 Ge3'
+_cell_volume   108.95650974
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.66666639  0.33333395  0.00000000  1
+  Ge  Ge1  1  0.33333307  0.66666615  0.00000000  1
+  Ge  Ge2  1  0.00000000  0.00000000  0.50000012  1
+  Ni  Ni3  1  0.28732504  0.00000000  0.00000000  1
+  Ni  Ni4  1  0.00000000  0.28732645  0.00000000  1
+  Ni  Ni5  1  0.71267372  0.71267365  0.00000000  1
+  Ni  Ni6  1  0.62381250  0.00000000  0.50000012  1
+  Ni  Ni7  1  0.37618671  0.37618710  0.50000012  1
+  Ni  Ni8  1  0.00000000  0.62381300  0.50000012  1

@@ -1,0 +1,86 @@
+{
+  "space": "Ni-Si",
+  "elements": [
+    "Ni",
+    "Si"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2291",
+      "composition_id": "Ni1 Si2",
+      "delta_e": -0.344433906666665,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-351",
+      "composition_id": "Ni1 Si1",
+      "delta_e": -0.470655468750001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1118",
+      "composition_id": "Ni2 Si1",
+      "delta_e": -0.5239610841666671,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-828",
+      "composition_id": "Ni3 Si1",
+      "delta_e": -0.433701681250001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-27276",
+      "composition_id": "Ni31 Si12",
+      "delta_e": -0.46282649046511604,
+      "stability": 0.0023610290116270003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-29667",
+      "composition_id": "Ni3 Si2",
+      "delta_e": -0.499238612499999,
+      "stability": 0.0034002255000010004,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1209041",
+      "composition_id": "Ni25 Si9",
+      "delta_e": -0.43807746720588103,
+      "stability": 0.011552343970588,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-507",
+      "composition_id": "Ni2 Si1",
+      "delta_e": -0.47577415333333306,
+      "stability": 0.048186930833333,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-999192",
+      "composition_id": "Ni1 Si1",
+      "delta_e": -0.40879569750000005,
+      "stability": 0.06185977125000001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1095177",
+      "composition_id": "Ni1 Si1",
+      "delta_e": -0.374056691249999,
+      "stability": 0.09659877750000001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1219285",
+      "composition_id": "Ni3 Si1",
+      "delta_e": -0.142502518750001,
+      "stability": 0.291199162499999,
+      "icsd": false
+    }
+  ]
+}

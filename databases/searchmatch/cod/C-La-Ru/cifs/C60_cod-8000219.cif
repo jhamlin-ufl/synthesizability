@@ -1,0 +1,86 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/00/02/8000219.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8000219
+loop_
+_publ_author_name
+'Narymbetov, B.Zh.'
+'Agafonov, V.'
+'Ceolin, R.'
+'Davydov, V.A.'
+'Kashevarova, L.S.'
+'Dzyabchenko, A.V.'
+'Rakhmanina, A.V.'
+'Kulakov, V.I.'
+_publ_section_title
+;
+ The crystal structure of the 2D polymerized tetragonal phase of C60
+;
+_journal_name_full               'Chemical Physics Letters'
+_journal_page_first              157
+_journal_page_last               162
+_journal_volume                  367
+_journal_year                    2003
+_chemical_formula_sum            C60
+_space_group_IT_number           131
+_symmetry_space_group_name_Hall  '-P 4c 2'
+_symmetry_space_group_name_H-M   'P 42/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.064
+_cell_length_b                   9.064
+_cell_length_c                   15.039
+_cell_volume                     1235.546
+_citation_journal_id_ASTM        CHPLBC
+_cod_data_source_file            Narymbetov_CHPLBC_2003_680.cif
+_cod_data_source_block           C60
+_cod_database_code               8000219
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z+1/2
+-x,-y,z
+y,-x,z+1/2
+x,-y,-z
+y,x,-z+1/2
+-x,y,-z
+-y,-x,-z+1/2
+-x,-y,-z
+y,-x,-z-1/2
+x,y,-z
+-y,x,-z-1/2
+-x,y,z
+-y,-x,z-1/2
+x,-y,z
+y,x,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+C9 C 0.344 0.3325 0.0795 1 0.0
+C8 C 0.2171 0.2535 0.0485 1 0.0
+C11 C 0.3683 0.1545 0.1981 1 0.0
+C1 C 0.4108 0.4118 0 0.84 0.0
+C7 C 0.1657 0.132 0.0939 1 0.0
+C10 C 0.4186 0.2827 0.1526 1 0.0
+C12 C 0.2439 0.0806 0.1679 1 0.0
+C4 C 0.5 0.417 0.053 0.16 0.0
+C6 C 0.09 0.09 0 0.16 0.0
+C2 C 0.5 0.0758 0.227 0.84 0.0
+C5 C 0.425 0 0.226 0.16 0.0
+C3 C 0.0861 0 0.0525 0.84 0.0

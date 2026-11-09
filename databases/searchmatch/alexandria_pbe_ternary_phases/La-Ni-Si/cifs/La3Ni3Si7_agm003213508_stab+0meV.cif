@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_La3Si7Ni3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   13.27793819
+_cell_length_b   13.27793819
+_cell_length_c   4.21385394
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   162.02872206
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3Si7Ni3
+_chemical_formula_sum   'La3 Si7 Ni3'
+_cell_volume   229.22000348
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.86620861  0.13379139  0.00000000  1
+  Ni  Ni1  1  0.13306082  0.86693918  0.00000000  1
+  Ni  Ni2  1  0.45081735  0.54918265  0.50000000  1
+  Si  Si3  1  0.59385596  0.40614404  0.00000000  1
+  Si  Si4  1  0.40888448  0.59111552  0.00000000  1
+  Si  Si5  1  0.77667028  0.22332972  0.00000000  1
+  Si  Si6  1  0.22507598  0.77492402  0.00000000  1
+  Si  Si7  1  0.90829358  0.09170642  0.50000000  1
+  Si  Si8  1  0.09405427  0.90594573  0.50000000  1
+  Si  Si9  1  0.53764509  0.46235491  0.50000000  1
+  La  La10  1  0.99964237  0.00035763  0.00000000  1
+  La  La11  1  0.68664880  0.31335120  0.50000000  1
+  La  La12  1  0.31914441  0.68085559  0.50000000  1

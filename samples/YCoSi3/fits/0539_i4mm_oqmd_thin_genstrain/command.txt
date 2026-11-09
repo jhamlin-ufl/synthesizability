@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/YCoSi3/buttons/0539/0539_HM_YCoSi3_annealed_ZB.txt --space samples/YCoSi3/fits/0539_i4mm_oqmd_thin_genstrain/start --occ pred --uiso 0.005 --positions --main-key YCoSi3_pred_OQMD-1475971 --thin --gen-strain --partners --out results/refits/0539_i4mm_oqmd_thin_genstrain

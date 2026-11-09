@@ -1,0 +1,292 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "LaRuC2_pred_OQMD-1751220",
+  "space": "../../../refits_2026-11/cifs_n/0614",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0614_HM_C2LaRu.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 40.570967229380805,
+  "gof": 11.430626773031399,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 4.38476,
+     "length_b": 5.34409,
+     "length_c": 5.36903
+    }
+   ],
+   "shift": 0.0,
+   "size": 1.0,
+   "mustrain": 1000.0,
+   "md": null,
+   "atoms": {
+    "C0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "C1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "C2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "C3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "La4": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "La5": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Ru6": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Ru7": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": null,
+   "kept": false,
+   "note": "****ERROR - Refinement failed"
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = None)"
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 42.089,
+   "kept": false,
+   "note": "unphysical value",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.38476,
+      "length_b": 5.34409,
+      "length_c": 5.36903
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "C0": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "C1": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "C2": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "C3": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "La4": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "La5": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "Ru6": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     },
+     "Ru7": {
+      "occ": 1.0,
+      "uiso": 1.37256
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 40.571,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.38476,
+      "length_b": 5.34409,
+      "length_c": 5.36903
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "C0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "C1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "C2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "C3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ru6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ru7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 40.571,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.38476,
+      "length_b": 5.34409,
+      "length_c": 5.36903
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "C0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "C1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "C2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "C3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ru6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ru7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

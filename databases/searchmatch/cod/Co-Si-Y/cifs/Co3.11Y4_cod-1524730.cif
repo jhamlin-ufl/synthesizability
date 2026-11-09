@@ -1,0 +1,73 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/47/1524730.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1524730
+loop_
+_publ_author_name
+'Kolodziejczyk, A.'
+'Szytula, A.'
+'Leciejewicz, J.'
+'Chmist, J.'
+'Wegrzyn, J.'
+_publ_section_title
+;
+ Structural studies of a magnetic superconductor Y9 Co7
+;
+_journal_name_full               'Acta Physica Polonica, A'
+_journal_page_first              319
+_journal_page_last               323
+_journal_volume                  72
+_journal_year                    1987
+_chemical_formula_sum            'Co3.11 Y4'
+_space_group_IT_number           176
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   11.528
+_cell_length_b                   11.528
+_cell_length_c                   4.051
+_cell_volume                     466.231
+_citation_journal_id_ASTM        ATPLB6
+_cod_data_source_file            Kolodziejczyk_ATPLB6_1987_1270.cif
+_cod_data_source_block           Co3.11Y4
+_cod_original_cell_volume        466.2307
+_cod_database_code               1524730
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-x,-y,-z
+-x+y,-x,-z-1/2
+y,-x+y,-z
+x,y,-z-1/2
+x-y,x,-z
+-y,x-y,-z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Co1 Co 0 0 0 0.67 0.0
+Y2 Y 0.1309 0.5143 0.25 1 0.0
+Y1 Y 0.7496 0.9766 0.25 1 0.0
+Co3 Co 0.4446 0.1574 0.25 1 0.0
+Co2 Co 0.6667 0.3333 0.25 1 0.0

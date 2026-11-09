@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/42/1524261.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1524261
+loop_
+_publ_author_name
+'Djega-Mariadassou, C.'
+'Lecocq, P.'
+'Michel, A.'
+_publ_section_title
+;
+ Etude magnetique et structurale des phases M Sn2 et M Sn (M= Fe, Co) et
+ des solutions solides (Fex M1-x) Sn, (Fex M1-x) Sn2 (M= Co, Ni)
+;
+_journal_name_full               'Annales de Chimie (Paris)'
+_journal_page_first              175
+_journal_page_last               182
+_journal_volume                  1969
+_journal_year                    1969
+_chemical_formula_sum            'Co Sn2'
+_space_group_IT_number           140
+_symmetry_space_group_name_Hall  '-I 4 2c'
+_symmetry_space_group_name_H-M   'I 4/m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.365
+_cell_length_b                   6.365
+_cell_length_c                   5.457
+_cell_volume                     221.081
+_citation_journal_id_ASTM        ANCPAC
+_cod_data_source_file            Djega-Mariadassou_ANCPAC_1969_1223.cif
+_cod_data_source_block           Co1Sn2
+_cod_original_cell_volume        221.0806
+_cod_original_formula_sum        'Co1 Sn2'
+_cod_database_code               1524261
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+x,-y,-z+1/2
+y,x,-z+1/2
+-x,y,-z+1/2
+-y,-x,-z+1/2
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+-x,y,z-1/2
+-y,-x,z-1/2
+x,-y,z-1/2
+y,x,z-1/2
+x+1/2,y+1/2,z+1/2
+-y+1/2,x+1/2,z+1/2
+-x+1/2,-y+1/2,z+1/2
+y+1/2,-x+1/2,z+1/2
+x+1/2,-y+1/2,-z+1
+y+1/2,x+1/2,-z+1
+-x+1/2,y+1/2,-z+1
+-y+1/2,-x+1/2,-z+1
+-x+1/2,-y+1/2,-z+1/2
+y+1/2,-x+1/2,-z+1/2
+x+1/2,y+1/2,-z+1/2
+-y+1/2,x+1/2,-z+1/2
+-x+1/2,y+1/2,z
+-y+1/2,-x+1/2,z
+x+1/2,-y+1/2,z
+y+1/2,x+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Sn1 Sn 0.158 0.658 0 1 0.0
+Co1 Co 0 0 0.25 1 0.0

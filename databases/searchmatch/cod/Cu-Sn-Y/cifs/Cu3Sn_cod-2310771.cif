@@ -1,0 +1,318 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-27 13:49:54 +0300 (Wed, 27 Sep 2017) $
+#$Revision: 201366 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/31/07/2310771.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2310771
+loop_
+_publ_author_name
+'M\"uller, Carola J'
+'Lidin, Sven'
+_publ_section_title
+;
+ Cu~3~Sn - understanding the systematic absences.
+;
+_journal_coden_ASTM              ACSBDA
+_journal_coeditor_code           DQ5008
+_journal_issue                   5
+_journal_name_full
+;
+ Acta Crystallographica, Section B: Structural Science, Crystal Engineering
+ and Materials
+;
+_journal_page_first              879
+_journal_page_last               887
+_journal_paper_doi               10.1107/S205252061401806X
+_journal_volume                  70
+_journal_year                    2014
+_chemical_formula_structural     'Cu3 Sn1'
+_chemical_formula_sum            'Cu3 Sn'
+_chemical_formula_weight         309.3
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      63
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            20
+_cell_length_a                   5.5185(3)
+_cell_length_b                   47.768(2)
+_cell_length_c                   4.3320(2)
+_cell_measurement_reflns_used    1456
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      28.08
+_cell_measurement_theta_min      3.41
+_cell_volume                     1141.95(9)
+_computing_cell_refinement
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+;
+_computing_data_collection
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+;
+_computing_data_reduction
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+;
+_diffrn_ambient_temperature      293
+_diffrn_detector_area_resol_mean 16.1367
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.97
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Xcalibur, Eos'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'Enhance (Mo) X-ray Source'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.0311
+_diffrn_reflns_av_unetI/netI     0.0151
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       62
+_diffrn_reflns_limit_k_min       -62
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            8193
+_diffrn_reflns_theta_full        27.75
+_diffrn_reflns_theta_max         28.08
+_diffrn_reflns_theta_min         3.41
+_exptl_absorpt_coefficient_mu    37.918
+_exptl_absorpt_correction_T_max  0.551
+_exptl_absorpt_correction_T_min  0.227
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+Analytical numeric absorption correction using a multifaceted crystal
+   model based on expressions derived by R.C. Clark & J.S. Reid.
+(Clark, R. C. & Reid, J. S. (1995). Acta Cryst. A51, 887-897)
+;
+_exptl_crystal_colour            'metallic dark grey'
+_exptl_crystal_density_diffrn    8.9937
+_exptl_crystal_description       'trigonal prismatic'
+_exptl_crystal_F_000             2740
+_exptl_crystal_size_max          0.094
+_exptl_crystal_size_mid          0.047
+_exptl_crystal_size_min          0.028
+_refine_diff_density_max         1.75
+_refine_diff_density_min         -1.84
+_refine_ls_extinction_coef       194(10)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    2.20
+_refine_ls_goodness_of_fit_ref   1.62
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     72
+_refine_ls_number_reflns         840
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0652
+_refine_ls_R_factor_gt           0.0287
+_refine_ls_shift/su_max          0.0497
+_refine_ls_shift/su_mean         0.0098
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0921
+_refine_ls_wR_factor_ref         0.1068
+_reflns_number_gt                382
+_reflns_number_total             840
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            dq5008sup1.cif
+_cod_data_source_block           573K-superstructure
+_cod_original_sg_symbol_Hall     '-C -2x;-2yc;-2zc'
+_cod_original_formula_sum        'Cu3 Sn1'
+_cod_database_code               2310771
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z+1/2
+3 -x,y,-z+1/2
+4 x,-y,-z
+5 -x,-y,-z
+6 x,y,-z+1/2
+7 x,-y,z+1/2
+8 -x,y,z
+9 x+1/2,y+1/2,z
+10 -x+1/2,-y+1/2,z+1/2
+11 -x+1/2,y+1/2,-z+1/2
+12 x+1/2,-y+1/2,-z
+13 -x+1/2,-y+1/2,-z
+14 x+1/2,y+1/2,-z+1/2
+15 x+1/2,-y+1/2,z+1/2
+16 -x+1/2,y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Sn1 Sn 0 0.33372(3) 0.25 Uani 0.0076(5) 4 1 d
+Sn2 Sn 0.5 0.26613(4) 0.75 Uani 0.0065(5) 4 1 d
+Sn3 Sn 0.5 0.36618(4) 0.75 Uani 0.0062(5) 4 1 d
+Sn4 Sn 0.5 0.46628(4) 0.75 Uani 0.0081(5) 4 1 d
+Cu1 Cu 0.5 0.43182(7) 0.25 Uani 0.0073(9) 4 1 d
+Sn5 Sn 0 0.43330(4) 0.25 Uani 0.0084(5) 4 1 d
+Cu2 Cu 0 0.46890(7) 0.75 Uani 0.0062(9) 4 1 d
+Cu3 Cu 0 0.36954(6) 0.75 Uani 0.0076(9) 4 1 d
+Cu4 Cu 0.2479(2) 0.38404(6) 0.25 Uani 0.0090(9) 8 1 d
+Cu5 Cu 0.2397(3) 0.48422(7) 0.25 Uani 0.0091(8) 8 1 d
+Cu6 Cu 0.2522(2) 0.41579(6) 0.75 Uani 0.0080(9) 8 1 d
+Cu7 Cu 0.2477(2) 0.28404(7) 0.25 Uani 0.0134(10) 8 1 d
+Cu8 Cu 0.2527(2) 0.31579(6) 0.75 Uani 0.0112(10) 8 1 d
+Cu9 Cu 0 0.26942(7) 0.75 Uani 0.0125(10) 4 1 d
+Cu10 Cu 0.5 0.33085(7) 0.25 Uani 0.0119(10) 4 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sn1 Sn 0.0073(9) 0.0073(8) 0.0083(11) 0 0 0
+Sn2 Sn 0.0047(8) 0.0070(7) 0.0078(9) 0 0 0
+Sn3 Sn 0.0053(9) 0.0054(7) 0.0077(10) 0 0 0
+Sn4 Sn 0.0092(9) 0.0065(8) 0.0087(10) 0 0 0
+Cu1 Cu 0.0045(16) 0.0138(16) 0.0036(17) 0 0 0
+Sn5 Sn 0.0090(10) 0.0083(8) 0.0079(10) 0 0 0
+Cu2 Cu 0.0065(16) 0.0075(14) 0.0046(16) 0 0 0
+Cu3 Cu 0.0051(16) 0.0077(14) 0.0100(17) 0 0 0
+Cu4 Cu 0.0136(18) 0.0071(13) 0.0063(17) 0.0005(5) 0 0
+Cu5 Cu 0.0106(15) 0.0081(12) 0.0088(15) -0.0006(5) 0 0
+Cu6 Cu 0.0092(16) 0.0054(14) 0.0092(19) 0.0003(5) 0 0
+Cu7 Cu 0.0143(17) 0.0147(16) 0.0112(18) -0.0004(5) 0 0
+Cu8 Cu 0.0127(17) 0.0122(16) 0.0088(18) -0.0004(5) 0 0
+Cu9 Cu 0.0090(16) 0.0161(16) 0.0123(17) 0 0 0
+Cu10 Cu 0.0105(18) 0.0154(16) 0.0098(19) 0 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu 0.3201 1.2651 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Sn -0.6537 1.4246 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Sn1 Cu3 1_554 2.760(2)
+Sn1 Cu3 . 2.760(2)
+Sn1 Cu4 . 2.766(3)
+Sn1 Cu4 3_555 2.766(3)
+Sn1 Cu7 . 2.739(3)
+Sn1 Cu7 3_555 2.739(3)
+Sn1 Cu8 1_554 2.7146(12)
+Sn1 Cu8 . 2.7146(12)
+Sn1 Cu8 3_555 2.7146(12)
+Sn1 Cu8 3_556 2.7146(12)
+Sn1 Cu10 1_455 2.7626(3)
+Sn1 Cu10 . 2.7626(3)
+Sn2 Cu7 . 2.7131(13)
+Sn2 Cu7 1_556 2.7131(13)
+Sn2 Cu7 10_555 2.759(3)
+Sn2 Cu7 3_655 2.7131(13)
+Sn2 Cu7 3_656 2.7131(13)
+Sn2 Cu7 12_556 2.759(3)
+Sn2 Cu8 . 2.736(3)
+Sn2 Cu8 3_656 2.736(3)
+Sn2 Cu9 . 2.7637(4)
+Sn2 Cu9 1_655 2.7637(4)
+Sn2 Cu9 10_554 2.752(2)
+Sn2 Cu9 10_555 2.752(2)
+Sn3 Cu3 . 2.7639(4)
+Sn3 Cu3 1_655 2.7639(4)
+Sn3 Cu4 . 2.7120(13)
+Sn3 Cu4 1_556 2.7120(13)
+Sn3 Cu4 3_655 2.7120(13)
+Sn3 Cu4 3_656 2.7120(13)
+Sn3 Cu6 . 2.736(3)
+Sn3 Cu6 3_656 2.736(3)
+Sn3 Cu8 . 2.767(3)
+Sn3 Cu8 3_656 2.767(3)
+Sn3 Cu10 . 2.746(2)
+Sn3 Cu10 1_556 2.746(2)
+Sn4 Cu1 . 2.721(2)
+Sn4 Cu1 1_556 2.721(2)
+Sn4 Cu2 . 2.7621(3)
+Sn4 Cu2 1_655 2.7621(3)
+Sn4 Cu5 . 2.7365(14)
+Sn4 Cu5 1_556 2.7365(14)
+Sn4 Cu5 2_665 2.767(3)
+Sn4 Cu5 3_655 2.7365(14)
+Sn4 Cu5 3_656 2.7365(14)
+Sn4 Cu5 4_566 2.767(3)
+Sn4 Cu6 . 2.773(3)
+Sn4 Cu6 3_656 2.773(3)
+Cu1 Sn5 . 2.7602(3)
+Cu1 Sn5 1_655 2.7602(3)
+Cu1 Cu4 . 2.673(4)
+Cu1 Cu4 3_655 2.673(4)
+Cu1 Cu6 1_554 2.6736(13)
+Cu1 Cu6 . 2.6736(13)
+Cu1 Cu6 3_655 2.6736(13)
+Cu1 Cu6 3_656 2.6736(13)
+Sn5 Cu2 1_554 2.754(2)
+Sn5 Cu2 . 2.754(2)
+Sn5 Cu4 . 2.722(3)
+Sn5 Cu4 3_555 2.722(3)
+Sn5 Cu5 . 2.769(3)
+Sn5 Cu5 3_555 2.769(3)
+Sn5 Cu6 1_554 2.7069(12)
+Sn5 Cu6 . 2.7069(12)
+Sn5 Cu6 3_555 2.7069(12)
+Sn5 Cu6 3_556 2.7069(12)
+Cu2 Cu5 . 2.6415(14)
+Cu2 Cu5 1_556 2.6415(14)
+Cu2 Cu5 2_565 2.601(4)
+Cu2 Cu5 3_555 2.6415(14)
+Cu2 Cu5 3_556 2.6415(14)
+Cu2 Cu5 4_566 2.601(4)
+Cu3 Cu4 . 2.6538(13)
+Cu3 Cu4 1_556 2.6538(13)
+Cu3 Cu4 3_555 2.6538(13)
+Cu3 Cu4 3_556 2.6538(13)
+Cu3 Cu6 . 2.611(4)
+Cu3 Cu6 3_556 2.611(4)
+Cu4 Cu6 1_554 2.644(2)
+Cu4 Cu6 . 2.644(2)
+Cu5 Cu5 3_555 2.646(2)
+Cu5 Cu5 4_565 2.639(3)
+Cu5 Cu5 4_566 2.639(3)
+Cu7 Cu8 1_554 2.644(2)
+Cu7 Cu8 . 2.644(2)
+Cu7 Cu9 1_554 2.6549(14)
+Cu7 Cu9 . 2.6549(14)
+Cu7 Cu10 . 2.634(4)
+Cu8 Cu9 . 2.617(4)
+Cu8 Cu10 . 2.6594(13)
+Cu8 Cu10 1_556 2.6594(13)

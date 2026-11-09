@@ -1,0 +1,79 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/71/1537123.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1537123
+loop_
+_publ_author_name
+'Fritsch, V.'
+'Bobev, S.'
+'Thompson, J.D.'
+'Sarrao, J.L.'
+_publ_section_title
+;
+ Antiferromagnetic order in Ce3 Ni(2+x) Si(8-x)
+;
+_journal_name_full               'Journal of Alloys Compd.'
+_journal_page_first              28
+_journal_page_last               33
+_journal_volume                  388
+_journal_year                    2005
+_chemical_formula_sum            'La3 Ni3 Si7'
+_space_group_IT_number           65
+_symmetry_space_group_name_Hall  '-C 2 2'
+_symmetry_space_group_name_H-M   'C m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.1257
+_cell_length_b                   26.167
+_cell_length_c                   4.2186
+_cell_volume                     455.428
+_citation_journal_id_ASTM        JALCEU
+_cod_data_source_file            Fritsch_JALCEU_2005_1447.cif
+_cod_data_source_block           La3Ni3Si7
+_cod_original_cell_volume        455.4282
+_cod_database_code               1537123
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,-y,-z
+-x,y,-z
+-x,-y,-z
+x,y,-z
+-x,y,z
+x,-y,z
+x+1/2,y+1/2,z
+-x+1/2,-y+1/2,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,-z
+x+1/2,y+1/2,-z
+-x+1/2,y+1/2,z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Si2 Si 0 0.22401 0 1 0.0
+La1 La 0 0 0 1 0.0
+Si1 Si 0 0.40754 0 1 0.0
+La2 La 0 0.31654 0.5 1 0.0
+Si4 Si 0 0.45422 0.5 0.495 0.0
+Ni2 Ni 0 0.45422 0.5 0.505 0.0
+Ni1 Ni 0 0.13328 0 1 0.0
+Si3 Si 0 0.09327 0.5 1 0.0

@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/60/2106046.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106046
+loop_
+_publ_author_name
+'Frank, K.'
+'Schubert, K.'
+_publ_section_title
+;
+ Kristallstruktur von Ni31 Si12
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              916
+_journal_page_last               920
+_journal_volume                  27
+_journal_year                    1971
+_chemical_formula_sum            'Ni31 Si12'
+_space_group_IT_number           150
+_symmetry_space_group_name_Hall  'P 3 2"'
+_symmetry_space_group_name_H-M   'P 3 2 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   6.671
+_cell_length_b                   6.671
+_cell_length_c                   12.288
+_cell_volume                     473.580
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            Frank_ACBCAR_1971_1849.cif
+_cod_data_source_block           Ni31Si12
+_cod_original_cell_volume        473.5804
+_cod_database_code               2106046
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+y,x,-z
+-x,-x+y,-z
+x-y,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ni3 Ni 0.33333 0.66667 0.0717 1 0.0
+Ni1 Ni 0 0 0.5 1 0.0
+Ni5 Ni 0.413 0.079 0.0964 1 0.0
+Ni4 Ni 0.33333 0.66667 0.5667 1 0.0
+Si4 Si 0.682 0 0 1 0.0
+Ni8 Ni 0.627 0.936 0.4046 1 0.0
+Si1 Si 0 0 0.287 1 0.0
+Ni6 Ni 0.664 0.962 0.1983 1 0.0
+Si2 Si 0.33333 0.66667 0.275 1 0.0
+Si3 Si 0.33333 0.66667 0.774 1 0.0
+Ni7 Ni 0.358 0.034 0.3065 1 0.0
+Si5 Si 0.349 0 0.5 1 0.0
+Ni2 Ni 0 0 0.0951 1 0.0

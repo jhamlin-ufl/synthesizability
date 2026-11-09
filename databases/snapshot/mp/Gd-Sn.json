@@ -1,0 +1,30 @@
+{
+  "space": "Gd-Sn",
+  "elements": [
+    "Gd",
+    "Sn"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1071567",
+      "composition_id": "Gd1 Sn2",
+      "delta_e": -0.6138851616666631,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-19919",
+      "composition_id": "Gd1 Sn3",
+      "delta_e": -0.42200753499999805,
+      "stability": 0.038406336249998,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-623460",
+      "composition_id": "Gd1 Sn3",
+      "delta_e": -0.308617196249997,
+      "stability": 0.15179667499999902,
+      "icsd": true
+    }
+  ]
+}

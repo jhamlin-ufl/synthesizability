@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-07-11 05:25:49 +0300 (Sat, 11 Jul 2015) $
+#$Revision: 144452 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/38/1523829.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1523829
+loop_
+_publ_author_name
+'Hiraga, K.'
+'Matsuo, Y.'
+'Kaneko, M.'
+'Hashimoto, S.'
+_publ_section_title
+;
+ The structure of Al3 Mn: close relationship to decagonal quasicrystals
+;
+_journal_name_full               'Philosophical Magazine, Part B'
+_journal_page_first              193
+_journal_page_last               205
+_journal_volume                  68
+_journal_year                    1993
+_chemical_formula_sum            'Al2.98462 Mn1.01538'
+_chemical_name_systematic        'Al2.91 Mn1.09'
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            39
+_cell_length_a                   14.83
+_cell_length_b                   12.43
+_cell_length_c                   12.51
+_cell_volume                     2306.055
+_citation_journal_id_ASTM        PMABDJ
+_cod_data_source_file            Hiraga_PMABDJ_1993_1616.cif
+_cod_data_source_block           Al2.98462Mn1.01538
+_cod_database_code               1523829
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,-y,z+1/2
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x,-y,-z
+x-1/2,y,-z-1/2
+-x-1/2,y-1/2,z-1/2
+x,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Al12 Al 0.1296 0.4351 0.5351 1 0.0
+Al8 Al 0.4031 0.25 0.1493 1 0.0
+Al2 Al 0.8331 0.25 0.153 0.2 0.0
+Al1 Al 0.0565 0.25 0.2429 0.3 0.0
+Al5 Al 0.0937 0.25 0.6607 1 0.0
+Al15 Al 0.7742 0.3785 0.8381 1 0.0
+Al4 Al 0.1268 0.4383 0.158 0.4 0.0
+Mn3 Mn 0.0535 0.25 0.4543 1 0.0
+Al18 Al 0.9509 0.3783 0.762 1 0.0
+Mn7 Mn 0.821 0.4429 0.6519 1 0.0
+Mn2 Mn 0.2333 0.25 0.1783 1 0.0
+Mn5 Mn 0.0565 0.25 0.2429 0.7 0.0
+Mn10 Mn 0.0158 0.4357 0.3498 0.1 0.0
+Al20 Al 0.9686 0.3882 0.149 1 0.0
+Al10 Al 0.0158 0.4357 0.3498 0.9 0.0
+Al11 Al 0.8094 0.4338 0.2701 1 0.0
+Mn9 Mn 0.1268 0.4383 0.158 0.6 0.0
+Al7 Al 0.1042 0.25 0.0403 1 0.0
+Al17 Al 0.7643 0.3763 0.4743 1 0.0
+Al9 Al 0.3196 0.25 0.8441 1 0.0
+Al6 Al 0.9 0.25 0.9601 1 0.0
+Mn6 Mn 0.8331 0.25 0.153 0.8 0.0
+Al16 Al 0.9489 0.3736 0.5417 1 0.0
+Al3 Al 0.8169 0.4393 0.0379 0.5 0.0
+Al13 Al 0.5203 0.4217 0.5495 1 0.0
+Al14 Al 0.1812 0.3525 0.3489 1 0.0
+Mn1 Mn 0.042 0.25 0.8538 1 0.0
+Mn8 Mn 0.8169 0.4393 0.0379 0.5 0.0
+Al19 Al 0.1623 0.3764 0.8365 1 0.0
+Mn4 Mn 0.2261 0.25 0.5217 1 0.0

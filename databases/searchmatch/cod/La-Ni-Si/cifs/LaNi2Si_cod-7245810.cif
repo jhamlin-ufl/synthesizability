@@ -1,0 +1,551 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-11-15 01:45:39 +0200 (Tue, 15 Nov 2022) $
+#$Revision: 279271 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/7/24/58/7245810.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7245810
+loop_
+_publ_author_name
+'Pani, Marcella'
+'Provino, Alessia'
+'Smetana, Volodymyr'
+'Shtender, Vitalii'
+'Bernini, Cristina'
+'Mudring, Anja-Verena'
+'Manfrinetti, Pietro'
+_publ_section_title
+;
+ Four ternary silicides in the La--Ni--Si system: from polyanionic layers
+ to frameworks
+;
+_journal_name_full               CrystEngComm
+_journal_paper_doi               10.1039/D2CE01007K
+_journal_year                    2022
+_chemical_formula_sum            'La Ni2 Si'
+_chemical_formula_weight         284.42
+_space_group_IT_number           166
+_space_group_name_Hall           '-R 3 2"'
+_space_group_name_H-M_alt        'R -3 m :H'
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_audit_update_record
+;
+2022-02-03 deposited with the CCDC.	2022-09-19 downloaded from the CCDC.
+;
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   4.0263(3)
+_cell_length_b                   4.0263(3)
+_cell_length_c                   15.066(2)
+_cell_measurement_reflns_used    116
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      31.93
+_cell_measurement_theta_min      4.06
+_cell_volume                     211.51(4)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71070
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0224
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       22
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            116
+_diffrn_reflns_theta_full        31.93
+_diffrn_reflns_theta_max         31.93
+_diffrn_reflns_theta_min         4.06
+_exptl_absorpt_coefficient_mu    28.154
+_exptl_absorpt_correction_T_max  0.2
+_exptl_absorpt_correction_T_min  0.1
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   'blessing, 1995'
+_exptl_crystal_density_diffrn    6.699
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'irregular fragment'
+_exptl_crystal_F_000             381
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         0.409
+_refine_diff_density_min         -0.769
+_refine_diff_density_rms         0.168
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_extinction_coef       0.0266(15)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.238
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     9
+_refine_ls_number_reflns         116
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.238
+_refine_ls_R_factor_all          0.0140
+_refine_ls_R_factor_gt           0.0113
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+1.6044P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0334
+_refine_ls_wR_factor_ref         0.0335
+_reflns_number_gt                103
+_reflns_number_total             116
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            d2ce01007k2.cif
+_cod_data_source_block           LaNi2Si
+_cod_original_sg_symbol_H-M      R-3m
+_cod_database_code               7245810
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'y, x, -z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'x-y+2/3, -y+1/3, -z+1/3'
+'-x+2/3, -x+y+1/3, -z+1/3'
+'y+2/3, x+1/3, -z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'x-y+1/3, -y+2/3, -z+2/3'
+'-x+1/3, -x+y+2/3, -z+2/3'
+'y+1/3, x+2/3, -z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-x+y, y, z'
+'x, x-y, z'
+'-y, -x, z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-x+y+2/3, y+1/3, z+1/3'
+'x+2/3, x-y+1/3, z+1/3'
+'-y+2/3, -x+1/3, z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-x+y+1/3, y+2/3, z+2/3'
+'x+1/3, x-y+2/3, z+2/3'
+'-y+1/3, -x+2/3, z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+La1 La 0.0000 0.0000 0.0000 0.0095(3) Uani 1 6 d S . .
+Ni2 Ni 0.0000 0.0000 0.19763(6) 0.0085(3) Uani 1 3 d S . .
+Si3 Si 0.0000 0.0000 0.5000 0.0088(6) Uani 1 6 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+La1 0.0105(3) 0.0105(3) 0.0076(3) 0.000 0.000 0.00526(16)
+Ni2 0.0077(4) 0.0077(4) 0.0103(5) 0.000 0.000 0.00384(19)
+Si3 0.0070(9) 0.0070(9) 0.0122(13) 0.000 0.000 0.0035(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La La -0.2871 2.4523 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Ni2 La1 Ni2 180.0 . 4 ?
+Ni2 La1 Ni2 48.668(14) . 10 ?
+Ni2 La1 Ni2 131.332(14) 4 10 ?
+Ni2 La1 Ni2 131.332(14) . 13_444 ?
+Ni2 La1 Ni2 48.668(14) 4 13_444 ?
+Ni2 La1 Ni2 180.00(3) 10 13_444 ?
+Ni2 La1 Ni2 48.668(14) . 10_445 ?
+Ni2 La1 Ni2 131.332(14) 4 10_445 ?
+Ni2 La1 Ni2 81.13(2) 10 10_445 ?
+Ni2 La1 Ni2 98.87(2) 13_444 10_445 ?
+Ni2 La1 Ni2 131.332(14) . 13_554 ?
+Ni2 La1 Ni2 48.668(14) 4 13_554 ?
+Ni2 La1 Ni2 98.87(2) 10 13_554 ?
+Ni2 La1 Ni2 81.13(2) 13_444 13_554 ?
+Ni2 La1 Ni2 180.00(3) 10_445 13_554 ?
+Ni2 La1 Ni2 48.669(14) . 10_455 ?
+Ni2 La1 Ni2 131.331(14) 4 10_455 ?
+Ni2 La1 Ni2 81.13(2) 10 10_455 ?
+Ni2 La1 Ni2 98.87(2) 13_444 10_455 ?
+Ni2 La1 Ni2 81.13(2) 10_445 10_455 ?
+Ni2 La1 Ni2 98.87(2) 13_554 10_455 ?
+Ni2 La1 Ni2 131.331(14) . 13_544 ?
+Ni2 La1 Ni2 48.669(14) 4 13_544 ?
+Ni2 La1 Ni2 98.87(2) 10 13_544 ?
+Ni2 La1 Ni2 81.13(2) 13_444 13_544 ?
+Ni2 La1 Ni2 98.87(2) 10_445 13_544 ?
+Ni2 La1 Ni2 81.13(2) 13_554 13_544 ?
+Ni2 La1 Ni2 180.00(3) 10_455 13_544 ?
+Ni2 La1 Si3 42.793(4) . 13_554 ?
+Ni2 La1 Si3 137.207(4) 4 13_554 ?
+Ni2 La1 Si3 42.295(7) 10 13_554 ?
+Ni2 La1 Si3 137.705(7) 13_444 13_554 ?
+Ni2 La1 Si3 91.461(16) 10_445 13_554 ?
+Ni2 La1 Si3 88.539(16) 13_554 13_554 ?
+Ni2 La1 Si3 42.296(7) 10_455 13_554 ?
+Ni2 La1 Si3 137.704(7) 13_544 13_554 ?
+Ni2 La1 Si3 137.207(4) . 7_444 ?
+Ni2 La1 Si3 42.793(4) 4 7_444 ?
+Ni2 La1 Si3 137.705(7) 10 7_444 ?
+Ni2 La1 Si3 42.295(7) 13_444 7_444 ?
+Ni2 La1 Si3 88.539(16) 10_445 7_444 ?
+Ni2 La1 Si3 91.461(16) 13_554 7_444 ?
+Ni2 La1 Si3 137.704(7) 10_455 7_444 ?
+Ni2 La1 Si3 42.296(7) 13_544 7_444 ?
+Si3 La1 Si3 180.0 13_554 7_444 ?
+Ni2 La1 Si3 42.793(4) . 13_444 ?
+Ni2 La1 Si3 137.207(4) 4 13_444 ?
+Ni2 La1 Si3 91.461(16) 10 13_444 ?
+Ni2 La1 Si3 88.539(16) 13_444 13_444 ?
+Ni2 La1 Si3 42.295(7) 10_445 13_444 ?
+Ni2 La1 Si3 137.705(7) 13_554 13_444 ?
+Ni2 La1 Si3 42.296(7) 10_455 13_444 ?
+Ni2 La1 Si3 137.704(7) 13_544 13_444 ?
+Si3 La1 Si3 72.078(7) 13_554 13_444 ?
+Si3 La1 Si3 107.922(7) 7_444 13_444 ?
+Ni2 La1 Si3 137.207(4) . 7_554 ?
+Ni2 La1 Si3 42.793(4) 4 7_554 ?
+Ni2 La1 Si3 88.539(16) 10 7_554 ?
+Ni2 La1 Si3 91.461(16) 13_444 7_554 ?
+Ni2 La1 Si3 137.705(7) 10_445 7_554 ?
+Ni2 La1 Si3 42.295(7) 13_554 7_554 ?
+Ni2 La1 Si3 137.704(7) 10_455 7_554 ?
+Ni2 La1 Si3 42.296(7) 13_544 7_554 ?
+Si3 La1 Si3 107.922(7) 13_554 7_554 ?
+Si3 La1 Si3 72.078(7) 7_444 7_554 ?
+Si3 La1 Si3 180.0 13_444 7_554 ?
+Ni2 La1 Si3 42.793(4) . 13_544 ?
+Ni2 La1 Si3 137.207(4) 4 13_544 ?
+Ni2 La1 Si3 42.296(7) 10 13_544 ?
+Ni2 La1 Si3 137.704(7) 13_444 13_544 ?
+Ni2 La1 Si3 42.296(7) 10_445 13_544 ?
+Ni2 La1 Si3 137.704(7) 13_554 13_544 ?
+Ni2 La1 Si3 91.462(16) 10_455 13_544 ?
+Ni2 La1 Si3 88.538(16) 13_544 13_544 ?
+Si3 La1 Si3 72.078(7) 13_554 13_544 ?
+Si3 La1 Si3 107.922(7) 7_444 13_544 ?
+Si3 La1 Si3 72.078(7) 13_444 13_544 ?
+Si3 La1 Si3 107.922(7) 7_554 13_544 ?
+Ni2 La1 Si3 137.207(4) . 7_454 ?
+Ni2 La1 Si3 42.793(4) 4 7_454 ?
+Ni2 La1 Si3 137.704(7) 10 7_454 ?
+Ni2 La1 Si3 42.296(7) 13_444 7_454 ?
+Ni2 La1 Si3 137.704(7) 10_445 7_454 ?
+Ni2 La1 Si3 42.296(7) 13_554 7_454 ?
+Ni2 La1 Si3 88.538(16) 10_455 7_454 ?
+Ni2 La1 Si3 91.462(16) 13_544 7_454 ?
+Si3 La1 Si3 107.922(7) 13_554 7_454 ?
+Si3 La1 Si3 72.078(7) 7_444 7_454 ?
+Si3 La1 Si3 107.922(7) 13_444 7_454 ?
+Si3 La1 Si3 72.078(7) 7_554 7_454 ?
+Si3 La1 Si3 180.0 13_544 7_454 ?
+Ni2 La1 La1 90.0 . 1_665 ?
+Ni2 La1 La1 90.0 4 1_665 ?
+Ni2 La1 La1 49.436(10) 10 1_665 ?
+Ni2 La1 La1 130.564(10) 13_444 1_665 ?
+Ni2 La1 La1 130.564(10) 10_445 1_665 ?
+Ni2 La1 La1 49.436(10) 13_554 1_665 ?
+Ni2 La1 La1 90.0 10_455 1_665 ?
+Ni2 La1 La1 90.0 13_544 1_665 ?
+Si3 La1 La1 53.961(4) 13_554 1_665 ?
+Si3 La1 La1 126.039(4) 7_444 1_665 ?
+Si3 La1 La1 126.039(3) 13_444 1_665 ?
+Si3 La1 La1 53.961(3) 7_554 1_665 ?
+Si3 La1 La1 90.0 13_544 1_665 ?
+Si3 La1 La1 90.0 7_454 1_665 ?
+Ni2 La1 La1 90.0 . 1_445 ?
+Ni2 La1 La1 90.0 4 1_445 ?
+Ni2 La1 La1 130.564(10) 10 1_445 ?
+Ni2 La1 La1 49.436(10) 13_444 1_445 ?
+Ni2 La1 La1 49.436(10) 10_445 1_445 ?
+Ni2 La1 La1 130.564(10) 13_554 1_445 ?
+Ni2 La1 La1 90.0 10_455 1_445 ?
+Ni2 La1 La1 90.0 13_544 1_445 ?
+Si3 La1 La1 126.039(4) 13_554 1_445 ?
+Si3 La1 La1 53.961(4) 7_444 1_445 ?
+Si3 La1 La1 53.961(3) 13_444 1_445 ?
+Si3 La1 La1 126.039(3) 7_554 1_445 ?
+Si3 La1 La1 90.0 13_544 1_445 ?
+Si3 La1 La1 90.0 7_454 1_445 ?
+La1 La1 La1 180.0 1_665 1_445 ?
+Ni2 La1 La1 90.0 . 1_455 ?
+Ni2 La1 La1 90.0 4 1_455 ?
+Ni2 La1 La1 130.564(10) 10 1_455 ?
+Ni2 La1 La1 49.436(10) 13_444 1_455 ?
+Ni2 La1 La1 90.0 10_445 1_455 ?
+Ni2 La1 La1 90.0 13_554 1_455 ?
+Ni2 La1 La1 49.436(10) 10_455 1_455 ?
+Ni2 La1 La1 130.564(10) 13_544 1_455 ?
+Si3 La1 La1 90.0 13_554 1_455 ?
+Si3 La1 La1 90.0 7_444 1_455 ?
+Si3 La1 La1 53.961(3) 13_444 1_455 ?
+Si3 La1 La1 126.039(3) 7_554 1_455 ?
+Si3 La1 La1 126.039(3) 13_544 1_455 ?
+Si3 La1 La1 53.961(4) 7_454 1_455 ?
+La1 La1 La1 120.0 1_665 1_455 ?
+La1 La1 La1 60.0 1_445 1_455 ?
+Ni2 La1 La1 90.0 . 1_655 ?
+Ni2 La1 La1 90.0 4 1_655 ?
+Ni2 La1 La1 49.436(10) 10 1_655 ?
+Ni2 La1 La1 130.564(10) 13_444 1_655 ?
+Ni2 La1 La1 90.0 10_445 1_655 ?
+Ni2 La1 La1 90.0 13_554 1_655 ?
+Ni2 La1 La1 130.564(10) 10_455 1_655 ?
+Ni2 La1 La1 49.436(10) 13_544 1_655 ?
+Si3 La1 La1 90.0 13_554 1_655 ?
+Si3 La1 La1 90.0 7_444 1_655 ?
+Si3 La1 La1 126.039(3) 13_444 1_655 ?
+Si3 La1 La1 53.961(3) 7_554 1_655 ?
+Si3 La1 La1 53.961(4) 13_544 1_655 ?
+Si3 La1 La1 126.039(3) 7_454 1_655 ?
+La1 La1 La1 60.0 1_665 1_655 ?
+La1 La1 La1 120.0 1_445 1_655 ?
+La1 La1 La1 180.0 1_455 1_655 ?
+Ni2 La1 La1 90.0 . 1_545 ?
+Ni2 La1 La1 90.0 4 1_545 ?
+Ni2 La1 La1 90.0 10 1_545 ?
+Ni2 La1 La1 90.0 13_444 1_545 ?
+Ni2 La1 La1 49.436(10) 10_445 1_545 ?
+Ni2 La1 La1 130.564(10) 13_554 1_545 ?
+Ni2 La1 La1 130.564(10) 10_455 1_545 ?
+Ni2 La1 La1 49.436(10) 13_544 1_545 ?
+Si3 La1 La1 126.039(3) 13_554 1_545 ?
+Si3 La1 La1 53.961(3) 7_444 1_545 ?
+Si3 La1 La1 90.0 13_444 1_545 ?
+Si3 La1 La1 90.0 7_554 1_545 ?
+Si3 La1 La1 53.961(4) 13_544 1_545 ?
+Si3 La1 La1 126.039(4) 7_454 1_545 ?
+La1 La1 La1 120.0 1_665 1_545 ?
+La1 La1 La1 60.0 1_445 1_545 ?
+La1 La1 La1 120.0 1_455 1_545 ?
+La1 La1 La1 60.0 1_655 1_545 ?
+Ni2 La1 La1 90.0 . 1_565 ?
+Ni2 La1 La1 90.0 4 1_565 ?
+Ni2 La1 La1 90.0 10 1_565 ?
+Ni2 La1 La1 90.0 13_444 1_565 ?
+Ni2 La1 La1 130.564(10) 10_445 1_565 ?
+Ni2 La1 La1 49.436(10) 13_554 1_565 ?
+Ni2 La1 La1 49.436(10) 10_455 1_565 ?
+Ni2 La1 La1 130.564(10) 13_544 1_565 ?
+Si3 La1 La1 53.961(3) 13_554 1_565 ?
+Si3 La1 La1 126.039(3) 7_444 1_565 ?
+Si3 La1 La1 90.0 13_444 1_565 ?
+Si3 La1 La1 90.0 7_554 1_565 ?
+Si3 La1 La1 126.039(4) 13_544 1_565 ?
+Si3 La1 La1 53.961(4) 7_454 1_565 ?
+La1 La1 La1 60.0 1_665 1_565 ?
+La1 La1 La1 120.0 1_445 1_565 ?
+La1 La1 La1 60.0 1_455 1_565 ?
+La1 La1 La1 120.0 1_655 1_565 ?
+La1 La1 La1 180.0 1_545 1_565 ?
+Si3 Ni2 Si3 116.227(14) 13_444 13_554 ?
+Si3 Ni2 Si3 116.226(14) 13_444 13_544 ?
+Si3 Ni2 Si3 116.226(14) 13_554 13_544 ?
+Si3 Ni2 Ni2 58.112(7) 13_444 10_445 ?
+Si3 Ni2 Ni2 146.78(6) 13_554 10_445 ?
+Si3 Ni2 Ni2 58.113(7) 13_544 10_445 ?
+Si3 Ni2 Ni2 146.78(6) 13_444 10 ?
+Si3 Ni2 Ni2 58.112(7) 13_554 10 ?
+Si3 Ni2 Ni2 58.113(7) 13_544 10 ?
+Ni2 Ni2 Ni2 106.97(4) 10_445 10 ?
+Si3 Ni2 Ni2 58.113(7) 13_444 10_455 ?
+Si3 Ni2 Ni2 58.113(7) 13_554 10_455 ?
+Si3 Ni2 Ni2 146.78(6) 13_544 10_455 ?
+Ni2 Ni2 Ni2 106.97(4) 10_445 10_455 ?
+Ni2 Ni2 Ni2 106.97(4) 10 10_455 ?
+Si3 Ni2 La1 78.65(2) 13_444 . ?
+Si3 Ni2 La1 78.65(2) 13_554 . ?
+Si3 Ni2 La1 78.65(2) 13_544 . ?
+Ni2 Ni2 La1 68.13(4) 10_445 . ?
+Ni2 Ni2 La1 68.13(4) 10 . ?
+Ni2 Ni2 La1 68.13(4) 10_455 . ?
+Si3 Ni2 La1 150.02(3) 13_444 7 ?
+Si3 Ni2 La1 76.223(11) 13_554 7 ?
+Si3 Ni2 La1 76.223(11) 13_544 7 ?
+Ni2 Ni2 La1 126.47(2) 10_445 7 ?
+Ni2 Ni2 La1 63.20(3) 10 7 ?
+Ni2 Ni2 La1 126.47(2) 10_455 7 ?
+La1 Ni2 La1 131.332(14) . 7 ?
+Si3 Ni2 La1 76.223(11) 13_444 7_445 ?
+Si3 Ni2 La1 150.02(3) 13_554 7_445 ?
+Si3 Ni2 La1 76.223(11) 13_544 7_445 ?
+Ni2 Ni2 La1 63.20(3) 10_445 7_445 ?
+Ni2 Ni2 La1 126.47(2) 10 7_445 ?
+Ni2 Ni2 La1 126.47(2) 10_455 7_445 ?
+La1 Ni2 La1 131.332(14) . 7_445 ?
+La1 Ni2 La1 81.13(2) 7 7_445 ?
+Si3 Ni2 La1 76.223(11) 13_444 7_455 ?
+Si3 Ni2 La1 76.223(11) 13_554 7_455 ?
+Si3 Ni2 La1 150.02(3) 13_544 7_455 ?
+Ni2 Ni2 La1 126.47(2) 10_445 7_455 ?
+Ni2 Ni2 La1 126.47(2) 10 7_455 ?
+Ni2 Ni2 La1 63.20(3) 10_455 7_455 ?
+La1 Ni2 La1 131.332(14) . 7_455 ?
+La1 Ni2 La1 81.13(2) 7 7_455 ?
+La1 Ni2 La1 81.13(2) 7_445 7_455 ?
+Ni2 Si3 Ni2 180.0 16_445 7 ?
+Ni2 Si3 Ni2 116.226(14) 16_445 16 ?
+Ni2 Si3 Ni2 63.774(14) 7 16 ?
+Ni2 Si3 Ni2 63.774(14) 16_445 7_445 ?
+Ni2 Si3 Ni2 116.226(14) 7 7_445 ?
+Ni2 Si3 Ni2 180.0 16 7_445 ?
+Ni2 Si3 Ni2 116.225(14) 16_445 16_545 ?
+Ni2 Si3 Ni2 63.775(14) 7 16_545 ?
+Ni2 Si3 Ni2 116.225(14) 16 16_545 ?
+Ni2 Si3 Ni2 63.775(14) 7_445 16_545 ?
+Ni2 Si3 Ni2 63.775(14) 16_445 7_455 ?
+Ni2 Si3 Ni2 116.225(14) 7 7_455 ?
+Ni2 Si3 Ni2 63.775(14) 16 7_455 ?
+Ni2 Si3 Ni2 116.225(14) 7_445 7_455 ?
+Ni2 Si3 Ni2 179.98(1) 16_545 7_455 ?
+Ni2 Si3 La1 61.481(16) 16_445 7_445 ?
+Ni2 Si3 La1 118.519(16) 7 7_445 ?
+Ni2 Si3 La1 121.44(2) 16 7_445 ?
+Ni2 Si3 La1 58.56(2) 7_445 7_445 ?
+Ni2 Si3 La1 61.482(16) 16_545 7_445 ?
+Ni2 Si3 La1 118.518(16) 7_455 7_445 ?
+Ni2 Si3 La1 118.519(16) 16_445 13 ?
+Ni2 Si3 La1 61.481(16) 7 13 ?
+Ni2 Si3 La1 58.56(2) 16 13 ?
+Ni2 Si3 La1 121.44(2) 7_445 13 ?
+Ni2 Si3 La1 118.518(16) 16_545 13 ?
+Ni2 Si3 La1 61.482(16) 7_455 13 ?
+La1 Si3 La1 180.0 7_445 13 ?
+Ni2 Si3 La1 121.44(2) 16_445 7 ?
+Ni2 Si3 La1 58.56(2) 7 7 ?
+Ni2 Si3 La1 61.481(16) 16 7 ?
+Ni2 Si3 La1 118.519(16) 7_445 7 ?
+Ni2 Si3 La1 61.482(16) 16_545 7 ?
+Ni2 Si3 La1 118.518(16) 7_455 7 ?
+La1 Si3 La1 72.078(7) 7_445 7 ?
+La1 Si3 La1 107.922(7) 13 7 ?
+Ni2 Si3 La1 58.56(2) 16_445 13_445 ?
+Ni2 Si3 La1 121.44(2) 7 13_445 ?
+Ni2 Si3 La1 118.519(16) 16 13_445 ?
+Ni2 Si3 La1 61.481(16) 7_445 13_445 ?
+Ni2 Si3 La1 118.518(16) 16_545 13_445 ?
+Ni2 Si3 La1 61.482(16) 7_455 13_445 ?
+La1 Si3 La1 107.922(7) 7_445 13_445 ?
+La1 Si3 La1 72.078(7) 13 13_445 ?
+La1 Si3 La1 180.0 7 13_445 ?
+Ni2 Si3 La1 61.481(16) 16_445 7_455 ?
+Ni2 Si3 La1 118.519(16) 7 7_455 ?
+Ni2 Si3 La1 61.481(16) 16 7_455 ?
+Ni2 Si3 La1 118.519(16) 7_445 7_455 ?
+Ni2 Si3 La1 121.44(2) 16_545 7_455 ?
+Ni2 Si3 La1 58.56(2) 7_455 7_455 ?
+La1 Si3 La1 72.078(7) 7_445 7_455 ?
+La1 Si3 La1 107.922(7) 13 7_455 ?
+La1 Si3 La1 72.078(7) 7 7_455 ?
+La1 Si3 La1 107.922(7) 13_445 7_455 ?
+Ni2 Si3 La1 118.519(16) 16_445 13_545 ?
+Ni2 Si3 La1 61.481(16) 7 13_545 ?
+Ni2 Si3 La1 118.519(16) 16 13_545 ?
+Ni2 Si3 La1 61.481(16) 7_445 13_545 ?
+Ni2 Si3 La1 58.56(2) 16_545 13_545 ?
+Ni2 Si3 La1 121.44(2) 7_455 13_545 ?
+La1 Si3 La1 107.922(7) 7_445 13_545 ?
+La1 Si3 La1 72.078(7) 13 13_545 ?
+La1 Si3 La1 107.922(7) 7 13_545 ?
+La1 Si3 La1 72.078(7) 13_445 13_545 ?
+La1 Si3 La1 180.0 7_455 13_545 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La1 Ni2 2.9775(10) . ?
+La1 Ni2 2.9776(10) 4 ?
+La1 Ni2 3.0957(7) 10 ?
+La1 Ni2 3.0957(7) 13_444 ?
+La1 Ni2 3.0957(6) 10_445 ?
+La1 Ni2 3.0957(6) 13_554 ?
+La1 Ni2 3.0957(7) 10_455 ?
+La1 Ni2 3.0957(7) 13_544 ?
+La1 Si3 3.4218(3) 13_554 ?
+La1 Si3 3.4218(3) 7_444 ?
+La1 Si3 3.4218(3) 13_444 ?
+La1 Si3 3.4218(3) 7_554 ?
+La1 Si3 3.4218(3) 13_544 ?
+La1 Si3 3.4218(3) 7_454 ?
+La1 La1 4.0263(3) 1_665 ?
+La1 La1 4.0263(3) 1_445 ?
+La1 La1 4.0263(3) 1_455 ?
+La1 La1 4.0263(3) 1_655 ?
+La1 La1 4.0263(3) 1_545 ?
+La1 La1 4.0263(3) 1_565 ?
+Ni2 Si3 2.3709(3) 13_444 ?
+Ni2 Si3 2.3709(2) 13_554 ?
+Ni2 Si3 2.3710(3) 13_544 ?
+Ni2 Ni2 2.5048(7) 10_445 ?
+Ni2 Ni2 2.5048(7) 10 ?
+Ni2 Ni2 2.5049(7) 10_455 ?
+Ni2 La1 3.0957(7) 7 ?
+Ni2 La1 3.0957(7) 7_445 ?
+Ni2 La1 3.0958(7) 7_455 ?
+Si3 Ni2 2.3709(3) 16_445 ?
+Si3 Ni2 2.3709(2) 7 ?
+Si3 Ni2 2.3709(3) 16 ?
+Si3 Ni2 2.3709(3) 7_445 ?
+Si3 Ni2 2.3710(2) 16_545 ?
+Si3 Ni2 2.3710(2) 7_455 ?
+Si3 La1 3.4218(3) 7_445 ?
+Si3 La1 3.4218(3) 13 ?
+Si3 La1 3.4218(3) 7 ?
+Si3 La1 3.4218(3) 13_445 ?
+Si3 La1 3.4218(3) 7_455 ?
+Si3 La1 3.4218(3) 13_545 ?

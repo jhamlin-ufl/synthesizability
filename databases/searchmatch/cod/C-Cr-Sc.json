@@ -1,0 +1,583 @@
+{
+  "space": "C-Cr-Sc",
+  "elements": [
+    "C",
+    "Cr",
+    "Sc"
+  ],
+  "source": "COD REST https://www.crystallography.net/cod/result (strictmin/strictmax exact element subsets; REST defaults exclude theoretical/duplicate/error entries)",
+  "licence": "CC0 1.0 (https://www.crystallography.net/cod/)",
+  "retrieved": "2026-10-06",
+  "n_entries": 71,
+  "n_partial_occupancy": 4,
+  "entries": [
+    {
+      "cod_id": "1000065",
+      "formula": "C",
+      "space_group": "R -3 m :H",
+      "n_elements": 1,
+      "doi": "10.1098/rspa.1966.0098",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1200017",
+      "formula": "C",
+      "space_group": "P 63 m c",
+      "n_elements": 1,
+      "doi": "10.1007/BF01327534",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1200018",
+      "formula": "C",
+      "space_group": "R -3 m :R",
+      "n_elements": 1,
+      "doi": "10.1098/rspa.1942.0063",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1200019",
+      "formula": "C",
+      "space_group": "P 63 m c",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevB.46.10086",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1541404",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1541795",
+      "formula": "C",
+      "space_group": "R -3 m :H",
+      "n_elements": 1,
+      "doi": "10.1098/rspa.1966.0098",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2101499",
+      "formula": "C",
+      "space_group": "F d -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768195010810",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2300702",
+      "formula": "C",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1107/S1600576723002819",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2300703",
+      "formula": "C",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1107/S1600576723002819",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9000046",
+      "formula": "C",
+      "space_group": "F m m m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008564",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008569",
+      "formula": "C",
+      "space_group": "P 63 m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011575",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011577",
+      "formula": "C",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1038/258136a0",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011997",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1107/S0021889875010965",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012289",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012290",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012291",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012292",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012293",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012294",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012295",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012296",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012297",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012298",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012299",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012300",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012301",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012302",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012303",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012305",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1021/ja01156a043",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012470",
+      "formula": "C",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1063/1.1841236",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012588",
+      "formula": "C",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012589",
+      "formula": "C",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012590",
+      "formula": "C",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012591",
+      "formula": "C",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012592",
+      "formula": "C",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012593",
+      "formula": "C",
+      "space_group": "R -3 m :H",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012594",
+      "formula": "C",
+      "space_group": "R -3 m :H",
+      "n_elements": 1,
+      "doi": "10.1111/j.1151-2916.1992.tb07211.x",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9014004",
+      "formula": "C",
+      "space_group": "P 6/m m m",
+      "n_elements": 1,
+      "doi": "10.1021/ct060003n",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1531302",
+      "formula": "C60",
+      "space_group": "P n n m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "6000687",
+      "formula": "C60",
+      "space_group": "I m m m",
+      "n_elements": 1,
+      "doi": "10.1016/S0009-2614(99)01288-9",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "8000215",
+      "formula": "C60",
+      "space_group": "I m m m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "8000216",
+      "formula": "C60",
+      "space_group": "R -3 m :H",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "8000219",
+      "formula": "C60",
+      "space_group": "P 42/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "9011073",
+      "formula": "C60",
+      "space_group": "F m -3",
+      "n_elements": 1,
+      "doi": "10.1107/S0108767393012607",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011580",
+      "formula": "C60",
+      "space_group": "P a -3",
+      "n_elements": 1,
+      "doi": "10.1038/353147a0",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1535012",
+      "formula": "C70",
+      "space_group": "C c m m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1534885",
+      "formula": "Cr",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "5000220",
+      "formula": "Cr",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008467",
+      "formula": "Cr",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008493",
+      "formula": "Cr",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008531",
+      "formula": "Cr",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011574",
+      "formula": "Cr",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011598",
+      "formula": "Cr",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012613",
+      "formula": "Cr",
+      "space_group": "P m -3",
+      "n_elements": 1,
+      "doi": "10.1143/JPSJ.22.744",
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1534875",
+      "formula": "Sc",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1538062",
+      "formula": "Sc",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008483",
+      "formula": "Sc",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9010985",
+      "formula": "Sc",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X5600156X",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011594",
+      "formula": "Sc",
+      "space_group": "I 4/m m m",
+      "n_elements": 1,
+      "doi": "10.1016/0378-4363(86)90579-6",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011655",
+      "formula": "Sc",
+      "space_group": "P 4/n m m :1",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevB.25.6019",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011704",
+      "formula": "Sc",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRevB.27.7013",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1540070",
+      "formula": "C2Cr3",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "5910108",
+      "formula": "C2Cr3",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "7222489",
+      "formula": "C2Cr3",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "9009905",
+      "formula": "C2Cr3",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": "10.3891/acta.chem.scand.23-1191",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9009906",
+      "formula": "C2Cr3",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": "10.3891/acta.chem.scand.23-1191",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1009019",
+      "formula": "C3Cr7",
+      "space_group": "P m c n",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2107332",
+      "formula": "C6Cr23",
+      "space_group": "F m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1536524",
+      "formula": "C3CrSc2",
+      "space_group": "P b a m",
+      "n_elements": 3,
+      "doi": null,
+      "has_partial_occupancy": false
+    }
+  ]
+}

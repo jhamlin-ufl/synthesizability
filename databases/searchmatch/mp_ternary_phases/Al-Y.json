@@ -1,0 +1,93 @@
+{
+  "space": "Al-Y",
+  "elements": [
+    "Al",
+    "Y"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-11230",
+      "composition_id": "Al1 Y2",
+      "delta_e": -0.336266310833335,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11228",
+      "composition_id": "Al1 Y1",
+      "delta_e": -0.468428602500001,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2322",
+      "composition_id": "Al2 Y1",
+      "delta_e": -0.5829048933333331,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-865527",
+      "composition_id": "Al3 Y1",
+      "delta_e": -0.47452011250000004,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-16723",
+      "composition_id": "Al2 Y3",
+      "delta_e": -0.3856520915,
+      "stability": 0.0034791360000010004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2451",
+      "composition_id": "Al3 Y1",
+      "delta_e": -0.46262733500000003,
+      "stability": 0.011892777500001001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11229",
+      "composition_id": "Al1 Y1",
+      "delta_e": -0.43783409500000103,
+      "stability": 0.030594507500000003,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11231",
+      "composition_id": "Al3 Y1",
+      "delta_e": -0.43952992750000003,
+      "stability": 0.034990184999999,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1178742",
+      "composition_id": "Al3 Y5",
+      "delta_e": -0.32316800177083305,
+      "stability": 0.046138881979167004,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-30338",
+      "composition_id": "Al1 Y3",
+      "delta_e": -0.18167205500000302,
+      "stability": 0.07052767812499901,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1207806",
+      "composition_id": "Al1 Y4",
+      "delta_e": 0.44887811533333405,
+      "stability": 0.650637901833334,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-11232",
+      "composition_id": "Al3 Y1",
+      "delta_e": 0.472421888749998,
+      "stability": 0.946942001249999,
+      "icsd": false
+    }
+  ]
+}

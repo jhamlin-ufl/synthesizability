@@ -1,0 +1,128 @@
+{
+  "space": "Fe-Ge",
+  "elements": [
+    "Fe",
+    "Ge"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-20344",
+      "composition_id": "Fe3 Ge1",
+      "delta_e": -0.156686391249999,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-22478",
+      "composition_id": "Fe1 Ge1",
+      "delta_e": -0.12214553083333302,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-21117",
+      "composition_id": "Fe1 Ge2",
+      "delta_e": -0.06333883666666601,
+      "stability": 0.018091517222224,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-22510",
+      "composition_id": "Fe1 Ge1",
+      "delta_e": -0.102324647499999,
+      "stability": 0.019820883333334,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-21078",
+      "composition_id": "Fe3 Ge1",
+      "delta_e": -0.129162534999998,
+      "stability": 0.027523856250001002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-636946",
+      "composition_id": "Fe6 Ge5",
+      "delta_e": -0.09174235227272601,
+      "stability": 0.036683335000001004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-601833",
+      "composition_id": "Fe13 Ge3",
+      "delta_e": -0.07860797781249901,
+      "stability": 0.038906815625,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-20711",
+      "composition_id": "Fe3 Ge1",
+      "delta_e": -0.10491906624999901,
+      "stability": 0.051767325,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1225197",
+      "composition_id": "Fe3 Ge2",
+      "delta_e": -0.07312083799999901,
+      "stability": 0.062841037,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1212970",
+      "composition_id": "Fe7 Ge4",
+      "delta_e": -0.076205494545454,
+      "stability": 0.06478050560606001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-640708",
+      "composition_id": "Fe1 Ge2",
+      "delta_e": -0.0041703941666670005,
+      "stability": 0.077259959722223,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1225358",
+      "composition_id": "Fe7 Ge4",
+      "delta_e": -0.062017642727273004,
+      "stability": 0.078968357424241,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-21255",
+      "composition_id": "Fe1 Ge1",
+      "delta_e": -0.012572867083334001,
+      "stability": 0.10957266374999901,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-20432",
+      "composition_id": "Fe2 Ge1",
+      "delta_e": -0.034206818333333,
+      "stability": 0.110965952777777,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1225239",
+      "composition_id": "Fe3 Ge2",
+      "delta_e": 0.012346606000001,
+      "stability": 0.14830848100000102,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-568258",
+      "composition_id": "Fe2 Ge1",
+      "delta_e": 0.222736961666666,
+      "stability": 0.36790973277777805,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1184472",
+      "composition_id": "Fe1 Ge3",
+      "delta_e": 0.42333127000000004,
+      "stability": 0.48440403541666605,
+      "icsd": false
+    }
+  ]
+}

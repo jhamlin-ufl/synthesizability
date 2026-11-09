@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Al13Fe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.33535887
+_cell_length_b   6.12028824
+_cell_length_c   7.49874669
+_cell_angle_alpha   101.64495992
+_cell_angle_beta   97.32485857
+_cell_angle_gamma   115.93178401
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al13Fe2
+_chemical_formula_sum   'Al13 Fe2'
+_cell_volume   248.29849434
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.24845840  0.29611265  0.69171879  1
+  Al  Al1  1  0.75154160  0.70388735  0.30828121  1
+  Al  Al2  1  0.36821460  0.87274633  0.78907168  1
+  Al  Al3  1  0.63178540  0.12725367  0.21092832  1
+  Al  Al4  1  0.27784482  0.93415384  0.41097647  1
+  Al  Al5  1  0.72215518  0.06584616  0.58902353  1
+  Al  Al6  1  0.91496885  0.14224334  0.94876188  1
+  Al  Al7  1  0.08503115  0.85775666  0.05123812  1
+  Al  Al8  1  0.35652030  0.61523125  0.05984982  1
+  Al  Al9  1  0.64347970  0.38476875  0.94015018  1
+  Al  Al10  1  0.27022599  0.33924994  0.30764269  1
+  Al  Al11  1  0.72977401  0.66075006  0.69235731  1
+  Al  Al12  1  0.00000000  0.50000000  0.50000000  1
+  Fe  Fe13  1  0.00786563  0.49109744  0.80577325  1
+  Fe  Fe14  1  0.99213437  0.50890256  0.19422675  1

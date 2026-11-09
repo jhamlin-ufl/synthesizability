@@ -1,0 +1,407 @@
+{
+  "space": "Ge-Pt-Ti",
+  "elements": [
+    "Ge",
+    "Pt",
+    "Ti"
+  ],
+  "source": "COD REST https://www.crystallography.net/cod/result (strictmin/strictmax exact element subsets; REST defaults exclude theoretical/duplicate/error entries)",
+  "licence": "CC0 1.0 (https://www.crystallography.net/cod/)",
+  "retrieved": "2026-10-06",
+  "n_entries": 49,
+  "n_partial_occupancy": 1,
+  "entries": [
+    {
+      "cod_id": "1528389",
+      "formula": "Ge",
+      "space_group": "P 43 21 2",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1563565",
+      "formula": "Ge",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1016/j.jssc.2010.03.035",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1563567",
+      "formula": "Ge",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1016/j.jssc.2010.03.035",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "7101738",
+      "formula": "Ge",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1039/b614048c",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "7101739",
+      "formula": "Ge",
+      "space_group": "F d -3 m :2",
+      "n_elements": 1,
+      "doi": "10.1039/b614048c",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "7221526",
+      "formula": "Ge",
+      "space_group": "P 43 21 2",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008567",
+      "formula": "Ge",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011050",
+      "formula": "Ge",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X62001474",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011057",
+      "formula": "Ge",
+      "space_group": "P 43 21 2",
+      "n_elements": 1,
+      "doi": "10.1107/S0365110X64001840",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011629",
+      "formula": "Ge",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.99.1737",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011999",
+      "formula": "Ge",
+      "space_group": "F d -3 m :1",
+      "n_elements": 1,
+      "doi": "10.1107/S0021889875010965",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013109",
+      "formula": "Ge",
+      "space_group": "C m c e",
+      "n_elements": 1,
+      "doi": "10.1002/1521-3951(200101)223:2<385::AID-PSSB385>3.0.CO;2-E",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011103",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011107",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011109",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011111",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011113",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1011114",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1007/BF01327394",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1101019",
+      "formula": "Pt",
+      "space_group": "Fm-3m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104023",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768103021761",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104026",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768103021761",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2104029",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1107/S0108768103021761",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "4334349",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1021/ic302809v",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008480",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012957",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9013417",
+      "formula": "Pt",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": "10.1103/PhysRev.25.753",
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1532765",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1534878",
+      "formula": "Ti",
+      "space_group": "F m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008517",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008554",
+      "formula": "Ti",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9011600",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012924",
+      "formula": "Ti",
+      "space_group": "I m -3 m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9012925",
+      "formula": "Ti",
+      "space_group": "P 6/m m m",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9016190",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9017383",
+      "formula": "Ti",
+      "space_group": "P 63/m m c",
+      "n_elements": 1,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2107071",
+      "formula": "GePt",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "9008939",
+      "formula": "GePt",
+      "space_group": "P b n m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1537917",
+      "formula": "Ge0.2Pt3.8",
+      "space_group": "F m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": true
+    },
+    {
+      "cod_id": "1539277",
+      "formula": "Ge2Pt",
+      "space_group": "P n n m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1540066",
+      "formula": "Ge2Pt3",
+      "space_group": "P n m a",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1539268",
+      "formula": "Ge2Ti",
+      "space_group": "F d d d :1",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1539020",
+      "formula": "Ge3Ti5",
+      "space_group": "P 63/m c m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1008080",
+      "formula": "Ge5Ti6",
+      "space_group": "I b a m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1523470",
+      "formula": "PtTi",
+      "space_group": "P m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1523943",
+      "formula": "PtTi3",
+      "space_group": "P m -3 n",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1539263",
+      "formula": "Pt3Ti",
+      "space_group": "P m -3 m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "2107204",
+      "formula": "Pt3Ti",
+      "space_group": "P -3 m 1",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1522192",
+      "formula": "Pt5Ti3",
+      "space_group": "I b a m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    },
+    {
+      "cod_id": "1522696",
+      "formula": "Pt8Ti",
+      "space_group": "I 4/m m m",
+      "n_elements": 2,
+      "doi": null,
+      "has_partial_occupancy": false
+    }
+  ]
+}

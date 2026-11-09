@@ -1,0 +1,58 @@
+{
+  "space": "Ir-Mo",
+  "elements": [
+    "Ir",
+    "Mo"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-11481",
+      "composition_id": "Ir1 Mo1",
+      "delta_e": -0.35044142250000404,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-11482",
+      "composition_id": "Ir3 Mo1",
+      "delta_e": -0.37208203125000205,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3335482",
+      "composition_id": "Ir5 Mo3",
+      "delta_e": -0.36322266625000305,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1120",
+      "composition_id": "Ir1 Mo3",
+      "delta_e": -0.11020097625000601,
+      "stability": 0.06501973499999901,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1221414",
+      "composition_id": "Ir1 Mo1",
+      "delta_e": -0.22755980000000803,
+      "stability": 0.12288162249999601,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221426",
+      "composition_id": "Ir4 Mo1",
+      "delta_e": -0.093350502999999,
+      "stability": 0.204315122000004,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1221469",
+      "composition_id": "Ir1 Mo4",
+      "delta_e": 0.19758866599999,
+      "stability": 0.337765234999995,
+      "icsd": false
+    }
+  ]
+}

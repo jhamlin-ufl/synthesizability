@@ -1,0 +1,649 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-27 13:49:54 +0300 (Wed, 27 Sep 2017) $
+#$Revision: 201366 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/31/07/2310772.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2310772
+loop_
+_publ_author_name
+'M\"uller, Carola J'
+'Lidin, Sven'
+_publ_section_title
+;
+ Cu~3~Sn - understanding the systematic absences.
+;
+_journal_coden_ASTM              ACSBDA
+_journal_coeditor_code           DQ5008
+_journal_issue                   5
+_journal_name_full
+;
+ Acta Crystallographica, Section B: Structural Science, Crystal Engineering
+ and Materials
+;
+_journal_page_first              879
+_journal_page_last               887
+_journal_paper_doi               10.1107/S205252061401806X
+_journal_volume                  70
+_journal_year                    2014
+_chemical_formula_structural     'Cu3 Sn1'
+_chemical_formula_sum            'Cu3 Sn'
+_chemical_formula_weight         309.3
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      63
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            16
+_cell_length_a                   5.51960(10)
+_cell_length_b                   38.2386(12)
+_cell_length_c                   4.33210(10)
+_cell_measurement_reflns_used    2178
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      28.38
+_cell_measurement_theta_min      3.2
+_cell_volume                     914.34(4)
+_computing_cell_refinement
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+;
+_computing_data_collection
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+;
+_computing_data_reduction
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+;
+_diffrn_ambient_temperature      293
+_diffrn_detector_area_resol_mean 16.1367
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.97
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Xcalibur, Eos'
+_diffrn_measurement_method       '\w and \p scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'Enhance (Mo) X-ray Source'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.0341
+_diffrn_reflns_av_unetI/netI     0.0124
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       50
+_diffrn_reflns_limit_k_min       -49
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            7324
+_diffrn_reflns_theta_full        28.17
+_diffrn_reflns_theta_max         28.38
+_diffrn_reflns_theta_min         3.2
+_exptl_absorpt_coefficient_mu    37.885
+_exptl_absorpt_correction_T_max  0.529
+_exptl_absorpt_correction_T_min  0.095
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.32 (release 02-08-2013 CrysAlis171 .NET)
+(compiled Aug  2 2013,16:46:58)
+Analytical numeric absorption correction using a multifaceted crystal
+   model based on expressions derived by R.C. Clark & J.S. Reid.
+(Clark, R. C. & Reid, J. S. (1995). Acta Cryst. A51, 887-897)
+;
+_exptl_crystal_colour            'metallic intense silver'
+_exptl_crystal_density_diffrn    8.986
+_exptl_crystal_description       block
+_exptl_crystal_F_000             2192
+_exptl_crystal_size_max          0.142
+_exptl_crystal_size_mid          0.051
+_exptl_crystal_size_min          0.018
+_refine_diff_density_max         1.34
+_refine_diff_density_min         -1.25
+_refine_ls_extinction_coef       225(12)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    2.54
+_refine_ls_goodness_of_fit_ref   1.96
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     58
+_refine_ls_number_reflns         689
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0419
+_refine_ls_R_factor_gt           0.0256
+_refine_ls_shift/su_max          0.0485
+_refine_ls_shift/su_mean         0.0081
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0904
+_refine_ls_wR_factor_ref         0.0965
+_reflns_number_gt                389
+_reflns_number_total             689
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            dq5008sup1.cif
+_cod_data_source_block           673K-superstructure
+_cod_original_sg_symbol_Hall     '-C -2x;-2yc;-2zc'
+_cod_original_formula_sum        'Cu3 Sn1'
+_cod_database_code               2310772
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z+1/2
+3 -x,y,-z+1/2
+4 x,-y,-z
+5 -x,-y,-z
+6 x,y,-z+1/2
+7 x,-y,z+1/2
+8 -x,y,z
+9 x+1/2,y+1/2,z
+10 -x+1/2,-y+1/2,z+1/2
+11 -x+1/2,y+1/2,-z+1/2
+12 x+1/2,-y+1/2,-z
+13 -x+1/2,-y+1/2,-z
+14 x+1/2,y+1/2,-z+1/2
+15 x+1/2,-y+1/2,z+1/2
+16 -x+1/2,y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Sn1 Sn 0.5 0.29211(2) 0.25 Uani 0.0068(3) 4 1 d
+Sn2 Sn 0 0.33254(2) 0.75 Uani 0.0069(3) 4 1 d
+Sn3 Sn 0 0.45781(3) 0.75 Uani 0.0087(3) 4 1 d
+Sn4 Sn 0.5 0.41656(3) 0.25 Uani 0.0082(3) 4 1 d
+Cu1 Cu 0.5 0.46135(5) 0.75 Uani 0.0083(6) 4 1 d
+Cu2 Cu 0 0.28811(5) 0.25 Uani 0.0111(6) 4 1 d
+Cu3 Cu 0.26080(17) 0.48005(4) 0.25 Uani 0.0122(5) 8 1 d
+Cu4 Cu 0 0.41423(5) 0.25 Uani 0.0081(6) 4 1 d
+Cu5 Cu 0.25216(16) 0.23001(4) 0.25 Uani 0.0112(5) 8 1 d
+Cu6 Cu 0.5 0.33687(5) 0.75 Uani 0.0119(6) 4 1 d
+Cu7 Cu 0.25152(15) 0.35505(4) 0.25 Uani 0.0104(5) 8 1 d
+Cu8 Cu 0.24709(15) 0.39472(4) 0.75 Uani 0.0104(5) 8 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sn1 Sn 0.0061(5) 0.0075(5) 0.0070(6) 0 0 0
+Sn2 Sn 0.0071(6) 0.0062(5) 0.0074(6) 0 0 0
+Sn3 Sn 0.0089(6) 0.0083(5) 0.0091(7) 0 0 0
+Sn4 Sn 0.0084(6) 0.0082(5) 0.0080(6) 0 0 0
+Cu1 Cu 0.0068(9) 0.0108(9) 0.0073(11) 0 0 0
+Cu2 Cu 0.0101(10) 0.0127(9) 0.0105(12) 0 0 0
+Cu3 Cu 0.0138(9) 0.0123(8) 0.0104(9) 0.0014(4) 0 0
+Cu4 Cu 0.0065(10) 0.0125(9) 0.0052(10) 0 0 0
+Cu5 Cu 0.0132(9) 0.0107(8) 0.0097(9) 0.0006(3) 0 0
+Cu6 Cu 0.0110(11) 0.0135(9) 0.0113(11) 0 0 0
+Cu7 Cu 0.0111(10) 0.0111(8) 0.0091(11) -0.0005(3) 0 0
+Cu8 Cu 0.0145(10) 0.0093(8) 0.0074(10) 0.0003(3) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu 0.3201 1.2651 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Sn -0.6537 1.4246 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Sn1 Sn1 1_455 5.5196(2)
+Sn1 Sn1 1_554 4.3321(2)
+Sn1 Sn1 1_556 4.3321(2)
+Sn1 Sn1 1_655 5.5196(2)
+Sn1 Sn1 10_554 4.7623(9)
+Sn1 Sn1 10_555 4.7618(9)
+Sn1 Sn1 10_654 4.7624(9)
+Sn1 Sn1 10_655 4.7625(9)
+Sn1 Sn2 1_554 3.8341(5)
+Sn1 Sn2 . 3.8339(5)
+Sn1 Sn2 1_654 3.8335(5)
+Sn1 Sn2 1_655 3.8340(5)
+Sn1 Sn2 10_554 4.7664(13)
+Sn1 Sn4 . 4.7587(14)
+Sn1 Cu2 1_554 5.1391(2)
+Sn1 Cu2 . 2.76402(15)
+Sn1 Cu2 1_556 5.1385(2)
+Sn1 Cu2 1_654 5.1385(2)
+Sn1 Cu2 1_655 2.76405(15)
+Sn1 Cu2 1_656 5.1391(2)
+Sn1 Cu2 10_554 3.7552(17)
+Sn1 Cu2 10_555 3.7549(17)
+Sn1 Cu4 . 5.4247(18)
+Sn1 Cu4 1_655 5.4242(18)
+Sn1 Cu5 1_554 5.1264(9)
+Sn1 Cu5 . 2.7404(16)
+Sn1 Cu5 1_556 5.1258(9)
+Sn1 Cu5 1_655 4.7830(12)
+Sn1 Cu5 10_554 2.7101(7)
+Sn1 Cu5 10_555 2.7098(7)
+Sn1 Cu5 10_654 4.7375(8)
+Sn1 Cu5 10_655 4.7379(8)
+Sn1 Cu5 3_555 4.7826(12)
+Sn1 Cu5 3_654 5.1262(9)
+Sn1 Cu5 3_655 2.7406(16)
+Sn1 Cu5 3_656 5.1262(9)
+Sn1 Cu5 12_455 4.7378(8)
+Sn1 Cu5 12_456 4.7373(8)
+Sn1 Cu5 12_555 2.7099(7)
+Sn1 Cu5 12_556 2.7101(7)
+Sn1 Cu6 1_554 2.7607(13)
+Sn1 Cu6 . 2.7609(13)
+Sn1 Cu6 10_554 5.6514(19)
+Sn1 Cu6 10_654 5.6519(19)
+Sn1 Cu7 1_554 5.1421(9)
+Sn1 Cu7 . 2.7703(16)
+Sn1 Cu7 1_556 5.1421(9)
+Sn1 Cu7 1_655 4.7955(12)
+Sn1 Cu7 3_555 4.7960(12)
+Sn1 Cu7 3_654 5.1417(9)
+Sn1 Cu7 3_655 2.7700(16)
+Sn1 Cu7 3_656 5.1423(9)
+Sn1 Cu8 1_554 4.6942(15)
+Sn1 Cu8 . 4.6943(15)
+Sn1 Cu8 3_655 4.6938(15)
+Sn1 Cu8 3_656 4.6943(15)
+Sn2 Sn2 1_455 5.5196(2)
+Sn2 Sn2 1_554 4.3321(2)
+Sn2 Sn2 1_556 4.3321(2)
+Sn2 Sn2 1_655 5.5196(2)
+Sn2 Sn3 . 4.7902(14)
+Sn2 Sn4 1_455 4.7573(9)
+Sn2 Sn4 1_456 4.7572(9)
+Sn2 Sn4 . 4.7566(9)
+Sn2 Sn4 1_556 4.7571(9)
+Sn2 Cu1 1_455 5.6463(18)
+Sn2 Cu1 . 5.6458(18)
+Sn2 Cu2 . 2.7530(13)
+Sn2 Cu2 1_556 2.7528(13)
+Sn2 Cu2 10_455 5.3757(18)
+Sn2 Cu2 10_555 5.3762(18)
+Sn2 Cu4 . 3.8012(17)
+Sn2 Cu4 1_556 3.8014(17)
+Sn2 Cu5 . 4.6907(16)
+Sn2 Cu5 1_556 4.6906(16)
+Sn2 Cu5 10_455 4.7911(12)
+Sn2 Cu5 10_554 5.1342(9)
+Sn2 Cu5 10_555 2.7555(16)
+Sn2 Cu5 10_556 5.1342(9)
+Sn2 Cu5 3_555 4.6906(16)
+Sn2 Cu5 3_556 4.6902(16)
+Sn2 Cu5 12_455 5.1343(9)
+Sn2 Cu5 12_456 2.7552(16)
+Sn2 Cu5 12_457 5.1337(9)
+Sn2 Cu5 12_556 4.7915(12)
+Sn2 Cu6 1_454 5.1394(2)
+Sn2 Cu6 1_455 2.76478(16)
+Sn2 Cu6 1_456 5.1389(2)
+Sn2 Cu6 1_554 5.1389(2)
+Sn2 Cu6 . 2.76475(16)
+Sn2 Cu6 1_556 5.1395(2)
+Sn2 Cu7 1_455 4.7437(8)
+Sn2 Cu7 1_456 4.7433(8)
+Sn2 Cu7 . 2.7127(7)
+Sn2 Cu7 1_556 2.7130(7)
+Sn2 Cu7 3_555 2.7130(7)
+Sn2 Cu7 3_556 2.7129(7)
+Sn2 Cu7 3_655 4.7431(8)
+Sn2 Cu7 3_656 4.7436(8)
+Sn2 Cu8 1_455 4.7880(12)
+Sn2 Cu8 1_554 5.1260(9)
+Sn2 Cu8 . 2.7408(16)
+Sn2 Cu8 1_556 5.1266(9)
+Sn2 Cu8 3_555 5.1265(9)
+Sn2 Cu8 3_556 2.7411(16)
+Sn2 Cu8 3_557 5.1265(9)
+Sn2 Cu8 3_656 4.7876(12)
+Sn3 Sn3 1_455 5.5196(2)
+Sn3 Sn3 1_554 4.3321(2)
+Sn3 Sn3 1_556 4.3321(2)
+Sn3 Sn3 1_655 5.5196(2)
+Sn3 Sn3 2_564 3.8859(11)
+Sn3 Sn3 2_565 3.8862(11)
+Sn3 Sn4 1_455 3.8468(6)
+Sn3 Sn4 1_456 3.8463(6)
+Sn3 Sn4 . 3.8467(6)
+Sn3 Sn4 1_556 3.8469(6)
+Sn3 Sn4 2_565 5.5405(12)
+Sn3 Sn4 2_665 5.5400(12)
+Sn3 Cu1 1_454 5.1386(2)
+Sn3 Cu1 1_455 2.76313(14)
+Sn3 Cu1 1_456 5.1380(2)
+Sn3 Cu1 1_554 5.1380(2)
+Sn3 Cu1 . 2.76310(14)
+Sn3 Cu1 1_556 5.1386(2)
+Sn3 Cu1 2_564 4.6760(13)
+Sn3 Cu1 2_565 4.6759(13)
+Sn3 Cu1 2_664 4.6753(13)
+Sn3 Cu1 2_665 4.6758(13)
+Sn3 Cu3 1_455 4.6973(9)
+Sn3 Cu3 1_456 4.6969(9)
+Sn3 Cu3 . 2.7361(8)
+Sn3 Cu3 1_556 2.7364(8)
+Sn3 Cu3 2_564 5.1464(9)
+Sn3 Cu3 2_565 2.7781(17)
+Sn3 Cu3 2_566 5.1463(9)
+Sn3 Cu3 2_665 4.7212(12)
+Sn3 Cu3 3_555 2.7364(8)
+Sn3 Cu3 3_556 2.7362(8)
+Sn3 Cu3 3_655 4.6967(9)
+Sn3 Cu3 3_656 4.6972(9)
+Sn3 Cu3 4_466 4.7217(12)
+Sn3 Cu3 4_565 5.1459(9)
+Sn3 Cu3 4_566 2.7778(17)
+Sn3 Cu3 4_567 5.1465(9)
+Sn3 Cu4 . 2.7330(13)
+Sn3 Cu4 1_556 2.7328(13)
+Sn3 Cu4 2_565 4.893(2)
+Sn3 Cu6 1_455 5.3852(19)
+Sn3 Cu6 . 5.3857(19)
+Sn3 Cu7 . 4.6970(15)
+Sn3 Cu7 1_556 4.6969(15)
+Sn3 Cu7 3_555 4.6969(15)
+Sn3 Cu7 3_556 4.6965(15)
+Sn3 Cu8 1_455 4.8051(12)
+Sn3 Cu8 1_554 5.1428(9)
+Sn3 Cu8 . 2.7716(16)
+Sn3 Cu8 1_556 5.1428(9)
+Sn3 Cu8 3_555 5.1430(9)
+Sn3 Cu8 3_556 2.7713(16)
+Sn3 Cu8 3_557 5.1424(9)
+Sn3 Cu8 3_656 4.8055(12)
+Sn4 Sn4 1_455 5.5196(2)
+Sn4 Sn4 1_554 4.3321(2)
+Sn4 Sn4 1_556 4.3321(2)
+Sn4 Sn4 1_655 5.5196(2)
+Sn4 Cu1 1_554 2.7614(12)
+Sn4 Cu1 . 2.7616(12)
+Sn4 Cu1 2_664 4.669(2)
+Sn4 Cu2 . 5.6337(18)
+Sn4 Cu2 1_655 5.6342(18)
+Sn4 Cu3 1_554 5.1387(9)
+Sn4 Cu3 . 2.7639(17)
+Sn4 Cu3 1_556 5.1387(9)
+Sn4 Cu3 1_655 4.8505(12)
+Sn4 Cu3 2_664 4.6970(16)
+Sn4 Cu3 2_665 4.6974(16)
+Sn4 Cu3 3_555 4.8510(12)
+Sn4 Cu3 3_654 5.1383(9)
+Sn4 Cu3 3_655 2.7637(17)
+Sn4 Cu3 3_656 5.1389(9)
+Sn4 Cu3 4_565 4.6974(16)
+Sn4 Cu3 4_566 4.6975(16)
+Sn4 Cu4 1_554 5.1375(2)
+Sn4 Cu4 . 2.76122(12)
+Sn4 Cu4 1_556 5.1370(2)
+Sn4 Cu4 1_654 5.1370(2)
+Sn4 Cu4 1_655 2.76124(12)
+Sn4 Cu4 1_656 5.1375(2)
+Sn4 Cu6 1_554 3.7385(18)
+Sn4 Cu6 . 3.7383(18)
+Sn4 Cu7 1_554 5.1168(9)
+Sn4 Cu7 . 2.7225(16)
+Sn4 Cu7 1_556 5.1163(9)
+Sn4 Cu7 1_655 4.7687(12)
+Sn4 Cu7 3_555 4.7682(12)
+Sn4 Cu7 3_654 5.1167(9)
+Sn4 Cu7 3_655 2.7228(16)
+Sn4 Cu7 3_656 5.1167(9)
+Sn4 Cu8 1_554 2.7090(7)
+Sn4 Cu8 . 2.7086(7)
+Sn4 Cu8 1_654 4.7321(8)
+Sn4 Cu8 1_655 4.7325(8)
+Sn4 Cu8 3_555 4.7324(8)
+Sn4 Cu8 3_556 4.7319(8)
+Sn4 Cu8 3_655 2.7088(7)
+Sn4 Cu8 3_656 2.7090(7)
+Cu1 Cu1 1_455 5.5196(2)
+Cu1 Cu1 1_554 4.3321(2)
+Cu1 Cu1 1_556 4.3321(2)
+Cu1 Cu1 1_655 5.5196(2)
+Cu1 Cu1 2_664 3.664(2)
+Cu1 Cu1 2_665 3.665(2)
+Cu1 Cu3 . 2.6357(8)
+Cu1 Cu3 1_556 2.6355(8)
+Cu1 Cu3 1_655 4.7785(9)
+Cu1 Cu3 1_656 4.7790(9)
+Cu1 Cu3 2_565 4.7598(14)
+Cu1 Cu3 2_664 5.0524(11)
+Cu1 Cu3 2_665 2.601(2)
+Cu1 Cu3 2_666 5.0530(11)
+Cu1 Cu3 3_555 4.7791(9)
+Cu1 Cu3 3_556 4.7787(9)
+Cu1 Cu3 3_655 2.6354(8)
+Cu1 Cu3 3_656 2.6357(8)
+Cu1 Cu3 4_565 5.0528(11)
+Cu1 Cu3 4_566 2.601(2)
+Cu1 Cu3 4_567 5.0528(11)
+Cu1 Cu3 4_666 4.7594(14)
+Cu1 Cu4 . 3.9440(12)
+Cu1 Cu4 1_556 3.9435(12)
+Cu1 Cu4 1_655 3.9439(12)
+Cu1 Cu4 1_656 3.9442(12)
+Cu1 Cu4 2_565 5.500(2)
+Cu1 Cu4 2_665 5.500(2)
+Cu1 Cu6 . 4.760(3)
+Cu1 Cu7 . 4.806(2)
+Cu1 Cu7 1_556 4.806(2)
+Cu1 Cu7 3_655 4.806(2)
+Cu1 Cu7 3_656 4.806(2)
+Cu1 Cu8 1_554 5.2164(12)
+Cu1 Cu8 . 2.905(2)
+Cu1 Cu8 1_556 5.2158(12)
+Cu1 Cu8 1_655 4.8476(14)
+Cu1 Cu8 3_556 4.8471(14)
+Cu1 Cu8 3_655 5.2162(12)
+Cu1 Cu8 3_656 2.905(2)
+Cu1 Cu8 3_657 5.2162(12)
+Cu2 Cu2 1_455 5.5196(2)
+Cu2 Cu2 1_554 4.3321(2)
+Cu2 Cu2 1_556 4.3321(2)
+Cu2 Cu2 1_655 5.5196(2)
+Cu2 Cu2 10_454 4.5610(16)
+Cu2 Cu2 10_455 4.5605(16)
+Cu2 Cu2 10_554 4.5610(16)
+Cu2 Cu2 10_555 4.5612(16)
+Cu2 Cu4 . 4.823(3)
+Cu2 Cu5 1_455 4.6875(14)
+Cu2 Cu5 1_554 5.0637(11)
+Cu2 Cu5 . 2.622(2)
+Cu2 Cu5 1_556 5.0637(11)
+Cu2 Cu5 10_454 4.7338(9)
+Cu2 Cu5 10_455 4.7333(9)
+Cu2 Cu5 10_554 2.6538(8)
+Cu2 Cu5 10_555 2.6540(8)
+Cu2 Cu5 3_554 5.0638(11)
+Cu2 Cu5 3_555 2.622(2)
+Cu2 Cu5 3_556 5.0633(11)
+Cu2 Cu5 3_655 4.6879(14)
+Cu2 Cu5 12_455 2.6540(8)
+Cu2 Cu5 12_456 2.6536(8)
+Cu2 Cu5 12_555 4.7335(9)
+Cu2 Cu5 12_556 4.7339(9)
+Cu2 Cu6 1_454 3.9733(12)
+Cu2 Cu6 1_455 3.9731(12)
+Cu2 Cu6 1_554 3.9727(12)
+Cu2 Cu6 . 3.9732(12)
+Cu2 Cu6 10_554 4.779(3)
+Cu2 Cu7 1_455 4.8603(14)
+Cu2 Cu7 1_554 5.2195(12)
+Cu2 Cu7 . 2.912(2)
+Cu2 Cu7 1_556 5.2200(12)
+Cu2 Cu7 3_554 5.2199(12)
+Cu2 Cu7 3_555 2.912(2)
+Cu2 Cu7 3_556 5.2199(12)
+Cu2 Cu7 3_655 4.8598(14)
+Cu2 Cu8 1_554 4.813(2)
+Cu2 Cu8 . 4.814(2)
+Cu2 Cu8 3_555 4.814(2)
+Cu2 Cu8 3_556 4.814(2)
+Cu3 Cu3 1_455 5.5196(13)
+Cu3 Cu3 1_554 4.3321(2)
+Cu3 Cu3 1_556 4.3321(2)
+Cu3 Cu3 1_655 5.5196(13)
+Cu3 Cu3 2_564 3.9127(13)
+Cu3 Cu3 2_565 3.9124(13)
+Cu3 Cu3 2_664 3.7401(13)
+Cu3 Cu3 2_665 3.7406(13)
+Cu3 Cu3 3_554 5.2018(8)
+Cu3 Cu3 3_555 2.8790(13)
+Cu3 Cu3 3_556 5.2012(8)
+Cu3 Cu3 3_654 5.0732(7)
+Cu3 Cu3 3_655 2.6406(13)
+Cu3 Cu3 3_656 5.0737(7)
+Cu3 Cu3 4_565 2.6492(13)
+Cu3 Cu3 4_566 2.6494(13)
+Cu3 Cu4 1_554 5.2131(12)
+Cu3 Cu4 . 2.899(2)
+Cu3 Cu4 1_556 5.2125(12)
+Cu3 Cu4 1_655 4.7942(15)
+Cu3 Cu4 2_564 4.807(2)
+Cu3 Cu4 2_565 4.807(2)
+Cu3 Cu7 . 4.780(2)
+Cu3 Cu7 3_555 5.554(2)
+Cu3 Cu7 3_655 5.486(2)
+Cu3 Cu8 1_554 3.9175(18)
+Cu3 Cu8 . 3.9172(18)
+Cu3 Cu8 2_564 5.549(2)
+Cu3 Cu8 2_664 5.505(2)
+Cu3 Cu8 3_555 4.8166(17)
+Cu3 Cu8 3_556 4.8161(17)
+Cu3 Cu8 3_655 4.7665(17)
+Cu3 Cu8 3_656 4.7666(17)
+Cu3 Cu8 4_566 4.789(2)
+Cu4 Cu4 1_455 5.5196(2)
+Cu4 Cu4 1_554 4.3321(2)
+Cu4 Cu4 1_556 4.3321(2)
+Cu4 Cu4 1_655 5.5196(2)
+Cu4 Cu6 1_454 4.5891(17)
+Cu4 Cu6 1_455 4.5886(17)
+Cu4 Cu6 1_554 4.5891(17)
+Cu4 Cu6 . 4.5893(17)
+Cu4 Cu7 1_455 4.7104(14)
+Cu4 Cu7 1_554 5.0810(11)
+Cu4 Cu7 . 2.655(2)
+Cu4 Cu7 1_556 5.0810(11)
+Cu4 Cu7 3_554 5.0812(11)
+Cu4 Cu7 3_555 2.655(2)
+Cu4 Cu7 3_556 5.0806(11)
+Cu4 Cu7 3_655 4.7108(14)
+Cu4 Cu8 1_454 4.7456(8)
+Cu4 Cu8 1_455 4.7451(8)
+Cu4 Cu8 1_554 2.6662(8)
+Cu4 Cu8 . 2.6664(8)
+Cu4 Cu8 3_555 2.6664(8)
+Cu4 Cu8 3_556 2.6660(8)
+Cu4 Cu8 3_655 4.7453(8)
+Cu4 Cu8 3_656 4.7457(8)
+Cu5 Cu5 1_455 5.5196(12)
+Cu5 Cu5 1_554 4.3321(2)
+Cu5 Cu5 1_556 4.3321(2)
+Cu5 Cu5 1_655 5.5196(12)
+Cu5 Cu5 10_554 2.6514(13)
+Cu5 Cu5 10_555 2.6515(13)
+Cu5 Cu5 3_554 5.1496(7)
+Cu5 Cu5 3_555 2.7836(12)
+Cu5 Cu5 3_556 5.1491(7)
+Cu5 Cu5 3_654 5.1234(7)
+Cu5 Cu5 3_655 2.7360(12)
+Cu5 Cu5 3_656 5.1240(7)
+Cu5 Cu5 12_455 3.8273(13)
+Cu5 Cu5 12_456 3.8270(13)
+Cu5 Cu5 12_555 3.8267(13)
+Cu5 Cu5 12_556 3.8272(13)
+Cu5 Cu6 1_554 4.823(2)
+Cu5 Cu6 . 4.823(2)
+Cu5 Cu6 10_553 5.2198(13)
+Cu5 Cu6 10_554 2.911(2)
+Cu5 Cu6 10_555 5.2193(13)
+Cu5 Cu6 10_654 4.8560(15)
+Cu5 Cu7 . 4.781(2)
+Cu5 Cu7 10_554 3.9079(18)
+Cu5 Cu7 10_555 3.9076(18)
+Cu5 Cu7 3_555 5.531(2)
+Cu5 Cu7 3_655 5.510(2)
+Cu5 Cu7 12_455 4.7861(16)
+Cu5 Cu7 12_456 4.7856(16)
+Cu5 Cu7 12_555 4.7821(16)
+Cu5 Cu7 12_556 4.7822(16)
+Cu5 Cu8 10_554 4.769(2)
+Cu5 Cu8 12_456 5.524(2)
+Cu5 Cu8 12_556 5.497(2)
+Cu6 Cu6 1_455 5.5196(2)
+Cu6 Cu6 1_554 4.3321(2)
+Cu6 Cu6 1_556 4.3321(2)
+Cu6 Cu6 1_655 5.5196(2)
+Cu6 Cu7 . 2.6564(8)
+Cu6 Cu7 1_556 2.6562(8)
+Cu6 Cu7 1_655 4.7306(8)
+Cu6 Cu7 1_656 4.7311(8)
+Cu6 Cu7 3_555 4.7312(8)
+Cu6 Cu7 3_556 4.7307(8)
+Cu6 Cu7 3_655 2.6561(8)
+Cu6 Cu7 3_656 2.6564(8)
+Cu6 Cu8 1_554 5.0605(11)
+Cu6 Cu8 . 2.616(2)
+Cu6 Cu8 1_556 5.0605(11)
+Cu6 Cu8 1_655 4.6792(14)
+Cu6 Cu8 3_556 4.6796(14)
+Cu6 Cu8 3_655 5.0601(11)
+Cu6 Cu8 3_656 2.615(2)
+Cu6 Cu8 3_657 5.0607(11)
+Cu7 Cu7 1_455 5.5196(12)
+Cu7 Cu7 1_554 4.3321(2)
+Cu7 Cu7 1_556 4.3321(2)
+Cu7 Cu7 1_655 5.5196(12)
+Cu7 Cu7 3_554 5.1458(7)
+Cu7 Cu7 3_555 2.7765(12)
+Cu7 Cu7 3_556 5.1452(7)
+Cu7 Cu7 3_654 5.1272(7)
+Cu7 Cu7 3_655 2.7431(12)
+Cu7 Cu7 3_656 5.1278(7)
+Cu7 Cu8 1_554 2.6444(12)
+Cu7 Cu8 . 2.6446(12)
+Cu7 Cu8 3_555 3.8169(12)
+Cu7 Cu8 3_556 3.8166(12)
+Cu7 Cu8 3_655 3.8274(12)
+Cu7 Cu8 3_656 3.8279(12)
+Cu8 Cu8 1_455 5.5196(12)
+Cu8 Cu8 1_554 4.3321(2)
+Cu8 Cu8 1_556 4.3321(2)
+Cu8 Cu8 1_655 5.5196(12)
+Cu8 Cu8 3_555 5.1196(7)
+Cu8 Cu8 3_556 2.7277(12)
+Cu8 Cu8 3_557 5.1190(7)
+Cu8 Cu8 3_655 5.1535(7)
+Cu8 Cu8 3_656 2.7919(12)
+Cu8 Cu8 3_657 5.1541(7)

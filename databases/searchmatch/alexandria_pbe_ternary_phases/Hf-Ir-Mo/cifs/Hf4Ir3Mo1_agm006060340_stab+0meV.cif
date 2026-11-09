@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Hf4MoIr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66505637
+_cell_length_b   4.66509381
+_cell_length_c   7.25720085
+_cell_angle_alpha   108.77353200
+_cell_angle_beta   108.74815801
+_cell_angle_gamma   89.99999303
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf4MoIr3
+_chemical_formula_sum   'Hf4 Mo1 Ir3'
+_cell_volume   140.65547179
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.50000000  0.00000000  0.00000000  1
+  Ir  Ir1  1  0.00000000  0.50000000  0.00000000  1
+  Ir  Ir2  1  0.74970987  0.24951809  0.49941974  1
+  Ir  Ir3  1  0.25029013  0.75048191  0.50058026  1
+  Hf  Hf4  1  0.37534204  0.37534727  0.75068409  1
+  Hf  Hf5  1  0.62465796  0.62465273  0.24931591  1
+  Hf  Hf6  1  0.12465778  0.12467622  0.24931455  1
+  Hf  Hf7  1  0.87534222  0.87532378  0.75068545  1

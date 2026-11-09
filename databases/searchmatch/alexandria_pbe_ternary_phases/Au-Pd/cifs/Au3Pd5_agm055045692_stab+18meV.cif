@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Pd5Au3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.45946757
+_cell_length_b   8.45946757
+_cell_length_c   8.45946758
+_cell_angle_alpha   152.28067075
+_cell_angle_beta   152.28067072
+_cell_angle_gamma   39.60357101
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pd5Au3
+_chemical_formula_sum   'Pd5 Au3'
+_cell_volume   130.73492396
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.50000000  0.50000000  0.00000000  1
+  Pd  Pd1  1  0.12305800  0.62305800  0.50000000  1
+  Pd  Pd2  1  0.87694200  0.37694200  0.50000000  1
+  Pd  Pd3  1  0.37694200  0.87694200  0.50000000  1
+  Pd  Pd4  1  0.62305800  0.12305800  0.50000000  1
+  Au  Au5  1  0.00000000  0.00000000  0.00000000  1
+  Au  Au6  1  0.25019339  0.25019339  0.00000000  1
+  Au  Au7  1  0.74980661  0.74980661  1.00000000  1

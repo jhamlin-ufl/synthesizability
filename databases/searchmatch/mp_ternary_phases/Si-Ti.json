@@ -1,0 +1,107 @@
+{
+  "space": "Si-Ti",
+  "elements": [
+    "Si",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2108",
+      "composition_id": "Si3 Ti5",
+      "delta_e": -0.789528400416667,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-505527",
+      "composition_id": "Si4 Ti5",
+      "delta_e": -0.808110990370371,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-7092",
+      "composition_id": "Si1 Ti1",
+      "delta_e": -0.785364454583332,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1077503",
+      "composition_id": "Si2 Ti1",
+      "delta_e": -0.538035765555555,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-980420",
+      "composition_id": "Si1 Ti3",
+      "delta_e": -0.511458702499998,
+      "stability": 0.014893564444443001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2582",
+      "composition_id": "Si2 Ti1",
+      "delta_e": -0.510677127222223,
+      "stability": 0.027358638333332002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2647026",
+      "composition_id": "Si1 Ti5",
+      "delta_e": -0.29974282981481304,
+      "stability": 0.051158681481481005,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1187525",
+      "composition_id": "Si1 Ti3",
+      "delta_e": -0.46985242999999705,
+      "stability": 0.05649983694444401,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-570991",
+      "composition_id": "Si2 Ti1",
+      "delta_e": -0.35843037888889,
+      "stability": 0.179605386666665,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-998986",
+      "composition_id": "Si1 Ti3",
+      "delta_e": -0.332359741805554,
+      "stability": 0.193992525138888,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-22558",
+      "composition_id": "Si1 Ti1",
+      "delta_e": -0.545064902083332,
+      "stability": 0.24029955249999901,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1065146",
+      "composition_id": "Si1 Ti1",
+      "delta_e": -0.544249697083332,
+      "stability": 0.24111475750000003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1179092",
+      "composition_id": "Si2 Ti1",
+      "delta_e": 0.19913673111110902,
+      "stability": 0.7371724966666661,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1008689",
+      "composition_id": "Si1 Ti2",
+      "delta_e": 0.265850752037036,
+      "stability": 0.9676537746296301,
+      "icsd": false
+    }
+  ]
+}

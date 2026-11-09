@@ -1,0 +1,439 @@
+{
+ "record": {
+  "zero": 0.028585593085518137,
+  "instprm": "refits_2026-11/instprm/panalytical_July2020ZBH.instprm",
+  "inst": {
+   "U": 9.36626109188745,
+   "V": -5.755660913505157,
+   "W": 8.693470776888425,
+   "X": 1.0,
+   "Y": -0.6849261195310329
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "ScPd5Au2_pred_OQMD-1990792",
+  "space": "../../../refits_2026-11/cifs_d/0477",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0477_HM_ScPd5Au2.xy",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 17.769706535470437,
+  "gof": 6.780775806116253,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 5.63104,
+     "length_b": 11.21106,
+     "length_c": 3.9919
+    }
+   ],
+   "shift": -473.88393724821196,
+   "size": 1.0,
+   "mustrain": 12690.059354221645,
+   "md": null,
+   "atoms": {
+    "Sc0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pd1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pd2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pd3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Au4": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  30.5,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 32.256,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.65738,
+      "length_b": 11.28993,
+      "length_c": 4.0775
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 32.256,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.65738,
+      "length_b": 11.28993,
+      "length_c": 4.0775
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 31.954,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.70043,
+      "length_b": 11.19003,
+      "length_c": 4.07357
+     }
+    ],
+    "shift": -16.798607242437384,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 18.009,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.63049,
+      "length_b": 11.21428,
+      "length_c": 3.99134
+     }
+    ],
+    "shift": -472.7073367664928,
+    "size": 1.0,
+    "mustrain": 13355.029714854827,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 17.962,
+   "kept": false,
+   "note": "no gain over 18.01",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.63047,
+      "length_b": 11.21439,
+      "length_c": 3.99133
+     }
+    ],
+    "shift": -472.6726892947475,
+    "size": 0.4431348869424192,
+    "mustrain": 13301.525921439275,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 14.425,
+   "kept": false,
+   "note": "unphysical value",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.6241,
+      "length_b": 11.23305,
+      "length_c": 3.98776
+     }
+    ],
+    "shift": -457.1668716870228,
+    "size": 1.0,
+    "mustrain": 14317.146587204988,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": -0.04754
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": -0.04754
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": -0.04754
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": -0.04754
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": -0.04754
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 17.77,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.63092,
+      "length_b": 11.21187,
+      "length_c": 3.99175
+     }
+    ],
+    "shift": -474.1056620561055,
+    "size": 1.0,
+    "mustrain": 12794.745502298845,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 17.77,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.63104,
+      "length_b": 11.21106,
+      "length_c": 3.9919
+     }
+    ],
+    "shift": -473.88393724821196,
+    "size": 1.0,
+    "mustrain": 12690.059354221645,
+    "md": null,
+    "atoms": {
+     "Sc0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

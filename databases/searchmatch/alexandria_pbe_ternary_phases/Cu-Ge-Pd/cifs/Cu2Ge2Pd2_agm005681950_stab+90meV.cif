@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CuGePd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.71758523
+_cell_length_b   3.09014116
+_cell_length_c   7.23118134
+_cell_angle_alpha   102.33162816
+_cell_angle_beta   64.10222528
+_cell_angle_gamma   109.14523904
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuGePd
+_chemical_formula_sum   'Cu2 Ge2 Pd2'
+_cell_volume   89.27746043
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.30689514  0.63441031  0.96063574  1
+  Cu  Cu1  1  0.69310486  0.36558969  0.03936426  1
+  Ge  Ge2  1  0.07467561  0.91497992  0.75071512  1
+  Ge  Ge3  1  0.92532439  0.08502008  0.24928488  1
+  Pd  Pd4  1  0.70224267  0.17217787  0.63813809  1
+  Pd  Pd5  1  0.29775733  0.82782213  0.36186191  1

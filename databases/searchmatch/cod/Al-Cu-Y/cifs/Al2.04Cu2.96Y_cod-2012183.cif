@@ -1,0 +1,515 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/01/21/2012183.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012183
+loop_
+_publ_author_name
+'Karim, Kadir'
+'Tetsuo, Sakai'
+'Itsuki, Uehara'
+'Lars, Eriksson'
+_publ_section_title
+;
+ YCu~3~Al~2~, an example of an <i>AB</i>~5~ structure type
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              999
+_journal_page_last               1000
+_journal_paper_doi               10.1107/S0108270101010009
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'Y Cu3 Al2'
+_chemical_formula_moiety         'Al2.04 Cu2.96 Y'
+_chemical_formula_sum            'Al2.04 Cu2.96 Y'
+_chemical_formula_weight         332.03
+_chemical_name_systematic
+;
+Yttrium tricopper dialuminium
+;
+_space_group_IT_number           191
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6 2'
+_symmetry_space_group_name_H-M   'P 6/m m m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            1
+_cell_length_a                   5.172(3)
+_cell_length_b                   5.172(3)
+_cell_length_c                   4.141(2)
+_cell_measurement_reflns_used    50
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      18
+_cell_volume                     95.93(9)
+_computing_cell_refinement       DIF4
+_computing_data_collection       'DIF4 (Stoe & Cie, 1988)'
+_computing_data_reduction        'REDU4 (Stoe & Cie, 1988)'
+_computing_molecular_graphics    'DIAMOND (Bergerhoff, 1996)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full .995
+_diffrn_measured_fraction_theta_max .995
+_diffrn_measurement_device_type  'Stoe AED2'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0986
+_diffrn_reflns_av_sigmaI/netI    .0320
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            2818
+_diffrn_reflns_theta_full        44.89
+_diffrn_reflns_theta_max         44.89
+_diffrn_reflns_theta_min         4.55
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         4
+_exptl_absorpt_coefficient_mu    31.377
+_exptl_absorpt_correction_T_max  .152
+_exptl_absorpt_correction_T_min  .062
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(XABS2; Parkin et al., 1995)'
+_exptl_crystal_colour            grey
+_exptl_crystal_density_diffrn    5.747
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'metallic prism'
+_exptl_crystal_F_000             151
+_exptl_crystal_size_max          .285
+_exptl_crystal_size_mid          .07
+_exptl_crystal_size_min          .06
+_refine_diff_density_max         1.858
+_refine_diff_density_min         -2.214
+_refine_ls_extinction_coef       .167(16)
+_refine_ls_extinction_method     SHELXL97
+_refine_ls_goodness_of_fit_ref   1.376
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         196
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.376
+_refine_ls_R_factor_all          .0218
+_refine_ls_R_factor_gt           .0206
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0200P)^2^] where P = (Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .0552
+_reflns_number_gt                182
+_reflns_number_total             196
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br1341.cif
+_cod_data_source_block           I
+_cod_database_code               2012183
+_cod_database_fobs_code          2012183
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z'
+'y, -x+y, z'
+'x-y, x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'-y, -x, -z'
+'-x+y, y, -z'
+'x, x-y, -z'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z'
+'-y, x-y, -z'
+'-x+y, -x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, z'
+'x-y, -y, z'
+'-x, -x+y, z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Y 0 0 0 .00351(14) Uani d S 1 . . Y
+Cu1 .3333 .6667 0 .00484(14) Uani d S 1 . . Cu
+Cu2 .5 0 .5 .00551(15) Uani d SP .314(4) . . Cu
+Al2 .5 0 .5 .00551(15) Uani d SP .69 . . Al
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Y .00227(16) .00227(16) .0060(2) .00114(8) .000 .000
+Cu1 .00593(17) .00593(17) .00265(19) .00297(8) .000 .000
+Cu2 .0088(2) .0015(2) .0038(2) .00076(11) .000 .000
+Al2 .0088(2) .0015(2) .0038(2) .00076(11) .000 .000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Y Y -2.7962 3.5667 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu .3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al .0645 .0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Cu1 Y Cu1 13_565 1_545 180.0
+Cu1 Y Cu1 13_565 13_665 120.0
+Cu1 Y Cu1 1_545 13_665 60.0
+Cu1 Y Cu1 13_565 . 60.0
+Cu1 Y Cu1 1_545 . 120.0
+Cu1 Y Cu1 13_665 . 60.0
+Cu1 Y Cu1 13_565 1_445 60.0
+Cu1 Y Cu1 1_545 1_445 120.0
+Cu1 Y Cu1 13_665 1_445 180.0
+Cu1 Y Cu1 . 1_445 120.0
+Cu1 Y Cu1 13_565 13 120.0
+Cu1 Y Cu1 1_545 13 60.0
+Cu1 Y Cu1 13_665 13 120.0
+Cu1 Y Cu1 . 13 180.0
+Cu1 Y Cu1 1_445 13 60.0
+Cu1 Y Al2 13_565 3_665 90.0
+Cu1 Y Al2 1_545 3_665 90.0
+Cu1 Y Al2 13_665 3_665 47.465(15)
+Cu1 Y Al2 . 3_665 47.465(15)
+Cu1 Y Al2 1_445 3_665 132.535(16)
+Cu1 Y Al2 13 3_665 132.535(15)
+Cu1 Y Al2 13_565 3_554 90.0
+Cu1 Y Al2 1_545 3_554 90.0
+Cu1 Y Al2 13_665 3_554 132.535(16)
+Cu1 Y Al2 . 3_554 132.535(15)
+Cu1 Y Al2 1_445 3_554 47.465(15)
+Cu1 Y Al2 13 3_554 47.465(15)
+Al2 Y Al2 3_665 3_554 180.0
+Cu1 Y Cu2 13_565 3_665 90.0
+Cu1 Y Cu2 1_545 3_665 90.0
+Cu1 Y Cu2 13_665 3_665 47.465(15)
+Cu1 Y Cu2 . 3_665 47.465(15)
+Cu1 Y Cu2 1_445 3_665 132.535(16)
+Cu1 Y Cu2 13 3_665 132.535(15)
+Al2 Y Cu2 3_665 3_665 .0
+Al2 Y Cu2 3_554 3_665 180.0
+Cu1 Y Cu2 13_565 3_554 90.0
+Cu1 Y Cu2 1_545 3_554 90.0
+Cu1 Y Cu2 13_665 3_554 132.535(16)
+Cu1 Y Cu2 . 3_554 132.535(15)
+Cu1 Y Cu2 1_445 3_554 47.465(15)
+Cu1 Y Cu2 13 3_554 47.465(15)
+Al2 Y Cu2 3_665 3_554 180.0
+Al2 Y Cu2 3_554 3_554 .0
+Cu2 Y Cu2 3_665 3_554 180.0
+Cu1 Y Cu2 13_565 . 132.535(16)
+Cu1 Y Cu2 1_545 . 47.465(16)
+Cu1 Y Cu2 13_665 . 47.465(16)
+Cu1 Y Cu2 . . 90.0
+Cu1 Y Cu2 1_445 . 132.535(16)
+Cu1 Y Cu2 13 . 90.0
+Al2 Y Cu2 3_665 . 45.947(14)
+Al2 Y Cu2 3_554 . 134.053(14)
+Cu2 Y Cu2 3_665 . 45.947(14)
+Cu2 Y Cu2 3_554 . 134.053(14)
+Cu1 Y Al2 13_565 . 132.535(16)
+Cu1 Y Al2 1_545 . 47.465(16)
+Cu1 Y Al2 13_665 . 47.465(16)
+Cu1 Y Al2 . . 90.0
+Cu1 Y Al2 1_445 . 132.535(16)
+Cu1 Y Al2 13 . 90.0
+Al2 Y Al2 3_665 . 45.947(14)
+Al2 Y Al2 3_554 . 134.053(14)
+Cu2 Y Al2 3_665 . 45.947(14)
+Cu2 Y Al2 3_554 . 134.053(14)
+Cu2 Y Al2 . . .0
+Al2 Cu1 Al2 2_554 1_565 145.991(18)
+Al2 Cu1 Cu2 2_554 2_554 .0
+Al2 Cu1 Cu2 1_565 2_554 145.991(18)
+Al2 Cu1 Cu2 2_554 1_565 145.991(18)
+Al2 Cu1 Cu2 1_565 1_565 .0
+Cu2 Cu1 Cu2 2_554 1_565 145.991(18)
+Al2 Cu1 Al2 2_554 2 108.41(4)
+Al2 Cu1 Al2 1_565 2 60.87(3)
+Cu2 Cu1 Al2 2_554 2 108.41(4)
+Cu2 Cu1 Al2 1_565 2 60.87(3)
+Al2 Cu1 Al2 2_554 1_564 60.87(3)
+Al2 Cu1 Al2 1_565 1_564 108.41(4)
+Cu2 Cu1 Al2 2_554 1_564 60.87(3)
+Cu2 Cu1 Al2 1_565 1_564 108.41(4)
+Al2 Cu1 Al2 2 1_564 145.991(18)
+Al2 Cu1 Cu2 2_554 2 108.41(4)
+Al2 Cu1 Cu2 1_565 2 60.87(3)
+Cu2 Cu1 Cu2 2_554 2 108.41(4)
+Cu2 Cu1 Cu2 1_565 2 60.87(3)
+Al2 Cu1 Cu2 2 2 .0
+Al2 Cu1 Cu2 1_564 2 145.991(18)
+Al2 Cu1 Cu2 2_554 1_564 60.87(3)
+Al2 Cu1 Cu2 1_565 1_564 108.41(4)
+Cu2 Cu1 Cu2 2_554 1_564 60.87(3)
+Cu2 Cu1 Cu2 1_565 1_564 108.41(4)
+Al2 Cu1 Cu2 2 1_564 145.991(18)
+Al2 Cu1 Cu2 1_564 1_564 .0
+Cu2 Cu1 Cu2 2 1_564 145.991(18)
+Al2 Cu1 Al2 2_554 3_665 145.991(17)
+Al2 Cu1 Al2 1_565 3_665 60.87(3)
+Cu2 Cu1 Al2 2_554 3_665 145.991(17)
+Cu2 Cu1 Al2 1_565 3_665 60.87(3)
+Al2 Cu1 Al2 2 3_665 60.87(3)
+Al2 Cu1 Al2 1_564 3_665 145.991(18)
+Cu2 Cu1 Al2 2 3_665 60.87(3)
+Cu2 Cu1 Al2 1_564 3_665 145.991(18)
+Al2 Cu1 Al2 2_554 3_664 60.87(3)
+Al2 Cu1 Al2 1_565 3_664 145.991(17)
+Cu2 Cu1 Al2 2_554 3_664 60.87(3)
+Cu2 Cu1 Al2 1_565 3_664 145.991(17)
+Al2 Cu1 Al2 2 3_664 145.991(17)
+Al2 Cu1 Al2 1_564 3_664 60.87(3)
+Cu2 Cu1 Al2 2 3_664 145.991(17)
+Cu2 Cu1 Al2 1_564 3_664 60.87(3)
+Al2 Cu1 Al2 3_665 3_664 108.41(4)
+Al2 Cu1 Cu2 2_554 3_665 145.991(17)
+Al2 Cu1 Cu2 1_565 3_665 60.87(3)
+Cu2 Cu1 Cu2 2_554 3_665 145.991(17)
+Cu2 Cu1 Cu2 1_565 3_665 60.87(3)
+Al2 Cu1 Cu2 2 3_665 60.87(3)
+Al2 Cu1 Cu2 1_564 3_665 145.991(18)
+Cu2 Cu1 Cu2 2 3_665 60.87(3)
+Cu2 Cu1 Cu2 1_564 3_665 145.991(18)
+Al2 Cu1 Cu2 3_665 3_665 .0
+Al2 Cu1 Cu2 3_664 3_665 108.41(4)
+Al2 Cu1 Cu2 2_554 3_664 60.87(3)
+Al2 Cu1 Cu2 1_565 3_664 145.991(17)
+Cu2 Cu1 Cu2 2_554 3_664 60.87(3)
+Cu2 Cu1 Cu2 1_565 3_664 145.991(17)
+Al2 Cu1 Cu2 2 3_664 145.991(17)
+Al2 Cu1 Cu2 1_564 3_664 60.87(3)
+Cu2 Cu1 Cu2 2 3_664 145.991(17)
+Cu2 Cu1 Cu2 1_564 3_664 60.87(3)
+Al2 Cu1 Cu2 3_665 3_664 108.41(4)
+Al2 Cu1 Cu2 3_664 3_664 .0
+Cu2 Cu1 Cu2 3_665 3_664 108.41(4)
+Cu1 Cu2 Cu1 13_666 1_545 180.0
+Cu1 Cu2 Cu1 13_666 13_665 108.41(4)
+Cu1 Cu2 Cu1 1_545 13_665 71.59(4)
+Cu1 Cu2 Cu1 13_666 1_546 71.59(4)
+Cu1 Cu2 Cu1 1_545 1_546 108.41(4)
+Cu1 Cu2 Cu1 13_665 1_546 180.0
+Cu1 Cu2 Al2 13_666 2_655 59.567(17)
+Cu1 Cu2 Al2 1_545 2_655 120.433(17)
+Cu1 Cu2 Al2 13_665 2_655 59.567(17)
+Cu1 Cu2 Al2 1_546 2_655 120.433(17)
+Cu1 Cu2 Al2 13_666 2_545 120.433(17)
+Cu1 Cu2 Al2 1_545 2_545 59.567(17)
+Cu1 Cu2 Al2 13_665 2_545 120.433(17)
+Cu1 Cu2 Al2 1_546 2_545 59.567(17)
+Al2 Cu2 Al2 2_655 2_545 180.0
+Cu1 Cu2 Cu2 13_666 2_655 59.567(17)
+Cu1 Cu2 Cu2 1_545 2_655 120.433(17)
+Cu1 Cu2 Cu2 13_665 2_655 59.567(17)
+Cu1 Cu2 Cu2 1_546 2_655 120.433(17)
+Al2 Cu2 Cu2 2_655 2_655 .0
+Al2 Cu2 Cu2 2_545 2_655 180.0
+Cu1 Cu2 Cu2 13_666 2_545 120.433(17)
+Cu1 Cu2 Cu2 1_545 2_545 59.567(17)
+Cu1 Cu2 Cu2 13_665 2_545 120.433(17)
+Cu1 Cu2 Cu2 1_546 2_545 59.567(17)
+Al2 Cu2 Cu2 2_655 2_545 180.0
+Al2 Cu2 Cu2 2_545 2_545 .0
+Cu2 Cu2 Cu2 2_655 2_545 180.0
+Cu1 Cu2 Al2 13_666 3_665 59.567(17)
+Cu1 Cu2 Al2 1_545 3_665 120.433(17)
+Cu1 Cu2 Al2 13_665 3_665 59.567(17)
+Cu1 Cu2 Al2 1_546 3_665 120.433(17)
+Al2 Cu2 Al2 2_655 3_665 60.0
+Al2 Cu2 Al2 2_545 3_665 120.0
+Cu2 Cu2 Al2 2_655 3_665 60.0
+Cu2 Cu2 Al2 2_545 3_665 120.0
+Cu1 Cu2 Al2 13_666 3_655 120.433(17)
+Cu1 Cu2 Al2 1_545 3_655 59.567(17)
+Cu1 Cu2 Al2 13_665 3_655 120.433(17)
+Cu1 Cu2 Al2 1_546 3_655 59.567(17)
+Al2 Cu2 Al2 2_655 3_655 120.0
+Al2 Cu2 Al2 2_545 3_655 60.0
+Cu2 Cu2 Al2 2_655 3_655 120.0
+Cu2 Cu2 Al2 2_545 3_655 60.0
+Al2 Cu2 Al2 3_665 3_655 180.0
+Cu1 Cu2 Cu2 13_666 3_665 59.567(17)
+Cu1 Cu2 Cu2 1_545 3_665 120.433(17)
+Cu1 Cu2 Cu2 13_665 3_665 59.567(17)
+Cu1 Cu2 Cu2 1_546 3_665 120.433(17)
+Al2 Cu2 Cu2 2_655 3_665 60.0
+Al2 Cu2 Cu2 2_545 3_665 120.0
+Cu2 Cu2 Cu2 2_655 3_665 60.0
+Cu2 Cu2 Cu2 2_545 3_665 120.0
+Al2 Cu2 Cu2 3_665 3_665 .0
+Al2 Cu2 Cu2 3_655 3_665 180.0
+Cu1 Cu2 Cu2 13_666 3_655 120.433(17)
+Cu1 Cu2 Cu2 1_545 3_655 59.567(17)
+Cu1 Cu2 Cu2 13_665 3_655 120.433(17)
+Cu1 Cu2 Cu2 1_546 3_655 59.567(17)
+Al2 Cu2 Cu2 2_655 3_655 120.0
+Al2 Cu2 Cu2 2_545 3_655 60.0
+Cu2 Cu2 Cu2 2_655 3_655 120.0
+Cu2 Cu2 Cu2 2_545 3_655 60.0
+Al2 Cu2 Cu2 3_665 3_655 180.0
+Al2 Cu2 Cu2 3_655 3_655 .0
+Cu2 Cu2 Cu2 3_665 3_655 180.0
+Cu1 Al2 Cu1 13_666 1_545 180.0
+Cu1 Al2 Cu1 13_666 13_665 108.41(4)
+Cu1 Al2 Cu1 1_545 13_665 71.59(4)
+Cu1 Al2 Cu1 13_666 1_546 71.59(4)
+Cu1 Al2 Cu1 1_545 1_546 108.41(4)
+Cu1 Al2 Cu1 13_665 1_546 180.0
+Cu1 Al2 Al2 13_666 2_655 59.567(17)
+Cu1 Al2 Al2 1_545 2_655 120.433(17)
+Cu1 Al2 Al2 13_665 2_655 59.567(17)
+Cu1 Al2 Al2 1_546 2_655 120.433(17)
+Cu1 Al2 Al2 13_666 2_545 120.433(17)
+Cu1 Al2 Al2 1_545 2_545 59.567(17)
+Cu1 Al2 Al2 13_665 2_545 120.433(17)
+Cu1 Al2 Al2 1_546 2_545 59.567(17)
+Al2 Al2 Al2 2_655 2_545 180.0
+Cu1 Al2 Cu2 13_666 2_655 59.567(17)
+Cu1 Al2 Cu2 1_545 2_655 120.433(17)
+Cu1 Al2 Cu2 13_665 2_655 59.567(17)
+Cu1 Al2 Cu2 1_546 2_655 120.433(17)
+Al2 Al2 Cu2 2_655 2_655 .0
+Al2 Al2 Cu2 2_545 2_655 180.0
+Cu1 Al2 Cu2 13_666 2_545 120.433(17)
+Cu1 Al2 Cu2 1_545 2_545 59.567(17)
+Cu1 Al2 Cu2 13_665 2_545 120.433(17)
+Cu1 Al2 Cu2 1_546 2_545 59.567(17)
+Al2 Al2 Cu2 2_655 2_545 180.0
+Al2 Al2 Cu2 2_545 2_545 .0
+Cu2 Al2 Cu2 2_655 2_545 180.0
+Cu1 Al2 Al2 13_666 3_665 59.567(17)
+Cu1 Al2 Al2 1_545 3_665 120.433(17)
+Cu1 Al2 Al2 13_665 3_665 59.567(17)
+Cu1 Al2 Al2 1_546 3_665 120.433(17)
+Al2 Al2 Al2 2_655 3_665 60.0
+Al2 Al2 Al2 2_545 3_665 120.0
+Cu2 Al2 Al2 2_655 3_665 60.0
+Cu2 Al2 Al2 2_545 3_665 120.0
+Cu1 Al2 Al2 13_666 3_655 120.433(17)
+Cu1 Al2 Al2 1_545 3_655 59.567(17)
+Cu1 Al2 Al2 13_665 3_655 120.433(17)
+Cu1 Al2 Al2 1_546 3_655 59.567(17)
+Al2 Al2 Al2 2_655 3_655 120.0
+Al2 Al2 Al2 2_545 3_655 60.0
+Cu2 Al2 Al2 2_655 3_655 120.0
+Cu2 Al2 Al2 2_545 3_655 60.0
+Al2 Al2 Al2 3_665 3_655 180.0
+Cu1 Al2 Cu2 13_666 3_665 59.567(17)
+Cu1 Al2 Cu2 1_545 3_665 120.433(17)
+Cu1 Al2 Cu2 13_665 3_665 59.567(17)
+Cu1 Al2 Cu2 1_546 3_665 120.433(17)
+Al2 Al2 Cu2 2_655 3_665 60.0
+Al2 Al2 Cu2 2_545 3_665 120.0
+Cu2 Al2 Cu2 2_655 3_665 60.0
+Cu2 Al2 Cu2 2_545 3_665 120.0
+Al2 Al2 Cu2 3_665 3_665 .0
+Al2 Al2 Cu2 3_655 3_665 180.0
+Cu1 Al2 Cu2 13_666 3_655 120.433(17)
+Cu1 Al2 Cu2 1_545 3_655 59.567(17)
+Cu1 Al2 Cu2 13_665 3_655 120.433(17)
+Cu1 Al2 Cu2 1_546 3_655 59.567(17)
+Al2 Al2 Cu2 2_655 3_655 120.0
+Al2 Al2 Cu2 2_545 3_655 60.0
+Cu2 Al2 Cu2 2_655 3_655 120.0
+Cu2 Al2 Cu2 2_545 3_655 60.0
+Al2 Al2 Cu2 3_665 3_655 180.0
+Al2 Al2 Cu2 3_655 3_655 .0
+Cu2 Al2 Cu2 3_665 3_655 180.0
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Y Cu1 13_565 2.9861(17) ?
+Y Cu1 1_545 2.9861(17) ?
+Y Cu1 13_665 2.9861(17) ?
+Y Cu1 . 2.9861(17) yes
+Y Cu1 1_445 2.9861(17) ?
+Y Cu1 13 2.9861(17) ?
+Y Al2 3_665 3.3128(13) ?
+Y Al2 3_554 3.3128(13) ?
+Y Cu2 3_665 3.3128(13) ?
+Y Cu2 3_554 3.3128(13) ?
+Y Cu2 . 3.3128(13) yes
+Y Al2 . 3.3128(13) ?
+Cu1 Al2 2_554 2.5527(10) ?
+Cu1 Al2 1_565 2.5527(10) ?
+Cu1 Cu2 2_554 2.5527(10) ?
+Cu1 Cu2 1_565 2.5527(10) ?
+Cu1 Al2 2 2.5527(10) ?
+Cu1 Al2 1_564 2.5527(10) ?
+Cu1 Cu2 2 2.5527(10) yes
+Cu1 Cu2 1_564 2.5527(10) ?
+Cu1 Al2 3_665 2.5527(10) ?
+Cu1 Al2 3_664 2.5527(10) ?
+Cu1 Cu2 3_665 2.5527(10) ?
+Cu1 Cu2 3_664 2.5527(10) ?
+Cu2 Cu1 13_666 2.5527(10) ?
+Cu2 Cu1 1_545 2.5527(10) ?
+Cu2 Cu1 13_665 2.5527(10) ?
+Cu2 Cu1 1_546 2.5527(10) ?
+Cu2 Al2 2_655 2.5860(15) ?
+Cu2 Al2 2_545 2.5860(15) ?
+Cu2 Cu2 2_655 2.5860(15) yes
+Cu2 Cu2 2_545 2.5860(15) ?
+Cu2 Al2 3_665 2.5860(15) ?
+Cu2 Al2 3_655 2.5860(15) ?
+Cu2 Cu2 3_665 2.5860(15) ?
+Cu2 Cu2 3_655 2.5860(15) ?
+Al2 Cu1 13_666 2.5527(10) ?
+Al2 Cu1 1_545 2.5527(10) ?
+Al2 Cu1 13_665 2.5527(10) ?
+Al2 Cu1 1_546 2.5527(10) ?
+Al2 Al2 2_655 2.5860(15) ?
+Al2 Al2 2_545 2.5860(15) ?
+Al2 Cu2 2_655 2.5860(15) ?
+Al2 Cu2 2_545 2.5860(15) ?
+Al2 Al2 3_665 2.5860(15) ?
+Al2 Al2 3_655 2.5860(15) ?
+Al2 Cu2 3_665 2.5860(15) ?
+Al2 Cu2 3_655 2.5860(15) ?

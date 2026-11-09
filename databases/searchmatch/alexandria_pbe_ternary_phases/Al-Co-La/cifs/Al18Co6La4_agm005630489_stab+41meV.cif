@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_La2(Al3Co)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.56270095
+_cell_length_b   7.56270161
+_cell_length_c   10.51709305
+_cell_angle_alpha   89.99294595
+_cell_angle_beta   110.70185469
+_cell_angle_gamma   120.56851842
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2(Al3Co)3
+_chemical_formula_sum   'La4 Al18 Co6'
+_cell_volume   472.27374753
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.33723720  0.24760355  0.75066492  1
+  La  La1  1  0.66276280  0.75239645  0.24933508  1
+  La  La2  1  0.99693863  0.58657228  0.74933508  1
+  La  La3  1  0.00306137  0.41342772  0.25066492  1
+  Al  Al4  1  0.46064680  0.91944921  0.74686764  1
+  Al  Al5  1  0.53935320  0.08055079  0.25313236  1
+  Al  Al6  1  0.67258157  0.71377915  0.75313236  1
+  Al  Al7  1  0.32741843  0.28622085  0.24686764  1
+  Al  Al8  1  0.45432503  0.64544145  0.93078758  1
+  Al  Al9  1  0.54567497  0.35455855  0.06921242  1
+  Al  Al10  1  0.21465288  0.52353745  0.56921242  1
+  Al  Al11  1  0.78534712  0.47646255  0.43078758  1
+  Al  Al12  1  0.88064157  0.13064157  0.75000000  1
+  Al  Al13  1  0.11935843  0.86935843  0.25000000  1
+  Al  Al14  1  0.14014584  0.98874508  0.95951773  1
+  Al  Al15  1  0.85985416  0.01125492  0.04048227  1
+  Al  Al16  1  0.52922734  0.18062811  0.54048227  1
+  Al  Al17  1  0.47077266  0.81937189  0.45951773  1
+  Al  Al18  1  0.87209890  0.85656283  0.56561459  1
+  Al  Al19  1  0.12790110  0.14343717  0.43438541  1
+  Al  Al20  1  0.79094824  0.30648431  0.93438541  1
+  Al  Al21  1  0.20905176  0.69351569  0.06561459  1
+  Co  Co22  1  0.50000000  0.00000000  0.00000000  1
+  Co  Co23  1  0.50000000  0.50000000  0.50000000  1
+  Co  Co24  1  0.83779167  0.16936554  0.49848889  1
+  Co  Co25  1  0.16220833  0.83063446  0.50151111  1
+  Co  Co26  1  0.17087765  0.33930378  0.00151111  1
+  Co  Co27  1  0.82912235  0.66069622  0.99848889  1

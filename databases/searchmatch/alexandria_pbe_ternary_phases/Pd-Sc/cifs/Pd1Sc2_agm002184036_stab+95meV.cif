@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_Sc2Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.35689909
+_cell_length_b   3.35689909
+_cell_length_c   5.89562515
+_cell_angle_alpha   106.53344150
+_cell_angle_beta   106.53344150
+_cell_angle_gamma   90.03393572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2Pd
+_chemical_formula_sum   'Sc2 Pd1'
+_cell_volume   60.81523128
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.64820505  0.64820505  0.29655431  1
+  Sc  Sc1  1  0.35179495  0.35179495  0.70344569  1
+  Pd  Pd2  1  0.00000000  0.00000000  0.00000000  1

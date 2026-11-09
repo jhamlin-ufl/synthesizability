@@ -1,0 +1,423 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "Pt_cod_1011103",
+  "space": "../../../refits_2026-11/cifs/0491",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0491_HM_TiGePt5_circular.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [
+   "GePt2_oqmd_13687"
+  ],
+  "partner_scales": [
+   "0.985/0.985/0.985"
+  ],
+  "wR": 5.362617835321025,
+  "gof": 2.9144880477259427,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    0.7174,
+    0.2826
+   ],
+   "cells": [
+    {
+     "length_a": 3.92567,
+     "length_b": 3.92567,
+     "length_c": 3.92567
+    },
+    {
+     "length_a": 6.73962,
+     "length_b": 6.73962,
+     "length_c": 3.54107
+    }
+   ],
+   "shift": -180.2855404006363,
+   "size": 1.0,
+   "mustrain": 24744.367737438028,
+   "md": null,
+   "atoms": {
+    "Pt0": {
+     "occ": 1.0,
+     "uiso": 0.02091
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 22.133,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.3598,
+     0.6402
+    ],
+    "cells": [
+     {
+      "length_a": 3.944,
+      "length_b": 3.944,
+      "length_c": 3.944
+     },
+     {
+      "length_a": 6.67854,
+      "length_b": 6.67854,
+      "length_c": 3.52502
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 21.734,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.5673,
+     0.4327
+    ],
+    "cells": [
+     {
+      "length_a": 3.944,
+      "length_b": 3.944,
+      "length_c": 3.944
+     },
+     {
+      "length_a": 6.67854,
+      "length_b": 6.67854,
+      "length_c": 3.52502
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 19.825,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.7915,
+     0.2085
+    ],
+    "cells": [
+     {
+      "length_a": 3.93831,
+      "length_b": 3.93831,
+      "length_c": 3.93831
+     },
+     {
+      "length_a": 6.67854,
+      "length_b": 6.67854,
+      "length_c": 3.52502
+     }
+    ],
+    "shift": -350.2815008463256,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "GePt2_oqmd_13687 cell",
+   "wR": 18.485,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.655,
+     0.345
+    ],
+    "cells": [
+     {
+      "length_a": 3.92995,
+      "length_b": 3.92995,
+      "length_c": 3.92995
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -289.2000205490075,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 8.179,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.9073,
+     0.0927
+    ],
+    "cells": [
+     {
+      "length_a": 3.92463,
+      "length_b": 3.92463,
+      "length_c": 3.92463
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -174.63489848816843,
+    "size": 1.0,
+    "mustrain": 26707.825195558682,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 8.21,
+   "kept": false,
+   "note": "no gain over 8.18",
+   "state": {
+    "wt": [
+     0.9072,
+     0.0928
+    ],
+    "cells": [
+     {
+      "length_a": 3.9246,
+      "length_b": 3.9246,
+      "length_c": 3.9246
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -173.0123080815223,
+    "size": 1.897882480411293,
+    "mustrain": 28191.297092187357,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "GePt2_oqmd_13687 microstrain",
+   "wR": 6.228,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6776,
+     0.3224
+    ],
+    "cells": [
+     {
+      "length_a": 3.92547,
+      "length_b": 3.92547,
+      "length_c": 3.92547
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -179.18219747627202,
+    "size": 1.0,
+    "mustrain": 26044.26055305762,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 6.106,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.705,
+     0.295
+    ],
+    "cells": [
+     {
+      "length_a": 3.92609,
+      "length_b": 3.92609,
+      "length_c": 3.92609
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -186.41953999627134,
+    "size": 1.0,
+    "mustrain": 25637.41222454843,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.01791
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 5.362,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.717,
+     0.283
+    ],
+    "cells": [
+     {
+      "length_a": 3.92564,
+      "length_b": 3.92564,
+      "length_c": 3.92564
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -180.0930015342497,
+    "size": 1.0,
+    "mustrain": 24745.181514746328,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.02086
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 5.363,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.7174,
+     0.2826
+    ],
+    "cells": [
+     {
+      "length_a": 3.92567,
+      "length_b": 3.92567,
+      "length_c": 3.92567
+     },
+     {
+      "length_a": 6.73962,
+      "length_b": 6.73962,
+      "length_c": 3.54107
+     }
+    ],
+    "shift": -180.2855404006363,
+    "size": 1.0,
+    "mustrain": 24744.367737438028,
+    "md": null,
+    "atoms": {
+     "Pt0": {
+      "occ": 1.0,
+      "uiso": 0.02091
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

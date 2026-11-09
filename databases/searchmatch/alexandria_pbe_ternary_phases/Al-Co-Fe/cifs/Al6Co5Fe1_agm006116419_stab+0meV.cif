@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Al6FeCo5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03543044
+_cell_length_b   5.70044265
+_cell_length_c   6.37928017
+_cell_angle_alpha   89.99994129
+_cell_angle_beta   108.41984100
+_cell_angle_gamma   90.00010668
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al6FeCo5
+_chemical_formula_sum   'Al6 Fe1 Co5'
+_cell_volume   139.22894513
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.66763603  0.49999904  0.33546143  1
+  Co  Co1  1  0.33217545  0.00000253  0.66411966  1
+  Co  Co2  1  0.00000000  0.50000000  0.00000000  1
+  Co  Co3  1  0.66782455  0.99999747  0.33588034  1
+  Co  Co4  1  0.33236397  0.50000096  0.66453857  1
+  Al  Al5  1  0.83443681  0.75148200  0.66861892  1
+  Al  Al6  1  0.83443387  0.24852201  0.66861766  1
+  Al  Al7  1  0.50000125  0.24798739  0.00000100  1
+  Al  Al8  1  0.49999875  0.75201261  0.99999900  1
+  Al  Al9  1  0.16556613  0.75147799  0.33138234  1
+  Al  Al10  1  0.16556319  0.24851800  0.33138108  1
+  Fe  Fe11  1  0.00000000  0.00000000  0.00000000  1

@@ -1,0 +1,86 @@
+{
+  "space": "Al-Mn",
+  "elements": [
+    "Al",
+    "Mn"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2856",
+      "composition_id": "Al11 Mn4",
+      "delta_e": -0.276990866781609,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-771",
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.272285743965517,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1104165",
+      "composition_id": "Al12 Mn1",
+      "delta_e": -0.09883573907161801,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-173",
+      "composition_id": "Al6 Mn1",
+      "delta_e": -0.17369762541871903,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-16511",
+      "composition_id": "Al10 Mn3",
+      "delta_e": -0.23770068029177802,
+      "stability": 0.009341258520708001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30526",
+      "composition_id": "Al19 Mn4",
+      "delta_e": -0.18574687703148401,
+      "stability": 0.013860424314382001,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1180309",
+      "composition_id": "Al3 Mn2",
+      "delta_e": -0.245703806672413,
+      "stability": 0.028598418500000004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1212295",
+      "composition_id": "Al9 Mn4",
+      "delta_e": -0.23268412083775403,
+      "stability": 0.043479471602563005,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-12067",
+      "composition_id": "Al1 Mn1",
+      "delta_e": -0.224589803965517,
+      "stability": 0.047695940000000006,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-973149",
+      "composition_id": "Al1 Mn3",
+      "delta_e": -0.06714692844827601,
+      "stability": 0.068995943534482,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1194040",
+      "composition_id": "Al8 Mn5",
+      "delta_e": -0.197021284204243,
+      "stability": 0.07759116884615301,
+      "icsd": true
+    }
+  ]
+}

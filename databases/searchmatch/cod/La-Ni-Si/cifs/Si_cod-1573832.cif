@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-02-03 14:43:49 +0200 (Mon, 03 Feb 2025) $
+#$Revision: 297570 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/57/38/1573832.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1573832
+loop_
+_publ_author_name
+'Pandolfi, Silvia'
+'Renero-Lecuna, Carlos'
+'Le Godec, Yann'
+'Baptiste, Benoit'
+'Menguy, Nicolas'
+'Lazzeri, Michele'
+'Gervais, Christel'
+'Spektor, Kristina'
+'Crichton, Wilson A.'
+'Kurakevych, Oleksandr O.'
+_publ_section_title
+;
+ Nature of Hexagonal Silicon Forming via High-Pressure Synthesis:
+ Nanostructured Hexagonal 4H Polytype
+;
+_journal_coden_ASTM              NALEFD
+_journal_issue                   9
+_journal_name_full               'Nano Letters'
+_journal_page_first              5989
+_journal_page_last               5995
+_journal_paper_doi               10.1021/acs.nanolett.8b02816
+_journal_volume                  18
+_journal_year                    2018
+_chemical_formula_sum            Si
+_chemical_name_common            'hexagonal 4H Si-IV'
+_space_group_IT_number           194
+_space_group_name_Hall           '-P 6c 2c'
+_space_group_name_H-M_alt        'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            8
+_cell_length_a                   3.79480
+_cell_length_b                   3.79480
+_cell_length_c                   12.70990
+_cell_volume                     158.508
+_cod_data_source_file            Si4HOK.cif
+_cod_data_source_block           VESTA_phase_1
+_cod_original_cell_volume        109.743
+_cod_database_code               1573832
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x, -y, -z'
+'-y, x-y, z'
+'y, -x+y, -z'
+'-x+y, -x, z'
+'x-y, x, -z'
+'-x, -y, z+1/2'
+'x, y, -z+1/2'
+'y, -x+y, z+1/2'
+'-y, x-y, -z+1/2'
+'x-y, x, z+1/2'
+'-x+y, -x, -z+1/2'
+'y, x, -z'
+'-y, -x, z'
+'x-y, -y, -z'
+'-x+y, y, z'
+'-x, -x+y, -z'
+'x, x-y, z'
+'-y, -x, -z+1/2'
+'y, x, z+1/2'
+'-x+y, y, -z+1/2'
+'x-y, -y, z+1/2'
+'x, x-y, -z+1/2'
+'-x, -x+y, z+1/2'
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+Si1 1.000 0.000000 0.000000 0.406200 Uiso 0.000000 Si
+Si2 1.000 0.333333 0.666667 0.343700 Uiso 0.000000 Si

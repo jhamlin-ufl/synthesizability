@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ScPd7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.92346963
+_cell_length_b   6.31604188
+_cell_length_c   4.86652243
+_cell_angle_alpha   75.26010750
+_cell_angle_beta   61.91419384
+_cell_angle_gamma   42.82569866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScPd7
+_chemical_formula_sum   'Sc1 Pd7'
+_cell_volume   126.15249631
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.00000000  0.00000000  0.00000000  1
+  Pd  Pd1  1  0.87481303  0.87481303  0.62518697  1
+  Pd  Pd2  1  0.74639123  0.74639123  0.25360877  1
+  Pd  Pd3  1  0.62518697  0.62518697  0.87481303  1
+  Pd  Pd4  1  0.50000000  0.50000000  0.50000000  1
+  Pd  Pd5  1  0.37481303  0.37481303  0.12518697  1
+  Pd  Pd6  1  0.25360877  0.25360877  0.74639123  1
+  Pd  Pd7  1  0.12518697  0.12518697  0.37481303  1

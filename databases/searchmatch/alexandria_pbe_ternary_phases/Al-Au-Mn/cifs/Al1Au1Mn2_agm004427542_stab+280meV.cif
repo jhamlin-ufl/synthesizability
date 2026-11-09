@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Mn2AlAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.61906832
+_cell_length_b   8.61906832
+_cell_length_c   8.61906832
+_cell_angle_alpha   18.93403825
+_cell_angle_beta   18.93403830
+_cell_angle_gamma   18.93403828
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2AlAu
+_chemical_formula_sum   'Mn2 Al1 Au1'
+_cell_volume   58.91412037
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.99235586  0.99235586  0.99235586  1
+  Mn  Mn1  1  0.25174215  0.25174215  0.25174215  1
+  Au  Au2  1  0.74986290  0.74986290  0.74986290  1
+  Al  Al3  1  0.50603909  0.50603909  0.50603909  1

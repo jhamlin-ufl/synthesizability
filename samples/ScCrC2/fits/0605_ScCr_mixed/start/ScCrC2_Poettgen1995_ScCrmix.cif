@@ -1,0 +1,66 @@
+# Built 2026-11-03 (build_cifs_d.py) from cifs_new/0512/ScCrC2_Poettgen1995.cif: same cell, C position and
+# U values; Sc and Cr mixed 0.5/0.5 on both 2a and 2c (Sc/Cr order removed). Optional diagnostic for 0605.
+# Typed by hand from Poettgen et al., J. Solid State Chem. 119 (1995) 324 (reference_papers/
+# Pottgen1995_ScCrC2_JSSC119_324.pdf): Table 1, P6_3/mmc subcell of alpha-ScCrC2, a = 324.16(3), c = 915.0(1) pm
+# (Guinier powder data); Table 2, subcell atoms Sc 2a, Cr 2c, C 4f z = 0.6624(8), ideal occupancies (as in the
+# paper's final cycles), B_eq 0.32/1.06/1.11 A^2 -> U = B/(8 pi^2). This is the cell the plan names (3.2416/9.150).
+# The single-crystal beta-ScCrC2 values (a 323.7, c 914.9 pm, C z 0.6627) differ by < 0.15 %.
+
+data_ScCrC2_Poettgen1995_ScCrmix
+_publ_author_name                 'Poettgen, R.; Witte, A. M.; Jeitschko, W.; Ebel, T.'
+_publ_section_title               'Preparation, properties, and crystal structures of alpha- and beta-ScCrC2'
+_journal_name_full                'Journal of Solid State Chemistry'
+_journal_volume                   119
+_journal_year                     1995
+_journal_page_first               324
+_journal_page_last                330
+_journal_paper_doi                10.1016/0022-4596(95)80048-T
+
+_symmetry_space_group_name_H-M   'P6_3/mmc'
+_symmetry_Int_Tables_number   194
+_cell_length_a   3.2416
+_cell_length_b   3.2416
+_cell_length_c   9.15
+_cell_angle_alpha   90
+_cell_angle_beta   90
+_cell_angle_gamma   120
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  '-x+y, y, -z+1/2'
+  2  '-x, -x+y, -z'
+  3  '-x, -y, -z'
+  4  '-x, -y, z+1/2'
+  5  '-x+y, -x, z'
+  6  'x-y, x, z+1/2'
+  7  '-y, x-y, z'
+  8  'x, y, z'
+  9  'y, -x+y, z+1/2'
+  10  '-y, -x, -z+1/2'
+  11  'x-y, -y, -z'
+  12  'x, x-y, -z+1/2'
+  13  'y, x, -z'
+  14  '-x+y, -x, -z-1/2'
+  15  'y, -x+y, -z'
+  16  'x, y, -z-1/2'
+  17  'x-y, x, -z'
+  18  '-y, x-y, -z-1/2'
+  19  'y, x, z-1/2'
+  20  '-x+y, y, z'
+  21  '-x, -x+y, z-1/2'
+  22  '-y, -x, z'
+  23  'x-y, -y, z-1/2'
+  24  'x, x-y, z'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ _atom_site_U_iso_or_equiv
+  Sc1 Sc 0.00000 0.00000 0.00000 0.5000 0.0041
+  Cr1 Cr 0.00000 0.00000 0.00000 0.5000 0.0041
+  Sc2 Sc 0.33333 0.66667 0.25000 0.5000 0.0134
+  Cr2 Cr 0.33333 0.66667 0.25000 0.5000 0.0134
+  C C 0.33333 0.66667 0.66240 1.0000 0.0141

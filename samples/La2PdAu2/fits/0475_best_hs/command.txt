@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/La2PdAu2/buttons/0475/0475_HM_La2PdAu2.txt --space samples/La2PdAu2/fits/0475_best_hs/start --occ pred --uiso-max 0.04 --main-key La2Pd4Au3_alex_agm003335669_dis --limits 27.8 118 --partners La3Au4_alex_agm007948621 La15Pd32_alex_agm007755331_dis --out results/refits/0475_best_hs --strict-final --accept-bound --hold-shift

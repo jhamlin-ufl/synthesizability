@@ -1,0 +1,50 @@
+# Typed by hand from A. Gil, B. Penc, E. Wawrzynska, J. Hernandez-Velasco, A. Szytula, A. Zygmunt,
+# J. Alloys Compd. 365 (2004) 31-34, doi:10.1016/S0925-8388(03)00635-2, Table 1 (Gd column: cell; X-ray, RT)
+# and text (all atoms 4c (0,y,1/4), CeNiSi2 type, Cmcm). Co occupancy 0.27 from the composition GdCo0.27Sn2.
+# No displacement parameters published (driver default Uiso). Not from an ICDD or ICSD record.
+# Note: published y values give Co-Sn1 = 2.03 A for the 27 %-occupied Co site; no distance table to check against.
+
+data_Gd4Co1.08Sn8
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   4.44400000
+_cell_length_b   16.50220000
+_cell_length_c   4.38080000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   Gd4Co1.08Sn8
+_chemical_formula_sum   'Gd4 Co1.08 Sn8'
+_cell_volume   321.26937101
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  4  0.00000000  0.09990000  0.25000000  1
+  Co  Co1  4  0.00000000  0.31510000  0.25000000  0.27
+  Sn  Sn2  4  0.00000000  0.25380000  0.75000000  1
+  Sn  Sn3  4  0.00000000  0.43840000  0.25000000  1

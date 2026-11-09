@@ -1,0 +1,75 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/21/1522192.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1522192
+loop_
+_publ_author_name
+'Krautwasser, P.'
+'Bhan, S.'
+'Schubert, K.'
+_publ_section_title
+;
+ Strukturuntersuchungen in den Systemen Ti-Pd und Ti-Pt
+;
+_journal_name_full               'Zeitschrift fuer Metallkunde'
+_journal_page_first              724
+_journal_page_last               729
+_journal_volume                  59
+_journal_year                    1968
+_chemical_formula_sum            'Pt5 Ti3'
+_space_group_IT_number           72
+_symmetry_space_group_name_Hall  '-I 2 2c'
+_symmetry_space_group_name_H-M   'I b a m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.953
+_cell_length_b                   5.441
+_cell_length_c                   8.169
+_cell_volume                     486.834
+_citation_journal_id_ASTM        ZEMTAE
+_cod_data_source_file            Krautwasser_ZEMTAE_1968_1860.cif
+_cod_data_source_block           Pt5Ti3
+_cod_original_cell_volume        486.8338
+_cod_database_code               1522192
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,-y,-z+1/2
+-x,y,-z+1/2
+-x,-y,-z
+x,y,-z
+-x,y,z-1/2
+x,-y,z-1/2
+x+1/2,y+1/2,z+1/2
+-x+1/2,-y+1/2,z+1/2
+x+1/2,-y+1/2,-z+1
+-x+1/2,y+1/2,-z+1
+-x+1/2,-y+1/2,-z+1/2
+x+1/2,y+1/2,-z+1/2
+-x+1/2,y+1/2,z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Pt2 Pt 0.242 0 0.25 1 0.0
+Pt3 Pt 0.105 0.734 0 1 0.0
+Ti1 Ti 0 0 0.25 1 0.0
+Pt1 Pt 0.5 0 0.25 1 0.0
+Ti2 Ti 0.142 0.29 0 1 0.0

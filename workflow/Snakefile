@@ -1,0 +1,128 @@
+# Pipeline of the paper. Run from the repository root (snakemake finds this file there):
+#
+#   snakemake -c1                # Table 1, Tables S1 and S2, Figs. 1 and 2 into results/
+#   snakemake -c1 si_figures     # the Supplement's fit figures (needs pdfjam)
+#   snakemake -c1 check          # compare the tables with the manuscript (PAPER_DIR)
+#   snakemake -c1 sample_readmes # rewrite samples/<formula>/README.md
+#
+# Inputs: tables/, databases/snapshot/, computed/, samples/*/fits/, workflow/figure_inputs/.
+# Rerunning a fit (needs GSAS-II) is not part of the pipeline: see samples/README.md.
+# PAPER_DIR is an environment variable (default ~/ufdb/Apps/Overleaf/Synthesizability Project).
+# Another interpreter: snakemake <target> -c1 --config python=/path/to/python
+
+import csv
+from glob import glob
+
+PY = config.get("python", "python")
+SAMPLES = ["tables/paper_samples.csv", "tables/outcomes.csv"]
+SNAPSHOT = ["databases/snapshot/targets.csv", "databases/snapshot/MANIFEST.csv"]
+TABLES = ["results/tables/sample_table.tex", "results/tables/sample_phases_table.tex",
+          "results/tables/database_table.tex", "results/tables/buttons_table.tex"]
+FIGURES = ["results/figures/disorder_vs_stability.pdf", "results/figures/xrd_representative.pdf"]
+
+
+rule all:
+    input: TABLES, FIGURES
+
+
+rule hull_energies:
+    input: SNAPSHOT, "workflow/scripts/hull_energies.py", "workflow/src/synthesizability/hull.py"
+    output: "results/hull_energies.csv"
+    shell: "{PY} workflow/scripts/hull_energies.py"
+
+
+rule phonon_flags:
+    input: "computed/phonons/candidates.csv", "computed/phonons/phonon_results_5M.csv",
+           SNAPSHOT, "workflow/scripts/phonon_flags.py"
+    output: "results/phonon_flags.csv"
+    shell: "{PY} workflow/scripts/phonon_flags.py"
+
+
+rule table_samples:
+    input: SAMPLES, "computed/p_disorder.csv", "results/hull_energies.csv", "workflow/scripts/table_samples.py"
+    output: "results/tables/sample_table.tex", "results/tables/sample_phases_table.tex"
+    shell: "{PY} workflow/scripts/table_samples.py"
+
+
+rule table_databases:
+    input: SAMPLES, "results/hull_energies.csv", SNAPSHOT, "workflow/scripts/table_databases.py"
+    output: "results/tables/database_table.tex", "results/database_agreement.csv"
+    shell: "{PY} workflow/scripts/table_databases.py"
+
+
+rule fig_disorder_vs_stability:
+    input: SAMPLES, "computed/p_disorder.csv", "results/hull_energies.csv", "results/phonon_flags.csv",
+           "workflow/scripts/fig_disorder_vs_stability.py"
+    output: "results/figures/disorder_vs_stability.pdf", "results/figures/disorder_vs_stability.png",
+            "results/figures/disorder_vs_stability_points.csv"
+    shell: "{PY} workflow/scripts/fig_disorder_vs_stability.py"
+
+
+rule table_buttons:
+    input: SAMPLES[0], "tables/buttons.csv", "workflow/scripts/table_buttons.py"
+    output: "results/tables/buttons_table.tex"
+    shell: "{PY} workflow/scripts/table_buttons.py"
+
+
+rule fig_xrd_representative:
+    input: "workflow/figure_inputs/xrd_representative_fits.csv", SAMPLES[0], "databases/snapshot/targets.csv",
+           "workflow/scripts/fig_xrd_representative.py", "workflow/scripts/xrd_panel_helpers.py",
+           glob("workflow/figure_inputs/structure_insets/*"), glob("samples/*/fits/*/fit.txt")
+    output: "results/figures/xrd_representative.pdf", "results/figures/xrd_representative.png"
+    shell: "{PY} workflow/scripts/fig_xrd_representative.py"
+
+
+# Supplement: one figure per Table 1 row with a deposited fit (tables/si_fits.csv,
+# samples/*/fits/), the annealed vs as-cast figure, and a contact sheet of the target
+# figures two per page with the as-cast figure on the last page.
+SI_CSV = "tables/si_fits.csv"
+SI_ROWS = sorted({(int(r["table_row"]), r["formula"]) for r in csv.DictReader(open(SI_CSV))
+                  if r["role"] in ("FoR", "C1", "C2") and r["fit_dir"]})
+SI_FIGS = [f"results/supplement/fig_S_{n:02d}_{f}.pdf" for n, f in SI_ROWS] + \
+          ["results/supplement/fig_S_ascast_annealed.pdf"]
+SI_STICKS = sorted({r["sticks"] for r in csv.DictReader(open(SI_CSV)) if r["sticks"]})
+
+
+rule si_figures:
+    input: SI_CSV, SAMPLES[0], "workflow/scripts/fig_si_fits.py", SI_STICKS,
+           glob("samples/*/fits/*/fit.txt"), glob("samples/*/fits/*/summary.json")
+    output: SI_FIGS, "results/supplement/si_fits_all.pdf"
+    params: targets=SI_FIGS[:-1], tmp="results/supplement/.targets_2up.pdf"
+    shell: "{PY} workflow/scripts/fig_si_fits.py && "
+           "pdfjam --nup 1x2 --letterpaper --quiet --outfile {params.tmp} {params.targets} && "
+           "pdfunite {params.tmp} results/supplement/fig_S_ascast_annealed.pdf results/supplement/si_fits_all.pdf && "
+           "rm {params.tmp}"
+
+
+# No output file: runs whenever it is asked for, so a changed manuscript is always re-read.
+rule check:
+    input: TABLES, "results/figures/disorder_vs_stability_points.csv"
+    shell: "{PY} workflow/scripts/check_against_paper.py"
+
+
+# --- Optional refreshes (not part of `all`) -----------------------------------------
+# The snapshot and computed/ are the paper's record. A refresh against newer
+# databases changes numbers: MP recomputes energies between versions, and newer
+# Alexandria releases already moved targets relative to the hull. Diff
+# results/hull_energies.csv before and after.
+
+rule refresh_snapshot:
+    # Re-copies databases/snapshot/ from the lab repository's caches (SOURCE, default
+    # ~/repos/synthesizability). Add --list-c to re-extract the PBEsol 2023.12.29
+    # hull file (needs ijson and ~/data/alexandria/convex_hull_ps_2023.12.29.json.bz2).
+    shell: "{PY} workflow/scripts/build_snapshot.py"
+
+
+rule refresh_computed:
+    # P_disorder and the phonon verdicts were computed in the lab repository
+    # (torch / MatterSim, about 40 CPU-minutes for the phonons); see computed/README.md.
+    shell: "echo 'See computed/README.md for how P_disorder and the phonon verdicts were computed.'; exit 1"
+
+
+# One README per target folder, from the tables, the fit records and computed/.
+rule sample_readmes:
+    input: SAMPLES, "tables/buttons.csv", "tables/scans.csv", SI_CSV, "databases/snapshot/targets.csv",
+           "computed/p_disorder.csv", "computed/phonons/dynamic_flags_5M_paper.csv",
+           "workflow/scripts/sample_readmes.py", glob("samples/*/fits/*/summary.json")
+    output: [f"samples/{r['formula']}/README.md" for r in csv.DictReader(open(SAMPLES[0]))]
+    shell: "{PY} workflow/scripts/sample_readmes.py"

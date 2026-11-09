@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_YCuSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.58817159
+_cell_length_b   6.57799897
+_cell_length_c   4.58788215
+_cell_angle_alpha   90.00226529
+_cell_angle_beta   89.99977547
+_cell_angle_gamma   90.01993514
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YCuSn
+_chemical_formula_sum   'Y2 Cu2 Sn2'
+_cell_volume   138.46680768
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.87729879  0.79606109  0.03720552  1
+  Y  Y1  1  0.37687215  0.29605955  0.53743851  1
+  Sn  Sn2  1  0.87708582  0.29608655  0.03729192  1
+  Sn  Sn3  1  0.37710368  0.79608357  0.53732031  1
+  Cu  Cu4  1  0.37771231  0.04602253  0.03749584  1
+  Cu  Cu5  1  0.37746205  0.54614420  0.03752547  1

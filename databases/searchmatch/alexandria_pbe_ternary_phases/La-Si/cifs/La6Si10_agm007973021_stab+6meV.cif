@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_La3Si5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.39116299
+_cell_length_b   9.42121840
+_cell_length_c   7.66832042
+_cell_angle_alpha   82.92208074
+_cell_angle_beta   55.16105999
+_cell_angle_gamma   41.91685919
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3Si5
+_chemical_formula_sum   'La6 Si10'
+_cell_volume   376.69131894
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.12521785  0.53814875  0.48496890  1
+  La  La1  1  0.48496890  0.85166451  0.12521785  1
+  La  La2  1  0.71185125  0.12478215  0.39833549  1
+  La  La3  1  0.39833549  0.76503110  0.71185125  1
+  La  La4  1  0.05302332  0.44697668  0.05302332  1
+  La  La5  1  0.80302332  0.19697668  0.80302332  1
+  Si  Si6  1  0.28077000  0.54770941  0.99561790  1
+  Si  Si7  1  0.99561790  0.17590267  0.28077000  1
+  Si  Si8  1  0.70229059  0.96923000  0.07409733  1
+  Si  Si9  1  0.07409733  0.25438210  0.70229059  1
+  Si  Si10  1  0.80384536  0.36082325  0.13473789  1
+  Si  Si11  1  0.13473789  0.70059350  0.80384536  1
+  Si  Si12  1  0.88917675  0.44615464  0.54940650  1
+  Si  Si13  1  0.54940650  0.11526211  0.88917675  1
+  Si  Si14  1  0.47662498  0.02337502  0.47662498  1
+  Si  Si15  1  0.22662498  0.77337502  0.22662498  1

@@ -1,0 +1,172 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/11/2101103.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101103
+loop_
+_publ_author_name
+'Shi, N. C.'
+'Li, X. Z.'
+'Ma, Z. S.'
+'Kuo, K. H.'
+_publ_section_title
+;
+ Crystalline phases related to a decagonal quasicrystal. I. A
+ single-crystal X-ray diffraction study of the orthorhombic Al~3~Mn
+ phase
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              22
+_journal_page_last               30
+_journal_paper_doi               10.1107/S0108768193008729
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'Al28 Mn11'
+_chemical_formula_weight         1356.5
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P -2ac -2n'
+_symmetry_space_group_name_H-M   'P n 21 a'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   14.837(4)
+_cell_length_b                   12.457(2)
+_cell_length_c                   12.505(2)
+_cell_volume                     2311.2(8)
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_exptl_absorpt_coefficient_mu    6.582
+_exptl_crystal_density_diffrn    3.90
+_exptl_crystal_F_000             2550.15
+_cod_data_source_file            st0614.cif
+_cod_data_source_block           st0614a
+_cod_database_code               2101103
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Al1 .0498(6) .1197(8) .2372(9)
+Al2 .0505(4) .1321(5) .4625(5)
+Al3 .0427(4) .1154(5) .8578(5)
+Al4 .2262(3) .1225(6) .1597(6)
+Mn5 .1789(4) .0615(13) .3497(4)
+Al6 .2343(3) .1286(4) .5252(4)
+Al7 .1888(5) .0672(5) .7307(5)
+Mn8 .1826(6) .0613(7) .9641(7)
+Al9 .3680(4) .0667(6) .0361(5)
+Al10 .3378(5) .1257(7) .3354(7)
+Mn11 .3735(2) .0622(3) .6552(4)
+Al12 .3224(5) .1503(6) .8462(7)
+Al13 .4886(5) .0764(6) .4430(5)
+Al14 .4760(5) .0686(5) .8465(7)
+Al15 .1019(4) .2613(8) .0424(5)
+Al16 .0964(3) .2506(11) .6494(4)
+Al17 .1804(4) .2504(10) .3464(5)
+Mn18 .1662(2) .2473(6) .8470(3)
+Mn19 .2741(2) .2479(6) .0223(4)
+Mn20 .2660(2) .2513(6) .6736(2)
+Al21 .4063(3) .2511(11) .1600(4)
+Al22 .3965(4) .2439(10) .5398(5)
+Mn23 .4582(2) .2517(5) .3552(3)
+Al24 .4424(2) .2453(6) .7428(3)
+Mn25 .4470(2) .2491(6) .9544(2)
+Al26 .0464(10) .3764(10) .2390(10)
+Al27 .0506(5) .3787(5) .4503(6)
+Al28 .0401(4) .3976(5) .8388(5)
+Al29 .2287(5) .3791(4) .1649(5)
+Mn30 .1789(3) .4468(7) .3463(4)
+Al31 .2349(8) .3841(6) .5269(7)
+Al32 .1901(4) .4351(5) .7299(4)
+Mn33 .1835(4) .4379(5) .9589(5)
+Al34 .3720(4) .4356(6) .0348(5)
+Al35 .3379(10) .3820(9) .3422(10)
+Al36 .3721(3) .4375(4) .6614(4)
+Al37 .3159(4) .3523(4) .8521(5)
+Al38 .4748(4) .4214(5) .4580(5)
+Al39 .4864(3) .4356(4) .8513(5)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Mn5 Al2 2.530(4)
+Mn5 Al1 2.485(4)
+Mn5 Al6 2.488(6)
+Mn5 Al10 2.495(5)
+Mn5 Al4 2.591(7)
+Al26 Mn30 2.537(4)
+Al27 Mn30 2.456(8)
+Al31 Mn30 2.530(6)
+Al35 Mn30 2.494(5)
+Al29 Mn30 2.530(7)
+Al26 Al27 2.642(9)
+Al27 Al31 2.898(6)
+Al31 Al35 2.769(6)
+Al35 Al29 2.746(6)
+Al29 Al26 2.860(5)
+Al1 Al2 2.822(9)
+Al2 Al6 2.838(5)
+Al6 Al10 2.827(7)
+Al10 Al4 2.751(6)
+Al4 Al1 2.791(5)
+Al17 Al26 2.867(4)
+Al17 Al27 2.819(4)
+Al17 Al31 2.919(6)
+Al17 Al35 2.855(5)
+Al17 Al29 2.870(7)
+Mn5 Al34 2.896(7)
+Mn5 Al32 2.915(4)
+Mn5 Mn33 2.899(4)
+Mn5 Al36 2.916(7)
+Mn5 Al39 2.912(5)
+Mn5 Al17 2.354(8)
+Mn5 Al37 2.607(9)
+Al37 Mn20 2.667(6)
+Al37 Al39 2.735(5)
+Al37 Mn33 2.604(4)
+Al37 Al36 2.740(7)
+Al37 Mn25 2.659(4)
+Al37 Al34 2.643(6)
+Al37 Al12 2.519(8)
+Al37 Al24 2.678(4)
+Al37 Al32 2.623(4)
+Al37 Mn5 2.607(9)
+Al37 Mn18 2.578(4)
+Al37 Mn19 2.571(6)
+Al12 Mn25 2.600(4)
+Al12 Al24 2.498(4)
+Al12 Mn18 2.613(5)
+Al12 Mn19 2.616(6)
+Al12 Mn20 2.635(6)
+Mn20 Mn18 2.626(6)
+Mn18 Mn19 2.714(6)
+Mn19 Mn25 2.703(5)
+Mn25 Al24 2.648(8)
+Al24 Mn20 2.758(5)
+Al32 Mn33 2.866(9)
+Mn33 Al34 2.953(5)
+Al34 Al39 2.855(6)
+Al39 Al36 2.919(6)
+Al36 Al32 2.832(5)
+Mn20 Al36 2.807(7)
+Mn20 Al32 2.646(7)
+Mn18 Al32 2.783(7)
+Mn18 Mn33 2.769(7)
+Mn19 Mn33 2.835(7)
+Mn19 Al34 2.757(7)
+Mn25 Al34 2.765(9)
+Mn25 Al39 2.721(7)
+Al24 Al39 2.809(7)
+Al24 Al36 2.803(7)

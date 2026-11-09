@@ -1,0 +1,398 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/8/10/30/8103045.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103045
+loop_
+_publ_author_name
+'Sarah-Virginia Ackerbauer'
+'Roman Gumeniuk'
+'Yurii Prots'
+'Horst Borrmann'
+'Franz Weitzer'
+'Andreas Leithe-Jasper'
+_publ_section_title
+;
+ Crystal structures of zirconium-platinum-silicon (1:1:1), ZrPtSi,
+ zirconium-platinum-germanium (1:1:1), ZrPtGe and
+ titanium-platinum-silicon (1:1:1), TiPtSi
+;
+_journal_issue                   1
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              7
+_journal_volume                  225
+_journal_year                    2010
+_chemical_formula_sum            'Pt Si Zr'
+_chemical_formula_weight         314.40
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_date             2010-01-21T10:04:24-00:00
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.5970(2)
+_cell_length_b                   3.90170(10)
+_cell_length_c                   7.5395(2)
+_cell_measurement_reflns_used    73
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      100
+_cell_measurement_theta_min      3
+_cell_volume                     194.063(9)
+_computing_cell_refinement       'CSD (Akselrud, 1993)'
+_computing_data_collection       'CrystalClear (Rigaku Corp., 2000)'
+_computing_data_reduction        'CrystalClear (Rigaku Corp., 2000)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      295(2)
+_diffrn_detector_area_resol_mean 10.0000
+_diffrn_measured_fraction_theta_full 0.957
+_diffrn_measured_fraction_theta_max 0.957
+_diffrn_measurement_device       'Rigaku R-AXIS SPIDER'
+_diffrn_radiation_detector       'IP detector'
+_diffrn_radiation_monochromator  'Multilayer optics'
+_diffrn_radiation_source         'Rotating anode'
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.56088
+_diffrn_reflns_av_R_equivalents  0.0254
+_diffrn_reflns_av_sigmaI/netI    0.0274
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       -19
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       22
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            10004
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_full        61.32
+_diffrn_reflns_theta_max         61.32
+_diffrn_reflns_theta_min         3.24
+_diffrn_source_current           20.0000
+_diffrn_source_power             1.2000
+_diffrn_source_voltage           60.0000
+_exptl_absorpt_coefficient_mu    56.736
+_exptl_absorpt_correction_T_max  1.0
+_exptl_absorpt_correction_T_min  0.5297
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            metallic
+_exptl_crystal_density_diffrn    10.761
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             528
+_exptl_crystal_size_max          0.065
+_exptl_crystal_size_mid          0.052
+_exptl_crystal_size_min          0.026
+_refine_diff_density_max         12.218
+_refine_diff_density_min         -7.826
+_refine_diff_density_rms         1.703
+_refine_ls_extinction_coef       0.066(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.297
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         3158
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.297
+_refine_ls_R_factor_all          0.0344
+_refine_ls_R_factor_gt           0.0280
+_refine_ls_shift/su_max          0.008
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0400P)^2^+0.0587P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0691
+_refine_ls_wR_factor_ref         0.0845
+_reflns_number_gt                2768
+_reflns_number_total             3158
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            710037.cff
+_cod_data_source_block           SA_0007a_ZrPtSi
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_database_code               8103045
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'-x-1/2, y-1/2, z-1/2'
+'x, -y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pt Pt 0.145627(13) 0.2500 0.063802(10) 0.00405(2) Uani 1 2 d S . .
+Zr Zr 0.02422(3) 0.2500 0.67823(2) 0.00351(2) Uani 1 2 d S . .
+Si Si 0.26297(12) 0.2500 0.37804(11) 0.00418(8) Uani 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pt 0.00442(3) 0.00377(3) 0.00395(3) 0.000 0.00000(1) 0.000
+Zr 0.00356(5) 0.00372(5) 0.00324(4) 0.000 -0.00021(3) 0.000
+Si 0.0042(2) 0.0037(2) 0.00461(19) 0.000 -0.00010(16) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Pt Pt -0.6812 5.7081 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0522 0.0431 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zr Zr -0.5364 2.6141 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Si Pt Si 103.98(3) 2_554 2_564 ?
+Si Pt Si 117.518(12) 2_554 . ?
+Si Pt Si 117.518(12) 2_564 . ?
+Si Pt Si 109.678(19) 2_554 6_556 ?
+Si Pt Si 109.678(19) 2_564 6_556 ?
+Si Pt Si 98.241(19) . 6_556 ?
+Si Pt Pt 56.229(18) 2_554 5 ?
+Si Pt Pt 120.220(19) 2_564 5 ?
+Si Pt Pt 121.380(12) . 5 ?
+Si Pt Pt 53.449(10) 6_556 5 ?
+Si Pt Pt 120.220(19) 2_554 5_565 ?
+Si Pt Pt 56.229(18) 2_564 5_565 ?
+Si Pt Pt 121.380(12) . 5_565 ?
+Si Pt Pt 53.449(10) 6_556 5_565 ?
+Pt Pt Pt 84.471(5) 5 5_565 ?
+Si Pt Zr 168.103(16) 2_554 5_566 ?
+Si Pt Zr 86.837(15) 2_564 5_566 ?
+Si Pt Zr 59.693(13) . 5_566 ?
+Si Pt Zr 61.110(12) 6_556 5_566 ?
+Pt Pt Zr 114.098(6) 5 5_566 ?
+Pt Pt Zr 61.733(4) 5_565 5_566 ?
+Si Pt Zr 86.837(15) 2_554 5_556 ?
+Si Pt Zr 168.103(16) 2_564 5_556 ?
+Si Pt Zr 59.693(13) . 5_556 ?
+Si Pt Zr 61.110(12) 6_556 5_556 ?
+Pt Pt Zr 61.733(4) 5 5_556 ?
+Pt Pt Zr 114.098(6) 5_565 5_556 ?
+Zr Pt Zr 81.990(5) 5_566 5_556 ?
+Si Pt Zr 61.274(17) 2_554 1_554 ?
+Si Pt Zr 61.274(17) 2_564 1_554 ?
+Si Pt Zr 177.31(2) . 1_554 ?
+Si Pt Zr 84.450(18) 6_556 1_554 ?
+Pt Pt Zr 60.302(4) 5 1_554 ?
+Pt Pt Zr 60.302(4) 5_565 1_554 ?
+Zr Pt Zr 122.034(4) 5_566 1_554 ?
+Zr Pt Zr 122.034(4) 5_556 1_554 ?
+Si Pt Zr 119.358(19) 2_554 2_564 ?
+Si Pt Zr 58.796(18) 2_564 2_564 ?
+Si Pt Zr 60.600(13) . 2_564 ?
+Si Pt Zr 130.955(10) 6_556 2_564 ?
+Pt Pt Zr 175.510(5) 5 2_564 ?
+Pt Pt Zr 97.854(3) 5_565 2_564 ?
+Zr Pt Zr 70.386(3) 5_566 2_564 ?
+Zr Pt Zr 120.257(4) 5_556 2_564 ?
+Zr Pt Zr 117.555(5) 1_554 2_564 ?
+Si Pt Zr 58.796(18) 2_554 2_554 ?
+Si Pt Zr 119.358(19) 2_564 2_554 ?
+Si Pt Zr 60.600(13) . 2_554 ?
+Si Pt Zr 130.955(10) 6_556 2_554 ?
+Pt Pt Zr 97.854(3) 5 2_554 ?
+Pt Pt Zr 175.510(5) 5_565 2_554 ?
+Zr Pt Zr 120.257(4) 5_566 2_554 ?
+Zr Pt Zr 70.386(3) 5_556 2_554 ?
+Zr Pt Zr 117.555(5) 1_554 2_554 ?
+Zr Pt Zr 79.571(5) 2_564 2_554 ?
+Si Pt Zr 57.973(16) 2_554 6_656 ?
+Si Pt Zr 57.973(16) 2_564 6_656 ?
+Si Pt Zr 108.059(19) . 6_656 ?
+Si Pt Zr 153.700(18) 6_556 6_656 ?
+Pt Pt Zr 109.815(5) 5 6_656 ?
+Pt Pt Zr 109.815(5) 5_565 6_656 ?
+Zr Pt Zr 133.634(3) 5_566 6_656 ?
+Zr Pt Zr 133.634(3) 5_556 6_656 ?
+Zr Pt Zr 69.251(3) 1_554 6_656 ?
+Zr Pt Zr 65.801(5) 2_564 6_656 ?
+Zr Pt Zr 65.801(5) 2_554 6_656 ?
+Si Zr Si 90.27(3) 5_556 5_566 ?
+Si Zr Si 105.466(19) 5_556 . ?
+Si Zr Si 105.466(19) 5_566 . ?
+Si Zr Si 155.510(17) 5_556 2_565 ?
+Si Zr Si 86.278(13) 5_566 2_565 ?
+Si Zr Si 98.813(8) . 2_565 ?
+Si Zr Si 86.278(13) 5_556 2 ?
+Si Zr Si 155.510(17) 5_566 2 ?
+Si Zr Si 98.813(8) . 2 ?
+Si Zr Si 86.90(2) 2_565 2 ?
+Si Zr Pt 107.844(16) 5_556 5_566 ?
+Si Zr Pt 51.427(16) 5_566 5_566 ?
+Si Zr Pt 138.766(3) . 5_566 ?
+Si Zr Pt 52.265(16) 2_565 5_566 ?
+Si Zr Pt 106.876(15) 2 5_566 ?
+Si Zr Pt 51.427(16) 5_556 5_556 ?
+Si Zr Pt 107.844(17) 5_566 5_556 ?
+Si Zr Pt 138.766(3) . 5_556 ?
+Si Zr Pt 106.876(15) 2_565 5_556 ?
+Si Zr Pt 52.265(16) 2 5_556 ?
+Pt Zr Pt 81.990(5) 5_566 5_556 ?
+Si Zr Pt 109.357(17) 5_556 1_556 ?
+Si Zr Pt 109.357(17) 5_566 1_556 ?
+Si Zr Pt 129.761(18) . 1_556 ?
+Si Zr Pt 49.949(13) 2_565 1_556 ?
+Si Zr Pt 49.949(13) 2 1_556 ?
+Pt Zr Pt 57.966(4) 5_566 1_556 ?
+Pt Zr Pt 57.966(4) 5_556 1_556 ?
+Si Zr Pt 154.387(18) 5_556 2_565 ?
+Si Zr Pt 89.690(14) 5_566 2_565 ?
+Si Zr Pt 50.180(10) . 2_565 ?
+Si Zr Pt 49.954(16) 2_565 2_565 ?
+Si Zr Pt 103.698(16) 2 2_565 ?
+Pt Zr Pt 91.976(3) 5_566 2_565 ?
+Pt Zr Pt 150.931(7) 5_556 2_565 ?
+Pt Zr Pt 94.765(5) 1_556 2_565 ?
+Si Zr Pt 89.690(13) 5_556 2 ?
+Si Zr Pt 154.387(18) 5_566 2 ?
+Si Zr Pt 50.180(10) . 2 ?
+Si Zr Pt 103.698(16) 2_565 2 ?
+Si Zr Pt 49.954(16) 2 2 ?
+Pt Zr Pt 150.932(7) 5_566 2 ?
+Pt Zr Pt 91.976(3) 5_556 2 ?
+Pt Zr Pt 94.765(5) 1_556 2 ?
+Pt Zr Pt 79.571(5) 2_565 2 ?
+Si Zr Pt 49.703(14) 5_556 6_556 ?
+Si Zr Pt 49.703(14) 5_566 6_556 ?
+Si Zr Pt 88.681(18) . 6_556 ?
+Si Zr Pt 135.475(12) 2_565 6_556 ?
+Si Zr Pt 135.474(12) 2 6_556 ?
+Pt Zr Pt 94.681(5) 5_566 6_556 ?
+Pt Zr Pt 94.681(5) 5_556 6_556 ?
+Pt Zr Pt 141.557(7) 1_556 6_556 ?
+Pt Zr Pt 114.199(5) 2_565 6_556 ?
+Pt Zr Pt 114.199(5) 2 6_556 ?
+Si Zr Zr 52.803(17) 5_556 5_556 ?
+Si Zr Zr 102.965(17) 5_566 5_556 ?
+Si Zr Zr 52.663(12) . 5_556 ?
+Si Zr Zr 151.326(19) 2_565 5_556 ?
+Si Zr Zr 94.190(13) 2 5_556 ?
+Pt Zr Zr 150.966(10) 5_566 5_556 ?
+Pt Zr Zr 96.152(4) 5_556 5_556 ?
+Pt Zr Zr 143.327(4) 1_556 5_556 ?
+Pt Zr Zr 102.394(8) 2_565 5_556 ?
+Pt Zr Zr 57.742(5) 2 5_556 ?
+Pt Zr Zr 56.457(6) 6_556 5_556 ?
+Pt Si Pt 103.98(3) 2_565 2 ?
+Pt Si Pt 127.828(15) 2_565 . ?
+Pt Si Pt 127.828(15) 2 . ?
+Pt Si Pt 70.322(19) 2_565 6_656 ?
+Pt Si Pt 70.322(19) 2 6_656 ?
+Pt Si Pt 117.95(3) . 6_656 ?
+Pt Si Zr 144.42(3) 2_565 5_556 ?
+Pt Si Zr 72.324(9) 2 5_556 ?
+Pt Si Zr 68.880(18) . 5_556 ?
+Pt Si Zr 134.796(13) 6_656 5_556 ?
+Pt Si Zr 72.324(9) 2_565 5_566 ?
+Pt Si Zr 144.42(3) 2 5_566 ?
+Pt Si Zr 68.880(18) . 5_566 ?
+Pt Si Zr 134.796(13) 6_656 5_566 ?
+Zr Si Zr 90.27(2) 5_556 5_566 ?
+Pt Si Zr 71.024(19) 2_565 . ?
+Pt Si Zr 71.024(19) 2 . ?
+Pt Si Zr 127.07(3) . . ?
+Pt Si Zr 114.98(3) 6_656 . ?
+Zr Si Zr 74.534(19) 5_556 . ?
+Zr Si Zr 74.534(19) 5_566 . ?
+Pt Si Zr 68.777(10) 2_565 2_564 ?
+Pt Si Zr 136.20(3) 2 2_564 ?
+Pt Si Zr 69.446(18) . 2_564 ?
+Pt Si Zr 66.625(17) 6_656 2_564 ?
+Zr Si Zr 138.27(3) 5_556 2_564 ?
+Zr Si Zr 76.782(10) 5_566 2_564 ?
+Zr Si Zr 135.941(12) . 2_564 ?
+Pt Si Zr 136.20(3) 2_565 2_554 ?
+Pt Si Zr 68.777(10) 2 2_554 ?
+Pt Si Zr 69.446(18) . 2_554 ?
+Pt Si Zr 66.625(17) 6_656 2_554 ?
+Zr Si Zr 76.782(10) 5_556 2_554 ?
+Zr Si Zr 138.27(3) 5_566 2_554 ?
+Zr Si Zr 135.941(12) . 2_554 ?
+Zr Si Zr 86.90(2) 2_564 2_554 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pt Si 2.4761(5) 2_554 ?
+Pt Si 2.4761(5) 2_564 ?
+Pt Si 2.4925(8) . ?
+Pt Si 2.5622(8) 6_556 ?
+Pt Pt 2.90227(13) 5 ?
+Pt Pt 2.90227(13) 5_565 ?
+Pt Zr 2.97389(16) 5_566 ?
+Pt Zr 2.97389(16) 5_556 ?
+Pt Zr 3.0153(2) 1_554 ?
+Pt Zr 3.04861(17) 2_564 ?
+Pt Zr 3.04861(17) 2_554 ?
+Pt Zr 3.0932(2) 6_656 ?
+Zr Si 2.7523(6) 5_556 ?
+Zr Si 2.7523(6) 5_566 ?
+Zr Si 2.7574(8) . ?
+Zr Si 2.8366(6) 2_565 ?
+Zr Si 2.8366(6) 2 ?
+Zr Pt 2.97389(16) 5_566 ?
+Zr Pt 2.97389(16) 5_556 ?
+Zr Pt 3.0153(2) 1_556 ?
+Zr Pt 3.04860(17) 2_565 ?
+Zr Pt 3.04860(17) 2 ?
+Zr Pt 3.0932(2) 6_556 ?
+Zr Zr 3.3363(3) 5_556 ?
+Si Pt 2.4761(5) 2_565 ?
+Si Pt 2.4761(5) 2 ?
+Si Pt 2.5622(8) 6_656 ?
+Si Zr 2.7523(6) 5_556 ?
+Si Zr 2.7523(6) 5_566 ?
+Si Zr 2.8366(6) 2_564 ?
+Si Zr 2.8366(6) 2_554 ?

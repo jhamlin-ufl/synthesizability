@@ -1,0 +1,136 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-08-21 00:21:57 +0300 (Thu, 21 Aug 2025) $
+#$Revision: 301837 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/31/00/4310030.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4310030
+loop_
+_publ_author_name
+'Pavel Karen'
+'Emmanuelle Suard'
+'Fran\,cois Fauth'
+_publ_contact_author_address
+; Pavel Karen                             
+  Department of Chemistry                 
+  University of Oslo                      
+  POBox 1033 Blindern                     
+  N-0315 OSLO, Norway 
+;
+_publ_contact_author_email       'pavel.karen at kjemi.uio.no'
+_publ_contact_author_fax         '+ 4722855441'
+_publ_contact_author_phone       '+ 4722855590'
+_publ_section_title
+;
+Crystal Structure of Stoichiometric YBa2Fe3O8
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              8170
+_journal_page_last               8172
+_journal_paper_doi               10.1021/ic048746b
+_journal_volume                  44
+_journal_year                    2005
+_chemical_formula_sum            Fe
+_chemical_formula_weight         55.85
+_space_group_IT_number           72
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-I 2 2c'
+_symmetry_space_group_name_H-M   'I b a m'
+_audit_author_name               'Pavel Karen'
+_audit_creation_date             2005-04-23T16:53
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2005-04-23T16:53  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            12
+_cell_length_a                   5.54077
+_cell_length_b                   5.54077
+_cell_length_c                   23.64884
+_cell_volume                     726.023
+_computing_structure_refinement  GSAS
+_pd_block_id                     2005-04-23T16:53|YBFO8_phase4|Pavel_Karen||
+_pd_phase_name                   'magnetic phase 1'
+_pd_proc_ls_prof_R_factor        0.0271
+_pd_proc_ls_prof_wR_factor       0.0417
+_refine_ls_goodness_of_fit_all   1.92
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     152
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            ic048746bsi20050425_045928_ph4.cif
+_cod_data_source_block           YBFO8_phase_4
+_cod_original_cell_volume        726.02362
+_cod_database_code               4310030
+_cod_database_fobs_code          4310030
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z
+3 +x+1/2,-y+1/2,+z
+4 -x,-y,+z
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z
+-3 -x+1/2,+y+1/2,-z
+-4 +x,+y,-z
+101 +x+1/2,+y+1/2,+z+1/2
+102 -x,+y,+z+1/2
+103 +x,-y,+z+1/2
+104 -x+1/2,-y+1/2,+z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +x,-y,-z+1/2
+-103 -x,+y,-z+1/2
+-104 +x+1/2,+y+1/2,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Fe Fe(1) 0.0 0.5 0.25 1.0 Uiso 0.00362(23) 4
+Fe Fe(2) 0.0 0.5 0.079960(34) 1.0 Uiso 0.00229(14) 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Fe 12.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+? ? ? ? ? ?
+loop_
+_pd_block_diffractogram_id
+2005-04-23T16:53|YBFO8_H_02|Pavel_Karen|D2B
+2005-04-23T16:53|YBFO8_H_03|Pavel_Karen|D2B
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22368
+2 PubChem 139129904

@@ -1,0 +1,726 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "GdFe0.37Ge2_CeNiSi2_Jemmali2010",
+  "space": "../../../refits_2026-11/cifs_new/0553",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0553_HM_GdFeGe3.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [
+   "Gd0.5Fe3Ge3_YCo6Ge6_oqmd1791584half",
+   "Ge_cod_1563567_o1"
+  ],
+  "partner_scales": [],
+  "wR": 7.516887990886581,
+  "gof": 2.494107985282988,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    0.6603,
+    0.2066,
+    0.1331
+   ],
+   "cells": [
+    {
+     "length_a": 4.16008,
+     "length_b": 16.06475,
+     "length_c": 4.04222
+    },
+    {
+     "length_a": 5.12625,
+     "length_b": 5.12625,
+     "length_c": 4.07263
+    },
+    {
+     "length_a": 5.65631,
+     "length_b": 5.65631,
+     "length_c": 5.65631
+    }
+   ],
+   "shift": 6.610174592377707,
+   "size": 1.0,
+   "mustrain": 8307.640020163208,
+   "md": null,
+   "atoms": {
+    "Gd": {
+     "occ": 1.0,
+     "uiso": 0.0107
+    },
+    "Fe": {
+     "occ": 0.37,
+     "uiso": 0.0171
+    },
+    "Ge1": {
+     "occ": 1.0,
+     "uiso": 0.0121
+    },
+    "Ge2": {
+     "occ": 1.0,
+     "uiso": 0.03
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 26.221,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.553,
+     0.1985,
+     0.2485
+    ],
+    "cells": [
+     {
+      "length_a": 4.1508,
+      "length_b": 16.0609,
+      "length_c": 4.0239
+     },
+     {
+      "length_a": 5.12366,
+      "length_b": 5.12366,
+      "length_c": 4.07756
+     },
+     {
+      "length_a": 5.6575,
+      "length_b": 5.6575,
+      "length_c": 5.6575
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 25.048,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.4842,
+     0.3338,
+     0.182
+    ],
+    "cells": [
+     {
+      "length_a": 4.1508,
+      "length_b": 16.0609,
+      "length_c": 4.0239
+     },
+     {
+      "length_a": 5.12366,
+      "length_b": 5.12366,
+      "length_c": 4.07756
+     },
+     {
+      "length_a": 5.6575,
+      "length_b": 5.6575,
+      "length_c": 5.6575
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 16.356,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.59,
+     0.2551,
+     0.1549
+    ],
+    "cells": [
+     {
+      "length_a": 4.16139,
+      "length_b": 16.05312,
+      "length_c": 4.04295
+     },
+     {
+      "length_a": 5.12366,
+      "length_b": 5.12366,
+      "length_c": 4.07756
+     },
+     {
+      "length_a": 5.6575,
+      "length_b": 5.6575,
+      "length_c": 5.6575
+     }
+    ],
+    "shift": -1.7776953666093376,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Gd0.5Fe3Ge3_YCo6Ge6_oqmd1791584half cell",
+   "wR": 15.782,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.5867,
+     0.2604,
+     0.1528
+    ],
+    "cells": [
+     {
+      "length_a": 4.16154,
+      "length_b": 16.05352,
+      "length_c": 4.04353
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.6575,
+      "length_b": 5.6575,
+      "length_c": 5.6575
+     }
+    ],
+    "shift": -5.45183573662843,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Ge_cod_1563567_o1 cell",
+   "wR": 15.731,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.5869,
+     0.2599,
+     0.1532
+    ],
+    "cells": [
+     {
+      "length_a": 4.16135,
+      "length_b": 16.05258,
+      "length_c": 4.04338
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 0.30830922552594586,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 8.557,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6966,
+     0.1838,
+     0.1195
+    ],
+    "cells": [
+     {
+      "length_a": 4.16037,
+      "length_b": 16.06536,
+      "length_c": 4.04214
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 4.113389738367498,
+    "size": 1.0,
+    "mustrain": 8341.091713699703,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 8.556,
+   "kept": false,
+   "note": "no gain over 8.56",
+   "state": {
+    "wt": [
+     0.6968,
+     0.1837,
+     0.1194
+    ],
+    "cells": [
+     {
+      "length_a": 4.16038,
+      "length_b": 16.06542,
+      "length_c": 4.04214
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 4.063040587716693,
+    "size": 2.316888220207461,
+    "mustrain": 8633.97227001512,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Gd0.5Fe3Ge3_YCo6Ge6_oqmd1791584half microstrain",
+   "wR": 8.161,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6714,
+     0.2124,
+     0.1162
+    ],
+    "cells": [
+     {
+      "length_a": 4.16024,
+      "length_b": 16.06548,
+      "length_c": 4.042
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 4.892784790064116,
+    "size": 1.0,
+    "mustrain": 8312.707738868474,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Ge_cod_1563567_o1 microstrain",
+   "wR": 7.686,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6591,
+     0.2093,
+     0.1316
+    ],
+    "cells": [
+     {
+      "length_a": 4.1601,
+      "length_b": 16.065,
+      "length_c": 4.04218
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 6.42730285821945,
+    "size": 1.0,
+    "mustrain": 8343.170971921763,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 7.72,
+   "kept": false,
+   "note": "no gain over 7.69",
+   "state": {
+    "wt": [
+     0.662,
+     0.2078,
+     0.1302
+    ],
+    "cells": [
+     {
+      "length_a": 4.16004,
+      "length_b": 16.06525,
+      "length_c": 4.04217
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 6.6175847452062175,
+    "size": 1.0,
+    "mustrain": 8251.2744407443,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.01616
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.01616
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.01616
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01616
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 7.517,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6603,
+     0.2066,
+     0.1331
+    ],
+    "cells": [
+     {
+      "length_a": 4.16008,
+      "length_b": 16.06475,
+      "length_c": 4.04222
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 6.60619334116462,
+    "size": 1.0,
+    "mustrain": 8307.874005670548,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 7.517,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6603,
+     0.2066,
+     0.1331
+    ],
+    "cells": [
+     {
+      "length_a": 4.16008,
+      "length_b": 16.06475,
+      "length_c": 4.04222
+     },
+     {
+      "length_a": 5.12625,
+      "length_b": 5.12625,
+      "length_c": 4.07263
+     },
+     {
+      "length_a": 5.65631,
+      "length_b": 5.65631,
+      "length_c": 5.65631
+     }
+    ],
+    "shift": 6.610174592377707,
+    "size": 1.0,
+    "mustrain": 8307.640020163208,
+    "md": null,
+    "atoms": {
+     "Gd": {
+      "occ": 1.0,
+      "uiso": 0.0107
+     },
+     "Fe": {
+      "occ": 0.37,
+      "uiso": 0.0171
+     },
+     "Ge1": {
+      "occ": 1.0,
+      "uiso": 0.0121
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.03
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

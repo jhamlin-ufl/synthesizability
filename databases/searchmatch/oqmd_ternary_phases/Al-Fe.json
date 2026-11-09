@@ -1,0 +1,513 @@
+{
+  "space": "Al-Fe",
+  "elements": [
+    "Al",
+    "Fe"
+  ],
+  "entries": [
+    {
+      "entry_id": 1521899,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.3317875300000006,
+      "stability": -0.035573586999999796,
+      "icsd": false
+    },
+    {
+      "entry_id": 1521903,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.3317875300000006,
+      "stability": -0.035573586999999796,
+      "icsd": false
+    },
+    {
+      "entry_id": 10461,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.200551367500001,
+      "stability": -0.03465760250000069,
+      "icsd": true
+    },
+    {
+      "entry_id": 1376945,
+      "composition_id": "Al2 Fe1",
+      "delta_e": -0.359988993333334,
+      "stability": -0.021841432362243007,
+      "icsd": false
+    },
+    {
+      "entry_id": 2050075,
+      "composition_id": "Al13 Fe4",
+      "delta_e": -0.3306408843137259,
+      "stability": -0.019271085573869307,
+      "icsd": true
+    },
+    {
+      "entry_id": 304642,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331757625000001,
+      "stability": 2.990499999960816e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 54708,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331755675000001,
+      "stability": 3.185499999958097e-05,
+      "icsd": true
+    },
+    {
+      "entry_id": 1981834,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.3317261700000005,
+      "stability": 6.136000000012132e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 1981998,
+      "composition_id": "Al2 Fe1",
+      "delta_e": -0.3598974500000007,
+      "stability": 9.154333333333264e-05,
+      "icsd": false
+    },
+    {
+      "entry_id": 20929,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331671410000001,
+      "stability": 0.00011611999999960876,
+      "icsd": true
+    },
+    {
+      "entry_id": 343418,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.200428172500001,
+      "stability": 0.00012319499999999262,
+      "icsd": false
+    },
+    {
+      "entry_id": 110794,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331630775000001,
+      "stability": 0.00015675499999961984,
+      "icsd": true
+    },
+    {
+      "entry_id": 1338853,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331629897500001,
+      "stability": 0.00015763249999961593,
+      "icsd": false
+    },
+    {
+      "entry_id": 110795,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331626890000001,
+      "stability": 0.0001606399999996011,
+      "icsd": true
+    },
+    {
+      "entry_id": 1340108,
+      "composition_id": "Al2 Fe1",
+      "delta_e": -0.359765752,
+      "stability": 0.0002232413333340122,
+      "icsd": false
+    },
+    {
+      "entry_id": 1217520,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.331177930000001,
+      "stability": 0.0006095999999995994,
+      "icsd": false
+    },
+    {
+      "entry_id": 311670,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.19992777,
+      "stability": 0.0006235975000009886,
+      "icsd": false
+    },
+    {
+      "entry_id": 2031002,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.1992475125000004,
+      "stability": 0.0013038550000006033,
+      "icsd": true
+    },
+    {
+      "entry_id": 2051979,
+      "composition_id": "Al8 Fe3",
+      "delta_e": -0.34046029954545465,
+      "stability": 0.0013862263405796105,
+      "icsd": true
+    },
+    {
+      "entry_id": 27782,
+      "composition_id": "Al6 Fe1",
+      "delta_e": -0.197205381428572,
+      "stability": 0.0035408707065926748,
+      "icsd": true
+    },
+    {
+      "entry_id": 19338,
+      "composition_id": "Al6 Fe1",
+      "delta_e": -0.197171362142857,
+      "stability": 0.0035748899923076782,
+      "icsd": true
+    },
+    {
+      "entry_id": 1795953,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.3295323193749997,
+      "stability": 0.005510781291667433,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782361,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.19423855375000088,
+      "stability": 0.006312813750000118,
+      "icsd": false
+    },
+    {
+      "entry_id": 27783,
+      "composition_id": "Al9 Fe2",
+      "delta_e": -0.240078312272728,
+      "stability": 0.01541691561340322,
+      "icsd": true
+    },
+    {
+      "entry_id": 2049262,
+      "composition_id": "Al13 Fe3",
+      "delta_e": -0.24784542031250023,
+      "stability": 0.015634034375000105,
+      "icsd": true
+    },
+    {
+      "entry_id": 1483792,
+      "composition_id": "Al12 Fe1",
+      "delta_e": -0.0923803438461541,
+      "stability": 0.015713792427612852,
+      "icsd": false
+    },
+    {
+      "entry_id": 318932,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.184226807500001,
+      "stability": 0.016324559999999988,
+      "icsd": false
+    },
+    {
+      "entry_id": 336184,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.307771380000001,
+      "stability": 0.024016149999999625,
+      "icsd": false
+    },
+    {
+      "entry_id": 301128,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.171723880000001,
+      "stability": 0.0288274875,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782482,
+      "composition_id": "Al11 Fe4",
+      "delta_e": -0.3084742920000006,
+      "stability": 0.031557987199999915,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782958,
+      "composition_id": "Al3 Fe5",
+      "delta_e": -0.23431772500000037,
+      "stability": 0.03185172375000045,
+      "icsd": false
+    },
+    {
+      "entry_id": 1787084,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.2988062862499996,
+      "stability": 0.03623681441666754,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085912,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.15140922062500106,
+      "stability": 0.04914214687499993,
+      "icsd": false
+    },
+    {
+      "entry_id": 1338634,
+      "composition_id": "Al2 Fe1",
+      "delta_e": -0.301338075,
+      "stability": 0.05865091833333402,
+      "icsd": false
+    },
+    {
+      "entry_id": 2083175,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.26558079250000066,
+      "stability": 0.06620673749999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782617,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.2640637670000004,
+      "stability": 0.06772376300000021,
+      "icsd": false
+    },
+    {
+      "entry_id": 21530,
+      "composition_id": "Al8 Fe5",
+      "delta_e": -0.281793655384616,
+      "stability": 0.0695179645503044,
+      "icsd": true
+    },
+    {
+      "entry_id": 1793836,
+      "composition_id": "Al2 Fe3",
+      "delta_e": -0.18673885200000057,
+      "stability": 0.09255421300000022,
+      "icsd": false
+    },
+    {
+      "entry_id": 1797268,
+      "composition_id": "Al3 Fe2",
+      "delta_e": -0.23956495799999972,
+      "stability": 0.10914345000000092,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082209,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.08839342750000068,
+      "stability": 0.11215794000000032,
+      "icsd": false
+    },
+    {
+      "entry_id": 1227986,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.206792610000001,
+      "stability": 0.12499491999999962,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082059,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.20634187375000046,
+      "stability": 0.12544565625000015,
+      "icsd": false
+    },
+    {
+      "entry_id": 1338557,
+      "composition_id": "Al8 Fe3",
+      "delta_e": -0.216063093636364,
+      "stability": 0.12578343224967026,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082509,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.2031008500000011,
+      "stability": 0.1286866799999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080359,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.20151634750000103,
+      "stability": 0.13027118249999958,
+      "icsd": false
+    },
+    {
+      "entry_id": 1790906,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.19861540666666735,
+      "stability": 0.13317212333333325,
+      "icsd": false
+    },
+    {
+      "entry_id": 10460,
+      "composition_id": "Al1 Fe2",
+      "delta_e": -0.108663510000001,
+      "stability": 0.135633244562546,
+      "icsd": true
+    },
+    {
+      "entry_id": 1590936,
+      "composition_id": "Al1 Fe2",
+      "delta_e": -0.10858951166666723,
+      "stability": 0.13570724289587976,
+      "icsd": false
+    },
+    {
+      "entry_id": 2084719,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.1926757150000009,
+      "stability": 0.1391118149999997,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121093,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.19267570250000077,
+      "stability": 0.13911182749999984,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080590,
+      "composition_id": "Al1 Fe3",
+      "delta_e": -0.061247090625000666,
+      "stability": 0.13930427687500033,
+      "icsd": false
+    },
+    {
+      "entry_id": 2085776,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.18330111000000038,
+      "stability": 0.14848642000000023,
+      "icsd": false
+    },
+    {
+      "entry_id": 297859,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.1749989675,
+      "stability": 0.16004413316666716,
+      "icsd": false
+    },
+    {
+      "entry_id": 2086048,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.16918463875,
+      "stability": 0.16585846191666714,
+      "icsd": false
+    },
+    {
+      "entry_id": 2121396,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.16556757374999975,
+      "stability": 0.1694755269166674,
+      "icsd": false
+    },
+    {
+      "entry_id": 325726,
+      "composition_id": "Al1 Fe1",
+      "delta_e": -0.157522370000001,
+      "stability": 0.1742651599999996,
+      "icsd": false
+    },
+    {
+      "entry_id": 322212,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.158876752499999,
+      "stability": 0.17616634816666815,
+      "icsd": false
+    },
+    {
+      "entry_id": 1339316,
+      "composition_id": "Al5 Fe3",
+      "delta_e": -0.170051319375,
+      "stability": 0.18288730812500065,
+      "icsd": false
+    },
+    {
+      "entry_id": 2082359,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.14510027124999958,
+      "stability": 0.18994282941666757,
+      "icsd": false
+    },
+    {
+      "entry_id": 346698,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.1146997175,
+      "stability": 0.22034338316666713,
+      "icsd": false
+    },
+    {
+      "entry_id": 2080726,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.10704933124999982,
+      "stability": 0.22799376941666732,
+      "icsd": false
+    },
+    {
+      "entry_id": 1603483,
+      "composition_id": "Al1 Fe5",
+      "delta_e": 0.12483986333333282,
+      "stability": 0.2585407756685047,
+      "icsd": false
+    },
+    {
+      "entry_id": 308390,
+      "composition_id": "Al3 Fe1",
+      "delta_e": -0.0213879475000001,
+      "stability": 0.31365515316666703,
+      "icsd": false
+    },
+    {
+      "entry_id": 1416025,
+      "composition_id": "Al2 Fe1",
+      "delta_e": -0.0300805666666673,
+      "stability": 0.3299084266666667,
+      "icsd": false
+    },
+    {
+      "entry_id": 1231472,
+      "composition_id": "Al2 Fe1",
+      "delta_e": 0.0669283499999995,
+      "stability": 0.42691734333333353,
+      "icsd": false
+    },
+    {
+      "entry_id": 425550,
+      "composition_id": "Al2 Fe3",
+      "delta_e": 0.302962372999999,
+      "stability": 0.5822554379999998,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590044,
+      "composition_id": "Al2 Fe1",
+      "delta_e": 0.27802493333333267,
+      "stability": 0.6380139266666667,
+      "icsd": false
+    },
+    {
+      "entry_id": 1416026,
+      "composition_id": "Al1 Fe2",
+      "delta_e": 0.416038189999999,
+      "stability": 0.6603349445625459,
+      "icsd": false
+    },
+    {
+      "entry_id": 1103828,
+      "composition_id": "Al1 Fe1",
+      "delta_e": 0.376590029999999,
+      "stability": 0.7083775599999996,
+      "icsd": false
+    },
+    {
+      "entry_id": 1224500,
+      "composition_id": "Al1 Fe1",
+      "delta_e": 0.6596262075,
+      "stability": 0.9914137375000006,
+      "icsd": false
+    },
+    {
+      "entry_id": 1218306,
+      "composition_id": "Al1 Fe1",
+      "delta_e": 1.20344095,
+      "stability": 1.5352284800000007,
+      "icsd": false
+    },
+    {
+      "entry_id": 1239779,
+      "composition_id": "Al2 Fe1",
+      "delta_e": 1.41909557166667,
+      "stability": 1.779084565000004,
+      "icsd": false
+    }
+  ]
+}

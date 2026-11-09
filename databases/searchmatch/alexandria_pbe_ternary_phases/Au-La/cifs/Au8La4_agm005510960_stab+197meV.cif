@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40249644
+_cell_length_b   4.40249644
+_cell_length_c   16.10007051
+_cell_angle_alpha   97.85825827
+_cell_angle_beta   97.85825827
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaAu2
+_chemical_formula_sum   'La4 Au8'
+_cell_volume   306.16237940
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Au  Au0  1  0.24970818  0.24970818  0.49941635  1
+  Au  Au1  1  0.75029182  0.75029182  0.50058365  1
+  Au  Au2  1  0.49970818  0.99970818  0.99941635  1
+  Au  Au3  1  0.00029182  0.50029182  0.00058365  1
+  Au  Au4  1  0.40388354  0.40388354  0.80776707  1
+  Au  Au5  1  0.59611646  0.59611646  0.19223293  1
+  Au  Au6  1  0.65388354  0.15388354  0.30776707  1
+  Au  Au7  1  0.84611646  0.34611646  0.69223293  1
+  La  La8  1  0.07044261  0.07044261  0.14088521  1
+  La  La9  1  0.92955739  0.92955739  0.85911479  1
+  La  La10  1  0.32044261  0.82044261  0.64088521  1
+  La  La11  1  0.17955739  0.67955739  0.35911479  1

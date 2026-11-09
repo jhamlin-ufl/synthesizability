@@ -1,0 +1,51 @@
+{
+  "space": "Ge-Pd",
+  "elements": [
+    "Ge",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-582201",
+      "composition_id": "Ge8 Pd21",
+      "delta_e": -0.48071156448275704,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1424",
+      "composition_id": "Ge1 Pd1",
+      "delta_e": -0.46116567749999804,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-423",
+      "composition_id": "Ge1 Pd2",
+      "delta_e": -0.5388015261111101,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1103057",
+      "composition_id": "Ge1 Pd5",
+      "delta_e": -0.318894921666663,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-15843",
+      "composition_id": "Ge9 Pd25",
+      "delta_e": -0.45306283102941003,
+      "stability": 0.011116382948914,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1184682",
+      "composition_id": "Ge3 Pd1",
+      "delta_e": 0.06629141125,
+      "stability": 0.29687425,
+      "icsd": false
+    }
+  ]
+}

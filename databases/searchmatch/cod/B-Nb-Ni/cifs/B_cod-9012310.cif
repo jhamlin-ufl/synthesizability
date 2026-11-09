@@ -1,0 +1,85 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $
+#$Revision: 291877 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/23/9012310.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012310
+loop_
+_publ_author_name
+'Hoard, J. L.'
+'Hughes, R. E.'
+'Sands, D. E.'
+_publ_section_title
+;
+ The structure of tetragonal boron
+ Sample: plate
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              4507
+_journal_page_last               4515
+_journal_paper_doi               10.1021/ja01550a019
+_journal_volume                  80
+_journal_year                    1958
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            B
+_chemical_name_common            Boron
+_chemical_name_mineral           Boron
+_space_group_IT_number           134
+_symmetry_space_group_name_Hall  'P 4n 2 -1n'
+_symmetry_space_group_name_H-M   'P 42/n n m :1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   8.771
+_cell_length_b                   8.771
+_cell_length_c                   5.088
+_cell_formula_units_Z            50
+_cell_volume                     391.422
+_database_code_amcsd             0014102
+_exptl_crystal_density_diffrn    2.293
+_cod_original_sg_symbol_H-M      'P 42/n n m'
+_cod_database_code               9012310
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-y,-x,z
+1/2+y,1/2+x,1/2-z
+y,-x,-z
+1/2-y,1/2+x,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,-z
+1/2+x,1/2+y,1/2-z
+-x,-y,z
+y,x,z
+1/2-y,1/2-x,1/2-z
+-y,x,-z
+1/2+y,1/2-x,1/2+z
+1/2-x,1/2+y,1/2+z
+x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+B1 0.32550 0.08750 0.40050 0.01634
+B2 0.22650 0.08250 0.08950 0.01976
+B3 0.12450 0.12450 0.38700 0.02052
+B4 0.24900 0.24900 0.58650 0.00836
+B5 0.00000 0.00000 0.50000 0.00861
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014102

@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/YAl3Cu2/buttons/0615/0615_HM_Al3Cu2Y_annealed_ZB.txt --space samples/YAl3Cu2/fits/0615_FoR_order/start --thin --uiso 0.0055 --occ order --partners Y3Cu1.98Al9.02_Immm_Krachan --out results/refits/0615_FoR_order --strict-final --accept-bound

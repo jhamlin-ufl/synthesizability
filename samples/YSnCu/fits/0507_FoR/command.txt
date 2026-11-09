@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/YSnCu/buttons/0507/0507_HM_CuSnY_circular.txt --space samples/YSnCu/fits/0507_FoR/start --occ pred --uiso-max 0.04 --main-key YCuSn_oqmd_1468383 --limits 18 118 --md --partners 'Y3(CuSn)4_oqmd_27582' --out results/refits/0507_FoR --strict-final --accept-bound

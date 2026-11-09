@@ -1,0 +1,317 @@
+{
+  "space": "Co-Si",
+  "elements": [
+    "Co",
+    "Si"
+  ],
+  "entries": [
+    {
+      "entry_id": 3604,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.62430027125,
+      "stability": -0.13842138020833306,
+      "icsd": true
+    },
+    {
+      "entry_id": 5256,
+      "composition_id": "Co1 Si2",
+      "delta_e": -0.474772893333333,
+      "stability": -0.05857271041899875,
+      "icsd": true
+    },
+    {
+      "entry_id": 646168,
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.464666235833333,
+      "stability": -0.027803288853852803,
+      "icsd": true
+    },
+    {
+      "entry_id": 2034705,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.34314428625000026,
+      "stability": 0.009578165624999357,
+      "icsd": true
+    },
+    {
+      "entry_id": 1795007,
+      "composition_id": "Co1 Si2",
+      "delta_e": -0.44593860000000046,
+      "stability": 0.02883429333333254,
+      "icsd": false
+    },
+    {
+      "entry_id": 2065304,
+      "composition_id": "Co1 Si64",
+      "delta_e": 0.01775958338461473,
+      "stability": 0.03967217838849581,
+      "icsd": true
+    },
+    {
+      "entry_id": 2065300,
+      "composition_id": "Co1 Si64",
+      "delta_e": 0.022102977076923044,
+      "stability": 0.044015572080804116,
+      "icsd": true
+    },
+    {
+      "entry_id": 1450801,
+      "composition_id": "Co2 Si3",
+      "delta_e": -0.4738339289999999,
+      "stability": 0.060749915499999974,
+      "icsd": false
+    },
+    {
+      "entry_id": 2026296,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.28441035375000023,
+      "stability": 0.06831209812499939,
+      "icsd": true
+    },
+    {
+      "entry_id": 1796221,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.2806924512500002,
+      "stability": 0.07203000062499942,
+      "icsd": false
+    },
+    {
+      "entry_id": 1793727,
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.3904337783333342,
+      "stability": 0.0742324574999988,
+      "icsd": false
+    },
+    {
+      "entry_id": 1800380,
+      "composition_id": "Co4 Si5",
+      "delta_e": -0.49294977611111157,
+      "stability": 0.0815080363317574,
+      "icsd": false
+    },
+    {
+      "entry_id": 1277167,
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.379331636111111,
+      "stability": 0.08533459972222202,
+      "icsd": false
+    },
+    {
+      "entry_id": 302429,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.267070463750001,
+      "stability": 0.08565198812499863,
+      "icsd": false
+    },
+    {
+      "entry_id": 1821353,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.263873839375,
+      "stability": 0.08884861249999965,
+      "icsd": false
+    },
+    {
+      "entry_id": 321869,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.263500485000001,
+      "stability": 0.08922196687499862,
+      "icsd": false
+    },
+    {
+      "entry_id": 312971,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.262716348750001,
+      "stability": 0.09000610312499863,
+      "icsd": false
+    },
+    {
+      "entry_id": 346355,
+      "composition_id": "Co3 Si1",
+      "delta_e": -0.26264368375,
+      "stability": 0.0900787681249996,
+      "icsd": false
+    },
+    {
+      "entry_id": 1799577,
+      "composition_id": "Co1 Si3",
+      "delta_e": -0.26338961374999936,
+      "stability": 0.09269005625000037,
+      "icsd": false
+    },
+    {
+      "entry_id": 1437891,
+      "composition_id": "Co1 Si4",
+      "delta_e": -0.1889237905,
+      "stability": 0.09593994549999982,
+      "icsd": false
+    },
+    {
+      "entry_id": 1344034,
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.360956662777778,
+      "stability": 0.103709573055555,
+      "icsd": false
+    },
+    {
+      "entry_id": 1473821,
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.3602576438888884,
+      "stability": 0.10440859194444457,
+      "icsd": false
+    },
+    {
+      "entry_id": 1793594,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.4892625825000003,
+      "stability": 0.13503768874999966,
+      "icsd": false
+    },
+    {
+      "entry_id": 1790921,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.44356475249999977,
+      "stability": 0.1807355187500002,
+      "icsd": false
+    },
+    {
+      "entry_id": 29477,
+      "composition_id": "Co2 Si3",
+      "delta_e": -0.333423488999999,
+      "stability": 0.20116035550000083,
+      "icsd": true
+    },
+    {
+      "entry_id": 306899,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.4173560775,
+      "stability": 0.20694419375,
+      "icsd": false
+    },
+    {
+      "entry_id": 19979,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.4143992025,
+      "stability": 0.20990106874999997,
+      "icsd": true
+    },
+    {
+      "entry_id": 1219825,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.41327926,
+      "stability": 0.21102101125,
+      "icsd": false
+    },
+    {
+      "entry_id": 338441,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.3938396375,
+      "stability": 0.23046063374999998,
+      "icsd": false
+    },
+    {
+      "entry_id": 1228990,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.3813273925,
+      "stability": 0.24297287875,
+      "icsd": false
+    },
+    {
+      "entry_id": 1415632,
+      "composition_id": "Co2 Si1",
+      "delta_e": -0.218291261666668,
+      "stability": 0.24637497416666498,
+      "icsd": false
+    },
+    {
+      "entry_id": 327983,
+      "composition_id": "Co1 Si1",
+      "delta_e": -0.3719772375,
+      "stability": 0.25232303375,
+      "icsd": false
+    },
+    {
+      "entry_id": 426554,
+      "composition_id": "Co2 Si3",
+      "delta_e": -0.221623624999999,
+      "stability": 0.31296021950000086,
+      "icsd": false
+    },
+    {
+      "entry_id": 300785,
+      "composition_id": "Co1 Si3",
+      "delta_e": 0.20460319625,
+      "stability": 0.5606828662499997,
+      "icsd": false
+    },
+    {
+      "entry_id": 347999,
+      "composition_id": "Co1 Si3",
+      "delta_e": 0.26282644375,
+      "stability": 0.6189061137499998,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591012,
+      "composition_id": "Co2 Si1",
+      "delta_e": 0.16363363166666645,
+      "stability": 0.6282998674999994,
+      "icsd": false
+    },
+    {
+      "entry_id": 323513,
+      "composition_id": "Co1 Si3",
+      "delta_e": 0.30242415125,
+      "stability": 0.6585038212499997,
+      "icsd": false
+    },
+    {
+      "entry_id": 1225504,
+      "composition_id": "Co1 Si1",
+      "delta_e": 0.0587033449999996,
+      "stability": 0.6830036162499996,
+      "icsd": false
+    },
+    {
+      "entry_id": 1106084,
+      "composition_id": "Co1 Si1",
+      "delta_e": 0.0781101274999996,
+      "stability": 0.7024103987499996,
+      "icsd": false
+    },
+    {
+      "entry_id": 311327,
+      "composition_id": "Co1 Si3",
+      "delta_e": 0.397100018750001,
+      "stability": 0.7531796887500007,
+      "icsd": false
+    },
+    {
+      "entry_id": 1232476,
+      "composition_id": "Co2 Si1",
+      "delta_e": 0.402338559999999,
+      "stability": 0.867004795833332,
+      "icsd": false
+    },
+    {
+      "entry_id": 1219311,
+      "composition_id": "Co1 Si1",
+      "delta_e": 0.3562711775,
+      "stability": 0.9805714487499999,
+      "icsd": false
+    },
+    {
+      "entry_id": 1590121,
+      "composition_id": "Co1 Si2",
+      "delta_e": 0.5194457866666665,
+      "stability": 0.9942186799999995,
+      "icsd": false
+    },
+    {
+      "entry_id": 1237500,
+      "composition_id": "Co1 Si2",
+      "delta_e": 0.622207958333333,
+      "stability": 1.096980851666666,
+      "icsd": false
+    }
+  ]
+}

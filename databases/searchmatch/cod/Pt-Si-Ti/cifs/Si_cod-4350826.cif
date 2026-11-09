@@ -1,0 +1,143 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-02-03 15:08:28 +0200 (Mon, 03 Feb 2025) $
+#$Revision: 297572 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/4/35/08/4350826.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4350826
+loop_
+_publ_author_name
+'Kurakevych, Oleksandr O.'
+'Le Godec, Yann'
+'Crichton, Wilson A.'
+'Guignard, J\'er\'emy'
+'Strobel, Timothy A.'
+'Zhang, Haidong'
+'Liu, Hanyu'
+'Coelho Diogo, Cristina'
+'Polian, Alain'
+'Menguy, Nicolas'
+'Juhl, Stephen J.'
+'Gervais, Christel'
+_publ_section_title
+;
+ Synthesis of Bulk BC8 Silicon Allotrope by Direct Transformation and
+ Reduced-Pressure Chemical Pathways
+;
+_journal_coden_ASTM              INOCAJ
+_journal_issue                   17
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              8943
+_journal_page_last               8950
+_journal_paper_doi               10.1021/acs.inorgchem.6b01443
+_journal_volume                  55
+_journal_year                    2016
+_chemical_formula_sum            Si
+_chemical_name_common            'Si III_Ia-3 BC8'
+_space_group_IT_number           206
+_space_group_name_Hall           '-I 2b 2c 3'
+_space_group_name_H-M_alt        'I a -3'
+_cell_angle_alpha                90.000000
+_cell_angle_beta                 90.000000
+_cell_angle_gamma                90.000000
+_cell_formula_units_Z            8
+_cell_length_a                   6.621800
+_cell_length_b                   6.621800
+_cell_length_c                   6.621800
+_cell_volume                     290.354
+_cod_data_source_file            submission_COD_SiIIIBC8_Ia-3_InChem.cif
+_cod_data_source_block           VESTA_phase_1
+_cod_original_cell_volume        290.977000
+_cod_database_code               4350826
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x+1/2,-y+1/2,-z
+5 -z,+x+1/2,-y+1/2
+6 -y+1/2,-z,+x+1/2
+7 -z+1/2,-x,+y+1/2
+8 +y+1/2,-z+1/2,-x
+9 -y,+z+1/2,-x+1/2
+10 -x+1/2,-y,+z+1/2
+11 +z+1/2,-x+1/2,-y
+12 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x+1/2,+y+1/2,+z
+-5 +z,-x+1/2,+y+1/2
+-6 +y+1/2,+z,-x+1/2
+-7 +z+1/2,+x,-y+1/2
+-8 -y+1/2,+z+1/2,+x
+-9 +y,-z+1/2,+x+1/2
+-10 +x+1/2,+y,-z+1/2
+-11 -z+1/2,+x+1/2,+y
+-12 +x,-y+1/2,+z+1/2
+101 +x+1/2,+y+1/2,+z+1/2
+102 +z+1/2,+x+1/2,+y+1/2
+103 +y+1/2,+z+1/2,+x+1/2
+104 +x,-y,-z+1/2
+105 -z+1/2,+x,-y
+106 -y,-z+1/2,+x
+107 -z,-x+1/2,+y
+108 +y,-z,-x+1/2
+109 -y+1/2,+z,-x
+110 -x,-y+1/2,+z
+111 +z,-x,-y+1/2
+112 -x+1/2,+y,-z
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 -z+1/2,-x+1/2,-y+1/2
+-103 -y+1/2,-z+1/2,-x+1/2
+-104 -x,+y,+z+1/2
+-105 +z+1/2,-x,+y
+-106 +y,+z+1/2,-x
+-107 +z,+x+1/2,-y
+-108 -y,+z,+x+1/2
+-109 +y+1/2,-z,+x
+-110 +x,+y+1/2,-z
+-111 -z,+x,+y+1/2
+-112 +x+1/2,-y,+z
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_type_symbol
+Si 0.9999 0.103000 0.103000 0.103000 Uiso Si
+loop_
+_atom_type_symbol
+Si
+loop_
+_citation_id
+_citation_title
+_citation_journal_full
+_citation_journal_id_ASTM
+_citation_year
+_citation_journal_volume
+_citation_journal_issue
+_citation_page_first
+_citation_page_last
+_citation_doi
+_citation_special_details
+1
+;
+ Correction to Synthesis of Bulk BC8 Silicon Allotrope by Direct Transformation
+ and Reduced-Pressure Chemical Pathways
+;
+'Inorganic Chemistry' INOCAJ 2016 55 19 9949 9949 10.1021/acs.inorgchem.6b02124
+;
+ The correction lists Nasim Alem from the Department of Materials Science and
+ Engineering, The Pennsylvania State University as one of the coauthors of the
+ original publication.
+;

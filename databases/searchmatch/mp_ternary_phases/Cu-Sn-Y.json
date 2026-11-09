@@ -1,0 +1,45 @@
+{
+  "space": "Cu-Sn-Y",
+  "elements": [
+    "Cu",
+    "Sn",
+    "Y"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1095575",
+      "composition_id": "Cu4 Sn4 Y3",
+      "delta_e": -0.51197799,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-13202",
+      "composition_id": "Cu1 Sn1 Y1",
+      "delta_e": -0.600728026666667,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1207691",
+      "composition_id": "Cu5 Sn1 Y1",
+      "delta_e": -0.24802483999999902,
+      "stability": 0.00943002857142,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1087238",
+      "composition_id": "Cu2 Sn2 Y1",
+      "delta_e": -0.333321489,
+      "stability": 0.048345385666667004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1206766",
+      "composition_id": "Cu3 Sn3 Y2",
+      "delta_e": 0.577871686875,
+      "stability": 1.049127453333334,
+      "icsd": false
+    }
+  ]
+}

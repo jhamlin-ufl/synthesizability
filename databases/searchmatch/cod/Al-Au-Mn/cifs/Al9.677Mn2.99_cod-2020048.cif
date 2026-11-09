@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-07-14 02:01:16 +0300 (Tue, 14 Jul 2015) $
+#$Revision: 151480 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/02/00/2020048.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2020048
+loop_
+_publ_author_name
+'Pavlyuk, V.V.'
+'Gladyshevskii, R.E.'
+'Yanson, T.I.'
+'Bodak, O.'
+'Cerny, R.'
+'Yvon K.'
+'Stepen'-Damm, Yu.'
+_publ_section_title
+;
+ Structure refinement of orthorhombic Mn Al3
+;
+_journal_name_full               'Acta Crystallographica C (39,1983-)'
+_journal_page_first              792
+_journal_page_last               794
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'Al9.677 Mn2.99'
+_chemical_name_systematic        'Mn2.99 Al9.677'
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            12
+_cell_length_a                   14.883
+_cell_length_b                   12.447
+_cell_length_c                   12.56
+_cell_volume                     2326.724
+_citation_journal_id_ASTM        ACSCEE
+_cod_data_source_file            Pavlyuk_ACSCEE_1995_416.cif
+_cod_data_source_block           Al9.677Mn2.99
+_cod_database_code               2020048
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,-y,z+1/2
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x,-y,-z
+x-1/2,y,-z-1/2
+-x-1/2,y-1/2,z-1/2
+x,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Al1 Al 0.1281 0.0628 0.1592 0.5 0.0
+Mn5 Mn 0.058 0.25 0.242 0.53 0.0
+Al18 Al 0.318 0.25 0.845 1 0.0
+Al6 Al 0.051 0.626 0.46 1 0.0
+Al8 Al 0.1299 0.065 0.535 1 0.0
+Al14 Al 0.4587 0.1081 0.349 1 0.0
+Mn7 Mn 0.2348 0.25 0.1749 1 0.0
+Mn9 Mn 0.5417 0.25 0.647 1 0.0
+Mn6 Mn 0.2249 0.25 0.5236 1 0.0
+Al12 Al 0.3097 0.066 0.2298 1 0.0
+Al19 Al 0.399 0.25 0.54 1 0.0
+Al17 Al 0.105 0.25 0.039 1 0.0
+Al15 Al 0.5193 0.079 0.549 1 0.0
+Mn4 Mn 0.052 0.25 0.453 1 0.0
+Mn1 Mn 0.1281 0.0628 0.1592 0.5 0.0
+Al2 Al 0.3167 0.061 0.4607 0.6 0.0
+Mn2 Mn 0.1798 0.5575 0.3466 1 0.0
+Al10 Al 0.2264 0.6221 0.162 1 0.0
+Al13 Al 0.3371 0.6224 0.337 1 0.0
+Al11 Al 0.265 0.124 0.026 1 0.0
+Al3 Al 0.058 0.25 0.242 0.47 0.0
+Mn3 Mn 0.3167 0.061 0.4607 0.4 0.0
+Mn8 Mn 0.3343 0.25 0.346 0.64 0.0
+Al16 Al 0.094 0.25 0.659 1 0.0
+Al9 Al 0.18 0.1475 0.35 1 0.0
+Al7 Al 0.05 0.622 0.24 1 0.0
+Al5 Al 0.0162 0.066 0.35 1 0.0
+Al4 Al 0.3343 0.25 0.346 0.36 0.0

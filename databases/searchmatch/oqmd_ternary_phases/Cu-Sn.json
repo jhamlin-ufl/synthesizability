@@ -1,0 +1,471 @@
+{
+  "space": "Cu-Sn",
+  "elements": [
+    "Cu",
+    "Sn"
+  ],
+  "entries": [
+    {
+      "entry_id": 1341041,
+      "composition_id": "Cu1 Sn4",
+      "delta_e": -0.0458077004809617,
+      "stability": -0.01673939311072114,
+      "icsd": false
+    },
+    {
+      "entry_id": 29804,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": -0.0726707684256014,
+      "stability": -0.01375127122394356,
+      "icsd": true
+    },
+    {
+      "entry_id": 2070168,
+      "composition_id": "Cu124 Sn1",
+      "delta_e": 0.0024853353851904104,
+      "stability": 0.0036480676800000325,
+      "icsd": false
+    },
+    {
+      "entry_id": 18303,
+      "composition_id": "Cu6 Sn5",
+      "delta_e": -0.0609061331141828,
+      "stability": 0.005158201884246441,
+      "icsd": true
+    },
+    {
+      "entry_id": 94008,
+      "composition_id": "Cu5 Sn4",
+      "delta_e": -0.0569661461005345,
+      "stability": 0.00763009258074538,
+      "icsd": true
+    },
+    {
+      "entry_id": 2046400,
+      "composition_id": "Cu5 Sn4",
+      "delta_e": -0.056732537489423335,
+      "stability": 0.007863701191856545,
+      "icsd": true
+    },
+    {
+      "entry_id": 2046398,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": -0.027252804462801095,
+      "stability": 0.009082579749999604,
+      "icsd": true
+    },
+    {
+      "entry_id": 19223,
+      "composition_id": "Cu5 Sn4",
+      "delta_e": -0.0545362123042381,
+      "stability": 0.01006002637704178,
+      "icsd": true
+    },
+    {
+      "entry_id": 20569,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": -0.0241846517128002,
+      "stability": 0.0121507325000005,
+      "icsd": true
+    },
+    {
+      "entry_id": 1799573,
+      "composition_id": "Cu1 Sn3",
+      "delta_e": -0.035855577013401696,
+      "stability": 0.014429301547876847,
+      "icsd": false
+    },
+    {
+      "entry_id": 17164,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": -0.0213403367128002,
+      "stability": 0.0149950475000005,
+      "icsd": true
+    },
+    {
+      "entry_id": 323351,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": -0.0193933204628003,
+      "stability": 0.0169420637500004,
+      "icsd": false
+    },
+    {
+      "entry_id": 1435988,
+      "composition_id": "Cu1 Sn2",
+      "delta_e": -0.0391959645674683,
+      "stability": 0.018550877102830737,
+      "icsd": false
+    },
+    {
+      "entry_id": 1986,
+      "composition_id": "Cu10 Sn3",
+      "delta_e": -0.0147895715810467,
+      "stability": 0.018750782965121997,
+      "icsd": true
+    },
+    {
+      "entry_id": 1965837,
+      "composition_id": "Cu2 Sn3",
+      "delta_e": -0.043884298110721434,
+      "stability": 0.019832114422876954,
+      "icsd": false
+    },
+    {
+      "entry_id": 1520657,
+      "composition_id": "Cu1 Sn2",
+      "delta_e": -0.037474764567467865,
+      "stability": 0.020272077102831174,
+      "icsd": false
+    },
+    {
+      "entry_id": 1791996,
+      "composition_id": "Cu3 Sn4",
+      "delta_e": -0.0422447753435437,
+      "stability": 0.0240300244726424,
+      "icsd": false
+    },
+    {
+      "entry_id": 17165,
+      "composition_id": "Cu10 Sn3",
+      "delta_e": 0.00607652264972267,
+      "stability": 0.03961687719589137,
+      "icsd": true
+    },
+    {
+      "entry_id": 1797421,
+      "composition_id": "Cu3 Sn2",
+      "delta_e": -0.018468739240480404,
+      "stability": 0.03966787550000072,
+      "icsd": false
+    },
+    {
+      "entry_id": 1793838,
+      "composition_id": "Cu3 Sn2",
+      "delta_e": -0.017620233740480273,
+      "stability": 0.04051638100000085,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062043,
+      "composition_id": "Cu15 Sn1",
+      "delta_e": 0.03227808050929992,
+      "stability": 0.041361926562500095,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062056,
+      "composition_id": "Cu15 Sn1",
+      "delta_e": 0.03842090519680008,
+      "stability": 0.047504751250000254,
+      "icsd": false
+    },
+    {
+      "entry_id": 1893098,
+      "composition_id": "Cu10 Sn1",
+      "delta_e": 0.041618981195345454,
+      "stability": 0.05483184804968977,
+      "icsd": false
+    },
+    {
+      "entry_id": 1591191,
+      "composition_id": "Cu2 Sn1",
+      "delta_e": 0.008810614382933105,
+      "stability": 0.05725779357556993,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062070,
+      "composition_id": "Cu15 Sn1",
+      "delta_e": 0.04875630238429984,
+      "stability": 0.057840148437500016,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062514,
+      "composition_id": "Cu17 Sn1",
+      "delta_e": 0.0498131598971554,
+      "stability": 0.057887689641476926,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062501,
+      "composition_id": "Cu17 Sn1",
+      "delta_e": 0.04984967128604486,
+      "stability": 0.057924201030366385,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062016,
+      "composition_id": "Cu15 Sn1",
+      "delta_e": 0.04900267582180007,
+      "stability": 0.05808652187500024,
+      "icsd": false
+    },
+    {
+      "entry_id": 347837,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": 0.0233513132871996,
+      "stability": 0.059686697500000295,
+      "icsd": false
+    },
+    {
+      "entry_id": 1893001,
+      "composition_id": "Cu9 Sn1",
+      "delta_e": 0.049499270814879995,
+      "stability": 0.06403342450000027,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069986,
+      "composition_id": "Cu8 Sn1",
+      "delta_e": 0.049297460349866325,
+      "stability": 0.06544651983850937,
+      "icsd": false
+    },
+    {
+      "entry_id": 1340516,
+      "composition_id": "Cu2 Sn5",
+      "delta_e": 0.0128779801062845,
+      "stability": 0.06636084297227068,
+      "icsd": false
+    },
+    {
+      "entry_id": 301781,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": 0.0328937582871998,
+      "stability": 0.0692291425000005,
+      "icsd": false
+    },
+    {
+      "entry_id": 1450677,
+      "composition_id": "Cu5 Sn1",
+      "delta_e": 0.04548920885813246,
+      "stability": 0.06971279809109703,
+      "icsd": false
+    },
+    {
+      "entry_id": 29803,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": 0.0351470832872001,
+      "stability": 0.0714824675000008,
+      "icsd": true
+    },
+    {
+      "entry_id": 2066554,
+      "composition_id": "Cu15 Sn1",
+      "delta_e": 0.06359460550929974,
+      "stability": 0.07267845156249991,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069908,
+      "composition_id": "Cu7 Sn1",
+      "delta_e": 0.05979010164359977,
+      "stability": 0.07795779375000012,
+      "icsd": false
+    },
+    {
+      "entry_id": 312323,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": 0.0468406582871999,
+      "stability": 0.0831760425000006,
+      "icsd": false
+    },
+    {
+      "entry_id": 1790925,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.01935643990773232,
+      "stability": 0.09202720833333372,
+      "icsd": false
+    },
+    {
+      "entry_id": 1339108,
+      "composition_id": "Cu1 Sn4",
+      "delta_e": 0.0476883376857051,
+      "stability": 0.0934960381666668,
+      "icsd": false
+    },
+    {
+      "entry_id": 2062030,
+      "composition_id": "Cu15 Sn1",
+      "delta_e": 0.08673277332179996,
+      "stability": 0.09581661937500013,
+      "icsd": false
+    },
+    {
+      "entry_id": 1892962,
+      "composition_id": "Cu9 Sn1",
+      "delta_e": 0.08401613331488064,
+      "stability": 0.09855028700000092,
+      "icsd": false
+    },
+    {
+      "entry_id": 2014434,
+      "composition_id": "Cu3 Sn1",
+      "delta_e": 0.06444980328719963,
+      "stability": 0.10078518750000032,
+      "icsd": true
+    },
+    {
+      "entry_id": 2069869,
+      "composition_id": "Cu7 Sn1",
+      "delta_e": 0.09444522851859993,
+      "stability": 0.11261292062500028,
+      "icsd": false
+    },
+    {
+      "entry_id": 1782618,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.04246152857439896,
+      "stability": 0.11513229700000036,
+      "icsd": false
+    },
+    {
+      "entry_id": 1343268,
+      "composition_id": "Cu2 Sn1",
+      "delta_e": 0.0712280860495997,
+      "stability": 0.11967526524223653,
+      "icsd": false
+    },
+    {
+      "entry_id": 327665,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.0918967915743987,
+      "stability": 0.1645675600000001,
+      "icsd": false
+    },
+    {
+      "entry_id": 1283150,
+      "composition_id": "Cu2 Sn1",
+      "delta_e": 0.121230121049599,
+      "stability": 0.16967730024223582,
+      "icsd": false
+    },
+    {
+      "entry_id": 1473624,
+      "composition_id": "Cu2 Sn1",
+      "delta_e": 0.13923497327182194,
+      "stability": 0.18768215246445877,
+      "icsd": false
+    },
+    {
+      "entry_id": 347351,
+      "composition_id": "Cu1 Sn3",
+      "delta_e": 0.153560539861598,
+      "stability": 0.20384541842287657,
+      "icsd": false
+    },
+    {
+      "entry_id": 1473437,
+      "composition_id": "Cu2 Sn1",
+      "delta_e": 0.15715332438293295,
+      "stability": 0.20560050357556978,
+      "icsd": false
+    },
+    {
+      "entry_id": 322865,
+      "composition_id": "Cu1 Sn3",
+      "delta_e": 0.155951488611598,
+      "stability": 0.20623636717287652,
+      "icsd": false
+    },
+    {
+      "entry_id": 29805,
+      "composition_id": "Cu10 Sn3",
+      "delta_e": 0.177166828034338,
+      "stability": 0.21070718258050672,
+      "icsd": true
+    },
+    {
+      "entry_id": 302267,
+      "composition_id": "Cu1 Sn3",
+      "delta_e": 0.160796579861598,
+      "stability": 0.21108145842287657,
+      "icsd": false
+    },
+    {
+      "entry_id": 1105766,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.146643761574399,
+      "stability": 0.2193145300000004,
+      "icsd": false
+    },
+    {
+      "entry_id": 306581,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.147544356574399,
+      "stability": 0.2202151250000004,
+      "icsd": false
+    },
+    {
+      "entry_id": 338123,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.154043246574399,
+      "stability": 0.22671401500000038,
+      "icsd": false
+    },
+    {
+      "entry_id": 312809,
+      "composition_id": "Cu1 Sn3",
+      "delta_e": 0.189231927361598,
+      "stability": 0.23951680592287655,
+      "icsd": false
+    },
+    {
+      "entry_id": 1229190,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.173588356574399,
+      "stability": 0.2462591250000004,
+      "icsd": false
+    },
+    {
+      "entry_id": 1893040,
+      "composition_id": "Cu9 Sn2",
+      "delta_e": 0.2513838223906904,
+      "stability": 0.277809556099379,
+      "icsd": false
+    },
+    {
+      "entry_id": 1007091,
+      "composition_id": "Cu2 Sn5",
+      "delta_e": 0.243518313677713,
+      "stability": 0.2970011765436992,
+      "icsd": false
+    },
+    {
+      "entry_id": 2069947,
+      "composition_id": "Cu7 Sn2",
+      "delta_e": 0.2651410273663998,
+      "stability": 0.29743914634368585,
+      "icsd": false
+    },
+    {
+      "entry_id": 1222219,
+      "composition_id": "Cu1 Sn1",
+      "delta_e": 0.429935236574399,
+      "stability": 0.5026060050000004,
+      "icsd": false
+    },
+    {
+      "entry_id": 1592686,
+      "composition_id": "Cu1 Sn2",
+      "delta_e": 0.599185777099199,
+      "stability": 0.656932618769498,
+      "icsd": false
+    },
+    {
+      "entry_id": 1241220,
+      "composition_id": "Cu1 Sn2",
+      "delta_e": 0.786921198765866,
+      "stability": 0.8446680404361651,
+      "icsd": false
+    },
+    {
+      "entry_id": 1241221,
+      "composition_id": "Cu2 Sn1",
+      "delta_e": 1.10015633771627,
+      "stability": 1.1486035169089068,
+      "icsd": false
+    }
+  ]
+}

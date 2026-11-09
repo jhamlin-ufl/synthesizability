@@ -1,0 +1,86 @@
+{
+  "space": "Al-Au",
+  "elements": [
+    "Al",
+    "Au"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2647",
+      "composition_id": "Al2 Au1",
+      "delta_e": -0.49509397333333505,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1399",
+      "composition_id": "Al1 Au1",
+      "delta_e": -0.42298121250000104,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-569558",
+      "composition_id": "Al1 Au2",
+      "delta_e": -0.333313270833334,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1490",
+      "composition_id": "Al1 Au4",
+      "delta_e": -0.22434480649999902,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-16480",
+      "composition_id": "Al3 Au8",
+      "delta_e": -0.28178494340909804,
+      "stability": 0.001997207272729,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30550",
+      "composition_id": "Al1 Au2",
+      "delta_e": -0.32969789800000204,
+      "stability": 0.0036153728333300004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1018179",
+      "composition_id": "Al1 Au2",
+      "delta_e": -0.317411696666667,
+      "stability": 0.015901574166669,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1183223",
+      "composition_id": "Al1 Au3",
+      "delta_e": -0.199118088749997,
+      "stability": 0.066089891875002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1228956",
+      "composition_id": "Al1 Au4",
+      "delta_e": -0.152588825999998,
+      "stability": 0.07175598050000001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-10871",
+      "composition_id": "Al1 Au1",
+      "delta_e": -0.2707863125,
+      "stability": 0.15219490000000102,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1183189",
+      "composition_id": "Al3 Au1",
+      "delta_e": -0.168010847500003,
+      "stability": 0.203309632499998,
+      "icsd": false
+    }
+  ]
+}

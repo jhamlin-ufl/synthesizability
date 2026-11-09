@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/TiPt5Si/buttons/0493/0493_HM_TiSiPt5.txt --space samples/TiPt5Si/fits/0493_ascast_joint_zero/start --occ pred --uiso-max 0.04 --main-key TiSiPt5_pred_OQMD-2146105 --limits 18 118 --partners TiPt8_oqmd_18017 --joint-strain --zero --strict-final --out results/refits/0493_ascast_joint_zero

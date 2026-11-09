@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Y2Co2Si2
+_chemical_formula_sum              "Y2 Co2 Si2"
+_cell_length_a       7.208259877855904
+_cell_length_b       7.208259877855905
+_cell_length_c       7.208259877855902
+_cell_angle_alpha    147.92293477913842
+_cell_angle_beta     147.92293477913836
+_cell_angle_gamma    45.99914288419852
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.6558057907090463  0.6558057907090458  0.0  1.0000
+  Y   Y2        1.0  0.3441942092909553  0.3441942092909539  2.548510081836845e-16  1.0000
+  Co  Co1       1.0  0.5000000000000013  0.9999999999999996  0.5000000000000008  1.0000
+  Co  Co2       1.0  7.394595025861541e-16  0.49999999999999933  0.5000000000000001  1.0000
+  Si  Si1       1.0  0.09843828124374811  0.09843828124374679  4.235322289759374e-16  1.0000
+  Si  Si2       1.0  0.9015617187562518  0.9015617187562528  0.9999999999999998  1.0000

@@ -1,0 +1,79 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/52/20/1522077.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1522077
+loop_
+_publ_author_name
+'Klimyenko, A.V.'
+'Seuntjens, J.'
+'Jacobson, R.A.'
+'Beaudry, B.J.'
+'Miller, L.L.'
+'Gschneidner, K.A.jr.'
+_publ_section_title
+;
+ Structure of La Ni2.286 and the La-Ni system from La Ni1.75 - La Ni2.5
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              133
+_journal_page_last               141
+_journal_volume                  144
+_journal_year                    1988
+_chemical_formula_sum            'La7 Ni16'
+_space_group_IT_number           121
+_symmetry_space_group_name_Hall  'I -4 2'
+_symmetry_space_group_name_H-M   'I -4 2 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.355
+_cell_length_b                   7.355
+_cell_length_c                   14.51
+_cell_volume                     784.933
+_citation_journal_id_ASTM        JCOMAH
+_cod_data_source_file            Klimyenko_JCOMAH_1988_914.cif
+_cod_data_source_block           La7Ni16
+_cod_original_cell_volume        784.9333
+_cod_database_code               1522077
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+y,-x,-z
+-x,-y,z
+-y,x,-z
+x,-y,-z
+-y,-x,z
+-x,y,-z
+y,x,z
+x+1/2,y+1/2,z+1/2
+y+1/2,-x+1/2,-z+1/2
+-x+1/2,-y+1/2,z+1/2
+-y+1/2,x+1/2,-z+1/2
+x+1/2,-y+1/2,-z+1/2
+-y+1/2,-x+1/2,z+1/2
+-x+1/2,y+1/2,-z+1/2
+y+1/2,x+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La1 La 0 0 0 1 0.0
+Ni1 Ni 0.3816 0.3816 0.3136 1 0.0
+La2 La 0 0.5 0.25 1 0.0
+Ni2 Ni 0.1413 0.1413 0.3014 1 0.0
+La3 La 0.3043 0.3043 0.1025 1 0.0
+Ni3 Ni 0.1328 0.3848 0.4335 1 0.0

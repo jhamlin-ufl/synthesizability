@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/Gd3Sn6Co/buttons/0556/0556_HM_Gd3CoSn6.txt --space samples/Gd3Sn6Co/fits/0556_FoR/start --main-key GdCo0.27Sn2_CeNiSi2_Gil2004 --partners GdCoSn_alex_agm002206910 Gd5Sn3_oqmd_1796167_dis --out results/refits/0556_FoR --strict-final --accept-bound

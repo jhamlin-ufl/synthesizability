@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ni13Pt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.37331632
+_cell_length_b   6.64467510
+_cell_length_c   7.98755415
+_cell_angle_alpha   126.63140886
+_cell_angle_beta   100.38591770
+_cell_angle_gamma   90.83407826
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni13Pt2
+_chemical_formula_sum   'Ni13 Pt2'
+_cell_volume   181.01015323
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.74248875  0.74535350  0.24274267  1
+  Ni  Ni1  1  0.25751125  0.25464650  0.75725733  1
+  Ni  Ni2  1  0.00000000  0.00000000  0.00000000  1
+  Ni  Ni3  1  0.30886823  0.80211960  0.43060231  1
+  Ni  Ni4  1  0.69113177  0.19788040  0.56939769  1
+  Ni  Ni5  1  0.06465964  0.56528731  0.69308988  1
+  Ni  Ni6  1  0.93534036  0.43471269  0.30691012  1
+  Ni  Ni7  1  0.37688770  0.37715722  0.12824421  1
+  Ni  Ni8  1  0.62311230  0.62284278  0.87175579  1
+  Ni  Ni9  1  0.43687809  0.93631827  0.81683999  1
+  Ni  Ni10  1  0.56312191  0.06368173  0.18316001  1
+  Ni  Ni11  1  0.81351917  0.31661084  0.94234474  1
+  Ni  Ni12  1  0.18648083  0.68338916  0.05765526  1
+  Pt  Pt13  1  0.86395059  0.86291445  0.62030153  1
+  Pt  Pt14  1  0.13604941  0.13708555  0.37969847  1

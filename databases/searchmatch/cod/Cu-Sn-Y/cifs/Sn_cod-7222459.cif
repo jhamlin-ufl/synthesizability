@@ -1,0 +1,283 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-22 17:10:16 +0300 (Thu, 22 Apr 2021) $
+#$Revision: 264415 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/7/22/24/7222459.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7222459
+loop_
+_publ_author_name
+'Oehl, Nikolas'
+'Schmuelling, Guido'
+'Knipper, Martin'
+'Kloepsch, Richard'
+'Placke, Tobias'
+'Kolny-Olesiak, Joanna'
+'Plaggenborg, Thorsten'
+'Winter, Martin'
+'Parisi, Juergen'
+_publ_section_title
+;
+ In situ X-ray diffraction study on the formation of \a-Sn in
+ nanocrystalline Sn-based electrodes for lithium-ion batteries
+;
+_journal_issue                   44
+_journal_name_full               CrystEngComm
+_journal_page_first              8500
+_journal_paper_doi               10.1039/C5CE01841B
+_journal_volume                  17
+_journal_year                    2015
+_chemical_formula_sum            Sn
+_chemical_name_common            'Sn Alpha'
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'F 4d 2 3 -1d'
+_symmetry_space_group_name_H-M   'F d -3 m :1'
+_audit_creation_date             'Mon Oct 12 15:11:53 PDT 1998'
+_audit_creation_method           'Maud, version 2.54'
+_audit_update_record             'Last update Wed Jun 17 12:35:22 CEST 2015'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   6.467(2)
+_cell_length_b                   6.4665284
+_cell_length_c                   6.4665284
+_cell_volume                     270.42(8)
+_computing_structure_refinement  'Maud, version 2.54'
+_refine_ls_d_res_high            5000
+_refine_ls_d_res_low             0
+_refine_ls_goodness_of_fit_all   0.026165336
+_refine_ls_R_factor_all          0.05188525
+_refine_ls_wR_factor_all         0.07587875
+_reflns_d_resolution_high        50
+_reflns_d_resolution_low         0.7
+_cod_data_source_file            c5ce01841b1.cif
+_cod_data_source_block           Sn_Alpha
+_cod_depositor_comments
+;
+ Changing the _symmetry_equiv_pos_site_id data item values to start from 1
+ instead of 0.
+
+ Antanas Vaitkus,
+ 2018-07-07
+
+ Adding full bibliography for 7222459--7222460.cif.
+
+ Changed the _cell_formula_units_Z data item value from '1' to '8'.
+
+ Antanas Vaitkus,
+ 2021-04-22
+;
+_cod_original_sg_symbol_H-M      Fd-3m:1
+_cod_database_code               7222459
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x+0.25, -y+0.25, -z+0.25'
+3 '-y+0.25, x+0.25, z+0.25'
+4 '-x, -y, z'
+5 'y+0.25, -x+0.25, z+0.25'
+6 'x+0.25, -z+0.25, y+0.25'
+7 'x, -y, -z'
+8 'x+0.25, z+0.25, -y+0.25'
+9 'z+0.25, y+0.25, -x+0.25'
+10 '-x, y, -z'
+11 '-z+0.25, y+0.25, x+0.25'
+12 'y, -x, -z'
+13 '-y, x, -z'
+14 '-x, z, -y'
+15 '-x, -z, y'
+16 '-z, -y, x'
+17 'z, -y, -x'
+18 'z, x, y'
+19 'y, z, x'
+20 '-y, -z, x'
+21 'z, -x, -y'
+22 '-y, z, -x'
+23 '-z, -x, y'
+24 '-z, x, -y'
+25 'y, -z, -x'
+26 '-z+0.25, -x+0.25, -y+0.25'
+27 '-y+0.25, -z+0.25, -x+0.25'
+28 'y+0.25, z+0.25, -x+0.25'
+29 '-z+0.25, x+0.25, y+0.25'
+30 'y+0.25, -z+0.25, x+0.25'
+31 'z+0.25, x+0.25, -y+0.25'
+32 'z+0.25, -x+0.25, y+0.25'
+33 '-y+0.25, z+0.25, x+0.25'
+34 'y+0.25, x+0.25, -z+0.25'
+35 '-y+0.25, -x+0.25, -z+0.25'
+36 '-x+0.25, z+0.25, y+0.25'
+37 '-x+0.25, -z+0.25, -y+0.25'
+38 'z+0.25, -y+0.25, x+0.25'
+39 '-z+0.25, -y+0.25, -x+0.25'
+40 'x+0.25, y+0.25, -z+0.25'
+41 '-x+0.25, y+0.25, z+0.25'
+42 'x+0.25, -y+0.25, z+0.25'
+43 '-y, -x, z'
+44 'y, x, z'
+45 'x, -z, -y'
+46 'x, z, y'
+47 '-z, y, -x'
+48 'z, y, x'
+49 'x, y+0.5, z+0.5'
+50 '-x+0.25, -y+0.75, -z+0.75'
+51 '-y+0.25, x+0.75, z+0.75'
+52 '-x, -y+0.5, z+0.5'
+53 'y+0.25, -x+0.75, z+0.75'
+54 'x+0.25, -z+0.75, y+0.75'
+55 'x, -y+0.5, -z+0.5'
+56 'x+0.25, z+0.75, -y+0.75'
+57 'z+0.25, y+0.75, -x+0.75'
+58 '-x, y+0.5, -z+0.5'
+59 '-z+0.25, y+0.75, x+0.75'
+60 'y, -x+0.5, -z+0.5'
+61 '-y, x+0.5, -z+0.5'
+62 '-x, z+0.5, -y+0.5'
+63 '-x, -z+0.5, y+0.5'
+64 '-z, -y+0.5, x+0.5'
+65 'z, -y+0.5, -x+0.5'
+66 'z, x+0.5, y+0.5'
+67 'y, z+0.5, x+0.5'
+68 '-y, -z+0.5, x+0.5'
+69 'z, -x+0.5, -y+0.5'
+70 '-y, z+0.5, -x+0.5'
+71 '-z, -x+0.5, y+0.5'
+72 '-z, x+0.5, -y+0.5'
+73 'y, -z+0.5, -x+0.5'
+74 '-z+0.25, -x+0.75, -y+0.75'
+75 '-y+0.25, -z+0.75, -x+0.75'
+76 'y+0.25, z+0.75, -x+0.75'
+77 '-z+0.25, x+0.75, y+0.75'
+78 'y+0.25, -z+0.75, x+0.75'
+79 'z+0.25, x+0.75, -y+0.75'
+80 'z+0.25, -x+0.75, y+0.75'
+81 '-y+0.25, z+0.75, x+0.75'
+82 'y+0.25, x+0.75, -z+0.75'
+83 '-y+0.25, -x+0.75, -z+0.75'
+84 '-x+0.25, z+0.75, y+0.75'
+85 '-x+0.25, -z+0.75, -y+0.75'
+86 'z+0.25, -y+0.75, x+0.75'
+87 '-z+0.25, -y+0.75, -x+0.75'
+88 'x+0.25, y+0.75, -z+0.75'
+89 '-x+0.25, y+0.75, z+0.75'
+90 'x+0.25, -y+0.75, z+0.75'
+91 '-y, -x+0.5, z+0.5'
+92 'y, x+0.5, z+0.5'
+93 'x, -z+0.5, -y+0.5'
+94 'x, z+0.5, y+0.5'
+95 '-z, y+0.5, -x+0.5'
+96 'z, y+0.5, x+0.5'
+97 'x+0.5, y, z+0.5'
+98 '-x+0.75, -y+0.25, -z+0.75'
+99 '-y+0.75, x+0.25, z+0.75'
+100 '-x+0.5, -y, z+0.5'
+101 'y+0.75, -x+0.25, z+0.75'
+102 'x+0.75, -z+0.25, y+0.75'
+103 'x+0.5, -y, -z+0.5'
+104 'x+0.75, z+0.25, -y+0.75'
+105 'z+0.75, y+0.25, -x+0.75'
+106 '-x+0.5, y, -z+0.5'
+107 '-z+0.75, y+0.25, x+0.75'
+108 'y+0.5, -x, -z+0.5'
+109 '-y+0.5, x, -z+0.5'
+110 '-x+0.5, z, -y+0.5'
+111 '-x+0.5, -z, y+0.5'
+112 '-z+0.5, -y, x+0.5'
+113 'z+0.5, -y, -x+0.5'
+114 'z+0.5, x, y+0.5'
+115 'y+0.5, z, x+0.5'
+116 '-y+0.5, -z, x+0.5'
+117 'z+0.5, -x, -y+0.5'
+118 '-y+0.5, z, -x+0.5'
+119 '-z+0.5, -x, y+0.5'
+120 '-z+0.5, x, -y+0.5'
+121 'y+0.5, -z, -x+0.5'
+122 '-z+0.75, -x+0.25, -y+0.75'
+123 '-y+0.75, -z+0.25, -x+0.75'
+124 'y+0.75, z+0.25, -x+0.75'
+125 '-z+0.75, x+0.25, y+0.75'
+126 'y+0.75, -z+0.25, x+0.75'
+127 'z+0.75, x+0.25, -y+0.75'
+128 'z+0.75, -x+0.25, y+0.75'
+129 '-y+0.75, z+0.25, x+0.75'
+130 'y+0.75, x+0.25, -z+0.75'
+131 '-y+0.75, -x+0.25, -z+0.75'
+132 '-x+0.75, z+0.25, y+0.75'
+133 '-x+0.75, -z+0.25, -y+0.75'
+134 'z+0.75, -y+0.25, x+0.75'
+135 '-z+0.75, -y+0.25, -x+0.75'
+136 'x+0.75, y+0.25, -z+0.75'
+137 '-x+0.75, y+0.25, z+0.75'
+138 'x+0.75, -y+0.25, z+0.75'
+139 '-y+0.5, -x, z+0.5'
+140 'y+0.5, x, z+0.5'
+141 'x+0.5, -z, -y+0.5'
+142 'x+0.5, z, y+0.5'
+143 '-z+0.5, y, -x+0.5'
+144 'z+0.5, y, x+0.5'
+145 'x+0.5, y+0.5, z'
+146 '-x+0.75, -y+0.75, -z+0.25'
+147 '-y+0.75, x+0.75, z+0.25'
+148 '-x+0.5, -y+0.5, z'
+149 'y+0.75, -x+0.75, z+0.25'
+150 'x+0.75, -z+0.75, y+0.25'
+151 'x+0.5, -y+0.5, -z'
+152 'x+0.75, z+0.75, -y+0.25'
+153 'z+0.75, y+0.75, -x+0.25'
+154 '-x+0.5, y+0.5, -z'
+155 '-z+0.75, y+0.75, x+0.25'
+156 'y+0.5, -x+0.5, -z'
+157 '-y+0.5, x+0.5, -z'
+158 '-x+0.5, z+0.5, -y'
+159 '-x+0.5, -z+0.5, y'
+160 '-z+0.5, -y+0.5, x'
+161 'z+0.5, -y+0.5, -x'
+162 'z+0.5, x+0.5, y'
+163 'y+0.5, z+0.5, x'
+164 '-y+0.5, -z+0.5, x'
+165 'z+0.5, -x+0.5, -y'
+166 '-y+0.5, z+0.5, -x'
+167 '-z+0.5, -x+0.5, y'
+168 '-z+0.5, x+0.5, -y'
+169 'y+0.5, -z+0.5, -x'
+170 '-z+0.75, -x+0.75, -y+0.25'
+171 '-y+0.75, -z+0.75, -x+0.25'
+172 'y+0.75, z+0.75, -x+0.25'
+173 '-z+0.75, x+0.75, y+0.25'
+174 'y+0.75, -z+0.75, x+0.25'
+175 'z+0.75, x+0.75, -y+0.25'
+176 'z+0.75, -x+0.75, y+0.25'
+177 '-y+0.75, z+0.75, x+0.25'
+178 'y+0.75, x+0.75, -z+0.25'
+179 '-y+0.75, -x+0.75, -z+0.25'
+180 '-x+0.75, z+0.75, y+0.25'
+181 '-x+0.75, -z+0.75, -y+0.25'
+182 'z+0.75, -y+0.75, x+0.25'
+183 '-z+0.75, -y+0.75, -x+0.25'
+184 'x+0.75, y+0.75, -z+0.25'
+185 '-x+0.75, y+0.75, z+0.25'
+186 'x+0.75, -y+0.75, z+0.25'
+187 '-y+0.5, -x+0.5, z'
+188 'y+0.5, x+0.5, z'
+189 'x+0.5, -z+0.5, -y'
+190 'x+0.5, z+0.5, y'
+191 '-z+0.5, y+0.5, -x'
+192 'z+0.5, y+0.5, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Sn Sn 1.0 0.0 0.0 0.0 0.07743271

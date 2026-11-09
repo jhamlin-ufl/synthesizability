@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Cu4Pd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.87621458
+_cell_length_b   14.87621458
+_cell_length_c   14.87621458
+_cell_angle_alpha   10.56868474
+_cell_angle_beta   10.56868475
+_cell_angle_gamma   10.56868475
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu4Pd3
+_chemical_formula_sum   'Cu4 Pd3'
+_cell_volume   96.18403347
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.14454892  0.14454892  0.14454892  1
+  Cu  Cu1  1  0.28528827  0.28528827  0.28528827  1
+  Cu  Cu2  1  0.71471173  0.71471173  0.71471173  1
+  Cu  Cu3  1  0.85545108  0.85545108  0.85545108  1
+  Pd  Pd4  1  0.42945149  0.42945149  0.42945149  1
+  Pd  Pd5  1  0.57054851  0.57054851  0.57054851  1
+  Pd  Pd6  1  0.00000000  0.00000000  0.00000000  1

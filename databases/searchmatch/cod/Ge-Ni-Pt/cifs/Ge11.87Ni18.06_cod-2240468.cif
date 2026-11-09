@@ -1,0 +1,651 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/24/04/2240468.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2240468
+loop_
+_publ_author_name
+'Kars, Mohammed'
+'Herrero, Adrian G\'omez'
+'Roisnel, Thierry'
+'Rebbah, Allaoua'
+'Otero-Di\'az, L. Carlos'
+_publ_section_title
+;
+ Structure cristalline du compos\'e interm\'etallique Ni~18~Ge~12~
+;
+_journal_coeditor_code           RU2062
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              318
+_journal_page_last               320
+_journal_paper_doi               10.1107/S2056989015003680
+_journal_volume                  71
+_journal_year                    2015
+_chemical_formula_iupac          'Ni18.06 Ge11.87'
+_chemical_formula_moiety         'Ge11.87 Ni18.06'
+_chemical_formula_sum            'Ge11.87 Ni18.06'
+_chemical_formula_weight         1921.88
+_chemical_name_systematic
+;
+Octadecanickel dodecagermanide
+;
+_space_group_IT_number           190
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P -6c -2c'
+_symmetry_space_group_name_H-M   'P -6 2 c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   6.6585(13)
+_cell_length_b                   6.6585(13)
+_cell_length_c                   9.962(3)
+_cell_measurement_reflns_used    962
+_cell_measurement_temperature    105
+_cell_measurement_theta_max      39.82
+_cell_measurement_theta_min      4.08
+_cell_volume                     382.50(16)
+_computing_cell_refinement
+;
+SAINT (Bruker, 2006)
+;
+_computing_data_collection
+;
+APEX2 (Bruker, 2006)
+;
+_computing_data_reduction
+;
+SAINT (Bruker, 2006)
+;
+_computing_molecular_graphics
+;
+DIAMOND (Brandenburg & Putz, 2009)
+;
+_computing_publication_material
+;
+JANA2000 (Pet\<r\'i\<cek <i>et al.</i>,  2014)
+;
+_computing_structure_refinement
+;
+JANA2000 (Pet\<r\'i\<cek <i>et al.</i>, 2000)
+;
+_computing_structure_solution
+;
+SIR97 (Altomare <i>et al.</i>,  1999)
+;
+_diffrn_ambient_temperature      105
+_diffrn_measured_fraction_theta_full 0.99
+_diffrn_measured_fraction_theta_max 0.99
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Bruker APEXII'
+_diffrn_measurement_method       'CCD rotation images, thin slices'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'x-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1068
+_diffrn_reflns_av_sigmaI/netI    0.1001
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            3412
+_diffrn_reflns_theta_full        40.23
+_diffrn_reflns_theta_max         40.23
+_diffrn_reflns_theta_min         3.53
+_exptl_absorpt_coefficient_mu    44.477
+_exptl_absorpt_correction_T_max  0.1597
+_exptl_absorpt_correction_T_min  0.0466
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+(SADABS; Sheldrick, 2002)
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    8.339
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             886
+_exptl_crystal_size_max          0.16
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         2.02
+_refine_diff_density_min         -1.54
+_refine_ls_abs_structure_details
+;
+Flack (1983), 341 Friedel pairs
+;
+_refine_ls_abs_structure_Flack   0.38(12)
+_refine_ls_extinction_coef       20E1(4)
+_refine_ls_extinction_method
+;
+B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)
+;
+_refine_ls_goodness_of_fit_ref   1.26
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     35
+_refine_ls_number_reflns         837
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.1119
+_refine_ls_R_factor_gt           0.0622
+_refine_ls_shift/su_max          0.0002
+_refine_ls_shift/su_mean         0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0735
+_refine_ls_wR_factor_ref         0.0905
+_reflns_number_gt                393
+_reflns_number_total             837
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ru2062sup1.cf
+_cod_data_source_block           I
+_cod_original_cell_volume        382.49(15)
+_cod_database_code               2240468
+_cod_database_fobs_code          2240468
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 x,y,-z+1/2
+5 -y,x-y,-z+1/2
+6 -x+y,-x,-z+1/2
+7 y,x,-z
+8 x-y,-y,-z
+9 -x,-x+y,-z
+10 y,x,z+1/2
+11 x-y,-y,z+1/2
+12 -x,-x+y,z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Ge Ge1 0 -1 0 0.0229(6) Uani d 1 2
+Ge Ge2 0.67726(16) 0.0274(3) 0.25 0.0139(4) Uani d 0.978(8) 6
+Ge Ge3 0.333333 -0.333333 -0.00011(9) 0.0197(5) Uani d 1 4
+Ni Ni1 0.99243(15) 0.32991(12) 0.12498(12) 0.0098(3) Uani d 1 12
+Ni Ni2 0.333333 -0.333333 0.25 0.0091(5) Uani d 1 2
+Ni Ni3 1 0 0.25 0.0197(16) Uani d 0.508(6) 2
+Ni Ni4 0.3335(3) -0.6665(3) 0 0.0071(8) Uani d 0.508(10) 6
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Ge1 0.0319(8) 0.0319(8) 0.0050(9) 0.0160(4) 0 0 Ge
+Ge2 0.0136(5) 0.0087(4) 0.0053(6) -0.0051(3) 0 0 Ge
+Ge3 0.0267(6) 0.0267(6) 0.0058(9) 0.0134(3) 0 0 Ge
+Ni1 0.0121(4) 0.0128(4) 0.0042(4) 0.0060(3) 0.0000(2) 0.0004(3) Ni
+Ni2 0.0110(6) 0.0110(6) 0.0053(8) 0.0055(3) 0 0 Ni
+Ni3 0.0176(17) 0.0176(17) 0.024(3) 0.0088(8) 0 0 Ni
+Ni4 0.0080(8) 0.0080(8) 0.0071(14) 0.0055(7) -0.0006(2) 0.0006(2) Ni
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ge 0.1547 1.8001 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Ni 0.3393 1.1124 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Ni1 Ge1 Ni1 1_445 2_535 98.15(4)
+Ni1 Ge1 Ni1 1_445 3_655 98.15(4)
+Ni1 Ge1 Ni1 1_445 7_535 130.17(3)
+Ni1 Ge1 Ni1 1_445 8_445 126.39(4)
+Ni1 Ge1 Ni1 1_445 9_655 58.56(4)
+Ni1 Ge1 Ni3 1_445 1_445 60.74(3)
+Ni1 Ge1 Ni3 1_445 7_535 119.26(3)
+Ni1 Ge1 Ni4 1_445 . 65.08(5)
+Ni1 Ge1 Ni4 1_445 2_435 63.19(5)
+Ni1 Ge1 Ni4 1_445 3_645 150.72(3)
+Ni1 Ge1 Ni1 2_535 3_655 98.15(4)
+Ni1 Ge1 Ni1 2_535 7_535 126.39(4)
+Ni1 Ge1 Ni1 2_535 8_445 58.56(4)
+Ni1 Ge1 Ni1 2_535 9_655 130.17(4)
+Ni1 Ge1 Ni3 2_535 1_445 60.74(3)
+Ni1 Ge1 Ni3 2_535 7_535 119.26(3)
+Ni1 Ge1 Ni4 2_535 . 150.72(3)
+Ni1 Ge1 Ni4 2_535 2_435 65.08(6)
+Ni1 Ge1 Ni4 2_535 3_645 63.19(6)
+Ni1 Ge1 Ni1 3_655 7_535 58.56(4)
+Ni1 Ge1 Ni1 3_655 8_445 130.17(4)
+Ni1 Ge1 Ni1 3_655 9_655 126.39(3)
+Ni1 Ge1 Ni3 3_655 1_445 60.74(3)
+Ni1 Ge1 Ni3 3_655 7_535 119.26(3)
+Ni1 Ge1 Ni4 3_655 . 63.19(5)
+Ni1 Ge1 Ni4 3_655 2_435 150.72(3)
+Ni1 Ge1 Ni4 3_655 3_645 65.08(5)
+Ni1 Ge1 Ni1 7_535 8_445 98.15(4)
+Ni1 Ge1 Ni1 7_535 9_655 98.15(4)
+Ni1 Ge1 Ni3 7_535 1_445 119.26(3)
+Ni1 Ge1 Ni3 7_535 7_535 60.74(3)
+Ni1 Ge1 Ni4 7_535 . 65.08(5)
+Ni1 Ge1 Ni4 7_535 2_435 150.72(3)
+Ni1 Ge1 Ni4 7_535 3_645 63.19(5)
+Ni1 Ge1 Ni1 8_445 9_655 98.15(4)
+Ni1 Ge1 Ni3 8_445 1_445 119.26(3)
+Ni1 Ge1 Ni3 8_445 7_535 60.74(3)
+Ni1 Ge1 Ni4 8_445 . 150.72(3)
+Ni1 Ge1 Ni4 8_445 2_435 63.19(6)
+Ni1 Ge1 Ni4 8_445 3_645 65.08(6)
+Ni1 Ge1 Ni3 9_655 1_445 119.26(3)
+Ni1 Ge1 Ni3 9_655 7_535 60.74(3)
+Ni1 Ge1 Ni4 9_655 . 63.19(5)
+Ni1 Ge1 Ni4 9_655 2_435 65.08(5)
+Ni1 Ge1 Ni4 9_655 3_645 150.72(3)
+Ni3 Ge1 Ni3 1_445 7_535 180.0(5)
+Ni3 Ge1 Ni4 1_445 . 90
+Ni3 Ge1 Ni4 1_445 2_435 90
+Ni3 Ge1 Ni4 1_445 3_645 90
+Ni3 Ge1 Ni4 7_535 . 90
+Ni3 Ge1 Ni4 7_535 2_435 90
+Ni3 Ge1 Ni4 7_535 3_645 90
+Ni4 Ge1 Ni4 . 2_435 120.00(8)
+Ni4 Ge1 Ni4 . 3_645 120.00(8)
+Ni4 Ge1 Ni4 2_435 3_645 120.00(8)
+Ni1 Ge2 Ni1 . 2_645 97.46(5)
+Ni1 Ge2 Ni1 . 3_665 99.90(6)
+Ni1 Ge2 Ni1 . 4_555 62.37(5)
+Ni1 Ge2 Ni1 . 5_645 127.29(7)
+Ni1 Ge2 Ni1 . 6_665 133.02(8)
+Ni1 Ge2 Ni2 . . 148.54(3)
+Ni1 Ge2 Ni3 . . 66.32(4)
+Ni1 Ge2 Ni4 . 2_545 61.68(5)
+Ni1 Ge2 Ni4 . 5_545 123.99(5)
+Ni1 Ge2 Ni1 2_645 3_665 96.47(4)
+Ni1 Ge2 Ni1 2_645 4_555 127.29(7)
+Ni1 Ge2 Ni1 2_645 5_645 54.74(5)
+Ni1 Ge2 Ni1 2_645 6_665 124.45(5)
+Ni1 Ge2 Ni2 2_645 . 60.78(4)
+Ni1 Ge2 Ni3 2_645 . 61.03(4)
+Ni1 Ge2 Ni4 2_645 2_545 59.25(7)
+Ni1 Ge2 Ni4 2_645 5_545 113.96(9)
+Ni1 Ge2 Ni1 3_665 4_555 133.02(8)
+Ni1 Ge2 Ni1 3_665 5_645 124.45(5)
+Ni1 Ge2 Ni1 3_665 6_665 59.04(5)
+Ni1 Ge2 Ni2 3_665 . 63.70(3)
+Ni1 Ge2 Ni3 3_665 . 149.73(4)
+Ni1 Ge2 Ni4 3_665 2_545 60.81(6)
+Ni1 Ge2 Ni4 3_665 5_545 119.72(7)
+Ni1 Ge2 Ni1 4_555 5_645 97.46(5)
+Ni1 Ge2 Ni1 4_555 6_665 99.90(6)
+Ni1 Ge2 Ni2 4_555 . 148.54(3)
+Ni1 Ge2 Ni3 4_555 . 66.32(4)
+Ni1 Ge2 Ni4 4_555 2_545 123.99(5)
+Ni1 Ge2 Ni4 4_555 5_545 61.68(5)
+Ni1 Ge2 Ni1 5_645 6_665 96.47(4)
+Ni1 Ge2 Ni2 5_645 . 60.78(4)
+Ni1 Ge2 Ni3 5_645 . 61.03(4)
+Ni1 Ge2 Ni4 5_645 2_545 113.96(9)
+Ni1 Ge2 Ni4 5_645 5_545 59.25(7)
+Ni1 Ge2 Ni2 6_665 . 63.70(3)
+Ni1 Ge2 Ni3 6_665 . 149.73(4)
+Ni1 Ge2 Ni4 6_665 2_545 119.72(7)
+Ni1 Ge2 Ni4 6_665 5_545 60.81(6)
+Ni2 Ge2 Ni3 . . 113.60(8)
+Ni2 Ge2 Ni4 . 2_545 87.00(4)
+Ni2 Ge2 Ni4 . 5_545 87.00(4)
+Ni3 Ge2 Ni4 . 2_545 89.29(6)
+Ni3 Ge2 Ni4 . 5_545 89.29(6)
+Ni4 Ge2 Ni4 2_545 5_545 172.68(10)
+Ni1 Ge3 Ni1 1_445 2_645 98.59(4)
+Ni1 Ge3 Ni1 1_445 3_665 98.59(4)
+Ni1 Ge3 Ni1 1_445 7_545 127.35(3)
+Ni1 Ge3 Ni1 1_445 8_555 129.24(3)
+Ni1 Ge3 Ni1 1_445 9_655 58.62(4)
+Ni1 Ge3 Ni2 1_445 . 61.09(3)
+Ni1 Ge3 Ni4 1_445 . 64.56(4)
+Ni1 Ge3 Ni4 1_445 2_545 151.06(5)
+Ni1 Ge3 Ni4 1_445 3_655 63.50(4)
+Ni1 Ge3 Ni1 2_645 3_665 98.59(5)
+Ni1 Ge3 Ni1 2_645 7_545 129.24(3)
+Ni1 Ge3 Ni1 2_645 8_555 58.62(4)
+Ni1 Ge3 Ni1 2_645 9_655 127.35(4)
+Ni1 Ge3 Ni2 2_645 . 61.09(3)
+Ni1 Ge3 Ni4 2_645 . 63.50(4)
+Ni1 Ge3 Ni4 2_645 2_545 64.56(6)
+Ni1 Ge3 Ni4 2_645 3_655 151.06(5)
+Ni1 Ge3 Ni1 3_665 7_545 58.62(4)
+Ni1 Ge3 Ni1 3_665 8_555 127.35(3)
+Ni1 Ge3 Ni1 3_665 9_655 129.24(4)
+Ni1 Ge3 Ni2 3_665 . 61.09(3)
+Ni1 Ge3 Ni4 3_665 . 151.06(5)
+Ni1 Ge3 Ni4 3_665 2_545 63.50(6)
+Ni1 Ge3 Ni4 3_665 3_655 64.56(4)
+Ni1 Ge3 Ni1 7_545 8_555 97.57(4)
+Ni1 Ge3 Ni1 7_545 9_655 97.57(5)
+Ni1 Ge3 Ni2 7_545 . 119.70(3)
+Ni1 Ge3 Ni4 7_545 . 150.32(5)
+Ni1 Ge3 Ni4 7_545 2_545 64.69(6)
+Ni1 Ge3 Ni4 7_545 3_655 63.86(4)
+Ni1 Ge3 Ni1 8_555 9_655 97.57(5)
+Ni1 Ge3 Ni2 8_555 . 119.70(3)
+Ni1 Ge3 Ni4 8_555 . 64.69(4)
+Ni1 Ge3 Ni4 8_555 2_545 63.86(6)
+Ni1 Ge3 Ni4 8_555 3_655 150.32(5)
+Ni1 Ge3 Ni2 9_655 . 119.70(3)
+Ni1 Ge3 Ni4 9_655 . 63.86(5)
+Ni1 Ge3 Ni4 9_655 2_545 150.32(5)
+Ni1 Ge3 Ni4 9_655 3_655 64.69(5)
+Ni2 Ge3 Ni4 . . 89.97(2)
+Ni2 Ge3 Ni4 . 2_545 89.97(2)
+Ni2 Ge3 Ni4 . 3_655 89.97(2)
+Ni4 Ge3 Ni4 . 2_545 120.00(8)
+Ni4 Ge3 Ni4 . 3_655 120.00(6)
+Ni4 Ge3 Ni4 2_545 3_655 120.00(8)
+Ge1 Ni1 Ge2 1_665 . 85.18(5)
+Ge1 Ni1 Ge2 1_665 2_655 178.36(5)
+Ge1 Ni1 Ge2 1_665 3_765 79.21(4)
+Ge1 Ni1 Ge3 1_665 1_665 97.20(4)
+Ge1 Ni1 Ge3 1_665 7_655 98.94(4)
+Ge1 Ni1 Ni1 1_665 4_555 119.26(5)
+Ge1 Ni1 Ni1 1_665 9_765 60.72(4)
+Ge1 Ni1 Ni2 1_665 1_665 126.72(4)
+Ge1 Ni1 Ni3 1_665 . 58.53(3)
+Ge1 Ni1 Ni4 1_665 1_665 51.32(4)
+Ge1 Ni1 Ni4 1_665 2_545 52.04(6)
+Ge1 Ni1 Ni4 1_665 3_765 121.38(5)
+Ge2 Ni1 Ge2 . 2_655 93.40(6)
+Ge2 Ni1 Ge2 . 3_765 98.85(5)
+Ge2 Ni1 Ge3 . 1_665 177.41(6)
+Ge2 Ni1 Ge3 . 7_655 82.42(5)
+Ge2 Ni1 Ni1 . 4_555 58.82(3)
+Ge2 Ni1 Ni1 . 9_765 122.95(4)
+Ge2 Ni1 Ni2 . 1_665 119.90(5)
+Ge2 Ni1 Ni3 . . 53.83(4)
+Ge2 Ni1 Ni4 . 1_665 130.77(7)
+Ge2 Ni1 Ni4 . 2_545 60.93(3)
+Ge2 Ni1 Ni4 . 3_765 128.05(8)
+Ge2 Ni1 Ge2 2_655 3_765 101.84(5)
+Ge2 Ni1 Ge3 2_655 1_665 84.23(4)
+Ge2 Ni1 Ge3 2_655 7_655 80.04(5)
+Ge2 Ni1 Ni1 2_655 4_555 60.48(4)
+Ge2 Ni1 Ni1 2_655 9_765 119.61(6)
+Ge2 Ni1 Ni2 2_655 1_665 54.76(4)
+Ge2 Ni1 Ni3 2_655 . 121.18(5)
+Ge2 Ni1 Ni4 2_655 1_665 130.31(5)
+Ge2 Ni1 Ni4 2_655 2_545 126.49(8)
+Ge2 Ni1 Ni4 2_655 3_765 58.97(4)
+Ge2 Ni1 Ge3 3_765 1_665 80.68(4)
+Ge2 Ni1 Ge3 3_765 7_655 177.63(6)
+Ge2 Ni1 Ni1 3_765 4_555 62.63(4)
+Ge2 Ni1 Ni1 3_765 9_765 115.64(5)
+Ge2 Ni1 Ni2 3_765 1_665 52.67(3)
+Ge2 Ni1 Ni3 3_765 . 50.47(3)
+Ge2 Ni1 Ni4 3_765 1_665 56.25(4)
+Ge2 Ni1 Ni4 3_765 2_545 126.49(7)
+Ge2 Ni1 Ni4 3_765 3_765 127.63(6)
+Ge3 Ni1 Ge3 1_665 7_655 98.14(4)
+Ge3 Ni1 Ni1 1_665 4_555 118.91(4)
+Ge3 Ni1 Ni1 1_665 9_765 59.34(4)
+Ge3 Ni1 Ni2 1_665 1_665 57.81(3)
+Ge3 Ni1 Ni3 1_665 . 126.73(5)
+Ge3 Ni1 Ni4 1_665 1_665 50.98(4)
+Ge3 Ni1 Ni4 1_665 2_545 121.39(6)
+Ge3 Ni1 Ni4 1_665 3_765 51.37(6)
+Ge3 Ni1 Ni1 7_655 4_555 119.70(5)
+Ge3 Ni1 Ni1 7_655 9_765 62.03(4)
+Ge3 Ni1 Ni2 7_655 1_665 128.37(4)
+Ge3 Ni1 Ni3 7_655 . 129.77(3)
+Ge3 Ni1 Ni4 7_655 1_665 121.43(6)
+Ge3 Ni1 Ni4 7_655 2_545 52.43(6)
+Ge3 Ni1 Ni4 7_655 3_765 52.10(5)
+Ni1 Ni1 Ni1 4_555 9_765 177.99(5)
+Ni1 Ni1 Ni2 4_555 1_665 61.10(3)
+Ni1 Ni1 Ni3 4_555 . 60.73(3)
+Ni1 Ni1 Ni4 4_555 1_665 118.86(5)
+Ni1 Ni1 Ni4 4_555 2_545 119.69(4)
+Ni1 Ni1 Ni4 4_555 3_765 119.32(5)
+Ni1 Ni1 Ni2 9_765 1_665 117.14(4)
+Ni1 Ni1 Ni3 9_765 . 119.21(5)
+Ni1 Ni1 Ni4 9_765 1_665 59.40(4)
+Ni1 Ni1 Ni4 9_765 2_545 62.04(4)
+Ni1 Ni1 Ni4 9_765 3_765 60.66(5)
+Ni2 Ni1 Ni3 1_665 . 97.20(4)
+Ni2 Ni1 Ni4 1_665 1_665 80.61(4)
+Ni2 Ni1 Ni4 1_665 2_545 178.67(7)
+Ni2 Ni1 Ni4 1_665 3_765 81.32(4)
+Ni3 Ni1 Ni4 . 1_665 81.20(5)
+Ni3 Ni1 Ni4 . 2_545 82.48(6)
+Ni3 Ni1 Ni4 . 3_765 178.03(6)
+Ni4 Ni1 Ni4 1_665 2_545 98.06(6)
+Ni4 Ni1 Ni4 1_665 3_765 97.26(7)
+Ni4 Ni1 Ni4 2_545 3_765 98.97(7)
+Ge2 Ni2 Ge2 . 2_545 120.00(6)
+Ge2 Ni2 Ge2 . 3_655 120.00(6)
+Ge2 Ni2 Ge3 . . 90
+Ge2 Ni2 Ge3 . 4_555 90
+Ge2 Ni2 Ni1 . 1_445 150.96(3)
+Ge2 Ni2 Ni1 . 2_645 66.56(4)
+Ge2 Ni2 Ni1 . 3_665 61.54(4)
+Ge2 Ni2 Ni1 . 4_445 150.96(3)
+Ge2 Ni2 Ni1 . 5_645 66.56(4)
+Ge2 Ni2 Ni1 . 6_665 61.54(4)
+Ge2 Ni2 Ge2 2_545 3_655 120.00(6)
+Ge2 Ni2 Ge3 2_545 . 90
+Ge2 Ni2 Ge3 2_545 4_555 90
+Ge2 Ni2 Ni1 2_545 1_445 61.54(5)
+Ge2 Ni2 Ni1 2_545 2_645 150.96(3)
+Ge2 Ni2 Ni1 2_545 3_665 66.56(5)
+Ge2 Ni2 Ni1 2_545 4_445 61.54(5)
+Ge2 Ni2 Ni1 2_545 5_645 150.96(3)
+Ge2 Ni2 Ni1 2_545 6_665 66.56(5)
+Ge2 Ni2 Ge3 3_655 . 90
+Ge2 Ni2 Ge3 3_655 4_555 90
+Ge2 Ni2 Ni1 3_655 1_445 66.56(5)
+Ge2 Ni2 Ni1 3_655 2_645 61.54(4)
+Ge2 Ni2 Ni1 3_655 3_665 150.96(3)
+Ge2 Ni2 Ni1 3_655 4_445 66.56(5)
+Ge2 Ni2 Ni1 3_655 5_645 61.54(4)
+Ge2 Ni2 Ni1 3_655 6_665 150.96(3)
+Ge3 Ni2 Ge3 . 4_555 180.0(5)
+Ge3 Ni2 Ni1 . 1_445 61.10(3)
+Ge3 Ni2 Ni1 . 2_645 61.10(3)
+Ge3 Ni2 Ni1 . 3_665 61.10(3)
+Ge3 Ni2 Ni1 . 4_445 118.90(3)
+Ge3 Ni2 Ni1 . 5_645 118.90(3)
+Ge3 Ni2 Ni1 . 6_665 118.90(3)
+Ge3 Ni2 Ni1 4_555 1_445 118.90(3)
+Ge3 Ni2 Ni1 4_555 2_645 118.90(3)
+Ge3 Ni2 Ni1 4_555 3_665 118.90(3)
+Ge3 Ni2 Ni1 4_555 4_445 61.10(3)
+Ge3 Ni2 Ni1 4_555 5_645 61.10(3)
+Ge3 Ni2 Ni1 4_555 6_665 61.10(3)
+Ni1 Ni2 Ni1 1_445 2_645 98.61(4)
+Ni1 Ni2 Ni1 1_445 3_665 98.61(4)
+Ni1 Ni2 Ni1 1_445 4_445 57.80(4)
+Ni1 Ni2 Ni1 1_445 5_645 128.08(4)
+Ni1 Ni2 Ni1 1_445 6_665 128.08(4)
+Ni1 Ni2 Ni1 2_645 3_665 98.61(4)
+Ni1 Ni2 Ni1 2_645 4_445 128.08(4)
+Ni1 Ni2 Ni1 2_645 5_645 57.80(4)
+Ni1 Ni2 Ni1 2_645 6_665 128.08(3)
+Ni1 Ni2 Ni1 3_665 4_445 128.08(4)
+Ni1 Ni2 Ni1 3_665 5_645 128.08(3)
+Ni1 Ni2 Ni1 3_665 6_665 57.80(4)
+Ni1 Ni2 Ni1 4_445 5_645 98.61(4)
+Ni1 Ni2 Ni1 4_445 6_665 98.61(4)
+Ni1 Ni2 Ni1 5_645 6_665 98.61(4)
+Ge1 Ni3 Ge1 1_665 4_665 180.0(5)
+Ge1 Ni3 Ge2 1_665 . 90
+Ge1 Ni3 Ge2 1_665 2_645 90
+Ge1 Ni3 Ge2 1_665 3_765 90
+Ge1 Ni3 Ni1 1_665 . 60.73(3)
+Ge1 Ni3 Ni1 1_665 2_645 60.73(3)
+Ge1 Ni3 Ni1 1_665 3_765 60.73(3)
+Ge1 Ni3 Ni1 1_665 4_555 119.27(3)
+Ge1 Ni3 Ni1 1_665 5_645 119.27(3)
+Ge1 Ni3 Ni1 1_665 6_765 119.27(3)
+Ge1 Ni3 Ge2 4_665 . 90
+Ge1 Ni3 Ge2 4_665 2_645 90
+Ge1 Ni3 Ge2 4_665 3_765 90
+Ge1 Ni3 Ni1 4_665 . 119.27(3)
+Ge1 Ni3 Ni1 4_665 2_645 119.27(3)
+Ge1 Ni3 Ni1 4_665 3_765 119.27(3)
+Ge1 Ni3 Ni1 4_665 4_555 60.73(3)
+Ge1 Ni3 Ni1 4_665 5_645 60.73(3)
+Ge1 Ni3 Ni1 4_665 6_765 60.73(3)
+Ge2 Ni3 Ge2 . 2_645 120.00(5)
+Ge2 Ni3 Ge2 . 3_765 120.00(6)
+Ge2 Ni3 Ni1 . . 59.84(4)
+Ge2 Ni3 Ni1 . 2_645 68.50(4)
+Ge2 Ni3 Ni1 . 3_765 150.32(3)
+Ge2 Ni3 Ni1 . 4_555 59.84(4)
+Ge2 Ni3 Ni1 . 5_645 68.50(4)
+Ge2 Ni3 Ni1 . 6_765 150.32(3)
+Ge2 Ni3 Ge2 2_645 3_765 120.00(6)
+Ge2 Ni3 Ni1 2_645 . 150.32(3)
+Ge2 Ni3 Ni1 2_645 2_645 59.84(5)
+Ge2 Ni3 Ni1 2_645 3_765 68.50(4)
+Ge2 Ni3 Ni1 2_645 4_555 150.32(3)
+Ge2 Ni3 Ni1 2_645 5_645 59.84(5)
+Ge2 Ni3 Ni1 2_645 6_765 68.50(4)
+Ge2 Ni3 Ni1 3_765 . 68.50(5)
+Ge2 Ni3 Ni1 3_765 2_645 150.32(3)
+Ge2 Ni3 Ni1 3_765 3_765 59.84(5)
+Ge2 Ni3 Ni1 3_765 4_555 68.50(5)
+Ge2 Ni3 Ni1 3_765 5_645 150.32(3)
+Ge2 Ni3 Ni1 3_765 6_765 59.84(5)
+Ni1 Ni3 Ni1 . 2_645 98.13(4)
+Ni1 Ni3 Ni1 . 3_765 98.13(4)
+Ni1 Ni3 Ni1 . 4_555 58.53(4)
+Ni1 Ni3 Ni1 . 5_645 128.28(4)
+Ni1 Ni3 Ni1 . 6_765 128.28(3)
+Ni1 Ni3 Ni1 2_645 3_765 98.13(4)
+Ni1 Ni3 Ni1 2_645 4_555 128.28(4)
+Ni1 Ni3 Ni1 2_645 5_645 58.53(4)
+Ni1 Ni3 Ni1 2_645 6_765 128.28(4)
+Ni1 Ni3 Ni1 3_765 4_555 128.28(3)
+Ni1 Ni3 Ni1 3_765 5_645 128.28(4)
+Ni1 Ni3 Ni1 3_765 6_765 58.53(4)
+Ni1 Ni3 Ni1 4_555 5_645 98.13(4)
+Ni1 Ni3 Ni1 4_555 6_765 98.13(4)
+Ni1 Ni3 Ni1 5_645 6_765 98.13(4)
+Ge1 Ni4 Ge2 . 3_655 90.46(4)
+Ge1 Ni4 Ge2 . 9_655 90.46(4)
+Ge1 Ni4 Ge3 . . 119.98(9)
+Ge1 Ni4 Ge3 . 7_645 119.98(9)
+Ge1 Ni4 Ni1 . 1_445 63.59(4)
+Ge1 Ni4 Ni1 . 2_645 150.66(3)
+Ge1 Ni4 Ni1 . 3_655 64.77(5)
+Ge1 Ni4 Ni1 . 7_535 63.59(4)
+Ge1 Ni4 Ni1 . 8_555 150.66(3)
+Ge1 Ni4 Ni1 . 9_655 64.77(5)
+Ge2 Ni4 Ge2 3_655 9_655 179.09(7)
+Ge2 Ni4 Ge3 3_655 . 92.94(6)
+Ge2 Ni4 Ge3 3_655 7_645 86.60(7)
+Ge2 Ni4 Ni1 3_655 1_445 64.51(6)
+Ge2 Ni4 Ni1 3_655 2_645 60.22(4)
+Ge2 Ni4 Ni1 3_655 3_655 57.40(5)
+Ge2 Ni4 Ni1 3_655 7_535 115.94(8)
+Ge2 Ni4 Ni1 3_655 8_555 118.87(6)
+Ge2 Ni4 Ni1 3_655 9_655 123.07(9)
+Ge2 Ni4 Ge3 9_655 . 86.60(7)
+Ge2 Ni4 Ge3 9_655 7_645 92.94(6)
+Ge2 Ni4 Ni1 9_655 1_445 115.94(8)
+Ge2 Ni4 Ni1 9_655 2_645 118.87(6)
+Ge2 Ni4 Ni1 9_655 3_655 123.07(9)
+Ge2 Ni4 Ni1 9_655 7_535 64.51(6)
+Ge2 Ni4 Ni1 9_655 8_555 60.22(4)
+Ge2 Ni4 Ni1 9_655 9_655 57.40(5)
+Ge3 Ni4 Ge3 . 7_645 120.04(6)
+Ge3 Ni4 Ni1 . 1_445 64.47(6)
+Ge3 Ni4 Ni1 . 2_645 65.13(5)
+Ge3 Ni4 Ni1 . 3_655 150.33(4)
+Ge3 Ni4 Ni1 . 7_535 151.11(4)
+Ge3 Ni4 Ni1 . 8_555 63.21(5)
+Ge3 Ni4 Ni1 . 9_655 63.72(6)
+Ge3 Ni4 Ni1 7_645 1_445 151.11(4)
+Ge3 Ni4 Ni1 7_645 2_645 63.21(5)
+Ge3 Ni4 Ni1 7_645 3_655 63.72(6)
+Ge3 Ni4 Ni1 7_645 7_535 64.47(6)
+Ge3 Ni4 Ni1 7_645 8_555 65.13(5)
+Ge3 Ni4 Ni1 7_645 9_655 150.33(4)
+Ni1 Ni4 Ni1 1_445 2_645 99.46(6)
+Ni1 Ni4 Ni1 1_445 3_655 98.19(5)
+Ni1 Ni4 Ni1 1_445 7_535 127.19(6)
+Ni1 Ni4 Ni1 1_445 8_555 127.67(9)
+Ni1 Ni4 Ni1 1_445 9_655 58.56(6)
+Ni1 Ni4 Ni1 2_645 3_655 96.67(6)
+Ni1 Ni4 Ni1 2_645 7_535 127.67(9)
+Ni1 Ni4 Ni1 2_645 8_555 58.68(5)
+Ni1 Ni4 Ni1 2_645 9_655 128.84(9)
+Ni1 Ni4 Ni1 3_655 7_535 58.56(6)
+Ni1 Ni4 Ni1 3_655 8_555 128.84(9)
+Ni1 Ni4 Ni1 3_655 9_655 129.53(6)
+Ni1 Ni4 Ni1 7_535 8_555 99.46(6)
+Ni1 Ni4 Ni1 7_535 9_655 98.19(5)
+Ni1 Ni4 Ni1 8_555 9_655 96.67(6)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ge1 Ni1 1_445 2.5473(13)
+Ge1 Ni1 2_535 2.5473(15)
+Ge1 Ni1 3_655 2.5473(16)
+Ge1 Ni1 7_535 2.5473(13)
+Ge1 Ni1 8_445 2.5473(15)
+Ge1 Ni1 9_655 2.5473(16)
+Ge1 Ni3 1_445 2.4904(14)
+Ge1 Ni3 7_535 2.4904(14)
+Ge1 Ni4 . 2.2203(18)
+Ge1 Ni4 2_435 2.220(2)
+Ge1 Ni4 3_645 2.220(2)
+Ge2 Ni1 . 2.4053(16)
+Ge2 Ni1 2_645 2.709(2)
+Ge2 Ni1 3_665 2.5275(19)
+Ge2 Ni1 4_555 2.4053(16)
+Ge2 Ni1 5_645 2.709(2)
+Ge2 Ni1 6_665 2.5275(19)
+Ge2 Ni2 . 2.3480(17)
+Ge2 Ni3 . 2.2457(16)
+Ge2 Ni4 2_545 2.4955(14)
+Ge2 Ni4 5_545 2.4955(14)
+Ge3 Ni1 1_445 2.5774(15)
+Ge3 Ni1 2_645 2.5774(14)
+Ge3 Ni1 3_665 2.5774(15)
+Ge3 Ni1 7_545 2.5104(14)
+Ge3 Ni1 8_555 2.5104(16)
+Ge3 Ni1 9_655 2.5104(15)
+Ge3 Ni2 . 2.4915(16)
+Ge3 Ni4 . 2.219(2)
+Ge3 Ni4 2_545 2.219(2)
+Ge3 Ni4 3_655 2.219(3)
+Ni1 Ni1 4_555 2.491(2)
+Ni1 Ni1 9_765 2.492(2)
+Ni1 Ni2 1_665 2.5771(14)
+Ni1 Ni3 . 2.5476(13)
+Ni1 Ni4 1_665 2.579(2)
+Ni1 Ni4 2_545 2.5134(19)
+Ni1 Ni4 3_765 2.542(2)

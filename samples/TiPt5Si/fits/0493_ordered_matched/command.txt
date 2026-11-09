@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/TiPt5Si/buttons/0493/0493_HM_TiPt5Si_annealed_ZB.txt --space samples/TiPt5Si/fits/0493_ordered_matched/start --occ pred --uiso-max 0.04 --main-key TiSiPt5_alex_agm027752216 --limits 8 119.98 --positions --partners TiPt3_cod_1539263_dis --hold-cells 1 --partner-mustrain 1 30000 --gen-strain --md --strict-final --accept-bound --out results/refits/0493_ordered_matched

@@ -1,0 +1,132 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-06-05 17:01:20 +0300 (Wed, 05 Jun 2024) $
+#$Revision: 292204 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/75/9017507.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017507
+loop_
+_publ_author_name
+'Slack, G. A.'
+'Hejna, C. I.'
+'Garbauskas, M. F.'
+'Kasper, J. S.'
+_publ_section_title
+;
+ The crystal structure and density of beta-rhombohedral boron
+ Note: beta-phase
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              52
+_journal_page_last               63
+_journal_volume                  76
+_journal_year                    1988
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            B
+_chemical_name_mineral           Boron
+_space_group_IT_number           166
+_space_group_name_Hall           '-R 3 2"'
+_space_group_name_H-M_alt        'R -3 m :H'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   10.932
+_cell_length_b                   10.932
+_cell_length_c                   23.819
+_cell_formula_units_Z            324
+_cell_volume                     2465.207
+_database_code_amcsd             0020598
+_exptl_crystal_density_diffrn    2.335
+_cod_data_source_file            inputs/fixed/downloads/16/16862.cif
+_cod_data_source_block           16862
+_cod_depositor_comments
+;
+
+2024-06-04
+Z value and formula fixed to values more according to usual
+chemical conventions.                 miguel
+;
+_cod_original_formula_sum            B35.62
+_cod_original_formula_units_Z            9
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               9017507
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+y,x,-z
+2/3+y,1/3+x,1/3-z
+1/3+y,2/3+x,2/3-z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-x,-x+y,-z
+2/3-x,1/3-x+y,1/3-z
+1/3-x,2/3-x+y,2/3-z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+x-y,-y,-z
+2/3+x-y,1/3-y,1/3-z
+1/3+x-y,2/3-y,2/3-z
+y,-x+y,-z
+2/3+y,1/3-x+y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+-x,-y,-z
+2/3-x,1/3-y,1/3-z
+1/3-x,2/3-y,2/3-z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+x-y,x,-z
+2/3+x-y,1/3+x,1/3-z
+1/3+x-y,2/3+x,2/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+B1 0.17300 0.17410 0.17670 1.00000 0.00600
+B2 0.31910 0.29570 0.12940 1.00000 0.00600
+B3 0.26140 0.21750 0.41970 1.00000 0.00600
+B4 0.23490 0.25160 0.34690 1.00000 0.00600
+B5 0.05450 0.10900 0.94370 1.00000 0.00500
+B6 0.08650 0.17300 0.01320 1.00000 0.00500
+B7 0.10980 0.21960 0.88600 1.00000 0.00500
+B8 0.17050 0.34100 0.02800 1.00000 0.00500
+B9 0.12870 0.25740 0.76660 1.00000 0.00500
+B10 0.10200 0.20400 0.69850 1.00000 0.00500
+B11 0.05640 0.11280 0.32660 1.00000 0.00500
+B12 0.08970 0.17940 0.39900 1.00000 0.00500
+B13 0.05790 0.11580 0.55380 0.74500 0.01100
+B14 0.00000 0.00000 0.38550 1.00000 0.00500
+B15 0.00000 0.00000 0.50000 1.00000 0.01400
+B16 0.05460 0.10920 0.11760 0.27200 0.00900
+B17 0.08330 0.16660 0.47600 0.08500 0.04300
+B18 0.14400 0.28800 0.52390 0.06600 0.00600
+B19 0.18050 0.36100 0.53470 0.06800 0.00600
+B20 0.20670 0.22800 0.07110 0.03700 0.01100
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020598

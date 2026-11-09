@@ -1,0 +1,79 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-08-23 13:29:13 +0300 (Thu, 23 Aug 2018) $
+#$Revision: 210092 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/00/28/2002851.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002851
+loop_
+_publ_author_name
+'Meyer, H.-J.'
+'M\"uller-Buschbaum, HK.'
+_publ_section_title
+;
+ Eine neue durch oxidspuren stabilisierte form des palladiums
+;
+_journal_coden_ASTM              JCOMAH
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              293
+_journal_page_last               298
+_journal_paper_doi               10.1016/0022-5088(80)90032-6
+_journal_volume                  76
+_journal_year                    1976
+_chemical_formula_structural     (Fe,Mn)(Ta,Nb)2O6
+_chemical_formula_sum            Pd
+_chemical_name_mineral           Allopalladium
+_chemical_name_systematic        Palladium
+_space_group_IT_number           164
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      164
+_symmetry_space_group_name_Hall  '-P 3 2"'
+_symmetry_space_group_name_H-M   'P -3 m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   2.779
+_cell_length_b                   2.779
+_cell_length_c                   6.806
+_cell_volume                     45.5
+_refine_ls_R_factor_all          0.06
+_cod_database_code               2002851
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+x,x-y,z
+y-x,y,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+y,x,-z
+-x,y-x,-z
+x-y,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Pd1 Pd0 1 a 0. 0. 0. 1. 0 d
+Pd2 Pd0 2 d 0.3333 0.6667 0.3317 0.185 0 d
+Pd3 Pd0 2 d 0.3333 0.6667 0.6683 0.165 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pd0 0.000

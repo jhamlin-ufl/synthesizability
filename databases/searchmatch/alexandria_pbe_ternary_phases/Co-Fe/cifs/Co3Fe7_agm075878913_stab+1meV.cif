@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Fe7Co3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37765397
+_cell_length_b   6.37765397
+_cell_length_c   4.93741785
+_cell_angle_alpha   74.81771127
+_cell_angle_beta   105.18228875
+_cell_angle_gamma   143.28829238
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe7Co3
+_chemical_formula_sum   'Fe7 Co3'
+_cell_volume   115.39136725
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.40048240  0.59951760  0.60001834  1
+  Fe  Fe1  1  0.59951760  0.40048240  0.39998166  1
+  Fe  Fe2  1  0.80009396  0.19990604  0.69900709  1
+  Fe  Fe3  1  0.19990604  0.80009396  0.30099291  1
+  Fe  Fe4  1  0.80028222  0.19971778  0.20025750  1
+  Fe  Fe5  1  0.19971778  0.80028222  0.79974250  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co7  1  0.40023162  0.59976838  0.09988617  1
+  Co  Co8  1  0.59976838  0.40023162  0.90011383  1
+  Co  Co9  1  0.00000000  0.00000000  0.50000000  1

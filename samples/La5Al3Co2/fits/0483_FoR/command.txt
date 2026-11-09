@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/La5Al3Co2/buttons/0483/0483_HM_La5Al3Co2.txt --space samples/La5Al3Co2/fits/0483_FoR/start --main-key La4Co3Al3_Amm2_Tursina2023 --partners --out results/refits/0483_FoR --strict-final --accept-bound

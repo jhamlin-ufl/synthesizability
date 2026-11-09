@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Al8FeCo2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.96585537
+_cell_length_b   7.16135717
+_cell_length_c   6.73936545
+_cell_angle_alpha   122.09391176
+_cell_angle_beta   107.11140558
+_cell_angle_gamma   90.00000157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al8FeCo2
+_chemical_formula_sum   'Al8 Fe1 Co2'
+_cell_volume   152.05962604
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.66075361  0.87908760  0.32150721  1
+  Al  Al1  1  0.33924439  0.55758139  0.67848879  1
+  Al  Al2  1  0.13871749  0.13871349  0.27743398  1
+  Al  Al3  1  0.00000200  0.31964615  0.00000500  1
+  Al  Al4  1  0.86128251  0.86128551  0.72256602  1
+  Al  Al5  1  0.66075561  0.44241861  0.32151121  1
+  Al  Al6  1  0.33924639  0.12091240  0.67849279  1
+  Al  Al7  1  0.99999800  0.68035385  0.99999500  1
+  Fe  Fe8  1  0.50000000  0.00000000  0.00000000  1
+  Co  Co9  1  0.20120151  0.70120551  0.40240303  1
+  Co  Co10  1  0.79879849  0.29879349  0.59759697  1

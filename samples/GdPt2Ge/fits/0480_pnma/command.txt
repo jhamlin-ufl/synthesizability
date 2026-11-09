@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/GdPt2Ge/buttons/0480/0480_HM_GdPt2Ge_annealed_ZB.txt --space samples/GdPt2Ge/fits/0480_pnma/start --occ pred --uiso-max 0.04 --main-key GdGePt2_alex_agm077800246 --partners --out results/refits/0480_pnma

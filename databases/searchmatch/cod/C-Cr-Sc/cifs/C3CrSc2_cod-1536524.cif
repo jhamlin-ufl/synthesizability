@@ -1,0 +1,72 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/65/1536524.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1536524
+loop_
+_publ_author_name
+'Pecharskaya, A.O.'
+'Marusin, E.P.'
+'Bodak, O.I.'
+'Mazus, M.D.'
+_publ_section_title
+;
+ Crystal structure of Sc2CrC3
+;
+_journal_name_full               Kristallografiya
+_journal_page_first              47
+_journal_page_last               49
+_journal_volume                  35
+_journal_year                    1990
+_chemical_formula_sum            'C3 Cr Sc2'
+_chemical_name_systematic        'Sc2 Cr C3'
+_space_group_IT_number           55
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   14.111
+_cell_length_b                   5.809
+_cell_length_c                   3.271
+_cell_volume                     268.126
+_citation_journal_id_ASTM        KRISAJ
+_cod_data_source_file            Pecharskaya_KRISAJ_1990_956.cif
+_cod_data_source_block           C3Cr1Sc2
+_cod_original_cell_volume        268.1265
+_cod_original_formula_sum        'C3 Cr1 Sc2'
+_cod_database_code               1536524
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z
+-x,-y,-z
+x,y,-z
+-x-1/2,y-1/2,z
+x-1/2,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Cr1 Cr+6 0.1538 0.2007 0.5 1 0.0
+Sc3 Sc+3 0 0.5 0.5 1 0.0
+Sc1 Sc+3 0.3122 0.1194 0 1 0.0
+C3 C-4 0.3835 0.355 0.5 1 0.0
+C1 C-4 0.091 0.326 0 1 0.0
+Sc2 Sc+3 0 0 0 1 0.0
+C2 C-4 0.2799 0.39 0.5 1 0.0

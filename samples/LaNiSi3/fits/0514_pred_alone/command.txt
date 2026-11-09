@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --occ pred --uiso-max 0.04 --limits 18 118 --scan samples/LaNiSi3/buttons/0514/0514_HM_LaNiSi3_circular.txt --space samples/LaNiSi3/fits/0514_pred_alone/start --main-key LaNiSi3_pred_OQMD-1364676 --partners --out results/refits/0514_pred_alone --strict-final --accept-bound

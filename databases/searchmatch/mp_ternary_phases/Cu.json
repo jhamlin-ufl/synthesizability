@@ -1,0 +1,64 @@
+{
+  "space": "Cu",
+  "elements": [
+    "Cu"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-30",
+      "composition_id": "Cu1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-989695",
+      "composition_id": "Cu1",
+      "delta_e": 0.007716539999998001,
+      "stability": 0.007716539999998001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-989782",
+      "composition_id": "Cu1",
+      "delta_e": 0.012339934999999,
+      "stability": 0.012339934999999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-998890",
+      "composition_id": "Cu1",
+      "delta_e": 0.033066179999998,
+      "stability": 0.033066179999998,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1010136",
+      "composition_id": "Cu1",
+      "delta_e": 0.03556281,
+      "stability": 0.03556281,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1059259",
+      "composition_id": "Cu1",
+      "delta_e": 0.15576821999999801,
+      "stability": 0.15576821999999801,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1120774",
+      "composition_id": "Cu1",
+      "delta_e": 0.18032071500000002,
+      "stability": 0.18032071500000002,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1056079",
+      "composition_id": "Cu1",
+      "delta_e": 1.982934489999999,
+      "stability": 1.982934489999999,
+      "icsd": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sc5Cu4Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.31592178
+_cell_length_b   7.31592177
+_cell_length_c   5.67265662
+_cell_angle_alpha   75.07894886
+_cell_angle_beta   104.92105116
+_cell_angle_gamma   143.16872532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc5Cu4Pd
+_chemical_formula_sum   'Sc5 Cu4 Pd1'
+_cell_volume   175.17525702
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.20110333  0.79889667  0.80307917  1
+  Sc  Sc1  1  0.39871801  0.60128199  0.59922175  1
+  Sc  Sc2  1  0.60128199  0.39871801  0.40077825  1
+  Sc  Sc3  1  0.79889667  0.20110333  0.19692083  1
+  Sc  Sc4  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu5  1  0.20119624  0.79880376  0.30375785  1
+  Cu  Cu6  1  0.40110229  0.59889771  0.09384695  1
+  Cu  Cu7  1  0.59889771  0.40110229  0.90615305  1
+  Cu  Cu8  1  0.79880376  0.20119624  0.69624215  1
+  Pd  Pd9  1  0.00000000  0.00000000  0.50000000  1

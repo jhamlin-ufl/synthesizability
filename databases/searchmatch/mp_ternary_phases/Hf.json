@@ -1,0 +1,36 @@
+{
+  "space": "Hf",
+  "elements": [
+    "Hf"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-103",
+      "composition_id": "Hf1",
+      "delta_e": 0.0,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1009460",
+      "composition_id": "Hf1",
+      "delta_e": 0.032178136666658,
+      "stability": 0.032178136666665004,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-8640",
+      "composition_id": "Hf1",
+      "delta_e": 0.08898112999999301,
+      "stability": 0.08898112999999301,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-100",
+      "composition_id": "Hf1",
+      "delta_e": 0.212179789999993,
+      "stability": 0.212179789999993,
+      "icsd": true
+    }
+  ]
+}

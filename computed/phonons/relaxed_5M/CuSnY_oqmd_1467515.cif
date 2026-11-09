@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Y3Cu3Sn3
+_chemical_formula_sum              "Y3 Cu3 Sn3"
+_cell_length_a       7.297045139520881
+_cell_length_b       7.297045139520881
+_cell_length_c       4.164533981581282
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    120.00000000000001
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.6003902704409168  0.0  0.0  1.0000
+  Y   Y2        1.0  0.3996097295590833  0.3996097295590831  0.0  1.0000
+  Y   Y3        1.0  0.9999999999999999  0.6003902704409162  0.0  1.0000
+  Cu  Cu1       1.0  0.6666666666666667  0.33333333333333326  0.4999999999999998  1.0000
+  Cu  Cu2       1.0  0.3333333333333334  0.6666666666666665  0.4999999999999998  1.0000
+  Cu  Cu3       1.0  0.0  0.0  0.0  1.0000
+  Sn  Sn1       1.0  0.26283956396248276  1.999788910281057e-30  0.4999999999999998  1.0000
+  Sn  Sn2       1.0  1.0650285182265396e-16  0.2628395639624828  0.4999999999999998  1.0000
+  Sn  Sn3       1.0  0.7371604360375172  0.7371604360375167  0.4999999999999998  1.0000

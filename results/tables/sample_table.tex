@@ -1,0 +1,62 @@
+\begin{table*}[!tp]
+\centering
+\footnotesize
+\caption{Arc-melted targets grouped by XRD outcome category, ordered within a category by decreasing $P_{\mathrm{disorder}}$. The outcome is from the best-characterized scan (after annealing where stated). List: candidate list the target came from (A, B or C; the lists are described in Methods). $\Delta H_{\mathrm{f}}-C(x)$: energy of the lowest entry at the target composition relative to the convex hull $C(x)$ of all other compositions~\cite{Gautier2015} in OQMD, the Materials Project (MP) and Alexandria (PBE), in meV/atom; negative means predicted stable, blank means no entry. $P_{\mathrm{disorder}}$: predicted probability of a chemically disordered structure~\cite{Jakob2025}. A structure is on the hull if it is the lowest-energy structure in at least one database that places it below the hull. $^{*}$: structure previously reported at the target composition; $^{\dagger}$: composition reported without a structure; $^{\ddagger}$: predicted ordered member of a previously reported series whose known member has the same sites partly disordered.}
+\label{tab:xrd_outcomes}
+\vspace{2pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{rllrrrrl}
+\toprule
+ & & & \multicolumn{3}{c}{$\Delta H_{\mathrm{f}}-C(x)$ (meV/atom)} & & \\
+\cmidrule(lr){4-6}
+\# & Formula & List & OQMD & MP & Alex. & $P_{\mathrm{disorder}}$ & XRD outcome \\
+\midrule
+\multicolumn{8}{l}{\textbf{On-hull structure}} \\
+1 & \ch{ZrPt5Si} & B & -41.8 & -41.8 & -21.5 & 0.20 & On-hull ZrPt$_{5}$Si, 97 wt\% after anneal (ZrPt$_{3}$ 3 wt\%); new compound \\
+2 & \ch{YAl3Cu2}$^{\ddagger}$ & C & -10.8 & & -3.0 & 0.18 & \makecell[tl]{Predicted Al/Cu order on the CaCu$_{5}$ lattice (order parameter 0.7 \\ after anneal); La$_{3}$Al$_{11}$-type Y$_{3}$(Al,Cu)$_{11}$ and unidentified lines} \\
+3 & \ch{GdPt2Ge} & B & -32.5 & & -25.4 & 0.18 & \makecell[tl]{YPd$_{2}$Si-type $Pnma$ (lowest in Alexandria), 94 wt\% after anneal, small \\ oxide fraction; OQMD $Cmcm$ structure absent; new compound} \\
+4 & \ch{TiPt5Si} & B & -16.5 & & -25.6 & 0.18 & On-hull TiPt$_{5}$Si, 91 wt\% after anneal; new compound \\
+5 & \ch{YSnCu}$^{*}$ & C & -69.1 & -69.0 & -69.6 & 0.15 & On-hull LiGaGe-type YSnCu formed; previously known compound \\
+6 & \ch{ScCrC2}$^{*}$ & C & -10.0 & 26.1 & 26.8 & 0.05 & \makecell[tl]{On-hull $P6_{3}/mmc$ ScCrC$_{2}$, nearly single phase \\ (about 95 wt\%); previously known} \\
+\midrule
+\multicolumn{8}{l}{\textbf{Above-hull polymorph}} \\
+7 & \ch{YCoSi}$^{*}$ & C & -42.9 & 16.9 & -31.1 & 0.13 & \makecell[tl]{Known $Pnma$ YCoSi polymorph (+32 meV) formed, \\ textured; not the on-hull $P4/nmm$ structure} \\
+8 & \ch{YCoSi3}$^{\dagger}$ & C & -17.3 & & -14.9 & 0.01 & \makecell[tl]{$Cmmm$ polymorph (+8 meV), nearly single phase after \\ anneal; on-hull $I4mm$ structure absent} \\
+\midrule
+\multicolumn{8}{l}{\textbf{Disordered parent of on-hull structure}} \\
+9 & \ch{Al8FeCo7} & B & -3.4 & 12.1 & & 0.92 & B2 Al(Fe,Co), Al ordered ($\eta$ 0.9); Fe/Co order undetermined \\
+10 & \ch{Hf2MoIr} & A & -12.0 & -9.1 & 3.7 & 0.90 & \makecell[tl]{bcc Hf-Mo-Ir after anneal, partial Hf order; \\ Mo/Ir order absent; Ti$_{2}$Ni-type Hf$_{2}$Ir 12 wt\%} \\
+11 & \ch{Al4FeCo3} & B & -6.5 & & -3.2 & 0.89 & B2 Al(Fe,Co), Al ordered ($\eta$ 0.9); Fe/Co order undetermined \\
+12 & \ch{Sc2PdCu} & A & 4.8 & -1.3 & -0.7 & 0.89 & B2 Sc(Cu,Pd), Sc ordered; Heusler Cu/Pd order absent; cut-face scan \\
+13 & \ch{Sc3Pd2Cu} & A & -3.0 & & 4.9 & 0.88 & \makecell[tl]{B2 Sc(Cu,Pd) after anneal, Sc ordered; Cu/Pd layer \\ order of the on-hull structure absent} \\
+14 & \ch{ScPd5Au2} & A & 2.8 & & 9.9 & 0.81 & fcc (Sc,Pd,Au) solution; $Pbam$ order absent in range; bulk scan \\
+15 & \ch{Al2MnAu6} & B & -0.6 & & 3.2 & 0.62 & C11$_b$ Au$_{2}$(Al,Mn), partial Au order; Mn/Al order undetermined \\
+16 & \ch{Sc2Pd5Au} & A & -9.6 & -12.9 & -34.7 & 0.60 & L1$_2$ Sc(Pd,Au)$_{3}$; $Pbam$ Pd/Au order absent \\
+17 & \ch{PtNiGe2} & B & -5.8 & & 17.9 & 0.51 & \makecell[tl]{MnP-type (Ni,Pt)Ge, parent of the on-hull structure, \\ Ni/Pt order absent; pattern unresolved} \\
+18 & \ch{Gd3Sn6Co}$^{*}$ & B & -25.1 & & & 0.24 & \makecell[tl]{Known CeNiSi$_{2}$-type GdCo$_x$Sn$_{2}$; Co ordering of \\ the on-hull structure absent} \\
+\midrule
+\multicolumn{8}{l}{\textbf{Other solid solution}} \\
+19 & \ch{ScPd2Au} & A & 6.4 & 2078.0 & -4.7 & 0.56 & \makecell[tl]{Hexagonal Sc(Pd,Au)$_{3}$ majority; fcc-stacked Sc(Pd,Au)$_{3}$ minority \\ is the L1$_2$ parent of the on-hull structure} \\
+\midrule
+\multicolumn{8}{l}{\textbf{Multiphase, on-hull structure not formed}} \\
+20 & \ch{ScPd2Cu} & A & 17.7 & 33.2 & 4.8 & 0.75 & \makecell[tl]{fcc-derived Sc(Cu,Pd)$_{3}$-type plus hexagonal \\ phase; compositions undetermined} \\
+21 & \ch{La5Al3Co2} & B & -0.7 & & & 0.75 & \makecell[tl]{Known La$_{4}$Co$_{3}$Al$_{3}$ majority; on-hull structure not \\ identified, minority up to $\sim$10 wt\% not excluded} \\
+22 & \ch{TiPt5Ge} & B & -18.8 & & -34.0 & 0.20 & \makecell[tl]{Pt + Fe$_{2}$P-type Pt$_{2}$Ge, no Ti-bearing phase \\ identified; on-hull structure absent} \\
+23 & \ch{Ti2Pt8Si} & B & -4.8 & & 90.4 & 0.19 & TiPt$_{5}$Si-type and Pt-rich fcc phase formed; on-hull structure absent \\
+24 & \ch{LaNiSi3} & C & -24.7 & & -5.2 & 0.07 & Multiphase, known compounds; on-hull structure absent \\
+25 & \ch{GdSn6Co4} & B & -4.1 & & -11.2 & 0.04 & \makecell[tl]{Multiphase, known compounds, GdCo$_{6}$Sn$_{6}$ \\ the largest; on-hull structure absent} \\
+26 & \ch{NbNi2B2} & C & 12.1 & & 23.0 & 0.03 & \makecell[tl]{Multiphase: Ni$_{3}$B, NbB$_{2}$, $\tau$-boride Nb$_{2}$Ni$_{21}$B$_{6}$; \\ on-hull structure absent} \\
+27 & \ch{GdFeGe2} & B & 0.2 & & -6.3 & 0.01 & Two known phases and two minor ones; on-hull structure absent \\
+28 & \ch{Gd2Fe3Ge5} & B & -8.6 & & & 0.01 & Multiphase, four known phases; on-hull structure absent \\
+29 & \ch{GdFeGe3} & B & -19.0 & & -30.6 & 0.01 & Multiphase, three known phases; on-hull structure absent \\
+30 & \ch{LaRuC2} & C & 0.9 & & 28.3 & 0.00 & \makecell[tl]{Ru and probably La(OH)$_3$; \\ on-hull structure absent} \\
+\midrule
+\multicolumn{8}{l}{\textbf{On-hull structure did not form but structure(s) unresolved}} \\
+31 & \ch{Pd6Cu5Ge} & A & -19.6 & & -15.9 & 0.93 & \makecell[tl]{Not $Cmmm$; B2-type when measured on a cut face, \\ broad fcc after grinding; unresolved} \\
+32 & \ch{La2PdAu2} & A & -0.8 & & 11.9 & 0.88 & Not the on-hull structure; multiphase, no phase identified \\
+33 & \ch{Ti2Pt8Ge} & B & -3.9 & -45.4 & 103.0 & 0.26 & \makecell[tl]{Pt-rich fcc-type phase plus unidentified \\ lines; on-hull structure absent} \\
+34 & \ch{ScPdCu4} & A & -24.2 & & 3.9 & 0.25 & Broad pattern, no well-defined lines; on-hull structure absent \\
+\bottomrule
+\end{tabular}
+\end{table*}

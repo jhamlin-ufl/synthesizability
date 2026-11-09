@@ -1,0 +1,80 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/53/2105394.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105394
+loop_
+_publ_author_name
+'Watanabe, D.'
+'Hiraga, K.'
+'Terasaki, O.'
+'Shindo, D.'
+'Hirabayashi, M.'
+_publ_section_title
+;
+ A study of the ordered structures of the Au-Mn system by high-voltage
+ high-resolution microscopy
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              2550
+_journal_page_last               2554
+_journal_paper_doi               10.1107/S0567740880009417
+_journal_volume                  36
+_journal_year                    1980
+_chemical_formula_sum            'Au31 Mn9'
+_space_group_IT_number           83
+_symmetry_space_group_name_Hall  '-P 4'
+_symmetry_space_group_name_H-M   'P 4/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   12.6
+_cell_length_b                   12.6
+_cell_length_c                   4
+_cell_volume                     635.040
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            gold_633.cif
+_cod_data_source_block           Au31Mn9
+_cod_original_cell_volume        635.04
+_cod_database_code               2105394
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Au2 Au 0 0.5 0 1 0.0
+Au7 Au 0.25 0.25 0.5 1 0.0
+Au6 Au 0.15 0.05 0.5 1 0.0
+Au9 Au 0.35 0.45 0.5 1 0.0
+Au1 Au 0.5 0.5 0 1 0.0
+Au3 Au 0.1 0.2 0 1 0.0
+Mn1 Mn 0 0 0 1 0.0
+Mn3 Mn 0.05 0.35 0.5 1 0.0
+Au5 Au 0.2 0.4 0 1 0.0
+Mn2 Mn 0.4 0.3 0 1 0.0
+Au4 Au 0.3 0.1 0 1 0.0
+Au8 Au 0.45 0.15 0.5 1 0.0

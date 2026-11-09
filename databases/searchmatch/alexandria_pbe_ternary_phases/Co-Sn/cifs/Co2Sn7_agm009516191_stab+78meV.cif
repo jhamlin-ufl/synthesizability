@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Co2Sn7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29492850
+_cell_length_b   6.79125533
+_cell_length_c   6.58665189
+_cell_angle_alpha   116.76301826
+_cell_angle_beta   80.74877335
+_cell_angle_gamma   105.34070344
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2Sn7
+_chemical_formula_sum   'Co2 Sn7'
+_cell_volume   203.70499042
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.09511557  0.30778878  0.41217128  1
+  Co  Co1  1  0.90488443  0.69221122  0.58782872  1
+  Sn  Sn2  1  0.60570609  0.31481374  0.27086821  1
+  Sn  Sn3  1  0.39429391  0.68518626  0.72913179  1
+  Sn  Sn4  1  0.25956609  0.11404564  0.61981676  1
+  Sn  Sn5  1  0.74043391  0.88595436  0.38018324  1
+  Sn  Sn6  1  0.79877595  0.42137828  0.80380191  1
+  Sn  Sn7  1  0.20122405  0.57862172  0.19619809  1
+  Sn  Sn8  1  0.00000000  0.00000000  0.00000000  1

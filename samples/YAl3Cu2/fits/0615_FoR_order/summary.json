@@ -1,0 +1,748 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "YAl3Cu2",
+  "space": "../../../refits_2026-11/cifs_new/0540",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": 0.708,
+  "two_mu_t": 0.22312195768903517,
+  "scan": "0615_HM_Al3Cu2Y_annealed_ZB.txt",
+  "occ": "order",
+  "md": false,
+  "uiso_held": 0.0055,
+  "uiso_max": 0.04,
+  "partners": [
+   "Y3Cu1.98Al9.02_Immm_Krachan"
+  ],
+  "partner_scales": [],
+  "wR": 11.907954191929399,
+  "gof": 6.818432187009167,
+  "x_al": 3.0,
+  "lines": {
+   "(001)": {
+    "two_theta": 21.7,
+    "obs": 26.1,
+    "calc": 31.1,
+    "overlap": false
+   },
+   "(101)": {
+    "two_theta": 29.29,
+    "obs": 23.2,
+    "calc": 23.9,
+    "overlap": false
+   },
+   "(110)": {
+    "two_theta": 34.01,
+    "obs": 68.8,
+    "calc": 50.2,
+    "overlap": false
+   },
+   "(200)": {
+    "two_theta": 39.47,
+    "obs": 14.8,
+    "calc": 16.1,
+    "overlap": true
+   },
+   "(111)": {
+    "two_theta": 40.7,
+    "obs": 100.0,
+    "calc": 90.2,
+    "overlap": false
+   },
+   "(002)": {
+    "two_theta": 44.23,
+    "obs": 13.5,
+    "calc": 17.5,
+    "overlap": false
+   },
+   "(201)": {
+    "two_theta": 45.48,
+    "obs": 4.4,
+    "calc": 4.3,
+    "overlap": true
+   },
+   "(003)": {
+    "two_theta": 68.76,
+    "obs": 1.0,
+    "calc": 0.8,
+    "overlap": true
+   }
+  },
+  "state": {
+   "wt": [
+    0.6892,
+    0.3108
+   ],
+   "cells": [
+    {
+     "length_a": 5.26855,
+     "length_b": 5.26855,
+     "length_c": 4.0926
+    },
+    {
+     "length_a": 4.21134,
+     "length_b": 12.396,
+     "length_c": 9.81638
+    }
+   ],
+   "shift": -41.92619374296194,
+   "size": 1.0,
+   "mustrain": 6150.9234822673025,
+   "md": null,
+   "atoms": {
+    "Y1a": {
+     "occ": 1.0,
+     "uiso": 0.0055
+    },
+    "Al3g": {
+     "occ": 0.8833,
+     "uiso": 0.0055
+    },
+    "Cu3g": {
+     "occ": 0.1167,
+     "uiso": 0.0055
+    },
+    "Cu2c": {
+     "occ": 0.8249,
+     "uiso": 0.0055
+    },
+    "Al2c": {
+     "occ": 0.1751,
+     "uiso": 0.0055
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  8.0,
+  149.98
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 20.711,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.1895,
+     0.8105
+    ],
+    "cells": [
+     {
+      "length_a": 5.2707,
+      "length_b": 5.2707,
+      "length_c": 4.0903
+     },
+     {
+      "length_a": 4.2119,
+      "length_b": 12.4388,
+      "length_c": 9.8361
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 17.392,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0,
+     0.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.2707,
+      "length_b": 5.2707,
+      "length_c": 4.0903
+     },
+     {
+      "length_a": 4.2119,
+      "length_b": 12.4388,
+      "length_c": 9.8361
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 15.17,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6388,
+     0.3612
+    ],
+    "cells": [
+     {
+      "length_a": 5.27067,
+      "length_b": 5.27067,
+      "length_c": 4.09401
+     },
+     {
+      "length_a": 4.2119,
+      "length_b": 12.4388,
+      "length_c": 9.8361
+     }
+    ],
+    "shift": -90.21103598370829,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Y3Cu1.98Al9.02_Immm_Krachan cell",
+   "wR": 14.789,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6151,
+     0.3849
+    ],
+    "cells": [
+     {
+      "length_a": 5.26889,
+      "length_b": 5.26889,
+      "length_c": 4.09313
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -46.61075604751182,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 13.277,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.7058,
+     0.2942
+    ],
+    "cells": [
+     {
+      "length_a": 5.26805,
+      "length_b": 5.26805,
+      "length_c": 4.09267
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -44.766349124080676,
+    "size": 1.0,
+    "mustrain": 7424.771176748462,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 13.247,
+   "kept": false,
+   "note": "no gain over 13.28",
+   "state": {
+    "wt": [
+     0.7068,
+     0.2932
+    ],
+    "cells": [
+     {
+      "length_a": 5.268,
+      "length_b": 5.268,
+      "length_c": 4.09262
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -43.73351595659634,
+    "size": 5.0,
+    "mustrain": 7824.047100634678,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Y3Cu1.98Al9.02_Immm_Krachan microstrain",
+   "wR": 13.128,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6593,
+     0.3407
+    ],
+    "cells": [
+     {
+      "length_a": 5.26792,
+      "length_b": 5.26792,
+      "length_c": 4.09213
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -39.84466424419242,
+    "size": 1.0,
+    "mustrain": 7530.809690750938,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.92,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.08,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.88,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.12,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "order parameter S (composition held)",
+   "wR": 13.122,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6572,
+     0.3428
+    ],
+    "cells": [
+     {
+      "length_a": 5.26792,
+      "length_b": 5.26792,
+      "length_c": 4.0921
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -39.50590362402883,
+    "size": 1.0,
+    "mustrain": 7499.05590425465,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.9387,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.0613,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.908,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.092,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "thin-layer correction (SurfRoughB = 2 mu t)",
+   "wR": 11.988,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.689,
+     0.311
+    ],
+    "cells": [
+     {
+      "length_a": 5.26849,
+      "length_b": 5.26849,
+      "length_c": 4.09249
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -41.91882386225084,
+    "size": 1.0,
+    "mustrain": 6724.6904106077955,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.005
+     },
+     "Al3g": {
+      "occ": 0.8816,
+      "uiso": 0.005
+     },
+     "Cu3g": {
+      "occ": 0.1184,
+      "uiso": 0.005
+     },
+     "Cu2c": {
+      "occ": 0.8224,
+      "uiso": 0.005
+     },
+     "Al2c": {
+      "occ": 0.1776,
+      "uiso": 0.005
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "Uiso held at 0.0055",
+   "wR": 11.995,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6857,
+     0.3143
+    ],
+    "cells": [
+     {
+      "length_a": 5.26849,
+      "length_b": 5.26849,
+      "length_c": 4.09251
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -41.699888016788485,
+    "size": 1.0,
+    "mustrain": 6467.8573704927585,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.0055
+     },
+     "Al3g": {
+      "occ": 0.8841,
+      "uiso": 0.0055
+     },
+     "Cu3g": {
+      "occ": 0.1159,
+      "uiso": 0.0055
+     },
+     "Cu2c": {
+      "occ": 0.8262,
+      "uiso": 0.0055
+     },
+     "Al2c": {
+      "occ": 0.1738,
+      "uiso": 0.0055
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 11.911,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6892,
+     0.3108
+    ],
+    "cells": [
+     {
+      "length_a": 5.26855,
+      "length_b": 5.26855,
+      "length_c": 4.0926
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -41.94809969453563,
+    "size": 1.0,
+    "mustrain": 6156.589482861478,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.0055
+     },
+     "Al3g": {
+      "occ": 0.8836,
+      "uiso": 0.0055
+     },
+     "Cu3g": {
+      "occ": 0.1164,
+      "uiso": 0.0055
+     },
+     "Cu2c": {
+      "occ": 0.8254,
+      "uiso": 0.0055
+     },
+     "Al2c": {
+      "occ": 0.1746,
+      "uiso": 0.0055
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 11.908,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     0.6892,
+     0.3108
+    ],
+    "cells": [
+     {
+      "length_a": 5.26855,
+      "length_b": 5.26855,
+      "length_c": 4.0926
+     },
+     {
+      "length_a": 4.21134,
+      "length_b": 12.396,
+      "length_c": 9.81638
+     }
+    ],
+    "shift": -41.92619374296194,
+    "size": 1.0,
+    "mustrain": 6150.9234822673025,
+    "md": null,
+    "atoms": {
+     "Y1a": {
+      "occ": 1.0,
+      "uiso": 0.0055
+     },
+     "Al3g": {
+      "occ": 0.8833,
+      "uiso": 0.0055
+     },
+     "Cu3g": {
+      "occ": 0.1167,
+      "uiso": 0.0055
+     },
+     "Cu2c": {
+      "occ": 0.8249,
+      "uiso": 0.0055
+     },
+     "Al2c": {
+      "occ": 0.1751,
+      "uiso": 0.0055
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

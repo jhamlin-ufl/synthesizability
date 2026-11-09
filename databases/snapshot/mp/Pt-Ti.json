@@ -1,0 +1,79 @@
+{
+  "space": "Pt-Ti",
+  "elements": [
+    "Pt",
+    "Ti"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-2339",
+      "composition_id": "Pt1 Ti3",
+      "delta_e": -0.684364118749999,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-30851",
+      "composition_id": "Pt5 Ti3",
+      "delta_e": -1.026515769999996,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-998949",
+      "composition_id": "Pt1 Ti1",
+      "delta_e": -1.003696203333333,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-569708",
+      "composition_id": "Pt3 Ti1",
+      "delta_e": -0.9275554123809441,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-30852",
+      "composition_id": "Pt8 Ti1",
+      "delta_e": -0.49484625518518505,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1189793",
+      "composition_id": "Pt3 Ti1",
+      "delta_e": -0.9251677466666661,
+      "stability": 0.0023876657142800004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-12107",
+      "composition_id": "Pt3 Ti1",
+      "delta_e": -0.9226915791666671,
+      "stability": 0.0048638332142800006,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-972220",
+      "composition_id": "Pt3 Ti1",
+      "delta_e": -0.913779769166666,
+      "stability": 0.01377564321428,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-11552",
+      "composition_id": "Pt1 Ti1",
+      "delta_e": -0.868008845833337,
+      "stability": 0.135687357499996,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1238909",
+      "composition_id": "Pt42 Ti13",
+      "delta_e": 0.0007974845489190001,
+      "stability": 0.8858687251324681,
+      "icsd": false
+    }
+  ]
+}

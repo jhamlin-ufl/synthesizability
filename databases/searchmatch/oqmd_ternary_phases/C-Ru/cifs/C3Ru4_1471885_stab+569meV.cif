@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ru4C3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.66397976
+_cell_length_b   8.66397976
+_cell_length_c   8.66397976
+_cell_angle_alpha   21.75584489
+_cell_angle_beta   21.75584489
+_cell_angle_gamma   21.75584489
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ru4C3
+_chemical_formula_sum   'Ru4 C3'
+_cell_volume   78.30707601
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.43327883  0.43327883  0.43327883  1
+  C  C1  1  0.56240326  0.56240326  0.56240326  1
+  C  C2  1  0.99784274  0.99784274  0.99784274  1
+  Ru  Ru3  1  0.11913599  0.11913599  0.11913599  1
+  Ru  Ru4  1  0.29289581  0.29289581  0.29289581  1
+  Ru  Ru5  1  0.70294632  0.70294632  0.70294632  1
+  Ru  Ru6  1  0.87660523  0.87660523  0.87660523  1

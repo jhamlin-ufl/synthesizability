@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/ZrPt5Si/buttons/0561/0561_HM_ZrPt5Si_annealed_ZB.txt --space samples/ZrPt5Si/fits/0561_exchange_nomd/start --occ pred --uiso-max 0.04 --main-key ZrSiPt5_pred_OQMD-2146113 --limits 8 150 --positions --partners ZrPt3_oqmd_2017725 --partner-scales 0.991/0.991/0.992 --hold-cells 1 --gen-strain --strict-final --accept-bound --exchange Zr0 Si1 --out results/refits/0561_exchange_nomd

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrSi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11917436
+_cell_length_b   5.11917436
+_cell_length_c   6.19363354
+_cell_angle_alpha   76.71941324
+_cell_angle_beta   76.71941324
+_cell_angle_gamma   42.21816650
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrSi2
+_chemical_formula_sum   'Zr2 Si4'
+_cell_volume   105.70676309
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.66340165  0.66340165  0.29056816  1
+  Zr  Zr1  1  0.33659835  0.33659835  0.70943184  1
+  Si  Si2  1  0.05994240  0.05994240  0.64692618  1
+  Si  Si3  1  0.38943429  0.38943429  0.14012806  1
+  Si  Si4  1  0.61056571  0.61056571  0.85987194  1
+  Si  Si5  1  0.94005760  0.94005760  0.35307382  1

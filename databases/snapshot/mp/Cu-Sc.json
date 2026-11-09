@@ -1,0 +1,37 @@
+{
+  "space": "Cu-Sc",
+  "elements": [
+    "Cu",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1169",
+      "composition_id": "Cu1 Sc1",
+      "delta_e": -0.2565679075,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1018149",
+      "composition_id": "Cu2 Sc1",
+      "delta_e": -0.23641582500000102,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-973092",
+      "composition_id": "Cu3 Sc1",
+      "delta_e": -0.145604581249999,
+      "stability": 0.031707287499999,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-973100",
+      "composition_id": "Cu3 Sc1",
+      "delta_e": -0.12813920374999901,
+      "stability": 0.049172665000000004,
+      "icsd": false
+    }
+  ]
+}

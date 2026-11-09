@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-13 03:36:10 +0300 (Wed, 13 Sep 2017) $
+#$Revision: 200796 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/00/34/2003437.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2003437
+loop_
+_publ_author_name
+'Pavlyuk, Volodymyr V.'
+'Yanson, Tamara I.'
+'Bodak, Oksana I.'
+'\<Cern\'y, Radovan'
+'Gladyshevskii, Roman E.'
+'Yvon, Klaus'
+'Stepien-Damm, Julia'
+_publ_section_title
+;
+ Structure Refinement of Orthorhombic MnAl~3~
+;
+_journal_coden_ASTM              ACSCEE
+_journal_issue                   5
+_journal_name_full
+;
+ Acta Crystallographica, Section C: Crystal Structure Communications
+;
+_journal_page_first              792
+_journal_page_last               794
+_journal_paper_doi               10.1107/s0108270194012965
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        ?
+_chemical_formula_sum            'Al10 Mn3'
+_chemical_formula_weight         434.83
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            12
+_cell_length_a                   14.883(3)
+_cell_length_b                   12.447(4)
+_cell_length_c                   12.560(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      19
+_cell_measurement_theta_min      8.5
+_cell_volume                     2327(1)
+_diffrn_measurement_device       CAD-4
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.18
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4412
+_diffrn_reflns_theta_max         20
+_diffrn_standards_decay_%        '2.7, 2.2'
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    5.842
+_exptl_absorpt_correction_T_max  0.0575
+_exptl_absorpt_correction_T_min  0.0227
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            silverish
+_exptl_crystal_density_diffrn    3.724
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       needle
+_exptl_crystal_size_max          0.049
+_exptl_crystal_size_mid          0.013
+_exptl_crystal_size_min          0.009
+_exptl_crystal_size_rad          ?
+_refine_diff_density_max         2.70
+_refine_diff_density_min         -3.51
+_refine_ls_extinction_coef       'g = 0.005'
+_refine_ls_extinction_method     'Zachariasen (1968)'
+_refine_ls_goodness_of_fit_obs   1.316
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_number_parameters     175
+_refine_ls_number_reflns         462
+_refine_ls_R_factor_obs          0.045
+_refine_ls_shift/esd_max         0.0007
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.025
+_reflns_number_observed          462
+_reflns_number_total             1142
+_reflns_observed_criterion       F>3\s(F)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Mn3 Al10'
+_cod_database_code               2003437
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,y,1/2-z
+x,1/2-y,z
+1/2-x,1/2+y,1/2+z
+-x,-y,-z
+1/2-x,-y,1/2+z
+-x,1/2+y,-z
+1/2+x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Mn(1) 0.50(3) 8d .1281(3) .0628(7) .1592(8) .009(2)
+Al(1') 0.50(3) 8d .1281(3) .0628(7) .1592(8) .009(2)
+Mn(2) 1 8d .1798(4) .5575(5) .3466(7) .009(1)
+Mn(3) 0.40(3) 8d .3167(6) .061(1) .4607(8) .008(3)
+Al(3') 0.60(3) 8d .3167(6) .061(1) .4607(8) .008(3)
+Mn(4) 1 4c .052(1) .25 .453(1) .013(4)
+Mn(5) 0.53(5) 4c .058(1) .25 .242(1) .005(5)
+Al(5') 0.47(5) 4c .058(1) .25 .242(1) .005(5)
+Mn(6) 1 4c .2249(8) .25 .5236(7) .006(4)
+Mn(7) 1 4c .2348(7) .25 .1749(9) .008(4)
+Mn(8) 0.64(4) 4c .3343(6) .25 .346(1) .006(3)
+Al(8') 0.36(4) 4c .3343(6) .25 .346(1) .006(3)
+Mn(9) 1 4c .5417(6) .25 .647(1) .007(3)
+Al(1) 1 8d .0162(5) .066(1) .350(1) .005(2)
+Al(2) 1 8d .051(1) .626(1) .460(1) .005(2)
+Al(3) 1 8d .050(1) .622(1) .240(1) .019(4)
+Al(4) 1 8d .1299(6) .065(1) .535(1) .011(3)
+Al(5) 1 8d .180(1) .1475(7) .350(1) .012(3)
+Al(6) 1 8d .2264(9) .6221(9) .162(1) .010(4)
+Al(7) 1 8d .265(1) .124(1) .026(1) .013(5)
+Al(8) 1 8d .3097(7) .066(1) .2298(8) .010(3)
+Al(9) 1 8d .3371(7) .6224(7) .337(1) .018(4)
+Al(10) 1 8d .4587(7) .1081(9) .349(1) .012(4)
+Al(11) 1 8d .5193(8) .079(1) .549(1) .013(4)
+Al(12) 1 4c .094(1) .25 .659(1) .006(5)
+Al(13) 1 4c .105(1) .25 .039(2) .026(7)
+Al(14) 1 4c .318(1) .25 .845(2) .011(4)
+Al(15) 1 4c .399(1) .25 .540(1) .011(6)
+Al(16) 1 4c .403(1) .25 .148(2) .016(5)

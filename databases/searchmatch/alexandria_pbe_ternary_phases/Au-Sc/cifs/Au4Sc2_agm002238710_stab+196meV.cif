@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ScAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94108988
+_cell_length_b   6.03171982
+_cell_length_c   6.03091480
+_cell_angle_alpha   65.80111800
+_cell_angle_beta   70.91912898
+_cell_angle_gamma   70.92175839
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScAu2
+_chemical_formula_sum   'Sc2 Au4'
+_cell_volume   120.44923876
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.51488123  0.23492782  0.73492364  1
+  Sc  Sc1  1  0.48511877  0.76507218  0.26507636  1
+  Au  Au2  1  0.14805341  0.36218147  0.34139049  1
+  Au  Au3  1  0.85194659  0.63781853  0.65860951  1
+  Au  Au4  1  0.14805233  0.84142560  0.86214879  1
+  Au  Au5  1  0.85194767  0.15857440  0.13785121  1

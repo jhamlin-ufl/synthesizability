@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Zr4Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.42382143
+_cell_length_b   5.81670483
+_cell_length_c   5.81670483
+_cell_angle_alpha   94.96907396
+_cell_angle_beta   107.11609185
+_cell_angle_gamma   72.88386814
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4Pt
+_chemical_formula_sum   'Zr4 Pt1'
+_cell_volume   105.80779976
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.00000000  0.00000000  0.00000000  1
+  Zr  Zr1  1  0.78549832  0.80381349  0.37481014  1
+  Zr  Zr2  1  0.21450168  0.19618651  0.62518986  1
+  Zr  Zr3  1  0.58931181  0.62518986  0.80381349  1
+  Zr  Zr4  1  0.41068819  0.37481014  0.19618651  1

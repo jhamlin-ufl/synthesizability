@@ -1,0 +1,61 @@
+sample,folder,formula,target_sample,role,mass_loss_pct,n_scans,note,in_table_s1
+0465,samples/Pd6Cu5Ge/buttons/0465,Pd6Cu5Ge,0465,target,0.30,1,first button; PANalytical scan of a cut face only,yes
+0466,samples/Hf2MoIr/buttons/0466,Hf2MoIr,0466,target,0.55,3,,yes
+0469,samples/ScPd2Cu/buttons/0469,ScPd2Cu,0469,target,1.16,2,,yes
+0472,samples/ScPdCu4/buttons/0472,ScPdCu4,0472,target,5.06,2,,yes
+0473,samples/Sc3Pd2Cu/buttons/0473,Sc3Pd2Cu,0473,target,0.21,3,,yes
+0474,samples/Sc2PdCu/buttons/0474,Sc2PdCu,0474,target,0.09,2,,yes
+0475,samples/La2PdAu2/buttons/0475,La2PdAu2,0475,target,0.9,2,,yes
+0476,samples/ScPd2Au/buttons/0476,ScPd2Au,0476,target,0.18,2,,yes
+0477,samples/ScPd5Au2/buttons/0477,ScPd5Au2,0477,target,15.57,1,15.6 % mass loss; no remake made,yes
+0478,samples/Sc2Pd5Au/buttons/0478,Sc2Pd5Au,0478,target,0.46,1,PANalytical scan of a cut face only,yes
+0479,samples/Al2MnAu6/buttons/0479,Al2MnAu6,0479,target,2.01,2,,yes
+0480,samples/GdPt2Ge/buttons/0480,GdPt2Ge,0480,target,0.33,3,,yes
+0481,samples/PtNiGe2/buttons/0481,PtNiGe2,0481,target,0.25,2,,yes
+0482,samples/ZrPt5Si/buttons/0482,ZrPt5Si,0561,earlier attempt,0.27,1,earlier button of ZrPt5Si (PANalytical bulk scan only); why 0561 was made is not recorded,yes
+0483,samples/La5Al3Co2/buttons/0483,La5Al3Co2,0483,target,0.03,2,,yes
+0486,samples/Al4FeCo3/buttons/0486,Al4FeCo3,0545,earlier attempt,3.94,1,weighed composition off target (max deviation 15.4 %),yes
+0487,samples/Al8FeCo7/buttons/0487,Al8FeCo7,0535,earlier attempt,9.41,1,weighed composition off target (max deviation 18.6 %) and 9.4 % mass loss,yes
+0489,samples/Gd3Sn6Co/buttons/0489,Gd3Sn6Co,0556,earlier attempt,4.54,1,"weighed composition off target (max deviation 4.9 %), 4.5 % mass loss",yes
+0490,samples/GdSn6Co4/buttons/0490,GdSn6Co4,0537,earlier attempt,11.09,1,weighed composition off target (max deviation 17.0 %) and 11.1 % mass loss,yes
+0491,samples/TiPt5Ge/buttons/0491,TiPt5Ge,0491,target,1.40,1,,yes
+0492,samples/Ti2Pt8Ge/buttons/0492,Ti2Pt8Ge,0492,target,0.53,1,,yes
+0493,samples/TiPt5Si/buttons/0493,TiPt5Si,0493,target,1.87,2,,yes
+0494,samples/Ti2Pt8Si/buttons/0494,Ti2Pt8Si,0494,target,0.44,1,,yes
+0495,samples/GdFeGe3/buttons/0495,GdFeGe3,0553,earlier attempt,2.26,1,incorrect stoichiometry (max deviation 12.1 %),yes
+0496,samples/Gd2Fe3Ge5/buttons/0496,Gd2Fe3Ge5,0554,earlier attempt,1.83,1,incorrect stoichiometry (max deviation 15.1 %),yes
+0497,samples/GdFeGe2/buttons/0497,GdFeGe2,0555,earlier attempt,5.40,1,incorrect stoichiometry (max deviation 14.0 %) and 5.4 % mass loss,yes
+0503,samples/YCoSi/buttons/0503,YCoSi,0538,earlier attempt,0.002,1,weighed composition off target (max deviation 14.2 %),yes
+0504,samples/YCoSi3/buttons/0504,YCoSi3,0539,earlier attempt,2.94,1,weighed composition off target (max deviation 9.4 %),yes
+0506,samples/YAl3Cu2/buttons/0506,YAl3Cu2,0540,earlier attempt,14.31,1,mass loss 14.3 %,yes
+0507,samples/YSnCu/buttons/0507,YSnCu,0507,target,0.43,1,,yes
+0510,samples/NbNi2B2/buttons/0510,NbNi2B2,0510,target,0.50,1,,yes
+0512,samples/ScCrC2/buttons/0512,ScCrC2,0512,target,3.00,1,first melt; no carbide formed (Cr + Sc),yes
+0513,samples/LaRuC2/buttons/0513,LaRuC2,0513,target,6.2555,1,,yes
+0514,samples/LaNiSi3/buttons/0514,LaNiSi3,0514,target,2.2,1,"itself a redo of 0508 (wrong La molar mass, SYNTHESIS); 0508 is not in the data",yes
+0534,samples/Al4FeCo3/buttons/0534,Al4FeCo3,0545,remake,3.33,1,remake of 0486; why 0545 followed is not recorded,yes
+0535,samples/Al8FeCo7/buttons/0535,Al8FeCo7,0535,target,0.56,1,,yes
+0536,samples/Gd3Sn6Co/buttons/0536,Gd3Sn6Co,0556,remake,9.46,1,remake of 0489; 9.5 % mass loss,yes
+0537,samples/GdSn6Co4/buttons/0537,GdSn6Co4,0537,target,0.5,1,,yes
+0538,samples/YCoSi/buttons/0538,YCoSi,0538,target,0.039,1,,yes
+0539,samples/YCoSi3/buttons/0539,YCoSi3,0539,target,0.46,3,,yes
+0540,samples/YAl3Cu2/buttons/0540,YAl3Cu2,0540,target,2.99,1,,yes
+0544,samples/Al4FeCo3/buttons/0544,Al4FeCo3,0545,remake,10.88,0,"remake of 0486; 10.9 % mass loss, not scanned",yes
+0545,samples/Al4FeCo3/buttons/0545,Al4FeCo3,0545,target,0.82,1,,yes
+0553,samples/GdFeGe3/buttons/0553,GdFeGe3,0553,target,2.34,1,remake of 0495 (incorrect stoichiometry),yes
+0554,samples/Gd2Fe3Ge5/buttons/0554,Gd2Fe3Ge5,0554,target,4.49,1,remake of 0496 (incorrect stoichiometry),yes
+0555,samples/GdFeGe2/buttons/0555,GdFeGe2,0555,target,1.49,1,remake of 0497 (incorrect stoichiometry),yes
+0556,samples/Gd3Sn6Co/buttons/0556,Gd3Sn6Co,0556,target,2.04,1,remade again to reduce mass loss (SYNTHESIS),yes
+0557,samples/Gd2Fe3Ge5/buttons/0557,Gd2Fe3Ge5,0554,remake,4.96,0,"remake of 0554 to reduce mass loss (4.5 %); lost 5.0 %, not scanned",yes
+0558,samples/ScPdCu4/buttons/0558,ScPdCu4,0472,remake,13.04,0,remake of 0472 (0472 mass loss 5.1 %); this button lost 13.0 % and was not scanned,yes
+0561,samples/ZrPt5Si/buttons/0561,ZrPt5Si,0561,target,0.99,2,,yes
+0566,samples/ScPdCu4/buttons/0566,ScPdCu4,0472,remake,4.72,1,remake after 0558; reason not recorded,yes
+0568,samples/Pd6Cu5Ge/buttons/0568,Pd6Cu5Ge,0465,remake,1.61,1,second button of the same recipe; reason not recorded; ground powder on the Siemens gives the scan of record,yes
+0605,samples/ScCrC2/buttons/0605,ScCrC2,0512,remake,,1,"same recipe as 0512, which did not react; scan of record for ScCrC2",yes
+0608,samples/Pd6Cu5Ge/buttons/0608,Pd6Cu5Ge,0465,remake,1.08,1,third button; reason not recorded,yes
+0610,samples/Sc2Pd5Au/buttons/0610,Sc2Pd5Au,0478,remake,1.01,1,"remake; reason not recorded; first Siemens powder scan of this composition, from 5 deg",yes
+0613,samples/ScPdCu4/buttons/0613,ScPdCu4,0472,remake,4.48,1,remake; reason not recorded,yes
+0614,samples/LaRuC2/buttons/0614,LaRuC2,0513,remake,0.62,1,remake; reason not recorded (0513 lost 6.3 %),yes
+0615,samples/YAl3Cu2/buttons/0615,YAl3Cu2,0540,remake,2.09,2,"remake; reason not recorded; annealed, scan of record for YAl3Cu2 (Fig. 1e)",yes
+0617,samples/LaRuC2/buttons/0617,LaRuC2,0513,remake,2.18,1,remake; reason not recorded,yes
+0618,samples/TiPt5Si/buttons/0618,TiPt5Si,0493,second button,,1,made in G. R. Stewart's group (SYNTHESIS); mass loss not recorded,no

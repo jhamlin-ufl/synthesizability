@@ -1,0 +1,265 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "La2PdAu2_pred_OQMD-1980865",
+  "space": "../../../refits_2026-11/cifs_l/0475",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0475_HM_La2PdAu2.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 16.903058149711065,
+  "gof": 5.266457405777538,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 5.88054,
+     "length_b": 5.88054,
+     "length_c": 11.84812
+    }
+   ],
+   "shift": 0.0,
+   "size": 1.0,
+   "mustrain": 1000.0,
+   "md": null,
+   "atoms": {
+    "Au0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Au1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Au2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Au3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "La4": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "La5": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "La6": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "La7": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pd8": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Pd9": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  27.8,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": null,
+   "kept": false,
+   "note": "****ERROR - Refinement failed"
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": null,
+   "kept": false,
+   "note": "diverged (wR = 100.0)"
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": null,
+   "kept": false,
+   "note": "****ERROR - Refinement failed"
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 16.903,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.88054,
+      "length_b": 5.88054,
+      "length_c": 11.84812
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Au0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 16.903,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 5.88054,
+      "length_b": 5.88054,
+      "length_c": 11.84812
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Au0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Au3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La4": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La5": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La6": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "La7": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd8": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Pd9": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

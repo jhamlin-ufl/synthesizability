@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ni5Pt7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.54583633
+_cell_length_b   2.73140586
+_cell_length_c   8.10903261
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni5Pt7
+_chemical_formula_sum   'Ni5 Pt7'
+_cell_volume   167.13317551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00506643  0.00000000  0.00735889  1
+  Ni  Ni1  1  0.25259897  0.50000000  0.17058186  1
+  Ni  Ni2  1  0.48721356  0.00000000  0.33333333  1
+  Ni  Ni3  1  0.00506643  0.00000000  0.65930778  1
+  Ni  Ni4  1  0.25259897  0.50000000  0.49608481  1
+  Pt  Pt5  1  0.75211534  0.50000000  0.49836115  1
+  Pt  Pt6  1  0.22732961  0.50000000  0.83333333  1
+  Pt  Pt7  1  0.48827206  0.00000000  0.00840154  1
+  Pt  Pt8  1  0.75211534  0.50000000  0.16830551  1
+  Pt  Pt9  1  0.02216683  0.00000000  0.33333333  1
+  Pt  Pt10  1  0.48827206  0.00000000  0.65826513  1
+  Pt  Pt11  1  0.76718439  0.50000000  0.83333333  1

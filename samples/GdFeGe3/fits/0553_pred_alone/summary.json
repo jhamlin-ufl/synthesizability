@@ -1,0 +1,403 @@
+{
+ "record": {
+  "zero": 0.0016289631099786184,
+  "instprm": "siemens_d500.instprm",
+  "inst": {
+   "U": 42.21095415256811,
+   "V": -69.01458409515877,
+   "W": 47.28319040828642,
+   "X": 1.8404298430779114,
+   "Y": -1.3837330897913103
+  },
+  "mix": [
+   1.0,
+   1.0
+  ],
+  "main": "GdFeGe3_pred_OQMD-1364532",
+  "space": "../../../refits_2026-11/cifs_new/0553",
+  "md_axis": null,
+  "partner_occ": null,
+  "S": null,
+  "two_mu_t": null,
+  "scan": "0553_HM_GdFeGe3.txt",
+  "occ": "pred",
+  "md": false,
+  "uiso_held": null,
+  "uiso_max": 0.04,
+  "partners": [],
+  "partner_scales": [],
+  "wR": 39.939515226662074,
+  "gof": 13.251955327247124,
+  "x_al": null,
+  "lines": {},
+  "state": {
+   "wt": [
+    1.0
+   ],
+   "cells": [
+    {
+     "length_a": 4.31184,
+     "length_b": 4.31184,
+     "length_c": 9.97959
+    }
+   ],
+   "shift": -1384.1934913629632,
+   "size": 1.0,
+   "mustrain": 1000.0,
+   "md": null,
+   "atoms": {
+    "Gd0": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Fe1": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Ge2": {
+     "occ": 1.0,
+     "uiso": 0.01
+    },
+    "Ge3": {
+     "occ": 1.0,
+     "uiso": 0.01
+    }
+   },
+   "cell_ok": true
+  }
+ },
+ "limits": [
+  18.0,
+  118.0
+ ],
+ "stages": [
+  {
+   "stage": "scale + background (8 Chebyshev)",
+   "wR": 40.785,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.27326,
+      "length_b": 4.27326,
+      "length_c": 9.91946
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "partner phase fractions",
+   "wR": 40.785,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.27326,
+      "length_b": 4.27326,
+      "length_c": 9.91946
+     }
+    ],
+    "shift": 0.0,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main cell + displacement (Shift/Zero)",
+   "wR": 40.212,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.31067,
+      "length_b": 4.31067,
+      "length_c": 9.97072
+     }
+    ],
+    "shift": -1288.556129859025,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "main isotropic microstrain",
+   "wR": 38.866,
+   "kept": false,
+   "note": "cell outside its window: GdFeGe3_pred_OQMD-1364532",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.12456,
+      "length_b": 4.12456,
+      "length_c": 9.76918
+     }
+    ],
+    "shift": 825.7469497851467,
+    "size": 1.0,
+    "mustrain": 32087.691732944222,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": false
+   }
+  },
+  {
+   "stage": "main isotropic size",
+   "wR": 38.005,
+   "kept": false,
+   "note": "cell outside its window: GdFeGe3_pred_OQMD-1364532",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.13994,
+      "length_b": 4.13994,
+      "length_c": 9.98402
+     }
+    ],
+    "shift": 621.9330339113841,
+    "size": 0.02,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": false
+   }
+  },
+  {
+   "stage": "one Uiso, main phase",
+   "wR": 39.187,
+   "kept": false,
+   "note": "unphysical value",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.29888,
+      "length_b": 4.29888,
+      "length_c": 9.90568
+     }
+    ],
+    "shift": -1202.1657650313753,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.41349
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.41349
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.41349
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.41349
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "background 12 Chebyshev",
+   "wR": 39.949,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.31166,
+      "length_b": 4.31166,
+      "length_c": 9.97697
+     }
+    ],
+    "shift": -1359.1501103725911,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  },
+  {
+   "stage": "final cycle, all kept parameters",
+   "wR": 39.94,
+   "kept": true,
+   "note": "",
+   "state": {
+    "wt": [
+     1.0
+    ],
+    "cells": [
+     {
+      "length_a": 4.31184,
+      "length_b": 4.31184,
+      "length_c": 9.97959
+     }
+    ],
+    "shift": -1384.1934913629632,
+    "size": 1.0,
+    "mustrain": 1000.0,
+    "md": null,
+    "atoms": {
+     "Gd0": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Fe1": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge2": {
+      "occ": 1.0,
+      "uiso": 0.01
+     },
+     "Ge3": {
+      "occ": 1.0,
+      "uiso": 0.01
+     }
+    },
+    "cell_ok": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Al3Au8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.13847302
+_cell_length_b   6.13847302
+_cell_length_c   11.50527702
+_cell_angle_alpha   65.61051937
+_cell_angle_beta   65.61051937
+_cell_angle_gamma   29.00934241
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3Au8
+_chemical_formula_sum   'Al3 Au8'
+_cell_volume   190.15690342
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  0.00000000  0.50000000  1
+  Al  Al1  1  0.11040092  0.11040092  0.84118728  1
+  Al  Al2  1  0.88959908  0.88959908  0.15881272  1
+  Au  Au3  1  0.29348292  0.29348292  0.58671588  1
+  Au  Au4  1  0.70651708  0.70651708  0.41328412  1
+  Au  Au5  1  0.45500125  0.45500125  0.32015474  1
+  Au  Au6  1  0.54499875  0.54499875  0.67984526  1
+  Au  Au7  1  0.19356168  0.19356168  0.20209976  1
+  Au  Au8  1  0.80643832  0.80643832  0.79790024  1
+  Au  Au9  1  0.40026688  0.40026688  0.95495888  1
+  Au  Au10  1  0.59973312  0.59973312  0.04504112  1

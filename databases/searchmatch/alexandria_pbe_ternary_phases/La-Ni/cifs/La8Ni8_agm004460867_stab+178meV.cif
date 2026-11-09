@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LaNi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22296000
+_cell_length_b   5.86523000
+_cell_length_c   9.74478000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNi
+_chemical_formula_sum   'La8 Ni8'
+_cell_volume   355.67561863
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.88138000  0.09679000  0.07556000  1
+  La  La1  1  0.38138000  0.40321000  0.92444000  1
+  La  La2  1  0.11862000  0.59679000  0.42444000  1
+  La  La3  1  0.61862000  0.90321000  0.57556000  1
+  La  La4  1  0.17587000  0.87751000  0.77570000  1
+  La  La5  1  0.67587000  0.62249000  0.22430000  1
+  La  La6  1  0.82413000  0.37751000  0.72430000  1
+  La  La7  1  0.32413000  0.12249000  0.27570000  1
+  Ni  Ni8  1  0.37887000  0.90474000  0.03253000  1
+  Ni  Ni9  1  0.87887000  0.59526000  0.96747000  1
+  Ni  Ni10  1  0.62113000  0.40474000  0.46747000  1
+  Ni  Ni11  1  0.12113000  0.09526000  0.53253000  1
+  Ni  Ni12  1  0.32782000  0.40924000  0.64135000  1
+  Ni  Ni13  1  0.82782000  0.09076000  0.35865000  1
+  Ni  Ni14  1  0.67218000  0.90924000  0.85865000  1
+  Ni  Ni15  1  0.17218000  0.59076000  0.14135000  1

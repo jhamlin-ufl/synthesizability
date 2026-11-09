@@ -1,0 +1,188 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/30/03/2300376.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300376
+loop_
+_publ_author_name
+'Wood, Ian G.'
+'Ahmed, Jabraan'
+'Dobson, David P.'
+'Vo\<cadlo, Lidunka'
+_publ_section_title
+;
+ High-pressure phase transitions and equations of state in NiSi. III. A
+ new high-pressure phase of NiSi
+;
+_journal_coeditor_code           ks5332
+_journal_issue                   1
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              14
+_journal_page_last               24
+_journal_paper_doi               10.1107/S0021889812047085
+_journal_volume                  46
+_journal_year                    2013
+_chemical_formula_sum            'Ni Si'
+_chemical_formula_weight         86.79
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           198
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'P 2ac 2ab 3'
+_symmetry_space_group_name_H-M   'P 21 3'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   4.49678(5)
+_cell_length_b                   4.49678
+_cell_length_c                   4.49678
+_cell_volume                     90.9295(10)
+_pd_block_id                     2012-07-25T10:11|XU1279_R2_phase2|Ian_G_Wood||
+_pd_phase_name                   'epsilon FeSi phase'
+_cod_data_source_file            ks5332.cif
+_cod_data_source_block           XU1279_R2_phase_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26 (26
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26 (42 times).
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_cell_volume        90.9290(30)
+_cod_database_code               2300376
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x+1/2,-y+1/2,-z
+5 -z,+x+1/2,-y+1/2
+6 -y+1/2,-z,+x+1/2
+7 -z+1/2,-x,+y+1/2
+8 +y+1/2,-z+1/2,-x
+9 -y,+z+1/2,-x+1/2
+10 -x+1/2,-y,+z+1/2
+11 +z+1/2,-x+1/2,-y
+12 -x,+y+1/2,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ni Ni1 0.1470(9) 0.1470(9) 0.1470(9) 1.0 Uiso 0.0167(16) 4
+Si Si1 -0.1399(12) -0.1399(12) -0.1399(12) 1.0 Uiso 0.0167(16) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Ni 4.0
+Si 4.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Si1 Ni1 Si1 71.58(16) 1_555 4_545 n
+Si1 Ni1 Si1 138.71(13) 1_555 4_555 n
+Si1 Ni1 Si1 71.58(16) 1_555 5_554 n
+Si1 Ni1 Si1 138.71(13) 1_555 5_555 n
+Si1 Ni1 Si1 71.58(16) 1_555 6_455 n
+Si1 Ni1 Si1 138.71(13) 1_555 6_555 n
+Si1 Ni1 Si1 133.80(24) 4_545 4_555 n
+Si1 Ni1 Si1 110.50(15) 4_545 5_554 n
+Si1 Ni1 Si1 112.5(4) 4_545 5_555 n
+Si1 Ni1 Si1 110.50(15) 4_545 6_455 n
+Si1 Ni1 Si1 68.74(10) 4_545 6_555 n
+Si1 Ni1 Si1 68.74(10) 4_555 5_554 n
+Si1 Ni1 Si1 69.71(20) 4_555 5_555 n
+Si1 Ni1 Si1 112.5(4) 4_555 6_455 n
+Si1 Ni1 Si1 69.71(20) 4_555 6_555 n
+Si1 Ni1 Si1 133.80(24) 5_554 5_555 n
+Si1 Ni1 Si1 110.50(15) 5_554 6_455 n
+Si1 Ni1 Si1 112.5(4) 5_554 6_555 n
+Si1 Ni1 Si1 68.74(10) 5_555 6_455 n
+Si1 Ni1 Si1 69.71(20) 5_555 6_555 n
+Si1 Ni1 Si1 133.80(24) 6_455 6_555 n
+Ni1 Si1 Ni1 139.76(14) 1_555 4_445 n
+Ni1 Si1 Ni1 72.96(21) 1_555 4_455 n
+Ni1 Si1 Ni1 139.76(14) 1_555 5_544 n
+Ni1 Si1 Ni1 72.96(21) 1_555 5_545 n
+Ni1 Si1 Ni1 139.76(14) 1_555 6_454 n
+Ni1 Si1 Ni1 72.96(21) 1_555 6_554 n
+Ni1 Si1 Ni1 133.80(24) 4_445 4_455 n
+Ni1 Si1 Ni1 68.03(23) 4_445 5_544 n
+Ni1 Si1 Ni1 68.96(9) 4_445 5_545 n
+Ni1 Si1 Ni1 68.03(23) 4_445 6_454 n
+Ni1 Si1 Ni1 109.76(31) 4_445 6_554 n
+Ni1 Si1 Ni1 109.76(31) 4_455 5_544 n
+Ni1 Si1 Ni1 111.79(19) 4_455 5_545 n
+Ni1 Si1 Ni1 68.96(9) 4_455 6_454 n
+Ni1 Si1 Ni1 111.79(19) 4_455 6_554 n
+Ni1 Si1 Ni1 133.80(24) 5_544 5_545 n
+Ni1 Si1 Ni1 68.03(23) 5_544 6_454 n
+Ni1 Si1 Ni1 68.96(9) 5_544 6_554 n
+Ni1 Si1 Ni1 109.76(31) 5_545 6_454 n
+Ni1 Si1 Ni1 111.79(19) 5_545 6_554 n
+Ni1 Si1 Ni1 133.80(24) 6_454 6_554 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ni1 Ni1 2.7679(12) 4_455 n
+Ni1 Ni1 2.7679(12) 4_555 n
+Ni1 Ni1 2.7679(12) 5_545 n
+Ni1 Ni1 2.7679(12) 5_555 n
+Ni1 Ni1 2.7679(12) 6_554 n
+Ni1 Ni1 2.7679(12) 6_555 n
+Ni1 Si1 2.234(9) 1_555 n
+Ni1 Si1 2.474(8) 4_545 n
+Ni1 Si1 2.415(7) 4_555 n
+Ni1 Si1 2.474(8) 5_554 n
+Ni1 Si1 2.415(7) 5_555 n
+Ni1 Si1 2.474(8) 6_455 n
+Ni1 Si1 2.415(7) 6_555 n
+Si1 Ni1 2.234(9) 1_555 n
+Si1 Ni1 2.474(8) 4_445 n
+Si1 Ni1 2.415(7) 4_455 n
+Si1 Ni1 2.474(8) 5_544 n
+Si1 Ni1 2.415(7) 5_545 n
+Si1 Ni1 2.474(8) 6_454 n
+Si1 Ni1 2.415(7) 6_554 n
+Si1 Si1 2.7602(10) 4_445 n
+Si1 Si1 2.7602(10) 4_545 n
+Si1 Si1 2.7602(10) 5_544 n
+Si1 Si1 2.7602(10) 5_554 n
+Si1 Si1 2.7602(10) 6_454 n
+Si1 Si1 2.7602(10) 6_455 n
+loop_
+_pd_block_diffractogram_id
+2012-07-25T10:11|XU1279_R2_H_01|Ian_G_Wood|PANalytical_X'Pert_Pro

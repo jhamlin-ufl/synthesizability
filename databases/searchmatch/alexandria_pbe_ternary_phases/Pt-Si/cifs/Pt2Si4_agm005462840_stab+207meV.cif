@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Si2Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30558370
+_cell_length_b   5.30558370
+_cell_length_c   7.09616432
+_cell_angle_alpha   54.12889363
+_cell_angle_beta   54.12889363
+_cell_angle_gamma   35.51730463
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Si2Pt
+_chemical_formula_sum   'Si4 Pt2'
+_cell_volume   91.47938651
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.87486658  0.87486658  0.49485057  1
+  Si  Si1  1  0.59019619  0.59019619  0.15242335  1
+  Si  Si2  1  0.40980381  0.40980381  0.84757665  1
+  Si  Si3  1  0.12513342  0.12513342  0.50514943  1
+  Pt  Pt4  1  0.17723665  0.17723665  0.82361458  1
+  Pt  Pt5  1  0.82276335  0.82276335  0.17638542  1

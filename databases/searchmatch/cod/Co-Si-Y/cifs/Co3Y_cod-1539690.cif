@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/53/96/1539690.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1539690
+loop_
+_publ_author_name
+'Benham, M.J.'
+'Bennington, S.M.'
+'Ross, D.K.'
+'Noreus, D.'
+'Yamaguchi, M.'
+_publ_section_title
+;
+ X-ray and neutron scattering investigations of Y Co3 - H *
+;
+_journal_name_full
+'Zeitschrift fuer Physikalische Chemie (Frankfurt Am Main)'
+_journal_page_first              283
+_journal_page_last               290
+_journal_volume                  163
+_journal_year                    1989
+_chemical_formula_sum            'Co3 Y'
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            9
+_cell_length_a                   5.0176
+_cell_length_b                   5.0176
+_cell_length_c                   24.384
+_cell_volume                     531.652
+_citation_journal_id_ASTM        ZPCFAX
+_cod_data_source_file            Benham_ZPCFAX_1989_638.cif
+_cod_data_source_block           Co3Y1
+_cod_original_cell_volume        531.6523
+_cod_original_formula_sum        'Co3 Y1'
+_cod_database_code               1539690
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+y,x,-z
+-x,-x+y,-z
+x-y,-y,-z
+-x,-y,-z
+y,-x+y,-z
+x-y,x,-z
+-y,-x,z
+x,x-y,z
+-x+y,y,z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+y+2/3,x+1/3,-z+1/3
+-x+2/3,-x+y+1/3,-z+1/3
+x-y+2/3,-y+1/3,-z+1/3
+-x+2/3,-y+1/3,-z+1/3
+y+2/3,-x+y+1/3,-z+1/3
+x-y+2/3,x+1/3,-z+1/3
+-y+2/3,-x+1/3,z+1/3
+x+2/3,x-y+1/3,z+1/3
+-x+y+2/3,y+1/3,z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+y+1/3,x+2/3,-z+2/3
+-x+1/3,-x+y+2/3,-z+2/3
+x-y+1/3,-y+2/3,-z+2/3
+-x+1/3,-y+2/3,-z+2/3
+y+1/3,-x+y+2/3,-z+2/3
+x-y+1/3,x+2/3,-z+2/3
+-y+1/3,-x+2/3,z+2/3
+x+1/3,x-y+2/3,z+2/3
+-x+y+1/3,y+2/3,z+2/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Y2 Y 0 0 0.14 1 0.0
+Y1 Y 0 0 0 1 0.0
+Co1 Co 0 0 0.5 1 0.0
+Co2 Co 0 0 0.335 1 0.0
+Co3 Co 0.5 0.5 0.082 1 0.0

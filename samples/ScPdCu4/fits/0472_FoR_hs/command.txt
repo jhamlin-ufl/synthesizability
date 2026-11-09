@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/ScPdCu4/buttons/0472/0472_HM_ScCu4Pd.txt --space samples/ScPdCu4/fits/0472_FoR_hs/start --occ pred --uiso-max 0.04 --main-key Cu_cod_7101269 --limits 18 118 --partners Sc0.25Cu1Pd0.75_pm_CuPd-ScCu_x25 ScPd_cod_1523179 --partner-mustrain 1 30000 --partner-mustrain 2 30000 --hold-main-cell --strict-final --accept-bound --out results/refits/0472_FoR_hs --hold-shift

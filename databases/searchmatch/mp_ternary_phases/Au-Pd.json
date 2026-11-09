@@ -1,0 +1,51 @@
+{
+  "space": "Au-Pd",
+  "elements": [
+    "Au",
+    "Pd"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-999298",
+      "composition_id": "Au1 Pd3",
+      "delta_e": -0.049388452499997,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-973839",
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.096254770000001,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-3328213",
+      "composition_id": "Au5 Pd2",
+      "delta_e": -0.10396504999999101,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-973834",
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.09164175499999701,
+      "stability": 0.004613015000003,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1219920",
+      "composition_id": "Au1 Pd1",
+      "delta_e": -0.07237694500000201,
+      "stability": 0.006398906153840001,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1186447",
+      "composition_id": "Au3 Pd1",
+      "delta_e": -0.084662152500001,
+      "stability": 0.011592617499999,
+      "icsd": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "space": "Pd-Sc",
+  "elements": [
+    "Pd",
+    "Sc"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-1190862",
+      "composition_id": "Pd1 Sc2",
+      "delta_e": -0.659381418749999,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2781",
+      "composition_id": "Pd1 Sc1",
+      "delta_e": -0.908621692499998,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2677",
+      "composition_id": "Pd3 Sc1",
+      "delta_e": -0.861802703749997,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3258097",
+      "composition_id": "Pd4 Sc3",
+      "delta_e": -0.9108215899999971,
+      "stability": 0.0,
+      "icsd": false
+    }
+  ]
+}

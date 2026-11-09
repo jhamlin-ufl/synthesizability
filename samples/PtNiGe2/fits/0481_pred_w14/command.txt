@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/PtNiGe2/buttons/0481/0481_HM_NiGe2Pt.txt --space samples/PtNiGe2/fits/0481_pred_w14/start --occ pred --uiso-max 0.04 --main-key NiGe2Pt_pred_OQMD-1646030 --limits 14 118 --bkg-peak 11.8 3.5 --partners --out results/refits/0481_pred_w14 --strict-final --accept-bound

@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-29 17:00:33 +0300 (Wed, 29 May 2024) $
+#$Revision: 292100 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/01/78/9017847.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9017847
+loop_
+_publ_author_name
+'Will, G.'
+'Kiefer, B.'
+_publ_section_title
+;
+ Electron deformation density in alpha-boron
+ Note: alpha-phase
+;
+_journal_name_full
+'Zeitschrift fur Anorganische und Allgemeine Chemie'
+_journal_page_first              2100
+_journal_page_last               2104
+_journal_volume                  627
+_journal_year                    2001
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            B
+_chemical_name_mineral           Boron
+_space_group_IT_number           166
+_space_group_name_Hall           '-R 3 2"'
+_space_group_name_H-M_alt        'R -3 m :H'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   4.9179
+_cell_length_b                   4.9179
+_cell_length_c                   12.5805
+_cell_formula_units_Z            36
+_cell_volume                     263.504
+_database_code_amcsd             0020597
+_exptl_crystal_density_diffrn    2.453
+_cod_data_source_file            inputs/fixed/downloads/20/20630.cif
+_cod_data_source_block           20630
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               9017847
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+y,x,-z
+2/3+y,1/3+x,1/3-z
+1/3+y,2/3+x,2/3-z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-x,-x+y,-z
+2/3-x,1/3-x+y,1/3-z
+1/3-x,2/3-x+y,2/3-z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+x-y,-y,-z
+2/3+x-y,1/3-y,1/3-z
+1/3+x-y,2/3-y,2/3-z
+y,-x+y,-z
+2/3+y,1/3-x+y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+-x,-y,-z
+2/3-x,1/3-y,1/3-z
+1/3-x,2/3-y,2/3-z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+x-y,x,-z
+2/3+x-y,1/3+x,1/3-z
+1/3+x-y,2/3+x,2/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+B1 0.11886 0.88114 0.89133
+B2 0.19686 0.80314 0.02432
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0020597

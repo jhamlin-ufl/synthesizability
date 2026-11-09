@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_La8Si2Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17053156
+_cell_length_b   9.51911332
+_cell_length_c   9.51911382
+_cell_angle_alpha   123.65561196
+_cell_angle_beta   105.89428005
+_cell_angle_gamma   105.89427774
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La8Si2Ni
+_chemical_formula_sum   'La8 Si2 Ni1'
+_cell_volume   317.67231878
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.75899148  0.43266763  0.18105929  1
+  La  La1  1  0.75899148  0.18105929  0.43266763  1
+  La  La2  1  0.04455647  0.12210449  0.12210449  1
+  La  La3  1  0.97129238  0.21370510  0.80861354  1
+  La  La4  1  0.97129238  0.80861354  0.21370510  1
+  La  La5  1  0.59873280  0.63211851  0.63211851  1
+  La  La6  1  0.23217979  0.91023419  0.63526537  1
+  La  La7  1  0.23217979  0.63526537  0.91023419  1
+  Si  Si8  1  0.49808045  0.73121793  0.34792371  1
+  Si  Si9  1  0.49808045  0.34792371  0.73121793  1
+  Ni  Ni10  1  0.43529052  0.01902423  0.01902423  1

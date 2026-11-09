@@ -1,0 +1,86 @@
+{
+  "space": "La-Si",
+  "elements": [
+    "La",
+    "Si"
+  ],
+  "entries": [
+    {
+      "mp_id": "mp-10961",
+      "composition_id": "La5 Si3",
+      "delta_e": -0.6790210318749991,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-18345",
+      "composition_id": "La5 Si4",
+      "delta_e": -0.7718091263888911,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-7083",
+      "composition_id": "La1 Si1",
+      "delta_e": -0.814522047499998,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-2062",
+      "composition_id": "La1 Si2",
+      "delta_e": -0.7082368199999981,
+      "stability": 0.0,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-3281365",
+      "composition_id": "La4 Si7",
+      "delta_e": -0.741786676363636,
+      "stability": 0.0,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-10162",
+      "composition_id": "La3 Si2",
+      "delta_e": -0.7094216589999971,
+      "stability": 0.0030030869000010002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1860",
+      "composition_id": "La1 Si1",
+      "delta_e": -0.8014581362499981,
+      "stability": 0.013063911249999002,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1223125",
+      "composition_id": "La2 Si3",
+      "delta_e": -0.709279112999999,
+      "stability": 0.051903662333334,
+      "icsd": false
+    },
+    {
+      "mp_id": "mp-1189366",
+      "composition_id": "La5 Si3",
+      "delta_e": -0.625637028749999,
+      "stability": 0.053384003124999004,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1101787",
+      "composition_id": "La1 Si5",
+      "delta_e": -0.168051889999998,
+      "stability": 0.18606652,
+      "icsd": true
+    },
+    {
+      "mp_id": "mp-1190852",
+      "composition_id": "La1 Si10",
+      "delta_e": 0.061150410454544,
+      "stability": 0.254305906818181,
+      "icsd": false
+    }
+  ]
+}

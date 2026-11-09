@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Fe9Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.19800563
+_cell_length_b   6.19800563
+_cell_length_c   4.94116887
+_cell_angle_alpha   82.41612503
+_cell_angle_beta   97.58387492
+_cell_angle_gamma   142.14440912
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe9Co
+_chemical_formula_sum   'Fe9 Co1'
+_cell_volume   115.34591031
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.20084882  0.79915118  0.90117769  1
+  Fe  Fe1  1  0.79915118  0.20084882  0.09882231  1
+  Fe  Fe2  1  0.80056767  0.19943233  0.59955766  1
+  Fe  Fe3  1  0.19943233  0.80056767  0.40044234  1
+  Fe  Fe4  1  0.59913042  0.40086958  0.69953098  1
+  Fe  Fe5  1  0.40086958  0.59913042  0.30046902  1
+  Fe  Fe6  1  0.60035974  0.39964026  0.19867273  1
+  Fe  Fe7  1  0.39964026  0.60035974  0.80132727  1
+  Fe  Fe8  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co9  1  0.00000000  0.00000000  0.50000000  1

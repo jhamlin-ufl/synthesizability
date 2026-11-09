@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TiGePt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.41434000
+_cell_length_b   3.90618900
+_cell_length_c   7.57363100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiGePt
+_chemical_formula_sum   'Ti4 Ge4 Pt4'
+_cell_volume   189.76205330
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.25721430  0.00000000  0.12192831  1
+  Ge  Ge1  1  0.75721430  0.00000000  0.37807097  1
+  Ge  Ge2  1  0.24278570  0.49999885  0.62192890  1
+  Ge  Ge3  1  0.74278570  0.49999885  0.87807156  1
+  Pt  Pt4  1  0.85350169  0.00000000  0.06321274  1
+  Pt  Pt5  1  0.35350169  0.00000000  0.43678785  1
+  Pt  Pt6  1  0.64649831  0.49999885  0.56321202  1
+  Pt  Pt7  1  0.14649676  0.49999885  0.93678712  1
+  Ti  Ti8  1  0.53344381  0.49999885  0.18306939  1
+  Ti  Ti9  1  0.03344381  0.49999885  0.31692988  1
+  Ti  Ti10  1  0.96655619  0.00000000  0.68306866  1
+  Ti  Ti11  1  0.46655774  0.00000000  0.81692916  1
