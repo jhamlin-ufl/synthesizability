@@ -39,15 +39,15 @@ OUT_DIR = Path('results/supplement')
 
 FIGSIZE = (7.0, 4.6)            # inches; two per page
 FONTSIZE, SMALL = 8.5, 7.0
-ROLES = ['FoR', 'C1', 'C2']
+ROLES = ['FoR', 'C1', 'C2', 'C3']
 # Fit of record red, first contrast Okabe-Ito sky blue, second contrast black and dashed in the zoom panels:
 # mutually distinct also for colour-blind readers (red vs orange was not), and clear of the green target ticks.
-ROLE_COLOR = {'FoR': '#D32F2F', 'C1': '#1E88E5', 'C2': 'black', 'ascast': '#1565C0'}
+ROLE_COLOR = {'FoR': '#D32F2F', 'C1': '#1E88E5', 'C2': 'black', 'C3': '#E69F00', 'ascast': '#1565C0'}
 # zoom panels: fit of record widest and lowest; each alternative model thinner and on top, so both stay visible where they overlap
-ZOOM_LW = {'FoR': 2.0, 'C1': 1.5, 'C2': 1.5}
-ZOOM_Z = {'FoR': 3, 'C1': 4, 'C2': 5}
+ZOOM_LW = {'FoR': 2.0, 'C1': 1.5, 'C2': 1.5, 'C3': 1.5}
+ZOOM_Z = {'FoR': 3, 'C1': 4, 'C2': 5, 'C3': 5}
 # zoom panels: alternative models dashed (blue) and dotted (black) so the red fit of record shows through the gaps
-ROLE_DASH = {'C1': (0, (5, 2.5)), 'C2': (0, (1.2, 1.6))}
+ROLE_DASH = {'C1': (0, (5, 2.5)), 'C2': (0, (1.2, 1.6)), 'C3': (0, (1.2, 1.6))}
 COLOR_DIFF, COLOR_TARGET, COLOR_OTHER = '#0072B2', '#2E7D32', '0.45'
 TICK_FRAC, TICK_GAP_FRAC = 0.035, 0.012   # tick rows in (a), fraction of its height
 RWP_TOL = 0.05                  # recomputed vs recorded R_wp (percent)
@@ -401,7 +401,7 @@ def panel_c(ax, models, ref, lo, hi, target=None):
 
 
 def load_models(group):
-    return [dict(role=r.role, label=r.label, sticks=r.sticks, target=r.target_phase, dir=r.fit_dir,
+    return [dict(role=r.role, label=r.label, sticks=r.sticks, target=r.target_phase, dir=r.fit_dir, zoom=r.zoom,
                  fit=load_fit(FITS_DIR / r.fit_dir) if r.fit_dir else None) for r in group.itertuples()]
 
 
@@ -410,6 +410,8 @@ def make_figure(row, group, sample):
     models = load_models(group)
     head = next(m for m in models if m['fit'] is not None)      # FoR, or the first contrast if pending
     alt = next((m for m in models if m['role'] != 'FoR' and m['fit'] is not None), None)
+    if sample['formula'] in MATCHED_FORMULAS:
+        return matched_figure(row, models, sample)
     if sample['formula'] in STACKED_FORMULAS and alt is not None:
         return stacked_predonly_figure(row, head, alt, sample)
     if sample['formula'] in PREDONLY_FORMULAS and alt is not None:
@@ -446,6 +448,54 @@ def make_figure(row, group, sample):
                 ax.set_ylabel('counts', fontsize=SMALL)
             if k >= len(zooms) - ncol:
                 ax.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
+    for ax in fig.axes:
+        ax.tick_params(length=2.5, width=0.5, labelsize=SMALL)
+    out = OUT_DIR / f'fig_S_{row:02d}_{sample["formula"]}.pdf'
+    fig.savefig(out)
+    plt.close(fig)
+    return out
+
+
+# Rows whose contrast models are all refined with the same adjustable parameters (ZrPt5Si): (a) the fit of record;
+# (b) the difference curves of the matched models; (c) the ordered (C1) and site-mixed (C2) models at the
+# ordering lines; (d) the ordered model with (C1) and without (C3) the minor phase at its lines.
+MATCHED_FORMULAS = {'ZrPt5Si'}
+
+
+def matched_figure(row, models, sample):
+    by = {m['role']: m for m in models}
+    head, c1, c2, c3 = by['FoR'], by['C1'], by['C2'], by['C3']
+    zc, zd = parse_zoom([c1['zoom']]), parse_zoom([c3['zoom']])
+    fig = plt.figure(figsize=(FIGSIZE[0], FIGSIZE[1] * 1.45))
+    outer = fig.add_gridspec(2, 1, height_ratios=[3.1, 1.0], left=0.055, right=0.985, top=0.955, bottom=0.07, hspace=0.3)
+    top = outer[0].subgridspec(1, 2, width_ratios=[3.3, 2], wspace=0.12)
+    left = top[0].subgridspec(2, 1, height_ratios=[2.1, 1.3], hspace=0.06)
+    ax_a = fig.add_subplot(left[0])
+    ax_b = fig.add_subplot(left[1], sharex=ax_a)
+    plt.setp(ax_a.get_xticklabels(), visible=False)
+    panel_a(ax_a, head['fit'], head['target'], zc + zd, ROLE_COLOR['FoR'])
+    panel_b(ax_b, [c1, c2, c3])
+    ax_a.set_title(mathtext(sample['formula']), loc='left', fontsize=FONTSIZE + 1)
+    for ax, letter in [(ax_a, 'a'), (ax_b, 'b')]:
+        ax.text(-0.035, 1.0, f'({letter})', transform=ax.transAxes, fontsize=FONTSIZE, va='top', ha='right')
+    right = top[1].subgridspec(2, 2, hspace=0.45, wspace=0.22)
+    for k, (lo, hi) in enumerate(zc):
+        ax = fig.add_subplot(right[k // 2, k % 2])
+        panel_c(ax, [c1, c2], c1['fit'], lo, hi, target=c1['target'])
+        if k == 0:
+            ax.set_title('(c)', loc='left', fontsize=FONTSIZE)
+        if k % 2 == 0:
+            ax.set_ylabel('counts', fontsize=SMALL)
+        if k >= 2:
+            ax.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
+    bottom = outer[1].subgridspec(1, len(zd), wspace=0.25)
+    for k, (lo, hi) in enumerate(zd):
+        ax = fig.add_subplot(bottom[k])
+        panel_c(ax, [c1, c3], c1['fit'], lo, hi, target=c1['target'])
+        if k == 0:
+            ax.set_title('(d)', loc='left', fontsize=FONTSIZE)
+            ax.set_ylabel('counts', fontsize=SMALL)
+        ax.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
     for ax in fig.axes:
         ax.tick_params(length=2.5, width=0.5, labelsize=SMALL)
     out = OUT_DIR / f'fig_S_{row:02d}_{sample["formula"]}.pdf'

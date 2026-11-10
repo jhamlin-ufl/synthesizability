@@ -28,6 +28,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 | `0561_annealed_polish` | fit of record | ZrPt5Si annealed, ordered P4/mmm | 8.77 |
 | `0561_ordered_matched` | contrast | ZrPt5Si annealed, ordered P4/mmm, refined the same way as the mixed model | 8.43 |
 | `0561_sitemixed` | contrast | ZrPt5Si annealed, Zr/Si/Pt site-mixed parent | 23.65 |
+| `0561_ordered_noZrPt3` | contrast | ZrPt5Si annealed, ordered P4/mmm without ZrPt3, refined the same way | 10.45 |
 | `0561_ascast_joint_zero` | as-cast scan | ZrPt5Si as cast | 7.72 |
 | `0561_exchange_md` | quoted in the Supplement text, not plotted | ordered ZrPt5Si with refined Zr/Si exchange (about 1 %), with texture | 8.42 |
 | `0561_exchange_nomd` | quoted in the Supplement text, not plotted | ordered ZrPt5Si with refined Zr/Si exchange, without texture | 11.08 |

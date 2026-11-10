@@ -12,7 +12,7 @@ import csv
 import json
 from pathlib import Path
 
-ROLE = {'FoR': 'fit of record', 'C1': 'contrast', 'C2': 'contrast', 'ascast': 'as-cast scan'}
+ROLE = {'FoR': 'fit of record', 'C1': 'contrast', 'C2': 'contrast', 'C3': 'contrast', 'ascast': 'as-cast scan'}
 REPORTED = {'yes': 'Structure previously reported at this composition.',
             'composition': 'Composition previously reported, without a structure.',
             'series': 'Ordered member of a reported series whose known member is partly disordered.',

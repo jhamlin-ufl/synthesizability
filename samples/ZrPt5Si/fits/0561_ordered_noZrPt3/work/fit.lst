@@ -1,0 +1,192 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 20
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: ZrSiPt5_pred_OQMD-2146113
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Zr        17.87650  10.94800   5.41732   3.65721   1.27618  11.91600   0.11762  87.66270   2.06929
+ Si         6.29150   3.03530   1.98910   1.54100   2.43860  32.33370   0.67850  81.69370   1.14070
+ Pt        27.00590  17.76390  15.71310   5.78370   1.51293   8.81174   0.42459  38.61030  11.68830
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Zr         0.29970   1.18790   3.10750   3.97400   3.57690   0.11210   1.06380   6.38910  28.70810  97.42890
+ Si         0.05670   0.33650   0.81040   2.49600   2.11860   0.05820   0.61550   3.25220  16.79290  57.67670
+ Pt         0.30830   1.41580   2.96620   3.93490   2.17090   0.06090   0.59930   3.19210  12.52850  49.76750
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Zr      Nat. Abund.     91.220    0.716
+ Si      Nat. Abund.     28.086    0.415
+ Pt      Nat. Abund.    195.090    0.960
+
+ Space Group: P 4/m m m
+ The lattice is centrosymmetric primitive tetragonal
+ The Laue symmetry is 4/mmm
+ The lattice point group is 4/mmm
+ Multiplicity of a general site is 16
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,     X,     Z 
+ ( 3)    -X,    -Y,     Z 
+ ( 4)     Y,    -X,     Z 
+ ( 5)    -X,     Y,     Z 
+ ( 6)    -Y,    -X,     Z 
+ ( 7)     X,    -Y,     Z 
+ ( 8)     Y,     X,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Zr0     Zr      U   0.50000   0.50000   0.00000   1.0004/mmm(z)    1    I 0.00263                                                
+    Si1     Si      U   0.00000   0.00000   0.50000   1.0004/mmm(z)    1    I 0.00263                                                
+    Pt2     Pt      U   0.00000   0.50000   0.29100   1.000 mm2(z)    4    I 0.00263                                                
+    Pt3     Pt      U   0.00000   0.00000   0.00000   1.0004/mmm(z)    1    I 0.00263                                                
+
+ Unit cell: a = 3.97602 b = 3.97602 c = 6.90978 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 109.235 Refine? True
+
+ Phase: ZrSiPt5_pred_OQMD-2146113 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     0.9146 Refine? True Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       0.375 Refine? True
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: generalized
+	 LG mixing coeff.:      1.0000 Refine? False
+ names :        S400        S004        S220        S022
+ values:    501787.2     19158.5     54953.5     73954.1
+ refine:        True        True        True        True
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR scan.xy histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     8.00 deg to   150.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :       51.9750      -25.9180        0.0000        0.0000        0.0000
+ refine:          True          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540510    1.544330    0.700000    0.025000   42.210954  -69.014584   47.283190
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    1.840430   -1.383733    0.000000    0.001629
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    314.532   -69.373   242.952   -95.482    83.687   -58.354    34.287   -18.441     2.674   -19.528   -22.368
+                  -10.578
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 3 No. of observations: 7101 No. of parameters: 23 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.688s,    0.688s/cycle, for 1 cycles
+ wR =   10.45%, chi**2 =      77569.3, GOF =   3.31
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :     0::AUiso:0          0::A0
+ value :        0.00263        0.06326
+ sig   :        0.00015        0.00000 
+
+ Phases:
+ Result for phase: ZrSiPt5_pred_OQMD-2146113
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.063256092    0.063256092    0.020944594    0.000000000    0.000000000    0.000000000
+  esds  :    0.000002488                   0.000000802                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    3.976022    3.976022    6.909777     90.0000     90.0000     90.0000     109.235
+  esds  :    0.000078                0.000132                                           0.005
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Zr0     Zr:
+ values:   0.50000   0.50000   0.00000   1.000 0.00263
+ sig   :                                       0.00015 
+    Si1     Si:
+ values:   0.00000   0.00000   0.50000   1.000 0.00263
+ sig   :                                       (.00015)
+    Pt2     Pt:
+ values:   0.00000   0.50000   0.29100   1.000 0.00263
+ sig   :                                       (.00015)
+    Pt3     Pt:
+ values:   0.00000   0.00000   0.00000   1.000 0.00263
+ sig   :                                       (.00015)
+
+ Density: 16.6420 g/cm**3
+
+ Phase: ZrSiPt5_pred_OQMD-2146113 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 2.49%, 5.72% on 90 reflections
+ Durbin-Watson statistic = 0.193
+ Bragg intensity sum = 1.09e+07
+ March-Dollase PO:     0.9146, sig     0.0013
+
+ Size model:     isotropic equatorial:     0.37541, sig:  0.0423 LG mix coeff.:      1.0000
+
+ Mustrain model: generalized
+ LG mix coeff.:      1.0000
+ name  :        S400        S004        S220        S022
+ value :    501785.9     19146.3     54939.1     73914.1
+ sig   :     12293.5       927.1     12528.7      2340.5
+
+ Histogram: PWDR scan.xy histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 10.45% on 7101 observations in this histogram
+ Other residuals: R = 7.37%, R-bkg = 7.26%, wR-bkg = 10.45% wRmin = 3.16%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Zr       Si       Pt
+ f'     :   -0.187    0.254   -4.597
+ f"     :    2.244    0.330    6.922
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:       51.9739      -25.9263        0.0000        0.0000        0.0000
+ sig   :        0.1572        1.2054                                          
+
+ Background function: chebyschev-1
+ value :      314.5    -69.37     242.9    -95.48     83.69    -58.35     34.29    -18.44     2.673    -19.53    -22.37    -10.58
+ sig   :      1.671      2.75     2.303     2.296     2.082     1.983     1.911     1.861     1.726      1.87     1.676     1.495
+ Background sums: empirical 1.61e+06, Debye 0, peaks 0, Total 1.61e+06
