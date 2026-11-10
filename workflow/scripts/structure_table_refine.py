@@ -17,7 +17,8 @@ import argparse, json, os, re, shutil, sys
 from pathlib import Path
 import numpy as np
 
-sys.path.insert(0, os.environ.get('GSAS2_DIR', '/home/jhamlin/repos/rietveld/external/gsas2/GSAS-II'))
+if os.environ.get('GSAS2_DIR'):   # GSAS-II importable as a package, or GSAS2_DIR points at its source folder
+    sys.path.insert(0, os.environ['GSAS2_DIR'])
 from GSASII import GSASIIscriptable as G2sc  # noqa: E402
 
 
