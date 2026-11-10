@@ -128,7 +128,7 @@ def main():
              row('Button', 'button'), row('Data points', 'nobs'), row('Reflections (main phase)', 'nref'),
              row('Refined parameters', 'nvar'), row(r'$R_\mathrm{p}$ (\%)', 'Rp'), row(r'$R_\mathrm{wp}$ (\%)', 'Rwp'),
              row(r'$R_\mathrm{exp}$ (\%)', 'Rexp'), row(r'$\chi^2$', 'chi2'), row(r'GOF $= R_\mathrm{wp}/R_\mathrm{exp}$', 'gof'), row(r'$R_F$ (main phase, \%)', 'RF'),
-             row(r'Main phase (wt\%)$^{a}$', 'wmain'), row(r'Second phase (wt\%)$^{a}$', 'wsec'), r'\bottomrule', r'\end{tabular}']
+             row(r'Main phase (wt\%)', 'wmain'), row(r'Second phase (wt\%)', 'wsec'), r'\bottomrule', r'\end{tabular}']
     out = Path('results/tables')
     out.mkdir(parents=True, exist_ok=True)
     (out / 'structure_table.tex').write_text('\n'.join(lines) + '\n')
