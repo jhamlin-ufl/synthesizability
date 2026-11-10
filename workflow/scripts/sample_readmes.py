@@ -22,6 +22,8 @@ EXTRA = {
     '0494_pred_for_TiSiPt5_hs': 'predicted Ti2Pt8Si in place of the TiPt5Si-type phase',
     '0561_exchange_md': 'ordered ZrPt5Si with refined Zr/Si exchange (about 1 %), with texture',
     '0561_exchange_nomd': 'ordered ZrPt5Si with refined Zr/Si exchange, without texture',
+    '0538_ascast_pnma': 'as-cast scan: Pnma YCoSi (known) + Y3Co2Si3 + YCo2Si2',
+    '0538_ascast_pred_P4nmm': 'as-cast scan: predicted P4/nmm in place of Pnma, with the two minor phases',
 }
 DATABASES = ['oqmd_v1.7', 'mp', 'alexandria_pbe_2025.07.02', 'alexandria_pbesol_optimade']
 SEARCH = ['oqmd_ternary_phases', 'mp_ternary_phases', 'alexandria_pbe_ternary_phases', 'cod']

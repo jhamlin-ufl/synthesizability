@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/YCoSi/buttons/0538/0538_HM_CoSiY_annealed_ZB.txt --space samples/YCoSi/fits/0538_annealed_pred_P4nmm/start --occ pred --uiso-max 0.04 --main-key YCoSi_pred_OQMD-1368530 --md --md-axis 0 0 1 --partners --strict-final --accept-bound --out results/refits/0538_annealed_pred_P4nmm

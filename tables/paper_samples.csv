@@ -5,7 +5,7 @@ table_row,formula,list,category,category_name,alt_category,confidence,reported,s
 4,TiPt5Si,B,1,On-hull structure,,probable,no,0493,0493,samples/TiPt5Si/buttons/0493/0493_HM_TiPt5Si_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",1.87,0618 second button
 5,YSnCu,C,1,On-hull structure,,firm,yes,0507,0507,samples/YSnCu/buttons/0507/0507_HM_CuSnY_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.43,
 6,ScCrC2,C,1,On-hull structure,,firm,yes,0512,0605,samples/ScCrC2/buttons/0605/0605_HM_C2CrSc.txt,no,Siemens D500,"powder, PMMA slide (inferred)",,0605 remake
-7,YCoSi,C,2,Above-hull polymorph,,probable,yes,0538,0538,samples/YCoSi/buttons/0538/0538_HM_CoSiY_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.039,0503 earlier attempt
+7,YCoSi,C,2,Above-hull polymorph,,probable,yes,0538,0538,samples/YCoSi/buttons/0538/0538_HM_CoSiY_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.039,0503 earlier attempt
 8,YCoSi3,C,2,Above-hull polymorph,,probable,composition,0539,0539,samples/YCoSi3/buttons/0539/0539_HM_YCoSi3_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.46,0504 earlier attempt
 9,Al8FeCo7,B,3,Disordered parent of on-hull structure,,firm,no,0535,0535,samples/Al8FeCo7/buttons/0535/0535_HM_Al8FeCo7_circular.txt,no,Siemens D500,"powder, PMMA slide (inferred)",0.56,0487 earlier attempt
 10,Hf2MoIr,A,3,Disordered parent of on-hull structure,,probable,no,0466,0466,samples/Hf2MoIr/buttons/0466/0466_HM_Hf2MoIr_annealed_ZB.txt,yes,Siemens D500,"powder, zero-background Si plate",0.55,

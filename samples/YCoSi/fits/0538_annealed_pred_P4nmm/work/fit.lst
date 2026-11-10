@@ -1,0 +1,161 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 20
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: YCoSi_pred_OQMD-1368530
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Y         17.77600  10.29460   5.72629   3.26588   1.40290  12.80060   0.12560 104.35400   1.91213
+ Co        12.28410   7.34090   4.00340   2.34880   4.27910   0.27840  13.53590  71.16920   1.01180
+ Si         6.29150   3.03530   1.98910   1.54100   2.43860  32.33370   0.67850  81.69370   1.14070
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Y          0.32340   1.27370   3.21150   4.05630   3.79620   0.12440   1.19480   7.27560  34.14300 111.20790
+ Co         0.21860   0.98610   1.85400   2.32580   1.46850   0.11820   1.23000   5.41770  25.76020  80.85420
+ Si         0.05670   0.33650   0.81040   2.49600   2.11860   0.05820   0.61550   3.25220  16.79290  57.67670
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Y       Nat. Abund.     88.907    0.775
+ Co      Nat. Abund.     58.933    0.249
+ Si      Nat. Abund.     28.086    0.415
+
+ Space Group: P 4/n m m
+ The lattice is centrosymmetric primitive tetragonal
+ The Laue symmetry is 4/mmm
+ The lattice point group is 4/mmm
+ Multiplicity of a general site is 16
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2) 1/2-Y,     X,     Z 
+ ( 3) 1/2-X, 1/2-Y,     Z 
+ ( 4)     Y, 1/2-X,     Z 
+ ( 5) 1/2-X,     Y,     Z 
+ ( 6) 1/2-Y, 1/2-X,     Z 
+ ( 7)     X, 1/2-Y,     Z 
+ ( 8)     Y,     X,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Y0      Y         -0.25000   0.25000   0.67912   1.000 mm2(z)    4    I 0.01000                                                
+    Co1     Co         -0.25000  -0.25000   0.00000   1.000 4mm(z)    2    I 0.01000                                                
+    Si2     Si         -0.25000   0.25000   0.18701   1.000 mm2(z)    4    I 0.01000                                                
+
+ Unit cell: a = 3.95838 b = 3.95838 c = 6.69788 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 104.947 Refine? False
+
+ Phase: YCoSi_pred_OQMD-1368530 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:     60000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR scan.xy histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     8.00 deg to   149.98 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        3.7295        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540510    1.544330    0.700000    0.025000   42.210954  -69.014584   47.283190
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    1.840430   -1.383733    0.000000    0.001629
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    377.848  -129.986   140.878   -54.257    51.525   -63.213    31.136   -17.825
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 3 No. of observations: 7100 No. of parameters: 9 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.727s,    0.727s/cycle, for 1 cycles
+ wR =   54.77%, chi**2 =  1.02711e+06, GOF =  12.04
+
+ Phases:
+ Result for phase: YCoSi_pred_OQMD-1368530
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Y0      Y:
+ values:  -0.25000   0.25000   0.67912   1.000 0.01000
+ sig   :                                               
+    Co1     Co:
+ values:  -0.25000  -0.25000   0.00000   1.000 0.01000
+ sig   :                                               
+    Si2     Si:
+ values:  -0.25000   0.25000   0.18701   1.000 0.01000
+ sig   :                                               
+
+ Density: 9.2695 g/cm**3
+
+ Phase: YCoSi_pred_OQMD-1368530 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 71.20%, 94.24% on 83 reflections
+ Durbin-Watson statistic = 0.021
+ Bragg intensity sum = 1.6e+05
+
+ Histogram: PWDR scan.xy histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 54.77% on 7100 observations in this histogram
+ Other residuals: R = 43.04%, R-bkg = 69.57%, wR-bkg = 54.77% wRmin = 4.55%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:        Y       Co       Si
+ f'     :   -0.267   -2.365    0.254
+ f"     :    2.024    3.614    0.330
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        3.7295        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.7515                                                        
+
+ Background function: chebyschev-1
+ value :      377.8      -130     140.9    -54.26     51.52    -63.21     31.14    -17.82
+ sig   :      4.226      7.39     6.731     6.591     5.845      5.57     4.557     4.702
+ Background sums: empirical 2.32e+06, Debye 0, peaks 0, Total 2.32e+06

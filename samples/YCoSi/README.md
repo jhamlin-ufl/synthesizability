@@ -2,7 +2,7 @@
 
 Table 1 row 7, candidate list C. Discussed in the Supplement, Sec. S7, under YCoSi.
 
-Outcome: Known Pnma YCoSi polymorph (+32 meV) formed, textured; not the on-hull P4/nmm structure
+Outcome: Known Pnma polymorph (+32 meV), 93 wt% after anneal; on-hull P4/nmm structure absent
 
 Category: Above-hull polymorph (probable). Structure previously reported at this composition.
 
@@ -15,9 +15,9 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | Button | Role | Mass loss (%) | Scans |
 |---|---|---|---|
 | 0503 | earlier attempt | 0.002 | `0503_HM_CoSiY_circular.txt` (Siemens D500, as cast) |
-| 0538 | target | 0.039 | `0538_HM_CoSiY_circular.txt` (Siemens D500, as cast) |
+| 0538 | target | 0.039 | `0538_HM_CoSiY_circular.txt` (Siemens D500, as cast); `0538_HM_CoSiY_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0538/0538_HM_CoSiY_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan of record: `buttons/0538/0538_HM_CoSiY_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -25,8 +25,10 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0538_FoR` | fit of record | Pnma YCoSi (known) + Y3Co2Si3 + YCo2Si2 | 10.09 |
-| `0538_pred_P4nmm` | contrast | predicted P4/nmm in place of Pnma | 40.36 |
+| `0538_annealed_pnma` | fit of record | Pnma YCoSi (known) + YCo2Si2 | 10.33 |
+| `0538_annealed_pred_P4nmm` | contrast | predicted P4/nmm alone | 54.77 |
+| `0538_ascast_pnma` | quoted in the Supplement text, not plotted | as-cast scan: Pnma YCoSi (known) + Y3Co2Si3 + YCo2Si2 | 10.09 |
+| `0538_ascast_pred_P4nmm` | quoted in the Supplement text, not plotted | as-cast scan: predicted P4/nmm in place of Pnma, with the two minor phases | 40.36 |
 
 ## Database entries
 

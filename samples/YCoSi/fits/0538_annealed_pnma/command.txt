@@ -1,0 +1,2 @@
+# Command that produced this fit (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/refine.py --scan samples/YCoSi/buttons/0538/0538_HM_CoSiY_annealed_ZB.txt --space samples/YCoSi/fits/0538_annealed_pnma/start --occ pred --uiso-max 0.04 --main-key YCoSi_oqmd_1444920 --thin --md --md-axis 0 1 0 --partners 'Y(CoSi)2_mp_mp-5129' --strict-final --accept-bound --out results/refits/0538_annealed_pnma
