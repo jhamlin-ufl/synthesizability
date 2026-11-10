@@ -467,7 +467,7 @@ def matched_figure(row, models, sample):
     head, c1, c2, c3 = by['FoR'], by['C1'], by['C2'], by['C3']
     zc, zd = parse_zoom([c1['zoom']]), parse_zoom([c3['zoom']])
     fig = plt.figure(figsize=(FIGSIZE[0], FIGSIZE[1] * 1.45))
-    outer = fig.add_gridspec(2, 1, height_ratios=[3.1, 1.0], left=0.055, right=0.985, top=0.955, bottom=0.07, hspace=0.3)
+    outer = fig.add_gridspec(2, 1, height_ratios=[3.1, 1.25], left=0.055, right=0.985, top=0.955, bottom=0.07, hspace=0.3)
     top = outer[0].subgridspec(1, 2, width_ratios=[3.3, 2], wspace=0.12)
     left = top[0].subgridspec(2, 1, height_ratios=[2.1, 1.3], hspace=0.06)
     ax_a = fig.add_subplot(left[0])
@@ -490,12 +490,24 @@ def matched_figure(row, models, sample):
             ax.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
     bottom = outer[1].subgridspec(1, len(zd), wspace=0.25)
     for k, (lo, hi) in enumerate(zd):
-        ax = fig.add_subplot(bottom[k])
+        cell = bottom[k].subgridspec(2, 1, height_ratios=[2.2, 1], hspace=0.05)
+        ax = fig.add_subplot(cell[0])
         panel_c(ax, [c1, c3], c1['fit'], lo, hi, target=c1['target'])
+        plt.setp(ax.get_xticklabels(), visible=False)
+        # below: measured minus calculated for the models with and without the minor phase, same scale as above
+        ad = fig.add_subplot(cell[1], sharex=ax)
+        ad.axhline(0, color='0.85', lw=0.4, zorder=0)
+        for mod in (c1, c3):
+            f = mod['fit']
+            mf = (f['x'] >= lo) & (f['x'] <= hi)
+            ad.plot(f['x'][mf], f['obs'][mf] - f['calc'][mf], lw=1.0, color=ROLE_COLOR[mod['role']], ls=ROLE_DASH.get(mod['role'], '-'))
+        ad.set_yticks([])
+        ad.xaxis.set_major_locator(matplotlib.ticker.MaxNLocator(4))
+        ad.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
         if k == 0:
             ax.set_title('(d)', loc='left', fontsize=FONTSIZE)
             ax.set_ylabel('counts', fontsize=SMALL)
-        ax.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
+            ad.set_ylabel('obs $-$ calc', fontsize=SMALL)
     for ax in fig.axes:
         ax.tick_params(length=2.5, width=0.5, labelsize=SMALL)
     out = OUT_DIR / f'fig_S_{row:02d}_{sample["formula"]}.pdf'
