@@ -28,6 +28,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 | `0493_annealed_polish` | main fit | TiPt5Si annealed, ordered P4/mmm | 10.58 |
 | `0493_ordered_matched` | contrast | TiPt5Si annealed, ordered P4/mmm, refined the same way as the mixed model | 10.57 |
 | `0493_sitemixed` | contrast | TiPt5Si annealed, Ti/Si/Pt site-mixed parent | 24.55 |
+| `0493_ordered_nofcc` | contrast | TiPt5Si annealed, ordered P4/mmm without the fcc phase, refined the same way | 15.97 |
 | `0493_ascast_joint_zero` | as-cast scan | TiPt5Si as cast | 6.15 |
 
 ## Database entries

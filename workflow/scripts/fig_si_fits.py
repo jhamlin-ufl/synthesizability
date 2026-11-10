@@ -456,10 +456,10 @@ def make_figure(row, group, sample):
     return out
 
 
-# Rows whose contrast models are all refined with the same adjustable parameters (ZrPt5Si): (a) the main fit;
+# Rows whose contrast models are all refined with the same adjustable parameters (ZrPt5Si, TiPt5Si): (a) the main fit;
 # (b) the difference curves of the matched models; (c) the ordered (C1) and site-mixed (C2) models at the
 # ordering lines; (d) the ordered model with (C1) and without (C3) the minor phase at its lines.
-MATCHED_FORMULAS = {'ZrPt5Si'}
+MATCHED_FORMULAS = {'ZrPt5Si', 'TiPt5Si'}
 
 
 def matched_figure(row, models, sample):
