@@ -17,7 +17,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0512 | target | 3.00 | `0512_HM_C2CrSc.txt` (Siemens D500, as cast) |
 | 0605 | remake | not recorded | `0605_HM_C2CrSc.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0605/0605_HM_C2CrSc.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0605/0605_HM_C2CrSc.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -25,7 +25,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0605_FoR` | fit of record | P6_3/mmc ScCrC2 (Poettgen 1995) + graphite | 6.21 |
+| `0605_FoR` | main fit | P6_3/mmc ScCrC2 (Poettgen 1995) + graphite | 6.21 |
 | `0605_ScCr_mixed` | contrast | Sc/Cr-mixed cell (same cell) | 7.50 |
 
 ## Database entries

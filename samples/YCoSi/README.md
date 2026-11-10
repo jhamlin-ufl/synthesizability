@@ -17,7 +17,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0503 | earlier attempt | 0.002 | `0503_HM_CoSiY_circular.txt` (Siemens D500, as cast) |
 | 0538 | target | 0.039 | `0538_HM_CoSiY_circular.txt` (Siemens D500, as cast); `0538_HM_CoSiY_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0538/0538_HM_CoSiY_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0538/0538_HM_CoSiY_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -25,7 +25,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0538_annealed_pnma` | fit of record | Pnma YCoSi (known) + YCo2Si2 | 10.33 |
+| `0538_annealed_pnma` | main fit | Pnma YCoSi (known) + YCo2Si2 | 10.33 |
 | `0538_annealed_pred_P4nmm` | contrast | predicted P4/nmm alone | 54.77 |
 | `0538_ascast_pnma` | quoted in the Supplement text, not plotted | as-cast scan: Pnma YCoSi (known) + Y3Co2Si3 + YCo2Si2 | 10.09 |
 | `0538_ascast_pred_P4nmm` | quoted in the Supplement text, not plotted | as-cast scan: predicted P4/nmm in place of Pnma, with the two minor phases | 40.36 |

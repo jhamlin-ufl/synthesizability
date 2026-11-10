@@ -1,4 +1,4 @@
-"""0493 annealed scan: the single-phase TiSiPt5 fit of record plus one
+"""0493 annealed scan: the single-phase TiSiPt5 main fit plus one
 candidate fcc-type phase for the shifted humps on the fcc fundamental
 reflections (residual maxima give a = 3.89-3.90 A).
 

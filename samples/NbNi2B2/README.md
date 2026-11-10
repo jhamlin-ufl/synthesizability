@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0510 | target | 0.50 | `0510_HM_B2NbNi2_circular.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0510/0510_HM_B2NbNi2_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0510/0510_HM_B2NbNi2_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0510_FoR_c` | fit of record | Ni3B + NbB2 + tau-boride Nb2Ni21B6 | 11.31 |
+| `0510_FoR_c` | main fit | Ni3B + NbB2 + tau-boride Nb2Ni21B6 | 11.31 |
 | `0510_pred_alone` | contrast | predicted NbNi2B2 alone | 38.36 |
 
 ## Database entries

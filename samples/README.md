@@ -11,8 +11,8 @@ samples/<formula>/
 ```
 
 A target can have several buttons: earlier attempts, remakes and second buttons
-(`tables/buttons.csv`). The scan of record is not always from the first button. For example, the
-YAl3Cu2 scan of record is from the remake 0615.
+(`tables/buttons.csv`). The scan used is not always from the first button. For example, the
+YAl3Cu2 scan used is from the remake 0615.
 
 ## Buttons
 
@@ -43,7 +43,7 @@ Supplement shows and what each one tests. The sample READMEs list the others.
 | `start/` | the starting CIFs |
 | `command.txt` | the command that made the fit |
 
-`<fit>` names: `FoR` fit of record, `pred` the predicted structure, `_hs` sample displacement held
+`<fit>` names: `FoR` main fit, `pred` the predicted structure, `_hs` sample displacement held
 at zero because the refined value was unphysical. Phase names give the source of each starting
 model: `oqmd`, `mp`, `alex` (Alexandria), `cod`, a literature reference (for example
 `Poettgen1995`), `pred` (the predicted cell), `_dis` (its site-disordered parent), `pm` (a solid

@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0466 | target | 0.55 | `0466_HM_Hf2MoIr 1.xy` (PANalytical X'Pert MPD, as cast); `0466_HM_Hf2MoIr_annealed.txt` (Siemens D500, annealed 1000 C 1 week); `0466_HM_Hf2MoIr_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0466/0466_HM_Hf2MoIr_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0466/0466_HM_Hf2MoIr_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0466_FoR_B2` | fit of record | bcc, partial Hf order (eta 0.64) + Hf2Ir | 7.31 |
+| `0466_FoR_B2` | main fit | bcc, partial Hf order (eta 0.64) + Hf2Ir | 7.31 |
 | `0466_pred_L21` | contrast | predicted L2_1 Hf2MoIr + Hf2Ir | 16.89 |
 
 ## Database entries

@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0507 | target | 0.43 | `0507_HM_CuSnY_circular.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0507/0507_HM_CuSnY_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0507/0507_HM_CuSnY_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0507_FoR` | fit of record | LiGaGe-type YCuSn (ordered prediction) + Y3Cu4Sn4 | 4.86 |
+| `0507_FoR` | main fit | LiGaGe-type YCuSn (ordered prediction) + Y3Cu4Sn4 | 4.86 |
 | `0507_CuSn_mixed_c` | contrast | Cu/Sn-mixed parent (same cell) | 8.69 |
 
 ## Database entries

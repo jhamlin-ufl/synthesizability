@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Supplementary figures: each target's fit of record and the contrast fits behind its category.
+"""Supplementary figures: each target's main fit and the contrast fits behind its category.
 
   in:  tables/si_fits.csv (one row per fit; columns in tables/README.md),
        tables/paper_samples.csv, samples/<formula>/fits/<button>_<fit>/, CIFs in the `sticks` column
   out: results/supplement/fig_S_<row>_<formula>.pdf, one per Table 1 row with a deposited fit;
-       results/supplement/fig_S_ascast_annealed.pdf (annealed fit of record above the as-cast fit)
+       results/supplement/fig_S_ascast_annealed.pdf (annealed main fit above the as-cast fit)
 
-Panels: (a) fit of record: observed minus background (crosses), fit (red), difference (blue), one
+Panels: (a) main fit: observed minus background (crosses), fit (red), difference (blue), one
 numbered row of Bragg positions per phase (green = target_phase) and weight fractions; (b) the
 difference curves of every fit on one scale, labelled with model and R_wp (recomputed from fit.txt
 with w = 1/obs and checked against summary.json); (c) zoom windows on the deciding lines: observed
@@ -40,13 +40,13 @@ OUT_DIR = Path('results/supplement')
 FIGSIZE = (7.0, 4.6)            # inches; two per page
 FONTSIZE, SMALL = 8.5, 7.0
 ROLES = ['FoR', 'C1', 'C2', 'C3']
-# Fit of record red, first contrast Okabe-Ito sky blue, second contrast black and dashed in the zoom panels:
+# Main fit red, first contrast Okabe-Ito sky blue, second contrast black and dashed in the zoom panels:
 # mutually distinct also for colour-blind readers (red vs orange was not), and clear of the green target ticks.
-ROLE_COLOR = {'FoR': '#D32F2F', 'C1': '#1E88E5', 'C2': 'black', 'C3': '#E69F00', 'ascast': '#1565C0'}
-# zoom panels: fit of record widest and lowest; each alternative model thinner and on top, so both stay visible where they overlap
+ROLE_COLOR = {'FoR': '#D32F2F', 'C1': '#1E88E5', 'C2': 'black', 'C3': '#8E24AA', 'ascast': '#1565C0'}
+# zoom panels: main fit widest and lowest; each alternative model thinner and on top, so both stay visible where they overlap
 ZOOM_LW = {'FoR': 2.0, 'C1': 1.5, 'C2': 1.5, 'C3': 1.5}
 ZOOM_Z = {'FoR': 3, 'C1': 4, 'C2': 5, 'C3': 5}
-# zoom panels: alternative models dashed (blue) and dotted (black) so the red fit of record shows through the gaps
+# zoom panels: alternative models dashed (blue) and dotted (black) so the red main fit shows through the gaps
 ROLE_DASH = {'C1': (0, (5, 2.5)), 'C2': (0, (1.2, 1.6)), 'C3': (0, (1.2, 1.6))}
 COLOR_DIFF, COLOR_TARGET, COLOR_OTHER = '#0072B2', '#2E7D32', '0.45'
 TICK_FRAC, TICK_GAP_FRAC = 0.035, 0.012   # tick rows in (a), fraction of its height
@@ -240,7 +240,7 @@ RESID_COLOR = '0.35'
 
 
 def panel_a(ax, fit, target, zooms, colour=ROLE_COLOR['FoR'], show_wt=True, extra=None, show_diff=True, diff_colour=COLOR_DIFF):
-    """Fit of record: net pattern, fit, difference, numbered tick rows, phase list."""
+    """Main fit: net pattern, fit, difference, numbered tick rows, phase list."""
     scale = np.max(fit['obs'] - fit['bg'])
     x, net, calc, diff = (fit['x'], (fit['obs'] - fit['bg']) / scale,
                           (fit['calc'] - fit['bg']) / scale, (fit['obs'] - fit['calc']) / scale)
@@ -375,7 +375,7 @@ def panel_c(ax, models, ref, lo, hi, target=None):
             top = max(top, np.max(f['calc'][mf], initial=0))
     ax.set_xlim(lo, hi)
     ax.set_ylim(top=1.08 * top)
-    # Bragg positions of every phase of the fit of record, as in panel (a): green = phase at the nominal composition
+    # Bragg positions of every phase of the main fit, as in panel (a): green = phase at the nominal composition
     y0, y1 = ax.get_ylim()
     span = y1 - y0
     n = len(ref['ticks'])
@@ -432,7 +432,7 @@ def make_figure(row, group, sample):
     cat = f'{sample["category"]}' + (f'/{int(sample["alt_category"])}' if pd.notna(sample['alt_category']) else '')
     ax_a.set_title(mathtext(sample["formula"]), loc='left', fontsize=FONTSIZE + 1)
     if head['role'] != 'FoR':
-        ax_b.text(0.988, 0.9, f'fit of record pending; (a) shows {head["role"]}', transform=ax_b.transAxes,
+        ax_b.text(0.988, 0.9, f'main fit pending; (a) shows {head["role"]}', transform=ax_b.transAxes,
                   ha='right', va='top', fontsize=SMALL, color='0.3')
     for ax, letter in [(ax_a, 'a'), (ax_b, 'b')]:
         ax.text(-0.035, 1.0, f'({letter})', transform=ax.transAxes, fontsize=FONTSIZE, va='top', ha='right')
@@ -456,7 +456,7 @@ def make_figure(row, group, sample):
     return out
 
 
-# Rows whose contrast models are all refined with the same adjustable parameters (ZrPt5Si): (a) the fit of record;
+# Rows whose contrast models are all refined with the same adjustable parameters (ZrPt5Si): (a) the main fit;
 # (b) the difference curves of the matched models; (c) the ordered (C1) and site-mixed (C2) models at the
 # ordering lines; (d) the ordered model with (C1) and without (C3) the minor phase at its lines.
 MATCHED_FORMULAS = {'ZrPt5Si'}
@@ -600,7 +600,7 @@ def net(fit, x0, x1):
 
 
 def ascast_figure(fits, samples):
-    """One row per annealed target: annealed fit of record above the as-cast fit, and zooms."""
+    """One row per annealed target: annealed main fit above the as-cast fit, and zooms."""
     ascast = fits[fits['role'] == 'ascast']
     # the two isostructural Pt5 compounds side by side, then GdPt2Ge
     order = {'ZrPt5Si': 0, 'TiPt5Si': 1, 'GdPt2Ge': 2}

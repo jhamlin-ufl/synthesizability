@@ -17,7 +17,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0495 | earlier attempt | 2.26 | `0495_HM_GdFeGe3_circular.txt` (Siemens D500, as cast) |
 | 0553 | target | 2.34 | `0553_HM_GdFeGe3.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0553/0553_HM_GdFeGe3.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0553/0553_HM_GdFeGe3.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -25,7 +25,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0553_FoR` | fit of record | GdFe0.37Ge2 + Gd0.5Fe3Ge3 + Ge | 7.52 |
+| `0553_FoR` | main fit | GdFe0.37Ge2 + Gd0.5Fe3Ge3 + Ge | 7.52 |
 | `0553_pred_alone` | contrast | predicted GdFeGe3 alone | 39.94 |
 
 ## Database entries

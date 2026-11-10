@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0480 | target | 0.33 | `0480_HM_GdGePt2.txt` (Siemens D500, as cast); `0480_HM_GdGePt2.xy` (PANalytical X'Pert MPD, as cast); `0480_HM_GdPt2Ge_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0480/0480_HM_GdPt2Ge_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0480/0480_HM_GdPt2Ge_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0480_pnma_ox_genstrain` | fit of record | GdPt2Ge annealed, Pnma + Gd2O3 | 11.63 |
+| `0480_pnma_ox_genstrain` | main fit | GdPt2Ge annealed, Pnma + Gd2O3 | 11.63 |
 | `0480_pnma` | contrast | GdPt2Ge annealed, Pnma alone, refined the same way as the Cmcm model | 14.17 |
 | `0480_cmcm` | contrast | GdPt2Ge annealed, OQMD Cmcm alone | 41.48 |
 | `0480_ascast_90321` | as-cast scan | GdPt2Ge as cast | 6.75 |

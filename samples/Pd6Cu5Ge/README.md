@@ -18,7 +18,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0568 | remake | 1.61 | `0568_HM_Cu5GePd6.txt` (Siemens D500, as cast) |
 | 0608 | remake | 1.08 | `0608_HM_Cu5GePd6.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0568/0568_HM_Cu5GePd6.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0568/0568_HM_Cu5GePd6.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 

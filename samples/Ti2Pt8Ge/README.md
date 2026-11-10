@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0492 | target | 0.53 | `0492_HM_Ti2GePt8_circular.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0492/0492_HM_Ti2GePt8_circular.txt` (Siemens D500, bulk chunk, as cast).
+Scan used: `buttons/0492/0492_HM_Ti2GePt8_circular.txt` (Siemens D500, bulk chunk, as cast).
 
 ## Fits
 

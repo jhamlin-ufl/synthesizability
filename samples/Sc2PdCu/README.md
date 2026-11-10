@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0474 | target | 0.09 | `0474_HM_Sc2CuPd.xy` (PANalytical X'Pert MPD, as cast); `0474_HM_Sc2CuPd_annealed.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0474/0474_HM_Sc2CuPd.xy` (PANalytical X'Pert MPD, bulk piece (cut face), as cast).
+Scan used: `buttons/0474/0474_HM_Sc2CuPd.xy` (PANalytical X'Pert MPD, bulk piece (cut face), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0474_FoR_B2` | fit of record | B2 Sc(Cu,Pd) | 8.06 |
+| `0474_FoR_B2` | main fit | B2 Sc(Cu,Pd) | 8.06 |
 | `0474_pred_L21` | contrast | predicted L2_1 Heusler | 10.21 |
 | `0474_alex_P4mmm` | contrast | Alexandria P4/mmm (on-hull in Alexandria) | 8.65 |
 

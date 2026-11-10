@@ -19,7 +19,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0544 | remake | 10.88 | none |
 | 0545 | target | 0.82 | `0545_HM_Al4FeCo3_circular.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0545/0545_HM_Al4FeCo3_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0545/0545_HM_Al4FeCo3_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -27,7 +27,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0545_FoR_B2_c` | fit of record | B2 Al(Fe,Co), Fe/Co mixed, Al order eta 0.9 | 5.78 |
+| `0545_FoR_B2_c` | main fit | B2 Al(Fe,Co), Fe/Co mixed, Al order eta 0.9 | 5.78 |
 | `0545_pred_Al_eta0.90` | contrast | predicted Fe/Co-ordered Im-3m, same Al order | 5.78 |
 
 ## Database entries

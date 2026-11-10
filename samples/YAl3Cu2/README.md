@@ -18,7 +18,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0540 | target | 2.99 | `0540_HM_Al3Cu2Y_circular.txt` (Siemens D500, as cast) |
 | 0615 | remake | 2.09 | `0615_HM_Al3Cu2Y_annealed_2x_ZB.txt` (Siemens D500, annealed 1000 C 1 week, then 500 C 12 h); `0615_HM_Al3Cu2Y_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0615/0615_HM_Al3Cu2Y_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0615/0615_HM_Al3Cu2Y_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -26,7 +26,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0615_FoR_order` | fit of record | CaCu5-type YAl3Cu2 (Al/Cu order eta 0.71) + La3Al11-type Y3(Al,Cu)11 | 11.91 |
+| `0615_FoR_order` | main fit | CaCu5-type YAl3Cu2 (Al/Cu order eta 0.71) + La3Al11-type Y3(Al,Cu)11 | 11.91 |
 | `0615_random` | contrast | Al/Cu random CaCu5 cell | 14.49 |
 
 ## Database entries

@@ -2,7 +2,7 @@
 
 Table 1 row 1, candidate list B. Discussed in the Supplement, Sec. S7, under ZrPt5Si.
 
-Outcome: On-hull ZrPt5Si, 97 wt% after anneal (ZrPt3 3 wt%); new compound
+Outcome: On-hull ZrPt5Si, 97 wt% after anneal (likely ZrPt3, 3 wt%); new compound
 
 Category: On-hull structure (probable). Not previously reported.
 
@@ -17,7 +17,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0482 | earlier attempt | 0.27 | `0482_HM_ZrSiPt5.xy` (PANalytical X'Pert MPD, as cast) |
 | 0561 | target | 0.99 | `0561_HM_ZrPt5Si_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week); `0561_HM_ZrSiPt5.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0561/0561_HM_ZrPt5Si_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0561/0561_HM_ZrPt5Si_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -25,7 +25,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0561_annealed_polish` | fit of record | ZrPt5Si annealed, ordered P4/mmm | 8.77 |
+| `0561_annealed_polish` | main fit | ZrPt5Si annealed, ordered P4/mmm | 8.77 |
 | `0561_ordered_matched` | contrast | ZrPt5Si annealed, ordered P4/mmm, refined the same way as the mixed model | 8.43 |
 | `0561_sitemixed` | contrast | ZrPt5Si annealed, Zr/Si/Pt site-mixed parent | 23.65 |
 | `0561_ordered_noZrPt3` | contrast | ZrPt5Si annealed, ordered P4/mmm without ZrPt3, refined the same way | 10.45 |

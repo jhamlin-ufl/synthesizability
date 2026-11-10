@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0494 | target | 0.44 | `0494_HM_Ti2SiPt8.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0494/0494_HM_Ti2SiPt8.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0494/0494_HM_Ti2SiPt8.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0494_FoR_hs` | fit of record | TiSiPt5-type + fcc-derived Ti-Pt | 7.86 |
+| `0494_FoR_hs` | main fit | TiSiPt5-type + fcc-derived Ti-Pt | 7.86 |
 | `0494_pred_alone` | contrast | predicted Ti2Pt8Si alone | 25.18 |
 | `0494_pred_for_TiSiPt5_hs` | quoted in the Supplement text, not plotted | predicted Ti2Pt8Si in place of the TiPt5Si-type phase | 14.50 |
 

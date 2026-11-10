@@ -6,7 +6,7 @@
 Six panels, two across by three down (PANELS below; the list is the only place
 that decides which samples appear, and the layout also works with five, the
 legend then taking the empty slot).  Each panel stacks, from the top: the
-measured pattern with the whole-pattern fit of record (the refinement behind
+measured pattern with the whole-pattern main fit (the refinement behind
 the phases and weight fractions printed on the panel), the difference curve on
 the same scale, and short rows of Bragg positions, one per phase (the target
 phase in green).  A small picture of the formed crystal structure
@@ -15,7 +15,7 @@ cell) sits in an empty part of each panel.  The disordered-parent panel also
 carries the pattern simulated from the predicted ordered structure, with a
 zoom on its missing superlattice line.
 
-Which fit is "of record" for each panel is a data file,
+Which fit is the main fit for each panel is a data file,
 results/phaseid/review/representative_fits.csv (one row per sample; the
 choices and the R_wp numbers behind them are in its note column).  Fits come
 from three kinds of source:
@@ -192,7 +192,7 @@ PAD_PX = 2.5                  # clearance around every placed item (pixels at 10
 
 
 # ---------------------------------------------------------------------------
-# Fits of record
+# Main fits
 # ---------------------------------------------------------------------------
 
 def ladder_stats(row):
@@ -966,7 +966,7 @@ def main():
     fits = pd.read_csv(FITS_CSV).set_index('sample_number', drop=False)
     missing = [c['sample'] for c in PANELS if c['sample'] not in fits.index]
     if missing:
-        raise SystemExit(f'{FITS_CSV} has no fit of record for {missing}')
+        raise SystemExit(f'{FITS_CSV} has no main fit for {missing}')
     if len(PANELS) > NROWS * NCOLS:
         raise SystemExit(f'{len(PANELS)} panels do not fit a {NROWS} x {NCOLS} grid')
 

@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0469 | target | 1.16 | `0469_HM_ScCuPd2.txt` (Siemens D500, as cast); `0469_HM_ScCuPd2.xy` (PANalytical X'Pert MPD, as cast) |
 
-Scan of record: `buttons/0469/0469_HM_ScCuPd2.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0469/0469_HM_ScCuPd2.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0469_L12parent_mw5_hs` | fit of record | cubic L1_2 Sc(Cu,Pd)3 + 4H hexagonal | 6.07 |
+| `0469_L12parent_mw5_hs` | main fit | cubic L1_2 Sc(Cu,Pd)3 + 4H hexagonal | 6.07 |
 | `0469_FoR_mw5_hs` | contrast | ordered P4/mmm Sc(Cu,Pd)3 type (Alexandria, above hull) | 6.76 |
 | `0469_pred_D022_w2_hs` | contrast | OQMD D0_22 prediction, DFT cell (2 % window) | 12.75 |
 

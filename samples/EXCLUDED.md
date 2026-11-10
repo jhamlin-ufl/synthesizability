@@ -7,8 +7,8 @@ were left out. This page gives file names and reasons only.
 | Kind | Files | Why left out |
 |---|---|---|
 | ICDD card exports (`PDF Card - *.cif`, `PDF Card - *.xml`) | 60 | Proprietary PDF-5+ database content ("Copyright ... International Centre for Diffraction Data. All rights reserved"); not redistributable. Card numbers are cited where the paper uses a card. |
-| Jade files (`*.wrk*.xml`, `*.wpf*.txt`, `*_XRD_fit*.txt`, `*_XRD_fit*.JPG`) | 201 | Earlier whole-pattern fits in MDI Jade, superseded by the GSAS-II fits of record. Work files and reports embed the data of the PDF cards they used (card notes, references, cells, atoms, reflection lists); exports and screenshots are intermediate products. |
-| Structure files from Jade analyses (other `*.cif`) | 43 | OQMD cells (`<formula>_<OQMD id>_stab<energy>.cif`) and hand-built or Jade-refined cells used as Jade inputs. The database snapshot and the fits of record hold the structures the paper uses. |
+| Jade files (`*.wrk*.xml`, `*.wpf*.txt`, `*_XRD_fit*.txt`, `*_XRD_fit*.JPG`) | 201 | Earlier whole-pattern fits in MDI Jade, superseded by the GSAS-II main fits. Work files and reports embed the data of the PDF cards they used (card notes, references, cells, atoms, reflection lists); exports and screenshots are intermediate products. |
+| Structure files from Jade analyses (other `*.cif`) | 43 | OQMD cells (`<formula>_<OQMD id>_stab<energy>.cif`) and hand-built or Jade-refined cells used as Jade inputs. The database snapshot and the main fits hold the structures the paper uses. |
 | Duplicate | 1 | Byte-identical copy of another scan in the same folder. |
 | Not used in the paper | 3 | AC susceptibility of 0483. |
 | System files | 4 | `Thumbs.db`, Office lock file `~$...pptx`. |

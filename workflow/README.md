@@ -27,7 +27,7 @@ uv run snakemake -c1 sample_readmes # rewrite samples/<formula>/README.md
 | Path | Content |
 |---|---|
 | `Snakefile` | the pipeline |
-| `scripts/` | the scripts above; `refine.py`, the GSAS-II refinement driver named in every `command.txt`; `check_fit_commands.py`, which checks the paths in every `command.txt`; `sample_readmes.py`, which writes the sample READMEs; `searchmatch.py` and `searchmatch_batch.py`, the automated search-match; `chain_TiPt5Si_ZrPt5Si/`, the scripts behind two fits of record (see its README); `build_snapshot.py`, which made `databases/snapshot/` from the lab repository |
+| `scripts/` | the scripts above; `refine.py`, the GSAS-II refinement driver named in every `command.txt`; `check_fit_commands.py`, which checks the paths in every `command.txt`; `sample_readmes.py`, which writes the sample READMEs; `searchmatch.py` and `searchmatch_batch.py`, the automated search-match; `chain_TiPt5Si_ZrPt5Si/`, the scripts behind two main fits (see its README); `build_snapshot.py`, which made `databases/snapshot/` from the lab repository |
 | `src/synthesizability/` | library code: hull energies (`hull.py`), file parsers, plotting helpers, and the search-match (`phaseid/`, see its README) |
 | `figure_inputs/` | inputs of Fig. 1: `xrd_representative_fits.csv` (one row per panel, naming its fit), `structure_insets/` (pre-rendered drawings of the refined structures), `predicted/` (the OQMD structure simulated in panel f) |
 

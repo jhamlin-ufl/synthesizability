@@ -18,7 +18,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0536 | remake | 9.46 | `0536_HM_Gd3CoSn6_circular.txt` (Siemens D500, as cast) |
 | 0556 | target | 2.04 | `0556_HM_Gd3CoSn6.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0556/0556_HM_Gd3CoSn6.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0556/0556_HM_Gd3CoSn6.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -26,7 +26,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0556_FoR` | fit of record | CeNiSi2-type GdCo_xSn_2 (Gil 2004), partners below 1 wt% | 13.39 |
+| `0556_FoR` | main fit | CeNiSi2-type GdCo_xSn_2 (Gil 2004), partners below 1 wt% | 13.39 |
 | `0556_pred_c_hs` | contrast | predicted Co-ordered Cmcm Gd3CoSn6 in place of GdCo_xSn_2, sample displacement held | 13.26 |
 
 ## Database entries

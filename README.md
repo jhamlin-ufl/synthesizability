@@ -24,7 +24,7 @@ phases that formed by powder X-ray diffraction and Rietveld refinement.
 ## Finding a sample
 
 Open `samples/<formula>/README.md`, for example `samples/ZrPt5Si/README.md`. It gives the Table 1
-row and outcome, the buttons and scans, the fit of record and the contrast fits, and where the
+row and outcome, the buttons and scans, the main fit and the contrast fits, and where the
 database entries for the chemical system are. `samples/README.md` explains the file formats and
 how to rerun a fit.
 

@@ -50,12 +50,12 @@ sample,folder,formula,target_sample,role,mass_loss_pct,n_scans,note,in_table_s1
 0558,samples/ScPdCu4/buttons/0558,ScPdCu4,0472,remake,13.04,0,remake of 0472 (0472 mass loss 5.1 %); this button lost 13.0 % and was not scanned,yes
 0561,samples/ZrPt5Si/buttons/0561,ZrPt5Si,0561,target,0.99,2,,yes
 0566,samples/ScPdCu4/buttons/0566,ScPdCu4,0472,remake,4.72,1,remake after 0558; reason not recorded,yes
-0568,samples/Pd6Cu5Ge/buttons/0568,Pd6Cu5Ge,0465,remake,1.61,1,second button of the same recipe; reason not recorded; ground powder on the Siemens gives the scan of record,yes
-0605,samples/ScCrC2/buttons/0605,ScCrC2,0512,remake,,1,"same recipe as 0512, which did not react; scan of record for ScCrC2",yes
+0568,samples/Pd6Cu5Ge/buttons/0568,Pd6Cu5Ge,0465,remake,1.61,1,second button of the same recipe; reason not recorded; ground powder on the Siemens gives the scan used,yes
+0605,samples/ScCrC2/buttons/0605,ScCrC2,0512,remake,,1,"same recipe as 0512, which did not react; scan used for ScCrC2",yes
 0608,samples/Pd6Cu5Ge/buttons/0608,Pd6Cu5Ge,0465,remake,1.08,1,third button; reason not recorded,yes
 0610,samples/Sc2Pd5Au/buttons/0610,Sc2Pd5Au,0478,remake,1.01,1,"remake; reason not recorded; first Siemens powder scan of this composition, from 5 deg",yes
 0613,samples/ScPdCu4/buttons/0613,ScPdCu4,0472,remake,4.48,1,remake; reason not recorded,yes
 0614,samples/LaRuC2/buttons/0614,LaRuC2,0513,remake,0.62,1,remake; reason not recorded (0513 lost 6.3 %),yes
-0615,samples/YAl3Cu2/buttons/0615,YAl3Cu2,0540,remake,2.09,2,"remake; reason not recorded; annealed, scan of record for YAl3Cu2 (Fig. 1e)",yes
+0615,samples/YAl3Cu2/buttons/0615,YAl3Cu2,0540,remake,2.09,2,"remake; reason not recorded; annealed, scan used for YAl3Cu2 (Fig. 1e)",yes
 0617,samples/LaRuC2/buttons/0617,LaRuC2,0513,remake,2.18,1,remake; reason not recorded,yes
 0618,samples/TiPt5Si/buttons/0618,TiPt5Si,0493,second button,,1,made in G. R. Stewart's group (SYNTHESIS); mass loss not recorded,no

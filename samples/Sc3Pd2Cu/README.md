@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0473 | target | 0.21 | `0473_HM_Sc3CuPd2.txt` (Siemens D500, as cast); `0473_HM_Sc3CuPd2.xy` (PANalytical X'Pert MPD, as cast); `0473_HM_Sc3CuPd2_annealed.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0473/0473_HM_Sc3CuPd2_annealed.txt` (Siemens D500, powder, PMMA slide (inferred), annealed 1000 C for one week).
+Scan used: `buttons/0473/0473_HM_Sc3CuPd2_annealed.txt` (Siemens D500, powder, PMMA slide (inferred), annealed 1000 C for one week).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0473_FoR_B2` | fit of record | B2 Sc(Cu,Pd), Sc order eta 0.75, annealed | 4.26 |
+| `0473_FoR_B2` | main fit | B2 Sc(Cu,Pd), Sc order eta 0.75, annealed | 4.26 |
 | `0473_pred_P4mmm` | contrast | predicted P4/mmm | 5.71 |
 
 ## Database entries

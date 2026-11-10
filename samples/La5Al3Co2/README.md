@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0483 | target | 0.03 | `0483_HM_La5Al3Co2.txt` (Siemens D500, as cast); `0483_HM_La5Al3Cu2.xy` (PANalytical X'Pert MPD, as cast) |
 
-Scan of record: `buttons/0483/0483_HM_La5Al3Co2.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0483/0483_HM_La5Al3Co2.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0483_FoR` | fit of record | best match: La4Co3Al3 (Tursina 2023) | 6.60 |
+| `0483_FoR` | main fit | best match: La4Co3Al3 (Tursina 2023) | 6.60 |
 | `0483_pred_alone` | contrast | predicted La5Al3Co2 alone | 14.43 |
 
 ## Database entries

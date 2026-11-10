@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0475 | target | 0.9 | `0475_HM_La2PdAu2.txt` (Siemens D500, as cast); `0475_HM_La2PdAu2.xy` (PANalytical X'Pert MPD, as cast) |
 
-Scan of record: `buttons/0475/0475_HM_La2PdAu2.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0475/0475_HM_La2PdAu2.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 

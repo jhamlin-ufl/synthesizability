@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0479 | target | 2.01 | `0479_HM_MnAl2Au6.txt` (Siemens D500, as cast); `0479_HM_MnAl2Au6.xy` (PANalytical X'Pert MPD, as cast) |
 
-Scan of record: `buttons/0479/0479_HM_MnAl2Au6.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0479/0479_HM_MnAl2Au6.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0479_FoR_C11b_pos_hs` | fit of record | C11b Au2(Al,Mn), Au order eta 0.5, Au z free | 6.18 |
+| `0479_FoR_C11b_pos_hs` | main fit | C11b Au2(Al,Mn), Au order eta 0.5, Au z free | 6.18 |
 | `0479_pred_C2m_eta0.50_pos_hs` | contrast | C2/m with predicted Mn/Al order, same Au disorder, positions free | 5.93 |
 
 ## Database entries

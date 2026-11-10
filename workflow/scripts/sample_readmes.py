@@ -12,7 +12,7 @@ import csv
 import json
 from pathlib import Path
 
-ROLE = {'FoR': 'fit of record', 'C1': 'contrast', 'C2': 'contrast', 'C3': 'contrast', 'ascast': 'as-cast scan'}
+ROLE = {'FoR': 'main fit', 'C1': 'contrast', 'C2': 'contrast', 'C3': 'contrast', 'ascast': 'as-cast scan'}
 REPORTED = {'yes': 'Structure previously reported at this composition.',
             'composition': 'Composition previously reported, without a structure.',
             'series': 'Ordered member of a reported series whose known member is partly disordered.',
@@ -67,7 +67,7 @@ def readme(t, out, buttons, scans, fits, system, oqmd_id, p_dis, flags):
         cell = '; '.join(f"`{Path(s['file']).name}` ({s['instrument'].split(' (')[0]}, {s['state']})" for s in sc) or 'none'
         lines.append(f"| {b['sample']} | {b['role']} | {b['mass_loss_pct'] or 'not recorded'} | {cell} |")
     rec = Path(t['record_scan']).relative_to(here)
-    lines += ['', f"Scan of record: `{rec}` ({t['instrument']}, {t['mount']}"
+    lines += ['', f"Scan used: `{rec}` ({t['instrument']}, {t['mount']}"
               + (', annealed 1000 C for one week).' if t['annealed'] == 'yes' else ', as cast).'), '']
     lines += ['## Fits', '',
               'Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calculated pattern), '

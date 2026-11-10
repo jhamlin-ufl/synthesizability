@@ -15,9 +15,9 @@ Paths in these tables are relative to the repository root.
 | `reported` | `yes` structure reported before at this composition; `composition` composition reported without a structure; `series` ordered member of a reported series whose known member is partly disordered; `no` |
 | `sample` | sample number of the target |
 | `record_sample` | button whose scan gives the outcome |
-| `record_scan` | the scan of record |
-| `annealed` | `yes` if the scan of record is of a sample annealed at 1000 C for one week |
-| `instrument`, `mount` | instrument and mount of the scan of record |
+| `record_scan` | the scan used |
+| `annealed` | `yes` if the scan used is of a sample annealed at 1000 C for one week |
+| `instrument`, `mount` | instrument and mount of the scan used |
 | `mass_loss_pct` | arc-melting mass loss of `record_sample` (%), from its SYNTHESIS file |
 | `other_samples` | the other buttons of the target and their role |
 
@@ -28,7 +28,7 @@ Paths in these tables are relative to the repository root.
 | `sample` | sample number of the target |
 | `one_or_three` | `yes` where category 1 cannot be excluded for a category 3 target |
 | `outcome`, `outcome_tex` | the outcome text of Table 1 (plain and LaTeX) |
-| `phases` | phases and weight fractions of the fit of record (Table 1 phase table) |
+| `phases` | phases and weight fractions of the main fit (Table 1 phase table) |
 
 ## `buttons.csv`: one row per arc-melted button
 
@@ -52,7 +52,7 @@ Paths in these tables are relative to the repository root.
 | `state` | as cast or annealed (1000 C, one week); 0615 also has a scan after a further 500 C, 12 h anneal |
 | `two_theta_start`, `two_theta_stop`, `step` | scan range and step (deg) |
 | `date` | measurement date from the file header (blank for `.xy`) |
-| `scan_of_record` | `yes` for the 34 scans of record |
+| `scan_of_record` | `yes` for the 34 scans used |
 | `note` | caveats |
 
 Mounts: scans with `_ZB` in the name are powder on a zero-background Si plate. All PANalytical
@@ -66,7 +66,7 @@ taken to be powder fixed with grease on a PMMA slide, the other mount given in t
 |---|---|
 | `table_row`, `formula` | Table 1 row and formula |
 | `sample` | button whose scan was fitted |
-| `role` | `FoR` fit of record; `C1`, `C2` contrast models; `ascast` the as-cast scan of an annealed target |
+| `role` | `FoR` main fit; `C1`, `C2` contrast models; `ascast` the as-cast scan of an annealed target |
 | `label` | model name in the figure legend |
 | `fit_dir` | the fit folder |
 | `target_phase` | phase drawn in green (a key of `ticks.json`); blank if no phase is at the target composition |

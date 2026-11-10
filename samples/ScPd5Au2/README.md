@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0477 | target | 15.57 | `0477_HM_ScPd5Au2.xy` (PANalytical X'Pert MPD, as cast) |
 
-Scan of record: `buttons/0477/0477_HM_ScPd5Au2.xy` (PANalytical X'Pert MPD, bulk piece (uncut button face), as cast).
+Scan used: `buttons/0477/0477_HM_ScPd5Au2.xy` (PANalytical X'Pert MPD, bulk piece (uncut button face), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0477_FoR_A1_c` | fit of record | fcc (Sc,Pd,Au) | 15.27 |
+| `0477_FoR_A1_c` | main fit | fcc (Sc,Pd,Au) | 15.27 |
 | `0477_pred_Pbam_c` | contrast | predicted Pbam | 17.77 |
 
 ## Database entries

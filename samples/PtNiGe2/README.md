@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0481 | target | 0.25 | `0481_HM_NiGe2Pt.txt` (Siemens D500, as cast); `0481_HM_NiGe2Pt.xy` (PANalytical X'Pert MPD, as cast) |
 
-Scan of record: `buttons/0481/0481_HM_NiGe2Pt.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0481/0481_HM_NiGe2Pt.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0481_FoR_w14` | fit of record | MnP-type (Ni0.5Pt0.5)Ge, Ni/Pt mixed, alone | 21.25 |
+| `0481_FoR_w14` | main fit | MnP-type (Ni0.5Pt0.5)Ge, Ni/Pt mixed, alone | 21.25 |
 | `0481_pred_w14` | contrast | ordered P2_1/m prediction alone | 36.31 |
 
 ## Database entries

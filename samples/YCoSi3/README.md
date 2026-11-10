@@ -17,7 +17,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0504 | earlier attempt | 2.94 | `0504_HM_CoSi3Y_circular.txt` (Siemens D500, as cast) |
 | 0539 | target | 0.46 | `0539_HM_CoSi3Y_annealed.txt` (Siemens D500, annealed 1000 C 1 week); `0539_HM_CoSi3Y_circular.txt` (Siemens D500, as cast); `0539_HM_YCoSi3_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week) |
 
-Scan of record: `buttons/0539/0539_HM_YCoSi3_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0539/0539_HM_YCoSi3_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -25,7 +25,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0539_cmmm_thin_genstrain` | fit of record | Cmmm YCoSi3 (SmNiGe3 type), single phase | 12.87 |
+| `0539_cmmm_thin_genstrain` | main fit | Cmmm YCoSi3 (SmNiGe3 type), single phase | 12.87 |
 | `0539_i4mm_oqmd_thin_genstrain` | contrast | predicted I4mm alone | 53.60 |
 
 ## Database entries

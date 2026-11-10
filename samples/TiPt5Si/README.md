@@ -17,7 +17,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 | 0493 | target | 1.87 | `0493_HM_TiPt5Si_annealed_ZB.txt` (Siemens D500, annealed 1000 C 1 week); `0493_HM_TiSiPt5.txt` (Siemens D500, as cast) |
 | 0618 | second button | not recorded | `0618_HM_TiPt5Si_ZB.txt` (Siemens D500, unclear (SYNTHESIS mentions a 600 C anneal of the filed powder, duration blank)) |
 
-Scan of record: `buttons/0493/0493_HM_TiPt5Si_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
+Scan used: `buttons/0493/0493_HM_TiPt5Si_annealed_ZB.txt` (Siemens D500, powder, zero-background Si plate, annealed 1000 C for one week).
 
 ## Fits
 
@@ -25,7 +25,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0493_annealed_polish` | fit of record | TiPt5Si annealed, ordered P4/mmm | 10.58 |
+| `0493_annealed_polish` | main fit | TiPt5Si annealed, ordered P4/mmm | 10.58 |
 | `0493_ordered_matched` | contrast | TiPt5Si annealed, ordered P4/mmm, refined the same way as the mixed model | 10.57 |
 | `0493_sitemixed` | contrast | TiPt5Si annealed, Ti/Si/Pt site-mixed parent | 24.55 |
 | `0493_ascast_joint_zero` | as-cast scan | TiPt5Si as cast | 6.15 |

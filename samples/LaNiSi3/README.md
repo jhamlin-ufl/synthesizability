@@ -16,7 +16,7 @@ Each folder in `buttons/` holds the synthesis record (`SYNTHESIS`, `SYNTHESIS.tx
 |---|---|---|---|
 | 0514 | target | 2.2 | `0514_HM_LaNiSi3_circular.txt` (Siemens D500, as cast) |
 
-Scan of record: `buttons/0514/0514_HM_LaNiSi3_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
+Scan used: `buttons/0514/0514_HM_LaNiSi3_circular.txt` (Siemens D500, powder, PMMA slide (inferred), as cast).
 
 ## Fits
 
@@ -24,7 +24,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 
 | Folder | Role | Model | R_wp (%) |
 |---|---|---|---|
-| `0514_FoR` | fit of record | La3Ni3Si7 + LaNiSi2 + Si + LaNi6Si6 (Pani 2014 isotype model) | 10.64 |
+| `0514_FoR` | main fit | La3Ni3Si7 + LaNiSi2 + Si + LaNi6Si6 (Pani 2014 isotype model) | 10.64 |
 | `0514_pred_alone` | contrast | predicted LaNiSi3 alone | 41.27 |
 
 ## Database entries

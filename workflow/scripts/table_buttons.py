@@ -1,6 +1,6 @@
-"""Table S1: the arc-melted buttons behind each candidate and the pattern of record.
+"""Table S1: the arc-melted buttons behind each candidate and the pattern used.
 
-Reads tables/paper_samples.csv (candidates, Table 1 order, pattern of record) and
+Reads tables/paper_samples.csv (candidates, Table 1 order, pattern used) and
 tables/buttons.csv (every button, its role and mass loss). Buttons with
 in_table_s1 = no (0618, a second TiPt5Si button made elsewhere) are left out.
 Writes results/tables/buttons_table.tex (the tabular body of Table S1).
@@ -24,7 +24,7 @@ def main():
     ps = pd.read_csv(ROOT / 'tables/paper_samples.csv', dtype=str)
     bt = pd.read_csv(ROOT / 'tables/buttons.csv', dtype=str)
     bt = bt[bt['in_table_s1'] != 'no']
-    lines = [r'\# & Compound & Button & Earlier attempt & Remake & \multicolumn{2}{l}{Pattern of record} \\', r'\midrule']
+    lines = [r'\# & Compound & Button & Earlier attempt & Remake & \multicolumn{2}{l}{Pattern used} \\', r'\midrule']
     cat = None
     for _, r in ps.sort_values('table_row', key=lambda c: c.astype(int)).iterrows():
         if r['category_name'] != cat:
