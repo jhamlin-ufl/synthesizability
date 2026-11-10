@@ -66,11 +66,18 @@ def main():
     cols, atom_lines = [], []
     for formula, button, stype, second in ROWS:
         r, d = load(formula, button)
+        k = r['Rvals']['GOF']          # standard uncertainties are scaled by GOF (misfit beyond counting statistics)
+        conv = json.loads((d / 'converged_summary.json').read_text())
+        kw = conv['Rvals']['GOF']
         ph = r['phases'][0]
-        c, e = ph['cell'], ph['cell_esd']
+        sc = lambda t: (t[0], t[1] * k if t[1] else t[1])
+        for a in ph['atoms']:
+            for key in ('x', 'y', 'z', 'uiso'):
+                a[key] = sc(a[key])
+        c, e = ph['cell'], {key: v * k for key, v in ph['cell_esd'].items()}
         R, res = r['Rvals'], r['residuals']
         # weight fractions from the main fit (converged, U_iso as in the main fit), so they match the paper's text
-        wts = json.loads((d / 'converged_summary.json').read_text())['weight_fractions']
+        wts = {n: (v[0], v[1] * kw if v[1] else v[1]) for n, v in conv['weight_fractions'].items()}
         names = list(wts)
         wmain = wts[names[0]] if names else (None, None)
         wsec = wts[names[1]] if len(names) > 1 else (None, None)
