@@ -28,7 +28,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 | `0480_pnma` | contrast | GdPt2Ge annealed, Pnma alone, refined the same way as the Cmcm model | 14.17 |
 | `0480_cmcm` | contrast | GdPt2Ge annealed, OQMD Cmcm alone | 41.48 |
 | `0480_ascast_90321` | as-cast scan | GdPt2Ge as cast | 6.75 |
-| `0480_structure` | quoted in the Supplement text, not plotted | main fit plus refined U_iso per site; Supplementary Tables of refined structures, with CIFs | 11.55 |
+| `0480_structure` | quoted in the Supplement text, not plotted | main fit plus refined U_iso per site; Supplementary Tables of refined structures, with CIFs | 11.63 |
 
 ## Database entries
 

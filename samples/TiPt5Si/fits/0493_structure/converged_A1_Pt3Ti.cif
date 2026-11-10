@@ -222,12 +222,3 @@ loop_
    _atom_site_site_symmetry_multiplicity
 Ti0    Ti   0.00000     0.00000     0.00000     0.2500     Uiso 0.0100     4   
 Pt1    Pt   0.00000     0.00000     0.00000     0.7500     Uiso 0.0100     4   
-
-loop_  _atom_type_symbol _atom_type_number_in_cell
-  Pt      3
-  Ti      1
-
-# Note that Z affects _cell_formula_sum and _weight
-_cell_formula_units_Z  1
-_chemical_formula_sum  "Pt3 Ti"
-_chemical_formula_weight  633.17

@@ -2,15 +2,15 @@
 ######################################################################
 data_fit
 
-# phase info for TiSiPt5 follows
-_pd_phase_name  TiSiPt5
-_cell_length_a  3.92579
-_cell_length_b  3.92579
-_cell_length_c  6.81262
+# phase info for ZrSiPt5 follows
+_pd_phase_name  ZrSiPt5
+_cell_length_a  3.97576
+_cell_length_b  3.97576
+_cell_length_c  6.90959
 _cell_angle_alpha  90.0000
 _cell_angle_beta  90.0000
 _cell_angle_gamma  90.0000
-_cell_volume  104.995
+_cell_volume  109.218
 _symmetry_cell_setting  tetragonal
 _symmetry_space_group_name_H-M  "P 4/m m m"
 loop_
@@ -44,17 +44,17 @@ loop_
    _atom_site_adp_type
    _atom_site_U_iso_or_equiv
    _atom_site_site_symmetry_multiplicity
-Ti0    Ti   0.50000     0.50000     0.50000     1.0000     Uiso 0.0100     1   
-Si1    Si   0.00000     0.00000     0.00000     1.0000     Uiso 0.0100     1   
-Pt2    Pt   0.00000     0.50000     0.21455(9)  1.0000     Uiso 0.00102(23) 4   
-Pt3    Pt   0.00000     0.00000     0.50000     1.0000     Uiso 0.00102(23) 1   
+Zr0    Zr   0.50000     0.50000     0.00000     1.0000     Uiso 0.0100     1   
+Si1    Si   0.00000     0.00000     0.50000     1.0000     Uiso 0.0100     1   
+Pt2    Pt   0.00000     0.50000     0.29143(6)  1.0000     Uiso 0.0047     4   
+Pt3    Pt   0.00000     0.00000     0.00000     1.0000     Uiso 0.0047     1   
 
 loop_  _atom_type_symbol _atom_type_number_in_cell
   Pt      5
   Si      1
-  Ti      1
+  Zr      1
 
 # Note that Z affects _cell_formula_sum and _weight
 _cell_formula_units_Z  1
-_chemical_formula_sum  "Pt5 Si Ti"
-_chemical_formula_weight  1051.44
+_chemical_formula_sum  "Pt5 Si Zr"
+_chemical_formula_weight  1094.76

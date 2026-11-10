@@ -56,10 +56,17 @@ def coord(v, e):
     return f if (e is None and f is not None) else esd_fmt(v, e)
 
 
+# Which refinement each table column shows: GdPt2Ge with refined U_iso; TiPt5Si and ZrPt5Si as the
+# converged main fit with U_iso held (these data do not determine U_iso of the Pt5Si compounds reliably).
+STEP = {'GdPt2Ge': 'uiso_site', 'TiPt5Si': 'converged', 'ZrPt5Si': 'converged'}
+# Weight fractions: main fit, with the spread among alternative refinements (second-phase and profile
+# models) as the uncertainty, which is larger than the statistical one.
+WT = {'GdPt2Ge': ('94(1)', '6(1)'), 'TiPt5Si': ('91(2)', '9(2)'), 'ZrPt5Si': ('97(1)', '3(1)')}
+
+
 def load(formula, button):
     d = Path('samples') / formula / 'fits' / f'{button}_structure'
-    summ = sorted(d.glob('uiso_*_summary.json'))[0]
-    return json.loads(summ.read_text()), d
+    return json.loads((d / f'{STEP[formula]}_summary.json').read_text()), d
 
 
 def main():
@@ -92,17 +99,13 @@ def main():
             button=button, nobs=f"{int(R['Nobs'])}", nref=f"{int(res.get('0:0:Nref', 0))}", nvar=str(r['nvars']),
             Rp=f"{res['R']:.2f}", Rwp=f"{res['wR']:.2f}", Rexp=f"{res['wRmin']:.2f}", chi2=f"{R['GOF'] ** 2:.1f}", gof=f"{R['GOF']:.2f}",
             RF=f"{res.get('0:0:Rf', float('nan')):.2f}",
-            wmain=esd_fmt(100 * wmain[0], 100 * wmain[1]) if wmain[0] is not None else '',
-            wsec=(f'{second}, ' + esd_fmt(100 * wsec[0], 100 * wsec[1])) if wsec[0] is not None else ''))
+            wmain=WT[formula][0], wsec=f'{second}, {WT[formula][1]}'))
         refined_types = {a['type'] for a in ph['atoms'] if a['uiso'][1]}
         for a in ph['atoms']:
             x, y, zc = a['x'], a['y'], a['z']
             u = a['uiso']
             if u[1]:
                 ustr = esd_fmt(u[0], u[1])
-            elif a['type'] in refined_types and 'U' in a['flags']:
-                ref = next(b for b in ph['atoms'] if b['type'] == a['type'] and b['uiso'][1])
-                ustr = esd_fmt(*ref['uiso']) + r'$^{\dagger}$'   # constrained equal to the refined site of the same element
             else:
                 ustr = f'{u[0]:.3f}$^{{*}}$'
             atom_lines.append(rf"\ch{{{formula}}} & {ATOM_NAME.get(a['type'], a['type'])} & {wyckoff(ph['sg'], x[0], y[0], zc[0])} & "

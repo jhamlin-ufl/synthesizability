@@ -30,7 +30,7 @@ Each folder in `fits/` is one GSAS-II refinement: `fit.txt` (observed and calcul
 | `0493_sitemixed` | contrast | TiPt5Si annealed, Ti/Si/Pt site-mixed parent | 24.55 |
 | `0493_ordered_nofcc` | contrast | TiPt5Si annealed, ordered P4/mmm without the fcc phase, refined the same way | 15.97 |
 | `0493_ascast_joint_zero` | as-cast scan | TiPt5Si as cast | 6.15 |
-| `0493_structure` | quoted in the Supplement text, not plotted | main fit plus refined Pt U_iso; Supplementary Tables of refined structures, with CIFs | 10.45 |
+| `0493_structure` | quoted in the Supplement text, not plotted | converged main fit (U_iso held) for the Supplementary structure tables, with CIFs; uiso_heavy_summary.json is a refined-Pt-U_iso test | 10.58 |
 
 ## Database entries
 
