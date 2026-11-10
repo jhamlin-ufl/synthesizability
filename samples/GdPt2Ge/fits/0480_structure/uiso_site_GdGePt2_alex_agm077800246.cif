@@ -1,0 +1,51 @@
+ 
+######################################################################
+data_fit
+
+# phase info for GdGePt2_alex_agm077800246 follows
+_pd_phase_name  GdGePt2_alex_agm077800246
+_cell_length_a  7.40562
+_cell_length_b  7.01222
+_cell_length_c  5.60266
+_cell_angle_alpha  90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma  90.0000
+_cell_volume  290.945
+_symmetry_cell_setting  orthorhombic
+_symmetry_space_group_name_H-M  "P n m a"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  1/2-x,1/2+y,1/2+z
+     3  x,1/2-y,z
+     4  1/2-x,-y,1/2+z
+     5  -x,-y,-z
+     6  1/2+x,1/2-y,1/2-z
+     7  -x,1/2+y,-z
+     8  1/2+x,y,1/2-z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Gd0    Gd   0.0258(4)   0.75000     0.6388(6)   1.0000     Uiso 0.0108(10) 4   
+Ge1    Ge   0.1143(7)   0.25000     0.8591(9)   1.0000     Uiso 0.0050(15) 4   
+Pt2    Pt   0.18447(18) 0.55200(18) 0.08447(27) 1.0000     Uiso 0.0090(4)  8   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Gd      4
+  Ge      4
+  Pt      8
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  4
+_chemical_formula_sum  "Gd Ge Pt2"
+_chemical_formula_weight  620.02

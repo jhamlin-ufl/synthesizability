@@ -1,0 +1,244 @@
+{
+ "step": "converged",
+ "Rvals": {
+  "lamMax": 0.0,
+  "SVD0": 0.0,
+  "converged": 1.0,
+  "DelChi2": -4.23683990594918e-06,
+  "chisq": 58215.4108402867,
+  "Nobs": 5600.0,
+  "Nvars": 24.0,
+  "RestraintSum": 0.0,
+  "RestraintTerms": 0.0,
+  "Rwp": 10.58289890211477,
+  "GOF": 3.2311535789178403,
+  "Max shft/sig": 0.0018682719393765279,
+  "GOF0": 3.2311467339993785
+ },
+ "nvars": 24,
+ "phases": [
+  {
+   "name": "TiSiPt5",
+   "sg": "P 4/m m m",
+   "cell": {
+    "length_a": 3.9257464081961664,
+    "length_b": 3.9257464081961664,
+    "length_c": 6.81268717553874,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "volume": 104.99362527171272
+   },
+   "cell_esd": {
+    "length_a": 9.83945792720725e-05,
+    "length_b": 9.83945792720725e-05,
+    "length_c": 0.00019438485936941504,
+    "angle_alpha": 0.0,
+    "angle_beta": 0.0,
+    "angle_gamma": 0.0,
+    "volume": 0.006250953922394042
+   },
+   "atoms": [
+    {
+     "label": "Ti0",
+     "type": "Ti",
+     "x": [
+      0.5,
+      null
+     ],
+     "y": [
+      0.5,
+      null
+     ],
+     "z": [
+      0.5,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "4/mmm(z)",
+     "mult": 1,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Si1",
+     "type": "Si",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "4/mmm(z)",
+     "mult": 1,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt2",
+     "type": "Pt",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.5,
+      null
+     ],
+     "z": [
+      0.21448013029283167,
+      8.997637080436034e-05
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.003756146464255512,
+      null
+     ],
+     "flags": "X",
+     "site_sym": "mm2(z)",
+     "mult": 4,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt3",
+     "type": "Pt",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.5,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.003756146464255512,
+      null
+     ],
+     "flags": "",
+     "site_sym": "4/mmm(z)",
+     "mult": 1,
+     "uiso_corr_gt_0p8": {}
+    }
+   ]
+  },
+  {
+   "name": "A1_Pt3Ti",
+   "sg": "F m -3 m",
+   "cell": {
+    "length_a": 3.897,
+    "length_b": 3.897,
+    "length_c": 3.897,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "volume": 59.18221527300002
+   },
+   "cell_esd": {
+    "length_a": 0.0,
+    "length_b": 0.0,
+    "length_c": 0.0,
+    "angle_alpha": 0.0,
+    "angle_beta": 0.0,
+    "angle_gamma": 0.0,
+    "volume": 0.0
+   },
+   "atoms": [
+    {
+     "label": "Ti0",
+     "type": "Ti",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 0.25,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "m3m",
+     "mult": 4,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt1",
+     "type": "Pt",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 0.75,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "m3m",
+     "mult": 4,
+     "uiso_corr_gt_0p8": {}
+    }
+   ]
+  }
+ ],
+ "residuals": {
+  "R": 7.354990569919945,
+  "0:0:Rf^2": 4.414362109201946,
+  "wRb": 10.691493695167335,
+  "0:0:sumInt": 7601619.023503414,
+  "wRmin": 3.2823106167232288,
+  "wR": 10.58289890211477,
+  "0:0:Rf": 2.3785750372302945,
+  "0:0:Nref": 70.0,
+  "Rb": 7.401578359505268,
+  "1:0:Rf^2": 6.64821847742316,
+  "1:0:Rf": 2.800188744541282,
+  "1:0:Nref": 7.0,
+  "1:0:sumInt": 563386.3194072748
+ },
+ "weight_fractions": {
+  "TiSiPt5": [
+   0.90675,
+   0.00119
+  ],
+  "A1_Pt3Ti": [
+   0.09325,
+   0.00119
+  ]
+ }
+}

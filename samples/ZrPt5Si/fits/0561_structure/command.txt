@@ -1,0 +1,2 @@
+# Command that produced this refinement (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/structure_table_refine.py --gpx samples/ZrPt5Si/fits/0561_annealed_polish/work/fit.gpx --uiso heavy --out results/structure/0561_structure

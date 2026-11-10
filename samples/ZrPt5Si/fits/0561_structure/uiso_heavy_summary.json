@@ -1,0 +1,294 @@
+{
+ "step": "uiso_heavy",
+ "Rvals": {
+  "lamMax": 0.0,
+  "SVD0": 0.0,
+  "converged": 1.0,
+  "DelChi2": -4.001051647981865e-06,
+  "chisq": 52375.08616203601,
+  "Nobs": 7101.0,
+  "Nvars": 25.0,
+  "RestraintSum": 0.0,
+  "RestraintTerms": 0.0,
+  "Rwp": 8.588228025988135,
+  "GOF": 2.7206236130163415,
+  "Max shft/sig": 0.0033734356732145615,
+  "GOF0": 2.7206181703548786
+ },
+ "nvars": 25,
+ "phases": [
+  {
+   "name": "ZrSiPt5",
+   "sg": "P 4/m m m",
+   "cell": {
+    "length_a": 3.9758119550395996,
+    "length_b": 3.9758119550395996,
+    "length_c": 6.90949180415083,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "volume": 109.21889455688526
+   },
+   "cell_esd": {
+    "length_a": 6.444995909884362e-05,
+    "length_b": 6.444995909884362e-05,
+    "length_c": 0.00010852163672471932,
+    "angle_alpha": 0.0,
+    "angle_beta": 0.0,
+    "angle_gamma": 0.0,
+    "volume": 0.004006526177077009
+   },
+   "atoms": [
+    {
+     "label": "Zr0",
+     "type": "Zr",
+     "x": [
+      0.5,
+      null
+     ],
+     "y": [
+      0.5,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "4/mmm(z)",
+     "mult": 1,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Si1",
+     "type": "Si",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.5,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "4/mmm(z)",
+     "mult": 1,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt2",
+     "type": "Pt",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.5,
+      null
+     ],
+     "z": [
+      0.29125016203960524,
+      5.789002839523675e-05
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.002324909990280337,
+      0.0001338767889263213
+     ],
+     "flags": "XU",
+     "site_sym": "mm2(z)",
+     "mult": 4,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt3",
+     "type": "Pt",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.002324909990280337,
+      null
+     ],
+     "flags": "U",
+     "site_sym": "4/mmm(z)",
+     "mult": 1,
+     "uiso_corr_gt_0p8": {}
+    }
+   ]
+  },
+  {
+   "name": "ZrPt3",
+   "sg": "P 63/m m c",
+   "cell": {
+    "length_a": 5.650928723589467,
+    "length_b": 5.650928723589468,
+    "length_c": 9.240726013149905,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.00000000000001,
+    "volume": 255.55029362501654
+   },
+   "cell_esd": {
+    "length_a": 0.0,
+    "length_b": 0.0,
+    "length_c": 0.0,
+    "angle_alpha": 0.0,
+    "angle_beta": 0.0,
+    "angle_gamma": 0.0,
+    "volume": 0.0
+   },
+   "atoms": [
+    {
+     "label": "Zr0",
+     "type": "Zr",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.0,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "-3m(100)",
+     "mult": 2,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Zr1",
+     "type": "Zr",
+     "x": [
+      0.33333333,
+      null
+     ],
+     "y": [
+      0.66666667,
+      null
+     ],
+     "z": [
+      0.25,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "-6m2(100)",
+     "mult": 2,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt2",
+     "type": "Pt",
+     "x": [
+      0.0,
+      null
+     ],
+     "y": [
+      0.5,
+      null
+     ],
+     "z": [
+      0.0,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "2/m(010)",
+     "mult": 6,
+     "uiso_corr_gt_0p8": {}
+    },
+    {
+     "label": "Pt3",
+     "type": "Pt",
+     "x": [
+      0.17010268,
+      null
+     ],
+     "y": [
+      0.34020537,
+      null
+     ],
+     "z": [
+      0.75,
+      null
+     ],
+     "frac": 1.0,
+     "uiso": [
+      0.01,
+      null
+     ],
+     "flags": "",
+     "site_sym": "mm2(120)",
+     "mult": 6,
+     "uiso_corr_gt_0p8": {}
+    }
+   ]
+  }
+ ],
+ "residuals": {
+  "0:0:Nref": 90.0,
+  "R": 6.409067990469214,
+  "wR": 8.588228025988135,
+  "0:0:Rf^2": 4.560835080906392,
+  "0:0:Rf": 2.1525733146954797,
+  "0:0:sumInt": 10718326.567897454,
+  "wRmin": 3.16228456278269,
+  "wRb": 8.016182812459967,
+  "Rb": 6.232064442405718,
+  "1:0:Nref": 124.0,
+  "1:0:sumInt": 284495.9439002998,
+  "1:0:Rf": 4.806212324983097,
+  "1:0:Rf^2": 9.08945312692886
+ },
+ "weight_fractions": {
+  "ZrSiPt5": [
+   0.96842,
+   0.00052
+  ],
+  "ZrPt3": [
+   0.03158,
+   0.00052
+  ]
+ }
+}

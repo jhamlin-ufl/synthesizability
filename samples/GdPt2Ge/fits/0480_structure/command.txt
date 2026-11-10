@@ -1,0 +1,2 @@
+# Command that produced this refinement (run from the repository root; GSAS-II must be importable, see workflow/README.md).
+uv run python workflow/scripts/structure_table_refine.py --gpx samples/GdPt2Ge/fits/0480_pnma_ox_genstrain/work/fit.gpx --uiso site --out results/structure/0480_structure

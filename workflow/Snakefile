@@ -17,7 +17,8 @@ PY = config.get("python", "python")
 SAMPLES = ["tables/paper_samples.csv", "tables/outcomes.csv"]
 SNAPSHOT = ["databases/snapshot/targets.csv", "databases/snapshot/MANIFEST.csv"]
 TABLES = ["results/tables/sample_table.tex", "results/tables/sample_phases_table.tex",
-          "results/tables/database_table.tex", "results/tables/buttons_table.tex"]
+          "results/tables/database_table.tex", "results/tables/buttons_table.tex",
+          "results/tables/structure_table.tex", "results/tables/structure_atoms_table.tex"]
 FIGURES = ["results/figures/disorder_vs_stability.pdf", "results/figures/xrd_representative.pdf"]
 
 
@@ -62,6 +63,12 @@ rule table_buttons:
     input: SAMPLES[0], "tables/buttons.csv", "workflow/scripts/table_buttons.py"
     output: "results/tables/buttons_table.tex"
     shell: "{PY} workflow/scripts/table_buttons.py"
+
+
+rule table_structures:
+    input: glob("samples/*/fits/*_structure/uiso_*_summary.json"), "workflow/scripts/table_structures.py"
+    output: "results/tables/structure_table.tex", "results/tables/structure_atoms_table.tex"
+    shell: "{PY} workflow/scripts/table_structures.py"
 
 
 rule fig_xrd_representative:

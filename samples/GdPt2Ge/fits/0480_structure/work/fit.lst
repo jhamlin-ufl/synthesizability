@@ -1,0 +1,274 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 20
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: GdGePt2_alex_agm077800246
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Gd        25.07090  19.07980  13.85180   3.54545   2.25341   0.18195  12.93310 101.39800   2.41960
+ Ge        16.08160   6.37470   3.70680   3.68300   2.85090   0.25160  11.44680  54.76250   2.13130
+ Pt        27.00590  17.76390  15.71310   5.78370   1.51293   8.81174   0.42459  38.61030  11.68830
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Gd         0.96640   3.40520   5.08030   1.49910   4.25280   0.26410   2.65860  16.22130  80.20600  92.53590
+ Ge         0.21350   0.97610   1.65550   2.89380   1.63560   0.09890   0.98450   4.55270  21.55630  70.39030
+ Pt         0.30830   1.41580   2.96620   3.93490   2.17090   0.06090   0.59930   3.19210  12.52850  49.76750
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Gd      Nat. Abund.    157.250    0.000    0.6794     72.72      3866      30.4     105.6         0         0         0         0
+ Ge      Nat. Abund.     72.590    0.819
+ Pt      Nat. Abund.    195.090    0.960
+
+ Space Group: P n m a
+ The lattice is centrosymmetric primitive orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 8
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2) 1/2-X, 1/2+Y, 1/2+Z 
+ ( 3)     X, 1/2-Y,     Z 
+ ( 4) 1/2-X,    -Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Gd0     Gd     XU   0.02579   0.75000   0.63878   1.000   m(y)    4    I 0.01076                                                
+    Ge1     Ge     XU   0.11432   0.25000   0.85910   1.000   m(y)    4    I 0.00501                                                
+    Pt2     Pt     XU   0.18447   0.55200   0.08447   1.000      1    8    I 0.00895                                                
+
+ Unit cell: a = 7.40562 b = 7.01222 c = 5.60266 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 290.945 Refine? True
+
+ Phase name: Gd2O3_cod_2106881
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Gd        25.07090  19.07980  13.85180   3.54545   2.25341   0.18195  12.93310 101.39800   2.41960
+ O          3.04850   2.28680   1.54630   0.86700  13.27710   5.70110   0.32390  32.90890   0.25080
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+ Gd         0.96640   3.40520   5.08030   1.49910   4.25280   0.26410   2.65860  16.22130  80.20600  92.53590
+ O          0.03650   0.17290   0.58050   0.88140   0.31210   0.06520   0.61840   2.94490   9.62980  28.21940
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Gd      Nat. Abund.    157.250    0.000    0.6794     72.72      3866      30.4     105.6         0         0         0         0
+ O       Nat. Abund.     15.999    0.580
+
+ Space Group: I a -3
+ The lattice is centrosymmetric I-centered cubic
+ The Laue symmetry is m3
+ The lattice point group is m3
+ Multiplicity of a general site is 48
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 1/2,1/2,1/2)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4) 1/2+X,     Y, 1/2-Z 
+ ( 5) 1/2-Z, 1/2+X,     Y 
+ ( 6)     Y, 1/2-Z, 1/2+X 
+ ( 7)    -Z, 1/2+X, 1/2-Y 
+ ( 8) 1/2-Y,    -Z, 1/2+X 
+ ( 9) 1/2+Y, 1/2-Z,    -X 
+ (10)    -X, 1/2+Y, 1/2-Z 
+ (11) 1/2-Z,    -X, 1/2+Y 
+ (12) 1/2+X, 1/2-Y,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Gd0     Gd          0.00000   0.25000   0.46856   1.000   2(z)   24    I 0.01000                                                
+    Gd1     Gd          0.25000   0.25000   0.25000   1.000-3(111)    8    I 0.01000                                                
+     O2      O          0.10850   0.15240   0.61910   1.000      1   48    I 0.01000                                                
+
+ Unit cell: a = 10.79000 b = 10.79000 c = 10.79000 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 1256.216 Refine? False
+
+ Phase: GdGePt2_alex_agm077800246 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: generalized
+	 LG mixing coeff.:      1.0000 Refine? False
+ names :        S400        S040        S004        S220        S202        S022
+ values:     35872.4     29416.0    311336.6     35062.2    -31509.8     26631.6
+ refine:        True        True        True        True        True        True
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Phase: Gd2O3_cod_2106881 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Phase fraction  :     0.0259 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      4203.4 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR scan.xy histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     8.00 deg to   149.98 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :       14.2895       33.8916        0.0000        0.0000        0.0000
+ refine:          True          True         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540510    1.544330    0.700000    0.025000   42.210954  -69.014584   47.283190
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    1.840430   -1.383733    0.000000    0.001629
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    422.622   -76.357   162.288   -38.301    38.045   -65.624    60.174   -32.037    11.702    28.771   -44.460
+                   27.251
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 3 No. of observations: 7100 No. of parameters: 35 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    3.579s,    3.579s/cycle, for 1 cycles
+ wR =   11.55%, chi**2 =      71720.5, GOF =   3.19
+
+ Phases:
+ Result for phase: GdGePt2_alex_agm077800246
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.018233817    0.020337087    0.031857506    0.000000000    0.000000000    0.000000000
+  esds  :    0.000001722    0.000001865    0.000003611                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    7.405616    7.012222    5.602658     90.0000     90.0000     90.0000     290.945
+  esds  :    0.000350    0.000321    0.000318                                           0.031
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Gd0     Gd:
+ values:   0.02579   0.75000   0.63878   1.000 0.01076
+ sig   :   0.00041             0.00060         0.00098 
+    Ge1     Ge:
+ values:   0.11432   0.25000   0.85910   1.000 0.00502
+ sig   :   0.00065             0.00089         0.00153 
+    Pt2     Pt:
+ values:   0.18447   0.55200   0.08447   1.000 0.00895
+ sig   :   0.00018   0.00018   0.00027         0.00045 
+
+ Density: 14.1548 g/cm**3
+ Result for phase: Gd2O3_cod_2106881
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Gd0     Gd:
+ values:   0.00000   0.25000   0.46856   1.000 0.01000
+ sig   :                                               
+    Gd1     Gd:
+ values:   0.25000   0.25000   0.25000   1.000 0.01000
+ sig   :                                               
+     O2      O:
+ values:   0.10850   0.15240   0.61910   1.000 0.01000
+ sig   :                                               
+
+ Density: 7.6667 g/cm**3
+
+ Phase: GdGePt2_alex_agm077800246 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 3.38%, 8.05% on 320 reflections
+ Durbin-Watson statistic = 0.228
+ Bragg intensity sum = 5.24e+06
+ Phase fraction  :          1, sig          0 Weight fraction  :  0.94290, sig    0.00142
+
+ Mustrain model: generalized
+ LG mix coeff.:      1.0000
+ name  :        S400        S040        S004        S220        S202        S022
+ value :     35875.0     29426.2    311403.4     35061.1    -31512.1     26609.2
+ sig   :      1863.7      2231.9     10550.8      1967.6      4828.2      5265.8
+
+ Phase: Gd2O3_cod_2106881 in histogram: PWDR scan.xy
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 5.55%, 13.35% on 221 reflections
+ Durbin-Watson statistic = 0.228
+ Bragg intensity sum = 2.28e+05
+ Phase fraction  :   0.025895, sig 0.00068191 Weight fraction  :  0.05710, sig    0.00142
+
+ Mustrain model: isotropic
+ equatorial:      4201.1, sig:   391.1 LG mix coeff.:      1.0000
+
+ Histogram: PWDR scan.xy histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 11.55% on 7100 observations in this histogram
+ Other residuals: R = 8.96%, R-bkg = 9.43%, wR-bkg = 11.55% wRmin = 3.63%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Gd       Ge       Pt        O
+ f'     :   -8.878   -1.091   -4.597    0.049
+ f"     :   11.987    0.886    6.922    0.032
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:       14.2899       33.8812        0.0000        0.0000        0.0000
+ sig   :        0.0843        2.6871                                          
+
+ Background function: chebyschev-1
+ value :      422.6    -76.35     162.3    -38.31     38.04    -65.63     60.17    -32.04      11.7     28.77    -44.46     27.25
+ sig   :      2.136     2.754     2.517      2.58     2.142     1.981     1.923      1.86     1.694     1.795     1.641     1.608
+ Background sums: empirical 2.59e+06, Debye 0, peaks 0, Total 2.59e+06

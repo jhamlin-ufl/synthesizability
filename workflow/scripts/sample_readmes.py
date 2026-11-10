@@ -22,6 +22,9 @@ EXTRA = {
     '0494_pred_for_TiSiPt5_hs': 'predicted Ti2Pt8Si in place of the TiPt5Si-type phase',
     '0561_exchange_md': 'ordered ZrPt5Si with refined Zr/Si exchange (about 1 %), with texture',
     '0561_exchange_nomd': 'ordered ZrPt5Si with refined Zr/Si exchange, without texture',
+    '0480_structure': 'main fit plus refined U_iso per site; Supplementary Tables of refined structures, with CIFs',
+    '0493_structure': 'main fit plus refined Pt U_iso; Supplementary Tables of refined structures, with CIFs',
+    '0561_structure': 'main fit plus refined Pt U_iso; Supplementary Tables of refined structures, with CIFs',
     '0538_ascast_pnma': 'as-cast scan: Pnma YCoSi (known) + Y3Co2Si3 + YCo2Si2',
     '0538_ascast_pred_P4nmm': 'as-cast scan: predicted P4/nmm in place of Pnma, with the two minor phases',
 }
@@ -35,7 +38,11 @@ def rows(path):
 
 
 def rwp(fit_dir):
-    s = json.loads((Path(fit_dir) / 'summary.json').read_text())
+    d = Path(fit_dir)
+    if not (d / 'summary.json').exists():   # structure-table refinements keep uiso_<mode>_summary.json
+        s = json.loads(sorted(d.glob('uiso_*_summary.json'))[0].read_text())
+        return f"{float(s['Rvals']['Rwp']):.2f}"
+    s = json.loads((d / 'summary.json').read_text())
     rec = s.get('record') or s.get('rec')
     return f"{float(rec['wR']):.2f}"
 
