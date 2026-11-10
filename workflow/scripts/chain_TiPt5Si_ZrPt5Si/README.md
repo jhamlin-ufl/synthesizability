@@ -9,8 +9,8 @@ three-step chain run on the workstation:
    R_wp by 0.05 and stays physical: axial-divergence asymmetry, sample transparency, Pt Uiso,
    surface roughness.
 
-The scripts are kept as run. Their input and output paths refer to the layout of the lab repository
-(`results/phaseid/review/update_2026-10-2x/...`) and must be edited to rerun them here. The resulting
+The scripts write each step to `results/refits/chain/<sample>_<step>/` and read the starting structures
+from the search-match library (`results/searchmatch/library/<space>/`, built by `workflow/scripts/searchmatch.py`). The resulting
 GSAS-II projects (`samples/TiPt5Si/fits/0493_annealed_polish/work/fit.gpx`,
 `samples/ZrPt5Si/fits/0561_annealed_polish/work/fit.gpx`) are deposited and re-refine in GSAS-II.
 

@@ -98,7 +98,7 @@ def write_xy(two_theta, intensity, path):
 def is_solution_key(key):
     """Library keys of cells whose lattice parameters are estimates rather
     than relaxed or measured: disordered twins (``_dis``), Vegard prototype
-    cells (``_proto_``), Project 2 relaxed random cells (``_p2_``) and
+    cells (``_proto_``), MatterSim-relaxed random cells (``_p2_``) and
     pair-merged interpolations (``_pm_``)."""
     key = str(key)
     return key.endswith('_dis') or '_proto_' in key or '_p2_' in key or '_pm_' in key
@@ -106,10 +106,9 @@ def is_solution_key(key):
 
 def cell_windows(keys, ordered=0.02, solution=0.05):
     """Per-phase cell-move windows for ``Refinement.run``: solution cells may
-    move 5 %, ordered database and experimental cells 2 %.  Until 2026-10-09
-    the window was one number per refinement (5 % for every phase as soon as
-    one solution cell was in the set), which let ordered cells drift 2 to 5 %
-    without the fit being rejected."""
+    move 5 %, ordered database and experimental cells 2 %.  A single window
+    per refinement (5 % for every phase as soon as one solution cell is in the
+    set) would let ordered cells drift 2 to 5 % without the fit being rejected."""
     return [solution if is_solution_key(k) else ordered for k in keys]
 
 
@@ -206,8 +205,8 @@ class Refinement:
         """Reload the state saved by the last ``save()``.  GSAS-II writes the
         gpx again after a refinement that has run to the end even when it has
         diverged, so the project file itself cannot be trusted: ``save()``
-        keeps a snapshot copy and this restores it (bug found on 0478,
-        2026-10-05: every late-stage divergence came back as wR 100)."""
+        keeps a snapshot copy and this restores it (without it, every late-stage
+        divergence came back as wR 100)."""
         if self.snapshot.exists():
             shutil.copy(self.snapshot, self.gpx_path)
         self.gpx = type(self.gpx)(str(self.gpx_path))
@@ -227,7 +226,7 @@ class Refinement:
             for h in ph.data['Histograms']:
                 ph.data['Histograms'][h]['Scale'] = [float(w) / mass, False]
 
-    REFINE_MIXING = False   # 2026-10-06: the size + Lorentz/Gauss mixing stage was 70 % of a refinement for 0.7 in wR;
+    REFINE_MIXING = False   # the size + Lorentz/Gauss mixing stage was 70 % of a refinement for 0.7 in wR;
     MIXING_VALUE = 1.0      # GSAS-II tutorials leave the sample mixing at its default (1 = Lorentzian) and never refine it for lab data
 
     def run(self, free_fractions=True, size_strain=True, max_cell_change=0.02,

@@ -3,7 +3,7 @@ candidate fcc-type phase for the shifted humps on the fcc fundamental
 reflections (residual maxima give a = 3.89-3.90 A).
 
 Each candidate starts from the converged single-phase project
-(annealed_single/fit_of_record/work/fit.gpx).  Sequence, a block kept only if
+(0493_single/work/fit.gpx).  Sequence, a block kept only if
 it lowers Rwp by MIN_GAIN and stays physical:
   1. candidate scale, TiSiPt5 parameters held
   2. one broadening term for the candidate: isotropic microstrain, or
@@ -15,7 +15,7 @@ it lowers Rwp by MIN_GAIN and stays physical:
   4. joint cycle: every kept TiSiPt5 parameter with the candidate scale and
      cell; the candidate broadening is held at its stage-2 value
 Candidate Uiso stays at its CIF value (0.005 if none).
-Output: results/phaseid/review/update_2026-10-22/annealed_two_phase/<name>/
+Output: results/refits/chain/0493_two_phase/<name>/
 
 Usage: python workflow/scripts/refine_0493_annealed_two_phase.py [--sample 493|561] [name ...]
 """
@@ -24,10 +24,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from synthesizability.phaseid import refine as rf  # noqa: E402
 
-ROOT = Path(__file__).resolve().parents[1]
-LIB = ROOT / 'results/phaseid/library/Pt-Si-Ti'
-BASE = ROOT / 'results/phaseid/review/update_2026-10-22/annealed_single/fit_of_record/work/fit.gpx'
-OUT = ROOT / 'results/phaseid/review/update_2026-10-22/annealed_two_phase'
+ROOT = Path(__file__).resolve().parents[3]
+LIB = ROOT / 'results/searchmatch/library/Pt-Si-Ti'
+BASE = ROOT / 'results/refits/chain/0493_single/work/fit.gpx'
+OUT = ROOT / 'results/refits/chain/0493_two_phase'
 CANDIDATES = {
     'A1_Pt3Ti': (LIB / 'TiPt3_cod_1539263_dis.cif', 'disordered A1 Pt0.75Ti0.25 (from TiPt3 COD 1539263)'),
     'L12_TiPt3': (LIB / 'TiPt3_cod_1539263.cif', 'ordered L1_2 TiPt3 (COD 1539263)'),
@@ -39,13 +39,13 @@ CANDIDATES = {
     'Ti3Pt7': (OUT / 'Ti3Pt7_scaled_a3.90.cif', 'ordered C2/m Ti3Pt7 (Alexandria agm003291108), scaled to a_fcc 3.90'),
     'Ti3Pt7_dis': (OUT / 'Ti3Pt7_dis_scaled_a3.90.cif', 'Ti3Pt7 C2/m with mixed sites (agm003291108_dis), scaled to a_fcc 3.90'),
 }
-# 2026-10-23: the same test for the 0561 ZrSiPt5 annealed scan; the as-cast
+# the same test for the 0561 ZrSiPt5 annealed scan; the as-cast
 # partners (D0_24 ZrPt3, Pt2Si, Pt-rich fcc ZrPt8) are the candidates
-LIB_ZR = ROOT / 'results/phaseid/library/Pt-Si-Zr'
+LIB_ZR = ROOT / 'results/searchmatch/library/Pt-Si-Zr'
 SAMPLES = {
     '493': (BASE, OUT, CANDIDATES),
-    '561': (ROOT / 'results/phaseid/review/update_2026-10-23/0561_annealed_single/work/fit.gpx',
-            ROOT / 'results/phaseid/review/update_2026-10-23/0561_annealed_two_phase',
+    '561': (ROOT / 'results/refits/chain/0561_single/work/fit.gpx',
+            ROOT / 'results/refits/chain/0561_two_phase',
             {'ZrPt3': (LIB_ZR / 'ZrPt3_oqmd_2017725.cif', 'D0_24 ZrPt3 (OQMD 2017725, the as-cast majority phase)'),
              'Pt2Si': (LIB_ZR / 'SiPt2_pdf_04-003-1631.cif', 'Pt2Si I4/mmm (PDF 04-003-1631, as-cast partner)'),
              'ZrPt8': (LIB_ZR / 'ZrPt8_oqmd_1374867.cif', 'Pt-rich fcc-derived ZrPt8 (OQMD 1374867, as-cast partner)')}),

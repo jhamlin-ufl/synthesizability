@@ -8,8 +8,8 @@ lowers Rwp by MIN_GAIN and stays physical:
   3. Pt Uiso (Ti and Si held): intensity under-calculated more and more
      with angle (53.8, 78.1, 114.2 deg)
   4. surface roughness (Suortti): sprinkled powder on a thin film is rough
-Output: results/phaseid/review/update_2026-10-22/annealed_polish/ (0561: --sample 561,
-update_2026-10-23/0561_annealed_polish/)
+Output: results/refits/chain/0493_polish/ (0561: --sample 561,
+results/refits/chain/0561_polish/)
 """
 import json, sys
 from pathlib import Path
@@ -17,16 +17,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent)); sys.path.insert(0, str
 from refine_0493_annealed_two_phase import Project, flags_main  # noqa: E402
 from synthesizability.phaseid import refine as rf  # noqa: E402
 
-ROOT = Path(__file__).resolve().parents[1]
-REVIEW = ROOT / 'results/phaseid/review'
+ROOT = Path(__file__).resolve().parents[3]
+CHAIN = ROOT / 'results/refits/chain'
 # sample: (two-phase starting fit, output folder, single-phase summary that holds the limits)
 SAMPLES = {
-    '493': (REVIEW / 'update_2026-10-22/annealed_two_phase/A1_Pt3Ti', REVIEW / 'update_2026-10-22/annealed_polish',
-            REVIEW / 'update_2026-10-22/annealed_single/fit_of_record/summary.json'),
-    # 2026-10-23: 0561 ZrSiPt5 annealed, ZrSiPt5 + D0_24 ZrPt3, 8-150 deg; the residual has the
+    '493': (CHAIN / '0493_two_phase/A1_Pt3Ti', CHAIN / '0493_polish',
+            CHAIN / '0493_single/summary.json'),
+    # 0561 ZrSiPt5 annealed, ZrSiPt5 + D0_24 ZrPt3, 8-150 deg; the residual has the
     # Uiso signature (high-angle lines under-, mid-angle lines over-calculated)
-    '561': (REVIEW / 'update_2026-10-23/0561_annealed_two_phase/ZrPt3', REVIEW / 'update_2026-10-23/0561_annealed_polish',
-            REVIEW / 'update_2026-10-23/0561_annealed_single/summary.json'),
+    '561': (CHAIN / '0561_two_phase/ZrPt3', CHAIN / '0561_polish',
+            CHAIN / '0561_single/summary.json'),
 }
 MIN_GAIN = 0.05
 

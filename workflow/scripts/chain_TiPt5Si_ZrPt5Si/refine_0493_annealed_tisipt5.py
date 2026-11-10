@@ -16,9 +16,9 @@ restored):
 Diagnostics, always rolled back and only reported: Ti and Si site
 occupancies with Uiso held, and a free Zero.  Kalpha2/Kalpha1 is held at 0.5
 (no monochromator).
-Output: results/phaseid/review/update_2026-10-22/annealed_single/fit_of_record/
+Output: results/refits/chain/0493_single/
 
-The same sequence serves other Pt5InSi-type scans (2026-10-23: 0561 ZrSiPt5
+The same sequence serves other Pt5InSi-type scans (0561 ZrSiPt5
 annealed): --scan, --cif, --out and --name override the 0493 defaults.  The
 non-Pt sites (Ti or Zr, and Si) are the ones held at U_LIGHT and grouped.
 """
@@ -28,10 +28,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from synthesizability.parsers.xrd import parse_xrd_file  # noqa: E402
 from synthesizability.phaseid import refine as rf  # noqa: E402
 
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'results/phaseid/review/update_2026-10-22/annealed_single/fit_of_record'
+ROOT = Path(__file__).resolve().parents[3]
+OUT = ROOT / 'results/refits/chain/0493_single'
 SCAN = ROOT / 'samples/TiPt5Si/buttons/0493/0493_HM_TiPt5Si_annealed_ZB.txt'
-CIF = ROOT / 'results/phaseid/library/Pt-Si-Ti/TiSiPt5_alex_agm027752216.cif'
+CIF = ROOT / 'results/searchmatch/library/Pt-Si-Ti/TiSiPt5_alex_agm027752216.cif'
 LIMITS = (8.0, 119.98)
 MIN_GAIN = 0.05     # Rwp points a block must gain to be kept
 MAX_CYCLES = 20     # least-squares cycles per GSAS-II call (stops earlier on convergence)

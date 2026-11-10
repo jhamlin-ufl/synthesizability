@@ -103,14 +103,14 @@ MAX_REFL = 2500   # combinations with more reflections than this are too slow in
 def unique_assemblages(res, groups=None):
     """Best-scoring row per assemblage.
 
-    Without ``groups`` (the 2026-10-05 behaviour) the key is the set of
+    Without ``groups`` the key is the set of
     formulas: polymorphs of the same formula collapse onto one candidate, but
     a fully disordered twin counts as a different assemblage from its ordered
     parent (marked '*'), so both reach GSAS-II and the ordered-versus-
     disordered question is settled by refinement rather than by the quick
     ranking.
 
-    With ``groups`` (``structure_types.framework_groups`` table, 2026-10-09)
+    With ``groups`` (``structure_types.framework_groups`` table)
     the key is formula plus framework group plus a disorder mark: the same
     structure from OQMD, MP and Alexandria collapses onto its best-scoring
     copy, while polymorphs of one formula stay apart.  The collapse is applied
@@ -159,7 +159,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
     70-atom triclinic cell takes minutes per cycle).
 
     ``diverse=True`` keeps one assemblage per dominant phase when cutting at
-    ``top`` (the known-answer recall test of 2026-10-05: 0.78 instead of 0.68
+    ``top`` (in a known-answer recall test, 0.78 instead of 0.68
     at top 15), and the best single disordered parent at the target
     composition is always included, because the ranking undervalues
     disordered cells (B2 answers at ranks 2 to 55, fcc at 2591).
@@ -188,7 +188,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
         chosen = eligible.assign(_dom=eligible.apply(dominant_formula, axis=1)).drop_duplicates('_dom').head(top).drop(columns='_dom')
         # One assemblage per dominant phase starves samples with a single
         # dominant phase (0507: two hypotheses refined); fill up to ``top``
-        # with the next-best assemblages in score order (2026-10-06).
+        # with the next-best assemblages in score order.
         if len(chosen) < top:
             rest = eligible.loc[~eligible.index.isin(chosen.index)].head(top - len(chosen))
             chosen = pd.concat([chosen, rest])
@@ -196,7 +196,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
         chosen = eligible.head(top)
     # Hypotheses the ranking is known to undervalue are refined regardless of
     # rank: the best assemblage containing each disordered parent from
-    # Project 2 ('_p2_') and the best single disordered parent of the target
+    # relaxed disordered cells ('_p2_') and the best single disordered parent of the target
     forced = []
     seen = set(chosen.index)
     single = eligible[(eligible['n_phases'] == 1)
@@ -215,7 +215,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
     if forced:
         chosen = pd.concat([chosen, eligible.loc[forced]])
         if verbose:
-            print(f'{len(forced)} assemblages with Project 2 parents added to the refinement set (ranks {sorted(forced)})')
+            print(f'{len(forced)} assemblages with relaxed disordered parents added to the refinement set (ranks {sorted(forced)})')
     key_index = {ph.key: i for i, ph in enumerate(phases)}
 
     def synthetic(rank, keys, note):
@@ -226,7 +226,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
                               lever_wt=' / '.join(['%.2f' % (1 / n)] * n), fit_share='', keys=tuple(keys),
                               fracs=tuple([1 / n] * n), n_refl=sum(phases[k].d_hkl.size for k in keys)), name=rank)
 
-    # Hypotheses forced in at the refinement stage (2026-10-06), where the
+    # Hypotheses forced in at the refinement stage, where the
     # strain model can judge them: two cells of the identified solution
     # framework (a cored solution), and the best ordered phase at the target
     # beside its own disordered parent (partial order).
@@ -249,7 +249,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
             print(f'{len(extra)} pair hypotheses forced into the refinement set: ' + '; '.join(e["assemblage"] for e in extra))
 
     # Starting cells: per-axis scan of every phase in the refinement set on
-    # the stick pattern (2026-10-06), so GSAS-II starts within a fraction of a
+    # the stick pattern, so GSAS-II starts within a fraction of a
     # percent of the observed cell instead of at the DFT cell.
     cells_dir = fits / 'cells'
     cells_dir.mkdir(exist_ok=True)
@@ -313,7 +313,7 @@ def refine_top(S, top=50, time_budget=None, instrument=None, verbose=True, max_r
                 r.set_fixed_fractions(atom_to_weight_fractions(row['fracs'], comps))
             # Solution cells (disordered parents, prototype and relaxed random
             # cells) carry estimated lattice parameters, so they may move 5 %;
-            # ordered database and experimental cells 2 % (per phase, 2026-10-09)
+            # ordered database and experimental cells 2 % (per phase)
             with rf.time_limit(timeout):
                 out = r.run(free_fractions=(mode == 'free'), max_cell_change=rf.cell_windows([phases[k].key for k in combo]),
                             fixed_cells=fixed_cells)

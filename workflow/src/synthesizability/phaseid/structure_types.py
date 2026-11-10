@@ -2,8 +2,8 @@
 
 Every phase of a space's library (``build_library``) is given
 
-* ``method``: the Project 1 route that produced the cell (database entry,
-  disordered twin, Vegard prototype, pair-merged cell, Project 2 relaxed
+* ``method``: the route that produced the cell (database entry,
+  disordered twin, Vegard prototype, pair-merged cell, MatterSim-relaxed
   cell, PDF card, COD entry, predicted cell);
 * ``origin``: where the database entry itself came from (for OQMD the
   sub-library of the entry: ICSD import, prototype decoration, the ternary
@@ -71,7 +71,7 @@ def _origins():
 
 
 def method_of(phase):
-    """Project 1 generation route of a library phase, as text."""
+    """Generation route of a library phase, as text."""
     k, src = phase.key, phase.source
     if k.endswith('_dis') and phase.parent:
         return f'disordered twin of {phase.parent} (every site at the overall composition)'
@@ -81,10 +81,10 @@ def method_of(phase):
         return 'pair-merged Vegard cell between two known isostructural binaries'
     if src == 'p2':
         if '_twin_' in k:
-            return 'Project 2 sublattice-merged parent of an OQMD decoration (MatterSim-relaxed)'
+            return 'sublattice-merged parent of an OQMD decoration (MatterSim-relaxed)'
         if '_random' in k:
-            return 'Project 2 random prototype solution (MatterSim-relaxed)'
-        return 'Project 2 relaxed disordered cell'
+            return 'random prototype solution (MatterSim-relaxed)'
+        return 'MatterSim-relaxed disordered cell'
     if src == 'pdf':
         return 'ICDD PDF card (known phase)'
     if src == 'cod':
@@ -113,7 +113,7 @@ def origin_of(phase, origins):
     if src == 'cod':
         return f'COD {phase.entry_id}'
     if src == 'p2':
-        return f'Project 2 {phase.entry_id}'
+        return f'relaxed disordered cell {phase.entry_id}'
     if src == 'pred':
         return f'selection list {phase.entry_id}'
     return f'{src} {phase.entry_id}'
@@ -235,8 +235,8 @@ def framework_groups(phases, space, cache=True, verbose=True):
     Every cell, disordered ones included, goes through the matcher on its
     own: a fully disordered twin reduces to the one-site primitive of its
     framework, so the twins of two different ordered parents, the Vegard
-    prototype cell and a Project 2 random cell at the same composition land
-    in one group (2026-10-09: inheriting the parent's group had split them).
+    prototype cell and a random cell at the same composition land
+    in one group (inheriting the parent's group would split them).
 
     The cache ``results/searchmatch/library/<space>/structure_groups.csv`` is the
     union over every sample of the space: cells of other samples (their

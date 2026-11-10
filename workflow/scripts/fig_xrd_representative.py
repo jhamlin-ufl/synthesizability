@@ -16,7 +16,7 @@ carries the pattern simulated from the predicted ordered structure, with a
 zoom on its missing superlattice line.
 
 Which fit is the main fit for each panel is a data file,
-results/phaseid/review/representative_fits.csv (one row per sample; the
+workflow/figure_inputs/xrd_representative_fits.csv (one row per sample; the
 choices and the R_wp numbers behind them are in its note column).  Fits come
 from three kinds of source:
   refinements / verdict_extra  pipeline exports (<fit>.txt + <fit>_ticks.json),
@@ -111,8 +111,8 @@ PANELS = [
     # to leave room for the structure picture.
     dict(sample=540, name=r'YAl$_3$Cu$_2$', show_wt=False, split_list=True, diff_scale=0.2,
          unindexed=[24.28, 29.06, 35.20, 36.54, 41.22, 42.22, 46.28, 60.14]),
-    # 0466 annealed (zero-background scan; replaced 0610/0478 Sc2Pd5Au, user
-    # 2026-10-30): the zoom covers the absent L2_1 (111) Mo/Ir-order line and
+    # 0466 annealed (zero-background scan; replaced 0610/0478 Sc2Pd5Au):
+    # the zoom covers the absent L2_1 (111) Mo/Ir-order line and
     # the weak (200) Hf-order line (``inset_lines`` labels them; ``inset_fit``
     # also draws the fit there).  The two lines no phase indexes are marked.
     dict(sample=466, name=r'Hf$_2$MoIr', predicted=True, inset=(21.5, 28.5),

@@ -41,7 +41,7 @@ from synthesizability.phaseid import refine as rf  # noqa: E402
 ROOT = Path(__file__).resolve().parents[2]
 LIB = None   # folder holding the starting CIFs, set from --space
 # Default partners: the two of the 0540 fit; --partners replaces them with
-# library keys (the annealed scans' own search picks them, 2026-10-26)
+# library keys (the annealed scans' own search picks them)
 PARTNERS = ['Y3Al2Cu7_alex_agm005614889_dis', 'Y3Al8Cu3_alex_agm005688824']
 START_CELL = (5.2707, 4.0903)     # 0540 rank 90313 refined cell
 OCC = {'pred': (1.0, 1.0), 'random': (0.6, 0.4), 'free': (0.9, 0.9),   # (3g Al, 2c Cu)
@@ -285,7 +285,7 @@ def main():
     stage('scale + background (8 Chebyshev)', lambda: r.hist.set_refinements({'Sample Parameters': ['Scale']}), force=True)
     stage('partner phase fractions', lambda: [r.phases[i].set_HAP_refinements({'Scale': True}) for i in others], force=True)
     # One cell at a time: all three together broke the R-3m partner's
-    # metric tensor on the first HPG run (2026-10-26)
+    # metric tensor in an early run
     def cell_disp():
         main().set_refinements({'Cell': True})
         if a.zero or a.zero_and_shift:
@@ -298,7 +298,7 @@ def main():
             continue
         stage(f'{r.phases[i].name} cell', lambda i=i: r.phases[i].set_refinements({'Cell': True}))
         # then held: a minor partner's cell drifted out of its window in
-        # later stages on the annealed_2x scan (2026-10-26)
+        # later stages on the annealed_2x scan
         r.phases[i].data['General']['Cell'][0] = False
         r.save()
 

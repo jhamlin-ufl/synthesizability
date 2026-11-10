@@ -172,7 +172,7 @@ def db_entries(source, elements):
     return out
 
 
-# Project 2 (ternary_finder) disordered structures: sublattice-merged (partially disordered) parents of
+# MatterSim-relaxed disordered structures: sublattice-merged (partially disordered) parents of
 # OQMD decorations and prototype solutions, cells relaxed with MatterSim.
 # Index CSV columns: space, name, composition, entry_id (source OQMD entry or
 # blank), pair, e_above_hull (eV/atom, OQMD scale) or dE_ord_meV, cif (path).
@@ -180,7 +180,7 @@ P2_DIR = Path(os.environ.get('PHASEID_P2_DIR', str(SEARCH_DIR / 'partially_disor
 P2_CELL_SCALE = 0.98   # MatterSim cells run about 2 % large against the measured ones
 # Formation-energy scale a source shares for hull geometry: PDF-card phases
 # are given the OQMD hull energy at their composition, so they join OQMD's hull;
-# Project 2 pair-merged parents carry OQMD formation energy plus their ordering energy.
+# The relaxed pair-merged parents carry OQMD formation energy plus their ordering energy.
 SOURCE_GROUPS = {'oqmd': ('oqmd', 'pdf', 'cod', 'p2', 'proto', 'pm'), 'alex': ('alex',), 'mp': ('mp',)}
 
 
@@ -214,7 +214,7 @@ def _pdf_cards(elements):
 
 
 # ---------------------------------------------------------------------------
-# Crystallography Open Database entries (2026-10-06): experimental cells with
+# Crystallography Open Database entries: experimental cells with
 # partial occupancies, downloaded per space by workflow/scripts/cod_download.py
 # ---------------------------------------------------------------------------
 COD_DIR = SEARCH_DIR / 'cod'
@@ -262,7 +262,7 @@ def _cod_entries(elements):
 
 
 def _project2_disordered(elements, oqmd_entries):
-    """Project 2's relaxed disordered structures for this space, as
+    """The relaxed disordered structures for this space, as
     (source 'p2', name, Composition, e_form on the OQMD scale, stab, icsd,
     cif).  The cell is scaled by P2_CELL_SCALE when loaded (see
     ``build_library``); e_form = OQMD formation energy of the source entry +
@@ -344,7 +344,7 @@ def _element_volumes(raw, elements):
 
 
 # ---------------------------------------------------------------------------
-# Pair-merged parents (2026-10-06): interpolated solid solutions between
+# Pair-merged parents: interpolated solid solutions between
 # isostructural known binaries that share one element
 # ---------------------------------------------------------------------------
 PM_FRACTIONS = (0.25, 0.5, 0.75)

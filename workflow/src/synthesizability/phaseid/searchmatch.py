@@ -147,7 +147,7 @@ def profile(d_hkl, intensity, grid, scale=1.0, uvw=FWHM, fwhm_ab=None):
 
     Peak width is either the Caglioti form ``uvw`` or, when ``fwhm_ab`` is
     given, the linear ``a + b * 2theta`` estimated from the observed scan.
-    Vectorised over reflections (2026-10-06): every peak's +-5 sigma window is
+    Vectorised over reflections: every peak's +-5 sigma window is
     evaluated in one array and accumulated with bincount, which is 20 to 50
     times faster than the former per-peak loop and numerically identical.
     """
@@ -211,7 +211,7 @@ def profiles_scaled(d_hkl, intensity, grid, scales, fwhm_ab):
 
 
 # ---------------------------------------------------------------------------
-# Per-axis cell scan: the starting cell handed to GSAS-II (2026-10-06)
+# Per-axis cell scan: the starting cell handed to GSAS-II
 # ---------------------------------------------------------------------------
 
 def _lattice_system(spg):
@@ -288,7 +288,7 @@ def _corr(a, b):
     return float(a @ b / (na * nb)) if na > 0 and nb > 0 else 0.0
 
 
-# Per-phase width factors on the sample width.  Tested 2026-10-06 on 0470 and
+# Per-phase width factors on the sample width.  Tested on 0470 and
 # 0512 with (1.0, 1.6, 2.5): the correlation criterion prefers the broadest
 # profile for almost every phase (broad profiles correlate better with any
 # pattern), the single bcc solution of 0470 only improved from 0.58 to 0.51
@@ -302,7 +302,7 @@ def phase_patterns(phases, grid, y_obs, scales=SCALES, fwhm_ab=None, widths=WIDT
     """Best-scaled sqrt profile of every phase and its single-phase score.
 
     Each phase is tried at every cell scaling and, at its best scaling, at
-    every width factor in ``widths`` (2026-10-05: one width per sample made
+    every width factor in ``widths`` (one width per sample made
     the ranking blind to a broadened solid solution next to sharp lines, 0470
     and 0512).  Returns (P (n_phases, n_grid) sqrt-intensity profiles
     normalised to unit norm, DataFrame with ``scale``, ``width`` and ``corr``
@@ -412,7 +412,7 @@ REFL_REF = 150            # reflections in range above which a phase is "dense"
 REFL_PENALTY = 0.03       # per decade of reflections above REFL_REF (Occam)
 
 
-PAIR_TOP = 5                                  # polymorphs of the target paired in the ranking (2026-10-06)
+PAIR_TOP = 5                                  # polymorphs of the target paired in the ranking
 PAIR_RATIOS = np.linspace(0.1, 0.9, 9)        # fixed-mode split of the target fraction between the two
 
 
@@ -456,7 +456,7 @@ def score_mixtures(mix, members, phases, P, y_obs, prior_scale=1.0, top_polymorp
             block = np.hstack([block, np.full((len(block), 3 - block.shape[1]), -1, dtype=np.int32)])
         combo_blocks.append(block)
         row_blocks.append(np.full(len(block), n, dtype=np.int32))
-    # Polymorph pairs at the target composition (2026-10-06): two polymorphs
+    # Polymorph pairs at the target composition: two polymorphs
     # of the target in one hypothesis, alone or with one partner, so a
     # partially transformed or two-polymorph sample can be proposed.  The free
     # NNLS solves their ratio; for the fixed mode the target fraction is split
