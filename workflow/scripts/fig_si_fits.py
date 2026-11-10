@@ -161,7 +161,7 @@ def is_formula(tok):
 
 def fmt_label(text):
     """Legend text from si_fits.csv: formulas typeset, eta -> greek, X_n -> subscript."""
-    # no order-parameter values in legends (PI 2026-11-09): 'X order eta 0.71' -> 'partial X order'
+    # no order-parameter values in legends: 'X order eta 0.71' -> 'partial X order'
     text = re.sub(r'\(?([A-Za-z/]+) order \(?eta \d*\.?\d+\)?\)?', r'partial \1 order', text)
     text = text.replace('partial partial', 'partial')
     text = re.sub(r'([A-Za-z0-9])_(\d+|[a-z])(?![a-z])', r'\1$_{\2}$', text)
@@ -221,7 +221,7 @@ def tick_rows(ax, fit, target, x0, x1, y0, span):
 
 # targets whose refined weight fractions are not meaningful (text says so): print phases without fractions
 NO_FRACTIONS = {'YAl3Cu2', 'ScPdCu4', 'La5Al3Co2', 'Pd6Cu5Ge'}
-# Rows where the point is only that the prediction did not form (PI 2026-11-09): panel (b) overlays the measured
+# Rows where the point is only that the prediction did not form: panel (b) overlays the measured
 # net pattern, the best fit and the pattern of the predicted structure refined alone; panel (c) shows the two
 # difference curves on one scale. No zoom windows.
 OVERLAY_FORMULAS = {'PtNiGe2', 'ScPdCu4', 'La5Al3Co2', 'TiPt5Ge', 'Ti2Pt8Si', 'LaNiSi3', 'GdSn6Co4', 'NbNi2B2',
