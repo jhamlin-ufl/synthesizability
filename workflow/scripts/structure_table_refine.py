@@ -93,6 +93,10 @@ def main():
     ap.add_argument('--uiso', choices=['site', 'element', 'all', 'heavy'], default='site',
                     help='heavy: refine only the U_iso of the heaviest element (shared), others held')
     ap.add_argument('--max-rounds', type=int, default=6)
+    ap.add_argument('--improve', choices=['none', 'profile', 'profile_rough'], default='none',
+                    help='before refining U_iso: profile = 20-term background, refined axial-divergence asymmetry '
+                         'SH/L and generalized microstrain of the main phase; profile_rough also refines the '
+                         'Suortti surface-roughness correction')
     a = ap.parse_args()
     a.out.mkdir(parents=True, exist_ok=True)
     work = a.out / 'work'
@@ -103,6 +107,19 @@ def main():
 
     converge(g, 'converge', a.max_rounds)
     record(g, a.out, 'converged')
+
+    if a.improve != 'none':
+        h = g.histograms()[0]
+        refs = {'Background': {'type': 'chebyschev-1', 'no. coeffs': 20, 'refine': True},
+                'Instrument Parameters': ['SH/L']}
+        if a.improve == 'profile_rough':
+            refs['Sample Parameters'] = ['SurfRoughA', 'SurfRoughB']
+            h.data['Sample Parameters']['SurfRoughA'][0] = 0.1    # start off zero; Suortti model
+            h.data['Sample Parameters']['SurfRoughB'][0] = 0.1
+        h.set_refinements(refs)
+        g.phases()[0].set_HAP_refinements({'Mustrain': {'type': 'generalized', 'refine': True}})
+        converge(g, f'improve_{a.improve}', a.max_rounds)
+        record(g, a.out, f'improved_{a.improve}')
 
     main_ph = g.phases()[0]
     atoms = main_ph.data['Atoms']
@@ -127,8 +144,9 @@ def main():
     for members in groups.values():
         if len(members) > 1:
             g.add_EquivConstr(members)
-    converge(g, f'uiso_{a.uiso}', a.max_rounds)
-    r = record(g, a.out, f'uiso_{a.uiso}')
+    tag = f'uiso_{a.uiso}' + ('' if a.improve == 'none' else f'_{a.improve}')
+    converge(g, tag, a.max_rounds)
+    r = record(g, a.out, tag)
     for at in r['phases'][0]['atoms']:
         print(at['label'], 'Uiso', at['uiso'], 'corr>0.8', at['uiso_corr_gt_0p8'], flush=True)
 

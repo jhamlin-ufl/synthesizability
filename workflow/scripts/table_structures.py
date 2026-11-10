@@ -83,7 +83,7 @@ def main():
             a=esd_fmt(c['length_a'], e['length_a']), b='' if tetr else esd_fmt(c['length_b'], e['length_b']),
             c=esd_fmt(c['length_c'], e['length_c']), V=esd_fmt(c['volume'], e['volume']), rho=f'{rho:.2f}',
             button=button, nobs=f"{int(R['Nobs'])}", nref=f"{int(res.get('0:0:Nref', 0))}", nvar=str(r['nvars']),
-            Rp=f"{res['R']:.2f}", Rwp=f"{res['wR']:.2f}", Rexp=f"{res['wRmin']:.2f}", chi2=f"{R['GOF'] ** 2:.1f}",
+            Rp=f"{res['R']:.2f}", Rwp=f"{res['wR']:.2f}", Rexp=f"{res['wRmin']:.2f}", chi2=f"{R['GOF'] ** 2:.1f}", gof=f"{R['GOF']:.2f}",
             RF=f"{res.get('0:0:Rf', float('nan')):.2f}",
             wmain=esd_fmt(100 * wmain[0], 100 * wmain[1]) if wmain[0] is not None else '',
             wsec=(f'{second}, ' + esd_fmt(100 * wsec[0], 100 * wsec[1])) if wsec[0] is not None else ''))
@@ -112,7 +112,7 @@ def main():
              row(r'$\rho_\mathrm{calc}$ (g\,cm$^{-3}$)', 'rho'), r'\midrule',
              row('Button', 'button'), row('Data points', 'nobs'), row('Reflections (main phase)', 'nref'),
              row('Refined parameters', 'nvar'), row(r'$R_\mathrm{p}$ (\%)', 'Rp'), row(r'$R_\mathrm{wp}$ (\%)', 'Rwp'),
-             row(r'$R_\mathrm{exp}$ (\%)', 'Rexp'), row(r'$\chi^2$', 'chi2'), row(r'$R_F$ (main phase, \%)', 'RF'),
+             row(r'$R_\mathrm{exp}$ (\%)', 'Rexp'), row(r'$\chi^2$', 'chi2'), row(r'GOF $= R_\mathrm{wp}/R_\mathrm{exp}$', 'gof'), row(r'$R_F$ (main phase, \%)', 'RF'),
              row(r'Main phase (wt\%)$^{a}$', 'wmain'), row(r'Second phase (wt\%)$^{a}$', 'wsec'), r'\bottomrule', r'\end{tabular}']
     out = Path('results/tables')
     out.mkdir(parents=True, exist_ok=True)
