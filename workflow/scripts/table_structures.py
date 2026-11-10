@@ -58,6 +58,7 @@ def coord(v, e):
 
 # Which refinement each table column shows: GdPt2Ge with refined U_iso; TiPt5Si and ZrPt5Si as the
 # converged main fit with U_iso held (these data do not determine U_iso of the Pt5Si compounds reliably).
+SHIFT_C = {'ZrPt5Si'}   # ZrPt5Si was refined with Zr at (1/2,1/2,0); tabulated in the TiPt5Si setting
 STEP = {'GdPt2Ge': 'uiso_site', 'TiPt5Si': 'converged', 'ZrPt5Si': 'converged'}
 # Weight fractions: main fit, with the spread among alternative refinements (second-phase and profile
 # models) as the uncertainty, which is larger than the statistical one.
@@ -81,6 +82,10 @@ def main():
         for a in ph['atoms']:
             for key in ('x', 'y', 'z', 'uiso'):
                 a[key] = sc(a[key])
+            if formula in SHIFT_C:   # same origin as TiPt5Si: shift by c/2, then z -> 1 - z (mirror) to keep z < 1/2
+                z0, ze = a['z']
+                z1 = (z0 + 0.5) % 1.0
+                a['z'] = ((1.0 - z1) % 1.0 if z1 > 0.5 + 1e-9 else z1, ze)
         c, e = ph['cell'], {key: v * k for key, v in ph['cell_esd'].items()}
         R, res = r['Rvals'], r['residuals']
         # weight fractions from the main fit (converged, U_iso as in the main fit), so they match the paper's text
@@ -109,7 +114,7 @@ def main():
             else:
                 ustr = f'{u[0]:.3f}$^{{*}}$'
             atom_lines.append(rf"\ch{{{formula}}} & {ATOM_NAME.get(a['type'], a['type'])} & {wyckoff(ph['sg'], x[0], y[0], zc[0])} & "
-                              rf"{coord(*x)} & {coord(*y)} & {coord(*zc)} & {ustr} \\")
+                              rf"{coord(*x)} & {coord(*y)} & {coord(*zc)} & 1 & {ustr} \\")
         atom_lines.append(r'\addlinespace')
     atom_lines = atom_lines[:-1]
 
@@ -127,8 +132,8 @@ def main():
     out = Path('results/tables')
     out.mkdir(parents=True, exist_ok=True)
     (out / 'structure_table.tex').write_text('\n'.join(lines) + '\n')
-    alines = [r'\begin{tabular}{llllllc}', r'\toprule',
-              r'Compound & Atom & Site & $x$ & $y$ & $z$ & $U_\mathrm{iso}$ (\AA$^2$) \\', r'\midrule',
+    alines = [r'\begin{tabular}{lllllllc}', r'\toprule',
+              r'Compound & Atom & Site & $x$ & $y$ & $z$ & Occ. & $U_\mathrm{iso}$ (\AA$^2$) \\', r'\midrule',
               *atom_lines, r'\bottomrule', r'\end{tabular}']
     (out / 'structure_atoms_table.tex').write_text('\n'.join(alines) + '\n')
     print('wrote', out / 'structure_table.tex', out / 'structure_atoms_table.tex')

@@ -3,6 +3,7 @@
 data_fit
 
 # phase info for ZrSiPt5 follows
+# Origin shifted by (0,0,1/2) from the GSAS-II project (then z -> 1-z for Pt2) to the TiPt5Si setting used in the Supplement.
 _pd_phase_name  ZrSiPt5
 _cell_length_a  3.97576
 _cell_length_b  3.97576
@@ -44,10 +45,10 @@ loop_
    _atom_site_adp_type
    _atom_site_U_iso_or_equiv
    _atom_site_site_symmetry_multiplicity
-Zr0    Zr   0.50000     0.50000     0.00000     1.0000     Uiso 0.0100     1   
-Si1    Si   0.00000     0.00000     0.50000     1.0000     Uiso 0.0100     1   
-Pt2    Pt   0.00000     0.50000     0.29143(6)  1.0000     Uiso 0.0047     4   
-Pt3    Pt   0.00000     0.00000     0.00000     1.0000     Uiso 0.0047     1   
+Zr0    Zr   0.50000     0.50000     0.50000     1.0000     Uiso 0.0100     1   
+Si1    Si   0.00000     0.00000     0.00000     1.0000     Uiso 0.0100     1   
+Pt2    Pt   0.00000     0.50000     0.20857(6)  1.0000     Uiso 0.0047     4   
+Pt3    Pt   0.00000     0.00000     0.50000     1.0000     Uiso 0.0047     1   
 
 loop_  _atom_type_symbol _atom_type_number_in_cell
   Pt      5

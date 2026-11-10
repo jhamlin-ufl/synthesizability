@@ -65,6 +65,7 @@ def record(g, out, tag):
                 return a[idx], sig.get(key)
             x, y, z = v('dAx', 3), v('dAy', 4), v('dAz', 5)   # GSAS-II refines position shifts dAx...
             u = v('AUiso', 10)
+            occ = v('Afrac', 6)
             corr = {}
             ukey = f'{pid}::AUiso:{i}'
             if cm is not None and ukey in vary:
@@ -72,7 +73,7 @@ def record(g, out, tag):
                 j = vary.index(ukey)
                 c = cm[j] / (s[j] * s)
                 corr = {vary[k]: round(float(c[k]), 3) for k in range(len(vary)) if k != j and abs(c[k]) > 0.8}
-            atoms.append(dict(label=a[0], type=a[1], x=x, y=y, z=z, frac=a[6], uiso=u, flags=a[2],
+            atoms.append(dict(label=a[0], type=a[1], x=x, y=y, z=z, frac=a[6], occ=occ, uiso=u, flags=a[2],
                               site_sym=a[7] if len(a) > 7 else None, mult=a[8] if len(a) > 8 else None,
                               uiso_corr_gt_0p8=corr))
         res['phases'].append(dict(name=ph.name, sg=ph.data['General']['SGData']['SpGrp'],
@@ -93,6 +94,9 @@ def main():
     ap.add_argument('--uiso', choices=['site', 'element', 'all', 'heavy'], default='site',
                     help='heavy: refine only the U_iso of the heaviest element (shared), others held')
     ap.add_argument('--max-rounds', type=int, default=6)
+    ap.add_argument('--occ', action='store_true',
+                    help='instead of U_iso: refine the occupancy of every site of the main phase except the '
+                         'heaviest site with the largest multiplicity, which anchors the scale (U_iso held)')
     ap.add_argument('--improve', choices=['none', 'profile', 'profile_rough'], default='none',
                     help='before refining U_iso: profile = 20-term background, refined axial-divergence asymmetry '
                          'SH/L and generalized microstrain of the main phase; profile_rough also refines the '
@@ -124,6 +128,15 @@ def main():
     main_ph = g.phases()[0]
     atoms = main_ph.data['Atoms']
     pid = main_ph.id
+    if a.occ:
+        Z = {'Pt': 78, 'Gd': 64, 'Zr': 40, 'Ge': 32, 'Ti': 22, 'Si': 14}
+        ref = max(range(len(atoms)), key=lambda i: (Z.get(atoms[i][1], 0), atoms[i][8]))
+        for i, at in enumerate(atoms):
+            at[2] = at[2].replace('F', '').replace('U', '') + ('' if i == ref else 'F')
+        print('occupancy reference site:', atoms[ref][0], flush=True)
+        converge(g, 'occ', a.max_rounds)
+        record(g, a.out, 'occ')
+        return
     # drop existing U_iso constraints of the main phase (the Pt5 fits tie the two Pt sites); the mode sets its own
     cons = g.data['Constraints']['data']
     cons['Phase'] = [c for c in cons.get('Phase', [])
