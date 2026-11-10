@@ -34,12 +34,12 @@ CAPTION = (
     'The {n} candidates as seen by the three databases. For each database, '
     r'$\Delta H_{\mathrm{f}}-C(x)$ is the energy of its lowest entry at the nominal composition relative to the '
     'convex hull of all other compositions in that database (meV/atom; negative means the database predicts '
-    'the compound to be stable), recomputed from the cached entries by the same construction for all three. '
+    'the compound to be stable), recomputed from the stored database entries by the same construction for all three. '
     "``Same'' states whether the database's ground-state structure at that composition is the same structure "
     'as the OQMD prediction from which the candidate was selected (pymatgen StructureMatcher); the space group is '
     'given where it differs. Blank: no entry at the composition. '
     'Grouped and numbered as in Table~\\ref{tab:xrd_outcomes}. '
-    'Snapshots: OQMD v1.7 local dump; Materials Project API, 7 April 2026; Alexandria PBE 2025.07.02 release.'
+    'Database versions: OQMD v1.7 (full database download); Materials Project API, 7 April 2026; Alexandria PBE 2025.07.02 release.'
 )
 
 

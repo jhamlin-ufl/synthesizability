@@ -2,7 +2,7 @@
 
 Table 1 row 8, candidate list C. Discussed in the Supplement, Sec. S7, under YCoSi3.
 
-Outcome: Cmmm polymorph (+8 meV), nearly single phase after anneal; on-hull I4mm structure absent
+Outcome: Cmmm polymorph (+8 meV/atom), nearly single phase after anneal; on-hull I4mm structure absent
 
 Category: Above-hull polymorph (probable). Composition previously reported, without a structure.
 

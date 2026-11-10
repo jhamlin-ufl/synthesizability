@@ -6,7 +6,7 @@
        results/phonon_flags.csv
   out: results/figures/disorder_vs_stability.{pdf,png}, disorder_vs_stability_points.csv
 
-Symbols: one colour family per outcome family (green = predicted structure formed,
+Symbols: one colour family per outcome family (green = a predicted structure formed,
 blue = solid solution formed, dark grey = on-hull structure not formed); within a
 family the first category is filled and the second open; a split marker shows the
 two categories that the data cannot distinguish; * / dagger / double dagger after a
@@ -59,7 +59,7 @@ STYLE = {
     5: (DARK,  '^', True),
     6: (DARK,  '^', False),
 }
-FAMILY_HEAD = ['Predicted structure formed', 'Solid solution formed', 'On-hull structure not formed']
+FAMILY_HEAD = ['A predicted structure formed', 'Solid solution formed', 'On-hull structure not formed']
 SHORT = {1: 'on-hull structure', 2: 'above-hull polymorph',
          3: 'disordered parent of on-hull', 4: 'other solid solution',
          5: 'multiphase', 6: 'unresolved'}

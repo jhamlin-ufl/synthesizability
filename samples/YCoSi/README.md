@@ -2,7 +2,7 @@
 
 Table 1 row 7, candidate list C. Discussed in the Supplement, Sec. S7, under YCoSi.
 
-Outcome: Known Pnma polymorph (+32 meV), 93 wt% after anneal; on-hull P4/nmm structure absent
+Outcome: Known Pnma polymorph (+32 meV/atom), 93 wt% after anneal; on-hull P4/nmm structure absent
 
 Category: Above-hull polymorph (probable). Structure previously reported at this composition.
 
