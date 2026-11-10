@@ -488,7 +488,7 @@ def matched_figure(row, models, sample):
             ax.set_ylabel('counts', fontsize=SMALL)
         if k >= 2:
             ax.set_xlabel(r'2$\theta$ (deg)', fontsize=SMALL)
-    bottom = outer[1].subgridspec(1, len(zd), wspace=0.25)
+    bottom = outer[1].subgridspec(1, max(len(zd), 2), wspace=0.25)   # a single window takes half the width
     for k, (lo, hi) in enumerate(zd):
         cell = bottom[k].subgridspec(2, 1, height_ratios=[2.2, 1], hspace=0.05)
         ax = fig.add_subplot(cell[0])
